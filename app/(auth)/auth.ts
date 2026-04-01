@@ -103,7 +103,7 @@ export const {
       }
       return true;
     },
-    jwt({ token, user, account }) {
+    jwt({ token, user, account, profile }) {
       if (user) {
         token.id = (user.id ?? token.sub) as string;
         token.type = (user as any).type ?? "regular";
@@ -112,11 +112,16 @@ export const {
         token.id = (token.sub ?? user?.id) as string;
         token.type = "regular";
       }
+      if (profile) {
+        token.picture = (profile as any).picture ?? token.picture;
+        token.name = profile.name ?? token.name;
+      }
 
       return token;
     },
     session({ session, token }) {
       if (session.user) {
+        session.user.image = token.picture as string;
         session.user.id = token.id;
         session.user.type = token.type;
       }
