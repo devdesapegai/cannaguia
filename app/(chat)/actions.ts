@@ -29,7 +29,7 @@ export async function generateTitleFromUserMessage({
     model: getTitleModel(),
     system: titlePrompt,
     prompt: getTextFromMessage(message),
-    providerOptions: {
+    providerOptions: { google: { thinkingConfig: { thinkingBudget: 0 } }
       
     },
   });

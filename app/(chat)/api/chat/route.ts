@@ -108,7 +108,7 @@ export async function POST(request: Request) {
       await saveChat({
         id,
         userId: session.user.id,
-        title: "New chat",
+        title: "Nova Conversa",
         visibility: selectedVisibilityType,
       });
       titlePromise = generateTitleFromUserMessage({ message });
