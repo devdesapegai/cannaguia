@@ -1,6 +1,6 @@
-import { customProvider, gateway } from "ai";
+import { customProvider } from "ai";
+import { google } from "@ai-sdk/google";
 import { isTestEnvironment } from "../constants";
-import { titleModel } from "./models";
 
 export const myProvider = isTestEnvironment
   ? (() => {
@@ -19,12 +19,17 @@ export function getLanguageModel(modelId: string) {
     return myProvider.languageModel(modelId);
   }
 
-  return gateway.languageModel(modelId);
+  // Map model IDs to Gemini models
+  const geminiModel = modelId.includes("/")
+    ? "gemini-2.5-flash"
+    : modelId;
+
+  return google(geminiModel);
 }
 
 export function getTitleModel() {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel("title-model");
   }
-  return gateway.languageModel(titleModel.id);
+  return google("gemini-2.5-flash");
 }
