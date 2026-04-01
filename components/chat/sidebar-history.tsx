@@ -133,10 +133,6 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
 
     setShowDeleteDialog(false);
 
-    if (isCurrentChat) {
-      router.replace("/chat");
-    }
-
     mutate((chatHistories) => {
       if (chatHistories) {
         return chatHistories.map((chatHistory) => ({
@@ -152,6 +148,11 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
     );
 
     toast.success("Conversa apagada");
+
+    if (isCurrentChat) {
+      setOpenMobile(false);
+      router.replace("/chat");
+    }
   };
 
   if (!user) {
