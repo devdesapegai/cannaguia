@@ -71,10 +71,10 @@ export default function LandingPage() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-14 px-4 sm:px-6 relative">
         <div className="w-full max-w-2xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-center mb-8">
-            <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center relative">
+            <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center relative">
               {/* Orbital rings */}
               <motion.div
-                className="absolute w-24 h-24 rounded-full border border-green-500/15"
+                className="absolute w-32 h-32 rounded-full border border-green-500/15"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
               >
@@ -84,7 +84,7 @@ export default function LandingPage() {
                 />
               </motion.div>
               <motion.div
-                className="absolute w-[4.5rem] h-[4.5rem] rounded-full border border-green-500/10"
+                className="absolute w-24 h-24 rounded-full border border-green-500/10"
                 animate={{ rotate: -360 }}
                 transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
               >
@@ -96,13 +96,13 @@ export default function LandingPage() {
 
               {/* Core glow */}
               <motion.div
-                className="absolute w-14 h-14 rounded-2xl bg-green-500/8"
+                className="absolute w-18 h-18 rounded-2xl bg-green-500/8"
                 animate={{ scale: [1, 1.12, 1], opacity: [0.6, 1, 0.6] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               />
 
               {/* Icon morphing between leaf and sparkle */}
-              <div className="relative w-14 h-14 rounded-2xl bg-green-500/10 backdrop-blur-sm flex items-center justify-center overflow-hidden">
+              <div className="relative w-18 h-18 rounded-2xl bg-green-500/10 backdrop-blur-sm flex items-center justify-center overflow-hidden">
                 <motion.div
                   className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-green-400/10"
                   animate={{ opacity: [0, 0.5, 0] }}
@@ -124,7 +124,7 @@ export default function LandingPage() {
                   }}
                   transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <Leaf className="w-7 h-7 text-green-500 drop-shadow-[0_0_8px_rgba(34,197,94,0.3)]" />
+                  <Leaf className="w-9 h-9 text-green-500 drop-shadow-[0_0_8px_rgba(34,197,94,0.3)]" />
                 </motion.div>
               </div>
             </div>
