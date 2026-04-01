@@ -73,11 +73,11 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <div className="group/logo relative flex items-center justify-center">
                 <SidebarMenuButton
                   asChild
-                  className="size-8 !px-0 items-center justify-center group-data-[collapsible=icon]:group-hover/logo:opacity-0"
+                  className="size-9 !px-0 items-center justify-center group-data-[collapsible=icon]:group-hover/logo:opacity-0"
                   tooltip="CannaGuia"
                 >
-                  <Link href="/" onClick={() => setOpenMobile(false)}>
-                    <Leaf className="size-4 text-green-500" />
+                  <Link href="/chat" onClick={() => setOpenMobile(false)}>
+                    <Leaf className="size-5 text-green-500" />
                   </Link>
                 </SidebarMenuButton>
                 <Tooltip>
