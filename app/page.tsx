@@ -59,7 +59,7 @@ export default function LandingPage() {
 
   return (
     <div className="dark min-h-screen bg-[#0a0a0a] text-white">
-      <header className="fixed top-0 w-full z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
+      <header className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
           <div className="flex items-center gap-3">
@@ -164,7 +164,7 @@ export default function LandingPage() {
             )}
           </motion.div>
         </div>
-        <motion.button onClick={scrollToContent} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="absolute bottom-8 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors animate-bounce"><ChevronDown size={20} /></motion.button>
+        <motion.button onClick={scrollToContent} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/50 hover:text-white hover:border-white/40 transition-colors animate-bounce"><ChevronDown size={20} /></motion.button>
       </section>
 
       <section ref={contentRef} className="py-20 px-4 sm:px-6 border-t border-border">
