@@ -8,12 +8,11 @@ import { useRouter } from "next/navigation";
 
 function renderMd(text: string) {
   if (!text) return null;
-  const lines = text.split("
-");
+  const lines = text.split("\n");
   return lines.map((line: string, i: number) => {
     const isBullet = line.trim().startsWith("- ");
     const cleaned = isBullet ? line.trim().slice(2) : line;
-    const html = cleaned.replace(/**(.+?)**/g, "<strong>$1</strong>");
+    const html = cleaned.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     if (isBullet) return <li key={i} className="ml-4 list-disc text-sm leading-relaxed mb-1" dangerouslySetInnerHTML={{ __html: html }} />;
     if (!cleaned.trim()) return <br key={i} />;
     return <p key={i} className="text-sm leading-relaxed mb-1.5" dangerouslySetInnerHTML={{ __html: html }} />;
