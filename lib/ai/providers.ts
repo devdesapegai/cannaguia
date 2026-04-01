@@ -18,17 +18,12 @@ export function getLanguageModel(modelId: string) {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel(modelId);
   }
-
-  return google("gemini-2.5-flash", {
-    thinkingConfig: { thinkingBudget: 0 },
-  });
+  return google("gemini-2.5-flash");
 }
 
 export function getTitleModel() {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel("title-model");
   }
-  return google("gemini-2.5-flash", {
-    thinkingConfig: { thinkingBudget: 0 },
-  });
+  return google("gemini-2.5-flash");
 }

@@ -197,7 +197,7 @@ export async function POST(request: Request) {
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools: [],
-          providerOptions: {},
+          providerOptions: { google: { thinkingConfig: { thinkingBudget: 0 } } },
           tools: {},
           experimental_telemetry: {
             isEnabled: isProductionEnvironment,
