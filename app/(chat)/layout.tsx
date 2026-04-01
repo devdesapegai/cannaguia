@@ -30,25 +30,26 @@ async function SidebarShell({ children }: { children: React.ReactNode }) {
   const isCollapsed = cookieStore.get("sidebar_state")?.value === "false";
 
   return (
-    <SidebarProvider defaultOpen={!isCollapsed}>
-      <AppSidebar user={session?.user} />
-      <SidebarInset>
-        <Toaster
-          position="top-center"
-          theme="system"
-          style={{ zIndex: 100 }}
-          toastOptions={{
-            className:
-              "!bg-card !text-foreground !border-border/50 !shadow-[var(--shadow-float)]",
-          }}
-        />
-        <Suspense fallback={<div className="flex h-dvh" />}>
-          <ActiveChatProvider>
-            <ChatShell />
-          </ActiveChatProvider>
-        </Suspense>
-        {children}
-      </SidebarInset>
-    </SidebarProvider>
+    <>
+      <Toaster
+        position="top-center"
+        theme="system"
+        toastOptions={{
+          className:
+            "!bg-card !text-foreground !border-border/50 !shadow-[var(--shadow-float)]",
+        }}
+      />
+      <SidebarProvider defaultOpen={!isCollapsed}>
+        <AppSidebar user={session?.user} />
+        <SidebarInset>
+          <Suspense fallback={<div className="flex h-dvh" />}>
+            <ActiveChatProvider>
+              <ChatShell />
+            </ActiveChatProvider>
+          </Suspense>
+          {children}
+        </SidebarInset>
+      </SidebarProvider>
+    </>
   );
 }
