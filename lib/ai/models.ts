@@ -31,7 +31,7 @@ export const chatModels: ChatModel[] = [
   },
 ];
 
-export const allowedModelIds = chatModels.map((m) => m.id);
+export const allowedModelIds = new Set(chatModels.map((m) => m.id));
 
 export const isDemo = false;
 
