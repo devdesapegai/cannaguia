@@ -2,6 +2,7 @@
 
 import {
   Leaf,
+  LogIn,
   PanelLeftIcon,
   PenSquareIcon,
   TrashIcon,
@@ -9,6 +10,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { User } from "next-auth";
+import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { useSWRConfig } from "swr";
@@ -44,11 +46,15 @@ import {
 } from "../ui/alert-dialog";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
+const guestRegex = /^guest-/;
+
 export function AppSidebar({ user }: { user: User | undefined }) {
   const router = useRouter();
   const { setOpenMobile, toggleSidebar } = useSidebar();
   const { mutate } = useSWRConfig();
   const [showDeleteAllDialog, setShowDeleteAllDialog] = useState(false);
+
+  const isGuest = !user || guestRegex.test(user.email ?? "");
 
   const handleDeleteAll = () => {
     setShowDeleteAllDialog(false);
@@ -109,7 +115,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                     className="h-8 rounded-lg border border-sidebar-border text-[13px] text-sidebar-foreground/70 transition-colors duration-150 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
                     onClick={() => {
                       setOpenMobile(false);
-                      router.push("/");
+                      router.push("/chat");
                     }}
                     tooltip="Novo Chat"
                   >
@@ -117,7 +123,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                     <span className="font-medium">Novo chat</span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
-                {user && (
+                {!isGuest && (
                   <SidebarMenuItem>
                     <SidebarMenuButton
                       className="rounded-lg text-sidebar-foreground/40 transition-colors duration-150 hover:bg-destructive/10 hover:text-destructive"
@@ -132,10 +138,28 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </SidebarMenu>
             </SidebarGroupContent>
           </SidebarGroup>
-          <SidebarHistory user={user} />
+          {!isGuest && <SidebarHistory user={user} />}
         </SidebarContent>
         <SidebarFooter className="border-t border-sidebar-border pt-2 pb-3">
-          {user && <SidebarUserNav user={user} />}
+          {isGuest ? (
+            <div className="px-3 py-4 group-data-[collapsible=icon]:hidden">
+              <p className="text-[13px] font-semibold text-sidebar-foreground mb-1">
+                Receba respostas personalizadas
+              </p>
+              <p className="text-[12px] text-sidebar-foreground/50 mb-4 leading-relaxed">
+                Entre para salvar conversas, receber recomendações de strains e acessar o histórico completo.
+              </p>
+              <button
+                onClick={() => signIn("google", { callbackUrl: "/chat" })}
+                className="w-full h-10 rounded-lg bg-white text-black text-sm font-medium hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+              >
+                <LogIn className="size-4" />
+                Entrar
+              </button>
+            </div>
+          ) : (
+            user && <SidebarUserNav user={user} />
+          )}
         </SidebarFooter>
         <SidebarRail />
       </Sidebar>
@@ -148,14 +172,13 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           <AlertDialogHeader>
             <AlertDialogTitle>Apagar todas as conversas?</AlertDialogTitle>
             <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete all
-              your chats and remove them from our servers.
+              Esta ação não pode ser desfeita. Todas as suas conversas serão permanentemente deletadas.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogCancel>Cancelar</AlertDialogCancel>
             <AlertDialogAction onClick={handleDeleteAll}>
-              Delete All
+              Apagar tudo
             </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>
