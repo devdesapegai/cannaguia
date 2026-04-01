@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useSession } from "next-auth/react";
-import { X } from "lucide-react";
+import useSWR from "swr";
+import { Clock, Crown, X } from "lucide-react";
 import { AuthModal } from "./auth-modal";
 import {
   AlertDialog,
@@ -54,6 +55,23 @@ export function ChatShell() {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const { data: session, status: sessionStatus } = useSession();
   const isGuest = sessionStatus === "authenticated" && (!session?.user?.email || session.user.email.startsWith("guest-"));
+  const isFreeUser = !isGuest && sessionStatus === "authenticated";
+
+  const { data: limits, mutate: mutateLimits } = useSWR(
+    isFreeUser ? "/api/chat/limits" : null,
+    (url: string) => fetch(url).then((r) => r.json()),
+    { refreshInterval: 30000 },
+  );
+
+  // Refresh limits after each message
+  const prevMsgCount = useRef(messages.length);
+  useEffect(() => {
+    if (messages.length > prevMsgCount.current && isFreeUser) {
+      mutateLimits();
+    }
+    prevMsgCount.current = messages.length;
+  }, [messages.length, isFreeUser, mutateLimits]);
+
   const isArtifactVisible = false;
   const setArtifact = (_: any) => {};
 
@@ -110,6 +128,72 @@ export function ChatShell() {
             />
 
             <div className="sticky bottom-0 z-1 mx-auto flex w-full max-w-4xl gap-2 flex-col border-t-0 bg-background px-2 pb-3 md:px-4 md:pb-4">
+              {/* Free user banners */}
+              {(() => {
+                if (!isFreeUser || !limits || limits.plan === "premium") return null;
+                const { allowed, remaining, cooldownMs, weeklyUsed, weeklyLimit, nextBatchAt } = limits;
+
+                if (!allowed && weeklyUsed >= weeklyLimit) {
+                  // Weekly limit hit — block input
+                  return (
+                    <div className="w-full rounded-xl border border-border bg-card p-5 text-center">
+                      <p className="text-sm font-semibold mb-1">Voce usou todas as mensagens da semana</p>
+                      <p className="text-[13px] text-muted-foreground mb-4">Suas mensagens renovam na segunda-feira. Faca upgrade para mensagens ilimitadas.</p>
+                      <button
+                        onClick={() => {
+                          fetch("/api/stripe/checkout", { method: "POST" })
+                            .then((r) => r.json())
+                            .then((d) => { if (d.url) window.location.href = d.url; });
+                        }}
+                        className="text-sm px-5 py-2 bg-gradient-to-r from-green-600 to-green-500 text-white rounded-full font-medium hover:from-green-500 hover:to-green-400 transition-all inline-flex items-center gap-2"
+                      >
+                        <Crown className="size-4" />
+                        Upgrade Premium - R$29/mes
+                      </button>
+                    </div>
+                  );
+                }
+
+                if (!allowed && cooldownMs > 0) {
+                  // Batch exhausted, waiting for next
+                  const hours = Math.ceil(cooldownMs / 3600000);
+                  const mins = Math.ceil((cooldownMs % 3600000) / 60000);
+                  const timeText = hours >= 1
+                    ? `${hours}h${mins > 0 ? ` ${mins}min` : ""}`
+                    : `${mins}min`;
+                  return (
+                    <div className="w-full rounded-xl border border-amber-500/30 bg-amber-500/5 px-4 py-3 flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <Clock className="size-4 shrink-0 text-amber-500" />
+                        <p className="text-[13px] text-muted-foreground">Suas mensagens voltam em <span className="font-medium text-foreground">{timeText}</span>. Nao quer esperar?</p>
+                      </div>
+                      <button
+                        onClick={() => {
+                          fetch("/api/stripe/checkout", { method: "POST" })
+                            .then((r) => r.json())
+                            .then((d) => { if (d.url) window.location.href = d.url; });
+                        }}
+                        className="shrink-0 text-[13px] px-4 py-1.5 bg-gradient-to-r from-green-600 to-green-500 text-white rounded-full font-medium hover:from-green-500 hover:to-green-400 transition-all inline-flex items-center gap-1.5"
+                      >
+                        <Crown className="size-3.5" />
+                        Upgrade
+                      </button>
+                    </div>
+                  );
+                }
+
+                if (allowed && remaining !== null && remaining <= 5 && remaining > 0) {
+                  // Low messages warning
+                  return (
+                    <div className="w-full rounded-xl border border-border/40 bg-card/30 px-4 py-2.5 flex items-center justify-between gap-3">
+                      <p className="text-[13px] text-muted-foreground">{remaining} {remaining === 1 ? "mensagem restante" : "mensagens restantes"}</p>
+                    </div>
+                  );
+                }
+
+                return null;
+              })()}
+              {/* Guest banners */}
               {(() => {
                 if (!isGuest) return null;
                 const userMsgCount = messages.filter((m) => m.role === "user").length;
@@ -143,7 +227,7 @@ export function ChatShell() {
                 }
                 return null;
               })()}
-              {!isReadonly && !(isGuest && messages.filter((m) => m.role === "user").length >= 10) && (
+              {!isReadonly && !(isGuest && messages.filter((m) => m.role === "user").length >= 10) && !(isFreeUser && limits && !limits.allowed) && (
                 <MultimodalInput
                   attachments={attachments}
                   chatId={chatId}

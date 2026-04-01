@@ -11,8 +11,8 @@ import { checkBotId } from "botid/server";
 import { after } from "next/server";
 import { createResumableStreamContext } from "resumable-stream";
 import { auth, type UserType } from "@/app/(auth)/auth";
-import { entitlementsByPlan } from "@/lib/ai/entitlements";
 import { getUserPlan } from "@/lib/db/plan";
+import { getUserBatchStatus } from "@/lib/db/batch";
 import {
   allowedModelIds,
   chatModels,
@@ -91,25 +91,25 @@ export async function POST(request: Request) {
     const userType: UserType = session.user.type;
     const isGuestUser = userType === "guest" || (session.user.email ?? "").startsWith("guest-");
 
-    const messageCount = await getMessageCountByUserId({
-      id: session.user.id,
-      differenceInHours: 24,
-    });
-
     if (!isGuestUser) {
       const { effectivePlan } = await getUserPlan(session.user.id);
-      const { maxMessagesPerDay } = entitlementsByPlan[effectivePlan];
-      if (messageCount >= maxMessagesPerDay) {
-        return Response.json(
-          {
-            code: "rate_limit:plan",
-            message:
-              "Voce atingiu o limite diario de mensagens do plano gratuito. Faca upgrade para o Premium para mensagens ilimitadas.",
-            remaining: 0,
-            plan: effectivePlan,
-          },
-          { status: 429 },
-        );
+      if (effectivePlan === "free") {
+        const batch = await getUserBatchStatus(session.user.id);
+        if (!batch.allowed) {
+          const isWeeklyExhausted = batch.weeklyUsed >= batch.weeklyLimit;
+          return Response.json(
+            {
+              code: isWeeklyExhausted
+                ? "rate_limit:weekly"
+                : "rate_limit:batch",
+              message: isWeeklyExhausted
+                ? "Voce usou todas as mensagens da semana. Volta na segunda ou faca upgrade para o Premium."
+                : "Suas mensagens voltam em breve. Faca upgrade para mensagens ilimitadas.",
+              ...batch,
+            },
+            { status: 429 },
+          );
+        }
       }
     }
 

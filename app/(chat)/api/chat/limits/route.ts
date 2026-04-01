@@ -1,7 +1,6 @@
 import { auth } from "@/app/(auth)/auth";
 import { getUserPlan } from "@/lib/db/plan";
-import { entitlementsByPlan } from "@/lib/ai/entitlements";
-import { getMessageCountByUserId } from "@/lib/db/queries";
+import { getUserBatchStatus } from "@/lib/db/batch";
 
 export async function GET() {
   const session = await auth();
@@ -11,19 +10,24 @@ export async function GET() {
   }
 
   const { effectivePlan } = await getUserPlan(session.user.id);
-  const { maxMessagesPerDay } = entitlementsByPlan[effectivePlan];
-  const messageCount = await getMessageCountByUserId({
-    id: session.user.id,
-    differenceInHours: 24,
-  });
+
+  if (effectivePlan === "premium") {
+    return Response.json({
+      plan: "premium",
+      allowed: true,
+      remaining: null,
+      weeklyUsed: null,
+      weeklyLimit: null,
+    });
+  }
+
+  const batch = await getUserBatchStatus(session.user.id);
 
   return Response.json({
     plan: effectivePlan,
-    used: messageCount,
-    limit: maxMessagesPerDay === Infinity ? null : maxMessagesPerDay,
-    remaining:
-      maxMessagesPerDay === Infinity
-        ? null
-        : Math.max(0, maxMessagesPerDay - messageCount),
+    ...batch,
+    // ISO strings for frontend
+    nextBatchAt: batch.nextBatchAt?.toISOString() ?? null,
+    weeklyReset: batch.weeklyReset.toISOString(),
   });
 }
