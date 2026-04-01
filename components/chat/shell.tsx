@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useSession } from "next-auth/react";
+import { X } from "lucide-react";
+import { AuthModal } from "./auth-modal";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -47,6 +50,10 @@ export function ChatShell() {
     null
   );
   const [attachments, setAttachments] = useState<Attachment[]>([]);
+  const [showGuestBanner, setShowGuestBanner] = useState(true);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const { data: session } = useSession();
+  const isGuest = !session?.user?.email || session.user.email.startsWith("guest-");
   const isArtifactVisible = false;
   const setArtifact = (_: any) => {};
 
@@ -77,6 +84,17 @@ export function ChatShell() {
             isReadonly={isReadonly}
             selectedVisibilityType={visibilityType}
           />
+
+          {isGuest && showGuestBanner && (
+            <div className="flex items-center gap-3 px-4 py-3 bg-card border-b border-border/40 md:rounded-tl-[12px]">
+              <div className="flex-1">
+                <p className="text-[13px] font-semibold">Você está usando o modo gratuito</p>
+                <p className="text-[12px] text-muted-foreground">Para consultas ilimitadas e histórico salvo, crie uma conta ou entre.</p>
+              </div>
+              <button onClick={() => setShowAuthModal(true)} className="shrink-0 text-[13px] px-3 py-1.5 bg-white text-black rounded-lg font-medium hover:bg-white/90 transition-colors">Entrar</button>
+              <button onClick={() => setShowGuestBanner(false)} className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"><X size={16} /></button>
+            </div>
+          )}
 
           <div className="relative flex min-h-0 flex-1 flex-col overflow-hidden bg-background md:rounded-tl-[12px] md:border-t md:border-l md:border-border/40">
             <Messages
@@ -176,6 +194,8 @@ export function ChatShell() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
+
+      <AuthModal open={showAuthModal} onClose={() => setShowAuthModal(false)} />
     </>
   );
 }
