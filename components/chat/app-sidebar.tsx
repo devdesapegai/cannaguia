@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { User } from "next-auth";
-import { signIn } from "next-auth/react";
+import { AuthModal } from "@/components/chat/auth-modal";
 import { useState } from "react";
 import { toast } from "sonner";
 import { useSWRConfig } from "swr";
@@ -53,6 +53,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
   const { setOpenMobile, toggleSidebar } = useSidebar();
   const { mutate } = useSWRConfig();
   const [showDeleteAllDialog, setShowDeleteAllDialog] = useState(false);
+  const [showAuthModal, setShowAuthModal] = useState(false);
 
   const isGuest = !user || guestRegex.test(user.email ?? "");
 
@@ -150,7 +151,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 Entre para salvar conversas, receber recomendações de strains e acessar o histórico completo.
               </p>
               <button
-                onClick={() => signIn("google", { callbackUrl: "/chat" })}
+                onClick={() => setShowAuthModal(true)}
                 className="w-full h-10 rounded-lg bg-white text-black text-sm font-medium hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
               >
                 <LogIn className="size-4" />
@@ -183,6 +184,8 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
+
+      <AuthModal open={showAuthModal} onClose={() => setShowAuthModal(false)} />
     </>
   );
 }
