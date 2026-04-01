@@ -12,9 +12,6 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { useActiveChat } from "@/hooks/use-active-chat";
-import {
-  useArtifact,
-  useArtifactSelector,
 import type { Attachment, ChatMessage } from "@/lib/types";
 import { cn } from "@/lib/utils";
 // Artifact removed for performance
