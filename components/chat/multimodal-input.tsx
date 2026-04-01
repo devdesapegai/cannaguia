@@ -185,7 +185,7 @@ function PureMultimodalInput({
                 { method: "DELETE" }
               );
               router.push("/");
-              toast.success("Chat deleted");
+              toast.success("Conversa apagada");
             },
           },
         });
@@ -199,7 +199,7 @@ function PureMultimodalInput({
                 method: "DELETE",
               });
               router.push("/");
-              toast.success("All chats deleted");
+              toast.success("Todas as conversas apagadas");
             },
           },
         });

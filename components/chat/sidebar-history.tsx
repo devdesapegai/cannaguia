@@ -151,7 +151,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
       { method: "DELETE" }
     );
 
-    toast.success("Chat deleted");
+    toast.success("Conversa apagada");
   };
 
   if (!user) {
