@@ -71,28 +71,62 @@ export default function LandingPage() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-14 px-4 sm:px-6 relative">
         <div className="w-full max-w-2xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-center mb-8">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-green-500/10 flex items-center justify-center relative">
+            <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center relative">
+              {/* Orbital rings */}
               <motion.div
-                animate={{ rotate: [0, 5, -5, 0], scale: [1, 1.05, 1] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute w-24 h-24 rounded-full border border-green-500/15"
+                animate={{ rotate: 360 }}
+                transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
               >
-                <Leaf className="w-9 h-9 text-green-500" />
+                <motion.div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-green-400/60"
+                  animate={{ opacity: [0.4, 1, 0.4] }}
+                  transition={{ duration: 2, repeat: Infinity }}
+                />
               </motion.div>
               <motion.div
-                className="absolute inset-0 rounded-2xl border border-green-500/20"
-                animate={{ scale: [1, 1.15, 1], opacity: [0.5, 0, 0.5] }}
+                className="absolute w-[4.5rem] h-[4.5rem] rounded-full border border-green-500/10"
+                animate={{ rotate: -360 }}
+                transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
+              >
+                <motion.div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-1 h-1 rounded-full bg-green-300/50"
+                  animate={{ opacity: [0.3, 0.8, 0.3] }}
+                  transition={{ duration: 3, repeat: Infinity }}
+                />
+              </motion.div>
+
+              {/* Core glow */}
+              <motion.div
+                className="absolute w-14 h-14 rounded-2xl bg-green-500/8"
+                animate={{ scale: [1, 1.12, 1], opacity: [0.6, 1, 0.6] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               />
-              <motion.div
-                className="absolute inset-0 rounded-2xl border border-green-500/10"
-                animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0, 0.3] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              />
-              <motion.div
-                className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-green-400"
-                animate={{ opacity: [0, 1, 0], scale: [0.8, 1.2, 0.8] }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              />
+
+              {/* Icon morphing between leaf and sparkle */}
+              <div className="relative w-14 h-14 rounded-2xl bg-green-500/10 backdrop-blur-sm flex items-center justify-center overflow-hidden">
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-green-400/10"
+                  animate={{ opacity: [0, 0.5, 0] }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                />
+                <motion.div
+                  animate={{ rotate: [0, 360] }}
+                  transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                  className="absolute w-full h-full"
+                >
+                  <div className="absolute top-2 right-2 w-0.5 h-0.5 rounded-full bg-green-400/40" />
+                  <div className="absolute bottom-3 left-2 w-0.5 h-0.5 rounded-full bg-green-300/30" />
+                  <div className="absolute top-4 left-3 w-0.5 h-0.5 rounded-full bg-green-400/20" />
+                </motion.div>
+                <motion.div
+                  animate={{
+                    scale: [1, 0.85, 1],
+                    rotate: [0, -8, 8, 0],
+                  }}
+                  transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                >
+                  <Leaf className="w-7 h-7 text-green-500 drop-shadow-[0_0_8px_rgba(34,197,94,0.3)]" />
+                </motion.div>
+              </div>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4">Sua consultora canabica<br/>com inteligencia artificial</h1>
             <p className="text-muted-foreground text-base sm:text-lg max-w-lg mx-auto">Orientacao sobre strains, cultivo, regulamentacao e cannabis medicinal. Base de 3.000+ documentos.</p>
