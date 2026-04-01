@@ -189,7 +189,7 @@ export async function POST(request: Request) {
         const result = streamText({
           model: getLanguageModel(chatModel),
           system: (() => { const userText = uiMessages.filter((m: any) => m.role === "user").map((m: any) => m.parts?.filter((p: any) => p.type === "text").map((p: any) => p.text).join(" ") ?? "").pop() ?? ""; const localResults = searchAll(userText, 4); const localContext = formatContextForLLM(localResults); return SYSTEM_PROMPT + "\n\nBase de conhecimento relevante:\n" + localContext; })(),
-          maxTokens: 700,
+          maxOutputTokens: 700,
           temperature: 0.7,
           topP: 0.9,
           messages: modelMessages,
