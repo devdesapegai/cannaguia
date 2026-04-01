@@ -7,7 +7,7 @@ type Entitlements = {
 
 export const entitlementsByPlan: Record<UserPlan, Entitlements> = {
   free: {
-    maxMessagesPerDay: 20,
+    maxMessagesPerDay: 50,
   },
   premium: {
     maxMessagesPerDay: Infinity,

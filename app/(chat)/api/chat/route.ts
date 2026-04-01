@@ -85,7 +85,8 @@ export async function POST(request: Request) {
       ? selectedChatModel
       : DEFAULT_CHAT_MODEL;
 
-    await checkIpRateLimit(ipAddress(request));
+    // IP rate limit disabled — plan-based limit (20/day free) is the real control
+    // await checkIpRateLimit(ipAddress(request));
 
     const userType: UserType = session.user.type;
     const isGuestUser = userType === "guest" || (session.user.email ?? "").startsWith("guest-");
