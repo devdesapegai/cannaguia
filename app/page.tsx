@@ -218,11 +218,50 @@ export default function LandingPage() {
 
       <section className="py-20 px-4 sm:px-6 bg-card/50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">O que oferecemos</h2>
-          <div className="grid sm:grid-cols-3 gap-6">
-            <div className="p-6 rounded-xl border border-border bg-background"><MessageCircle className="w-8 h-8 text-green-500 mb-4" /><h3 className="font-semibold mb-2">CannaGuia IA</h3><p className="text-sm text-muted-foreground mb-4">Assistente virtual com base de 3.000+ documentos sobre strains, cultivo, regulamentação e cannabis medicinal.</p><p className="text-2xl font-bold">R$ 29,90<span className="text-sm font-normal text-muted-foreground">/mes</span></p></div>
-            <div className="p-6 rounded-xl border border-green-500/30 bg-background relative"><div className="absolute -top-3 left-4 px-2 py-0.5 bg-green-600 text-white text-xs font-medium rounded-full">Popular</div><BookOpen className="w-8 h-8 text-green-500 mb-4" /><h3 className="font-semibold mb-2">Consultoria com Maria</h3><p className="text-sm text-muted-foreground mb-4">Atendimento personalizado: orientação para HC, acompanhamento de cultivo e tratamento medicinal.</p><p className="text-2xl font-bold">A partir de R$ 200</p></div>
-            <div className="p-6 rounded-xl border border-border bg-background"><Shield className="w-8 h-8 text-green-500 mb-4" /><h3 className="font-semibold mb-2">Habeas Corpus</h3><p className="text-sm text-muted-foreground mb-4">Orientação completa sobre o processo de obtenção do HC para cultivo pessoal no Brasil.</p><p className="text-sm text-muted-foreground">Consulte valores</p></div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">Planos</h2>
+          <p className="text-muted-foreground text-center mb-12 max-w-lg mx-auto">Escolha o plano ideal para suas necessidades</p>
+          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-12">
+            <div className="p-6 rounded-xl border border-border bg-background">
+              <h3 className="text-lg font-bold mb-1">Gratuito</h3>
+              <p className="text-3xl font-bold mb-1">R$ 0<span className="text-sm font-normal text-muted-foreground"> / mês</span></p>
+              <p className="text-sm text-muted-foreground mb-5">Conheça a CannaGuia sem compromisso</p>
+              <button onClick={() => signIn("guest", { callbackUrl: "/chat" })} className="w-full py-2.5 rounded-lg border border-border text-sm font-medium hover:bg-accent transition-colors mb-6">Começar agora</button>
+              <ul className="space-y-3 text-sm">
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Respostas sobre strains, cultivo e regulamentação</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Até 10 mensagens por sessão</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Base de conhecimento com 3.000+ documentos</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Sem necessidade de cadastro</span></li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl border border-green-500/30 bg-background relative">
+              <div className="absolute -top-3 left-4 px-2 py-0.5 bg-green-600 text-white text-xs font-medium rounded-full">Recomendado</div>
+              <h3 className="text-lg font-bold mb-1">Premium</h3>
+              <p className="text-3xl font-bold mb-1">R$ 29,90<span className="text-sm font-normal text-muted-foreground"> / mês</span></p>
+              <p className="text-sm text-muted-foreground mb-5">Acesso completo à CannaGuia</p>
+              <button onClick={() => setShowAuthModal(true)} className="w-full py-2.5 rounded-lg bg-green-600 text-white text-sm font-medium hover:bg-green-700 transition-colors mb-6">Assinar Premium</button>
+              <ul className="space-y-3 text-sm">
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Conversas ilimitadas com a IA</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Histórico de conversas salvo</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Recomendações personalizadas de strains</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Acesso a estudos científicos via PubMed</span></li>
+                <li className="flex items-start gap-2"><Leaf className="w-4 h-4 text-green-500 mt-0.5 shrink-0" /><span>Suporte prioritário</span></li>
+              </ul>
+            </div>
+          </div>
+          <h3 className="text-xl font-bold text-center mb-6">Consultoria especializada</h3>
+          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+            <div className="p-6 rounded-xl border border-border bg-background">
+              <BookOpen className="w-8 h-8 text-green-500 mb-3" />
+              <h4 className="font-semibold mb-2">Consultoria com Maria</h4>
+              <p className="text-sm text-muted-foreground mb-3">Atendimento personalizado: orientação para HC, acompanhamento de cultivo e tratamento medicinal.</p>
+              <p className="text-xl font-bold">A partir de R$ 200</p>
+            </div>
+            <div className="p-6 rounded-xl border border-border bg-background">
+              <Shield className="w-8 h-8 text-green-500 mb-3" />
+              <h4 className="font-semibold mb-2">Habeas Corpus</h4>
+              <p className="text-sm text-muted-foreground mb-3">Orientação completa sobre o processo de obtenção do HC para cultivo pessoal no Brasil.</p>
+              <p className="text-sm text-muted-foreground">Consulte valores</p>
+            </div>
           </div>
         </div>
       </section>
