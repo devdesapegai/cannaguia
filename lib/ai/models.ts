@@ -1,7 +1,7 @@
-export const DEFAULT_CHAT_MODEL = "gemini-2.0-flash-lite";
+export const DEFAULT_CHAT_MODEL = "gemini-2.5-flash";
 
 export const titleModel = {
-  id: "gemini-2.0-flash-lite",
+  id: "gemini-2.5-flash",
   name: "CannaGuia",
   provider: "google",
   description: "Fast model for title generation",
@@ -24,7 +24,7 @@ export type ChatModel = {
 
 export const chatModels: ChatModel[] = [
   {
-    id: "gemini-2.0-flash-lite",
+    id: "gemini-2.5-flash",
     name: "CannaGuia",
     provider: "google",
     description: "Modelo rapido e capaz",
