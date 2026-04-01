@@ -19,17 +19,16 @@ export function getLanguageModel(modelId: string) {
     return myProvider.languageModel(modelId);
   }
 
-  // Map model IDs to Gemini models
-  const geminiModel = modelId.includes("/")
-    ? "gemini-2.5-flash"
-    : modelId;
-
-  return google(geminiModel);
+  return google("gemini-2.5-flash", {
+    thinkingConfig: { thinkingBudget: 0 },
+  });
 }
 
 export function getTitleModel() {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel("title-model");
   }
-  return google("gemini-2.5-flash");
+  return google("gemini-2.5-flash", {
+    thinkingConfig: { thinkingBudget: 0 },
+  });
 }
