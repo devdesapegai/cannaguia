@@ -21,6 +21,11 @@ export const user = pgTable("User", {
   isAnonymous: boolean("isAnonymous").notNull().default(false),
   createdAt: timestamp("createdAt").notNull().defaultNow(),
   updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+  plan: varchar("plan", { enum: ["free", "premium"] })
+    .notNull()
+    .default("free"),
+  planExpiresAt: timestamp("planExpiresAt"),
+  stripeCustomerId: varchar("stripeCustomerId", { length: 255 }),
 });
 
 export type User = InferSelectModel<typeof user>;
@@ -35,6 +40,7 @@ export const chat = pgTable("Chat", {
   visibility: varchar("visibility", { enum: ["public", "private"] })
     .notNull()
     .default("private"),
+  summary: text("summary"),
 });
 
 export type Chat = InferSelectModel<typeof chat>;

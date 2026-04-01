@@ -10,9 +10,15 @@ const FileSchema = z.object({
     .refine((file) => file.size <= 5 * 1024 * 1024, {
       message: "File size should be less than 5MB",
     })
-    .refine((file) => ["image/jpeg", "image/png"].includes(file.type), {
-      message: "File type should be JPEG or PNG",
-    }),
+    .refine(
+      (file) =>
+        ["image/jpeg", "image/png", "image/webp", "image/gif"].includes(
+          file.type,
+        ),
+      {
+        message: "Formato aceito: JPEG, PNG, WebP ou GIF",
+      },
+    ),
 });
 
 export async function POST(request: Request) {
@@ -20,6 +26,14 @@ export async function POST(request: Request) {
 
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const isGuest = (session.user?.email ?? "").startsWith("guest-");
+  if (isGuest) {
+    return NextResponse.json(
+      { error: "Crie uma conta para enviar imagens" },
+      { status: 403 },
+    );
   }
 
   if (request.body === null) {

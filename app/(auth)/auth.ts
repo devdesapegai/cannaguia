@@ -9,11 +9,14 @@ import { authConfig } from "./auth.config";
 
 export type UserType = "guest" | "regular";
 
+export type UserPlan = "free" | "premium";
+
 declare module "next-auth" {
   interface Session extends DefaultSession {
     user: {
       id: string;
       type: UserType;
+      plan: UserPlan;
     } & DefaultSession["user"];
   }
 
@@ -21,6 +24,7 @@ declare module "next-auth" {
     id?: string;
     email?: string | null;
     type: UserType;
+    plan?: UserPlan;
   }
 }
 
@@ -28,6 +32,7 @@ declare module "next-auth/jwt" {
   interface JWT extends DefaultJWT {
     id: string;
     type: UserType;
+    plan: UserPlan;
   }
 }
 
@@ -72,7 +77,7 @@ export const {
           return null;
         }
 
-        return { ...user, type: "regular" };
+        return { ...user, type: "regular", plan: (user as any).plan ?? "free" };
       },
     }),
     Credentials({
@@ -94,6 +99,7 @@ export const {
             user.id = created.id;
           } else {
             user.id = existing[0].id;
+            (user as any).plan = existing[0].plan ?? "free";
           }
           (user as any).type = "regular";
         } catch (e) {
@@ -107,6 +113,7 @@ export const {
       if (user) {
         token.id = (user.id ?? token.sub) as string;
         token.type = (user as any).type ?? "regular";
+        token.plan = (user as any).plan ?? "free";
       }
       if (account) {
         token.id = (token.sub ?? user?.id) as string;
@@ -124,6 +131,7 @@ export const {
         session.user.image = token.picture as string;
         session.user.id = token.id;
         session.user.type = token.type;
+        session.user.plan = token.plan;
       }
 
       return session;

@@ -11,7 +11,8 @@ import { checkBotId } from "botid/server";
 import { after } from "next/server";
 import { createResumableStreamContext } from "resumable-stream";
 import { auth, type UserType } from "@/app/(auth)/auth";
-import { entitlementsByUserType } from "@/lib/ai/entitlements";
+import { entitlementsByPlan } from "@/lib/ai/entitlements";
+import { getUserPlan } from "@/lib/db/plan";
 import {
   allowedModelIds,
   chatModels,
@@ -29,8 +30,10 @@ import {
   getMessagesByChatId,
   saveChat,
   saveMessages,
+  updateChatSummary,
   updateChatTitleById,
   updateMessage,
+  getRecentChatSummaries,
 } from "@/lib/db/queries";
 import type { DBMessage } from "@/lib/db/schema";
 import { ChatbotError } from "@/lib/errors";
@@ -41,6 +44,7 @@ import { generateTitleFromUserMessage } from "../../actions";
 import { type PostRequestBody, postRequestBodySchema } from "./schema";
 import { searchAll, formatContextForLLM } from "@/lib/rag/search";
 import { SYSTEM_PROMPT } from "@/lib/ai/cannaguia-prompt";
+import { summarizeChat } from "@/lib/ai/summarize";
 
 export const maxDuration = 60;
 
@@ -88,10 +92,25 @@ export async function POST(request: Request) {
 
     const messageCount = await getMessageCountByUserId({
       id: session.user.id,
-      differenceInHours: 1,
+      differenceInHours: 24,
     });
 
-    // Rate limit disabled
+    if (!isGuestUser) {
+      const { effectivePlan } = await getUserPlan(session.user.id);
+      const { maxMessagesPerDay } = entitlementsByPlan[effectivePlan];
+      if (messageCount >= maxMessagesPerDay) {
+        return Response.json(
+          {
+            code: "rate_limit:plan",
+            message:
+              "Voce atingiu o limite diario de mensagens do plano gratuito. Faca upgrade para o Premium para mensagens ilimitadas.",
+            remaining: 0,
+            plan: effectivePlan,
+          },
+          { status: 429 },
+        );
+      }
+    }
 
     const isToolApprovalFlow = Boolean(messages);
 
@@ -169,7 +188,7 @@ export async function POST(request: Request) {
             id: message.id,
             role: "user",
             parts: message.parts,
-            attachments: [],
+            attachments: (message as any).attachments ?? (message as any).parts?.filter((p: any) => p.type === "file") ?? [],
             createdAt: new Date(),
           },
         ],
@@ -189,7 +208,40 @@ export async function POST(request: Request) {
       execute: async ({ writer: dataStream }) => {
         const result = streamText({
           model: getLanguageModel(chatModel),
-          system: (() => { const userText = uiMessages.filter((m: any) => m.role === "user").map((m: any) => m.parts?.filter((p: any) => p.type === "text").map((p: any) => p.text).join(" ") ?? "").pop() ?? ""; const localResults = searchAll(userText, 4); const localContext = formatContextForLLM(localResults); return SYSTEM_PROMPT + "\n\nBase de conhecimento relevante:\n" + localContext; })(),
+          system: await (async () => {
+            const userText = uiMessages
+              .filter((m: any) => m.role === "user")
+              .map((m: any) =>
+                m.parts
+                  ?.filter((p: any) => p.type === "text")
+                  .map((p: any) => p.text)
+                  .join(" ") ?? "",
+              )
+              .pop() ?? "";
+            const localResults = searchAll(userText, 4);
+            const localContext = formatContextForLLM(localResults);
+
+            let memoryContext = "";
+            if (!isGuestUser) {
+              const summaries = await getRecentChatSummaries({
+                userId: session.user.id!,
+                limit: 3,
+                excludeChatId: id,
+              });
+              if (summaries.length > 0) {
+                memoryContext =
+                  "\n\nContexto do usuario (conversas anteriores):\n" +
+                  summaries.map((s) => `- ${s.summary}`).join("\n");
+              }
+            }
+
+            return (
+              SYSTEM_PROMPT +
+              "\n\nBase de conhecimento relevante:\n" +
+              localContext +
+              memoryContext
+            );
+          })(),
           maxOutputTokens: 700,
           temperature: 0.7,
           topP: 0.9,
@@ -233,7 +285,7 @@ export async function POST(request: Request) {
                     role: finishedMsg.role,
                     parts: finishedMsg.parts,
                     createdAt: new Date(),
-                    attachments: [],
+                    attachments: (finishedMsg as any).parts?.filter((p: any) => p.type === "file") ?? [],
                     chatId: id,
                   },
                 ],
@@ -247,10 +299,23 @@ export async function POST(request: Request) {
               role: currentMessage.role,
               parts: currentMessage.parts,
               createdAt: new Date(),
-              attachments: [],
+              attachments: (currentMessage as any).parts?.filter((p: any) => p.type === "file") ?? [],
               chatId: id,
             })),
           });
+        }
+
+        // Auto-summarize every 6 user messages
+        const totalUserMessages = [...uiMessages, ...finishedMessages].filter(
+          (m) => m.role === "user",
+        ).length;
+        if (totalUserMessages > 0 && totalUserMessages % 6 === 0) {
+          const allMessages = [...uiMessages, ...finishedMessages];
+          summarizeChat(allMessages as any)
+            .then((summary) => {
+              updateChatSummary({ chatId: id, summary });
+            })
+            .catch(() => {});
         }
       },
       onError: (error) => {

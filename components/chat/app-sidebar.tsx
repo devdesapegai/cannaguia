@@ -20,6 +20,7 @@ import {
   SidebarHistory,
 } from "@/components/chat/sidebar-history";
 import { SidebarUserNav } from "@/components/chat/sidebar-user-nav";
+import { PlanUpgradeCTA } from "@/components/chat/plan-upgrade-cta";
 import {
   Sidebar,
   SidebarContent,
@@ -159,7 +160,12 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </button>
             </div>
           ) : (
-            user && <SidebarUserNav user={user} />
+            user && (
+              <>
+                <PlanUpgradeCTA />
+                <SidebarUserNav user={user} />
+              </>
+            )
           )}
         </SidebarFooter>
         <SidebarRail />

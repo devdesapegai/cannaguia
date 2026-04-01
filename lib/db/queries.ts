@@ -9,6 +9,7 @@ import {
   gt,
   gte,
   inArray,
+  isNotNull,
   lt,
   type SQL,
 } from "drizzle-orm";
@@ -642,5 +643,47 @@ export async function getStreamIdsByChatId({ chatId }: { chatId: string }) {
       "bad_request:database",
       "Failed to get stream ids by chat id"
     );
+  }
+}
+
+export async function updateChatSummary({
+  chatId,
+  summary,
+}: {
+  chatId: string;
+  summary: string;
+}) {
+  try {
+    return await db
+      .update(chat)
+      .set({ summary })
+      .where(eq(chat.id, chatId));
+  } catch (_error) {
+    console.error("Failed to update chat summary:", _error);
+  }
+}
+
+export async function getRecentChatSummaries({
+  userId,
+  limit = 3,
+  excludeChatId,
+}: {
+  userId: string;
+  limit?: number;
+  excludeChatId?: string;
+}) {
+  try {
+    const results = await db
+      .select({ id: chat.id, title: chat.title, summary: chat.summary })
+      .from(chat)
+      .where(and(eq(chat.userId, userId), isNotNull(chat.summary)))
+      .orderBy(desc(chat.createdAt))
+      .limit(limit + 1);
+
+    return results
+      .filter((c) => c.id !== excludeChatId)
+      .slice(0, limit);
+  } catch (_error) {
+    return [];
   }
 }
