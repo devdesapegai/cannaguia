@@ -30,6 +30,23 @@ export default function LandingPage() {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const [placeholderIdx, setPlaceholderIdx] = useState(0);
+  const placeholders = [
+    "Quais as melhores strains pra ansiedade?",
+    "Cannabis medicinal é legal no Brasil?",
+    "Como fazer óleo RSO em casa?",
+    "Qual o pH ideal pra cultivo indoor?",
+    "Interações da cannabis com medicamentos",
+    "O que é o sistema endocanabinoide?",
+  ];
+
+  useEffect(() => {
+    if (messages.length > 0) return;
+    const interval = setInterval(() => {
+      setPlaceholderIdx((p) => (p + 1) % placeholders.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [messages.length]);
 
   const isLoggedIn = status === "authenticated" && !!session?.user?.email && !session.user.email.startsWith("guest-");
 
@@ -79,8 +96,8 @@ export default function LandingPage() {
               <button onClick={() => router.push("/chat")} className="text-sm px-4 py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Ir pro chat</button>
             ) : (
               <>
-                <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 border border-white/20 text-white rounded-full font-medium hover:bg-white/10 transition-colors">Entrar</button>
-                <button onClick={() => signIn("guest", { callbackUrl: "/chat" })} className="text-sm px-4 py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors flex items-center gap-1.5">Experimente a CannaGuia <span className="text-xs">&#8599;</span></button>
+                <button onClick={() => setShowAuthModal(true)} className="text-[13px] px-3 sm:px-4 py-1.5 sm:py-2 border border-white/20 text-white rounded-full font-medium hover:bg-white/10 transition-colors">Entrar</button>
+                <button onClick={() => signIn("guest", { callbackUrl: "/chat" })} className="text-[13px] px-3 sm:px-4 py-1.5 sm:py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Experimente a CannaGuia</button>
               </>
             )}
           </div>
@@ -165,9 +182,9 @@ export default function LandingPage() {
             )}
             <form onSubmit={handleSubmit}>
               <div className="flex flex-col rounded-xl border border-border bg-card shadow-sm overflow-hidden focus-within:border-green-500/30 focus-within:shadow-md transition-all">
-                <textarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} onKeyDown={handleKeyDown} placeholder="Pergunte sobre cannabis medicinal..." rows={1} disabled={loading} className="w-full resize-none bg-transparent text-sm leading-6 text-foreground placeholder:text-muted-foreground outline-none disabled:opacity-50 max-h-[120px] px-4 pt-3 pb-0" />
+                <textarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} onKeyDown={handleKeyDown} placeholder={placeholders[placeholderIdx]} rows={1} disabled={loading} className="w-full resize-none bg-transparent text-sm leading-6 text-foreground placeholder:text-muted-foreground outline-none disabled:opacity-50 max-h-[120px] px-4 pt-3 pb-0 placeholder:transition-opacity" />
                 <div className="flex items-center justify-between px-3 py-2">
-                  <span className="text-[11px] text-muted-foreground">{MAX_FREE - msgCount > 0 ? (MAX_FREE - msgCount) + " mensagens grátis" : ""}</span>
+                  <span className="text-[11px] text-muted-foreground">{msgCount === 0 ? "Experimente sem cadastro" : ""}</span>
                   <button type="submit" disabled={loading || !input.trim()} className="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:pointer-events-none transition-colors">
                     {loading ? <div className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin" /> : <ArrowUp size={15} />}
                   </button>
