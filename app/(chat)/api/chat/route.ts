@@ -90,9 +90,7 @@ export async function POST(request: Request) {
       differenceInHours: 1,
     });
 
-    // if (messageCount > entitlementsByUserType[userType].maxMessagesPerHour) {
-      // return new ChatbotError("rate_limit:chat").toResponse();
-    }
+    // Rate limit disabled
 
     const isToolApprovalFlow = Boolean(messages);
 
