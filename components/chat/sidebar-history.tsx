@@ -203,7 +203,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
         </SidebarGroupLabel>
         <SidebarGroupContent>
           <div className="flex w-full flex-row items-center justify-center gap-2 px-2 text-[13px] text-sidebar-foreground/60">
-            Your conversations will appear here once you start chatting!
+            Suas conversas vão aparecer aqui quando começar a conversar!
           </div>
         </SidebarGroupContent>
       </SidebarGroup>
