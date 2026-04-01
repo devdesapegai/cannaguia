@@ -5,6 +5,20 @@ import { motion } from "framer-motion";
 import { ArrowUp, ChevronDown, Leaf, MessageCircle, Phone, Instagram, Mail, Star, Shield, BookOpen } from "lucide-react";
 import { useRouter } from "next/navigation";
 
+
+function renderMd(text: string) {
+  if (!text) return null;
+  const lines = text.split("
+");
+  return lines.map((line: string, i: number) => {
+    const isBullet = line.trim().startsWith("- ");
+    const cleaned = isBullet ? line.trim().slice(2) : line;
+    const html = cleaned.replace(/**(.+?)**/g, "<strong>$1</strong>");
+    if (isBullet) return <li key={i} className="ml-4 list-disc text-sm leading-relaxed mb-1" dangerouslySetInnerHTML={{ __html: html }} />;
+    if (!cleaned.trim()) return <br key={i} />;
+    return <p key={i} className="text-sm leading-relaxed mb-1.5" dangerouslySetInnerHTML={{ __html: html }} />;
+  });
+}
 export default function LandingPage() {
   const router = useRouter();
   const [messages, setMessages] = useState<{role:string;content:string}[]>([]);
@@ -68,7 +82,7 @@ export default function LandingPage() {
                 {messages.map((msg, i) => (
                   <div key={i} className={"flex " + (msg.role === "user" ? "justify-end" : "justify-start")}>
                     <div className={"max-w-[85%] rounded-xl px-4 py-2.5 text-sm " + (msg.role === "user" ? "bg-green-600 text-white" : "bg-card border border-border")}>
-                      {msg.content || <div className="flex gap-1">{[0,150,300].map(d => <span key={d} className="w-1.5 h-1.5 bg-muted-foreground/40 rounded-full animate-bounce" style={{animationDelay: d+"ms"}} />)}</div>}
+                      {msg.content ? (msg.role === "assistant" ? <div className="space-y-0.5">{renderMd(msg.content)}</div> : <span>{msg.content}</span>) : <div className="flex gap-1">{[0,150,300].map(d => <span key={d} className="w-1.5 h-1.5 bg-muted-foreground/40 rounded-full animate-bounce" style={{animationDelay: d+"ms"}} />)}</div>}
                     </div>
                   </div>
                 ))}
