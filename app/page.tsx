@@ -31,7 +31,7 @@ export default function LandingPage() {
   const contentRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const isLoggedIn = status === "authenticated" && session?.user?.type !== "guest";
+  const isLoggedIn = status === "authenticated" && !!session?.user?.email && !session.user.email.startsWith("guest-");
 
   const handleEntrar = () => {
     if (isLoggedIn) {
