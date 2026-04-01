@@ -87,21 +87,30 @@ export const {
   callbacks: {
     async signIn({ user, account }) {
       if (account?.provider === "google" && user.email) {
-        const existing = await getUser(user.email);
-        if (existing.length === 0) {
-          const [created] = await createUserFromOAuth(user.email, user.name ?? "");
-          user.id = created.id;
-        } else {
-          user.id = existing[0].id;
+        try {
+          const existing = await getUser(user.email);
+          if (existing.length === 0) {
+            const [created] = await createUserFromOAuth(user.email, user.name ?? "");
+            user.id = created.id;
+          } else {
+            user.id = existing[0].id;
+          }
+          (user as any).type = "regular";
+        } catch (e) {
+          console.error("Google signIn error:", e);
+          return false;
         }
-        (user as any).type = "regular";
       }
       return true;
     },
-    jwt({ token, user }) {
+    jwt({ token, user, account }) {
       if (user) {
-        token.id = user.id as string;
+        token.id = (user.id ?? token.sub) as string;
         token.type = (user as any).type ?? "regular";
+      }
+      if (account) {
+        token.id = (token.sub ?? user?.id) as string;
+        token.type = "regular";
       }
 
       return token;
