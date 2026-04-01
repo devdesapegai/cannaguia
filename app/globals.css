@@ -517,3 +517,8 @@ strong, b {
   color: #22c55e !important;
   font-weight: 600;
 }
+
+/* Streamdown renders bold as <span data-streamdown="strong"> not <strong> */
+[data-streamdown="strong"] {
+  color: #22c55e !important;
+}
