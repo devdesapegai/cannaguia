@@ -52,8 +52,8 @@ export function ChatShell() {
   const [attachments, setAttachments] = useState<Attachment[]>([]);
   const [showGuestBanner, setShowGuestBanner] = useState(true);
   const [showAuthModal, setShowAuthModal] = useState(false);
-  const { data: session } = useSession();
-  const isGuest = !session?.user?.email || session.user.email.startsWith("guest-");
+  const { data: session, status: sessionStatus } = useSession();
+  const isGuest = sessionStatus === "authenticated" && (!session?.user?.email || session.user.email.startsWith("guest-"));
   const isArtifactVisible = false;
   const setArtifact = (_: any) => {};
 
