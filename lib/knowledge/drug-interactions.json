@@ -1,0 +1,596 @@
+[
+  {
+    "id": "interaction-ssri",
+    "title": "Interacao com Antidepressivos ISRS (Inibidores Seletivos da Recaptacao de Serotonina)",
+    "category": "drug-interaction",
+    "source": "projectcbd.org, pmc.ncbi.nlm.nih.gov/articles/PMC8298645, pubmed.ncbi.nlm.nih.gov/34181150",
+    "drugs": [
+      "fluoxetina",
+      "sertralina",
+      "citalopram",
+      "escitalopram",
+      "paroxetina"
+    ],
+    "content": "O CBD inibe a enzima hepatica CYP2D6, principal via de metabolizacao dos ISRS. Essa inibicao pode elevar as concentracoes sericas dos antidepressivos, aumentando tanto os efeitos terapeuticos quanto os adversos. A sertralina combinada com CBD em modelos animais demonstrou acao sinergica sobre disturbios cognitivos e emocionais (PMID: 19882468). O citalopram e o escitalopram sao metabolizados primariamente por CYP2C19 e CYP3A4, ambas inibidas pelo CBD, o que pode resultar em aumento significativo dos niveis plasmaticos. A fluoxetina, alem de ser substrato de CYP2D6, tambem e inibidora dessa enzima, criando potencial de interacao bidirecional com o CBD. O THC tambem e inibidor competitivo de CYP2D6, podendo potencializar o efeito quando produtos full-spectrum sao utilizados.",
+    "risk_level": "moderado",
+    "mechanism": "Inibicao de CYP2D6 (fluoxetina, sertralina, paroxetina) e CYP2C19/CYP3A4 (citalopram, escitalopram) pelo CBD, reduzindo a metabolizacao hepatica dos ISRS",
+    "potential_effects": [
+      "Aumento das concentracoes plasmaticas dos ISRS",
+      "Maior risco de sindrome serotoninergica",
+      "Aumento de efeitos adversos: nausea, insonia, agitacao, tremores",
+      "Potencializacao do efeito sedativo quando combinado com THC",
+      "Possivel prolongamento do intervalo QT (especialmente com citalopram)"
+    ],
+    "monitoring": [
+      "Monitorar sinais de sindrome serotoninergica (agitacao, hipertermia, taquicardia, mioclonia)",
+      "Avaliar niveis sericos do antidepressivo quando disponivel",
+      "Observar mudancas de humor, insonia ou sedacao excessiva",
+      "Eletrocardiograma periodico com citalopram/escitalopram"
+    ],
+    "recommendations": [
+      "Iniciar CBD com dose baixa e titular lentamente ('start low, go slow')",
+      "Considerar reducao da dose do ISRS se efeitos adversos surgirem",
+      "Informar o psiquiatra sobre o uso de cannabis/CBD",
+      "Evitar produtos full-spectrum com alto teor de THC pela sedacao aditiva",
+      "Monitoramento mais rigoroso nas primeiras 2-4 semanas de coadministracao"
+    ],
+    "key_points": [
+      "risco: moderado",
+      "mecanismo: inibicao CYP2D6 e CYP2C19",
+      "efeito principal: aumento dos niveis de ISRS no sangue",
+      "PMID relevante: 19882468 (sertralina + CBD sinergismo)",
+      "PMID relevante: 34181150 (caracterizacao completa CYP450)"
+    ],
+    "pmids": [
+      "19882468",
+      "34181150",
+      "34493602"
+    ]
+  },
+  {
+    "id": "interaction-snri",
+    "title": "Interacao com Antidepressivos ISRN (Inibidores da Recaptacao de Serotonina e Noradrenalina)",
+    "category": "drug-interaction",
+    "source": "projectcbd.org, pmc.ncbi.nlm.nih.gov/articles/PMC8298645, drugs.com",
+    "drugs": [
+      "venlafaxina",
+      "duloxetina",
+      "desvenlafaxina"
+    ],
+    "content": "Os ISRN sao metabolizados predominantemente por CYP2D6 (duloxetina) e CYP2D6/CYP3A4 (venlafaxina). O CBD, ao inibir essas enzimas, pode aumentar significativamente as concentracoes plasmaticas desses medicamentos. A duloxetina e especialmente vulneravel por ser substrato exclusivo de CYP2D6 e tambem inibidora dessa enzima, gerando risco de interacao farmacocinetica cumulativa. A venlafaxina e convertida em seu metabolito ativo O-desmetilvenlafaxina via CYP2D6; a inibicao pelo CBD pode alterar a razao entre farmaco original e metabolito, modificando o perfil terapeutico. O THC, como inibidor competitivo adicional de CYP2D6, pode agravar a interacao em produtos de espectro completo.",
+    "risk_level": "moderado",
+    "mechanism": "Inibicao de CYP2D6 (duloxetina, venlafaxina) e CYP3A4 (venlafaxina) pelo CBD, reduzindo metabolizacao hepatica dos ISRN",
+    "potential_effects": [
+      "Elevacao dos niveis sericos dos ISRN",
+      "Aumento de efeitos adversos: nausea, tontura, sudorese, hipertensao",
+      "Maior risco de sindrome serotoninergica",
+      "Alteracao da razao venlafaxina/O-desmetilvenlafaxina",
+      "Potencializacao de efeitos noradrenergicos (taquicardia, hipertensao)"
+    ],
+    "monitoring": [
+      "Monitorar pressao arterial (ISRN podem causar hipertensao dose-dependente)",
+      "Avaliar sinais de sindrome serotoninergica",
+      "Observar efeitos adversos gastrointestinais intensificados",
+      "Monitorar funcao hepatica (duloxetina tem potencial hepatotoxico)"
+    ],
+    "recommendations": [
+      "Iniciar CBD em dose baixa com titulacao gradual",
+      "Monitoramento de pressao arterial mais frequente",
+      "Considerar ajuste de dose do ISRN sob orientacao medica",
+      "Preferir CBD isolado a produtos full-spectrum para minimizar interacao via CYP2D6",
+      "Comunicar ao medico prescritor sobre uso de canabinoides"
+    ],
+    "key_points": [
+      "risco: moderado",
+      "mecanismo: inibicao CYP2D6 e CYP3A4",
+      "efeito principal: aumento dos niveis de ISRN e risco serotoninergico",
+      "duloxetina: maior vulnerabilidade por dupla inibicao CYP2D6",
+      "venlafaxina: alteracao do perfil metabolito ativo"
+    ],
+    "pmids": [
+      "34181150",
+      "34493602",
+      "37541924"
+    ]
+  },
+  {
+    "id": "interaction-benzodiazepines",
+    "title": "Interacao com Benzodiazepinicos",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, pmc.ncbi.nlm.nih.gov/articles/PMC6899822, pmc.ncbi.nlm.nih.gov/articles/PMC7821324",
+    "drugs": [
+      "diazepam",
+      "clonazepam",
+      "alprazolam",
+      "clobazam",
+      "lorazepam",
+      "midazolam"
+    ],
+    "content": "Os benzodiazepinicos representam uma das classes com maior evidencia clinica de interacao com canabinoides. O CBD aumenta os niveis de clobazam e diazepam por inibicao de CYP2C19, e de alprazolam e midazolam por inibicao de CYP3A4. A interacao CBD-clobazam e a mais bem documentada: estudos clinicos de Fase 1 demonstraram aumento de aproximadamente 3 vezes (238-239%) na exposicao ao metabolito ativo N-desmetilclobazam, substrato de CYP2C19. O lorazepam tem sua metabolizacao reduzida pelo CBD por via nao-CYP (glicuronidacao). Alem da interacao farmacocinetica, ha interacao farmacodinamica significativa — tanto CBD quanto THC potencializam o efeito depressor do SNC dos benzodiazepinicos, aumentando sedacao, sonolencia e risco de depressao respiratoria.",
+    "risk_level": "alto",
+    "mechanism": "Inibicao de CYP2C19 (diazepam, clobazam), CYP3A4 (alprazolam, midazolam) e glicuronidacao (lorazepam) pelo CBD; interacao farmacodinamica aditiva na depressao do SNC",
+    "potential_effects": [
+      "Aumento de 3x nos niveis do metabolito ativo do clobazam (N-desmetilclobazam)",
+      "Sedacao excessiva e sonolencia profunda",
+      "Comprometimento psicomotor acentuado",
+      "Risco de depressao respiratoria (especialmente com opioides concomitantes)",
+      "Amnesia anterograda potencializada",
+      "Risco aumentado de quedas em idosos"
+    ],
+    "monitoring": [
+      "Monitorar nivel de sedacao e funcao respiratoria",
+      "Avaliar niveis sericos de benzodiazepinicos quando disponivel",
+      "Monitorar transaminases hepaticas (elevacao observada com clobazam + CBD)",
+      "Observar comprometimento cognitivo e psicomotor",
+      "Atentar para sinais de intoxicacao por benzodiazepinicos"
+    ],
+    "recommendations": [
+      "Reduzir dose do benzodiazepínico ao iniciar CBD — considerar reducao de 25-50%",
+      "Monitoramento clinico rigoroso nas primeiras semanas",
+      "Evitar combinacao com THC pela potencializacao sedativa",
+      "Nao dirigir ou operar maquinas pesadas durante o ajuste",
+      "Dosagem serica do benzodiazepínico e metabolitos e fortemente recomendada",
+      "Interacao com clobazam bem documentada em ensaios clinicos de Epidiolex (PMID: 30791225)"
+    ],
+    "key_points": [
+      "risco: alto",
+      "mecanismo: inibicao CYP2C19 e CYP3A4 + depressao aditiva do SNC",
+      "clobazam: aumento de 3x no metabolito ativo N-desmetilclobazam",
+      "PMID relevante: 30791225 (ensaio Fase 1 CBD + clobazam/valproato)",
+      "PMID relevante: 33387331 (CBD + clobazam em ensaios randomizados)"
+    ],
+    "pmids": [
+      "30791225",
+      "33387331",
+      "31444049",
+      "34181150"
+    ]
+  },
+  {
+    "id": "interaction-opioids",
+    "title": "Interacao com Opioides",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, projectcbd.org, pubmed.ncbi.nlm.nih.gov",
+    "drugs": [
+      "tramadol",
+      "codeina",
+      "morfina",
+      "oxicodona",
+      "fentanil",
+      "metadona"
+    ],
+    "content": "A interacao entre canabinoides e opioides envolve mecanismos tanto farmacocineticos quanto farmacodinamicos. O CBD inibe CYP2D6, enzima responsavel pela ativacao de pro-farmacos como codeina (conversao em morfina) e tramadol (conversao em O-desmetiltramadol), o que pode paradoxalmente reduzir a eficacia analgesica desses medicamentos. Para morfina, o CBD inibe UGT2B7, enzima de glicuronidacao, elevando os niveis sericos e risco de toxicidade. Oxicodona e fentanil sao metabolizados por CYP3A4, tambem inibida pelo CBD. No aspecto farmacodinamico, canabinoides e opioides compartilham vias de modulacao da dor, com evidencias de efeito poupador de opioide — estudos mostram reducao de 27-64% na dose de opioides quando combinados com cannabis. Porem, a combinacao tambem potencializa depressao respiratoria e sedacao.",
+    "risk_level": "alto",
+    "mechanism": "Inibicao de CYP2D6 (tramadol, codeina), UGT2B7 (morfina), CYP3A4 (fentanil, oxicodona) pelo CBD; interacao farmacodinamica na modulacao da dor e depressao do SNC",
+    "potential_effects": [
+      "Reducao da conversao de codeina em morfina (menor eficacia analgesica)",
+      "Reducao da ativacao do tramadol (menor efeito terapeutico)",
+      "Aumento dos niveis de morfina por inibicao de glicuronidacao",
+      "Elevacao dos niveis de fentanil e oxicodona",
+      "Sedacao excessiva e sonolencia",
+      "Risco de depressao respiratoria potencializada",
+      "Potencial efeito poupador de opioide (reducao de dose necessaria)"
+    ],
+    "monitoring": [
+      "Monitorar funcao respiratoria (frequencia e saturacao de O2)",
+      "Avaliar nivel de sedacao continuamente",
+      "Monitorar eficacia analgesica (especialmente com codeina/tramadol)",
+      "Observar sinais de intoxicacao opioide (miose, bradipneia, hipotensao)",
+      "Monitorar funcao intestinal (constipacao potencializada)"
+    ],
+    "recommendations": [
+      "Supervisao medica obrigatoria para coadministracao",
+      "Considerar ajuste de dose do opioide — potencial reducao com monitoramento",
+      "Evitar codeina e tramadol com CBD (pro-farmacos dependentes de CYP2D6)",
+      "Preferir opioides com metabolizacao menos dependente de CYP450 quando possivel",
+      "Nunca iniciar ambos simultaneamente — ajustar um de cada vez",
+      "O efeito poupador de opioide pode ser vantajoso sob supervisao medica adequada"
+    ],
+    "key_points": [
+      "risco: alto",
+      "mecanismo: inibicao CYP2D6, UGT2B7 e CYP3A4",
+      "codeina/tramadol: CBD pode REDUZIR eficacia (bloqueia ativacao do pro-farmaco)",
+      "morfina: CBD pode AUMENTAR niveis (inibicao UGT2B7)",
+      "PMID relevante: 25485642 (efeitos sub-aditivos CBD + morfina)",
+      "potencial efeito poupador de opioide sob supervisao medica"
+    ],
+    "pmids": [
+      "25485642",
+      "28548225",
+      "34181150",
+      "34493602"
+    ]
+  },
+  {
+    "id": "interaction-anticonvulsants",
+    "title": "Interacao com Anticonvulsivantes",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC6899822, pmc.ncbi.nlm.nih.gov/articles/PMC7693203, pmc.ncbi.nlm.nih.gov/articles/PMC7821324",
+    "drugs": [
+      "clobazam",
+      "valproato",
+      "acido valproico",
+      "carbamazepina",
+      "fenitoina",
+      "topiramato",
+      "levetiracetam"
+    ],
+    "content": "As interacoes com anticonvulsivantes sao as mais bem documentadas clinicamente, principalmente pelos ensaios clinicos do Epidiolex (CBD farmaceutico). O clobazam apresenta a interacao mais significativa: o CBD inibe CYP2C19, causando aumento de 238-239% na exposicao ao metabolito ativo N-desmetilclobazam. Reciprocamente, o clobazam aumenta os niveis de 7-OH-CBD (metabolito ativo do CBD) em 47-73%. O valproato nao apresenta interacao farmacocinetica clinicamente relevante com CBD, porem a combinacao eleva significativamente o risco de hepatotoxicidade — elevacao de ALT >3x o limite superior foi observada em 21% dos pacientes com valproato concomitante (vs 3% sem valproato). A carbamazepina e a fenitoina sao indutores de CYP3A4 e podem reduzir significativamente os niveis de CBD, necessitando aumento da dose de CBD.",
+    "risk_level": "alto",
+    "mechanism": "Clobazam: inibicao de CYP2C19 pelo CBD (aumento de N-desmetilclobazam). Valproato: interacao hepatotoxica (nao farmacocinetica). Carbamazepina/fenitoina: inducao de CYP3A4 reduz niveis de CBD",
+    "potential_effects": [
+      "Clobazam: aumento de 3x no metabolito ativo — sedacao excessiva",
+      "Valproato + CBD: elevacao de transaminases em ate 21-30% dos pacientes",
+      "Carbamazepina: reducao dos niveis de CBD em 82-100%",
+      "Fenitoina: reducao dos niveis de CBD; CBD pode aumentar niveis de fenitoina",
+      "Risco de hepatotoxicidade grave (especialmente valproato + clobazam + CBD: 30%)",
+      "Alteracao do controle de crises epilepticas"
+    ],
+    "monitoring": [
+      "Transaminases hepaticas (ALT, AST) a cada 2 semanas nos primeiros 3 meses",
+      "Bilirrubina total e direta",
+      "Niveis sericos de clobazam e N-desmetilclobazam",
+      "Niveis sericos de valproato e 4-ene-VPA",
+      "Frequencia e gravidade das crises epilepticas",
+      "Nivel de sedacao e funcao cognitiva"
+    ],
+    "recommendations": [
+      "Reducao da dose de clobazam ao iniciar CBD — considerar reducao de 25-50%",
+      "Monitoramento hepatico rigoroso quando combinado com valproato",
+      "Aumento da dose de CBD pode ser necessario com carbamazepina/fenitoina",
+      "Dosagem serica de anticonvulsivantes e obrigatoria",
+      "Considerar descontinuacao se ALT >5x limite superior normal",
+      "FDA recomenda avaliacao hepatica basal antes de iniciar CBD farmaceutico"
+    ],
+    "key_points": [
+      "risco: alto",
+      "mecanismo: inibicao CYP2C19 (clobazam), hepatotoxicidade (valproato), inducao CYP3A4 (carbamazepina)",
+      "clobazam + CBD: interacao mais documentada clinicamente (ensaios Epidiolex)",
+      "valproato + clobazam + CBD: 30% de elevacao de ALT >3x LSN",
+      "PMID relevante: 30791225 (Fase 1 interacoes farmacocineticas)",
+      "PMID relevante: 33387331 (CBD + clobazam em 4 ensaios randomizados)"
+    ],
+    "pmids": [
+      "30791225",
+      "33387331",
+      "32860476",
+      "31444049"
+    ]
+  },
+  {
+    "id": "interaction-anticoagulants",
+    "title": "Interacao com Anticoagulantes",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, pmc.ncbi.nlm.nih.gov/articles/PMC9065521, accpjournals.onlinelibrary.wiley.com",
+    "drugs": [
+      "varfarina",
+      "rivaroxabana",
+      "apixabana",
+      "edoxabana",
+      "dabigatrana"
+    ],
+    "content": "A interacao entre CBD e varfarina e clinicamente significativa e bem documentada. O CBD inibe CYP2C9, enzima responsavel pela metabolizacao do enantiomero S-varfarina (mais potente). Relato de caso descreveu paciente em uso de CBD para epilepsia que necessitou reducao de 30% na dose de varfarina para manter INR terapeutico, apos episodio de sangramento excessivo. Uma revisao sistematica de interacoes entre canabinoides e anticoagulantes (PMID: 37459063) identificou que, com excecao da varfarina, as evidencias de interacao com outros anticoagulantes sao limitadas. Os anticoagulantes orais diretos (DOACs) como rivaroxabana e apixabana sao metabolizados por CYP3A4 e tambem sao substratos da glicoproteina-P (P-gp); o CBD pode inibir ambas as vias, teoricamente elevando niveis desses farmacos e risco hemorragico.",
+    "risk_level": "alto",
+    "mechanism": "Inibicao de CYP2C9 (varfarina S-enantiomero), CYP3A4 e P-gp (DOACs: rivaroxabana, apixabana) pelo CBD",
+    "potential_effects": [
+      "Aumento do INR com varfarina — risco de sangramento",
+      "Necessidade de reducao de ate 30% na dose de varfarina",
+      "Potencial aumento dos niveis de rivaroxabana e apixabana",
+      "Sangramento gastrointestinal, hematuria, epistaxe",
+      "Hemorragia intracraniana em casos graves",
+      "Hematomas espontaneos"
+    ],
+    "monitoring": [
+      "INR frequente (semanal) ao iniciar ou alterar dose de CBD com varfarina",
+      "Sinais de sangramento (fezes escuras, hematuria, epistaxe, hematomas)",
+      "Hemograma com contagem de plaquetas",
+      "Funcao hepatica (metabolizacao dos anticoagulantes)",
+      "Niveis de anti-Xa para DOACs quando disponivel"
+    ],
+    "recommendations": [
+      "Monitoramento de INR obrigatorio — semanal nas primeiras 4 semanas",
+      "Estar preparado para reduzir dose de varfarina em 25-30%",
+      "Informar imediatamente o medico sobre qualquer sangramento incomum",
+      "Considerar DOACs como alternativa (menor evidencia de interacao, porem menor monitorabilidade)",
+      "Evitar produtos com THC (dados ainda mais limitados)",
+      "Coordenar com servico de anticoagulacao"
+    ],
+    "key_points": [
+      "risco: alto",
+      "mecanismo: inibicao CYP2C9 (varfarina), CYP3A4 e P-gp (DOACs)",
+      "caso clinico: necessidade de reducao de 30% na dose de varfarina",
+      "DOACs: evidencia limitada mas interacao teorica plausivel",
+      "PMID relevante: 37459063 (revisao sistematica anticoagulantes + canabinoides)"
+    ],
+    "pmids": [
+      "37459063",
+      "34181150",
+      "35273417"
+    ]
+  },
+  {
+    "id": "interaction-statins",
+    "title": "Interacao com Estatinas",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, nordicoil.co.uk, projectcbd.org",
+    "drugs": [
+      "atorvastatina",
+      "sinvastatina",
+      "lovastatina",
+      "pravastatina",
+      "rosuvastatina"
+    ],
+    "content": "O CBD pode aumentar as concentracoes sericas de estatinas metabolizadas por CYP3A4, especificamente atorvastatina e sinvastatina, em 2-3 vezes. A lovastatina tambem e substrato de CYP3A4 e compartilha o mesmo risco. Pravastatina e rosuvastatina nao sao significativamente metabolizadas por CYP3A4 e nao apresentam interacao clinicamente relevante com CBD, sendo alternativas mais seguras. O aumento dos niveis de estatinas eleva o risco de miopatia e, em casos graves, rabdomiolise (destruicao muscular grave que pode causar insuficiencia renal). Estatinas tambem sao substratos de transportadores hepaticos (OATP1B1/1B3) que podem ser modulados por canabinoides, adicionando outra via potencial de interacao.",
+    "risk_level": "moderado",
+    "mechanism": "Inibicao de CYP3A4 pelo CBD, reduzindo metabolizacao hepatica de atorvastatina, sinvastatina e lovastatina. Possivel modulacao de transportadores hepaticos OATP",
+    "potential_effects": [
+      "Aumento de 2-3x nos niveis de atorvastatina e sinvastatina",
+      "Mialgia (dor muscular) — efeito adverso mais comum",
+      "Miopatia com elevacao de CPK",
+      "Rabdomiolise (raro, porem grave — insuficiencia renal)",
+      "Hepatotoxicidade (elevacao de transaminases)",
+      "Neuropatia periferica"
+    ],
+    "monitoring": [
+      "CPK (creatina fosfoquinase) basal e periodica",
+      "Transaminases hepaticas (ALT, AST)",
+      "Sintomas musculares: dor, fraqueza, caibras, urina escura",
+      "Funcao renal (creatinina, ureia) se sintomas musculares",
+      "Perfil lipidico (avaliar se dose de estatina pode ser reduzida)"
+    ],
+    "recommendations": [
+      "Considerar trocar para pravastatina ou rosuvastatina (nao metabolizadas por CYP3A4)",
+      "Se manter atorvastatina/sinvastatina, reduzir dose ao iniciar CBD",
+      "Suspender estatina e procurar medico se surgir dor muscular intensa ou urina escura",
+      "Usar menor dose eficaz de CBD",
+      "Monitorar CPK se sintomas musculares surgirem",
+      "Separar horarios de administracao pode nao eliminar a interacao (inibicao enzimatica e persistente)"
+    ],
+    "key_points": [
+      "risco: moderado",
+      "mecanismo: inibicao CYP3A4",
+      "atorvastatina e sinvastatina: aumento de 2-3x nos niveis sericos",
+      "pravastatina e rosuvastatina: alternativas seguras (sem interacao significativa)",
+      "risco principal: miopatia e rabdomiolise",
+      "PMID relevante: 37541924 (CBD e metabolizacao de farmacos)"
+    ],
+    "pmids": [
+      "37541924",
+      "34181150",
+      "34493602"
+    ]
+  },
+  {
+    "id": "interaction-antihypertensives",
+    "title": "Interacao com Anti-hipertensivos",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, projectcbd.org, pubmed.ncbi.nlm.nih.gov",
+    "drugs": [
+      "amlodipina",
+      "losartana",
+      "valsartana",
+      "nifedipina",
+      "metoprolol",
+      "propranolol",
+      "enalapril"
+    ],
+    "content": "A amlodipina e outros bloqueadores de canal de calcio (nifedipina, diltiazem, verapamil) sao metabolizados por CYP3A4 e podem ter seus niveis elevados pela inibicao dessa enzima pelo CBD. A losartana e metabolizada por CYP2C9 em seu metabolito ativo E-3174; o CBD pode inibir essa conversao, potencialmente reduzindo a eficacia anti-hipertensiva. Beta-bloqueadores como metoprolol e propranolol sao metabolizados por CYP2D6, tambem inibida pelo CBD. Alem das interacoes farmacocineticas, o CBD possui efeito hipotensor proprio — estudos mostram reducao de pressao arterial sistolica em torno de 5-6 mmHg — podendo causar hipotensao aditiva. O THC pode causar taquicardia aguda e flutuacoes de pressao arterial, complicando o manejo em pacientes hipertensos.",
+    "risk_level": "moderado",
+    "mechanism": "Inibicao de CYP3A4 (amlodipina, nifedipina), CYP2C9 (losartana), CYP2D6 (metoprolol, propranolol) pelo CBD; efeito hipotensor farmacodinamico proprio do CBD",
+    "potential_effects": [
+      "Hipotensao postural — tontura ao levantar",
+      "Aumento dos niveis de bloqueadores de canal de calcio (amlodipina)",
+      "Possivel reducao da eficacia da losartana (menor conversao ao metabolito ativo)",
+      "Bradicardia com beta-bloqueadores (metoprolol, propranolol)",
+      "Edema periferico acentuado (bloqueadores de canal de calcio)",
+      "Taquicardia reflexa com THC"
+    ],
+    "monitoring": [
+      "Pressao arterial em posicao supina e ortostatica",
+      "Frequencia cardiaca (especialmente com beta-bloqueadores)",
+      "Sintomas de hipotensao: tontura, visao turva, sincope",
+      "Edema periferico",
+      "Funcao renal (BRAs e IECAs)"
+    ],
+    "recommendations": [
+      "Monitorar pressao arterial com maior frequencia ao iniciar CBD",
+      "Alertar paciente sobre risco de hipotensao postural — levantar devagar",
+      "Considerar ajuste de dose do anti-hipertensivo se hipotensao ocorrer",
+      "Evitar THC em pacientes com arritmias ou doenca cardiovascular",
+      "Hidratar-se adequadamente",
+      "Informar cardiologista sobre uso de canabinoides"
+    ],
+    "key_points": [
+      "risco: moderado",
+      "mecanismo: inibicao CYP3A4 (amlodipina), CYP2C9 (losartana), CYP2D6 (metoprolol) + hipotensao farmacodinamica",
+      "CBD tem efeito hipotensor proprio (reducao de ~5-6 mmHg sistolica)",
+      "losartana: CBD pode reduzir conversao ao metabolito ativo (CYP2C9)",
+      "THC: risco de taquicardia e instabilidade hemodinamica"
+    ],
+    "pmids": [
+      "34181150",
+      "34493602",
+      "37874128"
+    ]
+  },
+  {
+    "id": "interaction-immunosuppressants",
+    "title": "Interacao com Imunossupressores",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, pubmed.ncbi.nlm.nih.gov/31012522, drugs.com",
+    "drugs": [
+      "ciclosporina",
+      "tacrolimus",
+      "sirolimus",
+      "everolimus",
+      "micofenolato"
+    ],
+    "content": "A interacao entre CBD e imunossupressores e uma das mais perigosas clinicamente. O CBD inibe potentemente CYP3A4 e a glicoproteina-P (P-gp), ambas vias principais de metabolizacao da ciclosporina e do tacrolimus. Estudos demonstraram que o CBD pode causar aumento de 3 vezes nas concentracoes de tacrolimus dose-normalizadas (PMID: 31012522). CBD em doses altas pode duplicar os niveis de ciclosporina. O indice terapeutico estreito desses farmacos torna a interacao particularmente perigosa — pequenas elevacoes podem causar nefrotoxicidade, neurotoxicidade e aumento do risco de infeccoes. O sirolimus e o everolimus, como analogos de mTOR metabolizados por CYP3A4, compartilham o mesmo risco. A combinacao pode ainda aumentar paradoxalmente o risco de infeccoes graves pela potencializacao da imunossupressao.",
+    "risk_level": "alto",
+    "mechanism": "Inibicao potente de CYP3A4 e glicoproteina-P (P-gp) pelo CBD, aumentando significativamente os niveis sericos de ciclosporina, tacrolimus, sirolimus e everolimus",
+    "potential_effects": [
+      "Aumento de 2-3x nos niveis de tacrolimus",
+      "Duplicacao dos niveis de ciclosporina com CBD em doses altas",
+      "Nefrotoxicidade (insuficiencia renal aguda)",
+      "Neurotoxicidade (tremores, cefaleia, convulsoes)",
+      "Hepatotoxicidade",
+      "Imunossupressao excessiva — risco de infeccoes oportunistas graves",
+      "Hipertensao e disturbios eletroliticos",
+      "Diabetes pos-transplante (tacrolimus)"
+    ],
+    "monitoring": [
+      "Niveis sericos do imunossupressor (vale/trough) — OBRIGATORIO a cada 3-7 dias no inicio",
+      "Funcao renal (creatinina, TFG, cistatina C)",
+      "Funcao hepatica (transaminases, bilirrubina)",
+      "Pressao arterial",
+      "Glicemia (risco de diabetes com tacrolimus)",
+      "Sinais de infeccao (febre, mal-estar, tosse)",
+      "Hemograma completo"
+    ],
+    "recommendations": [
+      "INTERACAO DE ALTO RISCO — coadministracao requer supervisao de equipe de transplante",
+      "Reducao da dose do imunossupressor sera quase certamente necessaria",
+      "Niveis sericos devem ser dosados a cada 3-7 dias ate estabilizacao",
+      "Nunca iniciar CBD por conta propria em pacientes transplantados",
+      "Considerar alternativa ao CBD se possivel",
+      "Se necessario usar CBD, iniciar com dose minima (5 mg/kg/dia ou menos)",
+      "Reportar imediatamente qualquer sinal de nefrotoxicidade ou infeccao"
+    ],
+    "key_points": [
+      "risco: alto — CRITICO para pacientes transplantados",
+      "mecanismo: inibicao CYP3A4 e P-gp",
+      "tacrolimus: aumento de 3x nas concentracoes dose-normalizadas",
+      "ciclosporina: duplicacao dos niveis com CBD em doses altas",
+      "indice terapeutico estreito — risco grave de toxicidade",
+      "PMID relevante: 31012522 (tacrolimus + CBD: aumento de 3x)"
+    ],
+    "pmids": [
+      "31012522",
+      "34181150",
+      "34493602",
+      "37541924"
+    ]
+  },
+  {
+    "id": "interaction-chemotherapy",
+    "title": "Interacao com Quimioterapicos",
+    "category": "drug-interaction",
+    "source": "pmc.ncbi.nlm.nih.gov/articles/PMC8298645, pubmed.ncbi.nlm.nih.gov/28548225, pubmed.ncbi.nlm.nih.gov/34181150",
+    "drugs": [
+      "temozolomida",
+      "doxorrubicina",
+      "paclitaxel",
+      "docetaxel",
+      "ciclofosfamida",
+      "vincristina",
+      "irinotecano",
+      "tamoxifeno"
+    ],
+    "content": "A interacao entre canabinoides e quimioterapicos e complexa e envolve multiplas vias enzimaticas. Muitos quimioterapicos sao metabolizados por CYP3A4 (taxanos, alcaloides da vinca, inibidores de tirosina quinase), CYP2D6 (tamoxifeno) ou CYP2C19, todas inibidas pelo CBD. A temozolomida e um agente alquilante com metabolizacao predominantemente nao-enzimatica (hidrolise espontanea em pH fisiologico), o que sugere menor risco de interacao farmacocinetica direta com CBD, porem estudos pre-clinicos indicam que canabinoides podem potencializar seus efeitos antitumorais em glioblastoma. A doxorrubicina e metabolizada por CYP3A4 e redutases; o CBD pode alterar seus niveis. Estudos em modelos animais demonstraram que CBD sinergizou com THC na dor induzida por paclitaxel, atenuou efeitos da oxaliplatina mas nao da vincristina (PMID: 28548225). O tamoxifeno depende de CYP2D6 para conversao em endoxifeno (metabolito ativo), e a inibicao pelo CBD pode comprometer a eficacia na terapia do cancer de mama.",
+    "risk_level": "alto",
+    "mechanism": "Inibicao de CYP3A4 (taxanos, alcaloides da vinca, doxorrubicina), CYP2D6 (tamoxifeno) e P-gp (multiplos substratos) pelo CBD; possivel modulacao da eficacia antitumoral",
+    "potential_effects": [
+      "Aumento dos niveis de quimioterapicos metabolizados por CYP3A4",
+      "Mielossupressao acentuada (neutropenia, trombocitopenia)",
+      "Cardiotoxicidade aumentada (doxorrubicina)",
+      "Neurotoxicidade potencializada (vincristina, paclitaxel)",
+      "Reducao da eficacia do tamoxifeno (menor conversao em endoxifeno)",
+      "Potencial sinergismo antitumoral (dados pre-clinicos com temozolomida)",
+      "Nausea e vomitos — CBD pode paradoxalmente ajudar como antiemetico"
+    ],
+    "monitoring": [
+      "Hemograma completo com diferencial — monitorar mielossupressao",
+      "Funcao hepatica e renal",
+      "Funcao cardiaca (ecocardiograma com doxorrubicina)",
+      "Avaliacao neurologica (neuropatia periferica)",
+      "Niveis sericos do quimioterapico quando disponivel",
+      "Resposta tumoral e eficacia do tratamento"
+    ],
+    "recommendations": [
+      "SEMPRE consultar oncologista antes de usar CBD/THC durante quimioterapia",
+      "Nao usar CBD com tamoxifeno sem orientacao especializada",
+      "Monitoramento hematologico mais rigoroso quando CBD e coadministrado",
+      "CBD como antiemetico adjuvante pode ser considerado sob supervisao",
+      "Relatar ao oncologista qualquer produto de cannabis em uso",
+      "Temozolomida: menor risco de interacao farmacocinetica, mas nao zero",
+      "Dados pre-clinicos promissores nao substituem evidencia clinica — cautela"
+    ],
+    "key_points": [
+      "risco: alto — manejo oncologico deve ser priorizado",
+      "mecanismo: inibicao CYP3A4, CYP2D6 e P-gp",
+      "tamoxifeno: risco de reducao de eficacia (CYP2D6 necessario para ativacao)",
+      "temozolomida: metabolizacao nao-enzimatica — menor risco farmacocinetico",
+      "PMID relevante: 28548225 (canabinoides + dor induzida por quimioterapia)",
+      "PMID relevante: 34181150 (caracterizacao CYP450 + canabinoides)"
+    ],
+    "pmids": [
+      "28548225",
+      "34181150",
+      "34493602",
+      "37874128"
+    ]
+  },
+  {
+    "id": "interaction-general-cyp450",
+    "title": "Resumo Geral: Perfil de Inibicao Enzimatica do CBD e THC",
+    "category": "drug-interaction-reference",
+    "source": "pubmed.ncbi.nlm.nih.gov/34181150, pubmed.ncbi.nlm.nih.gov/34493602, pubmed.ncbi.nlm.nih.gov/37313955",
+    "content": "O CBD e o THC sao metabolizados pelas mesmas enzimas CYP450 que processam a maioria dos medicamentos prescritos, criando potencial amplo de interacoes. Aproximadamente 60% dos medicamentos sao metabolizados por CYP3A4. O CBD inibe competitivamente CYP3A4, CYP2C19, CYP2C9, CYP2D6, CYP2B6 e CYP2E1. A combinacao CBD + THC inibe CYP2C19 > CYP2C9 > CYP3A > CYP1A2, mas nao afeta significativamente CYP2D6. O THC isoladamente inibe competitivamente CYP1A2, CYP2B6, CYP2C9 e CYP2D6. O 7-OH-CBD (metabolito ativo do CBD) tambem demonstrou potencial inibitorio sobre CYP450, prolongando o efeito de interacao. Uma revisao sistematica avaliando mais de 600 usuarios de canabinoides identificou link direto entre uso de cannabis e alteracoes na metabolizacao de medicamentos prescritos. A abordagem 'start low and go slow' e recomendada universalmente para minimizar riscos.",
+    "enzyme_profile": {
+      "CBD_inhibits": [
+        "CYP3A4",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2D6",
+        "CYP2B6",
+        "CYP2E1",
+        "UGT1A9",
+        "UGT2B7"
+      ],
+      "THC_inhibits": [
+        "CYP1A2",
+        "CYP2B6",
+        "CYP2C9",
+        "CYP2D6"
+      ],
+      "CBD_THC_combined_inhibits": [
+        "CYP2C19 (forte)",
+        "CYP2C9 (moderado)",
+        "CYP3A4 (moderado)",
+        "CYP1A2 (fraco)"
+      ],
+      "CBD_metabolized_by": [
+        "CYP3A4",
+        "CYP2C19"
+      ],
+      "THC_metabolized_by": [
+        "CYP2C9",
+        "CYP3A4"
+      ]
+    },
+    "general_recommendations": [
+      "Sempre informar todos os profissionais de saude sobre uso de cannabis/CBD",
+      "Iniciar CBD em dose baixa e aumentar gradualmente (start low, go slow)",
+      "Monitorar efeitos adversos e eficacia dos medicamentos concomitantes",
+      "Manter diario de sintomas nas primeiras semanas de coadministracao",
+      "Priorizar CBD isolado sobre produtos full-spectrum para menor complexidade de interacoes",
+      "Medicamentos com indice terapeutico estreito requerem supervisao medica obrigatoria",
+      "A via de administracao do CBD influencia o risco: oral > sublingual > topica > inalada (para interacoes sistemicas)"
+    ],
+    "key_points": [
+      "CBD inibe: CYP3A4, CYP2C19, CYP2C9, CYP2D6, CYP2B6, CYP2E1, UGT1A9, UGT2B7",
+      "THC inibe: CYP1A2, CYP2B6, CYP2C9, CYP2D6",
+      "60% dos medicamentos sao metabolizados por CYP3A4",
+      "mais de 600 usuarios avaliados em revisao sistematica (PMID: 38868665)",
+      "abordagem universal: start low and go slow"
+    ],
+    "pmids": [
+      "34181150",
+      "34493602",
+      "37313955",
+      "38868665",
+      "37874128",
+      "37541924"
+    ]
+  }
+]

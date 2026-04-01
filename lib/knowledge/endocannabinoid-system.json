@@ -1,0 +1,492 @@
+[
+  {
+    "id": "ecs-visao-geral",
+    "title": "Visao Geral do Sistema Endocanabinoide",
+    "category": "endocannabinoid-system",
+    "subcategory": "visao-geral",
+    "source": "projectcbd.org, pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 34502379, PMID: 29533978, PMID: 26271952)",
+    "content": "O sistema endocanabinoide (SEC) e uma rede de sinalizacao neuromoduladora generalizada descoberta a partir de pesquisas com a cannabis nos anos 1990. E composto por tres elementos principais: receptores canabinoides (CB1, CB2, GPR55, TRPV1, PPARs), endocanabinoides (anandamida/AEA e 2-AG) e enzimas metabolicas (FAAH, MAGL, DAGL). O SEC desempenha papel crucial na manutencao da homeostase corporal, regulando temperatura, humor, sistema imunologico, dor, apetite, sono, memoria, reproducao e metabolismo. Opera como um sistema retrogrado: quando um neuronio pos-sinaptico e estimulado, endocanabinoides sao sintetizados sob demanda a partir de lipidios de membrana e viajam retrogradamente para modular a liberacao de neurotransmissores no terminal pre-sinaptico. Esta presente em praticamente todos os vertebrados e e um dos sistemas de sinalizacao mais antigos e importantes do corpo humano. Os fitocanabinoides da cannabis (THC, CBD, CBG, CBN e outros 100+) interagem com o SEC em multiplos alvos, formando a base cientifica para o uso medicinal da cannabis.",
+    "key_points": [
+      "Descoberto nos anos 1990 a partir de pesquisas com cannabis",
+      "Tres componentes: receptores, endocanabinoides, enzimas",
+      "Receptores: CB1, CB2, GPR55, TRPV1, PPARs",
+      "Endocanabinoides: anandamida (AEA) e 2-AG",
+      "Enzimas: FAAH (degrada AEA), MAGL (degrada 2-AG), DAGL (sintetiza 2-AG)",
+      "Funcao: manutencao da homeostase corporal",
+      "Opera como sistema retrogrado de sinalizacao",
+      "Presente em todos os vertebrados",
+      "100+ fitocanabinoides interagem com o SEC",
+      "Regula dor, humor, apetite, sono, memoria, imunidade, metabolismo"
+    ]
+  },
+  {
+    "id": "ecs-cb1-receptor",
+    "title": "Receptor CB1",
+    "category": "endocannabinoid-system",
+    "subcategory": "receptores",
+    "source": "projectcbd.org, pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 29533978)",
+    "content": "O receptor canabinoide tipo 1 (CB1) e o receptor canabinoide mais abundante no sistema nervoso central. E um receptor acoplado a proteina G inibitoria (GPCR) encontrado predominantemente em terminais sinapticos neuronais, mas tambem presente em somatos e dendritos neuronais, e em algumas mitocondrias. O CB1 esta expresso em interneuronios GABAergicos, neuronios glutamatergicos e alguns astrocitos. Fora do SNC, o CB1 tambem esta presente em orgaos perifericos como figado, tecido adiposo, pele, trato gastrointestinal e sistema cardiovascular. Sua ativacao inibe a adenilil ciclase e canais de calcio, enquanto estimula MAP quinases e canais de potassio. O CB1 medeia a neuromodulacao retrograda, onde endocanabinoides pos-sinapticos suprimem a liberacao de neurotransmissores pre-sinapticos, sendo fundamental para a regulacao da transmissao sinaptica e excitabilidade neuronal.",
+    "key_points": [
+      "Localizacao principal: sistema nervoso central, terminais sinapticos",
+      "Presente tambem em figado, tecido adiposo, pele, TGI, sistema cardiovascular",
+      "Receptor acoplado a proteina G inibitoria (GPCR)",
+      "Funcao: inibe adenilil ciclase e canais de calcio",
+      "Estimula MAP quinases e canais de potassio",
+      "Media neuromodulacao retrograda - endocanabinoides pos-sinapticos suprimem liberacao pre-sinaptica",
+      "Expresso em neuronios GABAergicos, glutamatergicos e astrocitos",
+      "Regula dor, humor, apetite, memoria e funcoes cognitivas"
+    ]
+  },
+  {
+    "id": "ecs-cb2-receptor",
+    "title": "Receptor CB2",
+    "category": "endocannabinoid-system",
+    "subcategory": "receptores",
+    "source": "projectcbd.org, pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 29533978)",
+    "content": "O receptor canabinoide tipo 2 (CB2) e expresso principalmente em celulas de origem imunologica, incluindo microglia no SNC, macrofagos, celulas T e B, e celulas NK. Tambem e encontrado em tecidos perifericos como baco, amigdalas, timo e trato gastrointestinal. A expressao neuronal do CB2 pode aumentar durante condicoes patologicas como neuroinflamacao. E tambem um GPCR acoplado a proteina G inibitoria. A ativacao do CB2 microglial e geralmente anti-inflamatoria, reduzindo a producao de citocinas pro-inflamatorias e promovendo resolucao da inflamacao. O CB2 desempenha papel crucial na modulacao da resposta imune, inflamacao, saude intestinal e percepcao da dor periferica.",
+    "key_points": [
+      "Localizacao principal: celulas do sistema imunologico (microglia, macrofagos, celulas T/B, NK)",
+      "Presente em baco, amigdalas, timo e TGI",
+      "Expressao neuronal aumenta em condicoes patologicas",
+      "GPCR acoplado a proteina G inibitoria",
+      "Ativacao microglial do CB2 e anti-inflamatoria",
+      "Modula resposta imune, inflamacao e dor periferica",
+      "Papel na saude intestinal e homeostase imunologica",
+      "Alvo terapeutico para doencas inflamatorias e autoimunes"
+    ]
+  },
+  {
+    "id": "ecs-gpr55-receptor",
+    "title": "Receptor GPR55",
+    "category": "endocannabinoid-system",
+    "subcategory": "receptores",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 29533978, PMID: 34502379)",
+    "content": "O GPR55 (receptor acoplado a proteina G 55) e frequentemente referido como o terceiro receptor canabinoide. E um receptor orfao que responde a endocanabinoides, fitocanabinoides e ligantes lipidicos como o lisofosfatidilinositol (LPI). Esta expresso no cerebro (nucleo caudado, putamen, hipocampo), adrenais, TGI, baco e ossos. O GPR55 acopla-se a proteinas G12/13 e Gq, ativando vias de sinalizacao como RhoA, ROCK e PLC. Participa na regulacao da densidade ossea, funcao vascular, nocicepcao e proliferacao celular. O CBD atua como antagonista do GPR55, o que pode contribuir para seus efeitos anti-tumorais, pois a ativacao do GPR55 esta associada a proliferacao de celulas cancerosas. O THC e a anandamida podem atuar como agonistas do GPR55.",
+    "key_points": [
+      "Chamado de terceiro receptor canabinoide",
+      "Localizacao: cerebro (caudado, putamen, hipocampo), adrenais, TGI, baco, ossos",
+      "Acopla-se a proteinas G12/13 e Gq",
+      "Ativa vias RhoA, ROCK e PLC",
+      "Regula densidade ossea, funcao vascular, nocicepcao",
+      "CBD e antagonista do GPR55 - possivel mecanismo anti-tumoral",
+      "THC e anandamida sao agonistas do GPR55",
+      "Ligante endogeno: lisofosfatidilinositol (LPI)"
+    ]
+  },
+  {
+    "id": "ecs-trpv1-receptor",
+    "title": "Receptor TRPV1",
+    "category": "endocannabinoid-system",
+    "subcategory": "receptores",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 29533978)",
+    "content": "O TRPV1 (receptor de potencial transitorio vaniloide tipo 1), tambem conhecido como receptor da capsaicina, e um canal ionico nao seletivo permeavel a cations. E ativado por calor (acima de 43C), capsaicina, protons (pH acido) e endocanabinoides como a anandamida. Esta expresso em neuronios sensoriais (ganglios da raiz dorsal e trigeminal), cerebro e tecidos perifericos. A anandamida e um agonista endogeno do TRPV1 em concentracoes elevadas, conectando o sistema endocanabinoide a nocicepcao. O CBD tambem interage com o TRPV1, atuando como agonista e promovendo dessensibilizacao do receptor, o que pode contribuir para seus efeitos analgesicos e anti-inflamatorios. O TRPV1 participa da percepcao de dor, termorregulacao e inflamacao neurogenica.",
+    "key_points": [
+      "Canal ionico nao seletivo permeavel a cations",
+      "Ativado por calor (>43C), capsaicina, pH acido e anandamida",
+      "Localizacao: neuronios sensoriais (DRG, trigeminal), cerebro, tecidos perifericos",
+      "Anandamida e agonista endogeno do TRPV1 em altas concentracoes",
+      "CBD ativa e depois dessensibiliza o TRPV1",
+      "Dessensibilizacao do TRPV1 contribui para analgesia",
+      "Participa na nocicepcao, termorregulacao e inflamacao neurogenica",
+      "Ponto de intersecao entre sistema endocanabinoide e sistema de dor"
+    ]
+  },
+  {
+    "id": "ecs-ppars-receptores",
+    "title": "Receptores PPARs",
+    "category": "endocannabinoid-system",
+    "subcategory": "receptores",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 34502379, PMID: 26271952)",
+    "content": "Os PPARs (receptores ativados por proliferador de peroxissoma) sao receptores nucleares que atuam como fatores de transcricao. Existem tres isoformas: PPAR-alfa, PPAR-delta/beta e PPAR-gama. Endocanabinoides e fitocanabinoides podem ativar os PPARs, especialmente o PPAR-gama. O THC e o CBD ativam o PPAR-gama, que esta envolvido na regulacao do metabolismo lipidico, sensibilidade a insulina, inflamacao e diferenciacao celular. A ativacao do PPAR-gama por canabinoides pode contribuir para efeitos neuroprotetores, anti-inflamatorios e anti-tumorais. A anandamida e outros endocanabinoides tambem ativam o PPAR-alfa, que participa na regulacao do metabolismo de acidos graxos e possui efeitos anti-inflamatorios. A oleoiletanolamida (OEA) e a palmitoiletanolamida (PEA), compostos relacionados aos endocanabinoides, sao potentes ativadores do PPAR-alfa.",
+    "key_points": [
+      "Receptores nucleares que atuam como fatores de transcricao",
+      "Tres isoformas: PPAR-alfa, PPAR-delta/beta, PPAR-gama",
+      "THC e CBD ativam PPAR-gama",
+      "PPAR-gama regula metabolismo lipidico, sensibilidade a insulina, inflamacao",
+      "Ativacao por canabinoides: efeitos neuroprotetores e anti-tumorais",
+      "Anandamida ativa PPAR-alfa (metabolismo de acidos graxos)",
+      "OEA e PEA sao potentes ativadores do PPAR-alfa",
+      "Mecanismo de acao independente dos receptores CB1/CB2"
+    ]
+  },
+  {
+    "id": "ecs-anandamida",
+    "title": "Anandamida (AEA)",
+    "category": "endocannabinoid-system",
+    "subcategory": "endocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 29533978)",
+    "content": "A anandamida (N-araquidonoiletanolamida, AEA) foi o primeiro endocanabinoide descoberto, nomeada a partir da palavra sanscrita 'ananda' (felicidade). E sintetizada a partir da N-araquidonoil fosfatidiletanolamina (NAPE) pela enzima NAPE-PLD, que e predominantemente uma proteina pre-sinaptica. A anandamida e um agonista parcial de baixa eficacia do receptor CB1 e tambem interage com CB2, TRPV1, GPR55 e PPARs, tendo alvos mais amplos que o 2-AG. E produzida sob demanda a partir de precursores lipidicos da membrana celular, nao sendo armazenada em vesiculas. Participa na regulacao do humor, dor, apetite, memoria, reproducao e neuroproteacao. Sua acao e terminada primariamente pela enzima FAAH (amida hidrolase de acidos graxos). O acido araquidonico liberado pela hidrolise da AEA pode servir como substrato para ciclo-oxigenases produzirem prostaglandinas, ou a AEA pode ser metabolizada diretamente pela COX-2 para produzir prostamidas. Niveis reduzidos de anandamida no liquido cefalorraquidiano estao associados a enxaqueca cronica (PMID: 15159679).",
+    "key_points": [
+      "Primeiro endocanabinoide descoberto - nome vem de 'ananda' (felicidade)",
+      "Sintese: NAPE -> NAPE-PLD -> AEA (sob demanda, a partir de lipidios de membrana)",
+      "NAPE-PLD e predominantemente pre-sinaptica",
+      "Agonista parcial de baixa eficacia do CB1",
+      "Interage com CB1, CB2, TRPV1, GPR55 e PPARs",
+      "Funcao: regulacao de humor, dor, apetite, memoria, reproducao",
+      "Degradacao primaria: FAAH (amida hidrolase de acidos graxos)",
+      "Tambem metabolizada por COX-2 (produz prostamidas)",
+      "Niveis reduzidos associados a enxaqueca cronica (PMID: 15159679)"
+    ]
+  },
+  {
+    "id": "ecs-2ag",
+    "title": "2-Araquidonoilglicerol (2-AG)",
+    "category": "endocannabinoid-system",
+    "subcategory": "endocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261)",
+    "content": "O 2-araquidonoilglicerol (2-AG) e o endocanabinoide mais abundante no cerebro, com concentracoes aproximadamente 1000 vezes maiores que as da anandamida ao longo do desenvolvimento cerebral. E um agonista altamente eficaz dos receptores CB1 e CB2. Sua sintese ocorre em duas etapas: primeiro, a remocao do inositol trifosfato do fosfatidilinositol bisfosfato (PIP2) contendo araquidonoil, seguida pela remocao do grupo acil na posicao 1 pela diacilglicerol lipase (DAGL). E o principal mediador da supressao retrograda da neurotransmissao e da depressao sinaptica de longo prazo. O 2-AG tambem e um intermediario importante no metabolismo lipidico, servindo como fonte de acido araquidonico para a sintese de prostaglandinas. Sua degradacao e realizada primariamente pela monoacilglicerol lipase (MAGL) no SNC, com contribuicao da ABDH6. A MAGL esta localizada pre-sinapticamente em niveis mais altos, enquanto a ABDH6 concentra-se em dendritos, sugerindo funcoes fundamentalmente diferentes dessas duas enzimas degradativas. Niveis reduzidos de 2-AG em plaquetas estao documentados em pacientes com enxaqueca episodica e cronica (p<0.0001).",
+    "key_points": [
+      "Endocanabinoide mais abundante no cerebro (~1000x mais que AEA)",
+      "Agonista altamente eficaz de CB1 e CB2",
+      "Sintese: PIP2 -> DAG (por PLC) -> 2-AG (por DAGL)",
+      "Principal mediador da supressao retrograda da neurotransmissao",
+      "Media depressao sinaptica de longo prazo (LTD)",
+      "Intermediario no metabolismo lipidico (fonte de acido araquidonico)",
+      "Degradacao: MAGL (pre-sinaptica) e ABDH6 (dendritica)",
+      "Niveis reduzidos em plaquetas de pacientes com enxaqueca (p<0.0001)"
+    ]
+  },
+  {
+    "id": "ecs-enzima-faah",
+    "title": "Enzima FAAH (Amida Hidrolase de Acidos Graxos)",
+    "category": "endocannabinoid-system",
+    "subcategory": "enzimas",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261)",
+    "content": "A FAAH (fatty acid amide hydrolase) e a principal enzima responsavel pela degradacao da anandamida (AEA) e outras amidas de acidos graxos como OEA e PEA. E uma serina hidrolase integrada a membrana, localizada pos-sinapticamente em compartimentos intracelulares, particularmente no reticulo endoplasmatico. A FAAH hidrolisa a anandamida em acido araquidonico e etanolamina. Inibidores da FAAH representam uma estrategia terapeutica promissora para prolongar a acao endocanabinoide, aumentando os niveis de anandamida sem ativar diretamente os receptores canabinoides. A inibicao da FAAH tem mostrado potencial analgesico, ansiolitico e anti-inflamatorio em estudos pre-clinicos. Um farmaco que inibe a degradacao de endocanabinoides tambem inibiria sua recaptacao. Polimorfismos geneticos no gene FAAH (como C385A) estao associados a diferentes niveis de anandamida e podem influenciar a predisposicao a certas condicoes.",
+    "key_points": [
+      "Principal enzima que degrada anandamida (AEA)",
+      "Tambem degrada OEA e PEA",
+      "Serina hidrolase integrada a membrana",
+      "Localizada pos-sinapticamente no reticulo endoplasmatico",
+      "Hidrolisa AEA em acido araquidonico + etanolamina",
+      "Inibidores da FAAH: estrategia para aumentar niveis de AEA",
+      "Efeitos da inibicao: analgesico, ansiolitico, anti-inflamatorio",
+      "Polimorfismo C385A associado a diferentes niveis de AEA"
+    ]
+  },
+  {
+    "id": "ecs-enzima-magl",
+    "title": "Enzima MAGL (Monoacilglicerol Lipase)",
+    "category": "endocannabinoid-system",
+    "subcategory": "enzimas",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261)",
+    "content": "A MAGL (monoacylglycerol lipase) e a principal enzima responsavel pela degradacao do 2-AG no sistema nervoso central. Esta localizada em niveis mais altos nos terminais pre-sinapticos, onde termina a sinalizacao retrograda do 2-AG. A MAGL hidrolisa o 2-AG em acido araquidonico e glicerol. Durante o desenvolvimento, a MAGL esta presente nos cones de crescimento axonal, regulando a sinalizacao do receptor CB1 durante o direcionamento axonal. A inibicao da MAGL aumenta os niveis de 2-AG e reduz a producao de acido araquidonico e prostaglandinas, conferindo efeitos anti-inflamatorios. A ABDH6 (alfa/beta-hidrolase dominio 6) tambem degrada o 2-AG, mas concentra-se em dendritos, sugerindo funcoes complementares. A inibicao cronica da MAGL pode levar a dessensibilizacao funcional dos receptores CB1 devido ao excesso de 2-AG.",
+    "key_points": [
+      "Principal enzima que degrada 2-AG no SNC",
+      "Localizada pre-sinapticamente em niveis mais altos",
+      "Hidrolisa 2-AG em acido araquidonico + glicerol",
+      "Presente em cones de crescimento durante desenvolvimento",
+      "Inibicao reduz producao de acido araquidonico e prostaglandinas",
+      "ABDH6 e enzima complementar (localizada em dendritos)",
+      "Inibicao cronica pode dessensibilizar receptores CB1",
+      "Alvo terapeutico para inflamacao e dor"
+    ]
+  },
+  {
+    "id": "ecs-enzima-dagl",
+    "title": "Enzima DAGL (Diacilglicerol Lipase)",
+    "category": "endocannabinoid-system",
+    "subcategory": "enzimas",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261)",
+    "content": "A DAGL (diacylglycerol lipase) e a enzima responsavel pela sintese do 2-AG a partir do diacilglicerol (DAG). Existem duas isoformas: DAGL-alfa e DAGL-beta, ambas abundantes no cerebro. A DAGL-alfa e geralmente mais importante para a producao sinaptica de 2-AG, sendo localizada pos-sinapticamente e sendo essencial para a sinalizacao endocanabinoide retrograda. A DAGL-beta e mais relevante para a formacao de 2-AG em microglia, participando da resposta inflamatoria. Durante o desenvolvimento, ambas as isoformas concentram-se em axonios glutamatergicos de longa distancia, com localizacoes subcelulares distintas. A DAGL catalisa a ultima etapa da via canonica de sintese do 2-AG: PIP2 e primeiro convertido em DAG pela fosfolipase C (PLC), e entao o DAG e convertido em 2-AG pela DAGL.",
+    "key_points": [
+      "Enzima de sintese do 2-AG a partir de diacilglicerol",
+      "Duas isoformas: DAGL-alfa (sinaptica) e DAGL-beta (microglial)",
+      "DAGL-alfa: pos-sinaptica, essencial para sinalizacao retrograda",
+      "DAGL-beta: importante em microglia e resposta inflamatoria",
+      "Via canonica: PIP2 -> DAG (PLC) -> 2-AG (DAGL)",
+      "Ambas abundantes no cerebro",
+      "Presente em axonios glutamatergicos durante desenvolvimento",
+      "Passo final da biossintese do principal endocanabinoide"
+    ]
+  },
+  {
+    "id": "ecs-efeito-entourage",
+    "title": "Efeito Entourage",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885, PMC11870048), wikipedia.org",
+    "content": "O efeito entourage e a hipotese de que os compostos da cannabis (canabinoides, terpenos, flavonoides) atuam sinergicamente para modular os efeitos farmacologicos gerais da planta, resultando em beneficios terapeuticos superiores aos de compostos isolados. O termo foi introduzido em 1998 por Raphael Mechoulam e Shimon Ben-Shabat. A teoria propoe que o extrato completo da planta (full-spectrum) pode ser mais eficaz que canabinoides purificados, explicando a superioridade clinica observada em alguns estudos comparando extratos de planta inteira versus compostos isolados. Embora a evidencia cientifica seja debatida, estudos pre-clinicos demonstraram que a administracao simultanea de CBD com misturas de terpenos teve impacto significativamente maior do que qualquer substancia administrada independentemente em modelos de ansiedade e humor em camundongos. Um estudo de 2020 nao encontrou efeito entourage ao nivel dos receptores canabinoides especificamente, mas isso nao exclui sinergias em outros alvos moleculares.",
+    "key_points": [
+      "Hipotese: compostos da cannabis atuam sinergicamente",
+      "Termo cunhado por Mechoulam e Ben-Shabat (1998)",
+      "Envolve canabinoides, terpenos e flavonoides",
+      "Extrato full-spectrum pode ser superior a compostos isolados",
+      "Evidencia cientifica debatida e em evolucao",
+      "Estudos pre-clinicos mostram sinergia CBD + terpenos em ansiedade",
+      "Possivel 'contra-efeito entourage' (aumento de efeitos adversos)",
+      "Base para preferencia por extratos de planta inteira na medicina canabinoide"
+    ]
+  },
+  {
+    "id": "ecs-sinergias-cbd-mirceno",
+    "title": "Sinergia CBD + Mirceno",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885, PMC11870048)",
+    "content": "A combinacao de CBD com mirceno e uma das sinergias mais documentadas no efeito entourage. O mirceno e o terpeno mais abundante na maioria das variedades de cannabis e e associado a efeitos de relaxamento e sedacao. O mirceno pode aumentar a permeabilidade da barreira hematoencefalica, potencialmente facilitando a entrada de canabinoides no cerebro. Quando combinado com CBD, o mirceno pode potencializar os efeitos analgesicos, anti-inflamatorios e miorelaxantes. O mirceno tambem possui atividade agonista nos receptores TRPV1 e contribui para efeitos sedativos por mecanismos GABAergicos. A sinergia CBD + mirceno e frequentemente buscada em formulacoes para dor cronica, inflamacao e disturbios do sono.",
+    "key_points": [
+      "Mirceno: terpeno mais abundante na maioria das variedades de cannabis",
+      "Mirceno pode aumentar permeabilidade da barreira hematoencefalica",
+      "Facilita entrada de canabinoides no cerebro",
+      "Potencializa efeitos analgesicos e anti-inflamatorios do CBD",
+      "Mirceno possui atividade no TRPV1",
+      "Efeitos sedativos por mecanismos GABAergicos",
+      "Indicada para dor cronica, inflamacao e disturbios do sono",
+      "Mirceno contribui para relaxamento muscular"
+    ]
+  },
+  {
+    "id": "ecs-sinergias-thc-linalol",
+    "title": "Sinergia THC + Linalol",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885)",
+    "content": "O linalol e um monoterpeno encontrado na cannabis e na lavanda, associado a efeitos ansioliticos e sedativos. Quando combinado com THC, o linalol pode modular os efeitos psicoativos do THC, reduzindo a ansiedade induzida por altas doses e potencializando os efeitos analgesicos e anticonvulsivantes. O linalol atua nos receptores GABA-A como modulador alosterico positivo, aumentando a transmissao GABAergica inibitoria. Tambem possui propriedades anestesicas locais e anti-inflamatorias independentes. A sinergia THC + linalol e relevante para o manejo de dor, ansiedade, insonia e epilepsia. Estudos sugerem que o linalol pode atenuar o deficit de memoria induzido pelo THC e reduzir a paranoia associada ao consumo de cannabis.",
+    "key_points": [
+      "Linalol: terpeno da lavanda e cannabis, ansiolitico e sedativo",
+      "Modula efeitos psicoativos do THC, reduzindo ansiedade",
+      "Potencializa efeitos analgesicos e anticonvulsivantes do THC",
+      "Atua como modulador alosterico positivo do GABA-A",
+      "Propriedades anestesicas locais e anti-inflamatorias",
+      "Pode atenuar deficit de memoria induzido por THC",
+      "Reduz paranoia associada ao cannabis",
+      "Relevante para dor, ansiedade, insonia e epilepsia"
+    ]
+  },
+  {
+    "id": "ecs-sinergias-cbd-limoneno",
+    "title": "Sinergia CBD + Limoneno",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885)",
+    "content": "O limoneno e um monoterpeno ciclico abundante em citricos e em diversas variedades de cannabis. Possui propriedades ansioliticas, antidepressivas e analgesicas demonstradas em estudos pre-clinicos. O D-limoneno atua elevando niveis de serotonina e dopamina em regioes cerebrais associadas a ansiedade e depressao. Quando combinado com CBD, o limoneno pode potencializar os efeitos ansioliticos e antidepressivos por mecanismos complementares: o CBD atua nos receptores 5-HT1A (serotonina) enquanto o limoneno aumenta a disponibilidade de serotonina. A combinacao tambem apresenta potencial anti-tumoral sinergico. O limoneno facilita a absorcao de outros compostos atraves da pele e mucosas, sendo util em formulacoes topicas e sublinguais.",
+    "key_points": [
+      "Limoneno: terpeno ciclico de citricos e cannabis",
+      "Propriedades ansioliticas, antidepressivas e analgesicas",
+      "Eleva niveis de serotonina e dopamina",
+      "CBD atua no 5-HT1A + limoneno aumenta serotonina = sinergia ansiolitica",
+      "Potencial anti-tumoral sinergico com CBD",
+      "Facilita absorcao de compostos pela pele e mucosas",
+      "Util em formulacoes topicas e sublinguais",
+      "Contribui para efeitos elevadores de humor"
+    ]
+  },
+  {
+    "id": "ecs-sinergias-thc-cariofileno",
+    "title": "Sinergia THC + Beta-Cariofileno",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885, PMC11870048)",
+    "content": "O beta-cariofileno e um sesquiterpeno encontrado na pimenta-preta, cravo e cannabis. E unico entre os terpenos por ser tambem um agonista seletivo do receptor CB2, sendo considerado um canabinoide dietetico. Sua ativacao do CB2 confere propriedades anti-inflamatorias, analgesicas e neuroprotetoras sem efeitos psicoativos. Quando combinado com THC, o beta-cariofileno pode potencializar os efeitos analgesicos e anti-inflamatorios enquanto atenua a tolerancia e a dependencia ao THC mediadas pelo CB1. A sinergia THC + beta-cariofileno e particularmente promissora para dor cronica, artrite, neuropatia e condicoes inflamatorias. O beta-cariofileno tambem demonstrou efeitos gastroprotetores e pode melhorar a tolerancia ao frio e a analgesia.",
+    "key_points": [
+      "Beta-cariofileno: unico terpeno que e agonista seletivo do CB2",
+      "Considerado canabinoide dietetico",
+      "Encontrado em pimenta-preta, cravo e cannabis",
+      "Ativacao do CB2: anti-inflamatorio, analgesico, neuroprotetor",
+      "Sem efeitos psicoativos",
+      "Pode atenuar tolerancia e dependencia ao THC",
+      "Promissor para dor cronica, artrite, neuropatia",
+      "Efeitos gastroprotetores"
+    ]
+  },
+  {
+    "id": "ecs-sinergias-cbd-pineno",
+    "title": "Sinergia CBD + Alfa-Pineno",
+    "category": "endocannabinoid-system",
+    "subcategory": "efeito-entourage",
+    "source": "pmc.ncbi.nlm.nih.gov (PMC7324885)",
+    "content": "O alfa-pineno e o terpeno mais amplamente distribuido na natureza, encontrado em pinheiros, alecrim, salvia e cannabis. Possui propriedades broncodilatadoras, anti-inflamatorias e de melhoria da memoria. O alfa-pineno pode contrabalancear o comprometimento de memoria de curto prazo causado pelo THC, atuando como inibidor da acetilcolinesterase. Quando combinado com CBD, potencializa efeitos anti-inflamatorios e pode melhorar a funcao respiratoria. A sinergia CBD + pineno e relevante para condicoes respiratorias, inflamacao cronica e funcao cognitiva. O pineno tambem demonstra atividade antimicrobiana de amplo espectro.",
+    "key_points": [
+      "Alfa-pineno: terpeno mais distribuido na natureza",
+      "Encontrado em pinheiros, alecrim, salvia e cannabis",
+      "Broncodilatador, anti-inflamatorio, melhora memoria",
+      "Inibidor da acetilcolinesterase - contrabalanca deficit de memoria do THC",
+      "Potencializa efeitos anti-inflamatorios do CBD",
+      "Melhora funcao respiratoria",
+      "Atividade antimicrobiana de amplo espectro",
+      "Relevante para condicoes respiratorias e funcao cognitiva"
+    ]
+  },
+  {
+    "id": "ecs-cecd",
+    "title": "Deficiencia Clinica de Endocanabinoides (CECD)",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491, PMID: 18404144, PMID: 24977967)",
+    "content": "A Deficiencia Clinica de Endocanabinoides (Clinical Endocannabinoid Deficiency - CECD) e uma teoria proposta pelo Dr. Ethan Russo no inicio dos anos 2000. Propoe que certas condicoes resistentes ao tratamento convencional resultam de um funcionamento insuficiente do sistema endocanabinoide, refletido por niveis inadequados de anandamida e 2-AG, alteracoes na sintese e degradacao, ou densidade insuficiente de receptores canabinoides. A teoria e sustentada pela observacao de que todos os humanos possuem um 'tono endocanabinoide' basal. Quando esse tono e deficiente, sistemas regulados pelo SEC (dor, digestao, humor, sono) podem desregular-se. Pesquisas subsequentes confirmaram que deficiencias endocanabinoides subjacentes desempenham papel na enxaqueca, fibromialgia, sindrome do intestino irritavel e uma lista crescente de condicoes medicas.",
+    "key_points": [
+      "Teoria proposta por Dr. Ethan Russo (inicio dos anos 2000)",
+      "Funcionamento insuficiente do sistema endocanabinoide",
+      "Refletido por niveis inadequados de AEA e 2-AG",
+      "Alteracoes na sintese, degradacao ou densidade de receptores",
+      "Todos possuem 'tono endocanabinoide' basal",
+      "Deficiencia leva a desregulacao de dor, digestao, humor, sono",
+      "Pesquisas confirmam papel em enxaqueca, fibromialgia e SII",
+      "Base para uso terapeutico de canabinoides nessas condicoes"
+    ]
+  },
+  {
+    "id": "ecs-cecd-enxaqueca",
+    "title": "CECD e Enxaqueca",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491, PMID: 15159679)",
+    "content": "A enxaqueca e uma das tres condicoes primarias associadas a Deficiencia Clinica de Endocanabinoides. Pacientes com enxaqueca cronica apresentaram reducoes estatisticamente significativas de anandamida no liquido cefalorraquidiano (p<0.0001) em comparacao com controles. Estudos com plaquetas em pacientes com enxaqueca episodica e cronica demonstraram niveis profundamente reduzidos de 2-AG e AEA (p<0.0001). O enjoo de movimento (cinetose) tambem correlacionou-se com niveis reduzidos de AEA e 2-AG no sangue. Em um estudo observacional no Colorado com 120 adultos, o uso de cannabis reduziu a frequencia de crises de 10,4 para 4,6 ataques mensais (p<0.0001), com 85,1% dos pacientes experimentando reducao na frequencia. Canabinoides demonstraram capacidade de bloquear mecanismos espinhais e perifericos que promovem dor em cefaleia.",
+    "key_points": [
+      "Reducao significativa de AEA no LCR de pacientes com enxaqueca cronica (p<0.0001)",
+      "Niveis reduzidos de 2-AG e AEA em plaquetas (p<0.0001)",
+      "Cinetose correlacionada com niveis reduzidos de AEA e 2-AG",
+      "Estudo Colorado (120 adultos): crises reduziram de 10,4 para 4,6/mes",
+      "85,1% dos pacientes tiveram reducao na frequencia",
+      "Canabinoides bloqueiam mecanismos de dor espinhal e periferico",
+      "PMID referencia: 15159679 (Sarchielli - AEA no LCR)",
+      "Base bioquimica para uso de cannabis em cefaleia"
+    ]
+  },
+  {
+    "id": "ecs-cecd-fibromialgia",
+    "title": "CECD e Fibromialgia",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491)",
+    "content": "A fibromialgia e a segunda condicao primaria da triade CECD. Caracteriza-se por dor cronica generalizada, fadiga, disturbios do sono e sensibilizacao central. Compartilha alta comorbidade com enxaqueca e sindrome do intestino irritavel, estados hiperalgicos e criterios diagnosticos subjetivos sem marcadores objetivos. O nabilone (analogo sintetico do THC) demonstrou melhora significativa na dor e ansiedade em comparacao com placebo (p<0.02) em ensaios clinicos. Usuarios de cannabis relataram reducao significativa na dor e rigidez (p<0.001). A fibromialgia envolve sensibilizacao central, onde o sistema endocanabinoide desempenha papel modulatorio crucial. A disfuncao do tono endocanabinoide pode contribuir para o processamento anormal da dor e a hipersensibilidade caracteristica da condicao. Tratamentos que aumentam o tono endocanabinoide, como inibidores da FAAH ou fitocanabinoides, podem ajudar a restaurar o equilibrio.",
+    "key_points": [
+      "Segunda condicao da triade CECD",
+      "Dor cronica generalizada, fadiga, disturbios do sono",
+      "Alta comorbidade com enxaqueca e SII",
+      "Nabilone (analogo THC): melhora dor e ansiedade (p<0.02)",
+      "Usuarios de cannabis: reducao em dor e rigidez (p<0.001)",
+      "Sensibilizacao central modulada pelo sistema endocanabinoide",
+      "Disfuncao do tono endocanabinoide contribui para hiperalgesia",
+      "Inibidores de FAAH e fitocanabinoides podem restaurar equilibrio"
+    ]
+  },
+  {
+    "id": "ecs-cecd-sii",
+    "title": "CECD e Sindrome do Intestino Irritavel (SII)",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491)",
+    "content": "A sindrome do intestino irritavel (SII) completa a triade de condicoes primarias associadas a CECD. O sistema endocanabinoide exerce papel fundamental na regulacao da motilidade gastrointestinal, secrecao, sensacao visceral e inflamacao intestinal. Receptores CB1 e CB2 estao amplamente expressos no trato gastrointestinal, incluindo neuronios entericos, celulas epiteliais e celulas imunologicas da mucosa. Em um ensaio clinico randomizado com 52 pacientes, o THC aumentou a complacencia colonica (p=0.045). A disfuncao endocanabinoide na SII pode resultar em hipermotilidade, hipersensibilidade visceral e inflamacao cronica de baixo grau. O tratamento com canabinoides pode modular a motilidade intestinal via CB1, reduzir a inflamacao via CB2 e diminuir a sensibilidade visceral. Abordagens complementares incluem probioticos e prebioticos, que podem influenciar o tono endocanabinoide intestinal.",
+    "key_points": [
+      "Terceira condicao da triade CECD",
+      "SEC regula motilidade GI, secrecao, sensacao visceral e inflamacao",
+      "CB1 e CB2 expressos em neuronios entericos, epitelio e celulas imunes",
+      "Ensaio clinico (52 pacientes): THC aumentou complacencia colonica (p=0.045)",
+      "Disfuncao pode causar hipermotilidade e hipersensibilidade visceral",
+      "THC modula motilidade via CB1, CBD reduz inflamacao via CB2",
+      "Probioticos e prebioticos influenciam tono endocanabinoide intestinal",
+      "Canabinoides reduzem sensibilidade visceral"
+    ]
+  },
+  {
+    "id": "ecs-cecd-outras-condicoes",
+    "title": "CECD e Outras Condicoes Associadas",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491)",
+    "content": "Alem da triade classica (enxaqueca, fibromialgia, SII), a Deficiencia Clinica de Endocanabinoides tem sido investigada em uma lista crescente de condicoes. Pacientes com esclerose multipla demonstraram deficits de endocanabinoides no liquido cefalorraquidiano. A doenca de Huntington mostrou perda generalizada de receptores CB1 (reducao de 15-25%). Sobreviventes de TEPT apresentaram niveis sericos reduzidos de 2-AG. Outras condicoes potencialmente associadas incluem: colica neonatal, glaucoma, dismenorreia, hiperemeise gravidica, doenca bipolar, sindrome de dor pos-cirurgica e doenca de Parkinson. As abordagens terapeuticas incluem: agonistas CB1 (THC em doses baixas como agonista parcial), inibidores de FAAH para elevar AEA, extratos integrais de cannabis com CBD e terpenoides, e modificacoes no estilo de vida como exercicio aerobico.",
+    "key_points": [
+      "Esclerose multipla: deficits de endocanabinoides no LCR",
+      "Doenca de Huntington: perda de 15-25% dos receptores CB1",
+      "TEPT: niveis sericos reduzidos de 2-AG",
+      "Outras: colica neonatal, glaucoma, dismenorreia, doenca bipolar",
+      "Abordagens: agonistas CB1, inibidores de FAAH, extratos full-spectrum",
+      "Exercicio aerobico aumenta niveis de endocanabinoides",
+      "Lista crescente de condicoes associadas",
+      "Importancia da restauracao do tono endocanabinoide"
+    ]
+  },
+  {
+    "id": "ecs-cecd-tratamento",
+    "title": "Abordagens Terapeuticas para CECD",
+    "category": "endocannabinoid-system",
+    "subcategory": "cecd",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 28861491)",
+    "content": "O tratamento da Deficiencia Clinica de Endocanabinoides visa restaurar o tono endocanabinoide por multiplas abordagens. Estrategias farmacologicas incluem: agonistas CB1 como THC em doses baixas (agonista parcial), inibidores da FAAH para elevar niveis de anandamida, e extratos integrais de cannabis contendo CBD e terpenoides para efeito entourage. O CBD e particularmente promissor pois eleva indiretamente os niveis de anandamida ao inibir a FAAH, sem ativar diretamente CB1 e sem produzir psicoatividade. Modificacoes no estilo de vida tambem influenciam o tono endocanabinoide: exercicio aerobico aumenta niveis circulantes de anandamida, probioticos e prebioticos modulam o sistema endocanabinoide intestinal, e a reducao de estresse cronico previne a deplecao de endocanabinoides. A dieta rica em acidos graxos omega-3 pode otimizar a sintese de endocanabinoides. A acupuntura e a massagem terapeutica tambem demonstraram elevar niveis de endocanabinoides em estudos preliminares.",
+    "key_points": [
+      "Objetivo: restaurar tono endocanabinoide",
+      "THC em doses baixas como agonista parcial do CB1",
+      "Inibidores de FAAH elevam anandamida",
+      "CBD eleva AEA indiretamente (inibe FAAH) sem psicoatividade",
+      "Extratos full-spectrum para efeito entourage",
+      "Exercicio aerobico aumenta anandamida circulante",
+      "Probioticos e prebioticos modulam SEC intestinal",
+      "Dieta rica em omega-3 otimiza sintese de endocanabinoides",
+      "Reducao de estresse previne deplecao de endocanabinoides"
+    ]
+  },
+  {
+    "id": "ecs-thc-alvos",
+    "title": "THC (Delta-9-Tetrahidrocanabinol) e Seus Alvos no SEC",
+    "category": "endocannabinoid-system",
+    "subcategory": "fitocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 29533978, PMID: 34502379, PMID: 15173844)",
+    "content": "O THC (delta-9-tetrahidrocanabinol) e o principal fitocanabinoide psicoativo da cannabis. E um agonista parcial de baixa eficacia do receptor CB1, o que significa que pode antagonizar a sinalizacao do 2-AG endogeno sob certas condicoes devido a diferencas de eficacia. Tambem ativa CB2, GPR55, TRPV1 e PPARs (especialmente PPAR-gama). No CB1, o THC mimetiza parcialmente a acao dos endocanabinoides, produzindo efeitos analgesicos, antinauseantes, estimulantes do apetite e euforizantes. Em doses altas, pode reproduzir alguns sintomas de esquizofrenia de forma dose-dependente (PMID: 15173844). O THC tambem atua como modulador alosterico de receptores opioides mu, o que pode explicar sua sinergia com opioides na analgesia. A janela terapeutica do THC e estreita, com efeitos bifasicos: doses baixas podem ser ansioliticas enquanto doses altas podem ser ansiogenicas.",
+    "key_points": [
+      "Agonista parcial de baixa eficacia do CB1",
+      "Ativa CB2, GPR55, TRPV1 e PPAR-gama",
+      "Pode antagonizar 2-AG endogeno sob certas condicoes",
+      "Efeitos: analgesia, antinausea, estimulo do apetite, euforia",
+      "Modulador alosterico de receptores opioides mu",
+      "Efeitos bifasicos: ansiolitico em dose baixa, ansiogenico em dose alta",
+      "Janela terapeutica estreita",
+      "Doses altas podem reproduzir sintomas de psicose (PMID: 15173844)"
+    ]
+  },
+  {
+    "id": "ecs-cbd-alvos",
+    "title": "CBD (Canabidiol) e Seus Alvos no SEC",
+    "category": "endocannabinoid-system",
+    "subcategory": "fitocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 32980261, PMID: 34502379)",
+    "content": "O CBD (canabidiol) e o segundo fitocanabinoide mais abundante e nao e psicoativo. Atua como modulador alosterico negativo do receptor CB1, atenuando a ativacao do CB1 por THC e endocanabinoides em multiplos ensaios in vitro. Isso pode explicar a menor psicoatividade de variedades de cannabis ricas em CBD. O CBD e antagonista do GPR55, o que pode contribuir para seus efeitos anti-tumorais, pois a ativacao do GPR55 esta associada a proliferacao de celulas cancerosas. O CBD ativa e depois dessensibiliza o TRPV1, contribuindo para efeitos analgesicos. Ativa o receptor 5-HT1A (serotonina), produzindo efeitos ansioliticos e antidepressivos. Ativa PPARs (especialmente PPAR-gama). Inibe a recaptacao de anandamida ao inibir a FAAH, elevando os niveis endogenos de AEA. Possui propriedades anti-tumorais, antioxidantes, antiespamodicas, antipsicoticas, anticonvulsivantes e neuroprotetoras.",
+    "key_points": [
+      "Modulador alosterico negativo do CB1 - atenua acao do THC",
+      "Antagonista do GPR55 - efeito anti-tumoral",
+      "Ativa e dessensibiliza TRPV1 - analgesia",
+      "Agonista do 5-HT1A - ansiolitico e antidepressivo",
+      "Ativa PPAR-gama - anti-inflamatorio e neuroprotetor",
+      "Inibe FAAH - eleva niveis de anandamida endogena",
+      "Nao psicoativo, reduz psicoatividade do THC",
+      "Anti-tumoral, antioxidante, anticonvulsivante, neuroprotetor"
+    ]
+  },
+  {
+    "id": "ecs-cbg-alvos",
+    "title": "CBG (Canabigerol) e Seus Alvos no SEC",
+    "category": "endocannabinoid-system",
+    "subcategory": "fitocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 34502379, PMID: 26271952)",
+    "content": "O CBG (canabigerol) e considerado o 'canabinoide-mae' pois e precursor bioquimico de THC, CBD e CBC. Geralmente presente em baixas concentracoes na planta madura (<1%), mas variedades especializadas podem conter ate 15%. O CBG atua como agonista parcial de ambos CB1 e CB2, com afinidade moderada. E um potente agonista dos receptores alfa-2 adrenergicos e bloqueia receptores 5-HT1A. Ativa TRPV1, TRPV2, TRPA1 e PPAR-gama. Inibe a recaptacao de anandamida e GABA. Demonstrou propriedades neuroprotetoras na doenca de Huntington (modelos animais), anti-inflamatorias na doenca inflamatoria intestinal, antibacterianas contra MRSA (Staphylococcus aureus resistente a meticilina), e potencial anti-tumoral em cancer colorretal. O CBG nao e psicoativo e pode modular os efeitos psicoativos do THC.",
+    "key_points": [
+      "Canabinoide-mae: precursor de THC, CBD e CBC",
+      "Agonista parcial de CB1 e CB2 (afinidade moderada)",
+      "Agonista de alfa-2 adrenergicos, TRPV1, TRPV2, TRPA1, PPAR-gama",
+      "Bloqueia 5-HT1A, inibe recaptacao de anandamida e GABA",
+      "Neuroprotetor na doenca de Huntington (modelos animais)",
+      "Anti-inflamatorio na doenca inflamatoria intestinal",
+      "Antibacteriano contra MRSA",
+      "Potencial anti-tumoral em cancer colorretal"
+    ]
+  },
+  {
+    "id": "ecs-cbn-alvos",
+    "title": "CBN (Canabinol) e Seus Alvos no SEC",
+    "category": "endocannabinoid-system",
+    "subcategory": "fitocanabinoides",
+    "source": "pmc.ncbi.nlm.nih.gov (PMID: 34502379, PMID: 26271952)",
+    "content": "O CBN (canabinol) e um produto de degradacao oxidativa do THC, formado quando a cannabis envelhece ou e exposta a calor e luz. Possui afinidade fraca pelo CB1 (aproximadamente 10% da potencia do THC) e maior afinidade pelo CB2. Historicamente associado a efeitos sedativos, embora evidencias recentes sugiram que a sedacao pode resultar da sinergia com terpenos como mirceno e linalol presentes em cannabis envelhecida, e nao do CBN isolado. Demonstrou propriedades antibacterianas contra cepas de MRSA, analgesicas em modelos animais, anticonvulsivantes, estimulantes do apetite (diferente do THC, pode estimular apetite sem efeitos psicoativos significativos), e promotoras do crescimento osseo (estimula recrutamento de celulas-tronco da medula ossea). O CBN tambem possui efeitos anti-inflamatorios e imunomoduladores via CB2.",
+    "key_points": [
+      "Produto de degradacao do THC (oxidacao, calor, luz)",
+      "Afinidade fraca pelo CB1 (~10% do THC), maior pelo CB2",
+      "Sedacao pode ser sinergia com terpenos, nao CBN isolado",
+      "Antibacteriano contra MRSA",
+      "Analgesico e anticonvulsivante",
+      "Estimulante do apetite sem psicoatividade significativa",
+      "Promotor do crescimento osseo (celulas-tronco medulares)",
+      "Anti-inflamatorio e imunomodulador via CB2"
+    ]
+  }
+]

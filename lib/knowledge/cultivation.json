@@ -1,0 +1,904 @@
+[
+  {
+    "id": "ph-guide",
+    "title": "pH para Cultivo de Cannabis",
+    "category": "ph",
+    "source": "growweedeasy.com",
+    "content": "O pH da agua e solucao nutritiva e fundamental para a absorcao de nutrientes. Em pH incorreto, a planta nao consegue absorver nutrientes mesmo que estejam presentes, causando deficiencias. Deve-se adicionar nutrientes primeiro, depois ajustar o pH antes de regar.",
+    "key_points": [
+      "Solo: pH ideal entre 6.0 e 7.0 (otimo: 6.2-6.9)",
+      "Coco coir / Hidroponia / Soilless: pH ideal entre 5.5 e 6.5",
+      "Solo na floracao: pode subir para 6.5-7.0 para maximizar absorcao de P e K",
+      "pH Down: aproximadamente 1ml por galao reduz ~1 ponto de pH",
+      "pH Up: aproximadamente 2-4ml por galao sobe ~1 ponto de pH",
+      "Variar o pH levemente a cada rega (dentro da faixa) ajuda a absorver diferentes nutrientes",
+      "Sempre medir pH da agua de entrada E da agua de saida (runoff) para verificar a zona radicular",
+      "Agua de torneira geralmente tem pH 7.0-8.0 e precisa ser ajustada"
+    ]
+  },
+  {
+    "id": "nutrients-guide",
+    "title": "Nutrientes para Cannabis",
+    "category": "nutrients",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "Cannabis precisa de macronutrientes (NPK - Nitrogenio, Fosforo, Potassio) e micronutrientes (Calcio, Magnesio, Ferro, Manganes, Zinco, Boro, Cobre, Molibdenio). A proporcao muda conforme a fase de crescimento.",
+    "key_points": [
+      "Fase vegetativa: alto Nitrogenio (N), moderado Fosforo (P) e Potassio (K) — ratio tipico 3-1-2",
+      "Fase de floracao: baixo Nitrogenio, alto Fosforo e Potassio — ratio tipico 1-3-2",
+      "Mudas/seedlings: sem nutrientes ou 1/4 da dose nas primeiras 2 semanas",
+      "Deficiencia de Nitrogenio: folhas inferiores amarelam e caem",
+      "Deficiencia de Fosforo: folhas escurecem com tons roxos/azulados, crescimento lento",
+      "Deficiencia de Potassio: bordas das folhas amarelam e secam (queimadura nas pontas)",
+      "Deficiencia de Calcio: manchas marrons irregulares nas folhas, comum em coco coir",
+      "Deficiencia de Magnesio: amarelamento entre as veias das folhas (interveinal chlorosis)",
+      "Deficiencia de Ferro: folhas novas amarelam com veias verdes, comum em pH alto",
+      "Cal-Mag (Calcio-Magnesio) e essencial ao usar agua filtrada, coco coir ou LED",
+      "Nutrientes organicos: liberacao lenta, sabor melhor, mais perdoam erros de pH",
+      "Nutrientes sinteticos/minerais: controle preciso, resultados mais rapidos, risco de salt buildup",
+      "Sempre seguir o principio 'menos e mais' — subdose e mais facil de corrigir que overdose",
+      "Flush (lavagem): nas ultimas 1-2 semanas antes da colheita, regar so com agua pura para limpar nutrientes residuais"
+    ]
+  },
+  {
+    "id": "lighting-guide",
+    "title": "Iluminacao para Cannabis",
+    "category": "lighting",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "A luz e o fator mais importante para a producao de cannabis indoor. O fotoperiodo (horas de luz/escuro) controla quando a planta entra em floracao. A intensidade e o espectro afetam o rendimento e a qualidade.",
+    "key_points": [
+      "Fase vegetativa: 18 horas de luz / 6 horas de escuro (18/6) — padrao mais usado",
+      "Fase vegetativa alternativa: 20/4 ou 24/0 (sem escuro) — mais crescimento mas mais custo",
+      "Fase de floracao: 12 horas de luz / 12 horas de escuro (12/12) — obrigatorio para fotoperiodicas",
+      "Autoflowering: 18/6 ou 20/4 durante TODO o ciclo (nao precisam de mudanca de fotoperiodo)",
+      "LED: 30-40W reais por metro quadrado para vegetativa, 50-65W/m2 para floracao",
+      "HPS (sodio): 400W cobre ~0.8m2, 600W cobre ~1.2m2, 1000W cobre ~1.5m2",
+      "Espectro vegetativo: luz mais azulada (5000-6500K) promove crescimento compacto",
+      "Espectro floracao: luz mais avermelhada (2700-3000K) promove producao de flores",
+      "LED full spectrum: ideal pois cobre ambos espectros, mais eficiente termicamente",
+      "Distancia da luz (LED): 30-45cm das plantas na vegetativa, 20-30cm na floracao",
+      "DLI (Daily Light Integral): 25-35 mol/m2/dia na vegetativa, 35-50 mol/m2/dia na floracao",
+      "Luz vazando durante o periodo escuro pode causar hermafroditismo — garantir escuro total no 12/12"
+    ]
+  },
+  {
+    "id": "environment-guide",
+    "title": "Ambiente de Cultivo (Temperatura e Umidade)",
+    "category": "environment",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "Temperatura e umidade sao criticas para saude da planta e prevencao de pragas/doencas. O conceito de VPD (Vapor Pressure Deficit) combina ambos para otimizar a transpiracao.",
+    "key_points": [
+      "Mudas/clones: 20-25°C dia, umidade 65-70%",
+      "Fase vegetativa: 22-28°C dia, 18-22°C noite, umidade 40-60%",
+      "Fase de floracao: 20-26°C dia, 17-20°C noite, umidade 35-50%",
+      "Ultimas semanas de flora: umidade abaixo de 40% para evitar mofo nos buds",
+      "Diferenca dia/noite de 5-10°C pode intensificar cores roxas em algumas geneticas",
+      "Temperatura acima de 30°C: estresse termico, buds arejados, perda de terpenos",
+      "Temperatura abaixo de 15°C: crescimento para, risco de deficiencias nutricionais",
+      "CO2: nivel ambiente e ~400ppm, suplementar com 1000-1500ppm pode aumentar producao em 20-30% (so com luz intensa)",
+      "Ventilacao: exaustor + ventilador oscilante, troca de ar completa a cada 1-3 minutos",
+      "VPD ideal vegetativa: 0.8-1.2 kPa",
+      "VPD ideal floracao: 1.2-1.6 kPa",
+      "Filtro de carvao ativado no exaustor para controle de odor"
+    ]
+  },
+  {
+    "id": "growth-stages",
+    "title": "Fases do Crescimento da Cannabis",
+    "category": "stages",
+    "source": "growweedeasy.com, royalqueenseeds.com, leafly.com",
+    "content": "O ciclo de vida da cannabis passa por fases distintas, cada uma com necessidades especificas. Plantas fotoperiodicas levam 3-5 meses do seed a colheita. Autoflowering levam 2-3 meses.",
+    "key_points": [
+      "Germinacao (2-7 dias): semente em papel toalha umido, 22-25°C, escuro, raiz emerge 2-5mm",
+      "Seedling/muda (2-3 semanas): primeiras folhas verdadeiras, luz 18/6 fraca, sem nutrientes ou 1/4 dose",
+      "Vegetativa (3-8 semanas): crescimento rapido de folhas e caules, luz 18/6, nutrientes com alto N",
+      "Pre-floracao (1-2 semanas): apos mudar para 12/12, pistils brancos aparecem nos nos",
+      "Floracao (6-12 semanas): formacao dos buds, nutrientes com alto P e K, baixo N",
+      "Floracao semanas 1-3: stretch (planta pode dobrar de tamanho), formar estrutura dos buds",
+      "Floracao semanas 4-6: buds engrossam, producao de resina aumenta",
+      "Floracao semanas 7+: maturacao, tricomas mudam de transparente para leitoso",
+      "Flush/lavagem (1-2 semanas): so agua pura antes da colheita",
+      "Colheita: quando 70-80% dos tricomas estao leitosos e 10-20% ambar (usar lupa 60x)",
+      "Tricomas transparentes: muito cedo, efeito fraco",
+      "Tricomas leitosos: pico de THC, efeito mais cerebral",
+      "Tricomas ambar: THC degradando para CBN, efeito mais sedativo/corporal",
+      "Autoflowering: ciclo total de 8-12 semanas, nao precisa mudar fotoperiodo"
+    ]
+  },
+  {
+    "id": "substrates-guide",
+    "title": "Substratos para Cultivo de Cannabis",
+    "category": "substrates",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "O substrato e o meio onde as raizes crescem. Cada tipo tem vantagens e desvantagens. A escolha afeta irrigacao, nutrientes e pH.",
+    "key_points": [
+      "Solo organico: mais perdoador, buffer natural de pH, sabor superior, ideal para iniciantes",
+      "Solo ideal: mistura de turfa, perlita (20-30%), vermiculita, composto organico",
+      "Coco coir: inerte, requer nutrientes completos, excelente drenagem, crescimento rapido",
+      "Coco coir: precisa de Cal-Mag extra (o coco retém calcio naturalmente)",
+      "Perlita pura: usada em hempy buckets, excelente aeracao, leve",
+      "Hidroponia DWC (Deep Water Culture): raizes submersas em solucao nutritiva com ar, crescimento mais rapido",
+      "Hidroponia NFT (Nutrient Film Technique): filme fino de solucao correndo pelas raizes",
+      "Hidroponia: maior controle, crescimento 20-30% mais rapido, mas menos margem pra erro",
+      "Tamanho do vaso: 7-15 litros para plantas medias indoor",
+      "Vasos de tecido (fabric pots): melhor aeracao radicular, previne enrolamento de raizes",
+      "Regra geral: 5 litros de substrato por 30cm de altura final da planta"
+    ]
+  },
+  {
+    "id": "watering-guide",
+    "title": "Irrigacao e Rega de Cannabis",
+    "category": "watering",
+    "source": "growweedeasy.com",
+    "content": "A irrigacao correta e um dos aspectos mais importantes e onde iniciantes mais erram. Overwatering (regar demais) e mais comum que underwatering.",
+    "key_points": [
+      "Regra do dedo: enfie o dedo 2-3cm no solo — se estiver seco, regue",
+      "Regra do peso: levante o vaso — se estiver leve, regue",
+      "Frequencia tipica: a cada 2-4 dias em solo, diariamente em coco, continuamente em hidro",
+      "Volume: regar ate ter 10-20% de runoff (agua saindo pelo fundo do vaso)",
+      "Temperatura da agua: 18-22°C (agua muito fria choca as raizes)",
+      "Overwatering: folhas caidas e pesadas, crescimento lento, solo sempre umido, raizes podem apodrecer",
+      "Underwatering: folhas murchas e finas, solo seco e compactado, planta recupera rapido apos regar",
+      "Deixar agua de torneira descansar 24h antes de usar para evaporar cloro",
+      "Agua de osmose reversa (RO): pH neutro, sem minerais — precisa adicionar Cal-Mag",
+      "Nunca deixar a planta em prato com agua parada — drene o excesso"
+    ]
+  },
+  {
+    "id": "training-techniques",
+    "title": "Tecnicas de Treinamento (Training)",
+    "category": "training",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "Tecnicas de treinamento manipulam o formato da planta para aumentar producao e aproveitar melhor a luz. Dividem-se em LST (baixo estresse) e HST (alto estresse).",
+    "key_points": [
+      "LST (Low Stress Training): dobrar e amarrar ramos para criar canopy uniforme, sem cortes",
+      "LST: pode ser feito durante toda a vegetativa, parar na 2a semana de flora",
+      "Topping: cortar a ponta principal para criar 2 caules principais, aumenta numero de colas",
+      "Topping: fazer quando a planta tem 4-6 nos, na vegetativa",
+      "FIM (Fuck I Missed): cortar 80% da ponta em vez de 100%, pode criar 3-8 colas",
+      "SCROG (Screen of Green): tela horizontal sobre as plantas, tucking ramos por baixo",
+      "SCROG: ideal para grow spaces pequenos, maximiza uso da luz",
+      "SOG (Sea of Green): muitas plantas pequenas com pouca/nenhuma vegetativa, colheita rapida",
+      "Lollipopping: remover crescimento inferior que nao recebe luz (popcorn buds)",
+      "Defoliation: remover folhas que bloqueiam luz dos buds, controverso — com moderacao",
+      "Super cropping (HST): dobrar o caule ate ouvir estalar (sem quebrar), causa engrossamento",
+      "Mainlining: combinar topping simetrico para criar 8-16 colas iguais",
+      "Autoflowering: evitar HST (topping, super crop) — preferir LST pois o ciclo e curto demais para recuperacao"
+    ]
+  },
+  {
+    "id": "common-problems",
+    "title": "Problemas Comuns no Cultivo de Cannabis",
+    "category": "problems",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "Pragas, doencas e deficiencias nutricionais sao os problemas mais comuns. A maioria pode ser prevenida com ambiente controlado e pH correto.",
+    "key_points": [
+      "Spider mites (acaros): pontilhados brancos nas folhas, teias finas — tratar com oleo de neem ou predadores biologicos",
+      "Fungus gnats (mosquitinhos): larvas no solo, deixar o topo secar entre regas, usar armadilhas amarelas",
+      "Pulgoes (aphids): colonias nos caules/folhas, spray de sabao inseticida ou joaninhas",
+      "Trips: marcas prateadas nas folhas, usar armadilhas azuis e oleo de neem",
+      "Powdery mildew (oidio): po branco nas folhas, causado por umidade alta e pouca circulacao de ar",
+      "Bud rot (botrytis): mofo cinza DENTRO dos buds, causado por umidade alta na floracao — remover partes afetadas imediatamente",
+      "Root rot: raizes marrons/viscosas com cheiro ruim, causado por overwatering ou falta de oxigenio",
+      "Hermafroditismo: estresse por luz vazando, temperatura extrema ou genetica instavel — remover bananas/sacos de polen",
+      "Nutrient burn: pontas das folhas queimadas/amareladas, excesso de nutrientes — flush com agua pH correto",
+      "Nutrient lockout: deficiencias multiplas mesmo com nutrientes presentes — causado por pH incorreto ou acumulo de sais",
+      "Light burn: folhas no topo amarelam/branqueiam mesmo com pH correto — aumentar distancia da luz",
+      "Heat stress: folhas curvam para cima como canoa, tacos (foxtailing) nos buds — reduzir temperatura"
+    ]
+  },
+  {
+    "id": "harvest-drying-curing",
+    "title": "Colheita, Secagem e Cura",
+    "category": "harvest",
+    "source": "growweedeasy.com, royalqueenseeds.com",
+    "content": "A colheita no momento certo e a secagem/cura adequadas sao fundamentais para qualidade, potencia e sabor. Uma cura boa pode transformar um bud mediano em algo excepcional.",
+    "key_points": [
+      "Quando colher: 70-80% tricomas leitosos + 10-20% ambar = pico de potencia",
+      "Mais leitosos = efeito mais cerebral/energetico (sativa-like)",
+      "Mais ambar = efeito mais corporal/sedativo (indica-like, THC virando CBN)",
+      "Corte: ramos inteiros ou buds individuais, remover folhas grandes (sugar leaves opcionais)",
+      "Secagem: pendurar de cabeca pra baixo em ambiente escuro, 18-22°C, umidade 55-65%",
+      "Duracao da secagem: 7-14 dias, os ramos devem estalar (snap) ao dobrar, nao so curvar",
+      "Secagem rapida demais (< 3 dias): sabor ruim, fumaca aspera, perda de terpenos",
+      "Secagem lenta demais (umidade alta): risco de mofo",
+      "Cura: buds em potes de vidro (mason jars), abrir 1-2x por dia nos primeiros 7 dias (burping)",
+      "Cura minima: 2 semanas para sabor aceitavel",
+      "Cura ideal: 4-8 semanas para sabor e potencia otimos",
+      "Umidade nos potes durante cura: 58-62% (usar Boveda packs 62% para manter)",
+      "Cura longa (2-6 meses): melhora contínua do sabor, pico de suavidade",
+      "Armazenamento: potes de vidro, escuro, fresco (15-21°C), umidade 58-62%"
+    ]
+  },
+  {
+    "id": "ph-ranges",
+    "title": "pH Ranges by Growing Medium",
+    "category": "pH",
+    "content": "The optimal pH range for cannabis in soil is 6.0-7.0, with most time spent between 6.2-6.9. For hydroponic, soilless, and coco coir systems, the optimal range is 5.5-6.5. When soil runoff drops below 6.0, water at 7.0 pH next; when above 7.0, water at 6.0. For soilless media, if runoff is below 5.5, water at 6.5; if above 6.5, water at 5.5. Nutrient availability varies across the pH spectrum, and maintaining proper pH prevents nutrient lockout.",
+    "key_points": [
+      "Soil optimal pH: 6.0-7.0 (ideal 6.2-6.9)",
+      "Coco coir optimal pH: 5.5-6.5",
+      "Hydroponic optimal pH: 5.5-6.5",
+      "pH Down: ~1 mL/gallon drops pH by ~1 point",
+      "pH Up: 2-4 mL/gallon raises pH by ~1 point",
+      "Soil runoff below 6.0 -> next water at 7.0",
+      "Soil runoff above 7.0 -> next water at 6.0",
+      "Soilless runoff below 5.5 -> next water at 6.5",
+      "Soilless runoff above 6.5 -> next water at 5.5"
+    ],
+    "source": "https://www.growweedeasy.com/ph"
+  },
+  {
+    "id": "npk-ratios",
+    "title": "NPK Ratios and Nutrient Feeding by Stage",
+    "category": "nutrients",
+    "content": "During the vegetative stage, cannabis requires high nitrogen (N) with moderate phosphorus (P) and potassium (K). A typical veg NPK ratio is 3-1-2 or similar high-N formulas like Botanicare KIND Grow (2-2-4). During flowering, nitrogen should be reduced and P-K increased. Typical bloom NPK ratios include Botanicare KIND Bloom (0-6-6) and Schultz Cactus Plus (2-7-7). Cal-Mag supplementation is recommended at 1 tsp/gallon (General Hydroponics CaliMagic). Hydroguard root supplement is dosed at 1 tsp/gallon. Always start at half-strength of manufacturer recommendations and increase based on plant response.",
+    "key_points": [
+      "Vegetative: high N, moderate P and K (e.g., 2-2-4 or 3-1-2 ratio)",
+      "Flowering: low N, high P and K (e.g., 0-6-6 or 2-7-7 ratio)",
+      "Cal-Mag: 1 tsp/gallon (CaliMagic)",
+      "Hydroguard (root supplement): 1 tsp/gallon",
+      "Start feeding at 50% of manufacturer recommended strength",
+      "Increase dosage gradually based on plant response",
+      "Flush with plain pH-balanced water before harvest"
+    ],
+    "source": "https://www.growweedeasy.com/nutrients"
+  },
+  {
+    "id": "ec-ppm-guidelines",
+    "title": "EC and PPM Guidelines by Growth Stage",
+    "category": "nutrients",
+    "content": "Electrical conductivity (EC) and parts per million (PPM) measure nutrient concentration in water. Recommended ranges: seedlings 0.2-0.4 EC (100-200 PPM on 500 scale), early vegetative 0.4-0.8 EC (200-400 PPM), late vegetative 0.8-1.2 EC (400-600 PPM), early flowering 1.0-1.4 EC (500-700 PPM), mid flowering 1.2-1.6 EC (600-800 PPM), late flowering/ripening 0.8-1.0 EC (400-500 PPM), flush 0.0-0.2 EC (0-100 PPM). Two common PPM scales exist: 500-scale (multiply EC x 500) and 700-scale (multiply EC x 700). Always calibrate meters regularly.",
+    "key_points": [
+      "Seedlings: 0.2-0.4 EC / 100-200 PPM",
+      "Early veg: 0.4-0.8 EC / 200-400 PPM",
+      "Late veg: 0.8-1.2 EC / 400-600 PPM",
+      "Early flower: 1.0-1.4 EC / 500-700 PPM",
+      "Mid flower: 1.2-1.6 EC / 600-800 PPM",
+      "Late flower/ripening: 0.8-1.0 EC / 400-500 PPM",
+      "Flush: 0.0-0.2 EC / 0-100 PPM",
+      "PPM 500 scale: EC x 500; PPM 700 scale: EC x 700"
+    ],
+    "source": "https://www.growweedeasy.com/nutrients"
+  },
+  {
+    "id": "temperature-ranges",
+    "title": "Temperature Ranges for Cannabis Cultivation",
+    "category": "environment",
+    "content": "Optimal daytime temperature for cannabis is 70-85F (20-30C) during vegetative stage and 65-80F (18-26C) during flowering. Nighttime temperatures should be 5-10F cooler than daytime. The minimum safe temperature is 60F (15C); below this, growth slows dramatically and freezing kills plants. Maximum temperature without CO2 supplementation is 85F (30C). With CO2 enrichment (1200-1500 PPM CO2), plants can tolerate up to 95F (35C). For enhanced coloration (purple/blue hues), a 10F (8C) day/night temperature differential is recommended during late flowering. Clones root best at 70-85F (20-30C).",
+    "key_points": [
+      "Vegetative daytime: 70-85F (20-30C)",
+      "Flowering daytime: 65-80F (18-26C)",
+      "Nighttime: 5-10F cooler than daytime",
+      "Minimum safe temperature: 60F (15C)",
+      "Maximum without CO2: 85F (30C)",
+      "Maximum with CO2 enrichment: 95F (35C)",
+      "Color enhancement: 10F (8C) day/night differential",
+      "Clone rooting: 70-85F (20-30C)"
+    ],
+    "source": "https://www.growweedeasy.com/temperature"
+  },
+  {
+    "id": "humidity-ranges",
+    "title": "Humidity Ranges by Growth Stage",
+    "category": "environment",
+    "content": "Cannabis humidity requirements change through growth stages. Clones and seedlings thrive at 60-80% RH (optimal 70%). Vegetative stage requires 40-60% RH, ideally around 50% as plants mature. During flowering, humidity should be 40-50% RH to prevent mold and bud rot. In the final 2-3 weeks of flowering, some growers drop below 40% RH to increase resin production. Drying should occur at 55% RH (optimal for beginners). Ideal VPD (Vapor Pressure Deficit) ranges from 0.45-1.25 kPa, with the sweet spot at 0.8-0.95 kPa. High humidity combined with cool temperatures creates mold risk; low humidity with high heat causes excessive transpiration and stress.",
+    "key_points": [
+      "Clones/seedlings: 60-80% RH (optimal 70%)",
+      "Vegetative stage: 40-60% RH (ideal 50%)",
+      "Flowering stage: 40-50% RH",
+      "Late flowering (final 2-3 weeks): below 40% RH for resin",
+      "Drying: 55% RH optimal",
+      "VPD ideal range: 0.45-1.25 kPa",
+      "VPD sweet spot: 0.8-0.95 kPa",
+      "High humidity + cool temps = mold risk"
+    ],
+    "source": "https://www.growweedeasy.com/humidity"
+  },
+  {
+    "id": "light-schedules",
+    "title": "Light Schedules and Photoperiod Control",
+    "category": "lighting",
+    "content": "Cannabis is a photoperiod-sensitive plant. During the vegetative stage, plants need 18-24 hours of light per day, with 18/6 (18 hours light, 6 hours dark) being the most common schedule. Plants require at least 13 hours of light daily to remain in vegetative growth. To initiate flowering, switch to 12/12 (12 hours light, 12 hours uninterrupted darkness). Proper flowering onset occurs about 3-4 weeks after switching to 12/12. Seedlings cannot flower until they are at least 2-3 weeks old. During flowering, plants typically double in size (the flowering stretch). Autoflowering strains do not require light schedule changes and grow well under 18/6 or 20/4 throughout their lifecycle.",
+    "key_points": [
+      "Vegetative: 18/6 or 24/0 light schedule",
+      "Minimum veg light: 13 hours/day to prevent flowering",
+      "Flowering trigger: 12/12 (12h light, 12h uninterrupted dark)",
+      "Flowering onset: 3-4 weeks after 12/12 switch",
+      "Seedlings need 2-3 weeks before they can flower",
+      "Flowering stretch: plants double in size",
+      "Autoflowers: 18/6 or 20/4 throughout entire lifecycle",
+      "Flowering duration: 8-10 weeks average (6-14 weeks range)"
+    ],
+    "source": "https://www.growweedeasy.com/light-schedules"
+  },
+  {
+    "id": "growth-stages-timeline",
+    "title": "Cannabis Growth Stages and Timeline",
+    "category": "growth_stages",
+    "content": "The total cannabis growth cycle from seed to harvest takes 8 weeks to 5+ months, averaging 3-5 months. Germination takes 1-7 days, with most seeds sprouting in 3-5 days. The seedling stage lasts 1-3 weeks. Vegetative growth runs 3-8 weeks for photoperiod strains (grower-controlled) and 3-4 weeks for autoflowers (automatic). Flowering takes 8-10 weeks on average, ranging from 6 weeks (fast strains) to 14+ weeks (some sativas). Post-harvest drying takes 3-10 days (ideal 7+ days). Curing requires minimum 2 weeks, with 4+ weeks recommended for optimal quality. Fastest autoflowering harvests complete in 56-60 days total.",
+    "key_points": [
+      "Total seed to harvest: 3-5 months average",
+      "Germination: 1-7 days (most 3-5 days)",
+      "Seedling stage: 1-3 weeks",
+      "Vegetative stage: 3-8 weeks (photoperiod), 3-4 weeks (auto)",
+      "Flowering stage: 8-10 weeks average (6-14 week range)",
+      "Drying: 3-10 days (ideal 7+ days)",
+      "Curing: 2 weeks minimum, 4+ weeks recommended",
+      "Fastest autoflower: 56-60 days total seed to harvest"
+    ],
+    "source": "https://www.growweedeasy.com/how-long-does-it-take-to-grow-weed"
+  },
+  {
+    "id": "substrates-growing-media",
+    "title": "Growing Substrates and Media",
+    "category": "substrates",
+    "content": "The three main growing media for cannabis are soil, coco coir, and hydroponic systems. For soil, a well-draining mix with 20-30% perlite is recommended. Commercial options like Fox Farm Ocean Forest or Happy Frog are popular pre-mixed soils. Soil pH should be 6.0-7.0. Coco coir is an inert medium requiring full nutrient supplementation; it should be pre-buffered with cal-mag solution before use. Coco pH range is 5.5-6.5. Coco can be mixed 70% coco / 30% perlite for improved drainage. Hydroponic systems (DWC, NFT, ebb-and-flow) use pH range 5.5-6.5. Common hydro media include clay pebbles (hydroton), rockwool, and perlite. Rockwool must be pre-soaked in pH 5.5 water for 24 hours before use.",
+    "key_points": [
+      "Soil: add 20-30% perlite for drainage, pH 6.0-7.0",
+      "Pre-mixed soils: Fox Farm Ocean Forest, Happy Frog",
+      "Coco coir: inert, requires full nutrient feeding, pH 5.5-6.5",
+      "Coco mix: 70% coco / 30% perlite recommended",
+      "Coco must be pre-buffered with cal-mag before first use",
+      "Hydro pH: 5.5-6.5",
+      "Hydro media: clay pebbles, rockwool, perlite",
+      "Rockwool: pre-soak in pH 5.5 water for 24 hours"
+    ],
+    "source": "https://www.growweedeasy.com/nutrients"
+  },
+  {
+    "id": "watering-practices",
+    "title": "Watering Frequency and Practices",
+    "category": "watering",
+    "content": "Proper watering is critical for cannabis health. In soil, water when the top 1 inch (2.5 cm) of medium feels dry, or when the pot feels light when lifted. Water until 10-20% runoff exits the drainage holes to prevent salt buildup. Frequency depends on pot size, plant size, temperature, and humidity; typically every 2-4 days in soil. In coco coir, water 1-2 times daily as coco dries faster than soil; always water to 10-20% runoff. In hydroponic DWC, maintain water temperature at 65-72F (18-22C) to maximize dissolved oxygen. Overwatering symptoms include drooping leaves that feel firm; underwatering shows drooping leaves that feel thin and papery. pH all water to the appropriate range before feeding.",
+    "key_points": [
+      "Soil: water when top 1 inch (2.5 cm) is dry",
+      "Water until 10-20% runoff from drainage holes",
+      "Soil frequency: typically every 2-4 days",
+      "Coco coir: water 1-2 times daily to runoff",
+      "Hydro water temperature: 65-72F (18-22C)",
+      "Overwatering: firm drooping leaves",
+      "Underwatering: thin, papery drooping leaves",
+      "Always pH water before feeding"
+    ],
+    "source": "https://www.growweedeasy.com/nutrients"
+  },
+  {
+    "id": "training-lst",
+    "title": "Low Stress Training (LST)",
+    "category": "training",
+    "content": "Low Stress Training (LST) involves bending and tying stems to create an even canopy, exposing more bud sites to light. Start LST when the plant is young and stems are flexible. Optionally top the plant at 4-6 nodes (cutting to the 3rd node) before starting LST to create a symmetrical base. Bend the tallest stems down and away from center, securing with soft plant ties to the pot edges. Create a star shape when viewed from above. Repeat weekly as plants grow. Continue LST during the first 1-4 weeks of flowering during the stretch phase, then stop. Plants should be at approximately 50% of desired final height when switching to flower, as they typically double in size during the flowering stretch.",
+    "key_points": [
+      "Start when plant is young with flexible stems",
+      "Optional: top at 4-6 nodes before starting LST",
+      "Bend tallest stems down, secure with soft ties to pot",
+      "Create star shape from above for even canopy",
+      "Repeat weekly during vegetative stage",
+      "Continue first 1-4 weeks of flowering (stretch phase)",
+      "Switch to flower at 50% desired final height",
+      "Plants double in size during flowering stretch",
+      "Use soft ties only - never string or sharp materials"
+    ],
+    "source": "https://www.growweedeasy.com/lst"
+  },
+  {
+    "id": "training-topping-fimming",
+    "title": "Topping and FIMming Techniques",
+    "category": "training",
+    "content": "Topping and FIMming are high-stress training techniques that create multiple colas. Topping involves cutting the main stem tip cleanly; perform when plant has 4-6 nodes. It produces 2 evenly-spaced colas with consistent results. Recovery time is a few days to 1 week. FIMming (F*ck I Missed) involves pinching about 75% of the new growth tip; perform at 3-5 nodes. FIM produces 2-4 colas but with less consistent results and uneven spacing. FIMming barely slows growth compared to topping. Both techniques can be repeated: topping twice creates 4 colas, three times creates 8 colas (manifolding). Both must be performed during the vegetative stage only, never during flowering.",
+    "key_points": [
+      "Topping: cut main stem at 4-6 nodes, creates 2 even colas",
+      "FIMming: pinch 75% of growth tip at 3-5 nodes, creates 2-4 colas",
+      "Topping recovery: few days to 1 week",
+      "FIMming recovery: minimal, barely slows growth",
+      "Topping: more consistent results",
+      "FIMming: less consistent, uneven spacing",
+      "Can repeat: 1 top = 2 colas, 2 tops = 4, 3 tops = 8 (manifolding)",
+      "Only perform during vegetative stage, never in flowering"
+    ],
+    "source": "https://www.growweedeasy.com/topping-fiming"
+  },
+  {
+    "id": "common-deficiencies",
+    "title": "Common Nutrient Deficiencies and Problems",
+    "category": "problems",
+    "content": "Nitrogen (N) deficiency shows as yellowing of lower/older leaves progressing upward; common in flowering when N is reduced too much. Phosphorus (P) deficiency causes dark green or purple leaves with brown spots, starting on lower leaves. Potassium (K) deficiency shows as brown, crispy leaf edges (leaf burn) on older leaves. Calcium deficiency causes brown spots and crinkling on newer growth, common in coco coir and RO water grows. Magnesium deficiency presents as interveinal yellowing (yellow between green veins) on lower/middle leaves. Iron deficiency shows bright yellow new growth with green veins. Manganese deficiency causes yellowing between veins with mottled brown spots. Copper deficiency shows yellow leaf edges and tips with dark, shiny leaves having purple/blue undertones. Most deficiencies are caused by incorrect pH rather than actual lack of nutrients.",
+    "key_points": [
+      "Nitrogen (N): yellowing lower leaves progressing upward",
+      "Phosphorus (P): dark/purple leaves, brown spots on lower leaves",
+      "Potassium (K): brown crispy leaf edges on older leaves",
+      "Calcium (Ca): brown spots, crinkling on new growth (common in coco/RO water)",
+      "Magnesium (Mg): interveinal yellowing on lower/middle leaves",
+      "Iron (Fe): bright yellow new growth with green veins",
+      "Manganese (Mn): yellowing between veins with mottled brown spots",
+      "Copper (Cu): yellow edges/tips, dark shiny leaves with purple/blue undertones",
+      "Most deficiencies caused by incorrect pH, not lack of nutrients"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems"
+  },
+  {
+    "id": "common-pests",
+    "title": "Common Cannabis Pests and Diseases",
+    "category": "problems",
+    "content": "Key cannabis pests include spider mites (tiny dots on leaf undersides, fine webbing), fungus gnats (small flies around soil surface, larvae damage roots), thrips (silver/bronze streaks on leaves), aphids (clusters on stems and leaf undersides), and hemp russet mites (microscopic, require magnification to see, cause bronzing and curling). Bud rot (Botrytis) appears as gray/brown patches inside buds, thriving above 60% RH and in stagnant air. Powdery mildew shows as white powder on leaf surfaces, favored by high humidity and poor airflow. Root rot in hydro systems causes brown, slimy roots and is prevented by maintaining water at 65-72F (18-22C) and using beneficial bacteria like Hydroguard. Tobacco Mosaic Virus (TMV) causes strange mottling patterns in leaves. Prevention includes proper air circulation, humidity control, and regular plant inspection.",
+    "key_points": [
+      "Spider mites: tiny dots on leaf undersides, fine webbing",
+      "Fungus gnats: small flies near soil, larvae damage roots",
+      "Thrips: silver/bronze streaks on leaves",
+      "Aphids: clusters on stems and leaf undersides",
+      "Hemp russet mites: microscopic, need magnification to see",
+      "Bud rot (Botrytis): gray/brown patches in buds, above 60% RH",
+      "Powdery mildew: white powder on leaves, high humidity trigger",
+      "Root rot: brown slimy roots, prevent with 65-72F water temps",
+      "Prevention: air circulation, humidity control, regular inspection"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems"
+  },
+  {
+    "id": "vpd-chart",
+    "title": "VPD (Vapor Pressure Deficit) Reference Chart",
+    "category": "environment",
+    "content": "VPD measures the difference between moisture in the air and how much moisture the air can hold when saturated. For cannabis, the ideal VPD range is 0.45-1.25 kPa, with the sweet spot at 0.8-0.95 kPa. During propagation/cloning, aim for low VPD (0.4-0.8 kPa) with high humidity 65-80% and temps 72-78F. During vegetative growth, target 0.8-1.0 kPa with humidity 45-55% and temps 75-82F. During flowering, target 1.0-1.2 kPa with humidity 40-50% and temps 68-78F. Late flowering can go up to 1.2-1.5 kPa with humidity below 40%. High VPD (above 1.5 kPa) causes excessive transpiration and stress; low VPD (below 0.4 kPa) promotes mold and slows transpiration.",
+    "key_points": [
+      "Ideal VPD range: 0.45-1.25 kPa (sweet spot 0.8-0.95 kPa)",
+      "Propagation/clones: 0.4-0.8 kPa, 65-80% RH, 72-78F",
+      "Vegetative: 0.8-1.0 kPa, 45-55% RH, 75-82F",
+      "Flowering: 1.0-1.2 kPa, 40-50% RH, 68-78F",
+      "Late flowering: 1.2-1.5 kPa, below 40% RH",
+      "Above 1.5 kPa: excessive transpiration, plant stress",
+      "Below 0.4 kPa: mold risk, slow transpiration",
+      "VPD increases as temp rises or humidity drops"
+    ],
+    "source": "https://www.growweedeasy.com/humidity"
+  },
+  {
+    "id": "advanced-training",
+    "title": "Advanced Training Techniques: ScrOG, SOG, Mainlining",
+    "category": "training",
+    "content": "ScrOG (Screen of Green) uses a horizontal net/screen at 20-25 inches above the pot. As plants grow through the screen, branches are tucked under and spread across the net to create a flat, even canopy. Best with 1-4 plants per 4x4ft area. SOG (Sea of Green) uses many small plants (typically 1 plant per square foot) flowered early at 2-3 weeks of veg to create a canopy of single colas. Mainlining (manifolding) involves topping at the 3rd node, removing all growth below, then topping each new branch again to create 8 symmetrical colas. This process takes 2-3 extra weeks in veg. Supercropping involves gently crushing the inner tissue of a stem between fingers until it bends 90 degrees; the stem repairs itself stronger within 1 week, creating a knuckle. Lollipopping removes all growth from the bottom third of the plant to redirect energy to top colas; perform during the first 1-2 weeks of flowering.",
+    "key_points": [
+      "ScrOG: screen at 20-25 inches above pot, 1-4 plants per 4x4ft",
+      "SOG: 1 plant per sq ft, flower at 2-3 weeks veg",
+      "Mainlining: top at 3rd node, repeat to create 8 equal colas",
+      "Mainlining adds 2-3 extra weeks to veg time",
+      "Supercropping: crush stem gently, bends 90 degrees, heals in ~1 week",
+      "Lollipopping: remove bottom 1/3 of growth",
+      "Lollipop during first 1-2 weeks of flowering",
+      "ScrOG + topping = most even canopy distribution"
+    ],
+    "source": "https://www.growweedeasy.com/topping-fiming"
+  },
+  {
+    "id": "co2-supplementation",
+    "title": "CO2 Supplementation Guidelines",
+    "category": "environment",
+    "content": "Ambient CO2 is approximately 400 PPM. Cannabis benefits from supplemental CO2 at levels of 1000-1500 PPM, which can increase growth rates by 20-30% when combined with intense lighting and higher temperatures (up to 85-95F / 30-35C). CO2 supplementation is only effective with high-intensity lighting (above 600 PPFD). Below 200 PPM CO2, plant growth ceases. CO2 should only be supplemented during lights-on periods, as plants do not use CO2 during dark periods. Methods include CO2 tanks with regulators, CO2 generators (propane/natural gas burners), and dry ice. Sealed grow rooms are required for effective CO2 enrichment. CO2 above 2000 PPM can be harmful to plants and dangerous to humans.",
+    "key_points": [
+      "Ambient CO2: ~400 PPM",
+      "Supplemented target: 1000-1500 PPM",
+      "Growth increase: 20-30% with proper light and temp",
+      "Requires high light intensity: above 600 PPFD",
+      "Below 200 PPM CO2: plant growth ceases",
+      "Only supplement during lights-on period",
+      "Allows higher temps: up to 85-95F (30-35C)",
+      "Above 2000 PPM: harmful to plants and humans",
+      "Requires sealed grow room for effectiveness"
+    ],
+    "source": "https://www.growweedeasy.com/temperature"
+  },
+  {
+    "id": "indoor-vs-outdoor-br",
+    "title": "Indoor vs Outdoor - Contexto Brasileiro",
+    "category": "setup",
+    "source": "Guia de Cultivo Growroom (flordavida.ong.br)",
+    "content": "A primeira escolha ao planejar cultivar cannabis e entre indoor (ambiente fechado) ou outdoor (ar livre). No Brasil, a proibicao exige precaucoes extras como controle de odor e luz para evitar denuncias.",
+    "key_points": [
+      "Indoor - Vantagens: controle total do ambiente, menor incidencia de pragas, multiplas colheitas anuais, maior sigilo, flores mais exuberantes",
+      "Indoor - Desvantagens: alto custo de energia, investimento em equipamentos, espacos limitados, mais suscetivel a spider mites, exige maior atencao",
+      "Outdoor - Vantagens: luz do sol (melhor fonte e gratuita), sem custo de energia, plantas maiores, espaco amplo, plantas mais resistentes a pragas",
+      "Outdoor - Desvantagens: demora para florescer, mais exposto a pragas, sem controle de temperatura/umidade, vulneravel a denuncias e chuvas",
+      "No Brasil, nao e recomendado outdoor em grandes cidades pela movimentacao de pessoas e risco de denuncia",
+      "O ambiente indoor deve ser a prova de luz, agua e cheiro. Filtros de carvao sao essenciais para odor",
+      "Paredes brancas refletem melhor a luz que papel aluminio — erro comum de iniciantes",
+      "O segredo do sucesso e o segredo — discrição e fundamental no contexto brasileiro"
+    ]
+  },
+  {
+    "id": "sementes-tipos",
+    "title": "Tipos de Sementes: Regulares, Feminizadas e Automaticas",
+    "category": "seeds",
+    "source": "Guia de Cultivo Growroom (flordavida.ong.br)",
+    "content": "Existem tres tipos principais de sementes de cannabis: regulares, feminizadas e automaticas. Cada tipo tem vantagens e desvantagens que se adequam a diferentes situacoes.",
+    "key_points": [
+      "Sementes regulares: produzidas naturalmente por polinizacao, 50% chance de macho e 50% femea",
+      "Sementes feminizadas: garantia de planta femea (99%+), ideais para quem quer so flores sem risco de polinizacao",
+      "Sementes automaticas (autoflowering): florescem automaticamente apos 2-4 semanas independente do fotoperiodo, ciclo total de 8-12 semanas",
+      "Autoflowering: podem ficar 24h na luz ininterruptamente ou 18/6 durante todo o ciclo",
+      "Plantas macho produzem sacos de polen — devem ser removidas assim que identificadas para nao polinizar as femeas",
+      "Planta femea polinizada gasta energia em sementes e rende menos flores e resina",
+      "Sementes podem ser armazenadas por muito tempo em ambiente fresco e escuro",
+      "Clones (estaquias): copia exata da planta mae, garantia de ser femea, corte de ~10cm em diagonal, raizes em ~10 dias"
+    ]
+  },
+  {
+    "id": "lampadas-tipos",
+    "title": "Tipos de Lampadas para Cultivo Indoor",
+    "category": "lighting",
+    "source": "Guia de Cultivo Growroom (flordavida.ong.br)",
+    "content": "A iluminacao e o fator principal para rendimento. A planta precisa de no minimo 2000 lumens por pe quadrado, media de 5000 e ideal de 7000-7500 lumens por pe quadrado.",
+    "key_points": [
+      "HPS (Alta Pressao de Sodio): espectro avermelhado 2000K, ideal para floracao, HPS 400W gera ~45000 lumens, favorita dos growers experientes",
+      "HPS - Desvantagens: gera muito calor, so funciona em 220V, exige refrigeracao",
+      "HQI (Vapor Metalico): espectro 5200K simula sol de verao, perfeita para fase vegetativa, alta quantidade de lumens por watt",
+      "LED: ganhando espaco, esquenta pouco, funciona em 110V, vida util maior, full spectrum cobre ambas fases",
+      "LED - Desvantagens: alto investimento inicial, necessita paineis grandes para bons resultados",
+      "Fluorescentes (CFL): indicadas para seedlings e clones, baixa produtividade mas nao esquentam e sao economicas",
+      "Comum usar fluorescentes ate 5-7cm de altura e depois mover para HPS/LED",
+      "ATENCAO com instalacao eletrica — verificar se o quadro aguenta a potencia, contratar eletricista para instalacao segura",
+      "Minimo 2000 lumens/pe2, media 5000 lumens/pe2, ideal 7000-7500 lumens/pe2"
+    ]
+  },
+  {
+    "id": "floracao-semana-a-semana",
+    "title": "Timeline da Floracao Semana a Semana",
+    "category": "stages",
+    "source": "Guia de Cultivo Growroom (flordavida.ong.br)",
+    "content": "A floracao da cannabis dura em media 7 a 9 semanas para indicas e ate mais para sativas. Cada fase tem caracteristicas e cuidados especificos.",
+    "key_points": [
+      "Semana 1-2: trocar nutrientes de vegetativa para floracao, pistilos brancos aparecem nos caules, atencao especial nessa transicao",
+      "Semana 3-4: planta 25-50% maior que no inicio da flora, primeiras glandulas de resina e tricomas visiveis, crescimento vegetativo termina, energia concentrada na floracao, buds comecam a engordar",
+      "Semana 4: odor se torna muito mais perceptivel com producao intensa de tricomas",
+      "Semana 5-6: flores existentes ficam mais densas e espessas, novas flores aparecem por toda planta, pistilos ficando avermelhados, tricomas ficando opacos",
+      "Semana 7-9: adubacao pode ser interrompida, regar apenas com agua (flush), odor muito forte — garantir filtro de carvao",
+      "Variedades sativas podem levar mais de 9 semanas — consultar informacoes da strain especifica",
+      "Verificar tricomas com lupa: transparentes = cedo demais, leitosos = pico THC, ambar = THC virando CBN (mais sedativo)",
+      "Hermafroditismo pode ocorrer por estresse de luz vazando durante as 12h de escuro — garantir escuridao total"
+    ]
+  },
+  {
+    "id": "glossario-cultivo",
+    "title": "Glossario de Termos de Cultivo de Cannabis",
+    "category": "education",
+    "source": "Guia de Cultivo Growroom (flordavida.ong.br)",
+    "content": "Termos essenciais usados no cultivo de cannabis para iniciantes e cultivadores.",
+    "key_points": [
+      "Breeder: cultivador que cria suas proprias sementes/geneticas",
+      "Bud: a flor da cannabis, parte consumida",
+      "Clone/Estaquia: muda retirada da planta mae para criar nova planta identica",
+      "Grow: espaco de cultivo",
+      "Grower: cultivador/jardineiro",
+      "Growshop: loja de produtos para cultivo",
+      "Inerte: substrato sem nutrientes (coco, perlita)",
+      "Organico: material de origem natural, sem quimicos sinteticos",
+      "Overfert: excesso de adubo, causa danos graves (pontas queimadas)",
+      "Overwater: excesso de agua, folhas murchas mesmo com solo umido, pode causar root rot",
+      "Pistilos: cabelos brancos da planta femea na floracao, ficam avermelhados ao amadurecer",
+      "Spider Mite: acaro vermelho, praga comum indoor, fica na parte inferior das folhas e suga seiva",
+      "Tricoma: glandulas de resina nos buds, contem cannabinoides e terpenos, indicam maturidade pela cor",
+      "Flush: lavagem do substrato com agua pura antes da colheita para remover residuos de nutrientes"
+    ]
+  },
+  {
+    "id": "spider-mites",
+    "title": "Spider Mites",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/spider-mites",
+    "content": "Spider Mites [object Object] Pinpoint spots on upper leaf surfaces (early stage). Leaves turn yellow or bronze with extensive speckling (advanced). Leaves die prematurely, entire buds covered in webbing (severe). Plant death possible overnight with heavy infestation (extreme) Pierce individual plant cells and suck out contents. A single mature female can produce a million mites in less than a month. Cannabis-specialist strains ('the borg') develop pesticide resistance rapidly.",
+    "key_points": [
+      "Pinpoint spots on upper leaf surfaces (early stage)",
+      "Leaves turn yellow or bronze with extensive speckling (advanced)",
+      "Leaves die prematurely, entire buds covered in webbing (severe)",
+      "Plant death possible overnight with heavy infestation (extreme)",
+      "Grower's Ally Spider Mite Control Spray: Ready-to-use spray. Active ingredients: rosemary oil, clove oil, peppermint oil. Kills spider mites and eggs on contact. Spray 15 min before lights out, drench foliage undersides and soil surface. Use fan to aid drying. Multiple treatments required.",
+      "Spinosad (Bonide Captain Jack's Deadbug Brew): Active ingredient: fermentation product of Saccharopolyspora spinosa bacteria. Apply as topical spray via mister OR systemic through watering. Completely harmless to pets, children, and plants. Effective ~24 hours after mixing, must mix fresh batches. Safe for heavy application. Also controls caterpillars and thrips. NOT recommended for commercial growers. Requires one-hand pressure sprayer/mister.",
+      "Earth's Ally 3-in-1 Plant Spray: Organic concentrate based on horticultural oils. Mix and spray via mister on all leaf surfaces. Effective ~24 hours, requires daily application or rotation with other methods. Multi-purpose: insecticide, fungicide, spider mite repellent. Safe for humans.",
+      "Mite Killer Spray by Mite-B-Gone: Insecticidal soap. Active ingredients: Sodium Lauryl Sulfate (SLS), citric acid, sodium chloride. Weakens the outer shell of spider mites. Spray coverage critical, short residual activity. Non-toxic and environmentally friendly. Avoid spraying buds. Requires repeated applications.",
+      "Neem Oil: Botanical insecticide applied via mister. Oil/water separation requires frequent agitation. Broad-spectrum pest control. CRITICAL: can leave unpleasant taste/smell on buds when used on flowering plants - avoid buds entirely. Some evidence neem oil may be harmful to humans. Mister essential for application.",
+      "Insecticidal Soap (Safer Soap, Mighty Wash): Fatty acid/sulfate ester-based. Dip or spray small plants; spray established plants. Safe for humans, minimal residue. Ideal for quarantine treatment of new clones/plants.",
+      "Diatomaceous Earth (Food-Grade): Desiccant powder from fossilized remains. Sprinkle on soil surface, windowsills, doorways. Microscopically sharp substance tears and dehydrates spider mites on physical contact. Safe for mammals and plants. Not a standalone solution but aids control and slowing. Reapply after watering/disturbance.",
+      "Ladybugs (Predatory Insects): Supplementary control, unlikely to fully eradicate. Best for small problems or near-harvest situations when chemicals are unsuitable. Avoid killing beneficial larvae and pupae (appear as yellow/orange spiky forms).",
+      "Predatory Mites (Neoseiulus/Amblyseius californicus): Best against two-spotted spider mites. Supplementary biological control. Best use in outdoor gardens to preserve natural predator populations.",
+      "Doktor Doom Spider Mite Knockout Spray: Pyrethrum-based botanical insecticide. Hard on spider mites but can be hard on plants. NEVER apply with lights on (causes plant burn). Use with extreme care around humans as ingredients can be toxic. Avoid on young or sensitive plants. Cover grow lights and vents; allow 24-hour air-out before human occupancy. Apply 2-4 times every 2-3 days. Kills mites but NOT their eggs. Pyrethrum fogger available for large grows. Kills beneficial insects too. Use as LAST RESORT only.",
+      "Floramite: Miticide with harsh chemicals. Incredibly expensive. Often works when everything else fails. Use only as a last resort. Follow label directions strictly."
+    ]
+  },
+  {
+    "id": "thrips",
+    "title": "Thrips",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/thrips",
+    "content": "Thrips [object Object] Shiny (sometimes slimy-looking), silver or bronze spots on leaves. Irregular shaped marks on leaf surface, larger than spider mite damage. Marks resemble dried spit or tiny snail trails. Severe infestations cause leaf death Thrips scrape and rasp leaf surfaces to feed on plant juices, creating characteristic silvery/bronze scarring patterns. Heavy infestations weaken plants and can kill leaves.",
+    "key_points": [
+      "Shiny (sometimes slimy-looking), silver or bronze spots on leaves",
+      "Irregular shaped marks on leaf surface, larger than spider mite damage",
+      "Marks resemble dried spit or tiny snail trails",
+      "Severe infestations cause leaf death",
+      "Insecticidal Soap (Fatty Acid Salts): Spray coverage essential. Requires follow-up applications. Avoid getting any on buds. Brief residual effect only.",
+      "Neem Oil: All-natural botanical oil. Apply via misting spray using pressure sprayer. Multiple applications needed. CRITICAL: will leave unpleasant taste/smell on buds when used on flowering plants. Potential human health concerns documented. Requires one-hand pressure sprayer.",
+      "Spinosad (Monterey Garden Insect Spray with Spinosad): Active ingredient: Saccharopolyspora spinosa (fermentation-derived from soil bacteria). Apply as topical spray OR root drench via watering. Affects insect nervous system. Effective for only ~24 hours after mixing with water - mix fresh. NOT recommended for commercial growers. Also targets caterpillars, spider mites, other pests.",
+      "Pyrethrin Spray (Bonide 857 Pyrethrin Spray Concentrate): Fast-degrading organic insecticide. Dosage: 3 tablespoons of concentrate per gallon of water. Use right after sun goes down due to bee toxicity. Breaks down within 1-2 days. VERY toxic to bees - use as last resort only.",
+      "Diatomaceous Earth (Food-Grade): Mechanical/organic control. Sprinkle on soil surface, around tent perimeter, windowsills, doorways. Microscopic sharpness dehydrates and tears thrips on contact. Harmless to mammals and plants. Can cut down thrip numbers relatively quickly. Mix into topsoil and spread around plant base for preventative barrier.",
+      "Mix diatomaceous earth into topsoil and spread around plant base as preventative barrier",
+      "Avoid all sprays contacting buds",
+      "Regular plant inspection for early detection",
+      "Maintain good air circulation",
+      "Keep growing area clean"
+    ]
+  },
+  {
+    "id": "aphids",
+    "title": "Aphids (Greenflies/Blackflies)",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/aphids",
+    "content": "Aphids (Greenflies/Blackflies) [object Object] Yellow and/or wilted leaves from excessive sap extraction. Sticky honeydew (sugary liquid waste) on leaves and branches. Sooty mold fungus (black coating) growing on honeydew deposits. Ant presence around plants (attracted to honeydew). Silvery shed exoskeletons on leaves. Clusters/colonies visible on stems and leaf undersides Pierce plants with sucking mouth-parts and feed on juices inside. Produce honeydew that attracts sooty mold fungus, turning leaves/branches black. Honeydew also attracts ants which farm aphids. Sooty mold on buds renders them potentially unsafe to smoke. A few colonizers can create hundreds or thousands of aphids in just a few weeks.",
+    "key_points": [
+      "Yellow and/or wilted leaves from excessive sap extraction",
+      "Sticky honeydew (sugary liquid waste) on leaves and branches",
+      "Sooty mold fungus (black coating) growing on honeydew deposits",
+      "Ant presence around plants (attracted to honeydew)",
+      "Silvery shed exoskeletons on leaves",
+      "Clusters/colonies visible on stems and leaf undersides",
+      "Water Spray Removal (Mechanical): Use power sprayer or adjustable mister (e.g., Chapin International 10031 Multi-Purpose Pressure Sprayer) to spray bugs directly off plants. Removes physical bugs. Use as needed.",
+      "Insecticidal Soap (Garden Safe Insecticidal Soap): Fatty acid salts that weaken outer shell of aphids. Spray for full coverage. Follow-up applications necessary. Safe for plants. Avoid contacting buds. Does not leave much residue. Coverage critical as it doesn't stay long.",
+      "Neem Oil (Neem Bliss 100% Cold Pressed Neem Oil): All-natural botanical oil. Requires mister/pressure sprayer. Mix thoroughly as oil/water separate easily. Repeat applications as needed. Leaves unpleasant taste/smell on buds - keep away from flowering plants. Some evidence of potential human harm. Works against many bug types and mold.",
+      "Spinosad (Monterey Garden Insect Spray with Spinosad): Organic insecticide from Saccharopolyspora spinosa fermentation. Kills via ingestion/contact by affecting nervous system. Spray liberally under leaves. Mix fresh as products effective only ~24 hours after mixing. Safe for pets, children, plants. Less toxic to beneficial insects/spiders. NOT recommended for commercial growers. Requires mister for even coverage.",
+      "Ladybugs, Lady Beetles, Lacewings: Release predatory insects that eat aphids. Can order ladybugs online. Limited impact after infestation is established. Tend to disperse within 1-2 days. Reproduction rate may be insufficient against established colonies. Larvae also consume aphids.",
+      "Ant Control (Indirect Treatment): Eliminate ant populations that farm aphids to collect honeydew. Ants maintain aphid infestations by protecting them from predators. Use standard ant control methods as needed.",
+      "Examine plants at least weekly",
+      "Focus inspection on bud areas and undersides of new leaves",
+      "Look for clusters/colonies indicating establishment"
+    ]
+  },
+  {
+    "id": "caterpillars",
+    "title": "Caterpillars (Budworms, Inchworms, Cabbage Loopers)",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/caterpillars",
+    "content": "Caterpillars (Budworms, Inchworms, Cabbage Loopers) [object Object] Chunks of leaves missing from feeding activity. Clumps of black/brown 'dirt' on leaves (caterpillar frass/poop). Holes in foliage on both upper and lower leaf surfaces. Damaged and hollowed-out buds (budworms). Visible caterpillars on leaves and stems Caterpillars chew through leaves and buds, consuming large amounts of plant material. Budworms bore into buds and eat them from the inside, causing rot and mold. Frass (caterpillar poop) accumulates on leaves and buds. Can cause significant defoliation and bud loss.",
+    "key_points": [
+      "Chunks of leaves missing from feeding activity",
+      "Clumps of black/brown 'dirt' on leaves (caterpillar frass/poop)",
+      "Holes in foliage on both upper and lower leaf surfaces",
+      "Damaged and hollowed-out buds (budworms)",
+      "Visible caterpillars on leaves and stems",
+      "BT Spray - Bacillus thuringiensis (Southern Ag Thuricide BT Caterpillar Control): Active ingredient: Bacillus thuringiensis bacteria. Apply with mister on both leaf surfaces. Apply weekly while caterpillars present; reapply after rain. Safe to use until harvest day. Stops caterpillars from being able to eat (they starve). Any BT brand caterpillar killer works. 'Thuricide' is just marketing terminology. Most targeted and effective option specifically for caterpillars.",
+      "Spinosad (Monterey Garden Insect Spray with Spinosad): Active ingredient: fermented soil bacteria (Saccharopolyspora spinosa). Spray on leaves/roots or water into soil. Less toxic to many beneficial insects but less effective than BT for caterpillars alone. Also targets aphids, spider mites, thrips, whiteflies. Commercial growers should research regulatory restrictions. Mix only needed amount; effective ~24 hours after mixing.",
+      "Manual Removal (Hand-Picking): Hand-pick visible caterpillars from plants. Inspect thoroughly including inside buds. Effective for small infestations or as supplement to other treatments.",
+      "Prevent butterflies and moths from accessing growing area",
+      "Use netting or screens over outdoor plants",
+      "Regular inspection of plants for eggs, frass, and larvae",
+      "Apply BT preventatively during outdoor growing season",
+      "Remove visible eggs before they hatch"
+    ]
+  },
+  {
+    "id": "bud-rot",
+    "title": "Bud Rot (Botrytis cinerea)",
+    "category": "disease",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/bud-rot",
+    "content": "Bud Rot (Botrytis cinerea) White and fluffy mold appearing on buds in initial stages. Sudden yellowing of leaves on large colas. Brown or discolored patches on buds, changes occurring within 1-2 days. In advanced stages: dark gray or brown interior visible when buds are cracked open, dusty speckled appearance from fungus spores, purple or yellow leaves on affected buds, crispy dried-out bud sections, easily separable bud material. Yellow or dying leaves on buds. Bronze or brown patches on buds. Dark or discolored buds. Buds appearing dried up. Leaves turning purple in response to infection. Leaves easily separating from buds. Brown or gray interior decay. Dusty fungal spores inside buds. Patches of dead tissue on colas. Mushy bud texture. Crispy leaf edges High humidity above 55-60% RH. Wet or damp bud conditions. Stagnant air with poor circulation. Cool temperatures between 50-60F (10-15C). Freezing temperatures with frost/melt cycles. Heat combined with high humidity. Dense thick buds creating internal moisture pockets. Leaves touching each other creating wet spots. Plant wounds or cracks from wind damage. Damage from caterpillars, snails, or other pests. White powdery mildew compromising plant health. Nutrient deficiencies weakening plants. Genetic susceptibility (some strains more vulnerable). Wind-carried spores. Water/rain transmission. Contact from animals. Clones from infected grow rooms. Dormant spores in environment",
+    "key_points": [
+      "Yellow or dying leaves on buds",
+      "Bronze or brown patches on buds",
+      "Dark or discolored buds",
+      "Buds appearing dried up",
+      "Leaves turning purple in response to infection",
+      "Leaves easily separating from buds",
+      "Brown or gray interior decay",
+      "Dusty fungal spores inside buds",
+      "Patches of dead tissue on colas",
+      "Mushy bud texture",
+      "Crispy leaf edges",
+      "Immediate removal of infected material: Remove all rotted bud parts immediately and carefully. Remove nearby buds showing any infection signs. Discard all affected material to prevent spore spread. Carefully separate infected tissue to avoid releasing spores.",
+      "Early harvest: Harvest plants early if environmental conditions cannot be improved to prevent further spread.",
+      "Humidity reduction: Lower humidity to 50-55% RH or below using dehumidifiers indoors.",
+      "Air circulation improvement: Add additional air circulation fans, use exhaust fans to vent humid air away, deploy oscillating fans for air movement."
+    ]
+  },
+  {
+    "id": "white-powdery-mildew",
+    "title": "White Powdery Mildew (WPM)",
+    "category": "disease",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/white-powdery-mildew",
+    "content": "White Powdery Mildew (WPM) White patches of fuzzy, flour-looking substance on leaves. Circular patches resembling flour dust on plant surfaces. Affects leaves, stems, and buds. White coating that stands out against green foliage. Growth appears on both leaf undersides and topsides. White spots on leaves. Dust-like powder on leaf surfaces. Growth on leaf undersides and topsides. Stem infections. Bud contamination and deterioration. Progressive spread across plant tissues High humidity (fungus thrives in moist conditions). Low or no airflow allowing spores to settle. Poor ventilation in enclosed spaces. Leaf-on-leaf contact creating moisture between touching leaves. Bushy plants with dense foliage at higher risk",
+    "key_points": [
+      "White spots on leaves",
+      "Dust-like powder on leaf surfaces",
+      "Growth on leaf undersides and topsides",
+      "Stem infections",
+      "Bud contamination and deterioration",
+      "Progressive spread across plant tissues",
+      "Milk spray: Mix 1 part milk to 3 parts water. Apply liberally while grow lights are on. Any milk type works (skim, 2%, whole). Wet both leaf sides.",
+      "Potassium bicarbonate spray: Dissolve 1 tbsp potassium bicarbonate in 1 gallon water. Optional: add 1 tbsp vegetable oil and 3 drops liquid dish soap. Spray lightly and evenly. Apply during lights off.",
+      "Baking soda solution: Mix 1 tbsp baking soda, 1 tsp liquid dish soap, 1 gallon water. Spray all leaf surfaces top and bottom. Least effective of the homemade options.",
+      "Garden Safe Brand Fungicide3: Organic, OMRI-listed fungicide. Follow label instructions.",
+      "Lost Coast Plant Therapy: Kills WPM and other pests. Safe for flowers, pets, and people. More expensive option.",
+      "GrowSafe Biopesticide: OMRI-listed organic product. Controls WPM and multiple pests. More expensive option.",
+      "SM-90: Commercial treatment for WPM. Note: currently unavailable/discontinued.",
+      "Manual wipe removal (Step 1 of 3-step cure): Wet paper towels with water. Gently wipe mildew from affected leaves. Use paper towels to prevent spore spread. Minimize leaf disturbance.",
+      "Fan setup for environmental control (Step 2 of 3-step cure): Install minimum two fans. One oscillating fan for air circulation to gently rustle leaves. Second fan pointing outward for ventilation exchange. Fresh air intake with stale air exhaust."
+    ]
+  },
+  {
+    "id": "root-rot",
+    "title": "Root Rot",
+    "category": "disease",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/root-rot",
+    "content": "Root Rot Brown, slimy, or mushy roots instead of healthy white/cream colored ones. Twisted or bunched together root strands. Roots appear wound up with individual strands melded together with slime. Foul smell from roots. Some varieties affect only submerged roots while roots above waterline stay white. Brown, slimy, or smelly roots. Mushy root texture. Twisted root appearance. Droopy or wilting appearance (often overnight). Yellow or white discoloration on leaves. Brown patches on foliage. Curling or clawing leaves. Burnt leaf edges or tips. Nutrient deficiency appearance (random mix of symptoms). Spotted or marked leaves. Rapid leaf death and dropping. Reduced water consumption by plant. Overall weakened growth Heat in reservoir (bacteria reproduce more easily at warm temperatures). Light leaks into reservoir breeding unwanted organisms. No air space between net pots and water surface. Lack of dissolved oxygen in water. Stagnant water at roots. Disturbing young roots (exposes them to pathogens, causes twisting). Decaying plant matter in reservoir. Water level too high in reservoir. Twisted roots from handling restricting root growth",
+    "key_points": [
+      "Brown, slimy, or smelly roots",
+      "Mushy root texture",
+      "Twisted root appearance",
+      "Droopy or wilting appearance (often overnight)",
+      "Yellow or white discoloration on leaves",
+      "Brown patches on foliage",
+      "Curling or clawing leaves",
+      "Burnt leaf edges or tips",
+      "Nutrient deficiency appearance (random mix of symptoms)",
+      "Spotted or marked leaves",
+      "Rapid leaf death and dropping",
+      "Reduced water consumption by plant",
+      "Overall weakened growth",
+      "Hydroguard: Contains Bacillus amyloliquefaciens bacteria that fights fungi, bacteria, and oomycetes. May help lower salt concentration in plant tissue. Inexpensive and concentrated - single bottle lasts entire grow. May help with nutrient availability. Author's preferred choice for hydroponic systems.",
+      "Great White Root Powder: Root supplement providing beneficial bacteria. Works when Hydroguard doesn't (effectiveness varies by pathogen type). Some growers report successful root rot recovery. Lower cost sample available for testing."
+    ]
+  },
+  {
+    "id": "leaf-septoria",
+    "title": "Leaf Septoria (Yellow Leaf Spot)",
+    "category": "disease",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/yellow-leaf-spot-leaf-septoria",
+    "content": "Leaf Septoria (Yellow Leaf Spot) Round yellow or brown spots on leaves appearing very uniform like little circles. Spots may have darkened borders. May have a hard growth in the middle resembling a little pimple. Tiny dark specks in the center of each spot (spore receptacles). Spots initially appear yellow but turn brown over time. First appears on the bottom leaves of the plant. Yellow spots on leaves. Brown spots on leaves. Round uniform spotting patterns. Dark-centered lesions with darkened borders. Bottom leaf damage as initial manifestation. Spots turning from yellow to brown over time Fungal infection (primary cause). Bacterial infection (secondary possibility). Warm wet weather conditions. High humidity and moisture on foliage. Spores remaining in soil overwinter. Wind and rain dispersal of spores",
+    "key_points": [
+      "Yellow spots on leaves",
+      "Brown spots on leaves",
+      "Round uniform spotting patterns",
+      "Dark-centered lesions with darkened borders",
+      "Bottom leaf damage as initial manifestation",
+      "Spots turning from yellow to brown over time",
+      "Copper-based fungicide (Bonide): Copper-based fungicide product by Bonide. Apply as foliar spray following label instructions.",
+      "Bonide Revitalize Biofungicide: Biofungicide product by Bonide (Revitalize line). Apply as directed on label.",
+      "Neem Oil: Organic treatment option. Apply as foliar spray with specific application notes for cannabis.",
+      "Manual leaf removal: Remove all affected leaves immediately and carefully to eliminate spore sources.",
+      "Pruning for air circulation: Prune leafy plant sections to improve air circulation around remaining foliage.",
+      "One-Hand Pressure Sprayer/Mister: Use a one-hand pressure sprayer or mister for even application of liquid treatments.",
+      "Remove all affected leaves to eliminate spores",
+      "Improve plant air circulation through pruning",
+      "Avoid wetting foliage or allowing leaves to overlap"
+    ]
+  },
+  {
+    "id": "fungus-gnats",
+    "title": "Fungus Gnats",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/fungus-gnats",
+    "content": "Fungus Gnats Tiny black or dark brown flies (~2mm) resembling miniature mosquitoes with dark wings. Larvae are tiny white/translucent maggots with black heads visible in topsoil. Darker than fruit flies, which appear brown/yellow/orange. Tiny flying insects buzzing around soil and plants. Damping off in seedlings (stems may collapse without apparent cause). Wilting, yellowing, drooping and leaf spotting. Apparent nutrient deficiencies unrelated to pH or actual nutrient levels. Stunted growth or complete growth cessation. Reduced flowering yields. Damage to root hairs and tender roots. Adults spread diseases like pythium (root rot)",
+    "key_points": [
+      "Tiny flying insects buzzing around soil and plants",
+      "Damping off in seedlings (stems may collapse without apparent cause)",
+      "Wilting, yellowing, drooping and leaf spotting",
+      "Apparent nutrient deficiencies unrelated to pH or actual nutrient levels",
+      "Stunted growth or complete growth cessation",
+      "Reduced flowering yields",
+      "Damage to root hairs and tender roots",
+      "Adults spread diseases like pythium (root rot)",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: "
+    ]
+  },
+  {
+    "id": "whiteflies",
+    "title": "Whiteflies",
+    "category": "pest",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/white-flies",
+    "content": "Whiteflies Tiny white moth-like insects (~2mm). Congregate on leaf undersides and take flight when plants are disturbed. Easily spotted with naked eye. White spots appearing on upper leaf surfaces. Visible white insects fluttering around plants. Bronze or brown patches on foliage. Yellowing leaves and wilting. Holes in leaves. Overall plant drooping",
+    "key_points": [
+      "White spots appearing on upper leaf surfaces",
+      "Visible white insects fluttering around plants",
+      "Bronze or brown patches on foliage",
+      "Yellowing leaves and wilting",
+      "Holes in leaves",
+      "Overall plant drooping",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "undefined: ",
+      "Inspect plants regularly, especially leaf undersides",
+      "Quarantine new clones or plants before introducing to grow area",
+      "Maintain good airflow around plants",
+      "Use yellow sticky traps as early warning system"
+    ]
+  },
+  {
+    "id": "nitrogen-deficiency",
+    "title": "Nitrogen (N) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/nitrogen-deficiency",
+    "content": "Nitrogen (N) Deficiency Older, lower leaves turn yellow, wilt and eventually die. Entire plant appears pale or lime-colored. Yellow leaves show brown signs and become soft. Leaves fold inward before turning crispy. Affected foliage eventually falls off on its own. Yellowing progresses upward from bottom if severe Insufficient nutrient supply to roots. Root-zone pH too low, preventing nitrogen absorption. Plant redirects nitrogen from older leaves to prioritize new growth Apply complete plant food containing nitrogen,Use nitrate of soda or organic fertilizer sources,Switch to higher-nitrogen vegetative formulas during growth stage,Check and adjust root-zone pH if problem persists,During flowering: use bloom formulas with lower nitrogen ratios,Late flowering: natural yellowing is normal and beneficial - no action needed",
+    "key_points": [
+      "Older, lower leaves turn yellow, wilt and eventually die",
+      "Entire plant appears pale or lime-colored",
+      "Yellow leaves show brown signs and become soft",
+      "Leaves fold inward before turning crispy",
+      "Affected foliage eventually falls off on its own",
+      "Yellowing progresses upward from bottom if severe"
+    ]
+  },
+  {
+    "id": "phosphorus-deficiency",
+    "title": "Phosphorus (P) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/phosphorus-deficiency",
+    "content": "Phosphorus (P) Deficiency Lower/older leaves turn dark green or yellow with brown, bronze, or blue-tinted spots. Leaves develop shiny-looking splotches and may thicken. Leaves thicken, curl downward, and feel stiff. Stems may display bright red or purple coloration (starting from underneath). Progressive worsening if left untreated Root zone pH outside optimal range. Overwatering or wet, compact soil conditions. Temperature below 60F (15C) or temperature fluctuations. Excess iron (Fe) or zinc (Zn) blocking phosphorus absorption. Nutrient salt buildup in growing medium Flush system with pH-balanced water containing standard cannabis nutrients,Ensure proper watering practices and root health,Maintain comfortable room temperatures (above 60F/15C),Check for excess nutrient salt accumulation,Provide balanced nutrient ratios rather than excess phosphorus,Monitor recovery over 7-14 days on new growth (damaged leaves won't recover)",
+    "key_points": [
+      "Lower/older leaves turn dark green or yellow with brown, bronze, or blue-tinted spots",
+      "Leaves develop shiny-looking splotches and may thicken",
+      "Leaves thicken, curl downward, and feel stiff",
+      "Stems may display bright red or purple coloration (starting from underneath)",
+      "Progressive worsening if left untreated"
+    ]
+  },
+  {
+    "id": "potassium-deficiency",
+    "title": "Potassium (K) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/potassium-deficiency",
+    "content": "Potassium (K) Deficiency Yellow, brown, or burnt edges and tips on leaves. Yellow coloring appears between leaf edges alongside brown/burnt areas. Leaf tips curl as edges turn brown and die. Inner leaf veins remain green while surrounding tissue is damaged. Leaves may appear almost white or pale yellow. Weakened stems, plant may stretch pH imbalance blocking potassium absorption. Overwatering. Reverse osmosis or heavily filtered water lacking minerals. Stressful growing conditions (heat, transplant shock) Rule out light burn: move grow lights at least 12 inches from plants,Verify nutrient adequacy - quality soil or cannabis-specific nutrients usually provide enough potassium,Flush system with pH-balanced water containing standard nutrient dose,Monitor recovery on new growth (damaged leaves won't recover)",
+    "key_points": [
+      "Yellow, brown, or burnt edges and tips on leaves",
+      "Yellow coloring appears between leaf edges alongside brown/burnt areas",
+      "Leaf tips curl as edges turn brown and die",
+      "Inner leaf veins remain green while surrounding tissue is damaged",
+      "Leaves may appear almost white or pale yellow",
+      "Weakened stems, plant may stretch"
+    ]
+  },
+  {
+    "id": "calcium-deficiency",
+    "title": "Calcium (Ca) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/calcium-deficiency",
+    "content": "Calcium (Ca) Deficiency Brown or bronze splotches/spots on leaves. Brown patches or scorch marks on actively growing leaves. Crinkling, mottling, and stunting of new growth. Curled leaf tips and leaf die-off. Small or distorted new leaves. Yellowing may accompany brown spots Low pH at the roots (most common cause). Using filtered or reverse osmosis water lacking minerals. Growing in hydro or coco coir without Cal-Mag supplementation. Soil not amended with calcium sources like dolomite lime. Excessive potassium can trigger deficiency. Acidic soil conditions below 6.2 pH Flush system with pH-balanced, nutrient-rich water,Supplement with Cal-Mag (e.g., CaliMagic: 1 tsp/gallon of water),For soil: add 6-7 teaspoons dolomite lime per gallon of soil,Adjust pH to optimal range,Expect healthy new growth within one week (damaged leaves won't recover)",
+    "key_points": [
+      "Brown or bronze splotches/spots on leaves",
+      "Brown patches or scorch marks on actively growing leaves",
+      "Crinkling, mottling, and stunting of new growth",
+      "Curled leaf tips and leaf die-off",
+      "Small or distorted new leaves",
+      "Yellowing may accompany brown spots"
+    ]
+  },
+  {
+    "id": "magnesium-deficiency",
+    "title": "Magnesium (Mg) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/magnesium-deficiency",
+    "content": "Magnesium (Mg) Deficiency Light green or yellow coloring on veins and edges of lower/older leaves. Interveinal chlorosis: yellowing between veins while veins stay green. Red stems may appear (not always present). Leaf edges become crispy. Light brown spotting develops within margins if deficiency worsens. Plant loses lower leaves rapidly without intervention pH lock-out (primary cause) - roots cannot absorb magnesium at wrong pH. Calcium-only supplements without magnesium (agricultural lime, eggshells). Using coco coir or RO water without Cal-Mag supplementation. Accompanying calcium or iron deficiencies Flush system with properly pH'd water containing full nutrient solution,Supplement with Cal-Mag (e.g., General Hydroponics CaliMagic at 1 tsp/gallon),Check and correct root zone pH,For soil: add dolomite lime (6-7 tsp per gallon of soil),New healthy growth appears within one week (damaged leaves won't recover)",
+    "key_points": [
+      "Light green or yellow coloring on veins and edges of lower/older leaves",
+      "Interveinal chlorosis: yellowing between veins while veins stay green",
+      "Red stems may appear (not always present)",
+      "Leaf edges become crispy",
+      "Light brown spotting develops within margins if deficiency worsens",
+      "Plant loses lower leaves rapidly without intervention"
+    ]
+  },
+  {
+    "id": "iron-deficiency",
+    "title": "Iron (Fe) Deficiency",
+    "category": "deficiency",
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/iron-deficiency",
+    "content": "Iron (Fe) Deficiency Newest leaves are completely bright yellow when they first grow in. Yellow sections may appear almost white. Affected leaves may gradually turn green over time, starting from tips toward base. Severe initial yellowing that can self-correct partially pH too high (especially above 7.0) causing iron lockout. Root problems or overwatering. Heavily filtered or reverse osmosis water (removes iron). Excess copper in the system. Nutrient lockout from excessive fertilizer. Stressful growing conditions (may resolve on its own) Adjust pH to proper range (most important step),Flush system with clean, pH-balanced water,Apply Cal-Mag supplements containing iron,Most growers don't need additional iron - focus on pH correction first,Ensure proper watering and healthy root development,Monitor recovery within one week",
+    "key_points": [
+      "Newest leaves are completely bright yellow when they first grow in",
+      "Yellow sections may appear almost white",
+      "Affected leaves may gradually turn green over time, starting from tips toward base",
+      "Severe initial yellowing that can self-correct partially"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "rdc-660",
+    "title": "RDC 660/2022 — Regulamentação de Produtos de Cannabis",
+    "type": "regulation",
+    "authority": "ANVISA",
+    "summary": "Resolução que define critérios e procedimentos para a fabricação e importação de produtos de cannabis para fins medicinais e científicos no Brasil.",
+    "key_points": [
+      "Produtos com até 0.2% de THC podem ser vendidos em farmácias e drogarias com receita tipo B (azul)",
+      "Produtos com mais de 0.2% de THC requerem prescrição médica com receita tipo A (amarela) ou autorização especial da ANVISA",
+      "Importação por pessoa física requer autorização prévia da ANVISA e prescrição médica",
+      "Autorização de importação tem validade de até 2 anos, podendo ser renovada",
+      "Produtos devem ser industrializados — flor e extratos artesanais não estão contemplados na regulamentação para venda",
+      "Empresas fabricantes devem seguir Boas Práticas de Fabricação (BPF)"
+    ],
+    "patient_access": {
+      "import_steps": [
+        "1. Obter prescrição médica com CID, posologia e duração do tratamento",
+        "2. Cadastrar-se no portal da ANVISA",
+        "3. Solicitar autorização de importação via peticionamento eletrônico",
+        "4. Aguardar análise (prazo médio: 10-15 dias úteis)",
+        "5. Com autorização aprovada, importar o produto via empresa autorizada ou diretamente",
+        "6. Produto pode ser retido na alfândega para conferência — ter documentação em mãos"
+      ],
+      "required_documents": [
+        "Prescrição médica (com CID-10 obrigatório)",
+        "Laudo médico detalhado",
+        "Documento de identidade do paciente",
+        "Comprovante de residência",
+        "Termo de responsabilidade e esclarecimento"
+      ]
+    }
+  },
+  {
+    "id": "pharmacy-products",
+    "title": "Produtos Disponíveis em Farmácias no Brasil",
+    "type": "access",
+    "summary": "Alguns produtos à base de cannabis com até 0.2% THC já estão disponíveis para venda em farmácias brasileiras.",
+    "key_points": [
+      "Requerem receita tipo B (receituário azul) com retenção",
+      "Concentrações típicas: CBD 200mg/mL em óleo MCT",
+      "Preços variam significativamente — de R$150 a R$3.000 dependendo da concentração e marca",
+      "Associações de pacientes e importação direta costumam ser mais acessíveis financeiramente",
+      "Produtos em farmácia são limitados a CBD predominante — full-spectrum com THC requer importação"
+    ]
+  },
+  {
+    "id": "habeas-corpus",
+    "title": "Habeas Corpus e Salvo Conduto para Cultivo",
+    "type": "legal",
+    "summary": "Pacientes e associações têm obtido autorização judicial para cultivo de cannabis medicinal via habeas corpus preventivo.",
+    "key_points": [
+      "Não existe lei federal que autorize cultivo pessoal — autorizações são judiciais caso a caso",
+      "Associações como ABRACE (João Pessoa), Apepi (Rio), Santa Cannabis (SP) operam com autorização judicial",
+      "STJ tem jurisprudência favorável em casos de necessidade médica comprovada",
+      "Habeas corpus preventivo protege contra prisão por cultivo quando há comprovação médica",
+      "Em 2024, STF julgou descriminalização do porte para uso pessoal, mas não abordou cultivo medicinal diretamente"
+    ]
+  },
+  {
+    "id": "prescription-types",
+    "title": "Tipos de Receita para Cannabis Medicinal",
+    "type": "regulation",
+    "summary": "Tipos de receituário médico exigidos para prescrição de cannabis no Brasil.",
+    "key_points": [
+      "Receita Tipo B (azul): para produtos com até 0.2% THC. Validade 30 dias, máximo 60 dias de tratamento",
+      "Receita Tipo A (amarela): para produtos com mais de 0.2% THC. Controle mais restrito",
+      "Qualquer médico com CRM ativo pode prescrever — não precisa ser especialista",
+      "CID-10 é obrigatório na prescrição para autorização de importação ANVISA",
+      "O médico pode prescrever formulações magistrais manipuladas em farmácias autorizadas"
+    ]
+  },
+  {
+    "id": "consultant-role",
+    "title": "Papel do Consultor Canábico",
+    "type": "professional",
+    "summary": "O consultor canábico atua na educação e orientação do paciente, complementando — não substituindo — o acompanhamento médico.",
+    "key_points": [
+      "Consultor canábico NÃO é profissional de saúde regulamentado e NÃO pode prescrever",
+      "Atua na educação sobre o sistema endocanabinoide, tipos de produtos, vias de administração",
+      "Orienta sobre legislação, acesso, associações de pacientes e processos regulatórios",
+      "Auxilia o paciente a compreender seu tratamento e dialogar de forma informada com o médico",
+      "Pode orientar sobre terpenos, proporções de cannabinoides e formas de uso",
+      "Trabalha de forma complementar a médicos prescritores"
+    ]
+  }
+]

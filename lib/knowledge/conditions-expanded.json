@@ -1,0 +1,207 @@
+[
+  {
+    "id": "condition-autism",
+    "title": "Transtorno do Espectro Autista (TEA)",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, norml.org",
+    "content": "O Transtorno do Espectro Autista (TEA) apresenta evidencias preliminares promissoras para o uso de cannabinoides, especialmente formulacoes ricas em CBD. Estudos observacionais realizados no Brasil e em Israel (7 estudos, 494 pacientes) indicam melhorias em ansiedade, qualidade do sono, interacao social e comportamentos disruptivos. Um desequilibrio no sistema endocanabinoide (eCB) foi identificado em pacientes com TEA, o que fundamenta o racional terapeutico. O oleo de cannabis rico em CBD (ratio CBD:THC 20:1) demonstrou perfil de seguranca adequado, com efeitos adversos geralmente leves. Em estudo retrospectivo com criancas com TEA e problemas comportamentais graves, o CBD mostrou melhora significativa nos sintomas. Contudo, ate o momento, ensaios clinicos randomizados controlados por placebo permanecem escassos, e os resultados sao inconsistentes entre individuos. A dosagem pediatrica deve seguir protocolo de titulacao lenta, iniciando com 0,5-1 mg/kg/dia de CBD, com aumento gradual conforme tolerancia.",
+    "key_points": [
+      "evidencia: preliminar/moderada",
+      "cannabinoides: CBD predominante, ratio CBD:THC 20:1",
+      "dosagem pediatrica: iniciar com 0,5-1 mg/kg/dia de CBD, titulacao lenta",
+      "dosagem adulto: 150-600 mg/dia de CBD",
+      "PMID: 30382443 - CBD-rich cannabis em criancas com TEA e problemas comportamentais graves",
+      "PMID: 34432543 - Seguranca e eficacia da cannabis medicinal em TEA vs medicamentos convencionais",
+      "PMID: 36249785 - Seguranca bioquimica da cannabis medicinal em criancas com TEA",
+      "PMID: 32825313 - Revisao sistematica de cannabinoides para TEA",
+      "PMID: 34043900 - Cannabis e uso de cannabinoides em TEA: revisao sistematica",
+      "PMID: 36176817 - Estudo de caso de CBD no tratamento de TEA",
+      "contraindicacoes: THC deve ser minimizado em criancas; monitorar funcao hepatica; interacao com anticonvulsivantes",
+      "formas de uso: oleo sublingual (preferencial em pediatria), capsulas",
+      "mecanismo: modulacao do sistema endocanabinoide (CB1/CB2), regulacao de respostas emocionais e interacao social"
+    ]
+  },
+  {
+    "id": "condition-crohn-colitis",
+    "title": "Doenca de Crohn e Colite Ulcerativa",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, cochrane",
+    "content": "As doencas inflamatorias intestinais (DII) - Doenca de Crohn e Colite Ulcerativa - possuem evidencias moderadas para o uso de cannabis. Cinco ensaios clinicos randomizados controlados (3 para Crohn, 2 para Colite Ulcerativa, 185 participantes) foram conduzidos. Para Doenca de Crohn, um estudo com 21 participantes mostrou que 45% do grupo cannabis atingiu remissao clinica vs 10% do placebo. Outro estudo encontrou 40% de remissao com oleo de cannabis vs 33% com placebo. Porem, um ensaio duplo-cego mais recente demonstrou que, embora o indice de atividade da doenca e a qualidade de vida tenham melhorado, o escore endoscopico (inflamacao tecidual) nao apresentou melhora significativa - indicando beneficio sintomatico sem cura da inflamacao subjacente. Para Colite Ulcerativa, os resultados foram menos expressivos: 24% de remissao com cannabis vs 26% com placebo. O sistema endocanabinoide desempenha papel importante na regulacao da inflamacao intestinal, com receptores CB1 e CB2 expressos no trato gastrointestinal. O THC parece ser o cannabinoide mais eficaz para DII, com o CBD atuando como adjuvante anti-inflamatorio.",
+    "key_points": [
+      "evidencia: moderada para sintomas, fraca para remissao endoscopica",
+      "cannabinoides: THC predominante + CBD adjuvante, ratio 1:1 a 1:4 (THC:CBD)",
+      "dosagem: THC 5-15 mg 2-3x/dia; CBD 10-40 mg/dia como adjuvante",
+      "PMID: 31613959 - Cannabis para Crohn e Colite: evidencias de revisoes Cochrane",
+      "PMID: 33858011 - Cannabis oral rica em CBD induz resposta clinica mas nao endoscopica em Crohn",
+      "PMID: 32149543 - Visao geral do tratamento com cannabis na Doenca de Crohn",
+      "contraindicacoes: eventos adversos mais prevalentes no grupo cannabis; cautela com obstrucao intestinal; interacao com imunossupressores",
+      "formas de uso: oleo sublingual, capsula oral, vaporizacao para crises agudas",
+      "limitacoes: beneficio sintomatico sem evidencia de cura da inflamacao; amostras pequenas nos estudos",
+      "protocolo: iniciar com dose baixa de THC (2,5 mg), titular gradualmente; manter CBD constante"
+    ]
+  },
+  {
+    "id": "condition-endometriosis",
+    "title": "Endometriose",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, sciencedirect",
+    "content": "A endometriose apresenta evidencias preliminares para o uso de cannabis, baseadas principalmente em estudos observacionais e surveys. Pesquisas transversais consistentemente mostram que mulheres com endometriose relatam alivio significativo da dor pelvica, sintomas gastrointestinais e alteracoes de humor com o uso de cannabis. Expressao intensa de receptores CB1 e CB2 foi detectada em celulas epiteliais de lesoes endometrioticas ovarianas, com expressao significativamente maior comparada ao estroma - fornecendo base biologica para a acao dos cannabinoides. O sistema endocanabinoide regula percepcao de dor, inflamacao e proliferacao celular, processos centrais na fisiopatologia da endometriose. Algumas pacientes relataram reducao no uso de analgesicos tradicionais apos inicio do uso de cannabis. A eficacia varia conforme o metodo de ingestao: formas orais e sublinguais para dor cronica, supositorio vaginal para dor pelvica localizada, vaporizacao para crises agudas. Nao existem ensaios clinicos randomizados controlados ate o momento, representando uma lacuna importante na literatura.",
+    "key_points": [
+      "evidencia: preliminar (baseada em surveys e estudos observacionais)",
+      "cannabinoides: CBD + THC combinados, ratio 2:1 a 4:1 (CBD:THC) para dor cronica",
+      "dosagem: CBD 25-50 mg 2x/dia; THC 2,5-5 mg conforme necessidade para crises",
+      "PMID: 39211562 - Avaliacao da eficacia da cannabis para dor associada a endometriose (2024)",
+      "PMID: 34699540 - Efeitos da ingestao de cannabis na dor pelvica associada a endometriose",
+      "PMID: 35692500 - Deteccao de receptores cannabinoides em lesoes endometrioticas",
+      "contraindicacoes: cautela com uso concomitante de anticoncepcionais hormonais; evitar THC em altas doses se historico de transtornos de humor",
+      "formas de uso: oleo sublingual, supositorio vaginal (dor pelvica localizada), vaporizacao (crises agudas), topicos",
+      "mecanismo: modulacao de CB1/CB2 em lesoes endometrioticas, efeito anti-inflamatorio e analgesico",
+      "limitacao: ausencia de ensaios clinicos randomizados controlados"
+    ]
+  },
+  {
+    "id": "condition-migraine",
+    "title": "Enxaqueca e Cefaleia Cronica",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, frontiers",
+    "content": "A enxaqueca possui evidencias moderadas a fortes para o uso de cannabis, com o primeiro ensaio clinico randomizado, duplo-cego e controlado por placebo publicado recentemente. O estudo testou cannabis vaporizada (6% THC + 11% CBD) vs placebo em 92 participantes tratando 247 ataques de enxaqueca. THC+CBD foi superior ao placebo no alivio da dor (67,2% vs 46,6%), liberdade de dor, e melhora do sintoma mais incomodo em 2 horas, alem de liberdade de fotofobia e fonofobia em 2 horas, com melhorias sustentadas em 24 e 48 horas. Revisoes sistematicas demonstram que a cannabis medicinal reduziu significativamente nausea e vomito associados a enxaqueca apos 6 meses de uso, e reduziu o numero de dias de enxaqueca apos 30 dias. Cannabis mostrou-se 51% mais eficaz na reducao de enxaquecas comparada a produtos nao-cannabis. Comparada a amitriptilina, abortou enxaquecas em 11,6% dos usuarios. Para uso profilatico, doses baixas regulares de CBD podem reduzir frequencia; para tratamento agudo, vaporizacao de THC+CBD oferece inicio de acao rapido.",
+    "key_points": [
+      "evidencia: moderada (primeiro RCT publicado com resultados positivos)",
+      "cannabinoides: THC + CBD combinados, ratio aproximado 1:2 (THC:CBD) para agudo",
+      "dosagem profilatica: CBD 25-50 mg 2x/dia",
+      "dosagem aguda: vaporizacao com THC 6% + CBD 11%, ou oleo sublingual THC 2,5-5 mg + CBD 5-10 mg",
+      "PMID: 35711271 - Cannabis medicinal para enxaqueca em adultos: revisao das evidencias",
+      "PMID: 26749285 - Efeitos da maconha medicinal na frequencia de enxaqueca em adultos",
+      "PMID: 33227352 - Experiencia de enxaqueca e eficacia percebida de tratamentos entre usuarios de cannabis",
+      "contraindicacoes: cefaleia por uso excessivo de medicacao (pode ocorrer com uso frequente de THC); cautela com aura hemiplegica; interacao com triptanos",
+      "formas de uso: vaporizacao (tratamento agudo, inicio rapido), oleo sublingual (profilaxia), capsulas (manutencao)",
+      "profilaxia vs agudo: CBD predominante para prevencao; THC+CBD para crises agudas",
+      "mecanismo: modulacao do sistema endocanabinoide que regula neurotransmissao serotoninergica e inflamatoria trigeminovascular"
+    ]
+  },
+  {
+    "id": "condition-adhd",
+    "title": "Transtorno de Deficit de Atencao e Hiperatividade (TDAH)",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, sciencedirect",
+    "content": "O TDAH apresenta evidencias controversas e limitadas para o uso de cannabis. A maioria dos estudos indica que a cannabis piora ou nao tem efeito sobre os sintomas de TDAH. Apenas um estudo empregou desenho randomizado controlado por placebo: um piloto com Sativex (THC:CBD 1:1) em 30 adultos encontrou melhorias marginalmente significativas para hiperatividade/impulsividade e tendencias de melhora para desatencao, mas os resultados nao atingiram significancia estatistica apos ajuste para multiplas comparacoes. Pessoas com TDAH apresentam risco DUAS VEZES maior de desenvolver transtorno de uso de cannabis. O risco aumentado de suicidio associado ao uso de cannabis complica ainda mais seu uso em individuos com TDAH, que ja enfrentam risco elevado de suicidio comparado a individuos neurotipicos. A cannabis prejudica areas e funcoes cerebrais que tambem sao comprometidas pelo TDAH (funcoes executivas, memoria de trabalho, atencao sustentada). Nao e recomendada como tratamento para TDAH com base nas evidencias atuais.",
+    "key_points": [
+      "evidencia: fraca/insuficiente - NAO RECOMENDADO como tratamento",
+      "cannabinoides: unico estudo com Sativex (THC:CBD 1:1) - resultados nao significativos",
+      "dosagem: nao ha dosagem estabelecida; estudos usaram Sativex em doses padrao",
+      "PMID: 28576350 - Cannabinoides no TDAH: ensaio randomizado controlado (Sativex)",
+      "PMID: 36508935 - Uso de cannabis no TDAH: revisao de escopo",
+      "riscos: risco 2x maior de transtorno de uso de cannabis em pessoas com TDAH",
+      "riscos: comprometimento adicional de funcoes executivas ja deficitarias",
+      "riscos: risco aumentado de suicidio com uso de cannabis em populacao ja vulneravel",
+      "contraindicacoes: adolescentes e jovens adultos (desenvolvimento cerebral); historico de dependencia; uso de estimulantes concomitante",
+      "limitacoes: ausencia de medicoes objetivas, amostras pequenas, definicoes heterogeneas",
+      "nota clinica: cannabis pode ser usada por pacientes com TDAH para automediacacao de ansiedade e insonia comorbidas, mas isso NAO constitui tratamento do TDAH em si"
+    ]
+  },
+  {
+    "id": "condition-cancer",
+    "title": "Cancer (Mama, Pulmao, Glioblastoma, Leucemia)",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, nci.cancer.gov",
+    "content": "O uso de cannabis no cancer abrange tres dimensoes: antiproliferativo/antitumoral, antiemetico e paliativo. EFEITO ANTIPROLIFERATIVO: Estudos pre-clinicos extensos demonstram que cannabinoides inibem proliferacao tumoral em modelos animais. O CBD inibiu a sobrevivencia de linhagens celulares de cancer de mama ER+ e ER-, induzindo apoptose de forma dose-dependente com pouco efeito em celulas mamarias nao-tumorigenicas. Em modelos murinos de cancer de mama, CBD reduziu proliferacao celular, crescimento tumoral, migracao e invasao. Para glioblastoma, um estudo piloto com THC intratumoral em 9 pacientes com glioblastoma recorrente demonstrou que o THC inibiu proliferacao celular e reduziu imunomarcacao de Ki67. CBD concomitante parece prolongar a sobrevida em pacientes com glioblastoma. O mecanismo molecular envolve inducao de morte celular programada por autofagia e apoptose, com efeito antiproliferativo relacionado a inibicao da via Ras/Raf/MEK/ERK. ANTIEMETICO: Dronabinol (THC sintetico) e nabilona sao aprovados pelo FDA para nausea e vomito induzidos por quimioterapia. PALIATIVO: Cannabis demonstra eficacia em dor oncologica, anorexia, insonia e ansiedade em pacientes com cancer avancado.",
+    "key_points": [
+      "evidencia antitumoral: pre-clinica forte, clinica preliminar",
+      "evidencia antiemetico: forte (dronabinol/nabilona aprovados pelo FDA)",
+      "evidencia paliativo: moderada a forte",
+      "cannabinoides antitumorais: THC + CBD combinados (efeito sinergico)",
+      "cannabinoides antiemetico: THC (dronabinol 5-10 mg, nabilona 1-2 mg)",
+      "cannabinoides paliativo: CBD:THC 1:1 a 2:1",
+      "PMID: 34370591 - Cannabis como agente anticancer: revisao de dados clinicos",
+      "PMID: 18199524 - Estudo piloto de THC em glioblastoma recorrente (Nature/BJC)",
+      "dosagem antiemetica: dronabinol 5 mg/m2, 1-3h antes da quimio, depois a cada 2-4h (max 6 doses/dia)",
+      "dosagem paliativa: iniciar CBD 10-20 mg + THC 2,5 mg, titular conforme resposta",
+      "contraindicacoes: cannabis fumada contraindicada em cancer de pulmao; cautela com imunoterapia; interacao com opioides (potencializacao)",
+      "limitacao: evidencia clinica antitumoral insuficiente para substituir tratamentos convencionais",
+      "nota: NCI reconhece potencial pre-clinico mas enfatiza necessidade de ensaios clinicos"
+    ]
+  },
+  {
+    "id": "condition-als",
+    "title": "Esclerose Lateral Amiotrofica (ELA)",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, norml.org",
+    "content": "A Esclerose Lateral Amiotrofica (ELA) apresenta evidencias pre-clinicas promissoras e evidencias clinicas limitadas para o uso de cannabis. Em modelos animais (camundongo G93A-SOD1), o tratamento com Delta-9-THC prolongou a sobrevida neuronal, atrasou o inicio dos sintomas e desacelerou a progressao da doenca. O THC foi eficaz tanto quando administrado antes quanto apos o inicio dos sinais, atrasando comprometimento motor e prolongando sobrevida. Dados de surveys indicam que cannabis pode ser moderadamente eficaz para reduzir perda de apetite, depressao, dor, espasticidade e sialorreia (excesso de saliva). Em estudo frances, 28 de 129 pacientes com ELA relataram usar cannabis para alivio de sintomas, com beneficios em rigidez, caibras, fasciculacoes, qualidade do sono, dor, estado emocional e depressao. Contudo, dados clinicos recentes mostram achados preocupantes: o uso de maconha medicinal correlacionou-se com progressao mais rapida da ELA baseada nos escores ALSFRS-R, embora pacientes usando cannabis ja apresentassem maior carga de sintomas antes da prescricao. Os poucos ensaios clinicos focaram apenas no alivio de sintomas, nao no controle da progressao da doenca.",
+    "key_points": [
+      "evidencia: pre-clinica promissora, clinica limitada e conflitante",
+      "cannabinoides: THC para espasticidade e dor; CBD para neuroproteeccao; combinacao THC+CBD recomendada",
+      "dosagem: THC 2,5-10 mg 2-3x/dia para espasticidade; CBD 25-50 mg 2x/dia para neuroproteeccao",
+      "PMID: 15204022 - THC atrasa progressao da doenca em modelo animal de ELA",
+      "PMID: 20439484 - Cannabis e ELA: aplicacoes hipoteticas e praticas, chamado para ensaios clinicos",
+      "PMID: 37460332 - Cannabis para tratamento de ELA: visao dos pacientes",
+      "PMID: 39936266 - ELA, sistema endocanabinoide e cannabinoides exogenos: implicacoes clinicas (2025)",
+      "contraindicacoes: monitorar funcao respiratoria (THC pode causar depressao respiratoria em doses altas); cautela com riluzole (interacao hepatica)",
+      "formas de uso: oleo sublingual (preferencial para disfagia), vaporizacao (evitar fumaca), capsulas",
+      "sintomas aliviados: espasticidade, dor, caibras, fasciculacoes, sialorreia, insonia, depressao, perda de apetite",
+      "limitacao: correlacao preocupante entre uso de cannabis e progressao mais rapida (possivel confundidor)"
+    ]
+  },
+  {
+    "id": "condition-glaucoma",
+    "title": "Glaucoma",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, aao.org",
+    "content": "O glaucoma foi uma das primeiras condicoes estudadas com cannabis, com pesquisas desde os anos 1970. Cannabinoides reduzem a pressao intraocular (PIO), porem o efeito e de curta duracao (3-4 horas), exigindo administracao frequente. Para manter a reducao de PIO de forma clinicamente significativa, seria necessario ingerir 18-20 mg de THC 6-8 vezes por dia, tornando o regime impraticavel. A maconha reduz a pressao arterial sistemica, o que pode diminuir o fluxo sanguineo para o nervo optico e anular o beneficio da reducao da PIO. Colirios de cannabis causaram ardencia e irritacao ocular sem demonstrar reducao da PIO. Um composto sublingual de THC tambem nao reduziu a PIO. Em estudo clinico onde pacientes com glaucoma receberam pilulas e/ou cigarros contendo THC, todos os participantes solicitaram interromper o tratamento dentro de 9 meses devido a efeitos colaterais. A Academia Americana de Oftalmologia e a maioria dos especialistas NAO recomendam cannabis para tratamento rotineiro de glaucoma. Tratamentos convencionais (colirios, laser, cirurgia) sao significativamente superiores.",
+    "key_points": [
+      "evidencia: moderada para reducao de PIO, mas NAO RECOMENDADO como tratamento",
+      "cannabinoides: THC reduz PIO, mas efeito dura apenas 3-4 horas",
+      "dosagem necessaria: 18-20 mg THC, 6-8x/dia - regime impraticavel",
+      "PMID: 26840343 - Cannabinoides para tratamento de glaucoma (revisao Cochrane)",
+      "limitacoes graves: duracao de acao curta, efeitos sistemicos indesejados, reducao do fluxo sanguineo ao nervo optico",
+      "limitacao: colirios de cannabis nao funcionaram (ardencia, sem reducao de PIO)",
+      "limitacao: hipotensao sistemica pode cancelar beneficio da reducao de PIO",
+      "contraindicacoes: glaucoma de angulo fechado agudo; uso concomitante de anti-hipertensivos",
+      "posicao oficial: AAO (Academia Americana de Oftalmologia) NAO recomenda cannabis para glaucoma",
+      "alternativas superiores: colirios de prostaglandina, beta-bloqueadores, trabeculoplastia a laser, cirurgia filtrante",
+      "nota historica: glaucoma foi a primeira condicao para a qual cannabis medicinal foi autorizada nos EUA (1970s)"
+    ]
+  },
+  {
+    "id": "condition-tourette",
+    "title": "Sindrome de Tourette",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, nejm, tourette.org",
+    "content": "A Sindrome de Tourette apresenta evidencias moderadas para o uso de cannabis, com multiplos ensaios clinicos controlados demonstrando reducao significativa de tiques. Dois ensaios controlados investigaram o THC para Tourette, ambos mostrando reducao significativa de tiques comparado ao placebo, sem efeitos adversos significativos. Um ensaio crossover randomizado duplo-cego com 12 pacientes adultos usando Delta-9-THC mostrou melhora significativa de tiques e comportamento obsessivo-compulsivo, com examinadores notando diferenca significativa para tiques motores complexos. Estudo mais recente, crossover duplo-cego com doses escalonadas de oleo oral contendo THC 5 mg/ml + CBD 5 mg/ml, demonstrou que o tratamento reduziu tiques e pode reduzir comprometimento causado por tiques, ansiedade e TOC. Avaliacao retrospectiva de cannabis em 19 adultos encontrou reducao de 60% nos escores de tiques, com 18 de 19 participantes classificados como 'muito melhorados'. Revisao sistematica e meta-analise (9 estudos, 401 pacientes) indica resultados promissores. THC e recomendado por muitos especialistas para pacientes adultos com Tourette quando tratamentos de primeira linha falharam.",
+    "key_points": [
+      "evidencia: moderada (multiplos ensaios controlados positivos)",
+      "cannabinoides: THC predominante; ratio THC:CBD 1:1 tambem eficaz",
+      "dosagem: THC 2,5-10 mg 1-3x/dia; oleo THC+CBD 5mg/ml cada",
+      "PMID: 11951146 - THC randomizado crossover para Sindrome de Tourette",
+      "PMID: 23187140 - Tratamento da Sindrome de Tourette com cannabinoides",
+      "PMID: 28464701 - Evidencia preliminar de eficacia e tolerabilidade da cannabis em adultos com Tourette",
+      "PMID: 38320199 - THC e CBD na Sindrome de Tourette (NEJM Evidence, 2024)",
+      "PMID: 38985199 - Revisao sistematica e meta-analise de cannabis para Tourette",
+      "PMID: 36040329 - Ensaio crossover duplo-cego randomizado controlado de cannabis em adultos com Tourette",
+      "contraindicacoes: pacientes pediatricos (maioria dos estudos em adultos); historico de psicose; uso com antidopaminergicos requer cautela",
+      "formas de uso: oleo sublingual (preferencial), capsulas, vaporizacao para alivio rapido de crises de tiques",
+      "indicacao: tratamento de segunda/terceira linha quando haloperidol, aripiprazol ou clonidina falharam",
+      "reducao observada: 60% nos escores de tiques em estudo retrospectivo"
+    ]
+  },
+  {
+    "id": "condition-neuropathic-pain",
+    "title": "Dor Neuropatica",
+    "category": "condition-expanded",
+    "source": "pubmed, pmc, cochrane",
+    "content": "A dor neuropatica possui as evidencias mais robustas entre as condicoes tratadas com cannabis. Revisoes sistematicas identificaram 15 estudos com reducoes significativas de dor em condicoes como esclerose multipla, lesao medular, neuropatia diabetica, neuralgia pos-herpetica, neuropatia associada ao HIV, dor neuropatica periferica, sindrome de dor regional complexa e dor neuropatica radicular cronica. As concentracoes de THC utilizadas variaram de 1% a 9,4%, com diversas vias de administracao (fumada, inalada, vaporizada, spray, oleo). Os resultados positivos frequentemente empregaram estrategias de dosagem personalizadas e ajustadas. Contudo, 7 ensaios clinicos randomizados nao observaram alivio significativo da dor comparado ao placebo, embora alguns tenham mostrado melhorias em desfechos secundarios como humor e sono. O spray oromucoso de nabiximols (Sativex, THC:CBD 1:1) tem aprovacao regulatoria em varios paises para dor neuropatica refrataria em esclerose multipla. A titulacao individualizada e essencial para otimizar a relacao eficacia/tolerabilidade, determinando ratios de cannabinoides e via de administracao adequados.",
+    "key_points": [
+      "evidencia: forte (multiplas revisoes sistematicas e meta-analises)",
+      "cannabinoides: THC:CBD 1:1 (nabiximols/Sativex) tem maior evidencia; THC isolado eficaz para dor; CBD adjuvante",
+      "dosagem: iniciar THC 1-2,5 mg 2x/dia, titular ate 15-30 mg/dia conforme resposta e tolerancia",
+      "dosagem nabiximols: 1-12 sprays/dia (2,7 mg THC + 2,5 mg CBD por spray)",
+      "PMID: 39570218 - Uso de cannabinoides no tratamento de neuropatia periferica e dor neuropatica: revisao sistematica (2024)",
+      "PMID: 30636990 - Medicamentos baseados em cannabis para dor neuropatica cronica em adultos (Cochrane)",
+      "concentracoes estudadas: THC 1% a 9,4%",
+      "formas de uso: vaporizacao (inicio rapido), spray oromucoso (nabiximols), oleo sublingual, capsulas",
+      "contraindicacoes: historico de psicose; doenca cardiaca grave; uso concomitante de depressores do SNC (opioides, benzodiazepinicos - risco de depressao respiratoria)",
+      "condicoes responsivas: neuropatia diabetica, neuralgia pos-herpetica, neuropatia HIV, lesao medular, esclerose multipla, SDRC, dor radicular",
+      "protocolo de titulacao: start low, go slow - iniciar com dose minima e aumentar a cada 3-7 dias",
+      "limitacoes: desmascaramento em ensaios clinicos devido a efeitos psicoativos do THC; alta resposta ao placebo; amostras pequenas"
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "id": "chronic-pain",
+    "name": "Dor Crônica",
+    "category": "dor",
+    "description": "Dor persistente por mais de 3 meses que afeta qualidade de vida. Inclui dor neuropática, nociceptiva, central e mista.",
+    "evidence_level": "forte",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD:THC — proporções variam de 1:1 a 20:1 conforme tipo e intensidade da dor"
+      },
+      {
+        "id": "thc",
+        "ratio_note": "THC em doses baixas (2.5-5mg) como adjuvante. Doses maiores para dor severa refratária"
+      }
+    ],
+    "recommended_terpenes": [
+      "beta-caryophyllene",
+      "myrcene",
+      "linalool"
+    ],
+    "key_evidence": [
+      "National Academies of Sciences (2017): 'evidência conclusiva' de que cannabis é eficaz para dor crônica em adultos",
+      "Meta-análise Cochrane (2018): cannabinoides superiores a placebo para dor neuropática (NNT=11)",
+      "Nabiximols (Sativex) aprovado em 30+ países para dor em EM"
+    ],
+    "dosing_considerations": "Iniciar com CBD isolado. Se insuficiente, adicionar THC em dose baixa (start low, go slow). Titular a cada 3-7 dias. Dose-resposta bifásica: doses muito altas de THC podem aumentar dor.",
+    "contraindications": [
+      "Histórico de psicose",
+      "Cardiopatia severa (para THC)",
+      "Gestação"
+    ],
+    "references": [
+      "PMID: 28426620",
+      "PMID: 29513392",
+      "PMID: 27573447"
+    ]
+  },
+  {
+    "id": "anxiety",
+    "name": "Ansiedade",
+    "category": "saude_mental",
+    "description": "Inclui transtorno de ansiedade generalizada (TAG), transtorno de ansiedade social (TAS), transtorno de pânico e TEPT.",
+    "evidence_level": "moderada",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD predominante (20:1 ou CBD isolado). Doses de 300-600mg para ansiedade aguda, 25-75mg para manutenção"
+      }
+    ],
+    "recommended_terpenes": [
+      "linalool",
+      "limonene",
+      "myrcene"
+    ],
+    "key_evidence": [
+      "Estudo com SPECT cerebral (Crippa et al., 2011): CBD 400mg reduziu ansiedade subjetiva e alterou padrão de ativação em amígdala e giro cingulado",
+      "Estudo de simulação de fala pública: CBD 300mg equiparou ansiedade a controles saudáveis em pacientes com TAS",
+      "Revisão sistemática (Blessing et al., 2015): CBD tem potencial ansiolítico com evidência forte pré-clínica e moderada clínica"
+    ],
+    "dosing_considerations": "THC em doses altas pode PIORAR ansiedade. Usar CBD predominante. Se THC for necessário (ex: TEPT com dor), manter ratio alto de CBD:THC (mínimo 8:1). Dose bifásica: CBD em baixa dose pode ser alertante.",
+    "contraindications": [
+      "THC em doses moderadas-altas para pacientes com TAG",
+      "Predisposição a pânico (cautela com THC)"
+    ],
+    "references": [
+      "PMID: 20829306",
+      "PMID: 30328956",
+      "PMID: 26341731"
+    ]
+  },
+  {
+    "id": "insomnia",
+    "name": "Insônia",
+    "category": "sono",
+    "description": "Dificuldade de iniciar ou manter o sono, com impacto funcional diurno. Pode ser primária ou secundária a outras condições.",
+    "evidence_level": "moderada",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD em doses altas (160mg+) para efeito sedativo"
+      },
+      {
+        "id": "thc",
+        "ratio_note": "THC em dose baixa (2.5-5mg) para reduzir latência do sono"
+      },
+      {
+        "id": "cbn",
+        "ratio_note": "CBN como adjuvante, especialmente sinérgico com THC"
+      }
+    ],
+    "recommended_terpenes": [
+      "myrcene",
+      "linalool"
+    ],
+    "key_evidence": [
+      "Estudo Carlini & Cunha (1981): CBD 160mg aumentou duração total do sono em pacientes com insônia",
+      "Estudo retrospectivo (Shannon et al., 2019): 66.7% dos pacientes relataram melhora do sono com CBD 25mg/dia no primeiro mês",
+      "THC reduz latência do sono mas pode suprimir REM em uso prolongado"
+    ],
+    "dosing_considerations": "CBD em dose baixa (<50mg) pode ser alertante — usar doses mais altas (100-300mg) para sono. THC: tolerância se desenvolve rapidamente, intercalar com noites sem uso. Evitar uso diário de THC para sono.",
+    "contraindications": [
+      "Apneia do sono (THC pode agravar)",
+      "SAOS severa"
+    ],
+    "references": [
+      "PMID: 31120284",
+      "PMID: 7028792",
+      "PMID: 30624194"
+    ]
+  },
+  {
+    "id": "epilepsy",
+    "name": "Epilepsia",
+    "category": "neurologia",
+    "description": "Distúrbio neurológico caracterizado por crises epilépticas recorrentes. Cannabis medicinal tem a mais forte evidência clínica nesta área, especialmente para epilepsias refratárias.",
+    "evidence_level": "forte",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD isolado ou predominante. Dose terapêutica: 5-20mg/kg/dia (Epidiolex)"
+      }
+    ],
+    "recommended_terpenes": [
+      "linalool"
+    ],
+    "key_evidence": [
+      "Epidiolex aprovado pelo FDA (2018) — primeiro medicamento à base de cannabis aprovado",
+      "Síndrome de Dravet: redução de 39% nas crises convulsivas vs 13% placebo (Devinsky et al., 2017)",
+      "Síndrome de Lennox-Gastaut: redução de 41-44% nas crises de queda (Devinsky et al., 2018)",
+      "Complexo de esclerose tuberosa: aprovação FDA em 2020"
+    ],
+    "dosing_considerations": "Iniciar com 2.5mg/kg/dia dividido em 2 doses. Titular semanalmente em incrementos de 2.5mg/kg/dia. Dose máxima recomendada: 20mg/kg/dia. Monitorar função hepática se em uso de valproato.",
+    "contraindications": [
+      "Hepatopatia severa (com valproato concomitante)"
+    ],
+    "references": [
+      "PMID: 28041236",
+      "PMID: 29395273",
+      "PMID: 30390956"
+    ]
+  },
+  {
+    "id": "fibromyalgia",
+    "name": "Fibromialgia",
+    "category": "dor",
+    "description": "Síndrome de dor crônica generalizada com fadiga, distúrbios de sono e comprometimento cognitivo. Hipótese de deficiência endocanabinoide clínica.",
+    "evidence_level": "moderada",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD predominante para anti-inflamatório e ansiolítico"
+      },
+      {
+        "id": "thc",
+        "ratio_note": "THC em doses baixas para analgesia central e sono"
+      }
+    ],
+    "recommended_terpenes": [
+      "myrcene",
+      "beta-caryophyllene",
+      "linalool"
+    ],
+    "key_evidence": [
+      "Teoria da Deficiência Endocanabinoide Clínica (Russo, 2016): fibromialgia pode resultar de tônus endocanabinoide deficiente",
+      "Estudo observacional (Habib & Artul, 2018): 50% dos pacientes com fibromialgia pararam todos os outros medicamentos após iniciar cannabis",
+      "Estudo israelense (Sagy et al., 2019): 81.1% dos pacientes com fibromialgia relataram melhora moderada-significativa"
+    ],
+    "dosing_considerations": "Abordagem multimodal: CBD para inflamação e ansiedade + THC baixo para dor e sono. Considerar preparações full-spectrum pelo efeito entourage. Iniciar com CBD isolado 25-50mg 2x/dia.",
+    "contraindications": [
+      "Mesmas da dor crônica geral"
+    ],
+    "references": [
+      "PMID: 27749942",
+      "PMID: 30585986",
+      "PMID: 30901541"
+    ]
+  },
+  {
+    "id": "ptsd",
+    "name": "TEPT (Transtorno de Estresse Pós-Traumático)",
+    "category": "saude_mental",
+    "description": "Transtorno psiquiátrico decorrente de evento traumático, com flashbacks, hipervigilância, evitação e alterações de humor.",
+    "evidence_level": "moderada",
+    "recommended_cannabinoids": [
+      {
+        "id": "cbd",
+        "ratio_note": "CBD predominante para ansiedade e reconsolidação de memórias traumáticas"
+      },
+      {
+        "id": "thc",
+        "ratio_note": "THC baixo para pesadelos recorrentes e insônia associada (nabilona 0.5-3mg)"
+      }
+    ],
+    "recommended_terpenes": [
+      "linalool",
+      "limonene"
+    ],
+    "key_evidence": [
+      "Nabilona reduziu pesadelos em 72% dos pacientes com TEPT militar (Jetly et al., 2015)",
+      "CBD interfere na reconsolidação de memórias aversivas via receptor 5-HT1A e anandamida",
+      "Estudo retrospectivo canadense: 58% redução nos sintomas de TEPT com cannabis medicinal"
+    ],
+    "dosing_considerations": "CBD durante o dia (ansiedade, hipervigilância). THC ou nabilona em dose baixa à noite para pesadelos. Cautela com THC — pode reativar memórias traumáticas em alguns pacientes.",
+    "contraindications": [
+      "Comorbidade com psicose",
+      "Uso problemático de substâncias"
+    ],
+    "references": [
+      "PMID: 24845547",
+      "PMID: 31866386"
+    ]
+  }
+]

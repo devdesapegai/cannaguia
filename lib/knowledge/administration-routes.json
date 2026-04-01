@@ -1,0 +1,103 @@
+[
+  {
+    "id": "admin-sublingual",
+    "title": "Via Sublingual",
+    "category": "administration",
+    "source": "projectcbd.org, herb.co, mmj.com, emilykylenutrition.com, fundacion-canna.es",
+    "content": "A via sublingual consiste na aplicacao de oleos, tinturas ou sprays sob a lingua, permitindo absorcao direta pela mucosa oral para a corrente sanguinea. Essa via evita parcialmente o metabolismo de primeira passagem no figado, resultando em maior biodisponibilidade que a via oral tradicional e inicio de efeito mais rapido. E considerada uma das formas mais precisas de dosagem, pois permite titulacao gota a gota. Recomenda-se manter o produto sob a lingua por 60-90 segundos antes de engolir para maximizar a absorcao sublingual. E a via preferida para pacientes iniciantes em cannabis medicinal por combinar controle de dose, onset moderado e boa duracao de efeito. Tinturas a base de alcool tendem a ter absorcao mais rapida que oleos a base de MCT.",
+    "key_points": [
+      "biodisponibilidade: 20-35% (THC); ate 25% (CBD)",
+      "onset: 15-45 minutos",
+      "pico do efeito: aproximadamente 45 minutos",
+      "duracao: 4-6 horas",
+      "vantagens: dosagem precisa gota a gota, onset mais rapido que oral, evita parcialmente metabolismo hepatico, sem danos pulmonares, discreto e sem odor",
+      "desvantagens: sabor pode ser desagradavel (especialmente tinturas alcoolicas), menor duracao que via oral, requer manter sob a lingua por 60-90 segundos",
+      "dosagem inicial: 2.5-5 mg de CBD ou 1-2.5 mg de THC por dose",
+      "dosagem manutencao: 10-40 mg de CBD ou 5-15 mg de THC por dose, 2-3x ao dia",
+      "formas comuns: oleos sublinguais, tinturas, sprays oromucosais",
+      "dica: manter sob a lingua por 60-90 segundos antes de engolir para maximizar absorcao"
+    ]
+  },
+  {
+    "id": "admin-oral",
+    "title": "Via Oral",
+    "category": "administration",
+    "source": "leafly.com, projectcbd.org, fundacion-canna.es, stiiizy.com",
+    "content": "A via oral inclui capsulas, comestiveis (edibles), gummies, chocolates, bebidas infusionadas e qualquer forma ingerida e absorvida pelo trato gastrointestinal. O THC passa pelo metabolismo de primeira passagem no figado, onde e convertido em 11-hidroxi-THC (11-OH-THC), um metabolito aproximadamente 10 vezes mais potente que o THC original. Isso explica porque os efeitos de comestiveis podem ser mais intensos e demorados que os da inalacao. A biodisponibilidade e baixa (4-20%) devido a degradacao hepatica, porem a duracao dos efeitos e a mais longa entre as vias comuns. O onset e imprevisivel e varia conforme metabolismo individual, conteudo estomacal, composicao corporal e tolerancia. Recomenda-se a regra 'start low, go slow' - comecar com dose baixa e esperar pelo menos 90 minutos antes de considerar dose adicional.",
+    "key_points": [
+      "biodisponibilidade: 4-20%",
+      "onset: 30-90 minutos (pode chegar a 2 horas em alguns casos)",
+      "pico do efeito: 2-3 horas apos ingestao",
+      "duracao: 6-8 horas (pode estender ate 12 horas em doses altas)",
+      "vantagens: efeito mais duradouro, sem danos pulmonares, discreto, variedade de produtos disponiveis, bom para condicoes cronicas",
+      "desvantagens: onset lento e imprevisivel, dificil titular dose, metabolismo hepatico gera 11-OH-THC (mais potente), efeito pode ser excessivamente intenso para iniciantes, variacao individual significativa",
+      "dosagem inicial: 2.5-5 mg de THC ou 5-10 mg de CBD por dose",
+      "dosagem manutencao: 5-25 mg de THC ou 15-50 mg de CBD por dose, 1-2x ao dia",
+      "metabolismo: THC convertido em 11-OH-THC no figado, ~10x mais potente",
+      "regra de ouro: esperar minimo 90 minutos antes de repetir dose",
+      "formas comuns: capsulas, gummies, comestiveis, chocolates, bebidas, oleos ingeridos"
+    ]
+  },
+  {
+    "id": "admin-topico",
+    "title": "Via Topica e Transdermica",
+    "category": "administration",
+    "source": "fundacion-canna.es, leafwell.com, papaandbarkley.com, pmc.ncbi.nlm.nih.gov",
+    "content": "A via topica inclui cremes, balsamos, pomadas e locoes aplicados diretamente na pele para efeito localizado, enquanto patches (adesivos) transdermicos permitem absorcao sistemica atraves da pele para a corrente sanguinea. Topicos tradicionais nao atingem a corrente sanguinea em quantidades significativas, sendo ideais para dor localizada, inflamacao e condicoes dermatologicas. Patches transdermicos utilizam tecnologia de liberacao controlada para entregar cannabinoides de forma constante por periodos prolongados (ate 12-72 horas), com biodisponibilidade muito superior aos topicos tradicionais pois quase todo o cannabinoide do patch e absorvido. Nenhuma das formas topicas produz efeitos psicoativos significativos, mesmo com THC, o que e uma vantagem para pacientes que desejam beneficio terapeutico sem alteracao cognitiva.",
+    "key_points": [
+      "biodisponibilidade topica: muito baixa sistemicamente (efeito localizado)",
+      "biodisponibilidade transdermica (patch): alta, quase total absorcao do patch",
+      "onset topico: 15-45 minutos no local de aplicacao",
+      "onset transdermico: 30-60 minutos para efeito sistemico",
+      "duracao topica: 2-4 horas no local",
+      "duracao transdermica: 4-12 horas (patches de longa duracao ate 72 horas)",
+      "vantagens: sem efeitos psicoativos significativos, sem danos pulmonares, ideal para dor localizada, patches oferecem liberacao constante e prolongada, nao requer ingestao",
+      "desvantagens: topicos nao tem efeito sistemico, absorcao variavel conforme local e pele, patches podem causar irritacao cutanea, opcoes limitadas no mercado brasileiro",
+      "dosagem topica: aplicar camada fina na area afetada, 2-4x ao dia conforme necessidade",
+      "dosagem transdermica: patches comuns de 10-20 mg de THC ou CBD por patch",
+      "indicacoes principais: artrite, dor muscular, inflamacao local, condicoes dermatologicas, neuropatia periferica",
+      "formas comuns: cremes, balsamos, pomadas, locoes, patches transdermicos, geis"
+    ]
+  },
+  {
+    "id": "admin-inalacao",
+    "title": "Via Inalatoria",
+    "category": "administration",
+    "source": "pmc.ncbi.nlm.nih.gov, hopkinsmedicine.org, fundacion-canna.es, greenknightdispensary.com",
+    "content": "A via inalatoria inclui vaporizacao e combustao (fumo). Os cannabinoides sao absorvidos rapidamente pelos alveolos pulmonares, atingindo o cerebro em segundos. E a via com onset mais rapido, permitindo titulacao em tempo real - o paciente sente o efeito quase imediatamente e pode ajustar a dose conforme necessario. A vaporizacao aquece a cannabis abaixo do ponto de combustao (160-220°C), liberando cannabinoides e terpenos sem produzir alcatrao e substancias toxicas da combustao. Estudos da Johns Hopkins demonstraram que a vaporizacao produz concentracoes sanguineas de THC significativamente maiores que o fumo na mesma dose (14.4 vs 10.2 ng/mL com 25mg de THC), indicando maior eficiencia. Na combustao, 23-30% do THC e perdido por pirolise e 40-50% pela fumaca lateral. A vaporizacao e fortemente preferida sobre o fumo do ponto de vista de reducao de danos.",
+    "key_points": [
+      "biodisponibilidade fumo: 10-25%",
+      "biodisponibilidade vaporizacao: 20-35% (mais eficiente que fumo)",
+      "onset: 1-5 minutos (mais rapido de todas as vias)",
+      "pico do efeito: 10-30 minutos",
+      "duracao: 2-4 horas",
+      "vantagens: onset imediato, facil titulacao em tempo real, alta biodisponibilidade (vaporizacao), util para crises agudas de dor ou ansiedade, paciente controla dose puff a puff",
+      "desvantagens: fumo libera substancias toxicas (alcatrao, monoxido de carbono), duracao curta exige doses frequentes, irritacao pulmonar possivel, estigma social, odor forte (fumo), nao recomendado para pacientes com condicoes respiratorias",
+      "dosagem inicial: 1-2 inalacoes (puffs), esperar 10-15 minutos antes de repetir",
+      "dosagem manutencao: 2-5 inalacoes conforme necessidade, ate 3-4x ao dia",
+      "vaporizacao vs fumo: vaporizacao produz ~50% mais cannabinoides na corrente sanguinea com mesma dose",
+      "temperatura ideal vaporizacao: 160-220°C (abaixo do ponto de combustao)",
+      "formas comuns: vaporizadores de erva seca, canetas de vape com oleo/concentrado, baseados (combustao), pipes e bongs (combustao)"
+    ]
+  },
+  {
+    "id": "admin-supositorio",
+    "title": "Via Retal/Vaginal (Supositorio)",
+    "category": "administration",
+    "source": "pmc.ncbi.nlm.nih.gov, nuggmd.com, greenbridgemed.com, karger.com, pubmed.ncbi.nlm.nih.gov",
+    "content": "Supositorios de cannabis sao inseridos via retal ou vaginal, permitindo absorcao pela mucosa retal/vaginal para a corrente sanguinea. A via retal evita parcialmente o metabolismo de primeira passagem hepatico, resultando em biodisponibilidade significativamente maior que a via oral. Estudos com THC-hemisuccinato (uma pro-droga do THC) demonstraram biodisponibilidade de 52-61% por via retal, com AUC 2.44 vezes maior que capsulas orais. Um aspecto notavel e que muitos pacientes relatam efeitos terapeuticos sem efeitos psicoativos significativos (especialmente via retal), tornando esta via atrativa para quem busca beneficio medicinal sem alteracao cognitiva. E particularmente util para pacientes com nausea/vomito (quimioterapia), disfagia, condicoes gastrointestinais que impedem via oral, dor pelvica e crampes menstruais (via vaginal).",
+    "key_points": [
+      "biodisponibilidade: 52-61% (com THC-hemisuccinato); dados limitados para THC puro",
+      "onset: 10-15 minutos",
+      "pico do efeito: 1-2 horas",
+      "duracao: 8-12 horas (mais longa entre todas as vias)",
+      "vantagens: alta biodisponibilidade, onset rapido, duracao muito longa, pouco ou nenhum efeito psicoativo, ideal para pacientes com nausea/vomito ou disfagia, alivio localizado para dor pelvica",
+      "desvantagens: via de administracao desconfortavel para muitos pacientes, poucos produtos disponiveis no mercado, dados cientificos limitados para THC puro (maioria dos estudos usa pro-drogas), estigma cultural",
+      "dosagem inicial: 25-50 mg de CBD ou 5-10 mg de THC por supositorio",
+      "dosagem manutencao: 50-100 mg de CBD ou 10-25 mg de THC, 1-2x ao dia",
+      "indicacoes principais: nausea/vomito por quimioterapia, dor pelvica cronica, espasticidade (esclerose multipla), crampes menstruais, pacientes que nao toleram via oral",
+      "nota cientifica: maioria dos estudos de biodisponibilidade usa THC-hemisuccinato (pro-droga), nao THC puro - THC puro tem absorcao retal mais limitada",
+      "formas comuns: supositorios retais, supositorios vaginais, ovulos"
+    ]
+  }
+]

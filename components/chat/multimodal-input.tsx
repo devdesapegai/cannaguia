@@ -510,7 +510,7 @@ function PureMultimodalInput({
             }
           }}
           placeholder={
-            editingMessage ? "Edit your message..." : "Ask anything..."
+            editingMessage ? "Edit your message..." : "Pergunte sobre cannabis medicinal..."
           }
           ref={textareaRef}
           value={input}

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "myrcene",
+    "name": "Mirceno",
+    "type": "terpene",
+    "aroma": "Terroso, almiscarado, herbal, com notas de cravo",
+    "also_found_in": ["Manga", "Lúpulo", "Capim-limão", "Tomilho"],
+    "boiling_point": "167°C",
+    "effects": ["Sedativo", "Relaxante muscular", "Anti-inflamatório", "Analgésico"],
+    "mechanisms": [
+      "Agonista de receptores TRPV1 (analgesia)",
+      "Potencialização da permeabilidade da barreira hematoencefálica",
+      "Modulação GABAérgica (sedação)",
+      "Inibição de prostaglandinas (anti-inflamatório)"
+    ],
+    "therapeutic_potential": "Sinergismo com THC (efeito entourage): o mirceno pode aumentar a penetração do THC no cérebro. Strains com >0.5% mirceno tendem a ser mais sedativas.",
+    "references": ["PMID: 21749363", "PMID: 23138934"]
+  },
+  {
+    "id": "limonene",
+    "name": "Limoneno",
+    "type": "terpene",
+    "aroma": "Cítrico, laranja, limão",
+    "also_found_in": ["Casca de frutas cítricas", "Alecrim", "Zimbro", "Hortelã"],
+    "boiling_point": "176°C",
+    "effects": ["Ansiolítico", "Antidepressivo", "Elevação de humor", "Antifúngico"],
+    "mechanisms": [
+      "Aumento de serotonina e dopamina no córtex pré-frontal",
+      "Ansiolítico via receptores 5-HT1A",
+      "Inibição de adenilato ciclase via receptores A2A",
+      "Indução de apoptose em células tumorais (pré-clínico)"
+    ],
+    "therapeutic_potential": "Principal terpeno associado a melhora de humor. Estudos em aromaterapia mostram redução de cortisol. Potencial anti-câncer em fase pré-clínica (mama e pulmão).",
+    "references": ["PMID: 23137251", "PMID: 23631425"]
+  },
+  {
+    "id": "linalool",
+    "name": "Linalol",
+    "type": "terpene",
+    "aroma": "Floral, lavanda, ligeiramente picante",
+    "also_found_in": ["Lavanda", "Manjericão", "Coentro", "Canela"],
+    "boiling_point": "198°C",
+    "effects": ["Ansiolítico", "Sedativo", "Anticonvulsivante", "Analgésico local"],
+    "mechanisms": [
+      "Modulação de receptores GABA-A (similar a benzodiazepínicos leves)",
+      "Redução de glutamato (anticonvulsivante)",
+      "Anestesia local via bloqueio de canais de sódio",
+      "Redução de hiperalgesia via receptores de adenosina A1"
+    ],
+    "therapeutic_potential": "Forte candidato para transtornos de ansiedade e epilepsia. Sinergismo com CBD para efeito anticonvulsivante. Inalação de linalol reduziu comportamento agressivo e ansioso em modelos animais.",
+    "references": ["PMID: 28940405", "PMID: 19962288"]
+  },
+  {
+    "id": "beta-caryophyllene",
+    "name": "Beta-Cariofileno",
+    "type": "terpene",
+    "aroma": "Picante, amadeirado, pimenta-do-reino",
+    "also_found_in": ["Pimenta-preta", "Cravo", "Canela", "Orégano"],
+    "boiling_point": "130°C",
+    "effects": ["Anti-inflamatório", "Analgésico", "Ansiolítico", "Gastroprotetor"],
+    "mechanisms": [
+      "Agonista seletivo de CB2 — único terpeno que ativa diretamente o sistema endocanabinoide",
+      "Modulação de NF-κB (anti-inflamatório)",
+      "Inibição de citocinas pró-inflamatórias IL-1β e TNF-α",
+      "Ativação de PPARγ (metabolismo e inflamação)"
+    ],
+    "therapeutic_potential": "Classificado como 'cannabinoide dietético' por ser agonista de CB2. Anti-inflamatório sem efeitos psicoativos. Potencial em doença inflamatória intestinal, artrite, e dor neuropática.",
+    "references": ["PMID: 18574142", "PMID: 24267674"]
+  },
+  {
+    "id": "pinene",
+    "name": "Pineno (alfa e beta)",
+    "type": "terpene",
+    "aroma": "Pinheiro, floresta, refrescante",
+    "also_found_in": ["Pinheiro", "Alecrim", "Manjericão", "Salsa"],
+    "boiling_point": "155°C (alfa), 166°C (beta)",
+    "effects": ["Broncodilatador", "Anti-inflamatório", "Melhora de memória", "Alerta"],
+    "mechanisms": [
+      "Inibição de acetilcolinesterase (melhora memória e atenção)",
+      "Broncodilatação (abertura de vias aéreas)",
+      "Inibição de PGE-2 e NF-κB",
+      "Pode contrabalançar déficit de memória do THC"
+    ],
+    "therapeutic_potential": "Importante no efeito entourage por potencialmente mitigar o comprometimento cognitivo do THC. Útil para pacientes que precisam de THC mas querem manter lucidez.",
+    "references": ["PMID: 21749363"]
+  },
+  {
+    "id": "humulene",
+    "name": "Humuleno",
+    "type": "terpene",
+    "aroma": "Terroso, amadeirado, lúpulo",
+    "also_found_in": ["Lúpulo", "Coentro", "Cravo", "Manjericão"],
+    "boiling_point": "198°C",
+    "effects": ["Anti-inflamatório", "Anorexígeno", "Antibacteriano"],
+    "mechanisms": [
+      "Inibição de COX-2 e NF-κB",
+      "Redução de apetite (oposto ao THC)",
+      "Atividade antibacteriana contra S. aureus"
+    ],
+    "therapeutic_potential": "Anti-inflamatório comparável à dexametasona em estudos animais. Interessante para pacientes preocupados com aumento de apetite do THC.",
+    "references": ["PMID: 17348000"]
+  }
+]

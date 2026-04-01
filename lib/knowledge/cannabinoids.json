@@ -1,0 +1,208 @@
+  [
+  {
+    "id": "cbd",
+    "name": "CBD (Canabidiol)",
+    "type": "cannabinoid",
+    "description": "Principal cannabinoide não-psicoativo da cannabis. Amplamente estudado por suas propriedades terapêuticas sem causar euforia ou alteração de consciência.",
+    "mechanisms": [
+      "Modulação alostérica negativa do receptor CB1",
+      "Agonista do receptor 5-HT1A (serotoninérgico)",
+      "Agonista do receptor TRPV1 (vanilóide)",
+      "Inibidor da recaptação de anandamida",
+      "Agonista do receptor GPR55",
+      "Modulação do sistema GABAérgico"
+    ],
+    "therapeutic_uses": [
+      {
+        "condition": "Epilepsia",
+        "evidence_level": "forte",
+        "details": "Epidiolex (CBD puro) aprovado pelo FDA para síndrome de Dravet e Lennox-Gastaut. Redução de 39-41% na frequência de crises em ensaios clínicos fase III.",
+        "references": ["PMID: 28041236", "PMID: 29395273"]
+      },
+      {
+        "condition": "Ansiedade",
+        "evidence_level": "moderada",
+        "details": "Doses de 300-600mg demonstraram redução significativa de ansiedade em estudos com SPECT cerebral. Reduz ativação da amígdala e córtex cingulado.",
+        "references": ["PMID: 30328956", "PMID: 31866386"]
+      },
+      {
+        "condition": "Dor crônica",
+        "evidence_level": "moderada",
+        "details": "Efeito anti-inflamatório via inibição de COX-2 e TNF-α. Eficaz em modelos de dor neuropática e inflamatória.",
+        "references": ["PMID: 28885454", "PMID: 30624194"]
+      },
+      {
+        "condition": "Insônia",
+        "evidence_level": "moderada",
+        "details": "Doses altas (160mg+) demonstram efeito sedativo. Doses baixas podem ser alertantes. Melhora qualidade do sono em pacientes com TEPT.",
+        "references": ["PMID: 30624194", "PMID: 31120284"]
+      },
+      {
+        "condition": "Inflamação",
+        "evidence_level": "forte",
+        "details": "Potente anti-inflamatório via múltiplos mecanismos: inibição de citocinas pró-inflamatórias, modulação de NF-κB, redução de estresse oxidativo.",
+        "references": ["PMID: 30993303"]
+      }
+    ],
+    "side_effects": ["Sonolência", "Diarreia", "Alteração de apetite", "Fadiga", "Interação com medicamentos metabolizados pelo CYP450"],
+    "drug_interactions": [
+      "Clobazam (aumenta níveis séricos em até 5x)",
+      "Varfarina (pode aumentar INR)",
+      "Valproato (risco de hepatotoxicidade quando combinados)",
+      "Inibidores de CYP3A4 e CYP2C19"
+    ],
+    "legal_status_brazil": "Permitido via importação com autorização ANVISA (RDC 660/2022). Produtos com até 0.2% THC disponíveis em farmácias com receita tipo B."
+  },
+  {
+    "id": "thc",
+    "name": "THC (Delta-9-tetrahidrocanabinol)",
+    "type": "cannabinoid",
+    "description": "Principal cannabinoide psicoativo. Responsável pelos efeitos eufóricos, mas com importantes propriedades terapêuticas em doses controladas.",
+    "mechanisms": [
+      "Agonista parcial dos receptores CB1 e CB2",
+      "Mimetiza a anandamida (endocannabinoide)",
+      "Modulação da liberação de dopamina, GABA e glutamato",
+      "Ativação do sistema de recompensa mesolímbico"
+    ],
+    "therapeutic_uses": [
+      {
+        "condition": "Dor crônica",
+        "evidence_level": "forte",
+        "details": "Analgesia via ativação CB1 no corno dorsal da medula e tálamo. Especialmente eficaz em dor neuropática e central. Nabiximols (Sativex) aprovado em vários países.",
+        "references": ["PMID: 29513392", "PMID: 27573447"]
+      },
+      {
+        "condition": "Náusea e vômito (quimioterapia)",
+        "evidence_level": "forte",
+        "details": "Dronabinol e nabilona aprovados pelo FDA como antieméticos. Eficácia superior a ondansetrona em alguns estudos.",
+        "references": ["PMID: 25801283"]
+      },
+      {
+        "condition": "Espasticidade (Esclerose Múltipla)",
+        "evidence_level": "forte",
+        "details": "Nabiximols (THC:CBD 1:1) aprovado para espasticidade em EM. Redução significativa de espasmos e dor associada.",
+        "references": ["PMID: 29513392"]
+      },
+      {
+        "condition": "Apetite (HIV/AIDS, câncer)",
+        "evidence_level": "forte",
+        "details": "Dronabinol aprovado pelo FDA para anorexia associada a AIDS. Estimula apetite via receptores CB1 hipotalâmicos.",
+        "references": ["PMID: 25801283"]
+      },
+      {
+        "condition": "Insônia",
+        "evidence_level": "moderada",
+        "details": "Doses baixas (2.5-5mg) reduzem latência do sono. Pode reduzir sono REM. Tolerância pode se desenvolver.",
+        "references": ["PMID: 31120284"]
+      }
+    ],
+    "side_effects": ["Euforia/disforia", "Taquicardia", "Boca seca", "Olhos vermelhos", "Comprometimento cognitivo agudo", "Ansiedade (doses altas)", "Tolerância"],
+    "drug_interactions": [
+      "Depressores do SNC (potencialização)",
+      "Anticoagulantes (alteração de metabolismo)",
+      "Simpaticomiméticos (risco cardiovascular aditivo)"
+    ],
+    "legal_status_brazil": "Controlado. Disponível apenas via importação com autorização ANVISA para produtos com THC acima de 0.2%. Requer receita tipo A ou B."
+  },
+  {
+    "id": "cbn",
+    "name": "CBN (Canabinol)",
+    "type": "cannabinoid",
+    "description": "Produto de degradação do THC por oxidação. Levemente psicoativo. Conhecido popularmente como 'cannabinoide do sono', embora a evidência científica robusta ainda esteja em desenvolvimento.",
+    "mechanisms": [
+      "Agonista parcial fraco de CB1 (10% da potência do THC)",
+      "Agonista de CB2",
+      "Ativação de TRPV2",
+      "Possível modulação do canal de sódio"
+    ],
+    "therapeutic_uses": [
+      {
+        "condition": "Insônia",
+        "evidence_level": "preliminar",
+        "details": "Relatos anedóticos e estudos preliminares sugerem efeito sedativo, possivelmente sinérgico com THC. Estudo de 1975 com 5 voluntários mostrou potencialização da sonolência do THC.",
+        "references": ["PMID: 1221432"]
+      },
+      {
+        "condition": "Dor",
+        "evidence_level": "preliminar",
+        "details": "Estudos pré-clínicos mostram analgesia em modelos animais. Possível mecanismo via TRPV2.",
+        "references": []
+      },
+      {
+        "condition": "Antibacteriano",
+        "evidence_level": "preliminar",
+        "details": "Atividade demonstrada contra MRSA (Staphylococcus aureus resistente à meticilina) in vitro.",
+        "references": ["PMID: 18681481"]
+      }
+    ],
+    "side_effects": ["Sonolência", "Tontura leve"],
+    "drug_interactions": ["Potencialização de sedativos"],
+    "legal_status_brazil": "Mesmo enquadramento regulatório do CBD quando em produtos autorizados pela ANVISA."
+  },
+  {
+    "id": "cbg",
+    "name": "CBG (Canabigerol)",
+    "type": "cannabinoid",
+    "description": "Considerado o 'cannabinoide-mãe' pois é precursor biossintético de THC, CBD e CBC. Não-psicoativo, com perfil terapêutico promissor emergente.",
+    "mechanisms": [
+      "Agonista parcial de CB1 e CB2",
+      "Agonista de α2-adrenoreceptor",
+      "Antagonista de 5-HT1A",
+      "Inibidor de MAGL (monoacilglicerol lipase)",
+      "Bloqueador de canais TRP"
+    ],
+    "therapeutic_uses": [
+      {
+        "condition": "Inflamação intestinal",
+        "evidence_level": "pré-clínica",
+        "details": "Reduziu inflamação em modelo murino de doença inflamatória intestinal. Potencial para Crohn e colite ulcerativa.",
+        "references": ["PMID: 23415610"]
+      },
+      {
+        "condition": "Glaucoma",
+        "evidence_level": "pré-clínica",
+        "details": "Redução da pressão intraocular em estudos animais.",
+        "references": ["PMID: 2095627"]
+      },
+      {
+        "condition": "Neuroproteção",
+        "evidence_level": "pré-clínica",
+        "details": "Propriedades neuroprotetoras demonstradas em modelo de Huntington. Antioxidante e anti-inflamatório no SNC.",
+        "references": ["PMID: 25252936"]
+      }
+    ],
+    "side_effects": ["Dados limitados. Considerado bem tolerado em estudos iniciais."],
+    "drug_interactions": ["Dados insuficientes. Possível interação com CYP450."],
+    "legal_status_brazil": "Mesmo enquadramento do CBD em produtos autorizados pela ANVISA."
+  },
+  {
+    "id": "thcv",
+    "name": "THCV (Tetrahidrocanabivarina)",
+    "type": "cannabinoid",
+    "description": "Análogo do THC com cadeia propil. Em doses baixas atua como antagonista de CB1 (efeito oposto ao THC), em doses altas como agonista. Perfil metabólico interessante.",
+    "mechanisms": [
+      "Antagonista de CB1 em doses baixas (<30mg)",
+      "Agonista de CB1 em doses altas",
+      "Agonista de CB2",
+      "Agonista de 5-HT1A",
+      "Modulação de GPR55"
+    ],
+    "therapeutic_uses": [
+      {
+        "condition": "Diabetes tipo 2",
+        "evidence_level": "moderada",
+        "details": "Estudo fase II (GWP42004) demonstrou melhora na sensibilidade à insulina e redução de glicemia de jejum em pacientes com DM2.",
+        "references": ["PMID: 27573936"]
+      },
+      {
+        "condition": "Obesidade",
+        "evidence_level": "pré-clínica",
+        "details": "Redução de apetite e peso corporal em modelos animais via antagonismo CB1. Efeito oposto ao THC no apetite.",
+        "references": ["PMID: 19634990"]
+      }
+    ],
+    "side_effects": ["Dados limitados. Possivelmente similar ao THC em doses altas."],
+    "drug_interactions": ["Dados insuficientes."],
+    "legal_status_brazil": "Enquadrado como THC quando psicoativo. Regulação específica depende do produto."
+  }
+]

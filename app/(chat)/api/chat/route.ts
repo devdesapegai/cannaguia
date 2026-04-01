@@ -44,6 +44,8 @@ import type { ChatMessage } from "@/lib/types";
 import { convertToUIMessages, generateUUID } from "@/lib/utils";
 import { generateTitleFromUserMessage } from "../../actions";
 import { type PostRequestBody, postRequestBodySchema } from "./schema";
+import { searchAll, formatContextForLLM } from "@/lib/rag/search";
+import { SYSTEM_PROMPT } from "@/lib/ai/cannaguia-prompt";
 
 export const maxDuration = 60;
 
@@ -193,7 +195,10 @@ export async function POST(request: Request) {
       execute: async ({ writer: dataStream }) => {
         const result = streamText({
           model: getLanguageModel(chatModel),
-          system: systemPrompt({ requestHints, supportsTools }),
+          system: (() => { const userText = uiMessages.filter((m: any) => m.role === "user").map((m: any) => m.parts?.filter((p: any) => p.type === "text").map((p: any) => p.text).join(" ") ?? "").pop() ?? ""; const localResults = searchAll(userText, 4); const localContext = formatContextForLLM(localResults); return SYSTEM_PROMPT + "
+
+Base de conhecimento relevante:
+" + localContext; })(),
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools:

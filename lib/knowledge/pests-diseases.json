@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "spider-mites",
+    "name": "Spider Mites",
+    "category": "pest",
+    "identification": {
+      "appearance": "Oval-shaped body with four pairs of legs, no antennae. Two-spotted variety is most common on cannabis (two dark spots visible under magnification).",
+      "size": "Males ~0.5mm (1/50 inch), females ~0.4mm (1/64 inch)",
+      "colors": [
+        "red",
+        "yellow",
+        "orange",
+        "translucent"
+      ],
+      "first_signs": "Tiny yellow, orange, or white speckles on leaves (individual cell punctures). Fine silk webbing on leaves and buds in advanced infestations.",
+      "notes": "If you can see spider mites with your eyes, you probably have millions in the room waiting to hatch."
+    },
+    "symptoms": [
+      "Pinpoint spots on upper leaf surfaces (early stage)",
+      "Leaves turn yellow or bronze with extensive speckling (advanced)",
+      "Leaves die prematurely, entire buds covered in webbing (severe)",
+      "Plant death possible overnight with heavy infestation (extreme)"
+    ],
+    "damage": "Pierce individual plant cells and suck out contents. A single mature female can produce a million mites in less than a month. Cannabis-specialist strains ('the borg') develop pesticide resistance rapidly.",
+    "lifecycle": {
+      "stages": [
+        "Egg",
+        "Larva (3 leg pairs)",
+        "First nymph (4 leg pairs)",
+        "Second nymph",
+        "Adult"
+      ],
+      "duration": "Days to weeks depending on conditions",
+      "reproduction": "Females lay eggs on host plants. Multiple life stages present simultaneously, complicating eradication.",
+      "notes": "Thrive in heat and dry conditions. Variable lifecycle means mites reappear after apparent eradication."
+    },
+    "treatments": [
+      {
+        "name": "Grower's Ally Spider Mite Control Spray",
+        "type": "organic",
+        "details": "Ready-to-use spray. Active ingredients: rosemary oil, clove oil, peppermint oil. Kills spider mites and eggs on contact. Spray 15 min before lights out, drench foliage undersides and soil surface. Use fan to aid drying. Multiple treatments required."
+      },
+      {
+        "name": "Spinosad (Bonide Captain Jack's Deadbug Brew)",
+        "type": "organic",
+        "details": "Active ingredient: fermentation product of Saccharopolyspora spinosa bacteria. Apply as topical spray via mister OR systemic through watering. Completely harmless to pets, children, and plants. Effective ~24 hours after mixing, must mix fresh batches. Safe for heavy application. Also controls caterpillars and thrips. NOT recommended for commercial growers. Requires one-hand pressure sprayer/mister."
+      },
+      {
+        "name": "Earth's Ally 3-in-1 Plant Spray",
+        "type": "organic",
+        "details": "Organic concentrate based on horticultural oils. Mix and spray via mister on all leaf surfaces. Effective ~24 hours, requires daily application or rotation with other methods. Multi-purpose: insecticide, fungicide, spider mite repellent. Safe for humans."
+      },
+      {
+        "name": "Mite Killer Spray by Mite-B-Gone",
+        "type": "organic",
+        "details": "Insecticidal soap. Active ingredients: Sodium Lauryl Sulfate (SLS), citric acid, sodium chloride. Weakens the outer shell of spider mites. Spray coverage critical, short residual activity. Non-toxic and environmentally friendly. Avoid spraying buds. Requires repeated applications."
+      },
+      {
+        "name": "Neem Oil",
+        "type": "organic",
+        "details": "Botanical insecticide applied via mister. Oil/water separation requires frequent agitation. Broad-spectrum pest control. CRITICAL: can leave unpleasant taste/smell on buds when used on flowering plants - avoid buds entirely. Some evidence neem oil may be harmful to humans. Mister essential for application."
+      },
+      {
+        "name": "Insecticidal Soap (Safer Soap, Mighty Wash)",
+        "type": "organic",
+        "details": "Fatty acid/sulfate ester-based. Dip or spray small plants; spray established plants. Safe for humans, minimal residue. Ideal for quarantine treatment of new clones/plants."
+      },
+      {
+        "name": "Diatomaceous Earth (Food-Grade)",
+        "type": "organic",
+        "details": "Desiccant powder from fossilized remains. Sprinkle on soil surface, windowsills, doorways. Microscopically sharp substance tears and dehydrates spider mites on physical contact. Safe for mammals and plants. Not a standalone solution but aids control and slowing. Reapply after watering/disturbance."
+      },
+      {
+        "name": "Ladybugs (Predatory Insects)",
+        "type": "biological",
+        "details": "Supplementary control, unlikely to fully eradicate. Best for small problems or near-harvest situations when chemicals are unsuitable. Avoid killing beneficial larvae and pupae (appear as yellow/orange spiky forms)."
+      },
+      {
+        "name": "Predatory Mites (Neoseiulus/Amblyseius californicus)",
+        "type": "biological",
+        "details": "Best against two-spotted spider mites. Supplementary biological control. Best use in outdoor gardens to preserve natural predator populations."
+      },
+      {
+        "name": "Doktor Doom Spider Mite Knockout Spray",
+        "type": "chemical",
+        "details": "Pyrethrum-based botanical insecticide. Hard on spider mites but can be hard on plants. NEVER apply with lights on (causes plant burn). Use with extreme care around humans as ingredients can be toxic. Avoid on young or sensitive plants. Cover grow lights and vents; allow 24-hour air-out before human occupancy. Apply 2-4 times every 2-3 days. Kills mites but NOT their eggs. Pyrethrum fogger available for large grows. Kills beneficial insects too. Use as LAST RESORT only."
+      },
+      {
+        "name": "Floramite",
+        "type": "chemical",
+        "details": "Miticide with harsh chemicals. Incredibly expensive. Often works when everything else fails. Use only as a last resort. Follow label directions strictly."
+      },
+      {
+        "name": "No-Pest Strips",
+        "type": "chemical",
+        "details": "Vapor-release pesticide strip. Emits toxic vapor that kills spider mites. DO NOT use if you will be breathing air from your grow room. Vapor is toxic to humans and other mammals. Only suitable for non-living spaces."
+      },
+      {
+        "name": "Bleach Solution",
+        "type": "home_remedy",
+        "details": "1 tablespoon bleach per 1 gallon of 95F pH-balanced water. Apply via spray bottle or mister. Use to clean surfaces and room, spot treatments. Disinfects entire growing area."
+      },
+      {
+        "name": "Alcohol & Water Solution",
+        "type": "home_remedy",
+        "details": "1 part alcohol to 9 parts water. Kills bugs on contact, safe for plants. Apply via spray bottle or mister."
+      }
+    ],
+    "treatment_protocol": {
+      "step_1": "Initial kill: lower room temperature, increase air circulation, spray-off mites with water, then apply chosen product (Grower's Ally, Spinosad, Earth's Ally, or insecticidal soap).",
+      "step_2": "Follow-up 2-3 days later: use a DIFFERENT product than step 1 to prevent resistance.",
+      "step_3": "Repeat steps 1 and 2 at minimum once more. Continue treating even after apparent eradication.",
+      "key_note": "Rotate between product types to prevent resistance development. Using a mix of several different methods works best."
+    },
+    "prevention": [
+      "Quarantine new plants/clones: inspect with handheld microscope, dip in Safer Soap or Mighty Wash, isolate minimum 1 week",
+      "Never proceed directly from outdoors to grow room",
+      "Remove dead leaves and plant matter continuously",
+      "Sterilize all equipment between grows with bleach solution",
+      "Prohibit pets in grow space",
+      "Change clothes/shower after visiting other growers",
+      "Maintain excellent air circulation with dedicated exhaust fan",
+      "Install air intake filter to prevent outdoor bug entry",
+      "Keep room temperature moderate (mites thrive in heat)",
+      "Maintain moderate humidity (mites prefer dry conditions)",
+      "Apply diatomaceous earth to soil surface and room perimeter",
+      "Start from seeds rather than clones to eliminate clone-borne infestation risk",
+      "Consider hydroponic/soilless growing (spider mites much less likely to thrive)",
+      "Outdoor: plant in breezy locations, avoid hot stagnant-air areas",
+      "Outdoor: preserve ladybugs and native predatory mites, use narrow-spectrum pesticides"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/spider-mites"
+  },
+  {
+    "id": "thrips",
+    "name": "Thrips",
+    "category": "pest",
+    "identification": {
+      "appearance": "Adults are small, fast-moving winged insects. Young thrips (nymphs) look like tiny unmoving pale worms - pale, fat and almost wormy tubular appearance, wingless.",
+      "size": "Extremely tiny (visible on finger for scale)",
+      "colors": [
+        "dark",
+        "yellow",
+        "transparent",
+        "golden"
+      ],
+      "first_signs": "Shiny, silver or bronze spots on leaves. Irregular shaped marks larger than spider mite damage. Appearance like dried spit or tiny snail trails.",
+      "notes": "Colors vary depending on developmental stage and geography."
+    },
+    "symptoms": [
+      "Shiny (sometimes slimy-looking), silver or bronze spots on leaves",
+      "Irregular shaped marks on leaf surface, larger than spider mite damage",
+      "Marks resemble dried spit or tiny snail trails",
+      "Severe infestations cause leaf death"
+    ],
+    "damage": "Thrips scrape and rasp leaf surfaces to feed on plant juices, creating characteristic silvery/bronze scarring patterns. Heavy infestations weaken plants and can kill leaves.",
+    "lifecycle": {
+      "stages": [
+        "Egg",
+        "Nymph (wormy, pale, wingless)",
+        "Adult (winged, dark or golden)"
+      ],
+      "duration": "Rapid reproduction cycle",
+      "reproduction": "Multiple overlapping generations possible in warm conditions.",
+      "notes": "Exist in multiple forms across lifecycle - wormy nymphs, winged adults, dark or golden colored variants."
+    },
+    "treatments": [
+      {
+        "name": "Insecticidal Soap (Fatty Acid Salts)",
+        "type": "organic",
+        "details": "Spray coverage essential. Requires follow-up applications. Avoid getting any on buds. Brief residual effect only."
+      },
+      {
+        "name": "Neem Oil",
+        "type": "organic",
+        "details": "All-natural botanical oil. Apply via misting spray using pressure sprayer. Multiple applications needed. CRITICAL: will leave unpleasant taste/smell on buds when used on flowering plants. Potential human health concerns documented. Requires one-hand pressure sprayer."
+      },
+      {
+        "name": "Spinosad (Monterey Garden Insect Spray with Spinosad)",
+        "type": "organic",
+        "details": "Active ingredient: Saccharopolyspora spinosa (fermentation-derived from soil bacteria). Apply as topical spray OR root drench via watering. Affects insect nervous system. Effective for only ~24 hours after mixing with water - mix fresh. NOT recommended for commercial growers. Also targets caterpillars, spider mites, other pests."
+      },
+      {
+        "name": "Pyrethrin Spray (Bonide 857 Pyrethrin Spray Concentrate)",
+        "type": "organic",
+        "details": "Fast-degrading organic insecticide. Dosage: 3 tablespoons of concentrate per gallon of water. Use right after sun goes down due to bee toxicity. Breaks down within 1-2 days. VERY toxic to bees - use as last resort only."
+      },
+      {
+        "name": "Diatomaceous Earth (Food-Grade)",
+        "type": "organic",
+        "details": "Mechanical/organic control. Sprinkle on soil surface, around tent perimeter, windowsills, doorways. Microscopic sharpness dehydrates and tears thrips on contact. Harmless to mammals and plants. Can cut down thrip numbers relatively quickly. Mix into topsoil and spread around plant base for preventative barrier."
+      }
+    ],
+    "prevention": [
+      "Mix diatomaceous earth into topsoil and spread around plant base as preventative barrier",
+      "Avoid all sprays contacting buds",
+      "Regular plant inspection for early detection",
+      "Maintain good air circulation",
+      "Keep growing area clean"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/thrips"
+  },
+  {
+    "id": "aphids",
+    "name": "Aphids (Greenflies/Blackflies)",
+    "category": "pest",
+    "identification": {
+      "appearance": "Soft-bodied oval-shaped insects. Adults may have visible wings or antennae. Nymphs are thin/long, usually white or pale, may resemble tiny white specks. Shed exoskeletons leave silvery shells behind.",
+      "size": "Very small, visible only on close inspection",
+      "colors": [
+        "white",
+        "green",
+        "yellow",
+        "black",
+        "brown",
+        "red"
+      ],
+      "first_signs": "Colonies on undersides of stems and leaves. Sticky honeydew residue on leaves. Presence of ants farming aphids.",
+      "notes": "Winged 'colonizer' aphids arrive first and lay eggs. Under crowding/stress, some develop wings and disperse to new plants."
+    },
+    "symptoms": [
+      "Yellow and/or wilted leaves from excessive sap extraction",
+      "Sticky honeydew (sugary liquid waste) on leaves and branches",
+      "Sooty mold fungus (black coating) growing on honeydew deposits",
+      "Ant presence around plants (attracted to honeydew)",
+      "Silvery shed exoskeletons on leaves",
+      "Clusters/colonies visible on stems and leaf undersides"
+    ],
+    "damage": "Pierce plants with sucking mouth-parts and feed on juices inside. Produce honeydew that attracts sooty mold fungus, turning leaves/branches black. Honeydew also attracts ants which farm aphids. Sooty mold on buds renders them potentially unsafe to smoke. A few colonizers can create hundreds or thousands of aphids in just a few weeks.",
+    "lifecycle": {
+      "stages": [
+        "Winged colonizer adult",
+        "Egg",
+        "Nymph",
+        "Wingless adult (or winged under stress)"
+      ],
+      "duration": "Nymphs mature in 7-10 days",
+      "reproduction": "Winged colonizers lay eggs that hatch within days. Females capable of producing dozens of offspring. Under crowding/stress, some develop wings and disperse. Asexual birth of live young possible.",
+      "notes": "Infestations can explode from a few individuals to thousands in just a few weeks."
+    },
+    "treatments": [
+      {
+        "name": "Water Spray Removal (Mechanical)",
+        "type": "mechanical",
+        "details": "Use power sprayer or adjustable mister (e.g., Chapin International 10031 Multi-Purpose Pressure Sprayer) to spray bugs directly off plants. Removes physical bugs. Use as needed."
+      },
+      {
+        "name": "Insecticidal Soap (Garden Safe Insecticidal Soap)",
+        "type": "organic",
+        "details": "Fatty acid salts that weaken outer shell of aphids. Spray for full coverage. Follow-up applications necessary. Safe for plants. Avoid contacting buds. Does not leave much residue. Coverage critical as it doesn't stay long."
+      },
+      {
+        "name": "Neem Oil (Neem Bliss 100% Cold Pressed Neem Oil)",
+        "type": "organic",
+        "details": "All-natural botanical oil. Requires mister/pressure sprayer. Mix thoroughly as oil/water separate easily. Repeat applications as needed. Leaves unpleasant taste/smell on buds - keep away from flowering plants. Some evidence of potential human harm. Works against many bug types and mold."
+      },
+      {
+        "name": "Spinosad (Monterey Garden Insect Spray with Spinosad)",
+        "type": "organic",
+        "details": "Organic insecticide from Saccharopolyspora spinosa fermentation. Kills via ingestion/contact by affecting nervous system. Spray liberally under leaves. Mix fresh as products effective only ~24 hours after mixing. Safe for pets, children, plants. Less toxic to beneficial insects/spiders. NOT recommended for commercial growers. Requires mister for even coverage."
+      },
+      {
+        "name": "Ladybugs, Lady Beetles, Lacewings",
+        "type": "biological",
+        "details": "Release predatory insects that eat aphids. Can order ladybugs online. Limited impact after infestation is established. Tend to disperse within 1-2 days. Reproduction rate may be insufficient against established colonies. Larvae also consume aphids."
+      },
+      {
+        "name": "Ant Control (Indirect Treatment)",
+        "type": "indirect",
+        "details": "Eliminate ant populations that farm aphids to collect honeydew. Ants maintain aphid infestations by protecting them from predators. Use standard ant control methods as needed."
+      }
+    ],
+    "products_to_avoid": [
+      {
+        "name": "Malathion",
+        "reason": "Not safe to use on cannabis"
+      },
+      {
+        "name": "Dursban (chlorpyrifos)",
+        "reason": "Not safe to use on cannabis"
+      },
+      {
+        "name": "Orthene (acephate)",
+        "reason": "Not safe to use on cannabis, despite being labeled for shade trees and ornamentals"
+      }
+    ],
+    "prevention": [
+      "Examine plants at least weekly",
+      "Focus inspection on bud areas and undersides of new leaves",
+      "Look for clusters/colonies indicating establishment",
+      "Early detection critical - infestations can explode in weeks",
+      "Control ant populations to prevent aphid farming",
+      "Quarantine new plants before introducing to garden"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/aphids"
+  },
+  {
+    "id": "caterpillars",
+    "name": "Caterpillars (Budworms, Inchworms, Cabbage Loopers)",
+    "category": "pest",
+    "identification": {
+      "appearance": "Small larvae ranging from green to brown coloring, visible to naked eye on leaves.",
+      "types": [
+        "Zebra caterpillars",
+        "Saltmarsh caterpillars",
+        "Cabbage loopers",
+        "Inchworms",
+        "Budworms"
+      ],
+      "size": "Visible to naked eye, varies by species",
+      "colors": [
+        "green",
+        "brown",
+        "striped patterns depending on species"
+      ],
+      "first_signs": "Chunks of leaves missing. Clumps of black/brown 'dirt' on leaves (caterpillar poop/frass). Holes in foliage on both upper and lower leaf surfaces.",
+      "notes": "Laid as eggs by butterflies and moths. Multiple species attack cannabis."
+    },
+    "symptoms": [
+      "Chunks of leaves missing from feeding activity",
+      "Clumps of black/brown 'dirt' on leaves (caterpillar frass/poop)",
+      "Holes in foliage on both upper and lower leaf surfaces",
+      "Damaged and hollowed-out buds (budworms)",
+      "Visible caterpillars on leaves and stems"
+    ],
+    "damage": "Caterpillars chew through leaves and buds, consuming large amounts of plant material. Budworms bore into buds and eat them from the inside, causing rot and mold. Frass (caterpillar poop) accumulates on leaves and buds. Can cause significant defoliation and bud loss.",
+    "lifecycle": {
+      "stages": [
+        "Egg (laid by butterflies/moths)",
+        "Larva (caterpillar)",
+        "Pupa",
+        "Adult (butterfly/moth)"
+      ],
+      "duration": "Varies by species",
+      "reproduction": "Adult butterflies and moths lay eggs directly on cannabis plants. Eggs hatch into larvae that feed on the plant.",
+      "notes": "Multiple generations possible during growing season. Moths are nocturnal egg layers."
+    },
+    "treatments": [
+      {
+        "name": "BT Spray - Bacillus thuringiensis (Southern Ag Thuricide BT Caterpillar Control)",
+        "type": "biological",
+        "details": "Active ingredient: Bacillus thuringiensis bacteria. Apply with mister on both leaf surfaces. Apply weekly while caterpillars present; reapply after rain. Safe to use until harvest day. Stops caterpillars from being able to eat (they starve). Any BT brand caterpillar killer works. 'Thuricide' is just marketing terminology. Most targeted and effective option specifically for caterpillars."
+      },
+      {
+        "name": "Spinosad (Monterey Garden Insect Spray with Spinosad)",
+        "type": "organic",
+        "details": "Active ingredient: fermented soil bacteria (Saccharopolyspora spinosa). Spray on leaves/roots or water into soil. Less toxic to many beneficial insects but less effective than BT for caterpillars alone. Also targets aphids, spider mites, thrips, whiteflies. Commercial growers should research regulatory restrictions. Mix only needed amount; effective ~24 hours after mixing."
+      },
+      {
+        "name": "Manual Removal (Hand-Picking)",
+        "type": "mechanical",
+        "details": "Hand-pick visible caterpillars from plants. Inspect thoroughly including inside buds. Effective for small infestations or as supplement to other treatments."
+      }
+    ],
+    "prevention": [
+      "Prevent butterflies and moths from accessing growing area",
+      "Use netting or screens over outdoor plants",
+      "Regular inspection of plants for eggs, frass, and larvae",
+      "Apply BT preventatively during outdoor growing season",
+      "Remove visible eggs before they hatch"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/caterpillars"
+  },
+  {
+    "id": "bud-rot",
+    "name": "Bud Rot (Botrytis cinerea)",
+    "category": "disease",
+    "identification": "White and fluffy mold appearing on buds in initial stages. Sudden yellowing of leaves on large colas. Brown or discolored patches on buds, changes occurring within 1-2 days. In advanced stages: dark gray or brown interior visible when buds are cracked open, dusty speckled appearance from fungus spores, purple or yellow leaves on affected buds, crispy dried-out bud sections, easily separable bud material.",
+    "symptoms": [
+      "Yellow or dying leaves on buds",
+      "Bronze or brown patches on buds",
+      "Dark or discolored buds",
+      "Buds appearing dried up",
+      "Leaves turning purple in response to infection",
+      "Leaves easily separating from buds",
+      "Brown or gray interior decay",
+      "Dusty fungal spores inside buds",
+      "Patches of dead tissue on colas",
+      "Mushy bud texture",
+      "Crispy leaf edges"
+    ],
+    "causes": [
+      "High humidity above 55-60% RH",
+      "Wet or damp bud conditions",
+      "Stagnant air with poor circulation",
+      "Cool temperatures between 50-60F (10-15C)",
+      "Freezing temperatures with frost/melt cycles",
+      "Heat combined with high humidity",
+      "Dense thick buds creating internal moisture pockets",
+      "Leaves touching each other creating wet spots",
+      "Plant wounds or cracks from wind damage",
+      "Damage from caterpillars, snails, or other pests",
+      "White powdery mildew compromising plant health",
+      "Nutrient deficiencies weakening plants",
+      "Genetic susceptibility (some strains more vulnerable)",
+      "Wind-carried spores",
+      "Water/rain transmission",
+      "Contact from animals",
+      "Clones from infected grow rooms",
+      "Dormant spores in environment"
+    ],
+    "treatments": [
+      {
+        "name": "Immediate removal of infected material",
+        "type": "manual",
+        "details": "Remove all rotted bud parts immediately and carefully. Remove nearby buds showing any infection signs. Discard all affected material to prevent spore spread. Carefully separate infected tissue to avoid releasing spores."
+      },
+      {
+        "name": "Early harvest",
+        "type": "manual",
+        "details": "Harvest plants early if environmental conditions cannot be improved to prevent further spread."
+      },
+      {
+        "name": "Humidity reduction",
+        "type": "environmental",
+        "details": "Lower humidity to 50-55% RH or below using dehumidifiers indoors."
+      },
+      {
+        "name": "Air circulation improvement",
+        "type": "environmental",
+        "details": "Add additional air circulation fans, use exhaust fans to vent humid air away, deploy oscillating fans for air movement."
+      },
+      {
+        "name": "Temperature control",
+        "type": "environmental",
+        "details": "Maintain temperature around 75F (24C) in late flowering. Keep moderate environmental conditions between 70-75F (20-24C)."
+      },
+      {
+        "name": "Defoliation",
+        "type": "manual",
+        "details": "Remove leaves covering bud sites, remove leaves from middle and bottom of plant, remove leaves not receiving light, reduce overall leaf density in bushy plants, remove leaves touching each other."
+      },
+      {
+        "name": "Botrytis-specific fungicides (vegetative stage only)",
+        "type": "chemical",
+        "details": "Fungicides specifically formulated for Botrytis can be used during vegetative stage ONLY. Never use fungicides, Neem oil, or burn sulfur during flowering stage."
+      },
+      {
+        "name": "Rain/moisture protection",
+        "type": "environmental",
+        "details": "Shake plants after rain or dew to remove moisture. Cover outdoor plants with tarps during rain. Install rain protection systems."
+      }
+    ],
+    "prevention": [
+      "Keep humidity under 50-55% RH during flowering",
+      "Use dehumidifiers indoors",
+      "Monitor RH levels consistently",
+      "Install exhaust fans and oscillating fans for air movement",
+      "Ensure air moves over buds and through plant interior",
+      "Position plants in breezy outdoor locations",
+      "Avoid plant injuries and wounds",
+      "Cover any open wounds with tape or protective covering",
+      "Keep plants healthy and free from nutrient deficiencies",
+      "Select mold-resistant strains",
+      "Use fast-flowering strains (e.g. Pineapple Express, 50-day flowering)",
+      "Use auto-flowering strains (e.g. Purple Punch Auto)",
+      "Space plants to prevent bud contact",
+      "Maintain temperatures around 75F (24C) in late flowering",
+      "Avoid extreme temperature fluctuations",
+      "Select strains suited to local climate",
+      "Plant short-flowering varieties before rainy season",
+      "Shake plants after dew or rain to remove moisture",
+      "Install protective tarps above plants during rain",
+      "Inspect large/dense buds regularly in late flowering",
+      "Check for yellowing leaves immediately upon detection",
+      "Scout after humid or wet weather"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/bud-rot"
+  },
+  {
+    "id": "white-powdery-mildew",
+    "name": "White Powdery Mildew (WPM)",
+    "category": "disease",
+    "identification": "White patches of fuzzy, flour-looking substance on leaves. Circular patches resembling flour dust on plant surfaces. Affects leaves, stems, and buds. White coating that stands out against green foliage. Growth appears on both leaf undersides and topsides.",
+    "symptoms": [
+      "White spots on leaves",
+      "Dust-like powder on leaf surfaces",
+      "Growth on leaf undersides and topsides",
+      "Stem infections",
+      "Bud contamination and deterioration",
+      "Progressive spread across plant tissues"
+    ],
+    "causes": [
+      "High humidity (fungus thrives in moist conditions)",
+      "Low or no airflow allowing spores to settle",
+      "Poor ventilation in enclosed spaces",
+      "Leaf-on-leaf contact creating moisture between touching leaves",
+      "Bushy plants with dense foliage at higher risk"
+    ],
+    "treatments": [
+      {
+        "name": "Milk spray",
+        "type": "organic/homemade",
+        "details": "Mix 1 part milk to 3 parts water. Apply liberally while grow lights are on. Any milk type works (skim, 2%, whole). Wet both leaf sides."
+      },
+      {
+        "name": "Potassium bicarbonate spray",
+        "type": "organic/homemade",
+        "details": "Dissolve 1 tbsp potassium bicarbonate in 1 gallon water. Optional: add 1 tbsp vegetable oil and 3 drops liquid dish soap. Spray lightly and evenly. Apply during lights off."
+      },
+      {
+        "name": "Baking soda solution",
+        "type": "organic/homemade",
+        "details": "Mix 1 tbsp baking soda, 1 tsp liquid dish soap, 1 gallon water. Spray all leaf surfaces top and bottom. Least effective of the homemade options."
+      },
+      {
+        "name": "Garden Safe Brand Fungicide3",
+        "type": "commercial/organic",
+        "details": "Organic, OMRI-listed fungicide. Follow label instructions."
+      },
+      {
+        "name": "Lost Coast Plant Therapy",
+        "type": "commercial/organic",
+        "details": "Kills WPM and other pests. Safe for flowers, pets, and people. More expensive option."
+      },
+      {
+        "name": "GrowSafe Biopesticide",
+        "type": "commercial/organic",
+        "details": "OMRI-listed organic product. Controls WPM and multiple pests. More expensive option."
+      },
+      {
+        "name": "SM-90",
+        "type": "commercial",
+        "details": "Commercial treatment for WPM. Note: currently unavailable/discontinued."
+      },
+      {
+        "name": "Manual wipe removal (Step 1 of 3-step cure)",
+        "type": "manual",
+        "details": "Wet paper towels with water. Gently wipe mildew from affected leaves. Use paper towels to prevent spore spread. Minimize leaf disturbance."
+      },
+      {
+        "name": "Fan setup for environmental control (Step 2 of 3-step cure)",
+        "type": "environmental",
+        "details": "Install minimum two fans. One oscillating fan for air circulation to gently rustle leaves. Second fan pointing outward for ventilation exchange. Fresh air intake with stale air exhaust."
+      },
+      {
+        "name": "Foliar spray treatment (Step 3 of 3-step cure)",
+        "type": "chemical",
+        "details": "Mix chosen treatment in clean sprayer/mister. Spray all leaves top and bottom. Apply even if WPM not visible on all foliage for full coverage."
+      }
+    ],
+    "prevention": [
+      "Maintain proper humidity levels (40-60% vegetative, 45% flowering)",
+      "Purchase dehumidifier for humid climates",
+      "Install oscillating fan for gentle leaf movement",
+      "Use minimum two-fan setup for air circulation",
+      "Exchange stale air with fresh air regularly",
+      "Avoid sealed unventilated grow spaces",
+      "Continuous air turnover to reduce spore viability",
+      "Remove completely shaded fan leaves (defoliation)",
+      "Avoid leaf-on-leaf contact",
+      "Train bushy plants to reduce density",
+      "Create airflow paths through canopy",
+      "Monitor plants regularly for white patches",
+      "Catch infections before severe spread",
+      "Consider mold-resistant strains (e.g. Glookies)"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/white-powdery-mildew"
+  },
+  {
+    "id": "root-rot",
+    "name": "Root Rot",
+    "category": "disease",
+    "identification": "Brown, slimy, or mushy roots instead of healthy white/cream colored ones. Twisted or bunched together root strands. Roots appear wound up with individual strands melded together with slime. Foul smell from roots. Some varieties affect only submerged roots while roots above waterline stay white.",
+    "symptoms": [
+      "Brown, slimy, or smelly roots",
+      "Mushy root texture",
+      "Twisted root appearance",
+      "Droopy or wilting appearance (often overnight)",
+      "Yellow or white discoloration on leaves",
+      "Brown patches on foliage",
+      "Curling or clawing leaves",
+      "Burnt leaf edges or tips",
+      "Nutrient deficiency appearance (random mix of symptoms)",
+      "Spotted or marked leaves",
+      "Rapid leaf death and dropping",
+      "Reduced water consumption by plant",
+      "Overall weakened growth"
+    ],
+    "causes": [
+      "Heat in reservoir (bacteria reproduce more easily at warm temperatures)",
+      "Light leaks into reservoir breeding unwanted organisms",
+      "No air space between net pots and water surface",
+      "Lack of dissolved oxygen in water",
+      "Stagnant water at roots",
+      "Disturbing young roots (exposes them to pathogens, causes twisting)",
+      "Decaying plant matter in reservoir",
+      "Water level too high in reservoir",
+      "Twisted roots from handling restricting root growth"
+    ],
+    "treatments": [
+      {
+        "name": "Hydroguard",
+        "type": "commercial/biological",
+        "details": "Contains Bacillus amyloliquefaciens bacteria that fights fungi, bacteria, and oomycetes. May help lower salt concentration in plant tissue. Inexpensive and concentrated - single bottle lasts entire grow. May help with nutrient availability. Author's preferred choice for hydroponic systems."
+      },
+      {
+        "name": "Great White Root Powder",
+        "type": "commercial/biological",
+        "details": "Root supplement providing beneficial bacteria. Works when Hydroguard doesn't (effectiveness varies by pathogen type). Some growers report successful root rot recovery. Lower cost sample available for testing."
+      },
+      {
+        "name": "VooDoo Juice",
+        "type": "commercial/biological",
+        "details": "Beneficial bacteria supplement for root health. Mentioned as alternative option."
+      },
+      {
+        "name": "SM-90",
+        "type": "commercial",
+        "details": "Root treatment product. Note: temporarily discontinued."
+      },
+      {
+        "name": "Air pump and air stone system",
+        "type": "equipment",
+        "details": "Use EcoPlus 2 Air Pump with 2 Outlets (one pump per 10-gallon container). Connect to large air stones. Use 3/16-inch standard aquarium tubing (black tubing preferred to block light). Create abundant bubbles to dissolve oxygen into water."
+      },
+      {
+        "name": "Reservoir temperature control",
+        "type": "environmental",
+        "details": "Keep grow room under 80F, ideally under 75F. Reservoir temperature ideally around 72F (22C). Cooler water holds more dissolved oxygen. Lower temperature inhibits bacterial reproduction."
+      },
+      {
+        "name": "Light leak elimination",
+        "type": "environmental",
+        "details": "Use dark, thick, sturdy reservoir tubs. Check thoroughly for light leaks. Apply opaque tape, electrical tape, and reflective tape to cover light entry points. Use dark light-proof tubing. Install neoprene net pot inserts instead of clay pebbles. Wrap towels around reservoir to block light and heat. Ensure completely pitch black conditions in DWC reservoirs."
+      },
+      {
+        "name": "Air gap management",
+        "type": "environmental",
+        "details": "Maintain space with air between net pot bottoms and water surface. Space should be about the width of a few fingers. Oxygen-rich moist environments resist pathogen growth."
+      },
+      {
+        "name": "Reservoir cleaning and sanitation",
+        "type": "maintenance",
+        "details": "Remove dead roots, leaves, and plant debris immediately. Keep grow area extremely clean. Clean all grow-related items before starting grow to kill bacteria/fungus."
+      },
+      {
+        "name": "Reservoir water management",
+        "type": "maintenance",
+        "details": "For established plants: change reservoir water every 7-10 days. For young seedlings (first 3-4 weeks): only top off with nutrient water, avoid full reservoir changes. Wait until plants establish healthy biofilm before full changes."
+      },
+      {
+        "name": "Hydrogen Peroxide (H2O2) - NOT recommended",
+        "type": "chemical/not-recommended",
+        "details": "Only effective for approximately 24 hours. Converts to oxygen and water quickly. Kills both bad AND beneficial bacteria. Does not address underlying problem. Requires daily treatment. Author states it showed no noticeable difference. Creates temporary bubbling effect that appears helpful but doesn't improve plants."
+      }
+    ],
+    "prevention": [
+      "Continuously use beneficial bacteria supplements like Hydroguard",
+      "Establish beneficial bacteria colonies before problems start",
+      "Maintain cool reservoir temperatures (ideally 72F/22C)",
+      "Eliminate all light leaks completely",
+      "Maintain constant air gap under net pots",
+      "Create oxygen-rich environment with air stones and pumps",
+      "Ensure plenty of bubbles in water continuously",
+      "Remove dead plant matter immediately",
+      "Minimize root disturbance especially with young plants",
+      "Delay full reservoir changes for seedlings (first 3-4 weeks)",
+      "Top off reservoirs only during early establishment phase",
+      "Keep entire grow space extremely clean",
+      "Clean equipment before grows begin",
+      "Check roots regularly for first signs of browning",
+      "Watch new leaf growth for recovery signs (not old leaves)"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/root-rot"
+  },
+  {
+    "id": "leaf-septoria",
+    "name": "Leaf Septoria (Yellow Leaf Spot)",
+    "category": "disease",
+    "identification": "Round yellow or brown spots on leaves appearing very uniform like little circles. Spots may have darkened borders. May have a hard growth in the middle resembling a little pimple. Tiny dark specks in the center of each spot (spore receptacles). Spots initially appear yellow but turn brown over time. First appears on the bottom leaves of the plant.",
+    "symptoms": [
+      "Yellow spots on leaves",
+      "Brown spots on leaves",
+      "Round uniform spotting patterns",
+      "Dark-centered lesions with darkened borders",
+      "Bottom leaf damage as initial manifestation",
+      "Spots turning from yellow to brown over time"
+    ],
+    "causes": [
+      "Fungal infection (primary cause)",
+      "Bacterial infection (secondary possibility)",
+      "Warm wet weather conditions",
+      "High humidity and moisture on foliage",
+      "Spores remaining in soil overwinter",
+      "Wind and rain dispersal of spores"
+    ],
+    "treatments": [
+      {
+        "name": "Copper-based fungicide (Bonide)",
+        "type": "commercial/chemical",
+        "details": "Copper-based fungicide product by Bonide. Apply as foliar spray following label instructions."
+      },
+      {
+        "name": "Bonide Revitalize Biofungicide",
+        "type": "commercial/biological",
+        "details": "Biofungicide product by Bonide (Revitalize line). Apply as directed on label."
+      },
+      {
+        "name": "Neem Oil",
+        "type": "organic",
+        "details": "Organic treatment option. Apply as foliar spray with specific application notes for cannabis."
+      },
+      {
+        "name": "Manual leaf removal",
+        "type": "manual",
+        "details": "Remove all affected leaves immediately and carefully to eliminate spore sources."
+      },
+      {
+        "name": "Pruning for air circulation",
+        "type": "manual",
+        "details": "Prune leafy plant sections to improve air circulation around remaining foliage."
+      },
+      {
+        "name": "One-Hand Pressure Sprayer/Mister",
+        "type": "equipment",
+        "details": "Use a one-hand pressure sprayer or mister for even application of liquid treatments."
+      }
+    ],
+    "prevention": [
+      "Remove all affected leaves to eliminate spores",
+      "Improve plant air circulation through pruning",
+      "Avoid wetting foliage or allowing leaves to overlap",
+      "Keep ground beneath plants clean",
+      "Rake away fallen leaves and vegetation",
+      "Apply mulch to prevent spore dispersal from soil",
+      "Maintain plant health (healthy plants show greater resistance)",
+      "Rotate crop locations annually",
+      "Use fungicides as preventative measure (most effective approach)"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/yellow-leaf-spot-leaf-septoria"
+  },
+  {
+    "id": "fungus-gnats",
+    "name": "Fungus Gnats",
+    "category": "pest",
+    "identification": "Tiny black or dark brown flies (~2mm) resembling miniature mosquitoes with dark wings. Larvae are tiny white/translucent maggots with black heads visible in topsoil. Darker than fruit flies, which appear brown/yellow/orange.",
+    "symptoms": [
+      "Tiny flying insects buzzing around soil and plants",
+      "Damping off in seedlings (stems may collapse without apparent cause)",
+      "Wilting, yellowing, drooping and leaf spotting",
+      "Apparent nutrient deficiencies unrelated to pH or actual nutrient levels",
+      "Stunted growth or complete growth cessation",
+      "Reduced flowering yields",
+      "Damage to root hairs and tender roots",
+      "Adults spread diseases like pythium (root rot)"
+    ],
+    "treatments": [
+      {
+        "product": "Yellow sticky cards",
+        "description": "Trap adults and monitor population decline"
+      },
+      {
+        "product": "Fan blowing across soil surface",
+        "description": "Dries topsoil and prevents egg-laying"
+      },
+      {
+        "product": "Food-grade diatomaceous earth",
+        "description": "Microscopically sharp particles puncture larvae exoskeletons"
+      },
+      {
+        "product": "Mosquito Bits (BTi - Bacillus thuringiensis var. israelensis)",
+        "description": "Crush and mix with water to eliminate larvae"
+      },
+      {
+        "product": "Hydrogen peroxide solution",
+        "description": "Mix 1 part H2O2 (3%) to 4 parts water, apply to soil"
+      },
+      {
+        "product": "Essentria IC3 Insecticide",
+        "description": "Horticultural oil blend, organic and human-safe"
+      },
+      {
+        "product": "Nematodes (Steinernema feltiae)",
+        "description": "Pathogenic nematodes as biological control"
+      },
+      {
+        "product": "Predatory mites (Hypoaspis miles/aculeifer)",
+        "description": "Biological control agents that feed on larvae"
+      }
+    ],
+    "prevention": [
+      "Never water until the top 1-2 inches of soil has dried out",
+      "Thoroughly clean growing area between grows",
+      "Inspect new soil for signs of infestation before use",
+      "Consider heat-treating new soil",
+      "Inspect clones closely; consider starting from seeds",
+      "Dip clones in pest-killer solution if concerned about contamination"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/fungus-gnats"
+  },
+  {
+    "id": "whiteflies",
+    "name": "Whiteflies",
+    "category": "pest",
+    "identification": "Tiny white moth-like insects (~2mm). Congregate on leaf undersides and take flight when plants are disturbed. Easily spotted with naked eye.",
+    "symptoms": [
+      "White spots appearing on upper leaf surfaces",
+      "Visible white insects fluttering around plants",
+      "Bronze or brown patches on foliage",
+      "Yellowing leaves and wilting",
+      "Holes in leaves",
+      "Overall plant drooping"
+    ],
+    "treatments": [
+      {
+        "product": "Insecticidal soap",
+        "description": "Weakens outer shell of insects. Requires thorough coverage of all leaf surfaces, multiple applications. Avoid contact with buds."
+      },
+      {
+        "product": "Neem oil",
+        "description": "All-natural remedy effective against multiple pests. Use pressure sprayer for even application. Keep away from buds (leaves unpleasant taste/smell)."
+      },
+      {
+        "product": "Spinosad (organic)",
+        "description": "Organic, harmless to pets/children/plants. Kills via ingestion or contact by affecting nervous system. Most effective within 24 hours of mixing."
+      },
+      {
+        "product": "Essentria IC3",
+        "description": "Horticultural oil blend, organic and human-safe. Effective for ~8 hours, requires daily application or combination with other methods."
+      },
+      {
+        "product": "Yellow sticky traps",
+        "description": "Catch adult whiteflies to reduce population and monitor infestation levels."
+      }
+    ],
+    "prevention": [
+      "Inspect plants regularly, especially leaf undersides",
+      "Quarantine new clones or plants before introducing to grow area",
+      "Maintain good airflow around plants",
+      "Use yellow sticky traps as early warning system",
+      "Keep grow area clean between cycles"
+    ],
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/white-flies"
+  },
+  {
+    "id": "nitrogen-deficiency",
+    "name": "Nitrogen (N) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Nitrogen (N)",
+    "symptoms": [
+      "Older, lower leaves turn yellow, wilt and eventually die",
+      "Entire plant appears pale or lime-colored",
+      "Yellow leaves show brown signs and become soft",
+      "Leaves fold inward before turning crispy",
+      "Affected foliage eventually falls off on its own",
+      "Yellowing progresses upward from bottom if severe"
+    ],
+    "affectedLeaves": "Oldest/lowest leaves first. Progresses upward. NOT nitrogen deficiency if yellowing appears on new growth at top.",
+    "causes": [
+      "Insufficient nutrient supply to roots",
+      "Root-zone pH too low, preventing nitrogen absorption",
+      "Plant redirects nitrogen from older leaves to prioritize new growth"
+    ],
+    "solution": [
+      "Apply complete plant food containing nitrogen",
+      "Use nitrate of soda or organic fertilizer sources",
+      "Switch to higher-nitrogen vegetative formulas during growth stage",
+      "Check and adjust root-zone pH if problem persists",
+      "During flowering: use bloom formulas with lower nitrogen ratios",
+      "Late flowering: natural yellowing is normal and beneficial - no action needed"
+    ],
+    "pHIdeal": {
+      "soil": "6.0-7.0",
+      "hydro": "5.5-6.5"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/nitrogen-deficiency"
+  },
+  {
+    "id": "phosphorus-deficiency",
+    "name": "Phosphorus (P) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Phosphorus (P)",
+    "symptoms": [
+      "Lower/older leaves turn dark green or yellow with brown, bronze, or blue-tinted spots",
+      "Leaves develop shiny-looking splotches and may thicken",
+      "Leaves thicken, curl downward, and feel stiff",
+      "Stems may display bright red or purple coloration (starting from underneath)",
+      "Progressive worsening if left untreated"
+    ],
+    "affectedLeaves": "Lower and oldest leaves first. Progresses upward. More common during flowering stage when phosphorus demand increases.",
+    "causes": [
+      "Root zone pH outside optimal range",
+      "Overwatering or wet, compact soil conditions",
+      "Temperature below 60F (15C) or temperature fluctuations",
+      "Excess iron (Fe) or zinc (Zn) blocking phosphorus absorption",
+      "Nutrient salt buildup in growing medium"
+    ],
+    "solution": [
+      "Flush system with pH-balanced water containing standard cannabis nutrients",
+      "Ensure proper watering practices and root health",
+      "Maintain comfortable room temperatures (above 60F/15C)",
+      "Check for excess nutrient salt accumulation",
+      "Provide balanced nutrient ratios rather than excess phosphorus",
+      "Monitor recovery over 7-14 days on new growth (damaged leaves won't recover)"
+    ],
+    "pHIdeal": {
+      "soil": "6.2-7.0",
+      "hydro": "5.5-6.2"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/phosphorus-deficiency"
+  },
+  {
+    "id": "potassium-deficiency",
+    "name": "Potassium (K) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Potassium (K)",
+    "symptoms": [
+      "Yellow, brown, or burnt edges and tips on leaves",
+      "Yellow coloring appears between leaf edges alongside brown/burnt areas",
+      "Leaf tips curl as edges turn brown and die",
+      "Inner leaf veins remain green while surrounding tissue is damaged",
+      "Leaves may appear almost white or pale yellow",
+      "Weakened stems, plant may stretch"
+    ],
+    "affectedLeaves": "Generally older/lower leaves first, but can sometimes appear at top. Not always predictable in location.",
+    "causes": [
+      "pH imbalance blocking potassium absorption",
+      "Overwatering",
+      "Reverse osmosis or heavily filtered water lacking minerals",
+      "Stressful growing conditions (heat, transplant shock)"
+    ],
+    "solution": [
+      "Rule out light burn: move grow lights at least 12 inches from plants",
+      "Verify nutrient adequacy - quality soil or cannabis-specific nutrients usually provide enough potassium",
+      "Flush system with pH-balanced water containing standard nutrient dose",
+      "Monitor recovery on new growth (damaged leaves won't recover)"
+    ],
+    "pHIdeal": {
+      "soil": "6.0-7.0",
+      "hydro": "5.5-6.5"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/potassium-deficiency"
+  },
+  {
+    "id": "calcium-deficiency",
+    "name": "Calcium (Ca) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Calcium (Ca)",
+    "symptoms": [
+      "Brown or bronze splotches/spots on leaves",
+      "Brown patches or scorch marks on actively growing leaves",
+      "Crinkling, mottling, and stunting of new growth",
+      "Curled leaf tips and leaf die-off",
+      "Small or distorted new leaves",
+      "Yellowing may accompany brown spots"
+    ],
+    "affectedLeaves": "Newer/upper leaves (new growth) first. Concentrated near top of plant closest to grow lights. Does NOT appear on older lower leaves.",
+    "causes": [
+      "Low pH at the roots (most common cause)",
+      "Using filtered or reverse osmosis water lacking minerals",
+      "Growing in hydro or coco coir without Cal-Mag supplementation",
+      "Soil not amended with calcium sources like dolomite lime",
+      "Excessive potassium can trigger deficiency",
+      "Acidic soil conditions below 6.2 pH"
+    ],
+    "solution": [
+      "Flush system with pH-balanced, nutrient-rich water",
+      "Supplement with Cal-Mag (e.g., CaliMagic: 1 tsp/gallon of water)",
+      "For soil: add 6-7 teaspoons dolomite lime per gallon of soil",
+      "Adjust pH to optimal range",
+      "Expect healthy new growth within one week (damaged leaves won't recover)"
+    ],
+    "pHIdeal": {
+      "soil": "6.2-7.0",
+      "hydro": "6.2-6.5"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/calcium-deficiency"
+  },
+  {
+    "id": "magnesium-deficiency",
+    "name": "Magnesium (Mg) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Magnesium (Mg)",
+    "symptoms": [
+      "Light green or yellow coloring on veins and edges of lower/older leaves",
+      "Interveinal chlorosis: yellowing between veins while veins stay green",
+      "Red stems may appear (not always present)",
+      "Leaf edges become crispy",
+      "Light brown spotting develops within margins if deficiency worsens",
+      "Plant loses lower leaves rapidly without intervention"
+    ],
+    "affectedLeaves": "Lower/older leaves first. Magnesium is a mobile nutrient - plant translocates it from old to new leaves.",
+    "causes": [
+      "pH lock-out (primary cause) - roots cannot absorb magnesium at wrong pH",
+      "Calcium-only supplements without magnesium (agricultural lime, eggshells)",
+      "Using coco coir or RO water without Cal-Mag supplementation",
+      "Accompanying calcium or iron deficiencies"
+    ],
+    "solution": [
+      "Flush system with properly pH'd water containing full nutrient solution",
+      "Supplement with Cal-Mag (e.g., General Hydroponics CaliMagic at 1 tsp/gallon)",
+      "Check and correct root zone pH",
+      "For soil: add dolomite lime (6-7 tsp per gallon of soil)",
+      "New healthy growth appears within one week (damaged leaves won't recover)"
+    ],
+    "pHIdeal": {
+      "soil": "6.0-7.0 (6.5-7.0 if deficiency suspected)",
+      "hydro": "6.0-6.5"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/magnesium-deficiency"
+  },
+  {
+    "id": "iron-deficiency",
+    "name": "Iron (Fe) Deficiency",
+    "category": "deficiency",
+    "nutrient": "Iron (Fe)",
+    "symptoms": [
+      "Newest leaves are completely bright yellow when they first grow in",
+      "Yellow sections may appear almost white",
+      "Affected leaves may gradually turn green over time, starting from tips toward base",
+      "Severe initial yellowing that can self-correct partially"
+    ],
+    "affectedLeaves": "New/upper/inner leaves only. Appears at the top of the plant. Distinguishes from magnesium deficiency which affects older/lower leaves.",
+    "causes": [
+      "pH too high (especially above 7.0) causing iron lockout",
+      "Root problems or overwatering",
+      "Heavily filtered or reverse osmosis water (removes iron)",
+      "Excess copper in the system",
+      "Nutrient lockout from excessive fertilizer",
+      "Stressful growing conditions (may resolve on its own)"
+    ],
+    "solution": [
+      "Adjust pH to proper range (most important step)",
+      "Flush system with clean, pH-balanced water",
+      "Apply Cal-Mag supplements containing iron",
+      "Most growers don't need additional iron - focus on pH correction first",
+      "Ensure proper watering and healthy root development",
+      "Monitor recovery within one week"
+    ],
+    "pHIdeal": {
+      "soil": "6.0-6.5",
+      "hydro": "5.5-6.5"
+    },
+    "source": "https://www.growweedeasy.com/cannabis-plant-problems/iron-deficiency"
+  }
+]
