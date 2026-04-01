@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowUp, ChevronDown, Leaf, MessageCircle, Phone, Instagram, Mail, Star, Shield, BookOpen, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
-import { signIn } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 
 
 function renderMd(text: string) {
@@ -22,6 +22,7 @@ function renderMd(text: string) {
 }
 export default function LandingPage() {
   const router = useRouter();
+  const { data: session, status } = useSession();
   const [messages, setMessages] = useState<{role:string;content:string}[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,16 @@ export default function LandingPage() {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const isLoggedIn = status === "authenticated" && session?.user?.type !== "guest";
+
+  const handleEntrar = () => {
+    if (isLoggedIn) {
+      router.push("/chat");
+    } else {
+      setShowAuthModal(true);
+    }
+  };
   const MAX_FREE = 2;
 
   useEffect(() => {
@@ -40,7 +51,7 @@ export default function LandingPage() {
 
   const sendMessage = async (text: string) => {
     if (!text.trim() || loading) return;
-    if (msgCount >= MAX_FREE) { setShowAuthModal(true); return; }
+    if (msgCount >= MAX_FREE) { handleEntrar(); return; }
     setMessages(p => [...p, { role: "user", content: text.trim() }]);
     setInput(""); setLoading(true); setMsgCount(c => c + 1);
     setMessages(p => [...p, { role: "assistant", content: "" }]);
@@ -64,7 +75,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
           <div className="flex items-center gap-3">
-            <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">Entrar</button>
+            <button onClick={handleEntrar} className="text-sm px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">{isLoggedIn ? "Ir pro chat" : "Entrar"}</button>
           </div>
         </div>
       </header>

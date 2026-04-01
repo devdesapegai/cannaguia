@@ -77,7 +77,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   tooltip="CannaGuia"
                 >
                   <Link href="/chat" onClick={() => setOpenMobile(false)}>
-                    <Leaf className="size-5 text-green-500" />
+                    <Leaf className="size-6 text-green-500" />
                   </Link>
                 </SidebarMenuButton>
                 <Tooltip>
