@@ -1,7 +1,5 @@
-import { ArrowLeftIcon } from "lucide-react";
+import { ArrowLeftIcon, Leaf } from "lucide-react";
 import Link from "next/link";
-import { SparklesIcon, VercelIcon } from "@/components/chat/icons";
-import { Preview } from "@/components/chat/preview";
 
 export default function AuthLayout({
   children,
@@ -9,33 +7,25 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex h-dvh w-screen bg-sidebar">
-      <div className="flex w-full flex-col bg-background p-8 xl:w-[600px] xl:shrink-0 xl:rounded-r-2xl xl:border-r xl:border-border/40 md:p-16">
+    <div className="flex h-dvh w-screen items-center justify-center bg-background">
+      <div className="w-full max-w-md px-6">
         <Link
-          className="flex w-fit items-center gap-1.5 text-[13px] text-muted-foreground transition-colors hover:text-foreground"
+          className="flex w-fit items-center gap-1.5 text-[13px] text-muted-foreground transition-colors hover:text-foreground mb-8"
           href="/"
         >
           <ArrowLeftIcon className="size-3.5" />
-          Back
+          Voltar
         </Link>
-        <div className="mx-auto flex w-full max-w-md flex-1 flex-col justify-center gap-10">
-          <div className="flex flex-col gap-2">
-            <div className="mb-2 flex size-9 items-center justify-center rounded-lg bg-muted/60 text-muted-foreground ring-1 ring-border/50">
-              <SparklesIcon size={14} />
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col items-center gap-3 mb-2">
+            <div className="flex size-14 items-center justify-center rounded-2xl bg-green-500/10">
+              <Leaf className="size-7 text-green-500" />
             </div>
-            {children}
+            <span className="text-xl font-bold tracking-tight">
+              Canna<span className="text-green-500">Guia</span>
+            </span>
           </div>
-        </div>
-      </div>
-
-      <div className="hidden flex-1 flex-col overflow-hidden pl-12 xl:flex">
-        <div className="flex items-center gap-1.5 pt-8 text-[13px] text-muted-foreground/50">
-          Powered by
-          <VercelIcon size={14} />
-          <span className="font-medium text-muted-foreground">AI Gateway</span>
-        </div>
-        <div className="flex-1 pt-4">
-          <Preview />
+          {children}
         </div>
       </div>
     </div>
