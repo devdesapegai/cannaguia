@@ -74,6 +74,20 @@ export async function createGuestUser() {
   }
 }
 
+export async function createUserFromOAuth(email: string, name: string) {
+  try {
+    return await db.insert(user).values({ email, name, emailVerified: true }).returning({
+      id: user.id,
+      email: user.email,
+    });
+  } catch (_error) {
+    throw new ChatbotError(
+      "bad_request:database",
+      "Failed to create OAuth user"
+    );
+  }
+}
+
 export async function saveChat({
   id,
   userId,

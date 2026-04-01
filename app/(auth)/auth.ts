@@ -4,7 +4,7 @@ import type { DefaultJWT } from "next-auth/jwt";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
 import { DUMMY_PASSWORD } from "@/lib/constants";
-import { createGuestUser, getUser } from "@/lib/db/queries";
+import { createGuestUser, getUser, createUserFromOAuth } from "@/lib/db/queries";
 import { authConfig } from "./auth.config";
 
 export type UserType = "guest" | "regular";
@@ -93,10 +93,23 @@ export const {
     }),
   ],
   callbacks: {
+    async signIn({ user, account }) {
+      if (account?.provider === "google" && user.email) {
+        const existing = await getUser(user.email);
+        if (existing.length === 0) {
+          const [created] = await createUserFromOAuth(user.email, user.name ?? "");
+          user.id = created.id;
+        } else {
+          user.id = existing[0].id;
+        }
+        (user as any).type = "regular";
+      }
+      return true;
+    },
     jwt({ token, user }) {
       if (user) {
         token.id = user.id as string;
-        token.type = user.type;
+        token.type = (user as any).type ?? "regular";
       }
 
       return token;
