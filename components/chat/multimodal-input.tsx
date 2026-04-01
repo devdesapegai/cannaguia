@@ -435,7 +435,7 @@ function PureMultimodalInput({
           if (status === "ready" || status === "error") {
             submitForm();
           } else {
-            toast.error("Please wait for the model to finish its response!");
+            toast.error("Aguarde a resposta terminar ou clique no botão de parar.");
           }
         }}
       >
@@ -528,7 +528,7 @@ function PureMultimodalInput({
             />
           </PromptInputTools>
 
-          {status === "submitted" ? (
+          {status === "submitted" || status === "streaming" ? (
             <StopButton setMessages={setMessages} stop={stop} />
           ) : (
             <PromptInputSubmit
