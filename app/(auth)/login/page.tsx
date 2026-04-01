@@ -25,9 +25,9 @@ export default function Page() {
   // biome-ignore lint/correctness/useExhaustiveDependencies: router and updateSession are stable refs
   useEffect(() => {
     if (state.status === "failed") {
-      toast({ type: "error", description: "Credenciais invalidas!" });
+      toast({ type: "error", description: "Credenciais inválidas!" });
     } else if (state.status === "invalid_data") {
-      toast({ type: "error", description: "Dados invalidos!" });
+      toast({ type: "error", description: "Dados inválidos!" });
     } else if (state.status === "success") {
       setIsSuccessful(true);
       updateSession();
@@ -64,7 +64,7 @@ export default function Page() {
       <AuthForm action={handleSubmit} defaultEmail={email}>
         <SubmitButton isSuccessful={isSuccessful}>Entrar com email</SubmitButton>
         <p className="text-center text-[13px] text-muted-foreground">
-          {"Nao tem conta? "}
+          {"Não tem conta? "}
           <Link
             className="text-green-500 underline-offset-4 hover:underline"
             href="/register"

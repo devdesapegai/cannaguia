@@ -24,11 +24,11 @@ export default function Page() {
   // biome-ignore lint/correctness/useExhaustiveDependencies: router and updateSession are stable refs
   useEffect(() => {
     if (state.status === "user_exists") {
-      toast({ type: "error", description: "Conta ja existe!" });
+      toast({ type: "error", description: "Conta já existe!" });
     } else if (state.status === "failed") {
       toast({ type: "error", description: "Erro ao criar conta!" });
     } else if (state.status === "invalid_data") {
-      toast({ type: "error", description: "Dados invalidos!" });
+      toast({ type: "error", description: "Dados inválidos!" });
     } else if (state.status === "success") {
       toast({ type: "success", description: "Conta criada!" });
       setIsSuccessful(true);
@@ -64,7 +64,7 @@ export default function Page() {
       <AuthForm action={handleSubmit} defaultEmail={email}>
         <SubmitButton isSuccessful={isSuccessful}>Criar conta com email</SubmitButton>
         <p className="text-center text-[13px] text-muted-foreground">
-          {"Ja tem conta? "}
+          {"Já tem conta? "}
           <Link
             className="text-green-500 underline-offset-4 hover:underline"
             href="/login"

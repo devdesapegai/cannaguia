@@ -28,7 +28,7 @@ const visibilities: Array<{
   {
     id: "private",
     label: "Privado",
-    description: "Somente voce pode acessar este chat",
+    description: "Somente você pode acessar este chat",
     icon: <LockIcon />,
   },
   {

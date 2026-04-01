@@ -163,7 +163,7 @@ function PureMultimodalInput({
         setMessages(() => []);
         break;
       case "rename":
-        toast("Renomear esta disponivel no menu da conversa na sidebar.");
+        toast("Renomear está disponível no menu da conversa na sidebar.");
         break;
       case "model": {
         const modelBtn = document.querySelector<HTMLButtonElement>(

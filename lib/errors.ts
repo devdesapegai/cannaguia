@@ -82,7 +82,7 @@ export function getMessageByErrorCode(errorCode: ErrorCode): string {
 
   switch (errorCode) {
     case "bad_request:api":
-      return "A requisicao nao pode ser processada. Verifique sua entrada e tente novamente.";
+      return "A requisição não pode ser processada. Verifique sua entrada e tente novamente.";
 
     case "bad_request:activate_gateway":
       return "AI Gateway requires a valid credit card on file to service requests. Please visit https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dadd-credit-card to add a card and unlock your free credits.";
@@ -93,22 +93,22 @@ export function getMessageByErrorCode(errorCode: ErrorCode): string {
       return "Your account does not have access to this feature.";
 
     case "rate_limit:chat":
-      return "Voce atingiu o limite de mensagens. Volte em 1 hora para continuar.";
+      return "Você atingiu o limite de mensagens. Volte em 1 hora para continuar.";
     case "not_found:chat":
-      return "Conversa nao encontrada.";
+      return "Conversa não encontrada.";
     case "forbidden:chat":
       return "Esta conversa pertence a outro usuario.";
     case "unauthorized:chat":
-      return "Voce precisa entrar para ver esta conversa.";
+      return "Você precisa entrar para ver esta conversa.";
     case "offline:chat":
-      return "Erro ao enviar sua mensagem. Verifique sua conexao e tente novamente.";
+      return "Erro ao enviar sua mensagem. Verifique sua conexão e tente novamente.";
 
     case "not_found:document":
-      return "Documento nao encontrado.";
+      return "Documento não encontrado.";
     case "forbidden:document":
       return "Este documento pertence a outro usuario.";
     case "unauthorized:document":
-      return "Voce precisa entrar para ver este documento.";
+      return "Você precisa entrar para ver este documento.";
     case "bad_request:document":
       return "The request to create or update the document was invalid. Please check your input and try again.";
 

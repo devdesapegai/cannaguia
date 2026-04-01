@@ -159,7 +159,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
       <SidebarGroup className="group-data-[collapsible=icon]:hidden">
         <SidebarGroupContent>
           <div className="flex w-full flex-row items-center justify-center gap-2 px-2 text-[13px] text-sidebar-foreground/60">
-            Faca login para salvar e ver conversas anteriores!
+            Faça login para salvar e ver conversas anteriores!
           </div>
         </SidebarGroupContent>
       </SidebarGroup>
@@ -271,7 +271,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
                     {groupedChats.lastWeek.length > 0 && (
                       <div>
                         <div className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-sidebar-foreground/70">
-                          Ultimos 7 dias
+                          Últimos 7 dias
                         </div>
                         {groupedChats.lastWeek.map((chat) => (
                           <ChatItem
@@ -291,7 +291,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
                     {groupedChats.lastMonth.length > 0 && (
                       <div>
                         <div className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-sidebar-foreground/70">
-                          Ultimos 30 dias
+                          Últimos 30 dias
                         </div>
                         {groupedChats.lastMonth.map((chat) => (
                           <ChatItem
