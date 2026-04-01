@@ -58,7 +58,7 @@ export default function LandingPage() {
   const handleKeyDown = (e: React.KeyboardEvent) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); } };
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="dark min-h-screen bg-[#0a0a0a] text-white">
       <header className="fixed top-0 w-full z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
@@ -68,7 +68,7 @@ export default function LandingPage() {
         </div>
       </header>
 
-      <section className="min-h-screen flex flex-col items-center justify-center pt-14 px-4 sm:px-6 relative">
+      <section className="min-h-screen flex flex-col items-center pt-24 sm:pt-14 sm:justify-center px-4 sm:px-6 relative">
         <div className="w-full max-w-2xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-center mb-8">
             <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center relative">
