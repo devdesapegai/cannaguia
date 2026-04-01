@@ -1,7 +1,7 @@
 "use client";
 
 import {
-  MessageSquareIcon,
+  Leaf,
   PanelLeftIcon,
   PenSquareIcon,
   TrashIcon,
@@ -61,7 +61,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
       method: "DELETE",
     });
 
-    toast.success("All chats deleted");
+    toast.success("Todas as conversas apagadas");
   };
 
   return (
@@ -74,10 +74,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <SidebarMenuButton
                   asChild
                   className="size-8 !px-0 items-center justify-center group-data-[collapsible=icon]:group-hover/logo:opacity-0"
-                  tooltip="Chatbot"
+                  tooltip="CannaGuia"
                 >
                   <Link href="/" onClick={() => setOpenMobile(false)}>
-                    <MessageSquareIcon className="size-4 text-sidebar-foreground/50" />
+                    <Leaf className="size-4 text-green-500" />
                   </Link>
                 </SidebarMenuButton>
                 <Tooltip>
@@ -90,7 +90,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                     </SidebarMenuButton>
                   </TooltipTrigger>
                   <TooltipContent className="hidden md:block" side="right">
-                    Open sidebar
+                    Abrir menu
                   </TooltipContent>
                 </Tooltip>
               </div>
