@@ -203,45 +203,49 @@ export async function POST(request: Request) {
 
     const modelMessages = await convertToModelMessages(uiMessages);
 
+    // Build system prompt before streaming
+    const userText = uiMessages
+      .filter((m: any) => m.role === "user")
+      .map((m: any) =>
+        m.parts
+          ?.filter((p: any) => p.type === "text")
+          .map((p: any) => p.text)
+          .join(" ") ?? "",
+      )
+      .pop() ?? "";
+    const localResults = searchAll(userText, 4);
+    const localContext = formatContextForLLM(localResults);
+
+    let memoryContext = "";
+    if (!isGuestUser) {
+      try {
+        const summaries = await getRecentChatSummaries({
+          userId: session.user.id!,
+          limit: 3,
+          excludeChatId: id,
+        });
+        if (summaries.length > 0) {
+          memoryContext =
+            "\n\nContexto do usuario (conversas anteriores):\n" +
+            summaries.map((s) => `- ${s.summary}`).join("\n");
+        }
+      } catch (_) {
+        // summaries not available yet
+      }
+    }
+
+    const fullSystemPrompt =
+      SYSTEM_PROMPT +
+      "\n\nBase de conhecimento relevante:\n" +
+      localContext +
+      memoryContext;
+
     const stream = createUIMessageStream({
       originalMessages: isToolApprovalFlow ? uiMessages : undefined,
       execute: async ({ writer: dataStream }) => {
         const result = streamText({
           model: getLanguageModel(chatModel),
-          system: await (async () => {
-            const userText = uiMessages
-              .filter((m: any) => m.role === "user")
-              .map((m: any) =>
-                m.parts
-                  ?.filter((p: any) => p.type === "text")
-                  .map((p: any) => p.text)
-                  .join(" ") ?? "",
-              )
-              .pop() ?? "";
-            const localResults = searchAll(userText, 4);
-            const localContext = formatContextForLLM(localResults);
-
-            let memoryContext = "";
-            if (!isGuestUser) {
-              const summaries = await getRecentChatSummaries({
-                userId: session.user.id!,
-                limit: 3,
-                excludeChatId: id,
-              });
-              if (summaries.length > 0) {
-                memoryContext =
-                  "\n\nContexto do usuario (conversas anteriores):\n" +
-                  summaries.map((s) => `- ${s.summary}`).join("\n");
-              }
-            }
-
-            return (
-              SYSTEM_PROMPT +
-              "\n\nBase de conhecimento relevante:\n" +
-              localContext +
-              memoryContext
-            );
-          })(),
+          system: fullSystemPrompt,
           maxOutputTokens: 700,
           temperature: 0.7,
           topP: 0.9,

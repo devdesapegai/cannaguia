@@ -16,22 +16,27 @@ export async function getUserPlan(userId: string): Promise<{
   isExpired: boolean;
   effectivePlan: UserPlan;
 }> {
-  const [row] = await db
-    .select({ plan: user.plan, planExpiresAt: user.planExpiresAt })
-    .from(user)
-    .where(eq(user.id, userId))
-    .limit(1);
+  try {
+    const [row] = await db
+      .select({ plan: user.plan, planExpiresAt: user.planExpiresAt })
+      .from(user)
+      .where(eq(user.id, userId))
+      .limit(1);
 
-  if (!row) return { plan: "free", isExpired: false, effectivePlan: "free" };
+    if (!row) return { plan: "free", isExpired: false, effectivePlan: "free" };
 
-  const isExpired =
-    row.plan === "premium" &&
-    row.planExpiresAt !== null &&
-    row.planExpiresAt < new Date();
+    const isExpired =
+      row.plan === "premium" &&
+      row.planExpiresAt !== null &&
+      row.planExpiresAt < new Date();
 
-  const effectivePlan: UserPlan = isExpired ? "free" : (row.plan as UserPlan);
+    const effectivePlan: UserPlan = isExpired ? "free" : (row.plan as UserPlan);
 
-  return { plan: row.plan as UserPlan, isExpired, effectivePlan };
+    return { plan: row.plan as UserPlan, isExpired, effectivePlan };
+  } catch (error) {
+    console.error("getUserPlan error (column may not exist yet):", error);
+    return { plan: "free", isExpired: false, effectivePlan: "free" };
+  }
 }
 
 export async function updateUserPlan(
