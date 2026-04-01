@@ -74,8 +74,15 @@ export default function LandingPage() {
       <header className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
-          <div className="flex items-center gap-3">
-            <button onClick={handleEntrar} className="text-sm px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">{isLoggedIn ? "Ir pro chat" : "Entrar"}</button>
+          <div className="flex items-center gap-2">
+            {isLoggedIn ? (
+              <button onClick={() => router.push("/chat")} className="text-sm px-4 py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Ir pro chat</button>
+            ) : (
+              <>
+                <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 border border-white/20 text-white rounded-full font-medium hover:bg-white/10 transition-colors">Entrar</button>
+                <button onClick={() => signIn("guest", { callbackUrl: "/chat" })} className="text-sm px-4 py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors flex items-center gap-1.5">Experimente a CannaGuia <span className="text-xs">&#8599;</span></button>
+              </>
+            )}
           </div>
         </div>
       </header>
