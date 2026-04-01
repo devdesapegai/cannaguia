@@ -498,3 +498,13 @@ textarea:focus-visible {
 [data-testid="artifact"] {
   isolation: isolate;
 }
+
+/* CannaGuia: bold text in green */
+strong, b {
+  color: oklch(0.65 0.2 145);
+  font-weight: 600;
+}
+
+.dark strong, .dark b {
+  color: oklch(0.75 0.2 145);
+}
