@@ -28,12 +28,8 @@ export async function GET(request: Request) {
 
   const chat = await getChatById({ id: chatId });
 
-  if (!chat) {
-    return new ChatbotError("not_found:chat").toResponse();
-  }
-
-  if (chat.userId !== session.user.id) {
-    return new ChatbotError("forbidden:vote").toResponse();
+  if (!chat || chat.userId !== session.user.id) {
+    return Response.json([], { status: 200 });
   }
 
   const votes = await getVotesByChatId({ id: chatId });
