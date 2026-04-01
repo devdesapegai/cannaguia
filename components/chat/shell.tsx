@@ -85,16 +85,6 @@ export function ChatShell() {
             selectedVisibilityType={visibilityType}
           />
 
-          {isGuest && showGuestBanner && (
-            <div className="relative px-4 py-3 bg-card/80 backdrop-blur-sm border-b border-border/40 md:rounded-tl-[12px]">
-              <button onClick={() => setShowGuestBanner(false)} className="absolute top-2 right-2 text-muted-foreground hover:text-foreground transition-colors"><X size={14} /></button>
-              <p className="text-[12px] text-muted-foreground mb-2 pr-6">Obtenha respostas personalizadas, histórico salvo e muito mais.</p>
-              <div className="flex items-center gap-2">
-                <button onClick={() => setShowAuthModal(true)} className="text-[12px] px-3 py-1 border border-border rounded-full font-medium hover:bg-accent transition-colors">Entrar</button>
-                <button onClick={() => setShowAuthModal(true)} className="text-[12px] px-3 py-1 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Cadastre-se gratuitamente</button>
-              </div>
-            </div>
-          )}
 
           <div className="relative flex min-h-0 flex-1 flex-col overflow-hidden bg-background md:rounded-tl-[12px] md:border-t md:border-l md:border-border/40">
             <Messages
@@ -119,8 +109,41 @@ export function ChatShell() {
               votes={votes}
             />
 
-            <div className="sticky bottom-0 z-1 mx-auto flex w-full max-w-4xl gap-2 border-t-0 bg-background px-2 pb-3 md:px-4 md:pb-4">
-              {!isReadonly && (
+            <div className="sticky bottom-0 z-1 mx-auto flex w-full max-w-4xl gap-2 flex-col border-t-0 bg-background px-2 pb-3 md:px-4 md:pb-4">
+              {(() => {
+                if (!isGuest) return null;
+                const userMsgCount = messages.filter((m) => m.role === "user").length;
+                if (userMsgCount >= 10) {
+                  return (
+                    <div className="w-full rounded-xl border border-border bg-card p-5 text-center">
+                      <p className="text-sm font-semibold mb-1">Você atingiu o limite de mensagens</p>
+                      <p className="text-[13px] text-muted-foreground mb-4">Crie sua conta gratuita para continuar conversando com a CannaGuia, salvar seu histórico e receber recomendações personalizadas.</p>
+                      <div className="flex items-center justify-center gap-2">
+                        <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 border border-border rounded-full font-medium hover:bg-accent transition-colors">Entrar</button>
+                        <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Cadastre-se gratuitamente</button>
+                      </div>
+                    </div>
+                  );
+                }
+                if (userMsgCount >= 7) {
+                  return (
+                    <div className="w-full rounded-xl border border-border/60 bg-card/50 px-4 py-3 flex items-center justify-between gap-3">
+                      <p className="text-[13px] text-muted-foreground">Restam poucas mensagens. Crie sua conta para continuar sem limites.</p>
+                      <button onClick={() => setShowAuthModal(true)} className="shrink-0 text-[13px] px-4 py-1.5 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Criar conta</button>
+                    </div>
+                  );
+                }
+                if (userMsgCount >= 3) {
+                  return (
+                    <div className="w-full rounded-xl border border-border/40 bg-card/30 px-4 py-2.5 flex items-center justify-between gap-3">
+                      <p className="text-[13px] text-muted-foreground">Gostando da CannaGuia? Crie uma conta para salvar suas conversas e ter acesso ilimitado.</p>
+                      <button onClick={() => setShowAuthModal(true)} className="shrink-0 text-[13px] px-3 py-1 border border-border rounded-full font-medium hover:bg-accent transition-colors">Criar conta</button>
+                    </div>
+                  );
+                }
+                return null;
+              })()}
+              {!isReadonly && !(isGuest && messages.filter((m) => m.role === "user").length >= 10) && (
                 <MultimodalInput
                   attachments={attachments}
                   chatId={chatId}
