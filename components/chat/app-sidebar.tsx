@@ -20,7 +20,6 @@ import {
   SidebarHistory,
 } from "@/components/chat/sidebar-history";
 import { SidebarUserNav } from "@/components/chat/sidebar-user-nav";
-import { PlanUpgradeCTA } from "@/components/chat/plan-upgrade-cta";
 import {
   Sidebar,
   SidebarContent,
@@ -60,7 +59,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
 
   const handleDeleteAll = () => {
     setShowDeleteAllDialog(false);
-    router.replace("/chat");
+    router.replace("/");
     mutate(unstable_serialize(getChatHistoryPaginationKey), [], {
       revalidate: false,
     });
@@ -160,12 +159,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </button>
             </div>
           ) : (
-            user && (
-              <>
-                <PlanUpgradeCTA />
-                <SidebarUserNav user={user} />
-              </>
-            )
+            user && <SidebarUserNav user={user} />
           )}
         </SidebarFooter>
         <SidebarRail />
