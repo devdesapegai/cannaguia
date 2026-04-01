@@ -71,7 +71,29 @@ export default function LandingPage() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-14 px-4 sm:px-6 relative">
         <div className="w-full max-w-2xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-center mb-8">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-green-500/10 flex items-center justify-center"><Leaf className="w-8 h-8 text-green-500" /></div>
+            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-green-500/10 flex items-center justify-center relative">
+              <motion.div
+                animate={{ rotate: [0, 5, -5, 0], scale: [1, 1.05, 1] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <Leaf className="w-9 h-9 text-green-500" />
+              </motion.div>
+              <motion.div
+                className="absolute inset-0 rounded-2xl border border-green-500/20"
+                animate={{ scale: [1, 1.15, 1], opacity: [0.5, 0, 0.5] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+              />
+              <motion.div
+                className="absolute inset-0 rounded-2xl border border-green-500/10"
+                animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0, 0.3] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+              />
+              <motion.div
+                className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-green-400"
+                animate={{ opacity: [0, 1, 0], scale: [0.8, 1.2, 0.8] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              />
+            </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4">Sua consultora canabica<br/>com inteligencia artificial</h1>
             <p className="text-muted-foreground text-base sm:text-lg max-w-lg mx-auto">Orientacao sobre strains, cultivo, regulamentacao e cannabis medicinal. Base de 3.000+ documentos.</p>
           </motion.div>
