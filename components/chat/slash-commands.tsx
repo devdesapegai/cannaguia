@@ -47,7 +47,7 @@ export const slashCommands: SlashCommand[] = [
   },
   {
     name: "theme",
-    description: "Toggle dark/light mode",
+    description: "Alternar modo escuro/claro",
     icon: <PaletteIcon className="size-3.5" />,
     action: "theme",
   },
@@ -59,7 +59,7 @@ export const slashCommands: SlashCommand[] = [
   },
   {
     name: "purge",
-    description: "Delete all chats",
+    description: "Apagar todas as conversas",
     icon: <BombIcon className="size-3.5" />,
     action: "purge",
   },

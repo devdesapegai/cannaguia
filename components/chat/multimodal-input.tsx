@@ -163,7 +163,7 @@ function PureMultimodalInput({
         setMessages(() => []);
         break;
       case "rename":
-        toast("Rename is available from the sidebar chat menu.");
+        toast("Renomear esta disponivel no menu da conversa na sidebar.");
         break;
       case "model": {
         const modelBtn = document.querySelector<HTMLButtonElement>(
@@ -176,9 +176,9 @@ function PureMultimodalInput({
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
         break;
       case "delete":
-        toast("Delete this chat?", {
+        toast("Apagar esta conversa?", {
           action: {
-            label: "Delete",
+            label: "Apagar",
             onClick: () => {
               fetch(
                 `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/chat?id=${chatId}`,
@@ -191,9 +191,9 @@ function PureMultimodalInput({
         });
         break;
       case "purge":
-        toast("Delete all chats?", {
+        toast("Apagar todas as conversas?", {
           action: {
-            label: "Delete all",
+            label: "Apagar tudo",
             onClick: () => {
               fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/history`, {
                 method: "DELETE",

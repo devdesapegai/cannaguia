@@ -69,7 +69,7 @@ const PureChatItem = ({
           <DropdownMenuSub>
             <DropdownMenuSubTrigger className="cursor-pointer">
               <ShareIcon />
-              <span>Share</span>
+              <span>Compartilhar</span>
             </DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
@@ -81,7 +81,7 @@ const PureChatItem = ({
                 >
                   <div className="flex flex-row items-center gap-2">
                     <LockIcon size={12} />
-                    <span>Private</span>
+                    <span>Privado</span>
                   </div>
                   {visibilityType === "private" ? (
                     <CheckCircleFillIcon />
@@ -95,7 +95,7 @@ const PureChatItem = ({
                 >
                   <div className="flex flex-row items-center gap-2">
                     <GlobeIcon />
-                    <span>Public</span>
+                    <span>Publico</span>
                   </div>
                   {visibilityType === "public" ? <CheckCircleFillIcon /> : null}
                 </DropdownMenuItem>
@@ -108,7 +108,7 @@ const PureChatItem = ({
             variant="destructive"
           >
             <TrashIcon />
-            <span>Delete</span>
+            <span>Apagar</span>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

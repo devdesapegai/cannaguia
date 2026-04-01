@@ -47,10 +47,10 @@ export default function Page() {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold tracking-tight">Create account</h1>
+      <h1 className="text-2xl font-semibold tracking-tight">Criar conta</h1>
       <p className="text-sm text-muted-foreground">Get started for free</p>
       <AuthForm action={handleSubmit} defaultEmail={email}>
-        <SubmitButton isSuccessful={isSuccessful}>Sign up</SubmitButton>
+        <SubmitButton isSuccessful={isSuccessful}>Criar conta</SubmitButton>
         <p className="text-center text-[13px] text-muted-foreground">
           {"Have an account? "}
           <Link

@@ -111,10 +111,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                       setOpenMobile(false);
                       router.push("/");
                     }}
-                    tooltip="New Chat"
+                    tooltip="Novo Chat"
                   >
                     <PenSquareIcon className="size-4" />
-                    <span className="font-medium">New chat</span>
+                    <span className="font-medium">Novo chat</span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
                 {user && (
@@ -122,10 +122,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                     <SidebarMenuButton
                       className="rounded-lg text-sidebar-foreground/40 transition-colors duration-150 hover:bg-destructive/10 hover:text-destructive"
                       onClick={() => setShowDeleteAllDialog(true)}
-                      tooltip="Delete All Chats"
+                      tooltip="Apagar Todas as Conversas"
                     >
                       <TrashIcon className="size-4" />
-                      <span className="text-[13px]">Delete all</span>
+                      <span className="text-[13px]">Apagar tudo</span>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
                 )}
@@ -146,7 +146,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
       >
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Delete all chats?</AlertDialogTitle>
+            <AlertDialogTitle>Apagar todas as conversas?</AlertDialogTitle>
             <AlertDialogDescription>
               This action cannot be undone. This will permanently delete all
               your chats and remove them from our servers.

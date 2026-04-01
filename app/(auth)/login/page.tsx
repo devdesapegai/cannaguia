@@ -47,10 +47,10 @@ export default function Page() {
     <>
       <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>
       <p className="text-sm text-muted-foreground">
-        Sign in to your account to continue
+        Entre na sua conta para continuar
       </p>
       <AuthForm action={handleSubmit} defaultEmail={email}>
-        <SubmitButton isSuccessful={isSuccessful}>Sign in</SubmitButton>
+        <SubmitButton isSuccessful={isSuccessful}>Entrar</SubmitButton>
         <p className="text-center text-[13px] text-muted-foreground">
           {"No account? "}
           <Link

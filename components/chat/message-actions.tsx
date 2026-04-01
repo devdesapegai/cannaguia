@@ -64,7 +64,7 @@ export function PureMessageActions({
           <Action
             className="size-7 text-muted-foreground/50 hover:text-foreground"
             onClick={handleCopy}
-            tooltip="Copy"
+            tooltip="Copiar"
           >
             <CopyIcon />
           </Action>
@@ -78,7 +78,7 @@ export function PureMessageActions({
       <Action
         className="text-muted-foreground/50 hover:text-foreground"
         onClick={handleCopy}
-        tooltip="Copy"
+        tooltip="Copiar"
       >
         <CopyIcon />
       </Action>
