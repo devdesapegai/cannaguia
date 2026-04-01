@@ -86,13 +86,13 @@ export function ChatShell() {
           />
 
           {isGuest && showGuestBanner && (
-            <div className="flex items-center gap-3 px-4 py-3 bg-card/80 backdrop-blur-sm border-b border-border/40 md:rounded-tl-[12px]">
-              <div className="flex-1">
-                <p className="text-[12px] text-muted-foreground">Obtenha respostas personalizadas, histórico de conversas salvo e muito mais.</p>
+            <div className="relative px-4 py-3 bg-card/80 backdrop-blur-sm border-b border-border/40 md:rounded-tl-[12px]">
+              <button onClick={() => setShowGuestBanner(false)} className="absolute top-2 right-2 text-muted-foreground hover:text-foreground transition-colors"><X size={14} /></button>
+              <p className="text-[12px] text-muted-foreground mb-2 pr-6">Obtenha respostas personalizadas, histórico salvo e muito mais.</p>
+              <div className="flex items-center gap-2">
+                <button onClick={() => setShowAuthModal(true)} className="text-[12px] px-3 py-1 border border-border rounded-full font-medium hover:bg-accent transition-colors">Entrar</button>
+                <button onClick={() => setShowAuthModal(true)} className="text-[12px] px-3 py-1 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Cadastre-se gratuitamente</button>
               </div>
-              <button onClick={() => setShowAuthModal(true)} className="shrink-0 text-[13px] px-4 py-1.5 border border-border rounded-full font-medium hover:bg-accent transition-colors">Entrar</button>
-              <button onClick={() => setShowAuthModal(true)} className="shrink-0 text-[13px] px-4 py-1.5 bg-white text-black rounded-full font-medium hover:bg-white/90 transition-colors">Cadastre-se gratuitamente</button>
-              <button onClick={() => setShowGuestBanner(false)} className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"><X size={16} /></button>
             </div>
           )}
 
