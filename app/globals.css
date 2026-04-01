@@ -508,3 +508,12 @@ strong, b {
 .dark strong, .dark b {
   color: oklch(0.75 0.2 145) !important;
 }
+
+/* Force green bold in Streamdown rendered content */
+[data-streamdown] strong,
+[data-streamdown] b,
+[data-slot="message-response"] strong,
+[data-slot="message-response"] b {
+  color: #22c55e !important;
+  font-weight: 600;
+}
