@@ -63,8 +63,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
           <div className="flex items-center gap-3">
-            <button onClick={() => setShowAuthModal(true)} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Entrar</button>
-            <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">Criar conta</button>
+            <button onClick={() => setShowAuthModal(true)} className="text-sm px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">Entrar</button>
           </div>
         </div>
       </header>
@@ -192,15 +191,8 @@ export default function LandingPage() {
                 <X size={20} />
               </button>
 
-              <div className="flex flex-col items-center gap-2 mb-6">
-                <div className="flex size-12 items-center justify-center rounded-2xl bg-green-500/10">
-                  <Leaf className="size-6 text-green-500" />
-                </div>
-                <span className="text-lg font-bold tracking-tight">Canna<span className="text-green-500">Guia</span></span>
-              </div>
-
-              <h2 className="text-xl font-semibold text-center mb-1">Entrar ou cadastrar-se</h2>
-              <p className="text-sm text-muted-foreground text-center mb-6">Acesse respostas ilimitadas, historico de conversas e muito mais.</p>
+              <h2 className="text-xl font-semibold text-center mb-1 mt-2">Entrar ou cadastrar-se</h2>
+              <p className="text-sm text-muted-foreground text-center mb-6">Consultas ilimitadas, historico salvo e recomendacoes personalizadas de strains e tratamentos.</p>
 
               <div className="flex flex-col gap-2.5">
                 <a href="/api/auth/signin/google" className="flex items-center justify-center gap-3 w-full h-11 rounded-xl border border-border bg-card text-sm font-medium hover:bg-accent transition-colors">
