@@ -195,10 +195,7 @@ export async function POST(request: Request) {
       execute: async ({ writer: dataStream }) => {
         const result = streamText({
           model: getLanguageModel(chatModel),
-          system: (() => { const userText = uiMessages.filter((m: any) => m.role === "user").map((m: any) => m.parts?.filter((p: any) => p.type === "text").map((p: any) => p.text).join(" ") ?? "").pop() ?? ""; const localResults = searchAll(userText, 4); const localContext = formatContextForLLM(localResults); return SYSTEM_PROMPT + "
-
-Base de conhecimento relevante:
-" + localContext; })(),
+          system: (() => { const userText = uiMessages.filter((m: any) => m.role === "user").map((m: any) => m.parts?.filter((p: any) => p.type === "text").map((p: any) => p.text).join(" ") ?? "").pop() ?? ""; const localResults = searchAll(userText, 4); const localContext = formatContextForLLM(localResults); return SYSTEM_PROMPT + "\n\nBase de conhecimento relevante:\n" + localContext; })(),
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools:
