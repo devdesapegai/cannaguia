@@ -33,10 +33,17 @@ export const chatModels: ChatModel[] = [
 
 export const allowedModelIds = chatModels.map((m) => m.id);
 
-export function getCapabilities(modelId: string): ModelCapabilities {
-  return {
-    tools: true,
-    vision: true,
-    reasoning: false,
-  };
+export const isDemo = false;
+
+export async function getAllGatewayModels() {
+  return chatModels;
+}
+
+export async function getCapabilities(): Promise<Record<string, ModelCapabilities>> {
+  return Object.fromEntries(
+    chatModels.map((m) => [
+      m.id,
+      { tools: true, vision: true, reasoning: false },
+    ])
+  );
 }
