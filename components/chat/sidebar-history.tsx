@@ -144,7 +144,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
           chats: chatHistory.chats.filter((chat) => chat.id !== chatToDelete),
         }));
       }
-    });
+    }, { revalidate: false });
 
     fetch(
       `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/chat?id=${chatToDelete}`,
