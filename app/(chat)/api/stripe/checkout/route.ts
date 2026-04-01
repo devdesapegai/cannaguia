@@ -4,7 +4,19 @@ import { getUser } from "@/lib/db/queries";
 import { updateStripeCustomerId } from "@/lib/db/plan";
 import { ChatbotError } from "@/lib/errors";
 
-export async function POST() {
+const ALLOWED_PRICE_IDS = new Set([
+  process.env.STRIPE_PRICE_ID!,
+  "price_1THY6N4kAmUvNyf9JMMw4OJw", // IA + Consultoria
+]);
+
+export async function POST(request: Request) {
+  const body = await request.json().catch(() => ({}));
+  const priceId = body.priceId || process.env.STRIPE_PRICE_ID!;
+
+  if (!ALLOWED_PRICE_IDS.has(priceId)) {
+    return Response.json({ error: "Plano invalido" }, { status: 400 });
+  }
+
   const session = await auth();
 
   if (!session?.user?.id || !session.user.email) {
@@ -41,7 +53,7 @@ export async function POST() {
     payment_method_types: ["card"],
     line_items: [
       {
-        price: process.env.STRIPE_PRICE_ID!,
+        price: priceId,
         quantity: 1,
       },
     ],

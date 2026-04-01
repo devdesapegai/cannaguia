@@ -242,8 +242,8 @@ export default function LandingPage() {
               <p className="text-[13px] text-muted-foreground mb-5">Experiência completa</p>
               <button onClick={() => setShowAuthModal(true)} className="w-full py-2.5 rounded-lg bg-green-600 text-white text-sm font-medium hover:bg-green-700 transition-colors mb-5">Assinar Premium</button>
               <ul className="space-y-2.5 text-[13px] flex-1">
+                <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Acesso ao modelo CannaGuia 5.4</span></li>
                 <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Limite de mensagens maior</span></li>
-                <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Histórico de conversas completo</span></li>
                 <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Envio de imagens para detecção de pragas e doenças</span></li>
                 <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Recomendações personalizadas</span></li>
                 <li className="flex items-start gap-2"><Leaf className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" /><span>Pesquisa aprofundada com estudos científicos</span></li>

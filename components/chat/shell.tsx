@@ -140,15 +140,11 @@ export function ChatShell() {
                       <p className="text-sm font-semibold mb-1">Voce usou todas as mensagens da semana</p>
                       <p className="text-[13px] text-muted-foreground mb-4">Suas mensagens renovam na segunda-feira. Faca upgrade para mensagens ilimitadas.</p>
                       <button
-                        onClick={() => {
-                          fetch("/api/stripe/checkout", { method: "POST" })
-                            .then((r) => r.json())
-                            .then((d) => { if (d.url) window.location.href = d.url; });
-                        }}
+                        onClick={() => window.location.href = "/planos"}
                         className="text-sm px-5 py-2 bg-gradient-to-r from-green-600 to-green-500 text-white rounded-full font-medium hover:from-green-500 hover:to-green-400 transition-all inline-flex items-center gap-2"
                       >
                         <Crown className="size-4" />
-                        Upgrade Premium - R$29/mes
+                        Ver planos
                       </button>
                     </div>
                   );
@@ -168,15 +164,11 @@ export function ChatShell() {
                         <p className="text-[13px] text-muted-foreground">Suas mensagens voltam em <span className="font-medium text-foreground">{timeText}</span>. Nao quer esperar?</p>
                       </div>
                       <button
-                        onClick={() => {
-                          fetch("/api/stripe/checkout", { method: "POST" })
-                            .then((r) => r.json())
-                            .then((d) => { if (d.url) window.location.href = d.url; });
-                        }}
+                        onClick={() => window.location.href = "/planos"}
                         className="shrink-0 text-[13px] px-4 py-1.5 bg-gradient-to-r from-green-600 to-green-500 text-white rounded-full font-medium hover:from-green-500 hover:to-green-400 transition-all inline-flex items-center gap-1.5"
                       >
                         <Crown className="size-3.5" />
-                        Upgrade
+                        Ver planos
                       </button>
                     </div>
                   );
