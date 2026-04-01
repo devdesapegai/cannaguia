@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
-import { randomUUID } from "crypto";
+import { cookies } from "next/headers";
 
-export default function ChatPage() {
-  redirect(`/chat/${randomUUID()}`);
+export default async function ChatPage() {
+  await cookies();
+  const id = crypto.randomUUID();
+  redirect(`/chat/${id}`);
 }
