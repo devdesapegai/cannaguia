@@ -1,6 +1,6 @@
 "use client";
 
-import { Leaf } from "lucide-react";
+import { ArrowLeft, Leaf } from "lucide-react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -51,6 +51,21 @@ export default function PlanosPage() {
 
   return (
     <div className="min-h-dvh bg-background">
+      {/* Header */}
+      <header className="sticky top-0 z-10 border-b border-border bg-background/80 backdrop-blur-sm">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+          <button onClick={() => router.push("/chat")} className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <ArrowLeft className="size-4" />
+            Voltar ao chat
+          </button>
+          <div className="flex items-center gap-2">
+            <Leaf className="size-5 text-green-500" />
+            <span className="font-semibold text-sm">CannaGuia</span>
+          </div>
+          <div className="w-[100px]" />
+        </div>
+      </header>
+
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-16">
         <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4">Planos</h1>
         <p className="text-muted-foreground text-center mb-12 max-w-lg mx-auto">Escolha o plano ideal para suas necessidades</p>
@@ -122,11 +137,6 @@ export default function PlanosPage() {
           </div>
         </div>
 
-        <div className="text-center mt-8">
-          <button onClick={() => router.push("/chat")} className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
-            Voltar ao chat
-          </button>
-        </div>
       </div>
     </div>
   );

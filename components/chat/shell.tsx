@@ -4,6 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useSession } from "next-auth/react";
 import useSWR from "swr";
 import { Clock, Crown, X } from "lucide-react";
+import { useSearchParams } from "next/navigation";
+import { toast } from "sonner";
 import { AuthModal } from "./auth-modal";
 import {
   AlertDialog,
@@ -71,6 +73,17 @@ export function ChatShell() {
     }
     prevMsgCount.current = messages.length;
   }, [messages.length, isFreeUser, mutateLimits]);
+
+  // Handle upgrade success redirect
+  const searchParams = useSearchParams();
+  const upgradeHandled = useRef(false);
+  useEffect(() => {
+    if (searchParams.get("upgrade") === "success" && !upgradeHandled.current) {
+      upgradeHandled.current = true;
+      toast.success("Upgrade realizado com sucesso! Bem-vindo ao Premium.");
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+  }, [searchParams]);
 
   const isArtifactVisible = false;
   const setArtifact = (_: any) => {};
