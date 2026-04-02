@@ -277,7 +277,7 @@ export async function POST(request: Request) {
 
       // Log blocked input
       lfTrace.update({ output: safeResponse, metadata: { blocked: true } });
-      after(() => {
+      after(async () => {
         insertChatLog({
           chatId: id,
           userId: session.user.id!,
@@ -288,7 +288,7 @@ export async function POST(request: Request) {
           inputFlagReason: inputCheck.reason ?? undefined,
           actionTaken: "blocked",
         });
-        langfuse.flushAsync();
+        await langfuse.flushAsync();
       });
 
       return new Response(
@@ -473,7 +473,7 @@ export async function POST(request: Request) {
         });
 
         // Structured logging + Langfuse flush (fire-and-forget via after())
-        after(() => {
+        after(async () => {
           insertChatLog({
             chatId: id,
             userId: session.user.id!,
@@ -492,7 +492,7 @@ export async function POST(request: Request) {
             outputViolations: outputViolations.length > 0 ? outputViolations : undefined,
             actionTaken: outputAction,
           });
-          langfuse.flushAsync();
+          await langfuse.flushAsync();
         });
       },
       onError: (error) => {
