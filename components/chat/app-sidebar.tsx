@@ -105,40 +105,34 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <SidebarTrigger className="text-sidebar-foreground/60 transition-colors duration-150 hover:text-sidebar-foreground" />
               </div>
             </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                className="h-8 rounded-lg border border-sidebar-border text-[13px] text-sidebar-foreground/70 transition-colors duration-150 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                onClick={() => {
+                  setOpenMobile(false);
+                  router.push("/chat");
+                }}
+                tooltip="Novo Chat"
+              >
+                <PenSquareIcon className="size-4" />
+                <span className="font-medium">Novo chat</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            {!isGuest && (
+              <SidebarMenuItem>
+                <SidebarMenuButton
+                  className="rounded-lg text-sidebar-foreground/40 transition-colors duration-150 hover:bg-destructive/10 hover:text-destructive"
+                  onClick={() => setShowDeleteAllDialog(true)}
+                  tooltip="Apagar Todas as Conversas"
+                >
+                  <TrashIcon className="size-4" />
+                  <span className="text-[13px]">Apagar tudo</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            )}
           </SidebarMenu>
         </SidebarHeader>
         <SidebarContent>
-          <SidebarGroup className="pt-1">
-            <SidebarGroupContent>
-              <SidebarMenu>
-                <SidebarMenuItem>
-                  <SidebarMenuButton
-                    className="h-8 rounded-lg border border-sidebar-border text-[13px] text-sidebar-foreground/70 transition-colors duration-150 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
-                    onClick={() => {
-                      setOpenMobile(false);
-                      router.push("/chat");
-                    }}
-                    tooltip="Novo Chat"
-                  >
-                    <PenSquareIcon className="size-4" />
-                    <span className="font-medium">Novo chat</span>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-                {!isGuest && (
-                  <SidebarMenuItem>
-                    <SidebarMenuButton
-                      className="rounded-lg text-sidebar-foreground/40 transition-colors duration-150 hover:bg-destructive/10 hover:text-destructive"
-                      onClick={() => setShowDeleteAllDialog(true)}
-                      tooltip="Apagar Todas as Conversas"
-                    >
-                      <TrashIcon className="size-4" />
-                      <span className="text-[13px]">Apagar tudo</span>
-                    </SidebarMenuButton>
-                  </SidebarMenuItem>
-                )}
-              </SidebarMenu>
-            </SidebarGroupContent>
-          </SidebarGroup>
           {!isGuest && <SidebarHistory user={user} />}
         </SidebarContent>
         <SidebarFooter className="border-t border-sidebar-border pt-2 pb-3">
