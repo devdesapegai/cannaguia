@@ -43,10 +43,12 @@ function ProfileModal({
   user,
   open,
   onClose,
+  onSaved,
 }: {
   user: User;
   open: boolean;
   onClose: () => void;
+  onSaved?: (name?: string, image?: string) => void;
 }) {
   const [name, setName] = useState(user.name || "");
   const [imageUrl, setImageUrl] = useState(user.image || "");
@@ -102,7 +104,7 @@ function ProfileModal({
         }),
       });
       if (res.ok) {
-        // Refresh session to pick up new name/image
+        onSaved?.(name.trim(), imageUrl);
         await updateSession();
         onClose();
       }
@@ -197,15 +199,17 @@ export function SidebarUserNav({ user }: { user: User }) {
   const router = useRouter();
   const { data, status } = useSession();
   const [showProfile, setShowProfile] = useState(false);
+  // Local overrides that update instantly on profile save
+  const [localName, setLocalName] = useState<string | null>(null);
+  const [localImage, setLocalImage] = useState<string | null>(null);
 
   const sessionUser = data?.user;
   const isGuest = guestRegex.test(sessionUser?.email ?? "");
   const plan = (sessionUser as any)?.plan;
   const isPremium = plan === "premium";
 
-  // Use session data (client-side, updates on save) over server prop
-  const displayName = sessionUser?.name || user?.name;
-  const displayImage = sessionUser?.image || user?.image;
+  const displayName = localName ?? sessionUser?.name ?? user?.name;
+  const displayImage = localImage ?? sessionUser?.image ?? user?.image;
   const displayEmail = sessionUser?.email || user?.email;
 
   return (
@@ -311,7 +315,15 @@ export function SidebarUserNav({ user }: { user: User }) {
         </SidebarMenuItem>
       </SidebarMenu>
 
-      <ProfileModal user={{ ...user, name: displayName, image: displayImage, email: displayEmail }} open={showProfile} onClose={() => setShowProfile(false)} />
+      <ProfileModal
+        user={{ ...user, name: displayName, image: displayImage, email: displayEmail }}
+        open={showProfile}
+        onClose={() => setShowProfile(false)}
+        onSaved={(name, image) => {
+          if (name !== undefined) setLocalName(name);
+          if (image !== undefined) setLocalImage(image);
+        }}
+      />
     </>
   );
 }
