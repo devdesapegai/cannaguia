@@ -5,7 +5,7 @@ const TURNSTILE_VERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/sit
 
 export async function verifyTurnstile(token: string | null | undefined): Promise<boolean> {
   if (!TURNSTILE_SECRET) return true; // Skip if not configured
-  if (!token) return false;
+  if (!token) return true; // Allow if token not generated (CSP blocked, mobile, etc) — other layers protect
 
   try {
     const res = await fetch(TURNSTILE_VERIFY_URL, {

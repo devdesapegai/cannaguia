@@ -52,7 +52,7 @@ const nextConfig: NextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
           { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
-          { key: "Content-Security-Policy", value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://challenges.cloudflare.com https://static.cloudflareinsights.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https://generativelanguage.googleapis.com https://api.stripe.com https://*.supabase.com https://challenges.cloudflare.com https://cloudflareinsights.com; frame-src https://js.stripe.com https://challenges.cloudflare.com; frame-ancestors 'none';" },
+          { key: "Content-Security-Policy", value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://challenges.cloudflare.com https://static.cloudflareinsights.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https://generativelanguage.googleapis.com https://api.stripe.com https://*.supabase.com https://challenges.cloudflare.com https://static.cloudflareinsights.com https://cdn.jsdelivr.net https://cloudflareinsights.com; frame-src https://js.stripe.com https://challenges.cloudflare.com; frame-ancestors 'none';" },
         ],
       },
     ];
