@@ -100,6 +100,9 @@ export const {
           } else {
             user.id = existing[0].id;
             (user as any).plan = existing[0].plan ?? "free";
+            // Use DB name/image if set (user may have edited profile)
+            if (existing[0].name) user.name = existing[0].name;
+            if (existing[0].image) user.image = existing[0].image;
           }
           (user as any).type = "regular";
         } catch (e) {
@@ -109,19 +112,32 @@ export const {
       }
       return true;
     },
-    jwt({ token, user, account, profile }) {
+    async jwt({ token, user, account, profile, trigger, session: updateData }) {
       if (user) {
         token.id = (user.id ?? token.sub) as string;
         token.type = (user as any).type ?? "regular";
         token.plan = (user as any).plan ?? "free";
+        token.name = user.name ?? token.name;
+        token.picture = user.image ?? token.picture;
       }
-      if (account) {
+      if (account && !user?.name) {
         token.id = (token.sub ?? user?.id) as string;
         token.type = "regular";
       }
-      if (profile) {
+      if (profile && !user?.name) {
         token.picture = (profile as any).picture ?? token.picture;
         token.name = profile.name ?? token.name;
+      }
+      // Refresh from DB when client calls updateSession()
+      if (trigger === "update" && token.id) {
+        try {
+          const dbUsers = await getUser(token.email as string);
+          if (dbUsers[0]) {
+            token.name = dbUsers[0].name ?? token.name;
+            token.picture = dbUsers[0].image ?? token.picture;
+            token.plan = (dbUsers[0] as any).plan ?? token.plan;
+          }
+        } catch {}
       }
 
       return token;
