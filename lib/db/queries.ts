@@ -8,6 +8,7 @@ import {
   eq,
   gt,
   gte,
+  ilike,
   inArray,
   isNotNull,
   lt,
@@ -711,6 +712,30 @@ export async function updateUserProfile({
     throw new ChatbotError(
       "bad_request:database",
       "Failed to update user profile",
+    );
+  }
+}
+
+export async function searchChatsByTitle({
+  userId,
+  query,
+  limit = 20,
+}: {
+  userId: string;
+  query: string;
+  limit?: number;
+}) {
+  try {
+    return await db
+      .select()
+      .from(chat)
+      .where(and(eq(chat.userId, userId), ilike(chat.title, `%${query}%`)))
+      .orderBy(desc(chat.createdAt))
+      .limit(limit);
+  } catch (_error) {
+    throw new ChatbotError(
+      "bad_request:database",
+      "Failed to search chats"
     );
   }
 }

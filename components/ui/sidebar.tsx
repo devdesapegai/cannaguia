@@ -179,7 +179,7 @@ function Sidebar({
           data-sidebar="sidebar"
           data-slot="sidebar"
           data-mobile="true"
-          className="w-[75%] max-w-[300px] bg-sidebar p-0 text-sidebar-foreground"
+          className="w-[75%] max-w-[300px] bg-sidebar p-0 text-sidebar-foreground [&>button[data-slot=sheet-close]]:hidden"
           side="left"
         >
           <SheetHeader className="sr-only">

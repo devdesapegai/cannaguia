@@ -5,27 +5,26 @@ import {
   LogIn,
   PanelLeftIcon,
   PenSquareIcon,
-  TrashIcon,
+  SearchIcon,
+  XIcon,
 } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import type { User } from "next-auth";
 import { AuthModal } from "@/components/chat/auth-modal";
-import { useState } from "react";
-import { toast } from "sonner";
-import { useSWRConfig } from "swr";
-import { unstable_serialize } from "swr/infinite";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
-  getChatHistoryPaginationKey,
   SidebarHistory,
 } from "@/components/chat/sidebar-history";
 import { SidebarUserNav } from "@/components/chat/sidebar-user-nav";
+import { ChatItem } from "@/components/chat/sidebar-history-item";
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
+  SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
@@ -34,42 +33,57 @@ import {
   SidebarTrigger,
   useSidebar,
 } from "@/components/ui/sidebar";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from "../ui/alert-dialog";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import type { Chat } from "@/lib/db/schema";
+import { fetcher } from "@/lib/utils";
 
 const guestRegex = /^guest-/;
 
 export function AppSidebar({ user }: { user: User | undefined }) {
   const router = useRouter();
+  const pathname = usePathname();
   const { setOpenMobile, toggleSidebar } = useSidebar();
-  const { mutate } = useSWRConfig();
-  const [showDeleteAllDialog, setShowDeleteAllDialog] = useState(false);
   const [showAuthModal, setShowAuthModal] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<Chat[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isGuest = !user || guestRegex.test(user.email ?? "");
+  const activeChatId = pathname?.startsWith("/chat/") ? pathname.split("/")[2] : null;
 
-  const handleDeleteAll = () => {
-    setShowDeleteAllDialog(false);
-    router.replace("/");
-    mutate(unstable_serialize(getChatHistoryPaginationKey), [], {
-      revalidate: false,
-    });
+  const handleSearch = useCallback((query: string) => {
+    setSearchQuery(query);
 
-    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/history`, {
-      method: "DELETE",
-    });
+    if (debounceRef.current) clearTimeout(debounceRef.current);
 
-    toast.success("Todas as conversas apagadas");
-  };
+    if (!query.trim() || query.trim().length < 2) {
+      setSearchResults([]);
+      setIsSearching(false);
+      return;
+    }
+
+    setIsSearching(true);
+    debounceRef.current = setTimeout(async () => {
+      try {
+        const results = await fetcher(
+          `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/search?q=${encodeURIComponent(query.trim())}`
+        );
+        setSearchResults(results);
+      } catch {
+        setSearchResults([]);
+      } finally {
+        setIsSearching(false);
+      }
+    }, 300);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, []);
 
   return (
     <>
@@ -119,21 +133,78 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </SidebarMenuButton>
             </SidebarMenuItem>
             {!isGuest && (
-              <SidebarMenuItem>
-                <SidebarMenuButton
-                  className="rounded-lg text-sidebar-foreground/40 transition-colors duration-150 hover:bg-destructive/10 hover:text-destructive"
-                  onClick={() => setShowDeleteAllDialog(true)}
-                  tooltip="Apagar Todas as Conversas"
-                >
-                  <TrashIcon className="size-4" />
-                  <span className="text-[13px]">Apagar tudo</span>
-                </SidebarMenuButton>
+              <SidebarMenuItem className="group-data-[collapsible=icon]:hidden">
+                <div className="relative">
+                  <SearchIcon className="absolute left-2.5 top-1/2 -translate-y-1/2 size-3.5 text-sidebar-foreground/40" />
+                  <input
+                    ref={searchInputRef}
+                    type="text"
+                    placeholder="Buscar conversas..."
+                    value={searchQuery}
+                    onChange={(e) => handleSearch(e.target.value)}
+                    className="h-8 w-full rounded-lg bg-sidebar-accent/30 pl-8 pr-8 text-[13px] text-sidebar-foreground placeholder:text-sidebar-foreground/40 outline-none focus:bg-sidebar-accent/50 transition-colors"
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => {
+                        setSearchQuery("");
+                        setSearchResults([]);
+                        setIsSearching(false);
+                        searchInputRef.current?.focus();
+                      }}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 text-sidebar-foreground/40 hover:text-sidebar-foreground"
+                    >
+                      <XIcon className="size-3.5" />
+                    </button>
+                  )}
+                </div>
               </SidebarMenuItem>
             )}
           </SidebarMenu>
         </SidebarHeader>
         <SidebarContent>
-          {!isGuest && <SidebarHistory user={user} />}
+          {searchQuery.trim().length >= 2 ? (
+            <SidebarGroup className="group-data-[collapsible=icon]:hidden">
+              <SidebarGroupLabel className="text-[10px] font-semibold uppercase tracking-[0.12em] text-sidebar-foreground/70">
+                Resultados
+              </SidebarGroupLabel>
+              <SidebarGroupContent>
+                <SidebarMenu>
+                  {isSearching ? (
+                    <div className="flex flex-col gap-0.5 px-1">
+                      {[44, 32, 28].map((item) => (
+                        <div
+                          className="flex h-8 items-center gap-2 rounded-lg px-2"
+                          key={item}
+                        >
+                          <div
+                            className="h-3 max-w-(--skeleton-width) flex-1 animate-pulse rounded-md bg-sidebar-foreground/[0.06]"
+                            style={{ "--skeleton-width": `${item}%` } as React.CSSProperties}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ) : searchResults.length > 0 ? (
+                    searchResults.map((chat) => (
+                      <ChatItem
+                        key={chat.id}
+                        chat={chat}
+                        isActive={chat.id === activeChatId}
+                        onDelete={() => {}}
+                        setOpenMobile={setOpenMobile}
+                      />
+                    ))
+                  ) : (
+                    <div className="px-2 py-3 text-[13px] text-sidebar-foreground/50">
+                      Nenhuma conversa encontrada
+                    </div>
+                  )}
+                </SidebarMenu>
+              </SidebarGroupContent>
+            </SidebarGroup>
+          ) : (
+            !isGuest && <SidebarHistory user={user} />
+          )}
         </SidebarContent>
         <SidebarFooter className="border-t border-sidebar-border pt-2 pb-3">
           {isGuest ? (
@@ -158,26 +229,6 @@ export function AppSidebar({ user }: { user: User | undefined }) {
         </SidebarFooter>
         <SidebarRail />
       </Sidebar>
-
-      <AlertDialog
-        onOpenChange={setShowDeleteAllDialog}
-        open={showDeleteAllDialog}
-      >
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Apagar todas as conversas?</AlertDialogTitle>
-            <AlertDialogDescription>
-              Esta ação não pode ser desfeita. Todas as suas conversas serão permanentemente deletadas.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Cancelar</AlertDialogCancel>
-            <AlertDialogAction onClick={handleDeleteAll}>
-              Apagar tudo
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
 
       <AuthModal open={showAuthModal} onClose={() => setShowAuthModal(false)} />
     </>
