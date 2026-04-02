@@ -10,57 +10,82 @@ const ALLOWED_PRICE_IDS = new Set([
 ]);
 
 export async function POST(request: Request) {
-  const body = await request.json().catch(() => ({}));
-  const priceId = body.priceId || process.env.STRIPE_PRICE_ID!;
+  try {
+    const body = await request.json().catch(() => ({}));
+    const priceId = body.priceId || process.env.STRIPE_PRICE_ID!;
 
-  if (!ALLOWED_PRICE_IDS.has(priceId)) {
-    return Response.json({ error: "Plano invalido" }, { status: 400 });
-  }
+    if (!ALLOWED_PRICE_IDS.has(priceId)) {
+      return Response.json({ error: "Plano invalido" }, { status: 400 });
+    }
 
-  const session = await auth();
+    const session = await auth();
 
-  if (!session?.user?.id || !session.user.email) {
-    return new ChatbotError("unauthorized:chat").toResponse();
-  }
+    if (!session?.user?.id || !session.user.email) {
+      return new ChatbotError("unauthorized:chat").toResponse();
+    }
 
-  const isGuest = (session.user.email ?? "").startsWith("guest-");
-  if (isGuest) {
-    return Response.json(
-      { error: "Crie uma conta antes de assinar o Premium." },
-      { status: 403 },
-    );
-  }
+    const isGuest = (session.user.email ?? "").startsWith("guest-");
+    if (isGuest) {
+      return Response.json(
+        { error: "Crie uma conta antes de assinar o Premium." },
+        { status: 403 },
+      );
+    }
 
-  const users = await getUser(session.user.email);
-  const dbUser = users[0];
-  if (!dbUser) {
-    return Response.json({ error: "Usuario nao encontrado" }, { status: 404 });
-  }
+    const users = await getUser(session.user.email);
+    const dbUser = users[0];
+    if (!dbUser) {
+      return Response.json(
+        { error: "Usuario nao encontrado" },
+        { status: 404 },
+      );
+    }
 
-  let customerId = dbUser.stripeCustomerId;
-  if (!customerId) {
-    const customer = await getStripe().customers.create({
-      email: session.user.email,
+    // Reset stripeCustomerId if it belongs to a different Stripe account
+    let customerId = dbUser.stripeCustomerId;
+    if (customerId) {
+      try {
+        await getStripe().customers.retrieve(customerId);
+      } catch {
+        customerId = null;
+      }
+    }
+
+    if (!customerId) {
+      const customer = await getStripe().customers.create({
+        email: session.user.email,
+        metadata: { userId: session.user.id },
+      });
+      customerId = customer.id;
+      await updateStripeCustomerId(session.user.id, customerId);
+    }
+
+    const checkoutSession = await getStripe().checkout.sessions.create({
+      customer: customerId,
+      mode: "subscription",
+      payment_method_types: ["card"],
+      line_items: [
+        {
+          price: priceId,
+          quantity: 1,
+        },
+      ],
+      success_url: `${process.env.NEXTAUTH_URL}/chat?upgrade=success`,
+      cancel_url: `${process.env.NEXTAUTH_URL}/chat?upgrade=cancelled`,
       metadata: { userId: session.user.id },
     });
-    customerId = customer.id;
-    await updateStripeCustomerId(session.user.id, customerId);
-  }
 
-  const checkoutSession = await getStripe().checkout.sessions.create({
-    customer: customerId,
-    mode: "subscription",
-    payment_method_types: ["card"],
-    line_items: [
+    return Response.json({ url: checkoutSession.url });
+  } catch (error) {
+    console.error("[stripe/checkout] Error:", error);
+    return Response.json(
       {
-        price: priceId,
-        quantity: 1,
+        error:
+          error instanceof Error
+            ? error.message
+            : "Erro ao criar checkout",
       },
-    ],
-    success_url: `${process.env.NEXTAUTH_URL}/chat?upgrade=success`,
-    cancel_url: `${process.env.NEXTAUTH_URL}/chat?upgrade=cancelled`,
-    metadata: { userId: session.user.id },
-  });
-
-  return Response.json({ url: checkoutSession.url });
+      { status: 500 },
+    );
+  }
 }
