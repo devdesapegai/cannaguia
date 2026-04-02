@@ -26,6 +26,7 @@ import { DEFAULT_CHAT_MODEL } from "@/lib/ai/models";
 import type { Vote } from "@/lib/db/schema";
 import { ChatbotError } from "@/lib/errors";
 import type { ChatMessage } from "@/lib/types";
+import { useTurnstile } from "@/hooks/use-turnstile";
 import { fetcher, fetchWithErrorHandlers, generateUUID } from "@/lib/utils";
 
 type ActiveChatContextValue = {
@@ -81,6 +82,7 @@ export function ActiveChatProvider({ children }: { children: ReactNode }) {
 
   const [input, setInput] = useState("");
   const [showCreditCardAlert, setShowCreditCardAlert] = useState(false);
+  const { token: turnstileToken, resetToken: resetTurnstile } = useTurnstile();
 
   const { data: chatData, isLoading } = useSWR(
     isNewChat
@@ -146,6 +148,7 @@ export function ActiveChatProvider({ children }: { children: ReactNode }) {
               : { message: lastMessage }),
             selectedChatModel: currentModelIdRef.current,
             selectedVisibilityType: visibility,
+            turnstileToken: turnstileToken ?? undefined,
             ...request.body,
           },
         };
@@ -155,6 +158,7 @@ export function ActiveChatProvider({ children }: { children: ReactNode }) {
       setDataStream((ds) => (ds ? [...ds, dataPart] : []));
     },
     onFinish: () => {
+      resetTurnstile();
       mutate(unstable_serialize(getChatHistoryPaginationKey));
     },
     onError: (error) => {

@@ -38,6 +38,8 @@ import {
 import type { DBMessage } from "@/lib/db/schema";
 import { ChatbotError } from "@/lib/errors";
 import { checkIpRateLimit } from "@/lib/ratelimit";
+import { verifyTurnstile } from "@/lib/turnstile";
+import { isValidOrigin } from "@/lib/origin";
 import type { ChatMessage } from "@/lib/types";
 import { convertToUIMessages, generateUUID } from "@/lib/utils";
 import { generateTitleFromUserMessage } from "../../actions";
@@ -59,13 +61,24 @@ function getStreamContext() {
 export { getStreamContext };
 
 export async function POST(request: Request) {
+  if (!isValidOrigin(request)) {
+    return new ChatbotError("bad_request:api", "Origin nao permitido").toResponse();
+  }
+
   let requestBody: PostRequestBody;
+  let rawJson: Record<string, unknown>;
 
   try {
-    const json = await request.json();
-    requestBody = postRequestBodySchema.parse(json);
+    rawJson = await request.json();
+    requestBody = postRequestBodySchema.parse(rawJson);
   } catch (_) {
     return new ChatbotError("bad_request:api").toResponse();
+  }
+
+  // Turnstile verification
+  const turnstileValid = await verifyTurnstile(rawJson?.turnstileToken as string);
+  if (!turnstileValid) {
+    return new ChatbotError("rate_limit:chat", "Verificacao de seguranca falhou. Recarregue a pagina.").toResponse();
   }
 
   try {

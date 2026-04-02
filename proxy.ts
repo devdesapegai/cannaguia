@@ -9,7 +9,17 @@ export async function proxy(request: NextRequest) {
     return new Response("pong", { status: 200 });
   }
 
-  if (pathname.startsWith("/api/auth") || pathname.startsWith("/api/stripe/webhook")) {
+  // Public routes — no auth needed
+  if (
+    pathname.startsWith("/api/auth") ||
+    pathname.startsWith("/api/stripe/webhook") ||
+    pathname.startsWith("/api/landing-chat") ||
+    pathname.startsWith("/api/models") ||
+    pathname === "/" ||
+    pathname === "/login" ||
+    pathname === "/register" ||
+    pathname === "/planos"
+  ) {
     return NextResponse.next();
   }
 
@@ -21,11 +31,13 @@ export async function proxy(request: NextRequest) {
 
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
+  // No auto-guest: redirect to login instead
   if (!token) {
-    const redirectUrl = encodeURIComponent(new URL(request.url).pathname);
-
+    if (pathname.startsWith("/api/")) {
+      return Response.json({ error: "unauthorized" }, { status: 401 });
+    }
     return NextResponse.redirect(
-      new URL(`${base}/api/auth/guest?redirectUrl=${redirectUrl}`, request.url)
+      new URL(`${base}/login`, request.url)
     );
   }
 

@@ -3,6 +3,8 @@ import { searchAll, formatContextForLLM } from "@/lib/rag/search";
 import { SYSTEM_PROMPT, buildUserPrompt } from "@/lib/ai/cannaguia-prompt";
 import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
+import { verifyTurnstile } from "@/lib/turnstile";
+import { isValidOrigin } from "@/lib/origin";
 
 // In-memory rate limit per IP (max 1 request per 10 min)
 const ipRequests = new Map<string, { count: number; resetAt: number }>();
@@ -30,13 +32,22 @@ function checkLandingRateLimit(ip: string): boolean {
 
 export async function POST(req: NextRequest) {
   try {
+    if (!isValidOrigin(req)) {
+      return NextResponse.json({ error: "Origin nao permitido" }, { status: 403 });
+    }
+
     const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || req.headers.get("x-real-ip") || "unknown";
     if (!checkLandingRateLimit(ip)) {
       return NextResponse.json({ error: "Limite atingido. Crie uma conta para continuar." }, { status: 429 });
     }
 
     const body = await req.json();
-    const { message, history = [] } = body;
+    const { message, history = [], turnstileToken } = body;
+
+    const turnstileValid = await verifyTurnstile(turnstileToken);
+    if (!turnstileValid) {
+      return NextResponse.json({ error: "Verificacao de seguranca falhou." }, { status: 403 });
+    }
 
     if (!message || typeof message !== "string" || message.length > 2000) {
       return NextResponse.json({ error: "Mensagem invalida" }, { status: 400 });

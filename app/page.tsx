@@ -6,6 +6,7 @@ import { ArrowUp, ChevronDown, Leaf, MessageCircle, Phone, Instagram, Mail, Star
 import { useRouter } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import { signIn, useSession } from "next-auth/react";
+import { useTurnstile } from "@/hooks/use-turnstile";
 
 
 function renderMd(text: string) {
@@ -23,6 +24,7 @@ function renderMd(text: string) {
 export default function LandingPage() {
   const router = useRouter();
   const { data: session, status } = useSession();
+  const { token: turnstileToken, resetToken: resetTurnstile } = useTurnstile();
   const [messages, setMessages] = useState<{role:string;content:string}[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -75,12 +77,12 @@ export default function LandingPage() {
     try {
       const res = await fetch("/api/landing-chat", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text.trim(), history: messages.filter(m => m.content).map(m => ({ role: m.role, content: m.content })) }),
+        body: JSON.stringify({ message: text.trim(), history: messages.filter(m => m.content).map(m => ({ role: m.role, content: m.content })), turnstileToken }),
       });
       const data = await res.json();
       setMessages(p => { const u = [...p]; u[u.length-1] = { role: "assistant", content: data.error ? "Desculpe, ocorreu um erro." : data.response }; return u; });
     } catch { setMessages(p => { const u = [...p]; u[u.length-1] = { role: "assistant", content: "Erro de conexao." }; return u; }); }
-    finally { setLoading(false); }
+    finally { setLoading(false); resetTurnstile(); }
   };
 
   const handleSubmit = (e: FormEvent) => { e.preventDefault(); sendMessage(input); };
