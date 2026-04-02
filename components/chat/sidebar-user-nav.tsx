@@ -198,9 +198,15 @@ export function SidebarUserNav({ user }: { user: User }) {
   const { data, status } = useSession();
   const [showProfile, setShowProfile] = useState(false);
 
-  const isGuest = guestRegex.test(data?.user?.email ?? "");
-  const plan = (data?.user as any)?.plan;
+  const sessionUser = data?.user;
+  const isGuest = guestRegex.test(sessionUser?.email ?? "");
+  const plan = (sessionUser as any)?.plan;
   const isPremium = plan === "premium";
+
+  // Use session data (client-side, updates on save) over server prop
+  const displayName = sessionUser?.name || user?.name;
+  const displayImage = sessionUser?.image || user?.image;
+  const displayEmail = sessionUser?.email || user?.email;
 
   return (
     <>
@@ -225,21 +231,21 @@ export function SidebarUserNav({ user }: { user: User }) {
                   className="h-auto min-h-[40px] px-2 py-1.5 rounded-lg bg-transparent text-sidebar-foreground/70 transition-colors duration-150 hover:text-sidebar-foreground data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
                   data-testid="user-nav-button"
                 >
-                  {user?.image ? (
-                    <img src={user.image} alt="" className="size-6 shrink-0 rounded-full ring-1 ring-sidebar-border/50" referrerPolicy="no-referrer" />
+                  {displayImage ? (
+                    <img src={displayImage} alt="" className="size-6 shrink-0 rounded-full ring-1 ring-sidebar-border/50" referrerPolicy="no-referrer" />
                   ) : (
                     <div
                       className="size-6 shrink-0 rounded-full ring-1 ring-sidebar-border/50 flex items-center justify-center text-[10px] font-bold text-white"
                       style={{
-                        background: `linear-gradient(135deg, oklch(0.55 0.15 ${emailToHue(user.email ?? "")}), oklch(0.45 0.12 ${emailToHue(user.email ?? "") + 40}))`,
+                        background: `linear-gradient(135deg, oklch(0.55 0.15 ${emailToHue(displayEmail ?? "")}), oklch(0.45 0.12 ${emailToHue(displayEmail ?? "") + 40}))`,
                       }}
                     >
-                      {getInitials(user.name, user.email)}
+                      {getInitials(displayName, displayEmail)}
                     </div>
                   )}
                   <div className="flex flex-col min-w-0 flex-1">
                     <span className="truncate text-[13px]" data-testid="user-email">
-                      {isGuest ? "Visitante" : (user?.name || user?.email)}
+                      {isGuest ? "Visitante" : (displayName || displayEmail)}
                     </span>
                     {isPremium && (
                       <span className="text-[11px] text-green-500 font-medium">Plano Premium</span>
@@ -305,7 +311,7 @@ export function SidebarUserNav({ user }: { user: User }) {
         </SidebarMenuItem>
       </SidebarMenu>
 
-      <ProfileModal user={user} open={showProfile} onClose={() => setShowProfile(false)} />
+      <ProfileModal user={{ ...user, name: displayName, image: displayImage, email: displayEmail }} open={showProfile} onClose={() => setShowProfile(false)} />
     </>
   );
 }
