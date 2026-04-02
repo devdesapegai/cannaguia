@@ -1,10 +1,10 @@
 "use client";
 
-import { ChevronUp } from "lucide-react";
+import { Camera, ChevronUp, Crown, LogOut, User as UserIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { User } from "next-auth";
 import { signOut, useSession } from "next-auth/react";
-import { useTheme } from "next-themes";
+import { useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -29,97 +29,198 @@ function emailToHue(email: string): number {
   return Math.abs(hash) % 360;
 }
 
+function getInitials(name?: string | null, email?: string | null): string {
+  if (name) {
+    const parts = name.split(" ").filter(Boolean);
+    if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
+    return parts[0]?.slice(0, 2).toUpperCase() ?? "?";
+  }
+  if (email) return email.slice(0, 2).toUpperCase();
+  return "?";
+}
+
+function ProfileModal({
+  user,
+  open,
+  onClose,
+}: {
+  user: User;
+  open: boolean;
+  onClose: () => void;
+}) {
+  if (!open) return null;
+
+  const hue = emailToHue(user.email ?? "");
+  const initials = getInitials(user.name, user.email);
+  const displayName = user.name || user.email?.split("@")[0] || "";
+  const username = user.email?.split("@")[0] || "";
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={onClose}>
+      <div className="w-full max-w-md rounded-xl border border-border bg-card p-6 shadow-xl" onClick={(e) => e.stopPropagation()}>
+        <h2 className="text-lg font-semibold mb-6">Editar perfil</h2>
+
+        <div className="flex flex-col items-center mb-6">
+          <div className="relative">
+            {user.image ? (
+              <img src={user.image} alt="" className="size-20 rounded-full ring-2 ring-border" referrerPolicy="no-referrer" />
+            ) : (
+              <div
+                className="size-20 rounded-full ring-2 ring-border flex items-center justify-center text-2xl font-bold text-white"
+                style={{
+                  background: `linear-gradient(135deg, oklch(0.55 0.15 ${hue}), oklch(0.45 0.12 ${hue + 40}))`,
+                }}
+              >
+                {initials}
+              </div>
+            )}
+            <div className="absolute -bottom-1 -right-1 size-7 rounded-full bg-muted border-2 border-card flex items-center justify-center">
+              <Camera className="size-3.5 text-muted-foreground" />
+            </div>
+          </div>
+        </div>
+
+        <div className="space-y-4 mb-6">
+          <div className="rounded-lg border border-border px-4 py-3">
+            <p className="text-[11px] text-muted-foreground mb-0.5">Nome de exibicao</p>
+            <p className="text-sm">{displayName}</p>
+          </div>
+          <div className="rounded-lg border border-border px-4 py-3">
+            <p className="text-[11px] text-muted-foreground mb-0.5">Nome de usuario</p>
+            <p className="text-sm">{username}</p>
+          </div>
+        </div>
+
+        <p className="text-[12px] text-muted-foreground text-center mb-5">
+          Seu perfil ajuda as pessoas a reconhecerem voce.
+        </p>
+
+        <div className="flex items-center justify-center gap-3">
+          <button
+            onClick={onClose}
+            className="px-5 py-2 text-sm rounded-lg border border-border hover:bg-accent transition-colors"
+          >
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function SidebarUserNav({ user }: { user: User }) {
   const router = useRouter();
   const { data, status } = useSession();
-  const { setTheme, resolvedTheme } = useTheme();
+  const [showProfile, setShowProfile] = useState(false);
 
   const isGuest = guestRegex.test(data?.user?.email ?? "");
+  const plan = (data?.user as any)?.plan;
+  const isPremium = plan === "premium";
 
   return (
-    <SidebarMenu>
-      <SidebarMenuItem>
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            {status === "loading" ? (
-              <SidebarMenuButton className="h-10 justify-between rounded-lg bg-transparent text-sidebar-foreground/50 transition-colors duration-150 data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground">
-                <div className="flex flex-row items-center gap-2">
-                  <div className="size-6 animate-pulse rounded-full bg-sidebar-foreground/10" />
-                  <span className="animate-pulse rounded-md bg-sidebar-foreground/10 text-transparent text-[13px]">
-                    Loading...
-                  </span>
-                </div>
-                <div className="animate-spin text-sidebar-foreground/50">
-                  <LoaderIcon />
-                </div>
-              </SidebarMenuButton>
-            ) : (
-              <SidebarMenuButton
-                className="h-8 px-2 rounded-lg bg-transparent text-sidebar-foreground/70 transition-colors duration-150 hover:text-sidebar-foreground data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
-                data-testid="user-nav-button"
-              >
-                {user?.image ? (
-                  <img src={user.image} alt="" className="size-5 shrink-0 rounded-full ring-1 ring-sidebar-border/50" referrerPolicy="no-referrer" />
-                ) : (
-                  <div
-                    className="size-5 shrink-0 rounded-full ring-1 ring-sidebar-border/50"
-                    style={{
-                      background: `linear-gradient(135deg, oklch(0.35 0.08 ${emailToHue(user.email ?? "")}), oklch(0.25 0.05 ${emailToHue(user.email ?? "") + 40}))`,
-                    }}
-                  />
-                )}
-                <span className="truncate text-[13px]" data-testid="user-email">
-                  {isGuest ? "Visitante" : user?.email}
-                </span>
-                <ChevronUp className="ml-auto size-3.5 text-sidebar-foreground/50" />
-              </SidebarMenuButton>
-            )}
-          </DropdownMenuTrigger>
-          <DropdownMenuContent
-            className="w-(--radix-popper-anchor-width) rounded-lg border border-border/60 bg-card/95 backdrop-blur-xl shadow-[var(--shadow-float)]"
-            data-testid="user-nav-menu"
-            side="top"
-          >
-            <DropdownMenuItem
-              className="cursor-pointer text-[13px]"
-              data-testid="user-nav-item-theme"
-              onSelect={() =>
-                setTheme(resolvedTheme === "dark" ? "light" : "dark")
-              }
+    <>
+      <SidebarMenu>
+        <SidebarMenuItem>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              {status === "loading" ? (
+                <SidebarMenuButton className="h-10 justify-between rounded-lg bg-transparent text-sidebar-foreground/50 transition-colors duration-150 data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground">
+                  <div className="flex flex-row items-center gap-2">
+                    <div className="size-6 animate-pulse rounded-full bg-sidebar-foreground/10" />
+                    <span className="animate-pulse rounded-md bg-sidebar-foreground/10 text-transparent text-[13px]">
+                      Loading...
+                    </span>
+                  </div>
+                  <div className="animate-spin text-sidebar-foreground/50">
+                    <LoaderIcon />
+                  </div>
+                </SidebarMenuButton>
+              ) : (
+                <SidebarMenuButton
+                  className="h-auto min-h-[40px] px-2 py-1.5 rounded-lg bg-transparent text-sidebar-foreground/70 transition-colors duration-150 hover:text-sidebar-foreground data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
+                  data-testid="user-nav-button"
+                >
+                  {user?.image ? (
+                    <img src={user.image} alt="" className="size-6 shrink-0 rounded-full ring-1 ring-sidebar-border/50" referrerPolicy="no-referrer" />
+                  ) : (
+                    <div
+                      className="size-6 shrink-0 rounded-full ring-1 ring-sidebar-border/50 flex items-center justify-center text-[10px] font-bold text-white"
+                      style={{
+                        background: `linear-gradient(135deg, oklch(0.55 0.15 ${emailToHue(user.email ?? "")}), oklch(0.45 0.12 ${emailToHue(user.email ?? "") + 40}))`,
+                      }}
+                    >
+                      {getInitials(user.name, user.email)}
+                    </div>
+                  )}
+                  <div className="flex flex-col min-w-0 flex-1">
+                    <span className="truncate text-[13px]" data-testid="user-email">
+                      {isGuest ? "Visitante" : (user?.name || user?.email)}
+                    </span>
+                    {isPremium && (
+                      <span className="text-[11px] text-green-500 font-medium">Plano Premium</span>
+                    )}
+                    {!isPremium && !isGuest && (
+                      <span className="text-[11px] text-sidebar-foreground/40">Free</span>
+                    )}
+                  </div>
+                  <ChevronUp className="ml-auto size-3.5 shrink-0 text-sidebar-foreground/50" />
+                </SidebarMenuButton>
+              )}
+            </DropdownMenuTrigger>
+            <DropdownMenuContent
+              className="w-(--radix-popper-anchor-width) rounded-lg border border-border/60 bg-card/95 backdrop-blur-xl shadow-[var(--shadow-float)]"
+              data-testid="user-nav-menu"
+              side="top"
             >
-              {`Modo ${resolvedTheme === "light" ? "escuro" : "claro"}`}
-            </DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem asChild data-testid="user-nav-item-auth">
-              <button
-                className="w-full cursor-pointer text-[13px]"
-                onClick={() => {
-                  if (status === "loading") {
-                    toast({
-                      type: "error",
-                      description:
-                        "Checking authentication status, please try again!",
-                    });
-
-                    return;
-                  }
-
-                  if (isGuest) {
-                    router.push("/login");
-                  } else {
-                    signOut({
-                      redirectTo: "/",
-                    });
-                  }
-                }}
-                type="button"
+              {!isPremium && !isGuest && (
+                <>
+                  <DropdownMenuItem
+                    className="cursor-pointer text-[13px] gap-2"
+                    onSelect={() => router.push("/planos")}
+                  >
+                    <Crown className="size-4 text-green-500" />
+                    Fazer upgrade do plano
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                </>
+              )}
+              <DropdownMenuItem
+                className="cursor-pointer text-[13px] gap-2"
+                onSelect={() => setShowProfile(true)}
               >
-                {isGuest ? "Entrar na sua conta" : "Sair"}
-              </button>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </SidebarMenuItem>
-    </SidebarMenu>
+                <UserIcon className="size-4" />
+                Perfil
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild data-testid="user-nav-item-auth">
+                <button
+                  className="w-full cursor-pointer text-[13px] gap-2"
+                  onClick={() => {
+                    if (status === "loading") {
+                      toast({
+                        type: "error",
+                        description: "Verificando autenticacao, tente novamente!",
+                      });
+                      return;
+                    }
+                    if (isGuest) {
+                      router.push("/login");
+                    } else {
+                      signOut({ redirectTo: "/" });
+                    }
+                  }}
+                  type="button"
+                >
+                  <LogOut className="size-4" />
+                  {isGuest ? "Entrar na sua conta" : "Sair"}
+                </button>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </SidebarMenuItem>
+      </SidebarMenu>
+
+      <ProfileModal user={user} open={showProfile} onClose={() => setShowProfile(false)} />
+    </>
   );
 }
