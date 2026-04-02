@@ -52,6 +52,7 @@ import {
   checkInputGuardrails,
   checkOutputGuardrails,
 } from "@/lib/guardrails";
+import { getLangfuse } from "@/lib/langfuse";
 
 export const maxDuration = 60;
 
@@ -248,8 +249,26 @@ export async function POST(request: Request) {
 
     const startTime = Date.now();
 
+    // Langfuse trace for this request
+    const langfuse = getLangfuse();
+    const lfTrace = langfuse.trace({
+      name: "cannaguia-chat",
+      userId: session.user.id,
+      sessionId: id,
+      metadata: { isGuest: isGuestUser, chatModel, userType },
+      tags: isGuestUser ? ["guest"] : ["authenticated"],
+      input: userText,
+    });
+
     // Input guardrails: block prompt injection, flag off-topic
+    const inputGuardrailSpan = lfTrace.span({
+      name: "input-guardrails",
+      input: { userText: userText.slice(0, 200) },
+    });
     const inputCheck = checkInputGuardrails(userText);
+    inputGuardrailSpan.end({
+      output: { allowed: inputCheck.allowed, reason: inputCheck.reason, confidence: inputCheck.confidence },
+    });
     if (!inputCheck.allowed) {
       const safeResponse =
         inputCheck.reason === "prompt_injection"
@@ -257,7 +276,8 @@ export async function POST(request: Request) {
           : "Sou especializada em cannabis medicinal. Posso ajudar com strains, dosagem, cultivo, regulamentacao brasileira e muito mais. Como posso te ajudar?";
 
       // Log blocked input
-      after(() =>
+      lfTrace.update({ output: safeResponse, metadata: { blocked: true } });
+      after(() => {
         insertChatLog({
           chatId: id,
           userId: session.user.id!,
@@ -267,8 +287,9 @@ export async function POST(request: Request) {
           inputFlagged: true,
           inputFlagReason: inputCheck.reason ?? undefined,
           actionTaken: "blocked",
-        }),
-      );
+        });
+        langfuse.flushAsync();
+      });
 
       return new Response(
         JSON.stringify({ error: safeResponse }),
@@ -276,7 +297,19 @@ export async function POST(request: Request) {
       );
     }
 
+    const ragSpan = lfTrace.span({
+      name: "rag-search",
+      input: { query: userText, topK: 4 },
+    });
     const { results: localResults, searchMode } = await searchAll(userText, 4);
+    ragSpan.end({
+      output: {
+        resultCount: localResults.length,
+        topScore: localResults[0]?.score ?? 0,
+        searchMode,
+        titles: localResults.map((r) => r.document.title),
+      },
+    });
     const localContext = formatContextForLLM(localResults);
 
     let memoryContext = "";
@@ -320,6 +353,7 @@ export async function POST(request: Request) {
           experimental_telemetry: {
             isEnabled: isProductionEnvironment,
             functionId: "stream-text",
+            metadata: { langfuseTraceId: lfTrace.id },
           },
         });
 
@@ -338,6 +372,10 @@ export async function POST(request: Request) {
         if (isGuestUser) return;
 
         // Output guardrails: check assistant messages before saving
+        const outputGuardrailSpan = lfTrace.span({
+          name: "output-guardrails",
+          input: { messageCount: finishedMessages.length },
+        });
         let outputFlagged = false;
         let outputViolations: { type: string; matched: string; severity: string }[] = [];
         let outputAction: string | undefined;
@@ -366,6 +404,10 @@ export async function POST(request: Request) {
             (msg as any).parts = safeParts;
           }
         }
+
+        outputGuardrailSpan.end({
+          output: { flagged: outputFlagged, violations: outputViolations, action: outputAction },
+        });
 
         if (isToolApprovalFlow) {
           for (const finishedMsg of finishedMessages) {
@@ -416,8 +458,22 @@ export async function POST(request: Request) {
             .catch(() => {});
         }
 
-        // Structured logging (fire-and-forget via after())
-        after(() =>
+        // Update Langfuse trace with final output
+        const assistantText = finishedMessages
+          .filter((m) => m.role === "assistant")
+          .flatMap((m) =>
+            (m.parts ?? [])
+              .filter((p: any) => p.type === "text")
+              .map((p: any) => p.text),
+          )
+          .join("");
+        lfTrace.update({
+          output: assistantText.slice(0, 500),
+          metadata: { latencyMs: Date.now() - startTime, searchMode },
+        });
+
+        // Structured logging + Langfuse flush (fire-and-forget via after())
+        after(() => {
           insertChatLog({
             chatId: id,
             userId: session.user.id!,
@@ -435,8 +491,9 @@ export async function POST(request: Request) {
             outputFlagged,
             outputViolations: outputViolations.length > 0 ? outputViolations : undefined,
             actionTaken: outputAction,
-          }),
-        );
+          });
+          langfuse.flushAsync();
+        });
       },
       onError: (error) => {
         if (
