@@ -47,6 +47,7 @@ import { type PostRequestBody, postRequestBodySchema } from "./schema";
 import { searchAll, formatContextForLLM } from "@/lib/rag/search";
 import { SYSTEM_PROMPT } from "@/lib/ai/cannaguia-prompt";
 import { summarizeChat } from "@/lib/ai/summarize";
+import { insertChatLog } from "@/lib/db/chat-log";
 import {
   checkInputGuardrails,
   checkOutputGuardrails,
@@ -245,6 +246,8 @@ export async function POST(request: Request) {
       )
       .pop() ?? "";
 
+    const startTime = Date.now();
+
     // Input guardrails: block prompt injection, flag off-topic
     const inputCheck = checkInputGuardrails(userText);
     if (!inputCheck.allowed) {
@@ -252,13 +255,28 @@ export async function POST(request: Request) {
         inputCheck.reason === "prompt_injection"
           ? "Hmm, nao entendi sua pergunta. Posso te ajudar com informacoes sobre cannabis medicinal, strains, cultivo, ou regulamentacao. O que gostaria de saber?"
           : "Sou especializada em cannabis medicinal. Posso ajudar com strains, dosagem, cultivo, regulamentacao brasileira e muito mais. Como posso te ajudar?";
+
+      // Log blocked input
+      after(() =>
+        insertChatLog({
+          chatId: id,
+          userId: session.user.id!,
+          userText,
+          searchMode: "keyword",
+          latencyMs: Date.now() - startTime,
+          inputFlagged: true,
+          inputFlagReason: inputCheck.reason ?? undefined,
+          actionTaken: "blocked",
+        }),
+      );
+
       return new Response(
         JSON.stringify({ error: safeResponse }),
         { status: 200, headers: { "Content-Type": "application/json" } },
       );
     }
 
-    const { results: localResults } = await searchAll(userText, 4);
+    const { results: localResults, searchMode } = await searchAll(userText, 4);
     const localContext = formatContextForLLM(localResults);
 
     let memoryContext = "";
@@ -320,6 +338,9 @@ export async function POST(request: Request) {
         if (isGuestUser) return;
 
         // Output guardrails: check assistant messages before saving
+        let outputFlagged = false;
+        let outputViolations: { type: string; matched: string; severity: string }[] = [];
+        let outputAction: string | undefined;
         for (const msg of finishedMessages) {
           if (msg.role !== "assistant") continue;
           const textParts = (msg.parts ?? []).filter(
@@ -332,6 +353,10 @@ export async function POST(request: Request) {
 
           const outputCheck = checkOutputGuardrails(fullText);
           if (!outputCheck.safe) {
+            outputFlagged = true;
+            outputViolations = outputCheck.violations;
+            const hasCritical = outputCheck.violations.some((v) => v.severity === "critical");
+            outputAction = hasCritical ? "replaced" : "disclaimer_appended";
             // Replace text parts with the processed (safe) version
             const safeParts = msg.parts.map((p: any) =>
               p.type === "text"
@@ -390,6 +415,28 @@ export async function POST(request: Request) {
             })
             .catch(() => {});
         }
+
+        // Structured logging (fire-and-forget via after())
+        after(() =>
+          insertChatLog({
+            chatId: id,
+            userId: session.user.id!,
+            userText,
+            ragDocsUsed: localResults.map((r) => ({
+              title: r.document.title,
+              type: r.document.type,
+              score: r.score,
+            })),
+            ragTopScore: localResults[0]?.score ?? 0,
+            searchMode,
+            latencyMs: Date.now() - startTime,
+            inputFlagged: inputCheck.reason !== null,
+            inputFlagReason: inputCheck.reason ?? undefined,
+            outputFlagged,
+            outputViolations: outputViolations.length > 0 ? outputViolations : undefined,
+            actionTaken: outputAction,
+          }),
+        );
       },
       onError: (error) => {
         if (

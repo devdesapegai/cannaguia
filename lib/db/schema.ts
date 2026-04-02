@@ -3,9 +3,11 @@ import {
   boolean,
   customType,
   foreignKey,
+  integer,
   json,
   pgTable,
   primaryKey,
+  real,
   text,
   timestamp,
   uuid,
@@ -172,3 +174,25 @@ export const knowledgeEmbedding = pgTable("KnowledgeEmbedding", {
 });
 
 export type KnowledgeEmbedding = InferSelectModel<typeof knowledgeEmbedding>;
+
+// Structured logging for chat requests (observability)
+export const chatLog = pgTable("ChatLog", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  chatId: uuid("chatId").notNull(),
+  messageId: uuid("messageId"),
+  userId: uuid("userId").notNull(),
+  userText: text("userText").notNull(),
+  ragDocsUsed: json("ragDocsUsed"),
+  ragTopScore: real("ragTopScore"),
+  searchMode: varchar("searchMode", { length: 20 }).notNull().default("keyword"),
+  latencyMs: integer("latencyMs").notNull(),
+  tokenCount: integer("tokenCount"),
+  inputFlagged: boolean("inputFlagged").notNull().default(false),
+  inputFlagReason: varchar("inputFlagReason", { length: 50 }),
+  outputFlagged: boolean("outputFlagged").notNull().default(false),
+  outputViolations: json("outputViolations"),
+  actionTaken: varchar("actionTaken", { length: 50 }),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+});
+
+export type ChatLog = InferSelectModel<typeof chatLog>;
