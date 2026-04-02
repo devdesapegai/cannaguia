@@ -80,8 +80,13 @@ export function ChatShell() {
   useEffect(() => {
     if (searchParams.get("upgrade") === "success" && !upgradeHandled.current) {
       upgradeHandled.current = true;
-      toast.success("Upgrade realizado com sucesso! Bem-vindo ao Premium.");
-      window.history.replaceState({}, "", window.location.pathname);
+      // Delay to ensure render is stable before showing toast
+      setTimeout(() => {
+        toast.success("Upgrade realizado com sucesso! Bem-vindo ao Premium.", {
+          duration: 8000,
+        });
+        window.history.replaceState({}, "", window.location.pathname);
+      }, 1500);
     }
   }, [searchParams]);
 
