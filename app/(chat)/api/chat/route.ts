@@ -91,6 +91,20 @@ export async function POST(request: Request) {
     const userType: UserType = session.user.type;
     const isGuestUser = userType === "guest" || (session.user.email ?? "").startsWith("guest-");
 
+    // Guest: max 1 message total
+    if (isGuestUser) {
+      const guestMsgCount = await getMessageCountByUserId({
+        id: session.user.id,
+        differenceInHours: 8760,
+      });
+      if (guestMsgCount >= 1) {
+        return Response.json(
+          { code: "rate_limit:guest", message: "Crie uma conta gratuita para continuar conversando." },
+          { status: 429 },
+        );
+      }
+    }
+
     if (!isGuestUser) {
       const { effectivePlan } = await getUserPlan(session.user.id);
       if (effectivePlan === "free") {

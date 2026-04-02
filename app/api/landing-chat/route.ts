@@ -4,8 +4,28 @@ import { SYSTEM_PROMPT, buildUserPrompt } from "@/lib/ai/cannaguia-prompt";
 import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
 
+// Simple in-memory rate limit per IP (max 2 requests per 10 min)
+const ipRequests = new Map<string, { count: number; resetAt: number }>();
+
+function checkLandingRateLimit(ip: string): boolean {
+  const now = Date.now();
+  const entry = ipRequests.get(ip);
+  if (!entry || now > entry.resetAt) {
+    ipRequests.set(ip, { count: 1, resetAt: now + 600000 });
+    return true;
+  }
+  if (entry.count >= 2) return false;
+  entry.count++;
+  return true;
+}
+
 export async function POST(req: NextRequest) {
   try {
+    const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || req.headers.get("x-real-ip") || "unknown";
+    if (!checkLandingRateLimit(ip)) {
+      return NextResponse.json({ error: "Limite atingido. Crie uma conta para continuar." }, { status: 429 });
+    }
+
     const body = await req.json();
     const { message, history = [] } = body;
 
