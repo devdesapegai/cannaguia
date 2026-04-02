@@ -726,10 +726,11 @@ export async function searchChatsByTitle({
   limit?: number;
 }) {
   try {
+    const escaped = query.replace(/[%_\\]/g, "\\$&");
     return await db
       .select()
       .from(chat)
-      .where(and(eq(chat.userId, userId), ilike(chat.title, `%${query}%`)))
+      .where(and(eq(chat.userId, userId), ilike(chat.title, `%${escaped}%`)))
       .orderBy(desc(chat.createdAt))
       .limit(limit);
   } catch (_error) {
