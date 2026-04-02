@@ -4,7 +4,7 @@ import { Camera, ChevronUp, Crown, LogOut, User as UserIcon } from "lucide-react
 import { useRouter } from "next/navigation";
 import type { User } from "next-auth";
 import { signOut, useSession } from "next-auth/react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -48,12 +48,72 @@ function ProfileModal({
   open: boolean;
   onClose: () => void;
 }) {
+  const [name, setName] = useState(user.name || "");
+  const [imageUrl, setImageUrl] = useState(user.image || "");
+  const [saving, setSaving] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const { update: updateSession } = useSession();
+
+  // Sync state when modal opens with fresh user data
+  useEffect(() => {
+    if (open) {
+      setName(user.name || "");
+      setImageUrl(user.image || "");
+    }
+  }, [open, user.name, user.image]);
+
   if (!open) return null;
 
   const hue = emailToHue(user.email ?? "");
   const initials = getInitials(user.name, user.email);
-  const displayName = user.name || user.email?.split("@")[0] || "";
-  const username = user.email?.split("@")[0] || "";
+
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/files/upload", {
+        method: "POST",
+        body: formData,
+      });
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      setImageUrl(data.url);
+    } catch {
+      // upload failed
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const handleSave = async () => {
+    setSaving(true);
+    try {
+      const res = await fetch("/api/profile", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: name.trim() || undefined,
+          image: imageUrl || undefined,
+        }),
+      });
+      if (res.ok) {
+        // Refresh session to pick up new name/image
+        await updateSession();
+        onClose();
+      }
+    } catch {
+      // save failed
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const hasChanges = name !== (user.name || "") || imageUrl !== (user.image || "");
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={onClose}>
@@ -62,8 +122,8 @@ function ProfileModal({
 
         <div className="flex flex-col items-center mb-6">
           <div className="relative">
-            {user.image ? (
-              <img src={user.image} alt="" className="size-20 rounded-full ring-2 ring-border" referrerPolicy="no-referrer" />
+            {imageUrl ? (
+              <img src={imageUrl} alt="" className="size-20 rounded-full ring-2 ring-border object-cover" referrerPolicy="no-referrer" />
             ) : (
               <div
                 className="size-20 rounded-full ring-2 ring-border flex items-center justify-center text-2xl font-bold text-white"
@@ -74,33 +134,58 @@ function ProfileModal({
                 {initials}
               </div>
             )}
-            <div className="absolute -bottom-1 -right-1 size-7 rounded-full bg-muted border-2 border-card flex items-center justify-center">
-              <Camera className="size-3.5 text-muted-foreground" />
-            </div>
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              disabled={uploading}
+              className="absolute -bottom-1 -right-1 size-7 rounded-full bg-muted border-2 border-card flex items-center justify-center hover:bg-accent transition-colors cursor-pointer disabled:opacity-50"
+            >
+              {uploading ? (
+                <LoaderIcon />
+              ) : (
+                <Camera className="size-3.5 text-muted-foreground" />
+              )}
+            </button>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/jpeg,image/png,image/webp,image/gif"
+              className="hidden"
+              onChange={handleImageUpload}
+            />
           </div>
         </div>
 
         <div className="space-y-4 mb-6">
-          <div className="rounded-lg border border-border px-4 py-3">
-            <p className="text-[11px] text-muted-foreground mb-0.5">Nome de exibicao</p>
-            <p className="text-sm">{displayName}</p>
+          <div className="rounded-lg border border-border px-4 py-2">
+            <label className="text-[11px] text-muted-foreground">Nome de exibicao</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              maxLength={100}
+              className="w-full bg-transparent text-sm outline-none mt-0.5"
+              placeholder="Seu nome"
+            />
           </div>
-          <div className="rounded-lg border border-border px-4 py-3">
-            <p className="text-[11px] text-muted-foreground mb-0.5">Nome de usuario</p>
-            <p className="text-sm">{username}</p>
+          <div className="rounded-lg border border-border px-4 py-3 opacity-60">
+            <p className="text-[11px] text-muted-foreground mb-0.5">Email</p>
+            <p className="text-sm">{user.email}</p>
           </div>
         </div>
 
-        <p className="text-[12px] text-muted-foreground text-center mb-5">
-          Seu perfil ajuda as pessoas a reconhecerem voce.
-        </p>
-
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex items-center justify-end gap-3">
           <button
             onClick={onClose}
             className="px-5 py-2 text-sm rounded-lg border border-border hover:bg-accent transition-colors"
           >
-            Fechar
+            Cancelar
+          </button>
+          <button
+            onClick={handleSave}
+            disabled={saving || !hasChanges}
+            className="px-5 py-2 text-sm rounded-lg bg-foreground text-background font-medium hover:bg-foreground/90 transition-colors disabled:opacity-50"
+          >
+            {saving ? "Salvando..." : "Salvar"}
           </button>
         </div>
       </div>

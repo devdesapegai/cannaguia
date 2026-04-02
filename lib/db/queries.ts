@@ -687,3 +687,30 @@ export async function getRecentChatSummaries({
     return [];
   }
 }
+
+export async function updateUserProfile({
+  id,
+  name,
+  image,
+}: {
+  id: string;
+  name?: string;
+  image?: string;
+}) {
+  try {
+    const updates: Record<string, unknown> = { updatedAt: new Date() };
+    if (name !== undefined) updates.name = name;
+    if (image !== undefined) updates.image = image;
+
+    return await db
+      .update(user)
+      .set(updates)
+      .where(eq(user.id, id))
+      .returning({ id: user.id, name: user.name, image: user.image });
+  } catch (_error) {
+    throw new ChatbotError(
+      "bad_request:database",
+      "Failed to update user profile",
+    );
+  }
+}
