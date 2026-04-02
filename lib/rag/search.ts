@@ -32,7 +32,7 @@ function normalize(text: string): string {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-function buildDocuments(): Document[] {
+export function buildDocuments(): Document[] {
   const docs: Document[] = [];
 
   for (const c of cannabinoids) {
@@ -252,9 +252,14 @@ function getDocs(): Document[] {
   return _docs;
 }
 
-interface ScoredDocument {
+export interface ScoredDocument {
   document: Document;
   score: number;
+}
+
+export interface SearchResult {
+  results: ScoredDocument[];
+  searchMode: "hybrid" | "keyword";
 }
 
 export function search(
@@ -428,8 +433,127 @@ export function search(
   return sorted.slice(0, topK);
 }
 
-export function searchAll(query: string, topK: number = 5): ScoredDocument[] {
-  return search(query, topK);
+// --- Vector / Hybrid Search ---
+
+async function vectorSearch(
+  query: string,
+  topK: number = 10,
+  typeFilter?: Document["type"],
+): Promise<ScoredDocument[]> {
+  const { embedText } = await import("@/lib/ai/embeddings");
+  const { findSimilarDocuments } = await import("@/lib/db/vector");
+
+  const embedding = await embedText(query);
+  const rows = await findSimilarDocuments(embedding, topK, typeFilter);
+
+  const docsMap = new Map(getDocs().map((d) => [d.id, d]));
+  return rows.map((row) => ({
+    document: docsMap.get(row.id) || {
+      id: row.id,
+      type: row.type as Document["type"],
+      title: row.title,
+      content: row.content,
+      metadata: {},
+    },
+    score: Number(row.similarity),
+  }));
+}
+
+async function hybridSearch(
+  query: string,
+  topK: number = 5,
+  typeFilter?: Document["type"],
+): Promise<SearchResult> {
+  const K = 60; // RRF constant
+  const keywordWeight = 0.4;
+  const vectorWeight = 0.6;
+
+  const [keywordResults, vectorResults] = await Promise.all([
+    Promise.resolve(search(query, topK * 3, typeFilter)),
+    vectorSearch(query, topK * 3, typeFilter).catch((err) => {
+      console.error("[hybridSearch] Vector search failed, keyword-only:", err);
+      return [] as ScoredDocument[];
+    }),
+  ]);
+
+  // If vector search failed, return keyword-only
+  if (vectorResults.length === 0) {
+    return { results: search(query, topK, typeFilter), searchMode: "keyword" };
+  }
+
+  // Reciprocal Rank Fusion
+  const rrfScores = new Map<string, { doc: Document; score: number }>();
+
+  keywordResults.forEach((result, rank) => {
+    const rrfScore = keywordWeight * (1 / (K + rank + 1));
+    const existing = rrfScores.get(result.document.id);
+    if (existing) {
+      existing.score += rrfScore;
+    } else {
+      rrfScores.set(result.document.id, { doc: result.document, score: rrfScore });
+    }
+  });
+
+  vectorResults.forEach((result, rank) => {
+    const rrfScore = vectorWeight * (1 / (K + rank + 1));
+    const existing = rrfScores.get(result.document.id);
+    if (existing) {
+      existing.score += rrfScore;
+    } else {
+      rrfScores.set(result.document.id, { doc: result.document, score: rrfScore });
+    }
+  });
+
+  const sorted = Array.from(rrfScores.values()).sort((a, b) => b.score - a.score);
+
+  // Preserve strain randomization
+  const strainResults = sorted.filter((s) => s.doc.type === "strain");
+  const otherResults = sorted.filter((s) => s.doc.type !== "strain");
+
+  if (strainResults.length > 3) {
+    const topStrains = strainResults.slice(0, 10);
+    for (let i = topStrains.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+    }
+    const selectedStrains = topStrains.slice(0, Math.min(2, topK));
+    const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
+    return {
+      results: [
+        ...selectedOther.map((r) => ({ document: r.doc, score: r.score })),
+        ...selectedStrains.map((r) => ({ document: r.doc, score: r.score })),
+      ],
+      searchMode: "hybrid",
+    };
+  }
+
+  return {
+    results: sorted.slice(0, topK).map((r) => ({ document: r.doc, score: r.score })),
+    searchMode: "hybrid",
+  };
+}
+
+// Cache: check if KnowledgeEmbedding table has records (once, then cached)
+let _hasEmbeddings: boolean | null = null;
+
+export async function searchAll(
+  query: string,
+  topK: number = 5,
+): Promise<SearchResult> {
+  if (_hasEmbeddings === null) {
+    try {
+      const { hasEmbeddings } = await import("@/lib/db/vector");
+      _hasEmbeddings = await hasEmbeddings();
+    } catch {
+      _hasEmbeddings = false;
+    }
+  }
+
+  if (_hasEmbeddings) {
+    return hybridSearch(query, topK);
+  }
+
+  return { results: search(query, topK), searchMode: "keyword" };
 }
 
 export function formatContextForLLM(results: ScoredDocument[]): string {

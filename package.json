@@ -15,6 +15,8 @@
     "db:pull": "drizzle-kit pull",
     "db:check": "drizzle-kit check",
     "db:up": "drizzle-kit up",
+    "db:embeddings": "tsx scripts/generate-embeddings.ts",
+    "db:embeddings:dry": "tsx scripts/generate-embeddings.ts --dry-run",
     "test": "export PLAYWRIGHT=True && pnpm exec playwright test"
   },
   "dependencies": {

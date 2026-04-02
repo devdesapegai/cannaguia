@@ -1,6 +1,7 @@
 import type { InferSelectModel } from "drizzle-orm";
 import {
   boolean,
+  customType,
   foreignKey,
   json,
   pgTable,
@@ -10,6 +11,23 @@ import {
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+
+// pgvector custom column type (768-dim vectors for text-embedding-004)
+const vector = customType<{ data: number[]; driverParam: string }>({
+  dataType() {
+    return "vector(768)";
+  },
+  toDriver(value: number[]): string {
+    return `[${value.join(",")}]`;
+  },
+  fromDriver(value: unknown): number[] {
+    if (Array.isArray(value)) return value.map(Number);
+    return String(value)
+      .replace(/[\[\]]/g, "")
+      .split(",")
+      .map(Number);
+  },
+});
 
 export const user = pgTable("User", {
   id: uuid("id").primaryKey().notNull().defaultRandom(),
@@ -140,3 +158,17 @@ export const stream = pgTable(
 );
 
 export type Stream = InferSelectModel<typeof stream>;
+
+// Vector embeddings for knowledge base documents (pgvector)
+export const knowledgeEmbedding = pgTable("KnowledgeEmbedding", {
+  id: varchar("id", { length: 255 }).primaryKey().notNull(),
+  type: varchar("type", { length: 50 }).notNull(),
+  title: text("title").notNull(),
+  content: text("content").notNull(),
+  embedding: vector("embedding").notNull(),
+  contentHash: varchar("contentHash", { length: 64 }).notNull(),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type KnowledgeEmbedding = InferSelectModel<typeof knowledgeEmbedding>;

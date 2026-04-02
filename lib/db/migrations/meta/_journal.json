@@ -15,6 +15,13 @@
       "when": 1743552000000,
       "tag": "0001_add_plan_and_summary",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1743638400000,
+      "tag": "0002_add_vector_search",
+      "breakpoints": true
     }
   ]
 }

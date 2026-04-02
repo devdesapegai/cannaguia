@@ -240,7 +240,7 @@ export async function POST(request: Request) {
           .join(" ") ?? "",
       )
       .pop() ?? "";
-    const localResults = searchAll(userText, 4);
+    const { results: localResults } = await searchAll(userText, 4);
     const localContext = formatContextForLLM(localResults);
 
     let memoryContext = "";

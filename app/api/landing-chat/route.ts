@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Mensagem invalida" }, { status: 400 });
     }
 
-    const localResults = searchAll(message, 4);
+    const { results: localResults } = await searchAll(message, 4);
     const localContext = formatContextForLLM(localResults);
 
     const recentHistory = (Array.isArray(history) ? history : [])
