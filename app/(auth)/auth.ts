@@ -47,7 +47,7 @@ export const {
     Google({
       clientId: process.env.AUTH_GOOGLE_ID ?? process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.AUTH_GOOGLE_SECRET ?? process.env.GOOGLE_CLIENT_SECRET,
-      allowDangerousEmailAccountLinking: true,
+      allowDangerousEmailAccountLinking: false,
     }),
     Credentials({
       credentials: {
@@ -135,7 +135,22 @@ export const {
           if (dbUsers[0]) {
             token.name = dbUsers[0].name ?? token.name;
             token.picture = dbUsers[0].image ?? token.picture;
-            token.plan = (dbUsers[0] as any).plan ?? token.plan;
+            const plan = (dbUsers[0] as any).plan ?? "free";
+            const expiresAt = (dbUsers[0] as any).planExpiresAt;
+            token.plan = (plan === "premium" && expiresAt && new Date(expiresAt) < new Date()) ? "free" : plan;
+          }
+        } catch {}
+      }
+
+      // Check plan expiration on every JWT use
+      if (token.plan === "premium" && token.id) {
+        try {
+          const dbUsers = await getUser(token.email as string);
+          if (dbUsers[0]) {
+            const expiresAt = (dbUsers[0] as any).planExpiresAt;
+            if (expiresAt && new Date(expiresAt) < new Date()) {
+              token.plan = "free";
+            }
           }
         } catch {}
       }

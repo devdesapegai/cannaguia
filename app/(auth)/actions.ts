@@ -8,7 +8,7 @@ import { signIn } from "./auth";
 
 const authFormSchema = z.object({
   email: z.string().email(),
-  password: z.string().min(6),
+  password: z.string().min(8).regex(/\d/, "Senha deve conter pelo menos 1 numero"),
 });
 
 export type LoginActionState = {

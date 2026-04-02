@@ -485,7 +485,8 @@ export async function getSuggestionsByDocumentId({
     return await db
       .select()
       .from(suggestion)
-      .where(eq(suggestion.documentId, documentId));
+      .where(eq(suggestion.documentId, documentId))
+      .limit(50);
   } catch (_error) {
     throw new ChatbotError(
       "bad_request:database",

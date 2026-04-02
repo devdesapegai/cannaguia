@@ -4,17 +4,26 @@ import { SYSTEM_PROMPT, buildUserPrompt } from "@/lib/ai/cannaguia-prompt";
 import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
 
-// Simple in-memory rate limit per IP (max 2 requests per 10 min)
+// In-memory rate limit per IP (max 1 request per 10 min)
 const ipRequests = new Map<string, { count: number; resetAt: number }>();
+const LANDING_RATE_WINDOW = 600_000;
+const LANDING_RATE_MAX = 1;
+
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, entry] of ipRequests) {
+    if (now > entry.resetAt) ipRequests.delete(ip);
+  }
+}, 1_800_000);
 
 function checkLandingRateLimit(ip: string): boolean {
   const now = Date.now();
   const entry = ipRequests.get(ip);
   if (!entry || now > entry.resetAt) {
-    ipRequests.set(ip, { count: 1, resetAt: now + 600000 });
+    ipRequests.set(ip, { count: 1, resetAt: now + LANDING_RATE_WINDOW });
     return true;
   }
-  if (entry.count >= 2) return false;
+  if (entry.count >= LANDING_RATE_MAX) return false;
   entry.count++;
   return true;
 }

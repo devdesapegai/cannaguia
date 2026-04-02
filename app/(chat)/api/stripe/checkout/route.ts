@@ -4,10 +4,9 @@ import { getUser } from "@/lib/db/queries";
 import { updateStripeCustomerId } from "@/lib/db/plan";
 import { ChatbotError } from "@/lib/errors";
 
-const ALLOWED_PRICE_IDS = new Set([
-  process.env.STRIPE_PRICE_ID!,
-  "price_1THY6N4kAmUvNyf9JMMw4OJw", // IA + Consultoria
-]);
+const ALLOWED_PRICE_IDS = new Set(
+  [process.env.STRIPE_PRICE_ID, process.env.STRIPE_PRICE_ID_CONSULTORIA].filter(Boolean)
+);
 
 export async function POST(request: Request) {
   try {

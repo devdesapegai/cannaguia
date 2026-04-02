@@ -5,7 +5,7 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const authConfig = {
   basePath: "/api/auth",
   trustHost: true,
-  session: { strategy: "jwt" },
+  session: { strategy: "jwt", maxAge: 24 * 60 * 60 },
   pages: {
     signIn: `${base}/login`,
     newUser: `${base}/`,

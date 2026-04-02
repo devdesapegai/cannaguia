@@ -124,9 +124,9 @@ export async function getUserBatchStatus(userId: string): Promise<BatchStatus> {
     };
   } catch (error) {
     console.error("getUserBatchStatus error:", error);
-    // Fallback: allow
+    // Fail-closed: block on error
     return {
-      allowed: true,
+      allowed: false,
       currentBatch: 1,
       messagesInBatch: 0,
       batchLimit: BATCH_SIZE,
