@@ -12,7 +12,7 @@ import {
   varchar,
 } from "drizzle-orm/pg-core";
 
-// pgvector custom column type (768-dim vectors for text-embedding-004)
+// pgvector custom column type (768-dim vectors via gemini-embedding-001 + outputDimensionality)
 const vector = customType<{ data: number[]; driverParam: string }>({
   dataType() {
     return "vector(768)";

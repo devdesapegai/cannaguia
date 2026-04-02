@@ -19,7 +19,7 @@ import { knowledgeEmbedding } from "../lib/db/schema";
 import { buildDocuments } from "../lib/rag/search";
 
 const BATCH_SIZE = 100;
-const EMBEDDING_MODEL = "text-embedding-004";
+const EMBEDDING_MODEL = "gemini-embedding-001";
 const DRY_RUN = process.argv.includes("--dry-run");
 
 function hashContent(content: string): string {
@@ -89,6 +89,9 @@ async function main() {
     const { embeddings } = await embedMany({
       model: google.embedding(EMBEDDING_MODEL),
       values: texts,
+      providerOptions: {
+        google: { outputDimensionality: 768 },
+      },
     });
 
     for (let j = 0; j < batch.length; j++) {
