@@ -68,27 +68,37 @@ function checkCureClaim(text: string): OutputViolation | null {
 function checkDosageWithoutDisclaimer(text: string): OutputViolation | null {
   const normalized = normalize(text);
 
-  // Pattern: imperative verb + number + unit
+  // Patterns for specific dosage detection
+  // Numbers can be: "10", "2,5", "2.5", "2,5-10", "100-200"
+  const NUM = "\\d+[,.]?\\d*(?:\\s*[-–a]\\s*\\d+[,.]?\\d*)?";
+  const UNIT = "(?:mg|ml|gotas?|drops?|g)";
+  const FREQ = "(?:por dia|ao dia|diariamente|por dose|vezes|x\\/dia|x ao dia)";
+
   const dosagePatterns = [
-    /\b(tome|use|aplique|ingira|consuma|faca|utilize)\b[^.]{0,30}\b\d+\s*(mg|ml|gotas?|drops?)\b/i,
-    /\b\d+\s*(mg|ml|gotas?)\s*(por dia|ao dia|diariamente|por dose|vezes)\b/i,
+    // Imperative verb + number + unit
+    new RegExp(`\\b(tome|use|aplique|ingira|consuma|faca|utilize)\\b[^.]{0,30}${NUM}\\s*${UNIT}\\b`, "i"),
+    // Number + unit + optional gap + frequency
+    new RegExp(`${NUM}\\s*${UNIT}\\b[^.]{0,15}${FREQ}\\b`, "i"),
+    // "dosagem/dose" context + number + unit (catches "dosagem sugerida ... 2,5-10 mg")
+    new RegExp(`\\b(dosagem|dose|posologia)\\b[^.]{0,60}${NUM}\\s*${UNIT}\\b`, "i"),
+    // Number + unit + "X vezes" pattern (catches "10 mg 2-3 vezes")
+    new RegExp(`${NUM}\\s*${UNIT}\\s+${NUM}\\s*${FREQ}\\b`, "i"),
   ];
 
   for (const pattern of dosagePatterns) {
     const match = normalized.match(pattern);
     if (!match) continue;
 
-    // Check if there's a disclaimer within 200 chars after the match
-    const afterMatch = normalized.slice(
-      (match.index ?? 0) + match[0].length,
-      (match.index ?? 0) + match[0].length + 200,
-    );
+    // Check if there's a disclaimer anywhere in the text (before or after)
     const hasDisclaimer =
-      /consulte\s+(seu|um)\s+medico/.test(afterMatch) ||
-      /acompanhamento\s+medico/.test(afterMatch) ||
-      /sob\s+orientacao/.test(afterMatch) ||
-      /profissional\s+de\s+saude/.test(afterMatch) ||
-      /supervisao\s+medica/.test(afterMatch);
+      /consulte\s+(seu|um)\s+medico/.test(normalized) ||
+      /acompanhamento\s+medico/.test(normalized) ||
+      /sob\s+orientacao/.test(normalized) ||
+      /profissional\s+de\s+saude/.test(normalized) ||
+      /supervisao\s+medica/.test(normalized) ||
+      /orientacao\s+medica/.test(normalized) ||
+      /avaliacao\s+medica/.test(normalized) ||
+      /medico\s+especialista/.test(normalized);
 
     if (!hasDisclaimer) {
       return {
