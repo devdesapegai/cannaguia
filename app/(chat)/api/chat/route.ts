@@ -47,6 +47,10 @@ import { type PostRequestBody, postRequestBodySchema } from "./schema";
 import { searchAll, formatContextForLLM } from "@/lib/rag/search";
 import { SYSTEM_PROMPT } from "@/lib/ai/cannaguia-prompt";
 import { summarizeChat } from "@/lib/ai/summarize";
+import {
+  checkInputGuardrails,
+  checkOutputGuardrails,
+} from "@/lib/guardrails";
 
 export const maxDuration = 60;
 
@@ -240,6 +244,20 @@ export async function POST(request: Request) {
           .join(" ") ?? "",
       )
       .pop() ?? "";
+
+    // Input guardrails: block prompt injection, flag off-topic
+    const inputCheck = checkInputGuardrails(userText);
+    if (!inputCheck.allowed) {
+      const safeResponse =
+        inputCheck.reason === "prompt_injection"
+          ? "Hmm, nao entendi sua pergunta. Posso te ajudar com informacoes sobre cannabis medicinal, strains, cultivo, ou regulamentacao. O que gostaria de saber?"
+          : "Sou especializada em cannabis medicinal. Posso ajudar com strains, dosagem, cultivo, regulamentacao brasileira e muito mais. Como posso te ajudar?";
+      return new Response(
+        JSON.stringify({ error: safeResponse }),
+        { status: 200, headers: { "Content-Type": "application/json" } },
+      );
+    }
+
     const { results: localResults } = await searchAll(userText, 4);
     const localContext = formatContextForLLM(localResults);
 
@@ -300,6 +318,30 @@ export async function POST(request: Request) {
       generateId: generateUUID,
       onFinish: async ({ messages: finishedMessages }) => {
         if (isGuestUser) return;
+
+        // Output guardrails: check assistant messages before saving
+        for (const msg of finishedMessages) {
+          if (msg.role !== "assistant") continue;
+          const textParts = (msg.parts ?? []).filter(
+            (p: any) => p.type === "text",
+          );
+          const fullText = textParts
+            .map((p: any) => p.text)
+            .join("");
+          if (!fullText) continue;
+
+          const outputCheck = checkOutputGuardrails(fullText);
+          if (!outputCheck.safe) {
+            // Replace text parts with the processed (safe) version
+            const safeParts = msg.parts.map((p: any) =>
+              p.type === "text"
+                ? { ...p, text: outputCheck.processedText }
+                : p,
+            );
+            (msg as any).parts = safeParts;
+          }
+        }
+
         if (isToolApprovalFlow) {
           for (const finishedMsg of finishedMessages) {
             const existingMsg = uiMessages.find((m) => m.id === finishedMsg.id);
