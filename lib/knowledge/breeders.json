@@ -1,0 +1,9002 @@
+[
+  {
+    "id": "unknown-or-legendary",
+    "name": "Unknown or Legendary",
+    "strain_count": 666,
+    "award_count": 19,
+    "notable_strains": [
+      "Black Cherry Pie",
+      "Oldtimers Haze",
+      "The Big Dirty",
+      "Panama Punch",
+      "Ringos Gift",
+      "Tahoe Hydro Og",
+      "Alien Inferno",
+      "Dream Star",
+      "Mendo Afgoo",
+      "Paris Og"
+    ]
+  },
+  {
+    "id": "exotic-genetix",
+    "name": "Exotic Genetix",
+    "strain_count": 268,
+    "award_count": 4,
+    "notable_strains": [
+      "Extreme Og",
+      "Crouching Tiger Hidden Alien",
+      "The Sauce",
+      "Big Smooth",
+      "Blackberry Cream",
+      "Extreme Cream",
+      "Mint Chocolate Chip",
+      "Supernatural",
+      "Predator Pink",
+      "Kimbo Kush"
+    ]
+  },
+  {
+    "id": "clone-only-strains",
+    "name": "Clone Only Strains",
+    "strain_count": 255,
+    "award_count": 25,
+    "notable_strains": [
+      "Purple Dog Shit",
+      "Smelliot",
+      "Bugatti Og",
+      "Blue Dot",
+      "Crown Og",
+      "Outer Space",
+      "Silver Train",
+      "Pine Cone",
+      "Colorado Bubba",
+      "Legend Og"
+    ]
+  },
+  {
+    "id": "bodhi-seeds",
+    "name": "Bodhi Seeds",
+    "strain_count": 231,
+    "award_count": 3,
+    "notable_strains": [
+      "Wookie",
+      "Tree Of Life",
+      "Dank Sinatra",
+      "Pagoda",
+      "Stevie Wonder",
+      "Sun Ra",
+      "Ancient Og",
+      "Snow Leopard",
+      "Sunshine 4",
+      "Tigers Milk"
+    ]
+  },
+  {
+    "id": "cannarado-genetics",
+    "name": "Cannarado Genetics",
+    "strain_count": 229,
+    "award_count": 0,
+    "notable_strains": [
+      "Rocky Dennis",
+      "Altar Bread",
+      "Animal Crackers",
+      "Apple Bob",
+      "Apple Chem",
+      "Apple Sherbet",
+      "Apple Sundae",
+      "Apple Water",
+      "Ask for Janice",
+      "Au Bearz"
+    ]
+  },
+  {
+    "id": "riot-seeds",
+    "name": "Riot Seeds",
+    "strain_count": 223,
+    "award_count": 1,
+    "notable_strains": [
+      "Clockwork Orange",
+      "Pink Death Star",
+      "Trix",
+      "P 91",
+      "Sour Grapes",
+      "Afghani Heirloom",
+      "Afghani Ice Cream",
+      "Afgooey Doja",
+      "African Strawberry Diesel",
+      "Alien Bubba Crack"
+    ]
+  },
+  {
+    "id": "the-bakery-genetics",
+    "name": "The Bakery Genetics",
+    "strain_count": 212,
+    "award_count": 0,
+    "notable_strains": [
+      "Blueberry Yum Yum",
+      "Milf",
+      "Belladonna",
+      "Adam & Eve",
+      "Afro-Samurai",
+      "Alien Poop",
+      "Alien Tang",
+      "All Gas No Brakez",
+      "Amber Turd",
+      "Angel Pussy"
+    ]
+  },
+  {
+    "id": "karma-genetics",
+    "name": "Karma Genetics",
+    "strain_count": 175,
+    "award_count": 11,
+    "notable_strains": [
+      "White Og",
+      "Biker Leblanc",
+      "Sour Jack",
+      "Headbanger",
+      "Josh D Og",
+      "A5 Haze",
+      "Acid Dawg",
+      "AG13haze x Biker Kush",
+      "Anonymous",
+      "Apple B"
+    ]
+  },
+  {
+    "id": "greenpoint-seeds",
+    "name": "Greenpoint Seeds",
+    "strain_count": 172,
+    "award_count": 1,
+    "notable_strains": [
+      "Cowboy Kush",
+      "Yeti Og",
+      "Royal Chem",
+      "Purple Bubba Kush",
+      "Purple Chem",
+      "AC/OG",
+      "Ace High",
+      "Alien Stardawg x Monster Cookies",
+      "Alpine Kush",
+      "Animal Star Cookies"
+    ]
+  },
+  {
+    "id": "elev8-seeds",
+    "name": "Elev8 Seeds",
+    "strain_count": 168,
+    "award_count": 25,
+    "notable_strains": [
+      "Sour Patch Kiss",
+      "Super Silver Haze",
+      "Cinex",
+      "Starfighter",
+      "Blackberry Dream",
+      "Uk Cheese",
+      "Thin Mint Girl Scout Cookies",
+      "Sherbet",
+      "Alien Otto",
+      "Apple a la Mode"
+    ]
+  },
+  {
+    "id": "red-scare-seed-company",
+    "name": "Red Scare Seed Company",
+    "strain_count": 166,
+    "award_count": 0,
+    "notable_strains": [
+      "Mazar I Sharif",
+      "Açaí Milkshake",
+      "Afghani Shit Show",
+      "Açaí Milkshake",
+      "Agha Black (Maruf Black) Preservation",
+      "Agha Cream Cake F2",
+      "Agha Red (Maruf Black) Preservation",
+      "Animal Farm",
+      "ASS Breath",
+      "Azad Kashmir"
+    ]
+  },
+  {
+    "id": "gage-green-genetics",
+    "name": "Gage Green Genetics",
+    "strain_count": 165,
+    "award_count": 4,
+    "notable_strains": [
+      "Hammerhead",
+      "Aloha Grape Stomper",
+      "Ambrosia",
+      "Transformer",
+      "Amethyst",
+      "Above and Beyond",
+      "Ad Hoc",
+      "Adagio",
+      "Agharta",
+      "All Blues"
+    ]
+  },
+  {
+    "id": "massmedicalstrains",
+    "name": "MassMedicalStrains",
+    "strain_count": 157,
+    "award_count": 0,
+    "notable_strains": [
+      "Acapulco Gold - Preservation",
+      "Acapulco Pupil",
+      "Amnesia Pupil",
+      "Anaphylaxis",
+      "Axle Grease",
+      "Banana Chem",
+      "Black Hole Sun",
+      "Blue Irene",
+      "Blue Lotus S1",
+      "Blue Pupil"
+    ]
+  },
+  {
+    "id": "lit-farms",
+    "name": "Lit Farms",
+    "strain_count": 154,
+    "award_count": 0,
+    "notable_strains": [
+      "Super Chronic",
+      "Pink Lemonade",
+      "Ricky Bobby",
+      "Apple Banana Zoap",
+      "Apple Runtz",
+      "Apple Zoap",
+      "Astroglide",
+      "Azzz Candy",
+      "Bath Saltz",
+      "Big Bird"
+    ]
+  },
+  {
+    "id": "sin-city-seeds",
+    "name": "Sin City Seeds",
+    "strain_count": 151,
+    "award_count": 1,
+    "notable_strains": [
+      "Blue Power",
+      "Nightmare Cookies",
+      "Thunderstruck",
+      "Treasure Island",
+      "Nightfire Og",
+      "Sin Valley Og",
+      "Sinmint Cookies",
+      "Aliens On Moonshine",
+      "Sequoia Strawberry",
+      "Tangerine Power"
+    ]
+  },
+  {
+    "id": "top-dawg-seeds",
+    "name": "Top Dawg Seeds",
+    "strain_count": 149,
+    "award_count": 0,
+    "notable_strains": [
+      "Stardawg 91",
+      "Dawgs Waltz",
+      "Stardawg",
+      "Tres Dawg",
+      "White Dawg",
+      "Thai Girl",
+      "Afkan HP",
+      "African Haze",
+      "African A5",
+      "African Piff #3"
+    ]
+  },
+  {
+    "id": "mephisto-genetics",
+    "name": "Mephisto Genetics",
+    "strain_count": 145,
+    "award_count": 0,
+    "notable_strains": [
+      "Walter White",
+      "Alien Vs Triangle",
+      "Altered Beast",
+      "Amnesia Axe Master",
+      "Apple Crush",
+      "Apple of Eden",
+      "Appletizer",
+      "Aunt Ginny's Elixir",
+      "Auto Skywalker",
+      "Auto Triangle Kush"
+    ]
+  },
+  {
+    "id": "sensi-seeds",
+    "name": "Sensi Seeds",
+    "strain_count": 145,
+    "award_count": 27,
+    "notable_strains": [
+      "American Dream",
+      "Ed Rosenthal Super Bud",
+      "Mothers Finest",
+      "Northern Lights 5 X Haze",
+      "Sensi Skunk",
+      "Jack Flash",
+      "Shiva Skunk",
+      "Maple Leaf Indica",
+      "Jamaican Pearl",
+      "Pineapple Jack"
+    ]
+  },
+  {
+    "id": "snowhigh-seeds",
+    "name": "SnowHigh Seeds",
+    "strain_count": 141,
+    "award_count": 0,
+    "notable_strains": [
+      "Sunshine",
+      "Black Mamba",
+      "Purple Pantera",
+      "Devils Tit",
+      "Snow Mountain",
+      "Crazy Train",
+      "Columbian Gold",
+      "Moonwalker",
+      "Abominable SnowMan",
+      "Adamantium"
+    ]
+  },
+  {
+    "id": "archive-seed-bank",
+    "name": "Archive Seed Bank",
+    "strain_count": 138,
+    "award_count": 2,
+    "notable_strains": [
+      "Valley Girl",
+      "Casper Og",
+      "Hell Raiser Og",
+      "Ultraviolet Og",
+      "Memory Loss",
+      "White Gold",
+      "White Tahoe Cookies",
+      "Hashbar Og",
+      "Poochie Love",
+      "Shark Bite"
+    ]
+  },
+  {
+    "id": "in-house-genetics",
+    "name": "In House Genetics",
+    "strain_count": 138,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghanimal",
+      "True Blue",
+      "Platinum Gorilla",
+      "Alien Breath",
+      "Animal Blues",
+      "Animal Pie",
+      "Apple Jax",
+      "Applelicious",
+      "Apricot Jelly",
+      "Bananacane"
+    ]
+  },
+  {
+    "id": "ace-seeds",
+    "name": "ACE Seeds",
+    "strain_count": 134,
+    "award_count": 0,
+    "notable_strains": [
+      "Congo",
+      "Zamaldelica",
+      "China Yunnan",
+      "Kali China",
+      "Bangi Haze",
+      "Thai Stick",
+      "A5 Haze x Papua New Guinea",
+      "A5 Haze x PCK",
+      "A5 Haze x Zamaldelica",
+      "African Gas"
+    ]
+  },
+  {
+    "id": "zamnesia",
+    "name": "Zamnesia",
+    "strain_count": 130,
+    "award_count": 7,
+    "notable_strains": [
+      "King Louis",
+      "Black Diamond",
+      "Cherry Pie",
+      "Jet Fuel",
+      "Power Plant",
+      "Sour Diesel",
+      "Thai",
+      "Afghan OG",
+      "AK-420 Automatic",
+      "Alien OG Automatic"
+    ]
+  },
+  {
+    "id": "happy-bird-seeds",
+    "name": "Happy Bird Seeds",
+    "strain_count": 128,
+    "award_count": 0,
+    "notable_strains": [
+      "Astro Jetson",
+      "Back In Black",
+      "Bang High Surprise",
+      "Beach 'n Kong",
+      "Blackberry Poundcake",
+      "Bliss Fruitress",
+      "Bonkey Kong",
+      "Boo Berry Cocopuff",
+      "BooBerry Squirt",
+      "Bucket Of Fuck It"
+    ]
+  },
+  {
+    "id": "the-landrace-team",
+    "name": "The Landrace Team",
+    "strain_count": 122,
+    "award_count": 0,
+    "notable_strains": [
+      "Sinai",
+      "Nepalese",
+      "Black Betty",
+      "Anand Sagar",
+      "Arcadia",
+      "Babylon",
+      "Badakhshan",
+      "Baguio Gold",
+      "Balochistan",
+      "Benin"
+    ]
+  },
+  {
+    "id": "night-owl-seeds",
+    "name": "Night Owl Seeds",
+    "strain_count": 122,
+    "award_count": 0,
+    "notable_strains": [
+      "A Crinkle in Time",
+      "Blue Microverse",
+      "Blue Power Auto",
+      "Blue Powerverse",
+      "Blue Sprayed Shoes",
+      "Blue Sprayed Shoes Remix",
+      "Bruce Banner #3 Auto",
+      "Bubble Gum Shoe",
+      "Bubblegum Queen",
+      "Cheech Biggums"
+    ]
+  },
+  {
+    "id": "growers-choice",
+    "name": "Growers Choice",
+    "strain_count": 118,
+    "award_count": 28,
+    "notable_strains": [
+      "Blue Buddha",
+      "Pineapple Skunk",
+      "The Purps",
+      "Big Buddha Cheese",
+      "AK47 Autoflowering",
+      "Apple Fritter Autoflower",
+      "Ata Tundra",
+      "Banana Glue",
+      "Big Devil XL",
+      "Big Northern Autoflowering"
+    ]
+  },
+  {
+    "id": "dutch-passion",
+    "name": "Dutch Passion",
+    "strain_count": 118,
+    "award_count": 13,
+    "notable_strains": [
+      "Orange Hill Special",
+      "Cbd Kush",
+      "Outlaw",
+      "Purple Star",
+      "Snow Bud",
+      "Hempstar",
+      "Think Different",
+      "Shaman",
+      "Dutch Haze",
+      "Voodoo"
+    ]
+  },
+  {
+    "id": "royal-queen-seeds",
+    "name": "Royal Queen Seeds",
+    "strain_count": 114,
+    "award_count": 5,
+    "notable_strains": [
+      "Presidential Og",
+      "Dance World",
+      "Kali Dog",
+      "Milky Way",
+      "Shining Silver Haze",
+      "Special Kush 1",
+      "Critical Kush",
+      "Royal Dwarf",
+      "Haze Berry",
+      "Medusa"
+    ]
+  },
+  {
+    "id": "sweet-seeds",
+    "name": "Sweet Seeds",
+    "strain_count": 107,
+    "award_count": 4,
+    "notable_strains": [
+      "Jack 47",
+      "Black Jack",
+      "Sweet Cheese",
+      "Cream Caramel",
+      "Big Devil #2 Auto",
+      "Big Devil F1 Fast Version",
+      "Big Devil XL Auto",
+      "Big Foot",
+      "Black Cream Auto",
+      "Black Jack Auto"
+    ]
+  },
+  {
+    "id": "pacific-nw-roots",
+    "name": "Pacific NW Roots",
+    "strain_count": 103,
+    "award_count": 1,
+    "notable_strains": [
+      "Bango",
+      "Abula",
+      "Alien D",
+      "Black Koffee",
+      "Blue Dream Bx2",
+      "Bluetonium",
+      "Cherry Alien",
+      "Cherry Pie BX1",
+      "Chicha",
+      "Cimarron"
+    ]
+  },
+  {
+    "id": "strayfox-gardenz",
+    "name": "Strayfox Gardenz",
+    "strain_count": 103,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Bouquet",
+      "Afghani Killerz",
+      "Alien Vision",
+      "Black Goji Berries",
+      "Black Lime Goji",
+      "Blackberry Goji",
+      "Bodhi’s Watermelon Hashplant F2",
+      "Burnout Killerz",
+      "Burnout Skunk",
+      "Cake Fighter"
+    ]
+  },
+  {
+    "id": "equilibrium-genetics",
+    "name": "Equilibrium Genetics",
+    "strain_count": 102,
+    "award_count": 0,
+    "notable_strains": [
+      "Orange Romulan",
+      "AC/DC Glue",
+      "African Nectar",
+      "African Orange",
+      "African Orange Glue",
+      "Alien Athene",
+      "Applebubble",
+      "Bac Fang Wolverine",
+      "Banana Mist",
+      "Blue Cabo"
+    ]
+  },
+  {
+    "id": "ripper-seeds",
+    "name": "Ripper Seeds",
+    "strain_count": 101,
+    "award_count": 5,
+    "notable_strains": [
+      "Washing Machine",
+      "Zombie Kush",
+      "Acid Dough",
+      "Toxic",
+      "Acai Berry x Animal Cookies",
+      "Acai Berry x Bubba Kush",
+      "Amnesia Haze x Animal Cookies",
+      "Amnesia Haze x Zombie Kush",
+      "Animal Cookies x Black Domina",
+      "Animal Cookies x Do-si-dos"
+    ]
+  },
+  {
+    "id": "compound-genetics",
+    "name": "Compound Genetics",
+    "strain_count": 99,
+    "award_count": 0,
+    "notable_strains": [
+      "A.B. Parfait",
+      "Apples and Bananas",
+      "Apricot Head",
+      "Auraz",
+      "Banana Cream Pop",
+      "Big Face",
+      "Bling Blaow",
+      "Blue Apricot Sherbert",
+      "Blue Lobster",
+      "Blue Pavé"
+    ]
+  },
+  {
+    "id": "dna-genetics-seeds",
+    "name": "DNA Genetics Seeds",
+    "strain_count": 98,
+    "award_count": 15,
+    "notable_strains": [
+      "Og La Affie",
+      "Pure Afghan",
+      "Og Skunk",
+      "Nicole Kush",
+      "Snowland",
+      "Cannalope Kush",
+      "Holy Grail Kush",
+      "Kushberry",
+      "C13 Haze",
+      "Super Lemon Og"
+    ]
+  },
+  {
+    "id": "original-strains",
+    "name": "Original Strains",
+    "strain_count": 97,
+    "award_count": 0,
+    "notable_strains": [
+      "Indica",
+      "Afghanistan - Indica",
+      "Afghanistan - Mostly Indica",
+      "Africa - Hybrid",
+      "Africa - Sativa",
+      "Australia - Mostly Sativa",
+      "Bhutan - Mostly Sativa",
+      "Brazil - Hybrid",
+      "Brazil - Indica",
+      "Brazil - Mostly Indica"
+    ]
+  },
+  {
+    "id": "ethos-genetics",
+    "name": "Ethos Genetics",
+    "strain_count": 97,
+    "award_count": 0,
+    "notable_strains": [
+      "XXX",
+      "Banana Daddy",
+      "Banana Jealousy Auto",
+      "Battle Axe",
+      "Big Detroit Energy",
+      "Black Fire",
+      "Booberry Cookies RBX",
+      "Bubble Gummy Auto",
+      "Cali Dragon F2",
+      "Candy Store"
+    ]
+  },
+  {
+    "id": "thugpug-genetics",
+    "name": "ThugPug Genetics",
+    "strain_count": 97,
+    "award_count": 1,
+    "notable_strains": [
+      "After Glow",
+      "Agent Banana",
+      "Bad Breath",
+      "Baes Breath",
+      "Banana Loaf",
+      "Banana S1",
+      "Bananas & Cherries",
+      "Billy",
+      "Billy’s Breath",
+      "Billy’s Unicorn"
+    ]
+  },
+  {
+    "id": "irie-genetics",
+    "name": "Irie Genetics",
+    "strain_count": 95,
+    "award_count": 0,
+    "notable_strains": [
+      "Pure Love",
+      "Cherry Skunk",
+      "Blucifer",
+      "Capleton",
+      "Afterglow",
+      "Ambassador CartWright",
+      "Arise",
+      "Baxter Stockman",
+      "Bebop",
+      "Big Mountain Fudge Cake"
+    ]
+  },
+  {
+    "id": "taylormade-selections",
+    "name": "Taylormade Selections",
+    "strain_count": 93,
+    "award_count": 0,
+    "notable_strains": [
+      "Cookie Breath",
+      "Strawberry Milkshake",
+      "Cheeseburger",
+      "Tang",
+      "Albert",
+      "American Diesel",
+      "Amy’s Apple Pie",
+      "Azul",
+      "Baboon Lemon",
+      "Banana Fosters"
+    ]
+  },
+  {
+    "id": "subcool-s-the-dank",
+    "name": "SubCool’s The Dank",
+    "strain_count": 93,
+    "award_count": 2,
+    "notable_strains": [
+      "Professor Chaos",
+      "Hurkle",
+      "Kaboom",
+      "Sonic Screwdriver",
+      "Batgirl",
+      "Conspiracy Kush",
+      "Jesus Og",
+      "Cuvee",
+      "Double Purple Doja",
+      "Dr Who"
+    ]
+  },
+  {
+    "id": "robin-hood-seeds",
+    "name": "Robin Hood Seeds",
+    "strain_count": 93,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Treatz",
+      "Apple Cup",
+      "Arctic Rosa",
+      "Azul Rosa",
+      "Black Violet",
+      "Blue Nana",
+      "Blueberry Fritter",
+      "Blueberry Sweeties",
+      "Cali Wildberry",
+      "Cherry Ocean"
+    ]
+  },
+  {
+    "id": "green-house-seeds",
+    "name": "Green House Seeds",
+    "strain_count": 92,
+    "award_count": 22,
+    "notable_strains": [
+      "Arjans Ultra Haze 1",
+      "Hawaiian Snow",
+      "Kalashnikova",
+      "Alaskan Ice",
+      "K Train",
+      "The Doctor",
+      "Arjans Strawberry Haze",
+      "Jacks Dream",
+      "Nl5 Haze Mist",
+      "Super Bud"
+    ]
+  },
+  {
+    "id": "anesia-seeds",
+    "name": "Anesia Seeds",
+    "strain_count": 92,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Thai",
+      "A Train",
+      "Afghanica",
+      "Pink Starburst",
+      "Amnesia Flash",
+      "Amnesia Flash Auto",
+      "Apricot Oreoz",
+      "Aura",
+      "Auto Blackberry Moonrocks",
+      "Auto Blueberry Banana"
+    ]
+  },
+  {
+    "id": "south-bay-genetics",
+    "name": "South Bay Genetics",
+    "strain_count": 90,
+    "award_count": 0,
+    "notable_strains": [
+      "Obama OG",
+      "Aurora Sours",
+      "Bacchus Juice",
+      "Banana Roze",
+      "Baracks Dream",
+      "Better Than Your Angel",
+      "Big Kush Mintz",
+      "Black & Blue Haze",
+      "Blue Dream F3",
+      "Blue Heat"
+    ]
+  },
+  {
+    "id": "purple-city-genetics",
+    "name": "Purple City Genetics",
+    "strain_count": 90,
+    "award_count": 0,
+    "notable_strains": [
+      "Acid Wash – El Krem",
+      "Afberry Auto",
+      "After Dark",
+      "Aj Sour Diesel x Key Lime Pie",
+      "AJ’s Sour Diesel x Purple Punch",
+      "Alfajores - El Krem",
+      "Banana OG x F1 Durb x Gushers",
+      "Benzina - El Krem",
+      "Berry Bonds Auto",
+      "Billy Ocean"
+    ]
+  },
+  {
+    "id": "th-seeds",
+    "name": "TH Seeds",
+    "strain_count": 88,
+    "award_count": 12,
+    "notable_strains": [
+      "Chicle",
+      "Puna Budder",
+      "Ultra Sour",
+      "Cold Creek Kush",
+      "Mk Ultra",
+      "Critical Hog",
+      "Wreckage",
+      "Chocolate Chunk",
+      "Dark Star",
+      "Kushage"
+    ]
+  },
+  {
+    "id": "rare-dankness-seeds",
+    "name": "Rare Dankness Seeds",
+    "strain_count": 87,
+    "award_count": 2,
+    "notable_strains": [
+      "Purple Swish",
+      "Tangerine Trainwreck Haze",
+      "Walker Kush",
+      "Scotts Og",
+      "Cornbread",
+      "Jenny Kush",
+      "Night Terror Og",
+      "Pamelina",
+      "Rare Dankness 1",
+      "The Ox"
+    ]
+  },
+  {
+    "id": "dinafem",
+    "name": "Dinafem",
+    "strain_count": 83,
+    "award_count": 8,
+    "notable_strains": [
+      "California Hash Plant",
+      "Remo Chemo",
+      "Critical Jack",
+      "Big Kush",
+      "Dinachem",
+      "White Siberian",
+      "Strawberry Amnesia",
+      "Blue Hash",
+      "Orange Juice",
+      "Cloud 9"
+    ]
+  },
+  {
+    "id": "new420guy-seeds",
+    "name": "New420Guy Seeds",
+    "strain_count": 83,
+    "award_count": 3,
+    "notable_strains": [
+      "R 4",
+      "Sfv Og Kush",
+      "Pennywise",
+      "Purple Ice",
+      "Sour Tangie",
+      "Chems Sister",
+      "Blackberry Diesel",
+      "Bam Bam Kush",
+      "Berry Bomb x POW33",
+      "Black Apple Hitchcock"
+    ]
+  },
+  {
+    "id": "exclusive-seeds",
+    "name": "Exclusive Seeds",
+    "strain_count": 82,
+    "award_count": 0,
+    "notable_strains": [
+      "Blood Orange Kush",
+      "Dark Side Of The Moon",
+      "Cookie Wreck",
+      "Afgooiest",
+      "Arctic Orange",
+      "Bear Can",
+      "Bear Grylls",
+      "Bear Necessities",
+      "Bear Sauce",
+      "Bear Trap"
+    ]
+  },
+  {
+    "id": "scott-family-farms",
+    "name": "Scott Family Farms",
+    "strain_count": 82,
+    "award_count": 2,
+    "notable_strains": [
+      "Bubba X Skunk",
+      "Harmony",
+      "Petrolia Headstash",
+      "Viper",
+      "Blueberry Blast",
+      "Orient Express",
+      "Accidental Haze",
+      "Airborne G13",
+      "Bazooka Joe",
+      "BC Gold"
+    ]
+  },
+  {
+    "id": "bulk-seed-bank",
+    "name": "Bulk Seed Bank",
+    "strain_count": 81,
+    "award_count": 3,
+    "notable_strains": [
+      "Big Bud",
+      "NY Diesel",
+      "Amnesia Platinum",
+      "Ananas Funk",
+      "Auto Amnesia Platinum",
+      "Auto Banana Monkey",
+      "Auto Big Bud",
+      "Auto Big Devil Kiss",
+      "Auto Blueberry Berry",
+      "Auto Caramel King"
+    ]
+  },
+  {
+    "id": "raw-genetics",
+    "name": "Raw Genetics",
+    "strain_count": 81,
+    "award_count": 0,
+    "notable_strains": [
+      "Almost Home",
+      "Apple Mints",
+      "Apple Strudel",
+      "Apple Truffle",
+      "Aquila's OG",
+      "Biscotti Pie",
+      "Blenders",
+      "Blue Soap",
+      "Blukio",
+      "Burnt Toast"
+    ]
+  },
+  {
+    "id": "original-sensible-seeds",
+    "name": "Original Sensible Seeds",
+    "strain_count": 80,
+    "award_count": 3,
+    "notable_strains": [
+      "Blackwater",
+      "Bruce Banner 3",
+      "Sweet Kush",
+      "Alien Moonrocks",
+      "Auto AK XXL",
+      "Auto Ghost OG",
+      "Auto Purple",
+      "Banana Fumes",
+      "Black Destroyer",
+      "Black Dog Auto"
+    ]
+  },
+  {
+    "id": "moscaseeds",
+    "name": "Moscaseeds",
+    "strain_count": 80,
+    "award_count": 3,
+    "notable_strains": [
+      "Alien Blackout",
+      "Alien Wedding",
+      "Alien Widow",
+      "Animal Jam",
+      "Bluemosa",
+      "Baja Blast S1",
+      "Beso",
+      "Blue Fin",
+      "Blueberry Smoothie",
+      "Boom Boom"
+    ]
+  },
+  {
+    "id": "csi-humboldt",
+    "name": "CSI Humboldt",
+    "strain_count": 79,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Hindu Kush",
+      "Chem 91",
+      "Albert Walker X Bubblegum",
+      "Antifreeze",
+      "Australian Bastard Cannabis Site",
+      "Babu",
+      "Big Bad Wolf",
+      "Birthday Cake X Chemdog D",
+      "Branded Bubba",
+      "Bub's Dogbud"
+    ]
+  },
+  {
+    "id": "seedsman",
+    "name": "Seedsman",
+    "strain_count": 79,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Bud",
+      "Hawaiian Skunk",
+      "Velvet Bud",
+      "Jack Herrer",
+      "African Buzz",
+      "Alaskan Diesel Auto",
+      "Alaskan Purple",
+      "Alaskan Purple Auto",
+      "Alien Rock Candy LE",
+      "Auto Blue Cush"
+    ]
+  },
+  {
+    "id": "pua-mana-pakalolo",
+    "name": "Pua Mana Pakalolo",
+    "strain_count": 78,
+    "award_count": 0,
+    "notable_strains": [
+      "Hawaiian Mayan Gold",
+      "Hawaiian Trinity",
+      "Molokai Purpz",
+      "Kalalau Kush",
+      "Kauai Electric",
+      "Puna Buddaz",
+      "Jahwaiian",
+      "Maui Pineapple Chunk",
+      "Hawaii 78",
+      "Maui Haole"
+    ]
+  },
+  {
+    "id": "humboldt-seed-company",
+    "name": "Humboldt Seed Company",
+    "strain_count": 77,
+    "award_count": 0,
+    "notable_strains": [
+      "Humboldt Dream",
+      "Pineapple Upside Down Cake",
+      "Royal Highness",
+      "Humboldt Headband",
+      "Dream Queen",
+      "Purple Panty Dropper",
+      "All Gas OG",
+      "All Gas OG Auto",
+      "Apple Blossom",
+      "Apple Blossom Auto"
+    ]
+  },
+  {
+    "id": "katsu-seeds",
+    "name": "Katsu Seeds",
+    "strain_count": 76,
+    "award_count": 0,
+    "notable_strains": [
+      "Raindance",
+      "Pre 98 Bubba Kush",
+      "Afghan #1 X Sour Diesel",
+      "AJ's Sour Diesel x Sensi Star",
+      "AK47 F3",
+      "Amnesia Haze X Sensi Star",
+      "Banana Sour",
+      "Black Lime Bubba",
+      "Blue Dream x ’98 Aloha White Widow",
+      "Brain Melt"
+    ]
+  },
+  {
+    "id": "matchmaker-genetics",
+    "name": "Matchmaker Genetics",
+    "strain_count": 75,
+    "award_count": 0,
+    "notable_strains": [
+      "Atomic Crippy",
+      "Better Than Moonshine",
+      "Better Than Petro",
+      "Cheddar Koi",
+      "Cheddar Koi BX2",
+      "Concord Skunk",
+      "Crowd Pleaser",
+      "Doing Time",
+      "Donkey Dawg",
+      "Dream Dog"
+    ]
+  },
+  {
+    "id": "barneys-farm",
+    "name": "Barneys Farm",
+    "strain_count": 74,
+    "award_count": 13,
+    "notable_strains": [
+      "Morning Glory",
+      "Dr Grinspoon",
+      "Cbd Critical Cure",
+      "Peyote Cookies",
+      "Acapulco Gold",
+      "Cbd Blue Shark",
+      "Cookies Kush",
+      "Triple Cheese",
+      "Violator Kush",
+      "Willie Nelson"
+    ]
+  },
+  {
+    "id": "kannabia-seeds",
+    "name": "Kannabia Seeds",
+    "strain_count": 74,
+    "award_count": 0,
+    "notable_strains": [
+      "Queso",
+      "Bcn Diesel",
+      "Big Band",
+      "Hobbit",
+      "Orange Widow",
+      "Afrodite",
+      "Ak74",
+      "Amnesi-K",
+      "Aphrodita",
+      "Apple Fritter Bioboost"
+    ]
+  },
+  {
+    "id": "nirvana-seeds",
+    "name": "Nirvana Seeds",
+    "strain_count": 73,
+    "award_count": 12,
+    "notable_strains": [
+      "Supergirl",
+      "Misty Kush",
+      "Raspberry Cough",
+      "Skywalker Og",
+      "Aurora Indica",
+      "Wonder Woman",
+      "B 52",
+      "Jock Horror",
+      "Papaya",
+      "Candy Kush"
+    ]
+  },
+  {
+    "id": "twenty-20-genetics",
+    "name": "Twenty 20 Genetics",
+    "strain_count": 73,
+    "award_count": 0,
+    "notable_strains": [
+      "Ogre Berry",
+      "AutoWhip!",
+      "Ave Of The Giants",
+      "Biscauto",
+      "Blonde Bomb",
+      "Breakfast in Bed",
+      "Bubbawhip",
+      "Bubble Tricks Auto",
+      "Curve Breaker",
+      "Dirty Blonde"
+    ]
+  },
+  {
+    "id": "skunk-house-genetics",
+    "name": "Skunk House Genetics",
+    "strain_count": 72,
+    "award_count": 0,
+    "notable_strains": [
+      "Back To Banana",
+      "Banana Burger Mousse",
+      "Banana Dulce",
+      "Banana Foster",
+      "Banana Rainbow",
+      "Banana Squirts",
+      "Big Papa",
+      "Biscotti Gas",
+      "Cactus Fruit",
+      "Candied Lemons"
+    ]
+  },
+  {
+    "id": "slanted-farms-seed-company",
+    "name": "Slanted Farms Seed Company",
+    "strain_count": 71,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Dragon",
+      "Alley OOP",
+      "Azalea Og",
+      "Beelzebub",
+      "Bikini Island",
+      "Bubba Dub",
+      "Caustic Cookies",
+      "Charlottes Glue",
+      "Cost Nostra",
+      "Cranannas"
+    ]
+  },
+  {
+    "id": "seed-junky-genetics",
+    "name": "Seed Junky Genetics",
+    "strain_count": 71,
+    "award_count": 0,
+    "notable_strains": [
+      "Acai Gelato x Kush Mints 11",
+      "Adios MF",
+      "Amoretto Sour",
+      "Animal Cookies Bx2",
+      "Animal Cookies x Kush Mints #11",
+      "Animal Face",
+      "Animal Face x Kush Mints #11",
+      "Animal Gas",
+      "Animal Mints",
+      "Animal Mints Bx1"
+    ]
+  },
+  {
+    "id": "cult-classics-seeds",
+    "name": "Cult Classics Seeds",
+    "strain_count": 71,
+    "award_count": 0,
+    "notable_strains": [
+      "Agathlan",
+      "Alt-White",
+      "Banana Shenanigans",
+      "Barry White Shoes",
+      "Bisti Badlands",
+      "Blanche Dubois",
+      "Blueberry Burst",
+      "Bubble Fantasy",
+      "Bunny Slope",
+      "Cannabarbital"
+    ]
+  },
+  {
+    "id": "dynasty-seeds",
+    "name": "Dynasty Seeds",
+    "strain_count": 70,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Heron",
+      "Moose And Lobsta",
+      "Drizella",
+      "Platinum Huckleberry Cookies",
+      "Bluniverse",
+      "Salmon River Og",
+      "Caramel Candy Kush",
+      "Pineapple Diesel",
+      "Pineapple Fields",
+      "Ms Universe"
+    ]
+  },
+  {
+    "id": "aficionado-seed-bank",
+    "name": "Aficionado Seed Bank",
+    "strain_count": 70,
+    "award_count": 13,
+    "notable_strains": [
+      "White Nightmare",
+      "Darkside Og",
+      "Birthday Cake Kush",
+      "The Void",
+      "Nyc Diesel",
+      "Big Bang",
+      "Aficionado Kush",
+      "Aficionado OG",
+      "African Gold",
+      "Alien OG Kush"
+    ]
+  },
+  {
+    "id": "seedstockers",
+    "name": "SeedStockers",
+    "strain_count": 69,
+    "award_count": 0,
+    "notable_strains": [
+      "Cookies And Cream",
+      "Pineapple",
+      "AK420 Autoflower",
+      "Amaretto Tarmac",
+      "Amnesia Autoflower",
+      "Apollo Black Cherry",
+      "Apollo Black Cherry Autoflower",
+      "BCN Critical XXL",
+      "BCN Critical XXL Autoflower",
+      "BCN Power Plant"
+    ]
+  },
+  {
+    "id": "lupos-cannaseed",
+    "name": "Lupos CannaSeed",
+    "strain_count": 68,
+    "award_count": 0,
+    "notable_strains": [
+      "Sweet Dreams",
+      "Afternoon Delights",
+      "Apple Butter",
+      "Apple Pie Moonshine",
+      "Bacon",
+      "Bipolar",
+      "Black Licorice",
+      "Black Prosciutto",
+      "Blue Royalty",
+      "BUFFET"
+    ]
+  },
+  {
+    "id": "envy-genetics",
+    "name": "Envy Genetics",
+    "strain_count": 67,
+    "award_count": 0,
+    "notable_strains": [
+      "Acai Gelato x BlowPops Bx1",
+      "Bananarama",
+      "Bananarama V2",
+      "Berry Parfait",
+      "Blow Pops",
+      "Blow Trops",
+      "BlowMan",
+      "BlowPops Bx1",
+      "Cali Bubba",
+      "Cali Mints"
+    ]
+  },
+  {
+    "id": "umami-seed-co",
+    "name": "Umami Seed Co",
+    "strain_count": 67,
+    "award_count": 0,
+    "notable_strains": [
+      "Amalfitana",
+      "Banana Sours",
+      "Bath House",
+      "Biscochi",
+      "Biscotti Royale",
+      "Biscotti x Zuchi",
+      "Bizquick",
+      "Blue Ivory",
+      "Bubba Dough",
+      "Cantucci"
+    ]
+  },
+  {
+    "id": "terp-fi3nd",
+    "name": "Terp Fi3nd",
+    "strain_count": 67,
+    "award_count": 0,
+    "notable_strains": [
+      "Bad Motherfucker",
+      "Blackout Truffle",
+      "Block Knocker",
+      "Chunky Lemon Tree",
+      "Churros #5",
+      "Confusion",
+      "Curse of Momo",
+      "Darwin #1",
+      "Dat Boi",
+      "Dayman"
+    ]
+  },
+  {
+    "id": "madcat-s-backyard-stash",
+    "name": "MadCat's Backyard Stash",
+    "strain_count": 66,
+    "award_count": 0,
+    "notable_strains": [
+      "Skywalker Kush",
+      "Blond Skywalker",
+      "Blue Dream Sky",
+      "Cancer Killer OG",
+      "Carma Fuel",
+      "Cherry Nefertiti",
+      "Cosmic Orgasm",
+      "Crash OG",
+      "DankGod",
+      "Dark Overlord"
+    ]
+  },
+  {
+    "id": "jordan-of-the-islands",
+    "name": "Jordan of the Islands",
+    "strain_count": 65,
+    "award_count": 1,
+    "notable_strains": [
+      "Blue Treat",
+      "Cactus",
+      "Chemo",
+      "Blue God",
+      "Blue Lights",
+      "Blackberry Kush",
+      "Sapphire Star",
+      "Skunkberry",
+      "Blue Afghani",
+      "Deep Purple"
+    ]
+  },
+  {
+    "id": "solfire-gardens",
+    "name": "Solfire Gardens",
+    "strain_count": 65,
+    "award_count": 0,
+    "notable_strains": [
+      "Double Tap",
+      "Babadook",
+      "Baby Cakes",
+      "Bad ‘n Boujee",
+      "Bahama Mama",
+      "Bahama Peel",
+      "Banana Clipz",
+      "Banana Runtz",
+      "Bitties",
+      "Black Banana F2"
+    ]
+  },
+  {
+    "id": "beyond-top-shelf",
+    "name": "Beyond Top Shelf",
+    "strain_count": 65,
+    "award_count": 0,
+    "notable_strains": [
+      "Pop Rox",
+      "Alien Ice Cream",
+      "Astrolite",
+      "Aunt Jamima",
+      "Black DiamondZ",
+      "Black N Blue",
+      "Black On Black",
+      "Blue Planet",
+      "Blueberry OG Haze",
+      "Blurple Urkle"
+    ]
+  },
+  {
+    "id": "jaws-gear",
+    "name": "Jaws Gear",
+    "strain_count": 65,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Cookies",
+      "Alien Dojo F2",
+      "Alien Gorg",
+      "Alien Mustang",
+      "Alien Pebbles OG",
+      "Arcata Trainwreck",
+      "Banana Dojo",
+      "Banana Gorg",
+      "Banana Kush F10",
+      "Banana Kush F9"
+    ]
+  },
+  {
+    "id": "philosopher-seeds",
+    "name": "Philosopher Seeds",
+    "strain_count": 65,
+    "award_count": 1,
+    "notable_strains": [
+      "Amherst Sour Diesel x Somango",
+      "AmnesiaZ",
+      "Amnesika",
+      "Amnesika 2.0",
+      "Apple Fritter Bx",
+      "Banana Zkittlez Auto",
+      "Black Cherry Cookies",
+      "Black Runtz",
+      "Blue Sherbet x Do-Si-Dos",
+      "Bubble Gum x Purple Punch"
+    ]
+  },
+  {
+    "id": "paradise-seeds",
+    "name": "Paradise Seeds",
+    "strain_count": 63,
+    "award_count": 10,
+    "notable_strains": [
+      "Durga Mata",
+      "Allkush",
+      "Spoetnik 1",
+      "Delahaze",
+      "Acid",
+      "Nebula Ii Cbd",
+      "Dutch Dragon",
+      "Wappa",
+      "Atomical Haze",
+      "Jacky White"
+    ]
+  },
+  {
+    "id": "advanced-seeds",
+    "name": "Advanced Seeds",
+    "strain_count": 63,
+    "award_count": 0,
+    "notable_strains": [
+      "Kali 47",
+      "Bruce Banner",
+      "Zkittlez",
+      "Skunk 47",
+      "Afghan Skunk",
+      "Black Diesel",
+      "Haze Mist",
+      "Somango Widow",
+      "Amnesia Fast",
+      "Animal Zookies"
+    ]
+  },
+  {
+    "id": "seattle-chronic-seeds",
+    "name": "Seattle Chronic Seeds",
+    "strain_count": 63,
+    "award_count": 0,
+    "notable_strains": [
+      "Affie Taffie",
+      "Apricoma",
+      "Bacio G",
+      "Banzai Punch",
+      "Black Afghani 1:1",
+      "Burberry Blues",
+      "CBG Auto",
+      "Cherry Flo Fighter",
+      "Cherry Mist",
+      "Cherry Wine Spectrum CBD"
+    ]
+  },
+  {
+    "id": "connoisseur-genetics",
+    "name": "Connoisseur Genetics",
+    "strain_count": 61,
+    "award_count": 0,
+    "notable_strains": [
+      "Chemmy Jones",
+      "Rainbow Jones",
+      "Og Chem",
+      "Secret Recipe",
+      "Purple Cheddar",
+      "Chemwreck Kush",
+      "Cheese Dog",
+      "Cheese Dog Haze",
+      "Cheese n Chong",
+      "Chem D Cookies"
+    ]
+  },
+  {
+    "id": "relentless-genetics",
+    "name": "Relentless Genetics",
+    "strain_count": 59,
+    "award_count": 0,
+    "notable_strains": [
+      "Elmers Glue",
+      "Orange Cookies",
+      "White Cookies",
+      "Banana Fire Cookies",
+      "Banana Fire OG",
+      "Big Easy OG",
+      "Black Cherry Gas",
+      "Caked Up Cherries",
+      "Cheesy Fire OG",
+      "Chem Fire OG"
+    ]
+  },
+  {
+    "id": "holy-smoke-seeds",
+    "name": "Holy Smoke Seeds",
+    "strain_count": 59,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Diesel",
+      "Afghani Peshawar",
+      "Atomic Sherbert",
+      "Banana Sativa",
+      "Banana Sunrise",
+      "Bhutanese Thimphu",
+      "Black Honey Haze",
+      "Blue Strawberries",
+      "Blueberry Cane",
+      "Bong Biscuits"
+    ]
+  },
+  {
+    "id": "indian-landrace-exchange",
+    "name": "Indian Landrace Exchange",
+    "strain_count": 59,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Daman Selection #8",
+      "Afghan Markaz Baboos Selection #10",
+      "Andhra Bhang",
+      "Arghandab II Kandahar",
+      "Assam Hash Plant",
+      "Maruf Red Selection",
+      "Balochistan Quetta Purple Selection #1",
+      "Balochistan Quetta Purple Selection #2",
+      "Boria Baf",
+      "Burma"
+    ]
+  },
+  {
+    "id": "annibale-genetics",
+    "name": "Annibale Genetics",
+    "strain_count": 59,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghanistan Hashplant",
+      "Afghan Rose Tea",
+      "Amnesia Lemon Autoregolar",
+      "Blue Martini Dry",
+      "Boston George",
+      "Buddha's Temple",
+      "C-Class '99",
+      "Cobra",
+      "Criminalz",
+      "Critical Kush Autoregular"
+    ]
+  },
+  {
+    "id": "alphakronik-genes",
+    "name": "Alphakronik Genes",
+    "strain_count": 58,
+    "award_count": 1,
+    "notable_strains": [
+      "Stephen Hawking Kush",
+      "Sin City Kush",
+      "American Kush",
+      "Enigma",
+      "Tillamook Strawberry",
+      "Alpha Og",
+      "Bandana",
+      "Heisenberg Kush",
+      "Omega Dawg",
+      "Cheddar Head"
+    ]
+  },
+  {
+    "id": "jinxproof-genetics",
+    "name": "Jinxproof Genetics",
+    "strain_count": 58,
+    "award_count": 1,
+    "notable_strains": [
+      "Shangri La",
+      "Mother Tongue",
+      "Bubba Gum",
+      "BumbleBud",
+      "Comfortably Dumb",
+      "Cookie Puss",
+      "Dalliance",
+      "Dream On",
+      "Brick House",
+      "Cherry Forever"
+    ]
+  },
+  {
+    "id": "greenman-organic-seeds",
+    "name": "GreenMan Organic Seeds",
+    "strain_count": 58,
+    "award_count": 0,
+    "notable_strains": [
+      "Dirty Girl",
+      "Black Rhino",
+      "Avalanche",
+      "Black Cough",
+      "Black Jill",
+      "Black Knight",
+      "Black Lights",
+      "Black Nights",
+      "Black Phaze",
+      "Black Silver"
+    ]
+  },
+  {
+    "id": "alien-genetics",
+    "name": "Alien Genetics",
+    "strain_count": 57,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Rock Candy",
+      "Ewok",
+      "Tahoe Alien",
+      "Alien Hallucination",
+      "Alien Afterburner OG",
+      "Alien Apple Warp",
+      "Alien Napalm",
+      "Alien Rock Sours",
+      "Apple Gelato",
+      "Apple Jaxx"
+    ]
+  },
+  {
+    "id": "fast-buds-company",
+    "name": "Fast Buds Company",
+    "strain_count": 57,
+    "award_count": 0,
+    "notable_strains": [
+      "Six Shooter",
+      "Afghan Kush Auto",
+      "Amnesia Zkittlez Auto",
+      "Apple Strudel Auto",
+      "Apricot Auto",
+      "Banana Purple Punch Auto",
+      "Big Bud Auto",
+      "Blue Dream Matic",
+      "Bruce Banner Auto",
+      "C4-Matic"
+    ]
+  },
+  {
+    "id": "pev-seeds-bank",
+    "name": "PEV Seeds Bank",
+    "strain_count": 57,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Kush Autoflowering",
+      "Black Mamba Auto",
+      "Citronella Sky",
+      "European Cinderella",
+      "Hashish Plant",
+      "Hazenomics",
+      "Piensa en AK 47",
+      "Piensa en Amnesia Auto",
+      "Piensa en Amnesia Haze",
+      "Piensa en Amnesia Lemon"
+    ]
+  },
+  {
+    "id": "pyramid-seeds",
+    "name": "Pyramid Seeds",
+    "strain_count": 56,
+    "award_count": 1,
+    "notable_strains": [
+      "Tutankhamon",
+      "Kryptonite",
+      "Alpujarrena",
+      "American Pie",
+      "Anesthesia CBD",
+      "Anesthesia x Runtz",
+      "Anubis x Sunset Sherbet",
+      "Auto American Pie",
+      "Auto Amnesia Gold",
+      "Auto Anesthesia"
+    ]
+  },
+  {
+    "id": "exotic-seed",
+    "name": "Exotic Seed",
+    "strain_count": 56,
+    "award_count": 1,
+    "notable_strains": [
+      "Tangerine Kush",
+      "A.A.A",
+      "Amnesia #7",
+      "Artic Flurry",
+      "Banana Mash Auto",
+      "Candy Jungle Auto",
+      "Devil Kush",
+      "Exotic Biscotti",
+      "Exotic Animal",
+      "Exotic Pure CBG"
+    ]
+  },
+  {
+    "id": "delicious-seeds",
+    "name": "Delicious Seeds",
+    "strain_count": 55,
+    "award_count": 2,
+    "notable_strains": [
+      "Critical Kali Mist",
+      "Sugar Black Rose",
+      "Critical Sensi Star",
+      "Caramelo",
+      "Bay Burger",
+      "Blue Ace Auto CBD",
+      "Caramelo Fast Version",
+      "CBD Jam",
+      "Cheese Candy Auto",
+      "Chocobang"
+    ]
+  },
+  {
+    "id": "big-dog-exotic-cannabis-seeds",
+    "name": "Big Dog Exotic Cannabis Seeds",
+    "strain_count": 55,
+    "award_count": 2,
+    "notable_strains": [
+      "Strawberry Banana",
+      "Apples of Eden",
+      "Big Pluto",
+      "Blue Candy Truffles",
+      "Blueberry Pimp",
+      "Blueberry Tropicana",
+      "Blueberry Waffles",
+      "Deluxe Sonic Truffles",
+      "Dream Berries CBD",
+      "Kush Berry Truffles"
+    ]
+  },
+  {
+    "id": "flip-side",
+    "name": "Flip Side",
+    "strain_count": 55,
+    "award_count": 0,
+    "notable_strains": [
+      "A Streetcar Named Desire",
+      "Alien Airlines",
+      "Bad to the Bone",
+      "Boba Popz",
+      "Boba Tea",
+      "BOBAz",
+      "BTS",
+      "Bubble T",
+      "Bubble Tea",
+      "Bubble Tea Bel-Air"
+    ]
+  },
+  {
+    "id": "blim-burn-seeds",
+    "name": "Blim Burn Seeds",
+    "strain_count": 54,
+    "award_count": 4,
+    "notable_strains": [
+      "Khalifa Kush",
+      "Alien Og",
+      "Triangle Kush",
+      "Sirius Black",
+      "Harlequin",
+      "Mango",
+      "Birthday Cake",
+      "Platinum Bubba",
+      "AK Automatic",
+      "BC Diesel"
+    ]
+  },
+  {
+    "id": "crockett-family-farms",
+    "name": "Crockett Family Farms",
+    "strain_count": 54,
+    "award_count": 1,
+    "notable_strains": [
+      "Afternoon Delight",
+      "Kosher Tangie",
+      "Sour Sunset",
+      "Sour Banana Sherbet",
+      "Citrus Sap",
+      "Double Tangie Banana",
+      "Holy Grail OG",
+      "AutoGuav",
+      "Banana Fudge Pop",
+      "BT7"
+    ]
+  },
+  {
+    "id": "lost-river-seeds",
+    "name": "Lost River Seeds",
+    "strain_count": 54,
+    "award_count": 0,
+    "notable_strains": [
+      "Alf",
+      "Abe Froman",
+      "Bb-8",
+      "Beetle Juice",
+      "Bender",
+      "Big Earn",
+      "Bob's Meds",
+      "Boo Berry",
+      "Buford Blue",
+      "Casaba Melon"
+    ]
+  },
+  {
+    "id": "ak-bean-brains",
+    "name": "AK Bean Brains",
+    "strain_count": 54,
+    "award_count": 1,
+    "notable_strains": [
+      "Durban",
+      "A1",
+      "ACDC / Purple Fuzz",
+      "Afghan 1 X Black Afghan F2",
+      "AK4Way",
+      "Americanna",
+      "Americanna / Black Dom PNW Hashplant NL1",
+      "Americanna / Super Skunk",
+      "Big Skunk",
+      "Black Domina BX"
+    ]
+  },
+  {
+    "id": "the-cali-connection",
+    "name": "The Cali Connection",
+    "strain_count": 53,
+    "award_count": 4,
+    "notable_strains": [
+      "Corleone Kush",
+      "Julius Caesar",
+      "Alien Kush",
+      "Cherries Jubilee",
+      "Deadhead Og",
+      "Chem Valley Kush",
+      "Jedi Kush",
+      "Ogiesel",
+      "Purple Crack",
+      "Sour Alien"
+    ]
+  },
+  {
+    "id": "heisenbeans-genetics",
+    "name": "Heisenbeans Genetics",
+    "strain_count": 53,
+    "award_count": 0,
+    "notable_strains": [
+      "A-Dub S1",
+      "Bangkok Runtz",
+      "Berry'a 51",
+      "Bloozie",
+      "Blue Animal",
+      "Blue Dubz",
+      "Blue Grapesicle",
+      "Blue Ve'Gas",
+      "Blueberry Caker",
+      "Blueberry Chem"
+    ]
+  },
+  {
+    "id": "tiki-madman",
+    "name": "Tiki Madman",
+    "strain_count": 53,
+    "award_count": 0,
+    "notable_strains": [
+      "Acai Mints",
+      "Apples N Bananas x Pancakes Jealousy",
+      "Banana Acai Mints",
+      "Biscotti Pancakes",
+      "Candy Rain x Apple Mintz",
+      "Cherry As Fuck",
+      "Cherry Inferno",
+      "Cherry Sherbert x Acai Mints",
+      "Cherry Slam",
+      "Creamsicle x Pancakes"
+    ]
+  },
+  {
+    "id": "apothecary-genetics",
+    "name": "Apothecary Genetics",
+    "strain_count": 52,
+    "award_count": 3,
+    "notable_strains": [
+      "Bubba Berry",
+      "Tahoe Og",
+      "Dream Berry",
+      "Kaia Kush",
+      "Platinum Og",
+      "Blueberry Og",
+      "Chemdawg 91",
+      "Headband",
+      "Skywalker",
+      "Silver Back"
+    ]
+  },
+  {
+    "id": "00-seeds-bank",
+    "name": "00 Seeds Bank",
+    "strain_count": 52,
+    "award_count": 7,
+    "notable_strains": [
+      "Northern Lights",
+      "Blue Dream",
+      "Bubble Gum",
+      "Northern Lights CBD",
+      "Auto 00 Cheese",
+      "Auto Afghan Mass",
+      "Auto Afghan Mass XXL",
+      "Auto Biscotti Zkittez",
+      "Auto Bubble Gum",
+      "Auto Bubble Gum XXL"
+    ]
+  },
+  {
+    "id": "super-sativa-seed-club",
+    "name": "Super Sativa Seed Club",
+    "strain_count": 52,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani-Malawi Hybrid",
+      "Afghani/Nepali-Kerala Hybrid",
+      "Afghani/Nepali-Northern Mexico Hybrid",
+      "Auto AK Triple Haze",
+      "Auto Bruce Lemon Diesel",
+      "Auto Creeper",
+      "Auto Elephant",
+      "Auto Purple OG Punch",
+      "Basic #5",
+      "Beatrix Choice"
+    ]
+  },
+  {
+    "id": "2-guns-and-a-guy-seed-company",
+    "name": "2 Guns and a Guy Seed Company",
+    "strain_count": 51,
+    "award_count": 3,
+    "notable_strains": [
+      "Jack The Ripper",
+      "Querkle",
+      "Afghan Gorilla",
+      "American Cincinnatus",
+      "American Mother",
+      "American Runtz",
+      "American Zkittlez",
+      "B.S.",
+      "Blue Christmas",
+      "Candy Apple"
+    ]
+  },
+  {
+    "id": "dark-horse-genetics",
+    "name": "Dark Horse Genetics",
+    "strain_count": 51,
+    "award_count": 0,
+    "notable_strains": [
+      "Hulkamania",
+      "Orange Cream",
+      "Bitch Slap",
+      "Bloody Zundae",
+      "Bruce Banner 1.0",
+      "Chem Berry D",
+      "Chem Jong-Un",
+      "Chem Lem",
+      "Clown Shoes OG",
+      "Conjugal Visit"
+    ]
+  },
+  {
+    "id": "brothers-grimm",
+    "name": "Brothers Grimm",
+    "strain_count": 51,
+    "award_count": 1,
+    "notable_strains": [
+      "Apollo 11",
+      "Aurora Borealis",
+      "Killer Queen",
+      "Sweet Skunk",
+      "Apollo Haze",
+      "Apollo XX",
+      "Apollo13",
+      "Berry Diesel 99",
+      "Bubbles Blueberry",
+      "Chemical Odor"
+    ]
+  },
+  {
+    "id": "james-loud-genetics",
+    "name": "James Loud Genetics",
+    "strain_count": 51,
+    "award_count": 0,
+    "notable_strains": [
+      "Ala Mode",
+      "Apples and Banana Z",
+      "Banana Blue Dream",
+      "Banana Cough",
+      "Banana Z",
+      "Bossa Nova",
+      "Buc-eez",
+      "Bumpboxx Kush",
+      "Candy Crepe",
+      "Candy Island"
+    ]
+  },
+  {
+    "id": "divine-seeds",
+    "name": "Divine Seeds",
+    "strain_count": 50,
+    "award_count": 7,
+    "notable_strains": [
+      "Opium",
+      "Kali Mist",
+      "Euphoria",
+      "Mazar",
+      "Afghan Original",
+      "Afghanistan Lights",
+      "AK-47 XL",
+      "Amnesia XL",
+      "Auto 77 Days",
+      "Auto Afghan Bullet"
+    ]
+  },
+  {
+    "id": "the-bank-genetics",
+    "name": "The Bank Genetics",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "Phishhead Kush",
+      "Mammoth",
+      "Sour Bubba",
+      "Hurricane",
+      "Ackbar OG",
+      "Agent Cooper",
+      "Axilla",
+      "Black Eyed Katy",
+      "Cherry Zephyr",
+      "Crazy Glue"
+    ]
+  },
+  {
+    "id": "nasha-genetics",
+    "name": "Nasha Genetics",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "Hardcore Og",
+      "A To Z",
+      "Aeroz",
+      "Alien Fruit",
+      "Alien Runtz",
+      "Alien Zoap",
+      "Apple Crasher",
+      "Apple Crumble",
+      "Apple Gary",
+      "Apple Gushers"
+    ]
+  },
+  {
+    "id": "sumo-seeds",
+    "name": "Sumo Seeds",
+    "strain_count": 50,
+    "award_count": 3,
+    "notable_strains": [
+      "Appleberry",
+      "Master Skunk",
+      "Sweet Harlem Diesel",
+      "Honey Rock",
+      "Strawberry Haze",
+      "After 8 OG",
+      "AK Full Auto",
+      "Amnesia Ganja Haze",
+      "Amnesia Ganja Haze Auto",
+      "Amsterdam Blue"
+    ]
+  },
+  {
+    "id": "hyp3rids",
+    "name": "Hyp3rids",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "Cracker Jack",
+      "Kona Gold",
+      "Ace of Haze",
+      "Apac Kahuna",
+      "Bouillon Haze",
+      "Colombian Gold Legacy Edition",
+      "Colombian Rosé",
+      "Crackerjack",
+      "Cuban Black Haze BX1",
+      "Deep River Haze"
+    ]
+  },
+  {
+    "id": "trichome-jungle-seeds",
+    "name": "Trichome Jungle Seeds",
+    "strain_count": 50,
+    "award_count": 2,
+    "notable_strains": [
+      "Sour Kush",
+      "Afghani 99",
+      "Caribbean Crush",
+      "Celtic Passion",
+      "Cheesy Smurf",
+      "Cherry Spice",
+      "Cindy 99 F3",
+      "Cindy 99 x Cheese",
+      "Crazy Cheese",
+      "Crystal Ship"
+    ]
+  },
+  {
+    "id": "cookie-fam-genetics",
+    "name": "Cookie Fam Genetics",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "Acai Grapes",
+      "Big Z",
+      "Blanco",
+      "Blueberry Cherries",
+      "Corn Syrup",
+      "Cake Mix",
+      "Candy Candy",
+      "Candy Rain",
+      "Cereal Milk",
+      "Cheetah Cake"
+    ]
+  },
+  {
+    "id": "b-seeds-co",
+    "name": "B. Seeds Co.",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "AH/PAN/JAM x Sativa",
+      "Bro Og K9 x DC",
+      "Cannalope Dog",
+      "Chocodog Lab DC",
+      "Cinderella's Dog",
+      "Cream Kush",
+      "Durban the Dog",
+      "Exodus Dog",
+      "Choco Dog",
+      "CnlpGonzo WhOgV2 x DC"
+    ]
+  },
+  {
+    "id": "scapegoat-genetics",
+    "name": "Scapegoat Genetics",
+    "strain_count": 50,
+    "award_count": 0,
+    "notable_strains": [
+      "Black Cherry Cheesecake Cookies",
+      "Blue Dream x Black Cherry Cheesecake Cookies",
+      "Blue Guavz",
+      "Blue Mintz",
+      "Candied Crepes",
+      "Candy Belts",
+      "Carwashed",
+      "Cherry Cheesecake Fritter",
+      "Chihuahuah",
+      "Clowns Cookies"
+    ]
+  },
+  {
+    "id": "dragons-flame-genetics",
+    "name": "Dragons Flame Genetics",
+    "strain_count": 49,
+    "award_count": 1,
+    "notable_strains": [
+      "Moonshine Haze",
+      "Bangi Haze F9",
+      "Bangi Haze IBL",
+      "Bangin Ticket",
+      "Blackberry Moonshine",
+      "BlackBerry Ticket",
+      "Blueberry Dragon Cheese",
+      "Celestial Dragon",
+      "Charlie’s Stank Ass",
+      "Congolese Ticket"
+    ]
+  },
+  {
+    "id": "b-c-bud-depot",
+    "name": "B.C. Bud Depot",
+    "strain_count": 49,
+    "award_count": 8,
+    "notable_strains": [
+      "Night Nurse",
+      "Animal Cookies",
+      "Bc Big Bud",
+      "Purple Afghani",
+      "Purple Buddha",
+      "Shiatsu Kush",
+      "Bc Sweet Tooth",
+      "Sweet Island Skunk",
+      "BC Arctic Sun",
+      "BC Blueberry"
+    ]
+  },
+  {
+    "id": "zambeza",
+    "name": "Zambeza",
+    "strain_count": 49,
+    "award_count": 1,
+    "notable_strains": [
+      "Power Kush",
+      "Skunk",
+      "AK Passion",
+      "Amnesia Haze XL",
+      "Amnesia Haze XL Automatic",
+      "Big Bud XXL Automatic",
+      "Blue Brilliant",
+      "Blue Invader",
+      "Blue Spider",
+      "Blueberry Cheese Automatic"
+    ]
+  },
+  {
+    "id": "pagoda-seeds",
+    "name": "Pagoda Seeds",
+    "strain_count": 49,
+    "award_count": 0,
+    "notable_strains": [
+      "Bandaid Haze #7 x Watermelon Hashplant x H.O.D",
+      "Bandaid Haze 3.0 x H.O.D.",
+      "Beltz 3.0 x Zsunami x Durban Sherbet",
+      "Black Truffle x Zsunami",
+      "BSHW x Hindu Kush x Angel Wing Afghan Hashplant",
+      "Cap Junky x Zsunami",
+      "Chemstomper x Durban Sherbet",
+      "Cherry Lime Runtz x Black Lime Reserve",
+      "CP Urkle Hindu Kabul x Durban Sherbet",
+      "Creme Brulee x Black Lime Reserve"
+    ]
+  },
+  {
+    "id": "flash-seeds",
+    "name": "Flash Seeds",
+    "strain_count": 48,
+    "award_count": 0,
+    "notable_strains": [
+      "Narnia",
+      "Super Green Crack",
+      "Strawberry Mango Haze",
+      "Tutti Frutti",
+      "Ace",
+      "Amazing Cherry",
+      "Annapurna",
+      "Black Berry Haze",
+      "Black Samba",
+      "Bubble Crack"
+    ]
+  },
+  {
+    "id": "glk-genetics",
+    "name": "GLK Genetics",
+    "strain_count": 48,
+    "award_count": 1,
+    "notable_strains": [
+      "Blue Bayou",
+      "After Blue",
+      "After Sour",
+      "Akami",
+      "Banana Split",
+      "Biscotti Fraiche",
+      "Blue Melon",
+      "Blue Runtz",
+      "Blue Z",
+      "Bronze 56k"
+    ]
+  },
+  {
+    "id": "world-of-seeds-bank",
+    "name": "World of Seeds Bank",
+    "strain_count": 47,
+    "award_count": 0,
+    "notable_strains": [
+      "Brazil Amazonia",
+      "Kilimanjaro",
+      "Star 47",
+      "Mazar Kush",
+      "Strawberry Blue",
+      "Wild Thailand",
+      "Afgan Kush",
+      "Afgan Kush Ryder",
+      "Afgan Kush Special",
+      "Afgan Kush x Black Domina"
+    ]
+  },
+  {
+    "id": "humboldt-seed-organisation",
+    "name": "Humboldt Seed Organisation",
+    "strain_count": 47,
+    "award_count": 1,
+    "notable_strains": [
+      "Bubbas Gift",
+      "Sapphire Scout",
+      "Purple Trainwreck",
+      "Sour Blueberry",
+      "ASD x SFV 2.0",
+      "Banana Sapphire",
+      "Berry Melange",
+      "Black D.O.G.",
+      "Blue Dream CBD",
+      "Chem-Bomb Auto"
+    ]
+  },
+  {
+    "id": "bask-triangle-farms",
+    "name": "Bask Triangle Farms",
+    "strain_count": 47,
+    "award_count": 0,
+    "notable_strains": [
+      "Akelarre",
+      "Amuma",
+      "Banana Izozki",
+      "Banana Monster",
+      "Banana Zplitter",
+      "Bask Planet",
+      "Bask Splitter",
+      "Bask Triangle",
+      "Bitabi",
+      "Cherrizozki"
+    ]
+  },
+  {
+    "id": "enlightened-genetics",
+    "name": "Enlightened Genetics",
+    "strain_count": 47,
+    "award_count": 0,
+    "notable_strains": [
+      "Blunami",
+      "Champagne Skies",
+      "Cherry Cream Float",
+      "Citrus Tsunami",
+      "Cobalt Cookies",
+      "Coma Cookies",
+      "Doomsday",
+      "Dutch Cookies",
+      "Enlightened Cookies",
+      "Banana Cream Cookies"
+    ]
+  },
+  {
+    "id": "dr-krippling-seeds",
+    "name": "Dr. Krippling Seeds",
+    "strain_count": 46,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Cow",
+      "Blue Kripple",
+      "Ape-Zkit Auto",
+      "Blue Tease Auto",
+      "Break-Neck Larry",
+      "Bud Bud Bling Tingz",
+      "Buzz Light Gear",
+      "Candy Mintz",
+      "Chocolate Orange Auto",
+      "D.K. Won"
+    ]
+  },
+  {
+    "id": "bred-by-42",
+    "name": "Bred by 42",
+    "strain_count": 46,
+    "award_count": 0,
+    "notable_strains": [
+      "Abominable Cookie Monster",
+      "Abominable Titans",
+      "Ashy Crack",
+      "B.S.E. x G-13",
+      "B.S.E. x Lemon Fire OG",
+      "Black Berry OG x Golden Lemons",
+      "Black Cherry Pound Cake",
+      "Black Lime Reserve x Golden Lemons",
+      "Bubble Butt",
+      "Bubble Gutz"
+    ]
+  },
+  {
+    "id": "green-bodhi",
+    "name": "Green Bodhi",
+    "strain_count": 46,
+    "award_count": 0,
+    "notable_strains": [
+      "AC-DC 78",
+      "ACDC x ACDC 78",
+      "Affie Dogwalker",
+      "Affie OG",
+      "AJSD x OG Lights",
+      "AJSD x Sour OG",
+      "Biscotti x LarryOG / PurpleUnicorn F3",
+      "Black Triangle x OG Lights",
+      "Cannatonic x AC/DC 78",
+      "Chemdog x Sour OG"
+    ]
+  },
+  {
+    "id": "parabellum-genetics",
+    "name": "Parabellum Genetics",
+    "strain_count": 46,
+    "award_count": 0,
+    "notable_strains": [
+      "Alabama Wildfire",
+      "Alien Apple Fritter",
+      "Angry Garlic Cookies",
+      "Apple Bottom",
+      "Back Wind",
+      "Candied Garlic",
+      "Cornbread Wedding Cake",
+      "Crimson Tide Cookies",
+      "Dead Mints",
+      "Death Mints"
+    ]
+  },
+  {
+    "id": "aficionado-seed-collection",
+    "name": "Aficionado Seed Collection",
+    "strain_count": 46,
+    "award_count": 1,
+    "notable_strains": [
+      "Alderpoint Sour Diesel",
+      "AMG Sour",
+      "Black Lime",
+      "Candyshop",
+      "Chemdawg Special Reserve",
+      "Cherry Noir",
+      "Cherry Private Stock",
+      "Crème Brûlée",
+      "Creme De Menthe",
+      "Dracoz"
+    ]
+  },
+  {
+    "id": "treeology-genetics",
+    "name": "Treeology Genetics",
+    "strain_count": 46,
+    "award_count": 0,
+    "notable_strains": [
+      "Atlantis",
+      "Berserk WFA",
+      "Berserk WFA x Iris",
+      "Black TC",
+      "Blasphemy",
+      "Blue Fuck Your Day Dream Up",
+      "Blue Fuck Your Day Dream Up bx",
+      "Cookie Cutter Larry",
+      "Devine Valley OG",
+      "Disasta OG"
+    ]
+  },
+  {
+    "id": "annunaki-genetics",
+    "name": "Annunaki Genetics",
+    "strain_count": 45,
+    "award_count": 2,
+    "notable_strains": [
+      "Sour Pineapple",
+      "Bewilderbeast",
+      "Cherry Sprite",
+      "Comfort Zone",
+      "Cream Soda",
+      "Divine Spirit",
+      "Double Take",
+      "Dream Come True",
+      "Ducksfoot Bx",
+      "Dutch Soda"
+    ]
+  },
+  {
+    "id": "blue-bloods-grow",
+    "name": "Blue Bloods Grow",
+    "strain_count": 45,
+    "award_count": 0,
+    "notable_strains": [
+      "Chaminade",
+      "Commando",
+      "Crimson Dynamo",
+      "Crostata Di Frutta",
+      "Daylight",
+      "Deluxe 592",
+      "Dolly Dagger",
+      "Durban 592",
+      "Eight Circuit",
+      "Haze 592"
+    ]
+  },
+  {
+    "id": "black-tuna",
+    "name": "Black Tuna",
+    "strain_count": 44,
+    "award_count": 0,
+    "notable_strains": [
+      "Açaí",
+      "Açaí",
+      "Alacrán",
+      "Aliento de Dragón",
+      "Bloodsport",
+      "Cabernet Sauvignon",
+      "Caiman",
+      "Cerezaz",
+      "Citrus Limonia",
+      "Electroshocker"
+    ]
+  },
+  {
+    "id": "bloom-seed-co",
+    "name": "Bloom Seed Co",
+    "strain_count": 44,
+    "award_count": 0,
+    "notable_strains": [
+      "Amalfi Coast",
+      "Big Bagg",
+      "Black Maple",
+      "Candy Fumez",
+      "Candy Fumez F2",
+      "Candy Matterz",
+      "Candy Payton",
+      "Cognac Black",
+      "Dive Bomb",
+      "Dulce BX"
+    ]
+  },
+  {
+    "id": "jungle-boys",
+    "name": "Jungle Boys",
+    "strain_count": 44,
+    "award_count": 0,
+    "notable_strains": [
+      "Bakers Man",
+      "Cochino x Gator Breath",
+      "Coma x Gator Breath",
+      "Creamsicle",
+      "Beach Cake",
+      "Beach Crasher",
+      "Divorce Cake",
+      "Hot Cakes",
+      "Junglato",
+      "Jungle Breath"
+    ]
+  },
+  {
+    "id": "sunken-treasure-seeds",
+    "name": "Sunken Treasure Seeds",
+    "strain_count": 43,
+    "award_count": 0,
+    "notable_strains": [
+      "Dragons Breath",
+      "Buttz to Runtz",
+      "Cake Stomper",
+      "Captain Hooks Cookies",
+      "Banana OZ",
+      "Dosidos Stomper",
+      "Heartbreaker",
+      "High Ball",
+      "High MAC",
+      "High Tower"
+    ]
+  },
+  {
+    "id": "sagarmatha-seeds",
+    "name": "Sagarmatha Seeds",
+    "strain_count": 43,
+    "award_count": 2,
+    "notable_strains": [
+      "Strawberry Fields",
+      "Purple Pinecone",
+      "A-1 Haze",
+      "Black Budha",
+      "Black Domina Auto",
+      "Blue Thunder",
+      "Blueberry Bud",
+      "Cheez Wreck",
+      "Double Diesel Ryder",
+      "DoubleBubbleBerry"
+    ]
+  },
+  {
+    "id": "copycat-genetix",
+    "name": "Copycat Genetix",
+    "strain_count": 43,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Tropicana",
+      "Blue Berry Big Stuff",
+      "Blue Berry Sprinklez",
+      "Cherry Inferno S1",
+      "Chocolate Chip S1",
+      "Cotton Candy Crunch",
+      "Cotton Candy Runtz",
+      "Cross Road Chem F2",
+      "Dr. Big Sleep",
+      "Dr. Sleep"
+    ]
+  },
+  {
+    "id": "g13-labs",
+    "name": "G13 Labs",
+    "strain_count": 42,
+    "award_count": 3,
+    "notable_strains": [
+      "Blue Venom",
+      "Blue Og",
+      "Sour Candy",
+      "Royal Kush",
+      "White Lavender",
+      "Pineapple Express",
+      "Super Skunk",
+      "Raw Diesel",
+      "Pineapple Express #2",
+      "Auto Berry"
+    ]
+  },
+  {
+    "id": "thunderfudge",
+    "name": "Thunderfudge",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Strawberry Lemonade",
+      "Black Fire Alien Strawberry",
+      "Chemmunication Breakdown",
+      "Couch Slouch",
+      "Countrytime Kush",
+      "Dawg Fighter x Super Lemon Haze BX1",
+      "Durban Retriever",
+      "Hayabusa",
+      "Joe Boxer",
+      "King of Rock"
+    ]
+  },
+  {
+    "id": "anomaly-seeds",
+    "name": "Anomaly Seeds",
+    "strain_count": 42,
+    "award_count": 1,
+    "notable_strains": [
+      "Pink Panther",
+      "Bearwalker",
+      "Berried Treasure",
+      "Black & Bleu",
+      "Blue Brindle",
+      "Coolaid Pie",
+      "Cosmic Berry Kush",
+      "Cripps Pink",
+      "D.B. Cooper",
+      "D.b. Treasure"
+    ]
+  },
+  {
+    "id": "happy-dreams-genetics",
+    "name": "Happy Dreams Genetics",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Ajo Blanco",
+      "Apple Custard",
+      "Apple Frosting",
+      "Apricot Tropicanna",
+      "Banana Burger",
+      "Bling Cheesecake",
+      "Blueberry MAC Muffin",
+      "Candied Grapefruit",
+      "Cherrillicious",
+      "Cranberry Z-Bomb"
+    ]
+  },
+  {
+    "id": "lovin-in-her-eyes",
+    "name": "Lovin' in Her Eyes",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Alligator Wine",
+      "Banana Ice Pop",
+      "Blueberry Buzzana",
+      "Blueberry Rose",
+      "Boardwalk Bubba",
+      "Cajun Mints",
+      "Cajun Moon",
+      "Cajun Moon BX",
+      "Cajun Quake",
+      "Crimson Fire"
+    ]
+  },
+  {
+    "id": "green-wolf-genetics",
+    "name": "Green Wolf Genetics",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Bottoms",
+      "Apple Cider",
+      "Apple Zeus",
+      "Calypso Candy",
+      "Cherry Wolf",
+      "Concrete Colada",
+      "Cowboy Breath",
+      "Elmer'z Runtz",
+      "Banana Queen",
+      "Hot Pebbles"
+    ]
+  },
+  {
+    "id": "perfect-tree",
+    "name": "Perfect Tree",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Arctic Cherries",
+      "Baked in Paris",
+      "Banzaï",
+      "Bingsu",
+      "Bloody Kumbawa",
+      "Blue Peach",
+      "Capri Zun",
+      "Chantilly",
+      "Cherry Crisp",
+      "Cherrymosa"
+    ]
+  },
+  {
+    "id": "old-school-genetics",
+    "name": "Old School Genetics",
+    "strain_count": 42,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana & Cheese",
+      "Banana Cheesecake",
+      "Banana Gushers",
+      "Banana Haze",
+      "Banana Jungle",
+      "Banana Kush Mints",
+      "Bananapples",
+      "Blue Caramel",
+      "Blue D#5",
+      "Blue Grape Fuel"
+    ]
+  },
+  {
+    "id": "love-genetics",
+    "name": "Love Genetics",
+    "strain_count": 41,
+    "award_count": 0,
+    "notable_strains": [
+      "Pineapple Sage",
+      "Holy Ghost",
+      "Elderberry Kush",
+      "Manna",
+      "Burnin’ Love",
+      "Butterfly",
+      "Cali Lavender",
+      "Certified 20",
+      "Chocolate Dreams",
+      "City Blues"
+    ]
+  },
+  {
+    "id": "the-grateful-seeds",
+    "name": "The Grateful Seeds",
+    "strain_count": 41,
+    "award_count": 0,
+    "notable_strains": [
+      "Electric Kool Aid",
+      "Banana Gelee",
+      "Blessed By Banana",
+      "Bloowrange",
+      "Bro Science",
+      "Electric Koolaid",
+      "Barbara's Pie",
+      "Boobies",
+      "Calypso Fruit",
+      "Dirty Joy"
+    ]
+  },
+  {
+    "id": "7-east-genetics",
+    "name": "7 East Genetics",
+    "strain_count": 41,
+    "award_count": 1,
+    "notable_strains": [
+      "Pineapple Punch",
+      "Alien Dragon",
+      "Black Beauty",
+      "BlueBerry Dragon Fire",
+      "Blurryface",
+      "Breath of Green Dragon",
+      "CBD Dragon",
+      "CBD Panties",
+      "Cherry Popper",
+      "Cluster Cookies"
+    ]
+  },
+  {
+    "id": "alchemy-genetics",
+    "name": "Alchemy Genetics",
+    "strain_count": 41,
+    "award_count": 0,
+    "notable_strains": [
+      "Caviar",
+      "Banana Cream Cake",
+      "Banana Dosi",
+      "Banana Mints",
+      "Banana Pez",
+      "Banana Poison Cookies",
+      "Bangerang",
+      "Bitchslap",
+      "Cyclonez",
+      "Dessert Mints"
+    ]
+  },
+  {
+    "id": "the-kushbrothers-seeds",
+    "name": "The KushBrothers Seeds",
+    "strain_count": 41,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple & Banana",
+      "Banana Cornet",
+      "Burger Brother",
+      "Cerecita #89",
+      "Cheese Cake Cookies",
+      "Cheetos Mints",
+      "Cherry Cream",
+      "Cherry G",
+      "Confidencial Medicine",
+      "Confidencial OG"
+    ]
+  },
+  {
+    "id": "positronics",
+    "name": "Positronics",
+    "strain_count": 40,
+    "award_count": 7,
+    "notable_strains": [
+      "Critical 47",
+      "Afghan Express",
+      "Auto Somango #47",
+      "Caramelice",
+      "CBD + Black Widow",
+      "CBD + Critical #47",
+      "CBD+ Caramelice",
+      "CBD+ Jack Diesel",
+      "Chizpa",
+      "Claustrum"
+    ]
+  },
+  {
+    "id": "unicorn-boys-genetics",
+    "name": "Unicorn Boys Genetics",
+    "strain_count": 40,
+    "award_count": 0,
+    "notable_strains": [
+      "Sherkle",
+      "Black Sherbet Punch",
+      "Blue Beast",
+      "Blue Freeze Guerilla",
+      "Champagne Fire Mints",
+      "Critical Sticky Mango",
+      "Death Lemon",
+      "Crystal Cookies Auto",
+      "Hot Durban Glue",
+      "Mad Glueberry Skunk"
+    ]
+  },
+  {
+    "id": "strait-a-genetics",
+    "name": "Strait A Genetics",
+    "strain_count": 40,
+    "award_count": 0,
+    "notable_strains": [
+      "Amazing Fruit",
+      "Blue Cherry Banana",
+      "Blue Cherry Cookies",
+      "Blue Cherry Headband",
+      "Blue Cherry Kush Breath",
+      "Blue Cherry Pebbles",
+      "Blue Cherry Sherb",
+      "Blue Chunk",
+      "Blue Ice City",
+      "Bluetopia"
+    ]
+  },
+  {
+    "id": "bsf-seeds",
+    "name": "BSF Seeds",
+    "strain_count": 39,
+    "award_count": 0,
+    "notable_strains": [
+      "Orange Blossom",
+      "White Gorilla",
+      "AK XXL Auto",
+      "Amnesia Glue",
+      "Amnesia XXL Auto",
+      "Auto Tangie XXL",
+      "Black Dom XXL Auto",
+      "Bubba Cookies",
+      "Choco Cream",
+      "Critical +2"
+    ]
+  },
+  {
+    "id": "nerds-genetics",
+    "name": "Nerds Genetics",
+    "strain_count": 39,
+    "award_count": 0,
+    "notable_strains": [
+      "Day Tripper",
+      "Aretha",
+      "Back Nine",
+      "Blazing Sword",
+      "Boss Banner",
+      "BrrrBerry",
+      "Candy Flip",
+      "Cognitive Liberty",
+      "Colorado Meds",
+      "Double Cup"
+    ]
+  },
+  {
+    "id": "zenseeds",
+    "name": "Zenseeds",
+    "strain_count": 39,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Erdpurt",
+      "AmnesiaHaze x Arne",
+      "Arne",
+      "Arne's Amnesia Chunk",
+      "Arne's Balls",
+      "Arne's Cheese",
+      "Arne's Deep Passion",
+      "Arne's Forgetful Snowdog",
+      "Arne's Hash Plant",
+      "Arne's Mighty Haze"
+    ]
+  },
+  {
+    "id": "massive-seeds",
+    "name": "Massive Seeds",
+    "strain_count": 39,
+    "award_count": 0,
+    "notable_strains": [
+      "Black Pomegranate",
+      "Black Tropegranate",
+      "Chem 541",
+      "Chem 541 2.0",
+      "Donnie’s Smash Burger",
+      "Durban Pomegranate",
+      "Durban Tropegranate",
+      "Eclipsed",
+      "Elfstone",
+      "JOG"
+    ]
+  },
+  {
+    "id": "ocean-grown-seeds",
+    "name": "Ocean Grown Seeds",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "B Witched",
+      "Vader Og",
+      "Alien Rift",
+      "Jawa Pie",
+      "Astro Chimp",
+      "Black Cauldron",
+      "Cthulhu",
+      "Dark Helmet",
+      "Dark Plasma",
+      "Dragon's Breath"
+    ]
+  },
+  {
+    "id": "sterquiliniis-seed-supply",
+    "name": "Sterquiliniis Seed Supply",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Ape Shit",
+      "Alligator Alley",
+      "Audrey 2",
+      "Believe It Or Not",
+      "Black Caiman",
+      "Blackberry Newtons",
+      "California Dreams",
+      "Cuba Libre",
+      "Dark & Stormy",
+      "Delicious Dark Crack"
+    ]
+  },
+  {
+    "id": "motarebel",
+    "name": "Motarebel",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Molokai Frost",
+      "Blockhead",
+      "Baked Strawberry Ghash",
+      "Blue Kronic",
+      "Bubba O",
+      "Cherry Squares",
+      "Cherry Widow",
+      "Cutie Pie",
+      "DreadHead",
+      "Bear"
+    ]
+  },
+  {
+    "id": "mtg-seeds",
+    "name": "MTG Seeds",
+    "strain_count": 38,
+    "award_count": 1,
+    "notable_strains": [
+      "Orange Creamsicle",
+      "Turbo Mind Warp",
+      "Afghan Sour Kush",
+      "B4",
+      "Orange Turbo",
+      "Cosmic Collision",
+      "Space Monster",
+      "Bb King",
+      "X Tra Chz",
+      "C.B.Diesel"
+    ]
+  },
+  {
+    "id": "ch9-female-seeds",
+    "name": "CH9 Female Seeds",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Humboldt",
+      "Tangerine",
+      "White",
+      "Blue Lemon Thai",
+      "Afghan Haze 33",
+      "Afghani Milk",
+      "Auto Smokey",
+      "Bubba Kush 33",
+      "California",
+      "Climax Autoflower"
+    ]
+  },
+  {
+    "id": "the-seed-bank",
+    "name": "The Seed Bank",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Silver Pearl",
+      "Purple Skunk",
+      "Afghani No.1",
+      "Afghani (New Mexico) / Jamaican F1 Hybrid",
+      "Afghani (New Mexico) / Thai F1 Hybrid",
+      "Early Pearl Improved",
+      "Early Pearl x Mazar I Sharif",
+      "Early Pearl x Ozoneya 4 Way",
+      "Early Skunk SK1.EP.EP",
+      "Ed's PEHT"
+    ]
+  },
+  {
+    "id": "real-gorilla-seeds",
+    "name": "Real Gorilla Seeds",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Affiedaze",
+      "Auto Blue-Tooth",
+      "Auto Critical Amnesia",
+      "Auto Lemonade OG",
+      "Auto Purple Affie",
+      "Auto Real Gorill4",
+      "Auto Sour D",
+      "Auto Tangie",
+      "Auto Whitey Freeze",
+      "DFG"
+    ]
+  },
+  {
+    "id": "seeds66",
+    "name": "Seeds66",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Auto",
+      "AK59",
+      "Amnesia Lemon Fast Version",
+      "Black Jack Herer Auto",
+      "Bubba Kush Auto",
+      "Bubble G",
+      "Bubble G Auto",
+      "Candyland Peyote",
+      "Carmagnola CBD",
+      "CBD Cheese Auto"
+    ]
+  },
+  {
+    "id": "oni-seed-co",
+    "name": "Oni Seed Co",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Peach",
+      "Beach Grapes",
+      "Beach Wedding",
+      "Bop Gun",
+      "Cookies N Dubb",
+      "Dubb Breath",
+      "Honey Bunny",
+      "Military Chocolate",
+      "Papaya Cake",
+      "Papaya Sorbet"
+    ]
+  },
+  {
+    "id": "motherland-genetics",
+    "name": "Motherland Genetics",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghanistan Kush",
+      "Agent Garlic",
+      "Automatic Black Cherry Kush",
+      "Automatic Cheese",
+      "Automatic Durban Cookies Kush",
+      "Black Cherry Ice Cream",
+      "Black Cherry Punch x White Giant",
+      "Cherry Garcia x White Giant",
+      "Choc and Cheese",
+      "Chocolate Poison"
+    ]
+  },
+  {
+    "id": "gibbskutz-genetics",
+    "name": "GibbsKutz Genetics",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "All About My Mom",
+      "Ballsweat",
+      "Banner’s New Profession",
+      "Calling Dr.Irving",
+      "Cherry Dream Meeting",
+      "Cherry Gorilla X Ice Cream Dream",
+      "Cherry Skunk Plushie",
+      "Cinnamon For Flavor",
+      "Conrad’s Prodigy",
+      "Corner Store Circus"
+    ]
+  },
+  {
+    "id": "sativa-hoarders-seed-co",
+    "name": "Sativa Hoarders Seed Co",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Ananaz",
+      "Baba Addis",
+      "Big Sur Oaxacan",
+      "Early Oaxacan",
+      "Ethiopian Haze",
+      "Baba Addis #2",
+      "Big Slush",
+      "Congonaut Haze",
+      "Ethiopian Tribute",
+      "Hashghan"
+    ]
+  },
+  {
+    "id": "gb-strains",
+    "name": "GB Strains",
+    "strain_count": 38,
+    "award_count": 1,
+    "notable_strains": [
+      "Auto Banana XL",
+      "Auto Blue Cheese CBD",
+      "Auto Critical GB XXL",
+      "Auto Gelatto",
+      "Auto Girl Scout Cookies",
+      "Auto Gold Pineapple",
+      "Auto Grand Daddy Purple XXL",
+      "Auto Maxi Gom",
+      "Auto Mimosa Cocktail XXL",
+      "Auto Original GB XXL"
+    ]
+  },
+  {
+    "id": "mr-hide-seeds",
+    "name": "Mr. Hide Seeds",
+    "strain_count": 38,
+    "award_count": 0,
+    "notable_strains": [
+      "Auto Black Banana",
+      "Auto Cream Mass",
+      "Auto Demon Mass",
+      "Auto Diesel Mass",
+      "Auto Kritical Red",
+      "Auto Mazar Blue",
+      "Auto Northern Cream",
+      "Auto Purple Rich CBD",
+      "Auto WinWeed CBD",
+      "Mr Original AK"
+    ]
+  },
+  {
+    "id": "norstar-genetics",
+    "name": "NorStar Genetics",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Bubba Fresh",
+      "Acdc",
+      "Alcatraz OG",
+      "Amnesia OG",
+      "Banana Cream Pie",
+      "Banana D",
+      "Banana Danish",
+      "Big City Lights",
+      "Bogota Breeze",
+      "Bushman Kush"
+    ]
+  },
+  {
+    "id": "cosmic-wisdom",
+    "name": "Cosmic Wisdom",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Hawaiian Haze",
+      "Banana Pepper",
+      "Banana Twerpz",
+      "Banana Twerpz 2",
+      "Blueberries N Bananas",
+      "Blueberry Twerpz",
+      "Cosmic Afghani",
+      "Coville Blueberry",
+      "Durbana",
+      "Enchanted Runtz"
+    ]
+  },
+  {
+    "id": "aztech-genetics",
+    "name": "Aztech Genetics",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Ammi Automatic",
+      "Ammi Haze",
+      "Ashava Valley Cheese",
+      "AZtech Jack",
+      "AZtech Jack Auto",
+      "Babushka",
+      "Black Cherry Delight Auto",
+      "Alice Nicole",
+      "Apple Fritters",
+      "Apple Fritters Auto"
+    ]
+  },
+  {
+    "id": "victory-seeds",
+    "name": "Victory Seeds",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Amnesium",
+      "Auto AK 77V",
+      "Auto Amnesium",
+      "Auto Big Angel",
+      "Auto Blow Dream",
+      "Auto Bubblegum+ Pro",
+      "Auto Caramelino",
+      "Auto Chocodope",
+      "Auto Chronic Monster XXL",
+      "Auto Heaven"
+    ]
+  },
+  {
+    "id": "square-one-genetics",
+    "name": "Square One Genetics",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Jacked",
+      "Bag O' Dosi",
+      "BAG S1",
+      "Berries & Astringent Gas",
+      "Big League",
+      "Blue Dew",
+      "Blue Limonada",
+      "Blue Ocean",
+      "Brisker OG",
+      "Ocean Rosa"
+    ]
+  },
+  {
+    "id": "beleaf-cannabis",
+    "name": "Beleaf Cannabis",
+    "strain_count": 37,
+    "award_count": 0,
+    "notable_strains": [
+      "Chestah The Cheetah",
+      "Chimax",
+      "Chimera",
+      "Chimera #3",
+      "Chimera Breath",
+      "Cobra Chi",
+      "Dip N Stix",
+      "Disco Stix",
+      "Candied Truffles",
+      "Detective Buttersworth"
+    ]
+  },
+  {
+    "id": "atlas-seed",
+    "name": "Atlas Seed",
+    "strain_count": 36,
+    "award_count": 2,
+    "notable_strains": [
+      "Mendo Breath",
+      "Atlas Seed One",
+      "Banana Cream Sundae",
+      "Banana Nut Bread",
+      "Berry Gas Mask CBD Auto",
+      "Blue Dream Auto",
+      "Blue Dream SFT",
+      "Blueberry Swirl",
+      "Burger Breath",
+      "Cheetah Fat"
+    ]
+  },
+  {
+    "id": "therapy-seeds",
+    "name": "Therapy Seeds",
+    "strain_count": 36,
+    "award_count": 0,
+    "notable_strains": [
+      "Pink Kush",
+      "Alien Dawg",
+      "Deep Chunk",
+      "Bruce Lee",
+      "Chem Chip",
+      "Chispitika OG",
+      "Eleven Stonen",
+      "Jacaranda",
+      "Kripa",
+      "Kristofer"
+    ]
+  },
+  {
+    "id": "high-five-genetics",
+    "name": "High Five Genetics",
+    "strain_count": 36,
+    "award_count": 0,
+    "notable_strains": [
+      "Pineapple Og",
+      "Amadeus",
+      "Apple Stomper",
+      "Big Buzz",
+      "Blowjob",
+      "Blue Buddha OG",
+      "Chemderella 991",
+      "Cream Ball",
+      "D-Max",
+      "Bikini Kush"
+    ]
+  },
+  {
+    "id": "yetis-pheno",
+    "name": "Yetis Pheno",
+    "strain_count": 36,
+    "award_count": 0,
+    "notable_strains": [
+      "Abomination",
+      "Black Truffle",
+      "Citrus Ape Paste",
+      "Dragonsleeve 33",
+      "Durian Dragonfruit Sorbet",
+      "Eighty One OG",
+      "Bruce Waynes Boot",
+      "Detroit Metro Mintz",
+      "Jet Lag OG",
+      "Jungle Faygo F2"
+    ]
+  },
+  {
+    "id": "tramuntana-seeds",
+    "name": "Tramuntana Seeds",
+    "strain_count": 36,
+    "award_count": 0,
+    "notable_strains": [
+      "AK 47 x Larry OG",
+      "Animal Cookies x Larry OG",
+      "Biscotti x Purple Punch",
+      "Black Domina x Larry OG",
+      "Black Fruit",
+      "Cherry Cookies Mints",
+      "Cherry Mints x Purple Punch",
+      "Critical Mints",
+      "Critical x Larry OG",
+      "Critical Cherry"
+    ]
+  },
+  {
+    "id": "nbg-seed-co",
+    "name": "NBG Seed Co.",
+    "strain_count": 36,
+    "award_count": 0,
+    "notable_strains": [
+      "Andez Mint Cookies",
+      "Backhand",
+      "Billionaires Row",
+      "Bottom B*tch",
+      "C’Mon Now",
+      "Cathouse",
+      "Cry Baby Kush",
+      "Dessert Breath",
+      "Deuce n a Quarter",
+      "Airwavez"
+    ]
+  },
+  {
+    "id": "capulator",
+    "name": "Capulator",
+    "strain_count": 36,
+    "award_count": 2,
+    "notable_strains": [
+      "Banana MAC",
+      "Big Buns",
+      "Big Chillz",
+      "Bootyclapper",
+      "Britneys Frozen Lemons",
+      "Burnie MAC",
+      "Chem Chillz",
+      "Cold in the D",
+      "Eastside Mac",
+      "Huggies"
+    ]
+  },
+  {
+    "id": "ministry-of-cannabis",
+    "name": "Ministry of Cannabis",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Carnival",
+      "African Spirit",
+      "Auto Blue Amnesia",
+      "Auto Blueberry Domina",
+      "Auto Cannabis Light",
+      "Auto CBD Star",
+      "Auto Cheese NL",
+      "Auto Ducci",
+      "Auto God's Glue",
+      "Auto Mandarin Haze"
+    ]
+  },
+  {
+    "id": "white-buffalo-seed-collective",
+    "name": "White Buffalo Seed Collective",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Malawi Haze",
+      "Africanna",
+      "Anu",
+      "Blue Pilgrim",
+      "C5 3/4 Haze",
+      "Calina Negra",
+      "Cherry Wine Haze",
+      "Citrus Chunk",
+      "Congo Creek Haze",
+      "Congo Haze 2023"
+    ]
+  },
+  {
+    "id": "fresh-coast-seed-company",
+    "name": "Fresh Coast Seed Company",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "ABAZABA",
+      "Acai OG",
+      "Big Pun",
+      "Burn Out",
+      "Butter Face",
+      "Butter Peelz",
+      "Double Butter F2",
+      "Electric Gorilla Butter",
+      "Entourage",
+      "Cheese Butter"
+    ]
+  },
+  {
+    "id": "puget-sound-seeds",
+    "name": "Puget Sound Seeds",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Unicorn",
+      "All Gassed Up",
+      "Blueberry Unicorn",
+      "Cosmic Glue F2",
+      "Dumbster Diver",
+      "Barrel Of Monkeys",
+      "Dirt Worm Dessert",
+      "Dutch Frost",
+      "Jungle Book Juice",
+      "Medellin Cherry"
+    ]
+  },
+  {
+    "id": "517-legend-seed-co",
+    "name": "517 Legend Seed Co",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Agent Frank",
+      "Alaskan Funk",
+      "Blue BullDoughzer",
+      "Blueberry Pancakes Bx1",
+      "Butane",
+      "Chronic Strawberry Kush",
+      "Doofy Bootz",
+      "Doubt Fire",
+      "Blissful Thunder",
+      "BluBonic Kronic"
+    ]
+  },
+  {
+    "id": "aficionado-french-connection",
+    "name": "Aficionado French Connection",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Amarock",
+      "Bellini",
+      "Bigaradine",
+      "Blue Hippo",
+      "Cantava",
+      "Cartier OG",
+      "Diesel Latte",
+      "Hollywood Ghost",
+      "Macha Latte",
+      "Maybach"
+    ]
+  },
+  {
+    "id": "socal-seed-collective",
+    "name": "SoCal Seed Collective",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "AToA",
+      "Black Dawg V2",
+      "California Dream'n",
+      "California Karma",
+      "ChemD",
+      "Da Chedda",
+      "Dirty Dawg",
+      "Double Platinum",
+      "Electric Banana",
+      "Epik Purple"
+    ]
+  },
+  {
+    "id": "the-fire-department",
+    "name": "The Fire Department",
+    "strain_count": 35,
+    "award_count": 0,
+    "notable_strains": [
+      "Berries and Cream",
+      "Bruce Wayne",
+      "Burberry",
+      "Coconut Cream",
+      "Coconut OG",
+      "Cream Puff",
+      "Dankenstein",
+      "Dead Dawg Walker",
+      "Demonic Possetion",
+      "Dolce & Gabbana"
+    ]
+  },
+  {
+    "id": "spliff-seeds",
+    "name": "Spliff Seeds",
+    "strain_count": 34,
+    "award_count": 3,
+    "notable_strains": [
+      "Moonwalker Kush",
+      "Snow White",
+      "Spliffs Strawberry",
+      "Bubblegun",
+      "Purple Berry Kush",
+      "Afghani Gold",
+      "Amnesiac",
+      "Blue Berry",
+      "Blue Dream Automatic",
+      "Blue Medi Kush"
+    ]
+  },
+  {
+    "id": "mzjill-genetics",
+    "name": "MzJill Genetics",
+    "strain_count": 34,
+    "award_count": 3,
+    "notable_strains": [
+      "Timewreck",
+      "Brian Berry Cough",
+      "Plushberry",
+      "Space Bomb",
+      "Agent Orange",
+      "Jillybean",
+      "The Flav",
+      "Black Dahlia",
+      "Brain Berry Honey Lemon",
+      "Brain Berry Honey Lime"
+    ]
+  },
+  {
+    "id": "savage-seed-collective",
+    "name": "Savage Seed Collective",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "AffyTaffy",
+      "Blueberry Durban",
+      "Blueberry Space Cadet",
+      "Cheese Louise",
+      "Cherry Clouds",
+      "Cryptic Kush",
+      "DosiDurb",
+      "Doughishii",
+      "Early Joi",
+      "Eazy Ryder"
+    ]
+  },
+  {
+    "id": "dominion-seed-company",
+    "name": "Dominion Seed Company",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "Airborne G13 x SSGH",
+      "Beefcake D",
+      "Burnout Chem",
+      "Deadband",
+      "Defcon 4",
+      "Delta Blues",
+      "Dominion Diesel",
+      "Dominion G",
+      "Dominion Skunk",
+      "Capital G"
+    ]
+  },
+  {
+    "id": "kalashnikov-seeds",
+    "name": "Kalashnikov Seeds",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "AK Kush",
+      "AK Skunk",
+      "Amnesia Molotov",
+      "Babushka Black Auto",
+      "Baikal Express",
+      "Big Altai Sativa Express",
+      "Blue Acid Auto",
+      "CBD Cake",
+      "AK Kush Express",
+      "Amur Giant Auto"
+    ]
+  },
+  {
+    "id": "the-plant-stable",
+    "name": "The Plant Stable",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "Artificial Dank",
+      "Bahama Butter",
+      "Caribbean Candy",
+      "Caribbean Vampire",
+      "Chocolate Reaper",
+      "Cowboy Candy",
+      "Cruella ZeVil",
+      "Debauchery",
+      "Panama Redwoodz",
+      "Pancake Daiquiri"
+    ]
+  },
+  {
+    "id": "3rd-coast-genetics",
+    "name": "3rd Coast Genetics",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "Baby Waves",
+      "Brain Waves",
+      "Butterfingaz",
+      "Buttermintz",
+      "Cadillac Rainbow",
+      "Charlevoix",
+      "Disco BallZ",
+      "Donny Most",
+      "Hydroxx",
+      "Mercury"
+    ]
+  },
+  {
+    "id": "smiling-tiger",
+    "name": "Smiling Tiger",
+    "strain_count": 34,
+    "award_count": 0,
+    "notable_strains": [
+      "Baked Peachez",
+      "Banana Thai",
+      "Burned Lemons",
+      "Chocolate Pudding",
+      "Devil's Hog",
+      "Devil's Skunk",
+      "Essential Fire",
+      "Happy Endings",
+      "Hell Berries",
+      "Holy Surfer"
+    ]
+  },
+  {
+    "id": "mr-nice-seedbank",
+    "name": "Mr Nice Seedbank",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "Medicine Man",
+      "Mango Haze",
+      "Afghan Haze",
+      "Critical Skunk",
+      "Nordle",
+      "Shark Shock",
+      "Ash",
+      "The Cure",
+      "Afghani Hawaiian",
+      "Angel Heart"
+    ]
+  },
+  {
+    "id": "emerald-triangle",
+    "name": "Emerald Triangle",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "Sour Lemon Og",
+      "Emerald Jack",
+      "Super Sour Og",
+      "Blueberry Headband",
+      "Cherry Og",
+      "Trinity Kush",
+      "Bubba 76",
+      "Black Berry OG",
+      "Blueberry Gelato",
+      "Blueberry Headband Auto"
+    ]
+  },
+  {
+    "id": "female-seeds",
+    "name": "Female Seeds",
+    "strain_count": 33,
+    "award_count": 1,
+    "notable_strains": [
+      "Purple Power",
+      "Auto Haze",
+      "Auto NL",
+      "Auto Speed Bud",
+      "Auto White Widow x Big Bud",
+      "Automatic Jack",
+      "BIG Grapefruit",
+      "Blueberry Cheesecake Auto",
+      "BubbleGummer",
+      "C99 Hybrid"
+    ]
+  },
+  {
+    "id": "vision-seeds",
+    "name": "Vision Seeds",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "AK-49 Auto",
+      "Amnesia X Buddha Kush",
+      "Bona Dea",
+      "Brainkiller Haze",
+      "Bubble Yum",
+      "Caramel Monster",
+      "Crystal Queen",
+      "Dark Star x AK-49",
+      "Delhi Cheese",
+      "Doctor Jamaica"
+    ]
+  },
+  {
+    "id": "lucky-13-seed-company",
+    "name": "Lucky 13 Seed Company",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "Amber Girl",
+      "Angel ’98",
+      "Big Kahuna Burger",
+      "Blood, Milk, & Sky",
+      "Deep 6ix",
+      "Deep Kill",
+      "Critical Queen",
+      "Hawaiian Puff",
+      "Himalayan Blue Hash",
+      "Jamaican Vacation"
+    ]
+  },
+  {
+    "id": "808-genetics",
+    "name": "808 Genetics",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "Baffled",
+      "Butter Barn",
+      "Cherry Fume",
+      "Cherry Kush Mints",
+      "Cherry Ripper",
+      "Circus Animal",
+      "Circus Clown",
+      "Crippy",
+      "Criptonite",
+      "Dinosaur Cake"
+    ]
+  },
+  {
+    "id": "prairie-state-genetix",
+    "name": "Prairie State Genetix",
+    "strain_count": 33,
+    "award_count": 0,
+    "notable_strains": [
+      "Benvolio",
+      "Big Piff Dipper",
+      "Blood Bath & Beyond",
+      "Blue Blood Bath",
+      "Blue Heaven's Gate",
+      "Car Sex",
+      "Charlie's Angel",
+      "Bath Bomb Boogie",
+      "Heaven's Gate #39",
+      "Honky Tonk Mokulele"
+    ]
+  },
+  {
+    "id": "medical-seeds-co",
+    "name": "Medical Seeds Co.",
+    "strain_count": 32,
+    "award_count": 1,
+    "notable_strains": [
+      "Y Griega",
+      "Malakoff",
+      "Banana Purp",
+      "Blue Hell Auto",
+      "Bluehell CBD",
+      "Canadian Kush",
+      "Canadian Kush 2.0",
+      "Channel+",
+      "Cookies Purple Punch",
+      "Cookies Sherbert Auto"
+    ]
+  },
+  {
+    "id": "lucky-dog-seed-co",
+    "name": "Lucky Dog Seed Co",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Chemnesia",
+      "Catahoula",
+      "Chasca",
+      "Chem Cornelian",
+      "Chem Flyer",
+      "Chem Fuego",
+      "Chem Krush",
+      "Chem91 Bx2",
+      "Chemborne 13",
+      "Chemdog 91 Bx"
+    ]
+  },
+  {
+    "id": "bomb-seeds",
+    "name": "Bomb Seeds",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Atomic",
+      "Cherry Bomb",
+      "Berry Bomb",
+      "Thc Bomb",
+      "Cluster Bomb",
+      "Auto Bomb",
+      "Baked Bomb",
+      "Baked Bomb Auto",
+      "Banana Bomb",
+      "Berry Bomb Auto"
+    ]
+  },
+  {
+    "id": "united-cannabis-seeds",
+    "name": "United Cannabis Seeds",
+    "strain_count": 32,
+    "award_count": 9,
+    "notable_strains": [
+      "Purple Urkle",
+      "Super Lemon Haze",
+      "Shishkaberry",
+      "Strawberry Cough",
+      "Platinum Cookies",
+      "Animal Gelato",
+      "Banana Kush Autoflower",
+      "Black Domina Autoflower",
+      "Black Jack Autoflower",
+      "Bruce Banner Autoflower"
+    ]
+  },
+  {
+    "id": "boneyard-seeds-norcal",
+    "name": "Boneyard Seeds Norcal",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "CBD",
+      "Abednego",
+      "Abusive Angel",
+      "Angel Berries",
+      "Angel's Sunset",
+      "Beer Drinkin Breath Stinkin Sniffin Glue",
+      "Bob’s Chetter",
+      "Bones OG",
+      "C.B.D.",
+      "El Veijo Del Norte"
+    ]
+  },
+  {
+    "id": "green-team-genetics",
+    "name": "Green Team Genetics",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "A’ La Mode",
+      "Banana Fruit Bound",
+      "Brute Fruit",
+      "Chembustion",
+      "Circus Peanuts",
+      "Cookie Pebbles",
+      "Cookie Pebbles OG",
+      "Dead Legend BX1",
+      "Death Rattle",
+      "Body Bag"
+    ]
+  },
+  {
+    "id": "kuntry-greenthumb",
+    "name": "Kuntry Greenthumb",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Af&#039;Kitty",
+      "Af'Kitty",
+      "Alpine Thunder",
+      "Big Kreamy",
+      "Big Michigan",
+      "Blueberry Trainwreck Bx1",
+      "Himalayan Blu",
+      "Kak-n-Kream",
+      "Khemmy Kim",
+      "Kuntry Gramma"
+    ]
+  },
+  {
+    "id": "root-orgin-seed-co",
+    "name": "Root Orgin Seed Co",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Affogato",
+      "Bacio Butter",
+      "Beech Nut",
+      "Blissful Kiss",
+      "Blood Orange Cookies",
+      "Boo Dream",
+      "Cinderella's Snack Platter",
+      "Citrus Delight",
+      "Cuban Missile Crisis",
+      "Daily Strawberry"
+    ]
+  },
+  {
+    "id": "heart-soil-seeds",
+    "name": "Heart & Soil Seeds",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Punch",
+      "Afghani Hindu Kush",
+      "Ayahuasca Queen",
+      "Candy Slab",
+      "Cassava Connection",
+      "Chem con Leche",
+      "Copper Sunset",
+      "Crema Roja",
+      "Daydream Genie",
+      "Emerald Rush"
+    ]
+  },
+  {
+    "id": "kickflip-genetics",
+    "name": "Kickflip Genetics",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Gorilla Pimp",
+      "Alien Sherb",
+      "Annette’s Honey Cocktail",
+      "Ares",
+      "Banana Cosmopolitan",
+      "Big Money",
+      "Boozy Hot Chocolate",
+      "Captain Crunch Muffin",
+      "Chi-Chi",
+      "Donutz"
+    ]
+  },
+  {
+    "id": "trichome-orchards",
+    "name": "Trichome Orchards",
+    "strain_count": 32,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Of my I",
+      "Blue City Queen",
+      "Bohemian BBQ",
+      "Bohemian Groove",
+      "Disco Inferno",
+      "Enkes Realm",
+      "Cherry Chimera",
+      "Desert Princess",
+      "Her Wicked Ways",
+      "Kaleidescope Eyes"
+    ]
+  },
+  {
+    "id": "swamp-boys-seeds",
+    "name": "Swamp Boys Seeds",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "Tina Danza",
+      "Apocalypto",
+      "Blue and Cream",
+      "Con Leche",
+      "Cortez The Killer",
+      "Cuban Linx",
+      "Bonesaw",
+      "Cherry Blossom Kush",
+      "Helen Back",
+      "Horace"
+    ]
+  },
+  {
+    "id": "303-seeds",
+    "name": "303 Seeds",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "Bear Dance",
+      "Monster Cookies",
+      "Biochem",
+      "Aspen Og",
+      "Ambulance",
+      "Apex Kush",
+      "Bio Diesel Bx2",
+      "Bio-Chem",
+      "Bio-Star",
+      "Break Dance"
+    ]
+  },
+  {
+    "id": "lite-seeds",
+    "name": "Élite Seeds",
+    "strain_count": 31,
+    "award_count": 1,
+    "notable_strains": [
+      "Critical Plus",
+      "Amnesia Haze Ultra CBD",
+      "Banana Joint",
+      "Bestial Skunk",
+      "Black Hole",
+      "Black Lemon",
+      "Blue Elite Indica",
+      "Blue Elite Sativa",
+      "Caprichosa Thai",
+      "Dark Rose Auto CBD"
+    ]
+  },
+  {
+    "id": "supercbdx",
+    "name": "SuperCBDx",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "AK47 x SCBDx",
+      "Amnesia Haze x SCBDx",
+      "Bama Yao x SCBDx",
+      "Black Kush x SCBDx",
+      "Blue Cheese x SCBDx",
+      "Blueberry Headband x SCBDx",
+      "Diesel x SCBDx",
+      "Emerald Jack x SCBDx",
+      "Black Critical x SCBDx",
+      "Cheese x SCBDx"
+    ]
+  },
+  {
+    "id": "supragenetics",
+    "name": "SupraGenetics",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "Bane Formula",
+      "Blood Orange Juice",
+      "Bubble Formula",
+      "Carnage Formula",
+      "Demonic Cake",
+      "Detonator",
+      "Jelly Haze",
+      "Kill Vampire",
+      "Majik Lemon Haze",
+      "Orange Cookiangle Kush"
+    ]
+  },
+  {
+    "id": "tonygreens-tortured-beans",
+    "name": "Tonygreens Tortured Beans",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "Barbecue Beef",
+      "Black Cateye Auto",
+      "Black Glue",
+      "Bog Breath",
+      "Bog OG",
+      "Bubble Head",
+      "Bubblehead Bx1",
+      "Casey Jones x The GG4 R.I.L",
+      "Deepchunk x Sour Bubble",
+      "Mortgage Lifter Fundraiser"
+    ]
+  },
+  {
+    "id": "bio-bomb-selections",
+    "name": "Bio Bomb Selections",
+    "strain_count": 31,
+    "award_count": 0,
+    "notable_strains": [
+      "Berry Earp",
+      "Blue Burnout",
+      "Bubba Blumese",
+      "Bubba Blumese x Cambodian Higland Sativa",
+      "Bubba's Miracle Tree",
+      "Candy Princess",
+      "Cherry Brandy",
+      "Commonwealth",
+      "Demon Fuel",
+      "Dozer"
+    ]
+  },
+  {
+    "id": "dungeons-vault-genetics",
+    "name": "Dungeons Vault Genetics",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Champagne",
+      "Brandywine",
+      "Atreyu",
+      "Bandits Brew",
+      "Chem Fusion",
+      "Chem n Cream",
+      "Cherry Moonshine",
+      "Citrus Farmer",
+      "Creme Royal",
+      "Detroit Hustle"
+    ]
+  },
+  {
+    "id": "noyes-boys-genetics",
+    "name": "Noyes Boys Genetics",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Noyes",
+      "Albino Skunk",
+      "Alienoyes Kush",
+      "Biscotti Rocks",
+      "Blueberry Fingers",
+      "Citronoyes Haze",
+      "Citrus Haze Breath",
+      "Citrus Rocks",
+      "Alien Rocks",
+      "Captain Noyes"
+    ]
+  },
+  {
+    "id": "tropical-seeds-company",
+    "name": "Tropical Seeds Company",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Afrokush",
+      "Bisho Purple",
+      "Ciskei",
+      "Cognition",
+      "Congo Pointe Noire",
+      "Congolese Kush",
+      "Dandy Dance",
+      "Double Congo",
+      "Durbakistan",
+      "Hazey High"
+    ]
+  },
+  {
+    "id": "mycotek",
+    "name": "Mycotek",
+    "strain_count": 30,
+    "award_count": 2,
+    "notable_strains": [
+      "After 8",
+      "Artificial Intelligence",
+      "Banana Moon Pie",
+      "Bear Claws",
+      "Butter Cookies",
+      "Chem Link",
+      "Chemhead OG",
+      "Chemodo Breath",
+      "Deer Breath",
+      "Deer Hunter"
+    ]
+  },
+  {
+    "id": "paisa-grow-seeds",
+    "name": "Paisa Grow Seeds",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Anaconda Auto",
+      "Banana Cake",
+      "Cayman Kush",
+      "Choco Cookies",
+      "Cinderella Cream",
+      "Colombian Fruit",
+      "Cookies And Weed",
+      "Cream Banger",
+      "Jaguar OG Auto",
+      "Jealousy"
+    ]
+  },
+  {
+    "id": "second-generation-genetics",
+    "name": "Second Generation Genetics",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Licorice",
+      "Blueberry 7UP",
+      "Bluemuda Triangle",
+      "Breath of Berry",
+      "Clown Royal",
+      "Coast Fork OG",
+      "Cookies Meets Sativa",
+      "Blue Ecstasy",
+      "Einstein’s Pipe",
+      "Key Lime Chem"
+    ]
+  },
+  {
+    "id": "the-agrarian-society",
+    "name": "The Agrarian Society",
+    "strain_count": 30,
+    "award_count": 1,
+    "notable_strains": [
+      "Blue Pop",
+      "Chemistry Set",
+      "Danimals",
+      "Disco Biscuits",
+      "Blue Party Hat",
+      "Holy Diver",
+      "Jungle Soirée",
+      "Kennedy Special",
+      "Mad Hatter",
+      "Moscow Mule"
+    ]
+  },
+  {
+    "id": "bulletproof-genetics",
+    "name": "Bulletproof Genetics",
+    "strain_count": 30,
+    "award_count": 0,
+    "notable_strains": [
+      "Breathalyzer",
+      "Candy Master StarDawg",
+      "Cold Stoned Chronic",
+      "Deep Fried Icecream",
+      "Deep Mac",
+      "Deep Rain",
+      "Dem Applez",
+      "BlueBerry Ice Pop",
+      "Deep Fried Twinkiez",
+      "Jungle Crunch Icecream"
+    ]
+  },
+  {
+    "id": "redeyed-genetics",
+    "name": "RedEyed Genetics",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Mt Rainier",
+      "Kobain Kush",
+      "Epoxy OG",
+      "Hawk Eye",
+      "Blue Barrel OG",
+      "Blueberry Iced Cream",
+      "Cherry Mafia",
+      "Dog Trap",
+      "Double Aurora Borealis",
+      "Elite Treat"
+    ]
+  },
+  {
+    "id": "garden-of-green",
+    "name": "Garden of Green",
+    "strain_count": 29,
+    "award_count": 8,
+    "notable_strains": [
+      "Kosher Kush",
+      "Amnesia Lemon Kush",
+      "Amnesia Lemon Pie",
+      "Blueberry Cookies Auto",
+      "Chemdog Millionaire Guava",
+      "Citrus Paridisi",
+      "Cookies N Cream Auto",
+      "Critcal XXL",
+      "Critical 2.0 Xl Auto",
+      "Critical Relief CBD"
+    ]
+  },
+  {
+    "id": "chef-s-genetix",
+    "name": "Chef's Genetix",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Candy",
+      "A Chef's Xmas",
+      "Assassin's Blood",
+      "Beni Imo Fritter",
+      "Byzantium X",
+      "Chef's Hard Lemonade",
+      "Chef's Majik",
+      "Chef Blasian",
+      "Chefs B Burried",
+      "Double Durban Gold"
+    ]
+  },
+  {
+    "id": "white-label",
+    "name": "White Label",
+    "strain_count": 29,
+    "award_count": 12,
+    "notable_strains": [
+      "Snow Ryder",
+      "White Haze",
+      "Sensi Star",
+      "AK 420",
+      "Amnesia White",
+      "Bleu Berries",
+      "Cali Orange Bud",
+      "Chemberries",
+      "Double Banana Kush",
+      "Kali Haze"
+    ]
+  },
+  {
+    "id": "lineage-genetics",
+    "name": "Lineage Genetics",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Strawberry Diesel",
+      "Black Alpha",
+      "Black Devils OG",
+      "Blue Fire",
+      "Candy Glue",
+      "Citrus Boom",
+      "Deluxe Orange",
+      "Devils Mango",
+      "Dreamy Widow",
+      "Banana Sherbet x Chocolate"
+    ]
+  },
+  {
+    "id": "ohms-seeds",
+    "name": "Ohms Seeds",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "A.T.M.",
+      "Bayou Sour",
+      "Big Mike",
+      "Candy ASS",
+      "Chemical Warfare",
+      "Dat ASS",
+      "Dip N Diesel",
+      "BDSM",
+      "Chad Special",
+      "Chad's Revenge"
+    ]
+  },
+  {
+    "id": "vip-seeds",
+    "name": "VIP Seeds",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Amnesia VIP",
+      "Atlant CBD",
+      "Auto Afghani",
+      "Auto Love Cheese",
+      "Auto Torpedo",
+      "Auto VIP CBD",
+      "Bahia de CBD",
+      "BL4QKFY4N Weed",
+      "Colombian Sweet",
+      "Critical VIP"
+    ]
+  },
+  {
+    "id": "shuga-seeds",
+    "name": "Shuga Seeds",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Animalosa",
+      "Breathlousy",
+      "Celosa",
+      "Dulce O Truco",
+      "Heladosa",
+      "Jabon",
+      "Kyoto",
+      "Modelo",
+      "Muffin-Boo",
+      "Neskuik"
+    ]
+  },
+  {
+    "id": "secret-society-seed-co",
+    "name": "Secret Society Seed Co",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Bay Watch",
+      "Buttery Nipple",
+      "Col’ Cocked",
+      "Cream Saver",
+      "Double Scoop",
+      "Downward Dog",
+      "Augmented OG",
+      "Canis Majoris",
+      "Celly OG",
+      "Krypto"
+    ]
+  },
+  {
+    "id": "grandiflora-genetics",
+    "name": "Grandiflora Genetics",
+    "strain_count": 29,
+    "award_count": 0,
+    "notable_strains": [
+      "Blu-Hemi",
+      "Blue Balls",
+      "Blue Soufle",
+      "BlueDou",
+      "Double Stuft",
+      "E85",
+      "Eastmont",
+      "Blue 16",
+      "E85 X Doggy Bag",
+      "Hectane"
+    ]
+  },
+  {
+    "id": "twisty-seeds",
+    "name": "Twisty Seeds",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "Alaskan Thunder Fuck",
+      "Alaskan TF x Skunk 1",
+      "Bruce Banner 7 x Creamsicle",
+      "Bubba HD",
+      "ChemDawg Guava x Creamsicle",
+      "Elephant Bud x ATF",
+      "Charlottes Cream",
+      "Cripple Creek Cookies",
+      "Esmeralda",
+      "Heavy Duty Querkle"
+    ]
+  },
+  {
+    "id": "off-grid-seed-co",
+    "name": "Off Grid Seed Co.",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "Hawaiian Purple Kush",
+      "Afghani/Bubbleberry",
+      "Aruba",
+      "Blue Cheese F2 x BMR",
+      "Blue Cheese x SSH",
+      "Blueberry Chem Temple",
+      "Blueberry Temple x Blueberry Hill",
+      "BOGbubble / Sour Lifesaver x Double White Cheese",
+      "Brains Choice F2",
+      "Bubba Kush x Chocolate Rain"
+    ]
+  },
+  {
+    "id": "fatbush-seeds",
+    "name": "Fatbush Seeds",
+    "strain_count": 28,
+    "award_count": 7,
+    "notable_strains": [
+      "Chronic",
+      "Juanita",
+      "Acapulco",
+      "AK47",
+      "AK47 x Black Domina",
+      "Amnesia Auto XXL",
+      "Brooklyn Diesel Autoflowering",
+      "Bruce Banner XL",
+      "Bushy Ryder Autoflowering",
+      "C. Banana Bread"
+    ]
+  },
+  {
+    "id": "realpotency",
+    "name": "Realpotency",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "X-Men",
+      "Banana Pop",
+      "Bizcochi",
+      "Butter Fuel",
+      "Butter Pop",
+      "Chem Rider",
+      "Broly Runtz",
+      "Dragon Ball",
+      "KemPIÑA OG",
+      "Killer Planet"
+    ]
+  },
+  {
+    "id": "offensive-selections",
+    "name": "Offensive Selections",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "A.I.",
+      "Angel's Rest",
+      "Black Market",
+      "Ciabatti",
+      "Comatose",
+      "Currency",
+      "Eastbound",
+      "Hellcat",
+      "Painted Lady",
+      "Playmate"
+    ]
+  },
+  {
+    "id": "the-real-seed-company",
+    "name": "The Real Seed Company",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghaan 90",
+      "Chitrali",
+      "Cider Kush (X18)",
+      "Congolese",
+      "Dakshinkali",
+      "Dolpa",
+      "Arcadian",
+      "Highland Thai",
+      "Hmong Hemp",
+      "Hopar Valley"
+    ]
+  },
+  {
+    "id": "cannafari",
+    "name": "Cannafari",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "Armata Ash",
+      "Blacath",
+      "Chamberful",
+      "Cherryade",
+      "Clouded Cosmet",
+      "Commodos",
+      "Commrade Treat",
+      "ComraCerma",
+      "Comrade Frag",
+      "Comrade Gold"
+    ]
+  },
+  {
+    "id": "grow-today-genetics",
+    "name": "Grow Today Genetics",
+    "strain_count": 28,
+    "award_count": 0,
+    "notable_strains": [
+      "Azteca OG",
+      "Based Boy Lotto",
+      "Beerus - God of Destruction",
+      "Diamond Truffles",
+      "Blue Martini",
+      "HYTZ",
+      "Melly’s Strain",
+      "Morado De Jalisco",
+      "Omega Shenron",
+      "Pineapple Flan"
+    ]
+  },
+  {
+    "id": "true-canna-genetics",
+    "name": "True Canna Genetics",
+    "strain_count": 28,
+    "award_count": 1,
+    "notable_strains": [
+      "Chemonade V2",
+      "Chemonade V3",
+      "Chemonchello",
+      "ChemValley Cooks",
+      "ChemValley Cooks F2",
+      "Citrus Valley",
+      "Cookie Fever",
+      "Crimson Cookies",
+      "Cheddar Valley",
+      "Exodus Valley"
+    ]
+  },
+  {
+    "id": "dying-breed-seeds",
+    "name": "Dying Breed Seeds",
+    "strain_count": 27,
+    "award_count": 10,
+    "notable_strains": [
+      "Blue Zkittlez",
+      "Banana OG BX1",
+      "Banana Ripple",
+      "Banana Zkittlez",
+      "Boo Boo Berry",
+      "California Black Roze",
+      "Cherry Chew",
+      "Cinnabom",
+      "Mango Melonz",
+      "OZ Kush"
+    ]
+  },
+  {
+    "id": "big-head-seeds",
+    "name": "Big Head Seeds",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Technology",
+      "Chemdawg 4",
+      "White Fire OG Kush",
+      "Alien Gorilla",
+      "Auto Gelato",
+      "Big Freeze",
+      "Blueberry Crystal Gelato",
+      "Bruce Banger",
+      "Bubblehead #13",
+      "Crystal Gelato"
+    ]
+  },
+  {
+    "id": "big-buddha-seeds",
+    "name": "Big Buddha Seeds",
+    "strain_count": 27,
+    "award_count": 2,
+    "notable_strains": [
+      "Buddha Haze",
+      "Head Cheese",
+      "Buddha Tahoe",
+      "Bubble Cheese",
+      "Automatic",
+      "Badazz Cheese",
+      "Black Cheese",
+      "Buddha Kush OG",
+      "Buddhalato",
+      "California Orange Cheese"
+    ]
+  },
+  {
+    "id": "expert-seeds",
+    "name": "Expert Seeds",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Orange Skunk",
+      "Amnesia Haze Auto",
+      "Auto Funky Skunk",
+      "Auto Kush",
+      "Cheese Auto",
+      "Clinical White CBD",
+      "Critical AK Auto",
+      "Critical Blue Auto",
+      "Critical Gorilla",
+      "Critical Lights"
+    ]
+  },
+  {
+    "id": "nugs-420",
+    "name": "Nugs 420",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Acai Rainbow",
+      "Acai Sherb",
+      "Bitter Jam",
+      "Blue Jasmine",
+      "Candiez",
+      "Candy Kush Pop",
+      "Candy Ringz",
+      "Halabama Sundae",
+      "Melon Guava",
+      "Orange Marmalade"
+    ]
+  },
+  {
+    "id": "the-vault-seed-bank",
+    "name": "The Vault Seed Bank",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Amish Glo",
+      "Banana Richter",
+      "Cookies & Cream on Fire",
+      "Electric Banana on Fire",
+      "Blackout Cookies on Fire",
+      "Hell Face on Fire",
+      "Hell Scout Cookies",
+      "Hells Angels OG on Fire",
+      "Jacks Bells",
+      "Jade Helm"
+    ]
+  },
+  {
+    "id": "la-semilla-autom-tica",
+    "name": "La Semilla Automática",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Amnesia Hot",
+      "Arándano",
+      "Black Dragon",
+      "Black N´Roses",
+      "Chocolate",
+      "Critical Candy",
+      "Double Cheesecake Auto",
+      "AKM",
+      "Bebé",
+      "Double Cheesecake"
+    ]
+  },
+  {
+    "id": "the-plug-seedbank",
+    "name": "The Plug Seedbank",
+    "strain_count": 27,
+    "award_count": 3,
+    "notable_strains": [
+      "Baklava",
+      "Blue Sherbert",
+      "Currylato",
+      "Double Banana Sherbet",
+      "Biscotti 2.0",
+      "Do Si Dos Zkittlez",
+      "Jungle Scout Cookies",
+      "Melonaid Zkittlez",
+      "Natasha",
+      "Nicola Kush"
+    ]
+  },
+  {
+    "id": "wizard-trees",
+    "name": "Wizard Trees",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Big Ben",
+      "Black Bow",
+      "Empire 54",
+      "Corked",
+      "Heel Hook",
+      "Mystic Marker",
+      "Neon Runtz",
+      "New Yorker",
+      "Night Ritual",
+      "Obsidian"
+    ]
+  },
+  {
+    "id": "freak-genetics",
+    "name": "Freak Genetics",
+    "strain_count": 27,
+    "award_count": 0,
+    "notable_strains": [
+      "Black and Blueberry",
+      "Blackberry Bread",
+      "Blackberry Kushbreath",
+      "Blackberry Mittens",
+      "Blackberry Pancakes",
+      "Blackberry Sugarcane",
+      "Blackberry Zkittlez",
+      "Blini",
+      "Cherry Rolls",
+      "Chosen Mango"
+    ]
+  },
+  {
+    "id": "apeorigin",
+    "name": "ApeOrigin",
+    "strain_count": 26,
+    "award_count": 9,
+    "notable_strains": [
+      "Rudeboi Og",
+      "Cherry Diesel",
+      "Jesus",
+      "Tangie",
+      "Alpha Bud",
+      "Apple Tartz",
+      "Banana Punch",
+      "BushmansKush",
+      "Cougar Piss",
+      "DurBush"
+    ]
+  },
+  {
+    "id": "vancouver-island-seed-company",
+    "name": "Vancouver Island Seed Company",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Wmd",
+      "KGB",
+      "Rx",
+      "B-Bud",
+      "Bitch",
+      "Bud Lite",
+      "Bush Bud",
+      "Canadian",
+      "Che",
+      "Copperhead"
+    ]
+  },
+  {
+    "id": "purple-caper-seeds",
+    "name": "Purple Caper Seeds",
+    "strain_count": 26,
+    "award_count": 2,
+    "notable_strains": [
+      "Blackberry Fire",
+      "Chocolate Og",
+      "Chocolate Hashberry",
+      "Chocolate Kush",
+      "Assorted Chocolates",
+      "Black Queen Cookies",
+      "Blue Cookie",
+      "Charlottes Cookies",
+      "Chocolate Chip Cookie",
+      "Chocolate Fire"
+    ]
+  },
+  {
+    "id": "just-a-handful",
+    "name": "Just A Handful",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Pakistani Chitral Kush",
+      "Behemoth",
+      "Berry Sweet Bud",
+      "Big Blue Mother Skunker",
+      "Blue Ace Hash",
+      "Blue MacDawg",
+      "Blue Mandarin Mints",
+      "Blue Member",
+      "Chitral Lights",
+      "Crimson Lights"
+    ]
+  },
+  {
+    "id": "707-seed-bank",
+    "name": "707 Seed Bank",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Kush Cleaner",
+      "Cat Piss",
+      "Pineapple Thai",
+      "Angel’s Delight",
+      "Bay Breeze",
+      "Bees Knees",
+      "Betsy",
+      "Blue Nectar",
+      "Chem Power",
+      "Chemlatto 33"
+    ]
+  },
+  {
+    "id": "landrace-bureau",
+    "name": "Landrace Bureau",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Moon Cookies",
+      "Ayahuasca Purple Haze",
+      "Ayahuasca Purple Haze x Moon Cookies x Tashkurgan",
+      "Benji's OG Haze",
+      "BlackBerry Marmalade",
+      "Champagne Pussy",
+      "Deep Breath x APH x Mazar",
+      "Double Bubble Breath",
+      "Dragon GMO",
+      "Killer Leprechaun"
+    ]
+  },
+  {
+    "id": "dank-genetics",
+    "name": "Dank Genetics",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Mad Dawg",
+      "Atomic Sour",
+      "Cherry Heads",
+      "Close Shave",
+      "Dank Banana",
+      "Dank Gelato",
+      "Dank Sherbert",
+      "Dankalato",
+      "Dawg Fighter",
+      "Auto Fire OG"
+    ]
+  },
+  {
+    "id": "kc-brains-holland",
+    "name": "KC Brains Holland",
+    "strain_count": 26,
+    "award_count": 3,
+    "notable_strains": [
+      "Brains Damage",
+      "Kc 33",
+      "Double D",
+      "Kc 36",
+      "Afghani Special",
+      "Bahia Blackhead",
+      "Brains Choice",
+      "Brasil x K.C.",
+      "California Special",
+      "Cristal Paradise"
+    ]
+  },
+  {
+    "id": "obsoul33t-genetics",
+    "name": "Obsoul33t Genetics",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Sour Apple",
+      "Alien Apparition",
+      "Alien Cheese",
+      "Alien Dog x Alien Dog Cherry",
+      "Alien Tarantula",
+      "Apple Shocker",
+      "Atom Splitter",
+      "Blue Dream x High Octaine",
+      "Chem91 X Aliendog Cherry",
+      "Alien Orange Congolese"
+    ]
+  },
+  {
+    "id": "homegrown-fantaseeds",
+    "name": "Homegrown Fantaseeds",
+    "strain_count": 26,
+    "award_count": 6,
+    "notable_strains": [
+      "Caramella",
+      "Blue Haze",
+      "Cheese",
+      "Armageddon",
+      "AC Diesel",
+      "Australian Blue",
+      "Blue Pearl",
+      "Blue Pearl Auto",
+      "Caramella Auto",
+      "Eclipse"
+    ]
+  },
+  {
+    "id": "reservoir-seeds",
+    "name": "Reservoir Seeds",
+    "strain_count": 26,
+    "award_count": 6,
+    "notable_strains": [
+      "Wonder Haze",
+      "Alpha Diesel",
+      "Apollo Mist",
+      "Chem DD v1.1",
+      "Chemdog D BX#1",
+      "Chemdog D IBL",
+      "Chemdog D IX-I",
+      "Chemdog D IX-II",
+      "Chemdog D Kush",
+      "Chemdog Sour Diesel"
+    ]
+  },
+  {
+    "id": "hash-hands",
+    "name": "Hash Hands",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Absolem",
+      "AFG-7",
+      "Black Market Kush",
+      "Columbian Necktie",
+      "Djinn's Gift",
+      "Elysian Fields",
+      "Hash Clouds",
+      "HashBrick",
+      "Jedi MindFuck",
+      "Jungle Fever"
+    ]
+  },
+  {
+    "id": "dirty-water-organics",
+    "name": "Dirty Water Organics",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Lime Skunk",
+      "Barnyard Animals",
+      "Chem Star Diesel",
+      "Dubblemint Skunk",
+      "Branded Animal Fire",
+      "Chalet Creme",
+      "Kookie M.O.B.",
+      "Member Berry",
+      "Mother of Berry",
+      "Mother of Grimace"
+    ]
+  },
+  {
+    "id": "bsb-genetics",
+    "name": "BSB Genetics",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Auto AK-4T7",
+      "Auto Amnesia Haze",
+      "Auto Anthrax",
+      "Auto Blue Mango",
+      "Auto Bruce Banner #3",
+      "Auto Divine Purple",
+      "Auto Gorilla Glue #4",
+      "Auto Mandarine Dream XL",
+      "Auto Northern Big Bud",
+      "Auto Strawberry Milkshake"
+    ]
+  },
+  {
+    "id": "sweet-funky-breeze-seeds",
+    "name": "Sweet Funky Breeze Seeds",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Backiatomy",
+      "Cheesy Mix Tape",
+      "Citrus Sunset",
+      "Dirty Burger",
+      "Cocoa Fuego",
+      "Cornholio",
+      "Hawt Glue",
+      "Ke-Mo Sah-Bee",
+      "Mac Cedes-Benz",
+      "Mac Nut"
+    ]
+  },
+  {
+    "id": "brain-freeze-seeds",
+    "name": "Brain Freeze Seeds",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Berry Mix",
+      "Black Forest Cake",
+      "Brr OG",
+      "Candy Brain",
+      "Confetteria",
+      "Birthday Girl",
+      "Holy Land",
+      "Jaffaello",
+      "Jam D",
+      "Jet Pack"
+    ]
+  },
+  {
+    "id": "don-avalanche-seeds",
+    "name": "Don Avalanche Seeds",
+    "strain_count": 26,
+    "award_count": 0,
+    "notable_strains": [
+      "Don AK Auto",
+      "Don Amnesia",
+      "Don Blueberry Auto",
+      "Don Blueberry Cookies",
+      "Don Bruce Banner",
+      "Don Cherrypie",
+      "Don Critical Crack",
+      "Don Do Si Cookies",
+      "Don Do Si Dos",
+      "Don Do Si Punch"
+    ]
+  },
+  {
+    "id": "soma-seeds",
+    "name": "Soma Seeds",
+    "strain_count": 25,
+    "award_count": 10,
+    "notable_strains": [
+      "Reclining Buddha",
+      "Kushadelic",
+      "Buddhas Sister",
+      "Somango",
+      "Haze Heaven",
+      "Kahuna",
+      "Rockbud",
+      "Afghan Delight",
+      "Citralah",
+      "Hash Heaven"
+    ]
+  },
+  {
+    "id": "colorado-seed-inc",
+    "name": "Colorado Seed Inc.",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Aloha Limone",
+      "Nina Limone",
+      "Tangerine Sunrise",
+      "Krishna Kush",
+      "Chupacabra",
+      "Rebel God Smoke",
+      "Slazerbeam",
+      "Clementine Kush",
+      "Doobiebird Daydream",
+      "Jelly Roll"
+    ]
+  },
+  {
+    "id": "natural-genetics-seeds",
+    "name": "Natural Genetics Seeds",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Double Mint",
+      "C 13",
+      "Chem Choco Glue",
+      "Chem Cookies",
+      "Cosmic Berry",
+      "Devil Breath",
+      "Devil Cookies",
+      "Double Do-Si-Dos",
+      "Devil Glue",
+      "Half&Half Cookies"
+    ]
+  },
+  {
+    "id": "cannabiogen",
+    "name": "Cannabiogen",
+    "strain_count": 25,
+    "award_count": 1,
+    "notable_strains": [
+      "Destroyer",
+      "Auto CBG",
+      "Bubba Delight",
+      "Caribe",
+      "Chapita de Michoacan",
+      "Colombia Mangobiche",
+      "Colombia Punto Rojo",
+      "Jamaica Blue Mountain",
+      "Jarilla Sinaloa",
+      "Jarilla de Sinaloa"
+    ]
+  },
+  {
+    "id": "short-stuff-seedbank",
+    "name": "Short Stuff Seedbank",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Dr Feelgood",
+      "Russian Rocket Fuel",
+      "Auto Assassin",
+      "Auto Big Gun",
+      "Auto Bud Cannon",
+      "Auto Gorilla OG x Auto Purple Amnesia",
+      "Auto Gorilla Shizzle",
+      "Auto Jedi Kush",
+      "Auto Pink Grapefruit",
+      "Auto Purple Amnesia"
+    ]
+  },
+  {
+    "id": "amsterdam-genetics",
+    "name": "Amsterdam Genetics",
+    "strain_count": 25,
+    "award_count": 2,
+    "notable_strains": [
+      "Blue Magic",
+      "AK Choco Kush",
+      "AK-020",
+      "AK-020 Autoflower",
+      "AK-OG Kush",
+      "Amazing Haze",
+      "Blue Amnesia",
+      "Blue Amnesia Autoflower",
+      "Chocolato",
+      "Chocolony"
+    ]
+  },
+  {
+    "id": "710-genetics",
+    "name": "710 Genetics",
+    "strain_count": 25,
+    "award_count": 1,
+    "notable_strains": [
+      "Amnesia Haze",
+      "Auto 710 Cheese",
+      "Auto 710 Diesel",
+      "Auto AK-107",
+      "Auto Peace Keeper",
+      "Auto Purps",
+      "Auto White Candy",
+      "Berry OG Kush",
+      "Dreamcatcher",
+      "Auto High Priority"
+    ]
+  },
+  {
+    "id": "bohemiaseeds",
+    "name": "Bohemiaseeds",
+    "strain_count": 25,
+    "award_count": 1,
+    "notable_strains": [
+      "Purple Kush",
+      "Apollo Kush",
+      "Brutal SweetMendo",
+      "Brutal SweetTooth",
+      "Buble Head",
+      "Chem Valley LSD",
+      "Chronik Kush",
+      "Medical Kosher Widow",
+      "Medical Kush",
+      "Medical Larry Ghost"
+    ]
+  },
+  {
+    "id": "cannabella-genetics",
+    "name": "Cannabella Genetics",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Sour Lemon Haze",
+      "Bella Ortega",
+      "Blue Cherry Kush",
+      "Brambleberry Kush",
+      "Bratapfel",
+      "Citrus Grove",
+      "Cornetto",
+      "Bollywood",
+      "Chem Berry OG",
+      "Hash Cookies"
+    ]
+  },
+  {
+    "id": "alpine-seeds",
+    "name": "Alpine-Seeds",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Landrasse",
+      "DeepChunk S1",
+      "Erdbeer x Sweet Pink Grapefruit",
+      "MangoDog",
+      "OG.Kush-LemonLarry",
+      "OG.Kush-LemonLarry IBL",
+      "OG.Kush-LemonLarry x DeepChunk",
+      "OG.Kush-LemonLarry x ECSD BX1",
+      "OG.Kush-LemonLarry x OG.Kush SFV BX1",
+      "Original Swiss Erdbeerli"
+    ]
+  },
+  {
+    "id": "oregon-green-seed",
+    "name": "Oregon Green Seed",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani/Black Domina Hybrid",
+      "Amnesia Hashplant",
+      "Bash",
+      "Blue Blast",
+      "Blue Snowdog",
+      "Charlotte’s Cherries",
+      "Cocoa Crush",
+      "Mastodon",
+      "Nepalese Rocket",
+      "Oaxacan Iranian"
+    ]
+  },
+  {
+    "id": "turpene-time",
+    "name": "Turpene Time",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "After Dinner Breath",
+      "Aussie Chew",
+      "Big D",
+      "Blissful Breath",
+      "Cherries for dinner",
+      "Cherry West Bx1 F3",
+      "Dante and Dumbledore",
+      "Dantes Chew",
+      "Dantes Cobra",
+      "Dantes D"
+    ]
+  },
+  {
+    "id": "cheese-gang-seeds",
+    "name": "Cheese Gang Seeds",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Arif-OG",
+      "Blockbuster",
+      "Blue Cheese Breath",
+      "Brixton Bluez",
+      "Cheese Dipz",
+      "Cockney Kush",
+      "El Chapos Cheese",
+      "Psycho-Dawg",
+      "Psycho-OG",
+      "SohoG"
+    ]
+  },
+  {
+    "id": "dutchbreed",
+    "name": "DutchBreed",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Aurora Polaris",
+      "Autum Fall",
+      "Blue Barrel AK",
+      "Blue Lightning",
+      "Colombian Gold #2",
+      "Crude Oil",
+      "Brazilian Pineapple",
+      "Hazy Daze",
+      "Himalayan Monster",
+      "Karakoram Kush"
+    ]
+  },
+  {
+    "id": "geneseeds-bank",
+    "name": "GeneSeeds Bank",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Auto Cherry Pie",
+      "Auto Thunderfuck",
+      "Beeball",
+      "Beeball Auto",
+      "Black Beer",
+      "Black Hell",
+      "Black Lebanon",
+      "Cookies Glue Auto",
+      "Crystal Tears",
+      "Dark Lollipop"
+    ]
+  },
+  {
+    "id": "omuerta-genetix",
+    "name": "Omuerta Genetix",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Barry Seal",
+      "Blueberry Glue",
+      "Blueshido",
+      "Broken Arrow",
+      "Bushido",
+      "Cenote",
+      "Cherries & Limes",
+      "Cherry Glue",
+      "Drums Of War",
+      "El Bomba"
+    ]
+  },
+  {
+    "id": "grounded-genetics",
+    "name": "Grounded Genetics",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Bizcocho",
+      "Blue Fizz",
+      "Blue Limez",
+      "Designer Sherb",
+      "Jumpshot",
+      "Ozark",
+      "Papaya Dawg",
+      "Pinata",
+      "Pink Giraffe",
+      "Pink Limez"
+    ]
+  },
+  {
+    "id": "sincerely-cali",
+    "name": "Sincerely Cali",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Black Chem Rain Maker",
+      "Black Grape Pie",
+      "Blueberry Tides",
+      "Deep in Paradise",
+      "Devils Triangle",
+      "Cannon Ball",
+      "Cocaine Pirate",
+      "Jack Sparrow Kush",
+      "Mermaid’s Milk",
+      "Mocking Bird"
+    ]
+  },
+  {
+    "id": "swami-organic-seed",
+    "name": "Swami Organic Seed",
+    "strain_count": 25,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Orca Haze",
+      "Blue Orca x ’85 Roadkill",
+      "Cascadian Frost",
+      "Blues Power",
+      "Durban Bubble x Nigerian Sunshine",
+      "Kahuna Bud x Cherry Bomb",
+      "KMBCBF2",
+      "Mazar-I-Shariff x Pakistan Chitral Kush",
+      "NL #5 x Haze BX1",
+      "ONExBONL5NH"
+    ]
+  },
+  {
+    "id": "maui-jane-seed-co",
+    "name": "Maui Jane Seed Co.",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Hawaiian Punch",
+      "Blue Razz",
+      "Cash Plant",
+      "Chocololo",
+      "Jungle Queen ‘18",
+      "Hana Bae",
+      "MJ’s Skunk Berry",
+      "MJ’s Sour Punch",
+      "New Car Smell ‘20",
+      "PurplePunkDog"
+    ]
+  },
+  {
+    "id": "semyanich",
+    "name": "Semyanich",
+    "strain_count": 24,
+    "award_count": 1,
+    "notable_strains": [
+      "Afghan Kush",
+      "Pineapple Chunk",
+      "Black Widow",
+      "Amnesia Lemon Auto",
+      "Big Satana Auto",
+      "Blueberry X",
+      "CBD Green Crack Auto",
+      "Crime Caramel Auto",
+      "Dos-Vi-Dos",
+      "Easy Ryder Auto"
+    ]
+  },
+  {
+    "id": "secretfile-genetic",
+    "name": "Secretfile Genetic",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Acid Gum",
+      "Banana Rose",
+      "Diamond Kush",
+      "Diamond Kush Linea Sherbo",
+      "Dosidoss #4 x Tropicanna Punch F3",
+      "Mousse",
+      "Platinum Kush F2",
+      "Platinum Punch",
+      "Skylato",
+      "Skywalker Kush x Golden Cobra"
+    ]
+  },
+  {
+    "id": "third-eye-genetics",
+    "name": "Third Eye Genetics",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Aero Bond",
+      "Bubblestar Galactica",
+      "Cherry Chocolate Widow",
+      "Chocolate Glue",
+      "Chocolate Hammer OG",
+      "Evil Step Mother",
+      "Black Amnesia Haze",
+      "Chocolate Blueberry G13",
+      "Hulk Piss",
+      "Mile High Volcano"
+    ]
+  },
+  {
+    "id": "genehtik-seeds",
+    "name": "Genehtik Seeds",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Amnesia Bilbo",
+      "Amnesia Bilbo Auto",
+      "Bluebonik",
+      "Buruandi",
+      "Ese T. Bilbo",
+      "Euskal Zkittlez",
+      "Azken Indika",
+      "Kritikal Bilbo",
+      "Kritikal Bilbo Auto",
+      "Kritikal Bilbo CBD"
+    ]
+  },
+  {
+    "id": "mogwai-genetics",
+    "name": "Mogwai Genetics",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Animal Liberation Front",
+      "Beatle Juice",
+      "Black Sheep",
+      "Bluff Creek",
+      "Classified",
+      "Close Encounters",
+      "Extraterrestrial OG",
+      "Alien Life Form",
+      "ConeHeads",
+      "HalfTime"
+    ]
+  },
+  {
+    "id": "antenna-seeds",
+    "name": "Antenna Seeds",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Antenna AC Haze",
+      "Antenna Banana Haze",
+      "Antenna Blue Lazerlite",
+      "Antenna Colombian Purple Haze",
+      "Antenna Cripbubble",
+      "Antenna Gorilla Haze",
+      "Antenna Gorilla Haze 2",
+      "Antenna Grape Lazerlite",
+      "Antenna Headgames",
+      "Antenna Headgames 3"
+    ]
+  },
+  {
+    "id": "farmhouse-genetics",
+    "name": "Farmhouse Genetics",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Shack",
+      "Black Gorilla",
+      "BrightBerry Cookies",
+      "Chem Gem",
+      "Dark Triangle",
+      "Dark Wizard",
+      "Diamond Glands",
+      "BOP",
+      "Cosmic Garbage",
+      "Cupcake"
+    ]
+  },
+  {
+    "id": "goat-and-monkey-seeds",
+    "name": "Goat and Monkey Seeds",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana TK",
+      "Blue Glue",
+      "Blue Triangle",
+      "Boomin Granny",
+      "Breakfast Club",
+      "ChemTK",
+      "Doubble Trouble",
+      "Espiritu Sanctum",
+      "Blue Devil",
+      "CherryTK"
+    ]
+  },
+  {
+    "id": "n-y-ceeds",
+    "name": "N.Y.Ceeds",
+    "strain_count": 24,
+    "award_count": 0,
+    "notable_strains": [
+      "Borinquem",
+      "Cambodian BreaZt Milk",
+      "Heavy Ztorm",
+      "Henni Qolada",
+      "Kimura Kush",
+      "New York Snickerbockerz",
+      "Nutcrackerz",
+      "Push PreZent",
+      "Queens Zugar Cookie",
+      "Sour Spritzer"
+    ]
+  },
+  {
+    "id": "r-kiem-seeds",
+    "name": "R-KIEM Seeds",
+    "strain_count": 23,
+    "award_count": 2,
+    "notable_strains": [
+      "Negra 44",
+      "Amnesia Amazon Haze",
+      "Bananukis",
+      "Critical Jack-Condor",
+      "Cumbia Una Vela",
+      "Dullbutter",
+      "Eli",
+      "Banana Dessert",
+      "Klementine",
+      "Klementine Auto"
+    ]
+  },
+  {
+    "id": "the-capitan-s-connection",
+    "name": "The Capitan's Connection",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Captains Cake",
+      "Blissful Wizard",
+      "Apple Bliss",
+      "Black Raven",
+      "Blissful Banana",
+      "Blissful Wizard 32 BX1 x Blissful Wizard",
+      "Blissful Wizard IX",
+      "Captain's Cake",
+      "East Coast 13",
+      "Algonquin"
+    ]
+  },
+  {
+    "id": "alpinstash",
+    "name": "AlpinStash",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Django",
+      "Charm Dog",
+      "Crouching Kai",
+      "Cura",
+      "Curaga",
+      "Emperor's Breath",
+      "Cookie Confundo",
+      "Cookie Cutter",
+      "Midnight King",
+      "Moxie Dog"
+    ]
+  },
+  {
+    "id": "illuminati-seeds",
+    "name": "Illuminati Seeds",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Peel",
+      "Jungle Juice",
+      "Conquest",
+      "Afterlife",
+      "Chemdawg 104",
+      "Death Dealer",
+      "Delusional OG",
+      "Divine Apocalypse",
+      "Born Killer",
+      "Eskimo Pie"
+    ]
+  },
+  {
+    "id": "goldenseed",
+    "name": "Goldenseed",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Monster",
+      "Bubbleberry",
+      "Blue Frost",
+      "Purple Wreck",
+      "Skunk Haze",
+      "Jack Diesel",
+      "Bob Marley",
+      "Afghani Kush",
+      "Afghani Skunk",
+      "Auto Great White Shark"
+    ]
+  },
+  {
+    "id": "silent-seeds",
+    "name": "Silent Seeds",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Pink Sunset",
+      "Açai Jelly",
+      "Açai Jelly",
+      "Alien Gas XXL Auto",
+      "Animal Face Mints",
+      "B-45",
+      "Cherry Essence",
+      "Cookielato",
+      "Critical + 2.0",
+      "Critical + 2.0 Auto"
+    ]
+  },
+  {
+    "id": "copenhagen-seed-company",
+    "name": "Copenhagen Seed Company",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Tangie Dream",
+      "Amnesia OG Auto",
+      "Auto SMLE",
+      "Black Widow Auto",
+      "Bluetooth Auto",
+      "Brutalis",
+      "Candy Floss",
+      "CBD XXL",
+      "Copenhagen Butter Auto",
+      "Copenhagen Kush Auto"
+    ]
+  },
+  {
+    "id": "cannaventure-seeds",
+    "name": "CannaVenture Seeds",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Blackberry Trainwreck",
+      "Arcata Ghost",
+      "Bloody D BX",
+      "Clark County Purple Kush",
+      "CV OG",
+      "Daffie",
+      "Dawg Jam 91",
+      "Diesel Fire",
+      "Electric Larry Land",
+      "Jazz Berry Jam"
+    ]
+  },
+  {
+    "id": "brazilian-seed-company",
+    "name": "Brazilian Seed Company",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Trinity",
+      "Early Girl",
+      "Amarelo",
+      "Angola Red",
+      "Aracaju Red",
+      "Brazilian Lemon",
+      "Brazilian Skunk",
+      "Chemo X Jack Herer",
+      "Colombian Haze",
+      "Colombian Jack"
+    ]
+  },
+  {
+    "id": "dutch-flowers",
+    "name": "Dutch Flowers",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Blowfish",
+      "A-13 x C99",
+      "Apollo Trip",
+      "Big Hawaiian",
+      "Chocolate Trip",
+      "Columbian Red",
+      "Durban Fig Widow",
+      "Hindu Kush Special",
+      "Metal Haze",
+      "Mighty Haze Candy"
+    ]
+  },
+  {
+    "id": "aqualung-gardens",
+    "name": "Aqualung Gardens",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Acapulco Gold x Dubble Limes",
+      "Andromeda",
+      "Bagheera Kush",
+      "Big Pharma",
+      "Black Vinyl",
+      "Boneless OG",
+      "Congo Latcher",
+      "Congo Scream",
+      "Dark Pharma",
+      "Captain Insano"
+    ]
+  },
+  {
+    "id": "duke-diamonds-vault",
+    "name": "Duke Diamonds Vault",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "AJ’s Sour Diesel x TGA Vortex",
+      "Black Lotus x TGA Vortex",
+      "C99 x C99",
+      "C99 x SSGH",
+      "C99 X SSSC Skunk 1",
+      "C99 X TGA Vortex",
+      "Chemdog Sister x C99",
+      "Chemdog x Afghani",
+      "Chemdog x C99",
+      "Apollo 13 Puffs Cut x TGA Vortex"
+    ]
+  },
+  {
+    "id": "ganja-farmer",
+    "name": "Ganja Farmer",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "AK 2.0 XL Auto",
+      "Amnesia XL Auto",
+      "Big Jack",
+      "Bubble OG Gum Auto",
+      "Cali Gelato Auto",
+      "Cookies Auto",
+      "Critical 3.0",
+      "Bubble OG Gum",
+      "Caramel Auto",
+      "HulkBanner Auto"
+    ]
+  },
+  {
+    "id": "denverdoggy",
+    "name": "Denverdoggy",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Pyramid",
+      "Chemfish Tang",
+      "Cherry Creek OG",
+      "Danny' Boys Poison",
+      "Dogchain",
+      "Mango D",
+      "O swediZh fiZh 3",
+      "Peach Doggy OG",
+      "Peach Dream",
+      "Peach Fields"
+    ]
+  },
+  {
+    "id": "mana-house-hawaii",
+    "name": "Mana House Hawaii",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Alohi Royale",
+      "Banana Royale",
+      "Black Odin",
+      "Candy Apple Banana",
+      "Champapple",
+      "Cherry Royale",
+      "Kailua Lemon",
+      "Mango Royale",
+      "Mariana",
+      "PiñaBerry"
+    ]
+  },
+  {
+    "id": "wyeast-farms",
+    "name": "Wyeast Farms",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Amazake",
+      "Animal Rescue",
+      "Best Coast",
+      "Blast Chiller",
+      "Cold Fusion",
+      "Cold Snap",
+      "Corpse Paint",
+      "Crema Cubes",
+      "Culo",
+      "Cinnamon Sour"
+    ]
+  },
+  {
+    "id": "dino-party",
+    "name": "Dino Party",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Apollo Blues",
+      "Booba",
+      "Celestial Select",
+      "Chopper Sic Balls",
+      "Cosmic Brownies",
+      "Black Light Bubba",
+      "Hairy Legs",
+      "Hashtastrophe",
+      "Jitterbug Panhandle",
+      "Midsicle"
+    ]
+  },
+  {
+    "id": "trichome-bros",
+    "name": "Trichome Bros",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Radiation",
+      "Asmodeus Cream",
+      "Bali Tsunami",
+      "Bora Bora Sherbet",
+      "Chernobyl (Slymar Cut) S1",
+      "Chitral Frost",
+      "Devil’s Berry Gas",
+      "Devil’s Candy S1",
+      "Diablo Creamsicle",
+      "Erebus Frosting"
+    ]
+  },
+  {
+    "id": "sunshine-dream-genetics",
+    "name": "Sunshine Dream Genetics",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Aurora Lime 4",
+      "Black Cat Hashplant",
+      "Deadhead Dreams",
+      "Healing Dark Dreams",
+      "Joesy’s Last Dream",
+      "Melted Sunshine",
+      "Mother in Law Medicine",
+      "Oaxacan Purps",
+      "Roadkill Dreams",
+      "She Dreams of Cheese"
+    ]
+  },
+  {
+    "id": "organic-seeds",
+    "name": "Organic Seeds",
+    "strain_count": 23,
+    "award_count": 0,
+    "notable_strains": [
+      "Automatic Bud Spencer",
+      "Automatic Cheesecake",
+      "Automatic Cinderella Jack",
+      "Automatic Mazar",
+      "Automatic Northern Lights",
+      "Automatic Orange Zkittlez",
+      "Automatic Organic Lemon Haze",
+      "Black Maroc",
+      "Bubba Valley Kush",
+      "Automatic Gorilla Glue"
+    ]
+  },
+  {
+    "id": "moxie-710",
+    "name": "Moxie 710",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Merlot Og",
+      "Vcdc",
+      "Super Goji Haze",
+      "Alpine Cookies",
+      "Alpine OG",
+      "Blue Diamond Philips",
+      "Kookies",
+      "Snake Venom",
+      "Tangie Goji",
+      "Viper City OG XIII"
+    ]
+  },
+  {
+    "id": "420-genetics",
+    "name": "420 Genetics",
+    "strain_count": 22,
+    "award_count": 43,
+    "notable_strains": [
+      "Jack Herer",
+      "Moby Dick",
+      "White Widow",
+      "Strawberry",
+      "Amnesia",
+      "Blueberry",
+      "Chocolope",
+      "Ak47 Auto",
+      "Amnesia Auto",
+      "CBD White Widow"
+    ]
+  },
+  {
+    "id": "flying-dutchmen",
+    "name": "Flying Dutchmen",
+    "strain_count": 22,
+    "award_count": 1,
+    "notable_strains": [
+      "Kerala Krush",
+      "Blueberry Skunk",
+      "Pot Of Gold",
+      "Thai Tanic",
+      "Arctic Sun",
+      "Titans Haze",
+      "Afghanica AKA Kabul Baba",
+      "Amsterdam Mist",
+      "Aurora B",
+      "Dame Blanche"
+    ]
+  },
+  {
+    "id": "dj-short",
+    "name": "DJ Short",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Moonshine",
+      "Vanilluna",
+      "Azure Haze",
+      "Blue Velvet",
+      "Whitaker Blues",
+      "Blue Star",
+      "Blue V2",
+      "Cocoa Kush",
+      "Happy Pussy",
+      "Johnny Blaze"
+    ]
+  },
+  {
+    "id": "next-generation-seed-company",
+    "name": "Next Generation Seed Company",
+    "strain_count": 22,
+    "award_count": 4,
+    "notable_strains": [
+      "Dynamite",
+      "Blue Dynamite",
+      "Romulan Haze",
+      "Romulan Grapefruit",
+      "Diablo",
+      "Avalon",
+      "A.D.D.",
+      "BC Early Blueberry",
+      "BC Golden Skunk",
+      "Blueberry Punch"
+    ]
+  },
+  {
+    "id": "dutchfem",
+    "name": "DutchFem",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Orange Haze",
+      "Purple Og Kush",
+      "Amnesia Haze Original",
+      "Bubble Haze",
+      "Casey's Rollex O.G.",
+      "Critical XL",
+      "Critical XL Autoflowering",
+      "Doctor Diesel",
+      "Dutch Cheese",
+      "Dutch Dwarf"
+    ]
+  },
+  {
+    "id": "mamiko-seeds",
+    "name": "Mamiko Seeds",
+    "strain_count": 22,
+    "award_count": 3,
+    "notable_strains": [
+      "Sour Cookies",
+      "Sour Og",
+      "Accord",
+      "Alien Wedding Cookies",
+      "Big Apple Cookies",
+      "Boomerang",
+      "Casey Cookies",
+      "Charm Cookies",
+      "Cheese Cookies",
+      "Chemdelice"
+    ]
+  },
+  {
+    "id": "larger-than-life-seed-co",
+    "name": "Larger Than Life Seed Co.",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Abu Kush",
+      "Arabian Night",
+      "B.A.E. OG",
+      "Blockbuster OG",
+      "Buddha Kush",
+      "Cruiseliner Kush",
+      "Desserxx",
+      "Double Banana Split",
+      "Docs Choice",
+      "Ol' Dirty Bubba"
+    ]
+  },
+  {
+    "id": "calyx-bros-seed-co",
+    "name": "Calyx Bros. Seed Co.",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Abusive Grape",
+      "Bedtime Cookies",
+      "Bubblegum Pie",
+      "Cherry Choke",
+      "Cookie Crumbs",
+      "Eyes Pied Shut",
+      "Alien Tits",
+      "Ape Tranquilizer",
+      "Appalachian Trail Mix",
+      "Blue Spruceberry"
+    ]
+  },
+  {
+    "id": "sunleaf-seed-co",
+    "name": "Sunleaf Seed Co",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "AfghAlien",
+      "BlackTop",
+      "BloodPressure",
+      "BloodWork",
+      "Chocolate Flood",
+      "DragonBread",
+      "Esprezzo",
+      "AKPie",
+      "AlienRation",
+      "HanSoloInPlatinum"
+    ]
+  },
+  {
+    "id": "treetown-seeds",
+    "name": "TreeTown Seeds",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghan Princess",
+      "Cake King",
+      "Cheese Plate",
+      "Cherry Haze",
+      "Cherry OZone",
+      "Craze",
+      "Dabarella",
+      "Melon Patch",
+      "Paka LoLo",
+      "PCK 47 #8"
+    ]
+  },
+  {
+    "id": "bean-drop-genetics",
+    "name": "Bean Drop Genetics",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "After Party",
+      "Better Made Cookies",
+      "Chitapon Green",
+      "Boozie",
+      "Downriver #12",
+      "Holy Smoke",
+      "King Lucious",
+      "Nicest Thing",
+      "Nicky Barnes",
+      "Popsicle"
+    ]
+  },
+  {
+    "id": "sweet-tooth-seeds",
+    "name": "Sweet Tooth Seeds",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Animal Mintz × White Lightning",
+      "Blue Dream × White Lightning",
+      "Carbon Fiber × White Lightning",
+      "Cheetah Piss × White Lightning",
+      "Cletus Kush",
+      "Apple Fritter x White Lightning",
+      "Contact High",
+      "Jealousy × Thin Mint × White Lightning",
+      "Key Lime Fizz",
+      "OG Kush Breath x White Lightning"
+    ]
+  },
+  {
+    "id": "justfeminized-com",
+    "name": "JustFeminized.com",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Auto Big Skunk 47",
+      "Auto Double Big Bud",
+      "Auto Lemon-O-Matic",
+      "Auto Low Widow",
+      "Auto Original #2",
+      "Auto Short Berry Skunk",
+      "B.F.G.",
+      "Bubble Gummy",
+      "Auto Original 47",
+      "Auto Super Dwarf"
+    ]
+  },
+  {
+    "id": "ronin-garden",
+    "name": "Ronin Garden",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Auto Erotic Assimilation",
+      "Bum Wine",
+      "Cognition Amplifier",
+      "Enenra",
+      "Chachi",
+      "Chikara",
+      "High Strangeness",
+      "Jack in the Box",
+      "Rolling Thunder",
+      "Rope a Dope"
+    ]
+  },
+  {
+    "id": "barba-seeds",
+    "name": "Barba Seeds",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Cupcake",
+      "Bananangie",
+      "Bananarlic",
+      "Bangie Cake",
+      "Barba Cake",
+      "Barba Piss Cat",
+      "Barbalope",
+      "Barbangie",
+      "Barbanner",
+      "Black Apollo"
+    ]
+  },
+  {
+    "id": "hawaiian-budline",
+    "name": "Hawaiian Budline",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Patch",
+      "Blue Hawaii",
+      "Blueberry Jiu Jitsu",
+      "Jah-Waiian",
+      "Jam Berry OG",
+      "Kalika Butter",
+      "Kimo Slice",
+      "Mac Nut Barz",
+      "Orange Ice Water",
+      "Papaya Julius"
+    ]
+  },
+  {
+    "id": "doc-s-dank-seeds",
+    "name": "Doc's Dank Seeds",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Blazentine",
+      "Butch",
+      "Citrus Freak Show",
+      "Escher",
+      "Bear Creek Kush",
+      "Cherry Pie Glue",
+      "Dagda Mor",
+      "Kostabi",
+      "Mouse",
+      "Rockwell"
+    ]
+  },
+  {
+    "id": "conscious-genetics",
+    "name": "Conscious Genetics",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Blood Diamonds 2.0",
+      "Blue Kachina",
+      "Chakra'z",
+      "Conscious Kush V1",
+      "Conscious Kush V3",
+      "Chronic Kush",
+      "Conscious Kush V2",
+      "Orange Runtz Cake 2.0",
+      "Pink Quavers",
+      "Pink Zheez"
+    ]
+  },
+  {
+    "id": "tarantula-genetics",
+    "name": "Tarantula Genetics",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Burnt Punch",
+      "Chimp Breath",
+      "Jaxton’s Cookies",
+      "Knock Out Punch",
+      "Platinum Chimpanzee",
+      "Platinum Chunk Cookies",
+      "Platinum OG Punch Breath",
+      "Purple Belt",
+      "Pussy Breath",
+      "Snow Ball Fight"
+    ]
+  },
+  {
+    "id": "petepacks",
+    "name": "Petepacks",
+    "strain_count": 22,
+    "award_count": 0,
+    "notable_strains": [
+      "Cheeze It",
+      "D98",
+      "Deep Space 98",
+      "Diamondess",
+      "Hennessy Runtz",
+      "Monday Morning Driver",
+      "Piss on the loom",
+      "Purple Scones",
+      "Space Fries",
+      "Space Fumes"
+    ]
+  },
+  {
+    "id": "pisces-genetics",
+    "name": "Pisces Genetics",
+    "strain_count": 21,
+    "award_count": 1,
+    "notable_strains": [
+      "Blush",
+      "Truth Serum",
+      "Blood Orange OG",
+      "Candy Queen",
+      "Cheese Master",
+      "Chemical Kush",
+      "Colombian D",
+      "Colombian Kush",
+      "Colombian Kushwreck",
+      "Colombian Queen"
+    ]
+  },
+  {
+    "id": "madd-farmer-genetics",
+    "name": "Madd Farmer Genetics",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Strawberry Frost",
+      "Berry Grape Squish",
+      "Bi-polar Jackie",
+      "Billy Wonka",
+      "Clementine x Tripoli Wicked",
+      "Maddgically Delicious",
+      "Madds Urkle Queen",
+      "Northern Lights #5 x Clementine",
+      "Northern Lights #5 x Tripoli Wicked",
+      "Purple Jackie"
+    ]
+  },
+  {
+    "id": "cream-of-the-crop-seeds",
+    "name": "Cream of the Crop Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Paralysis",
+      "Amphetamine",
+      "Cash Crop",
+      "Cherry Mints",
+      "Cream Cheese",
+      "Crop Circle",
+      "Cropical Fruit",
+      "Cropolope",
+      "Custard Cream",
+      "Crop Doctor"
+    ]
+  },
+  {
+    "id": "grand-daddy-purp",
+    "name": "Grand Daddy Purp",
+    "strain_count": 21,
+    "award_count": 1,
+    "notable_strains": [
+      "Candyland",
+      "Phantom Cookies",
+      "Bay 11",
+      "Bay Dream",
+      "Kens Kush",
+      "Snowcap",
+      "Bay Berry",
+      "Bay Lotus",
+      "Bay Thunderbolt",
+      "Cocoa OG"
+    ]
+  },
+  {
+    "id": "best-coast-genetics",
+    "name": "Best Coast Genetics",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Colombian Gold",
+      "Banana Kush",
+      "Cindy 99",
+      "Banana Soft Serve",
+      "Box of Remedies",
+      "Hang Ten",
+      "Jazz The Glass",
+      "Kosher Kush x Tangerine",
+      "Magpie",
+      "Orange Velvet x Cinderella 99"
+    ]
+  },
+  {
+    "id": "british-columbia-seed-company",
+    "name": "British Columbia Seed Company",
+    "strain_count": 21,
+    "award_count": 1,
+    "notable_strains": [
+      "Super Kush",
+      "Blaze",
+      "Heavy Duty Fruity",
+      "White Lightning",
+      "Mendocino Madness",
+      "Jack",
+      "A-K",
+      "Afghaan Dream",
+      "Baldy",
+      "Big Blue"
+    ]
+  },
+  {
+    "id": "southern-star-seeds",
+    "name": "Southern Star Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Cheese",
+      "Anna Lee",
+      "Charles Cosby",
+      "Chung Lee",
+      "Double Affie",
+      "Escobar",
+      "Juice WRLD",
+      "Marion Davies",
+      "Nanan-Bouclou",
+      "Nice Chunk"
+    ]
+  },
+  {
+    "id": "heavyweight-seeds",
+    "name": "Heavyweight Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Strawberry Cheesecake",
+      "Budzilla",
+      "Champions Cheese",
+      "Extreme Impact Auto",
+      "High Density",
+      "Jackpot Auto",
+      "K.O Kush",
+      "Money Bush",
+      "Monster Profit",
+      "Short & Sweet Auto"
+    ]
+  },
+  {
+    "id": "pollen-nation-elite-genetics",
+    "name": "Pollen Nation Elite Genetics",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Abbys Road",
+      "Allepo 1138",
+      "Basketball Jones",
+      "Bleeting Goat",
+      "Curious Jorge",
+      "Madelines Fury",
+      "Nanas Fix",
+      "Odies Slumber",
+      "Otis OG 2.0",
+      "Pinkys Advice"
+    ]
+  },
+  {
+    "id": "207-seeds",
+    "name": "207 Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien BubbleGum",
+      "Alien Diamond",
+      "Black Russian Kush",
+      "Blood Kush F2",
+      "Eleven Roses Bx1",
+      "Eli Kush",
+      "Emperor Purple",
+      "Black Rose Kush",
+      "Eleven Gorillas",
+      "Hawaiian Roses"
+    ]
+  },
+  {
+    "id": "freeborn-selections",
+    "name": "Freeborn Selections",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Animal Cookies x Grape Soda Skunk F8",
+      "Cherry Lime Runtz",
+      "Cherry Limepop",
+      "Cherry West Bx",
+      "Coco Cola",
+      "Dubble Limes",
+      "Cherry AK x Skycuddler Double Kush F3",
+      "Jaro",
+      "KayDeeOne",
+      "KD"
+    ]
+  },
+  {
+    "id": "underworld-genetix",
+    "name": "Underworld Genetix",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Assassin’s Creed #1",
+      "Assassin’s Creed #2",
+      "Bitter Sweet",
+      "Cheetah Piss x Jealousy",
+      "Chocolope x Jealousy",
+      "Dagga",
+      "Bukkake Jelly",
+      "Jelly Donuts",
+      "Jelly Fart",
+      "Kush Mints x Jealousy"
+    ]
+  },
+  {
+    "id": "coastal-seed-co",
+    "name": "Coastal Seed Co",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Aunt of Farouk Colombian",
+      "BSHW Colombian",
+      "Chem 101",
+      "Coastal Haze",
+      "Dumpster x NL1",
+      "High Biscus",
+      "Jalalabad Star Colombian",
+      "Jedi Mind Trip Colombian",
+      "Kali Mist Burmese",
+      "Motor Breath X Colombian"
+    ]
+  },
+  {
+    "id": "mallorca-seeds",
+    "name": "Mallorca Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Autozone",
+      "Balearic Dream",
+      "Ballerblume #1",
+      "Ballerblume 6",
+      "Big Auto Paxa",
+      "Big Auto Skunk",
+      "Critical Zone",
+      "Estrella de Mallorca",
+      "Auto Critical Zone",
+      "Critical del Norte"
+    ]
+  },
+  {
+    "id": "geistgrow",
+    "name": "Geistgrow",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Daiquiri",
+      "Banana OG (Cup Winner)",
+      "Citrus Mist",
+      "Cookies N Cream x Platinum Yeti",
+      "Diesel Blueberry x Super Male",
+      "DUH x (ASD x Blue Fire)",
+      "A.J. Sour Diesel",
+      "Blue Kabul",
+      "OG Truth x Terpentine",
+      "OGKZ"
+    ]
+  },
+  {
+    "id": "sur-genetics",
+    "name": "Sur Genetics",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Bananita Dolkush",
+      "Biscuit Cream",
+      "Citric Sherbert",
+      "Dosired",
+      "Dr. Dog Mandarine",
+      "Durban Blue Widow",
+      "Nieve Roja",
+      "Purple CBD",
+      "Red Ghost Train",
+      "Seven Cake"
+    ]
+  },
+  {
+    "id": "pompous-seeds",
+    "name": "Pompous Seeds",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Bandana Spider",
+      "Bandogge",
+      "Banjaro",
+      "Behold",
+      "Black Widow Ripper",
+      "Butt-Head",
+      "El Dorado",
+      "Band-Saw",
+      "Broly",
+      "Milk plus Drencrom"
+    ]
+  },
+  {
+    "id": "westco-seed-co",
+    "name": "Westco Seed Co",
+    "strain_count": 21,
+    "award_count": 2,
+    "notable_strains": [
+      "Big Berry Band",
+      "Big Blue Cat",
+      "Big Blue Goo",
+      "Blue Lotus Muffin",
+      "Bluricain",
+      "Bonnies Peach",
+      "Bubnilla Kush",
+      "Capitol Reefer",
+      "Cowboy Cakes",
+      "Double Mint Twins"
+    ]
+  },
+  {
+    "id": "the-seed-kompany",
+    "name": "The Seed Kompany",
+    "strain_count": 21,
+    "award_count": 0,
+    "notable_strains": [
+      "Bird",
+      "Canna-So-Hard",
+      "Deep State",
+      "Dirty Lemon G-13",
+      "Dirty Limetar",
+      "Dirty Shirley",
+      "High Amperage",
+      "Old Dirty Bastard",
+      "Powerage",
+      "Procrasta"
+    ]
+  },
+  {
+    "id": "the-blazing-pistileros",
+    "name": "The Blazing Pistileros",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Maramota 10",
+      "Amethyst Bud",
+      "Mau Mau",
+      "Affie Bubba",
+      "Blacktooth",
+      "Bubba Kush x Aloha WW",
+      "Erkle x Aloha WW",
+      "Erkle/Headband x Mandala Purple #1",
+      "Amethyst Koosh",
+      "Choke Berry"
+    ]
+  },
+  {
+    "id": "dr-underground",
+    "name": "Dr. Underground",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Brooklyn Mango",
+      "King Kong",
+      "Melon Gum",
+      "Sweet Diesel",
+      "AlaDin",
+      "Auto King Kong",
+      "Auto Melon Gum",
+      "Diesel Cookie",
+      "Black Jesus OG",
+      "Crystal M.E.T.H."
+    ]
+  },
+  {
+    "id": "federation-seed-company",
+    "name": "Federation Seed Company",
+    "strain_count": 20,
+    "award_count": 1,
+    "notable_strains": [
+      "Big Mac",
+      "Jamaican",
+      "Cotton Candy",
+      "Berlin",
+      "Celestial Temple Sativa",
+      "Crown Royal",
+      "Hawaiian Sativa x BC Big Bud",
+      "Hawaiian Sativa x BC Kush",
+      "Hawaiian x Cotton Candy",
+      "Purple Shaman"
+    ]
+  },
+  {
+    "id": "world-trade-genetics",
+    "name": "World Trade Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Blueberry Muffins",
+      "Berry Apocalypse",
+      "Berry Mendoza",
+      "Blue Berries & Cream",
+      "Cherry Sunset",
+      "Dos Leches",
+      "Black Raspberry Kush",
+      "Blue Cherry",
+      "Kushington",
+      "Phat Witch Bakery"
+    ]
+  },
+  {
+    "id": "cabin-fever-seed-breeders",
+    "name": "Cabin Fever Seed Breeders",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Hoarfrost",
+      "Master Og",
+      "Duke Nukem",
+      "Albino Leprechaun",
+      "Alexander Kush",
+      "Alien Chemmander",
+      "Blue Geez",
+      "Blue Neville's Chem",
+      "BlueChem #4",
+      "Burmese Headband"
+    ]
+  },
+  {
+    "id": "sannie-s-seeds",
+    "name": "Sannie's Seeds",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Sugar Punch",
+      "Extrema",
+      "Heribei",
+      "Hericules",
+      "Jack Hammer",
+      "K.O Kush F2",
+      "Killing Fields F2",
+      "Kolossus",
+      "Madonna",
+      "Motherlode"
+    ]
+  },
+  {
+    "id": "afropips-seeds",
+    "name": "Afropips Seeds",
+    "strain_count": 20,
+    "award_count": 2,
+    "notable_strains": [
+      "Blue Cheese",
+      "Platinum",
+      "Mabombe",
+      "Malaki",
+      "Malawi Mini",
+      "Malberry",
+      "MalSP",
+      "Mr Majestyk",
+      "Nigerian",
+      "Nigerian x Afghan"
+    ]
+  },
+  {
+    "id": "dankensteins-lab",
+    "name": "Dankensteins Lab",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "… And Beyond",
+      "Bible Belt",
+      "Black Belt",
+      "Butterfly Effect",
+      "Chips Deluxe",
+      "Dog Treats",
+      "Dr. Rick Marshall",
+      "Dunk A Roos",
+      "CherrieZ",
+      "Creamsicle Ogee"
+    ]
+  },
+  {
+    "id": "bound-by-fire-seed-co",
+    "name": "Bound By Fire Seed Co.",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "A Step Up",
+      "Arachnid Fangs",
+      "Arkansas Grape Diamond",
+      "BananaGramz",
+      "Blue Dulari",
+      "Calyx Chalice",
+      "Desserts of the Silk Road",
+      "Doodh Dulari F2",
+      "Arkansas Grape Heirloom",
+      "Asoka OG"
+    ]
+  },
+  {
+    "id": "gonzo-seeds",
+    "name": "Gonzo Seeds",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Acosta&#039;s Diamonds",
+      "Acosta's Diamonds",
+      "Berried Deep",
+      "Blueberry Slushpuppy",
+      "Capri",
+      "Couch Potato",
+      "El Chapo",
+      "Naranga",
+      "Narcoberry Kush",
+      "Ponzu"
+    ]
+  },
+  {
+    "id": "dankonomics-genetics",
+    "name": "Dankonomics Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Al Capone OG",
+      "Banana Stardawg",
+      "Bananaquin",
+      "Blue Tooth",
+      "Blueberry Teeth",
+      "Chocolate Stardawg",
+      "Chocolate Tooth",
+      "Cookie Tooth",
+      "Dream Stardawg",
+      "Banana Glue #4"
+    ]
+  },
+  {
+    "id": "apex-seeds",
+    "name": "Apex Seeds",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Alaska's Flavor",
+      "Apex Dominus",
+      "Apex Secret",
+      "Apex Widow",
+      "Arafa",
+      "Auto Critical XXL",
+      "Auto Insomnia",
+      "Auto Kalashnikov",
+      "Blue Monkey",
+      "Chunky Cookies"
+    ]
+  },
+  {
+    "id": "hammerhead",
+    "name": "Hammerhead",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Appalachian Super Skunk x Animal Piss x White Larry",
+      "Banana Hammer",
+      "C.Banana x Tom Hill Haze x A5hbx x Mac",
+      "Chimera x White Larry",
+      "Destiny f1 x Appalachian Super Skunk",
+      "Destiny x Sowahh",
+      "Double Banana Mango Haze x Mac",
+      "C. Banana S1",
+      "Destiny",
+      "Hammers Kush x Tom Hill Haze"
+    ]
+  },
+  {
+    "id": "grand-cru-genetics",
+    "name": "Grand Cru Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Cru",
+      "Lumpy’s Fritter",
+      "Banana Melts",
+      "Banana Stones",
+      "Berry Bliss",
+      "Blanc Fumé",
+      "Cindy Rose",
+      "Crash Crimes",
+      "Honey Gas",
+      "Honeycomb"
+    ]
+  },
+  {
+    "id": "cannabis-family-seeds",
+    "name": "Cannabis Family Seeds",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Aquatic Ape",
+      "Bullet Train",
+      "Crazy Horse",
+      "Cyber Grape x Midnight Express",
+      "Dark Horse",
+      "Cyber Grape",
+      "Hungry Horse",
+      "Jigsaw",
+      "Jigsaw x Midnight Express",
+      "Midnight Express"
+    ]
+  },
+  {
+    "id": "beefcake-genetics",
+    "name": "Beefcake Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Astro Thunderfuck",
+      "Berries And Nit Berry",
+      "Big John Cheese",
+      "Cheddar Biscuits",
+      "Cheesy Curd Berries",
+      "Chunky Beef",
+      "Dracos Milk",
+      "Cooter Berry",
+      "Darwins Fruit",
+      "Mana Potion"
+    ]
+  },
+  {
+    "id": "botafarm-california",
+    "name": "Botafarm California",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Asylum",
+      "Haters Killah",
+      "Jewel",
+      "Matière Grise",
+      "Outlaw Terps",
+      "Pistol Whip",
+      "Purple Nurple",
+      "Rafale",
+      "Reservoir Terps",
+      "Royal with Cream"
+    ]
+  },
+  {
+    "id": "people-under-the-stairs-genetics",
+    "name": "People Under The Stairs Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana BreaDD",
+      "Bananaz",
+      "Chemeleon",
+      "Chemmoseuir",
+      "Chlemontree",
+      "Dog Breath",
+      "Dubble Sour Dog",
+      "ChemheaDD OG",
+      "Hasidic Chem",
+      "Kosher Kush Bc1"
+    ]
+  },
+  {
+    "id": "waffle-house-genetics",
+    "name": "Waffle House Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Nose Berry",
+      "Banana Nose Candy",
+      "Beach Bumps",
+      "Black Banana Haze",
+      "Burkle Haze",
+      "Dr Banana Head",
+      "Bad Banana",
+      "Mr. Plow",
+      "Nosebleed",
+      "Pineapple Sours"
+    ]
+  },
+  {
+    "id": "crickets-and-cicada-seeds",
+    "name": "Crickets and Cicada Seeds",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Bananaghan",
+      "Brood X",
+      "Bubbleghan",
+      "Chem 101 2.0",
+      "Chem D x Puck BC2",
+      "Cruz Cake",
+      "Kine Bud",
+      "NL1 x Tom Hill’s Haze",
+      "NL2 x Puck BC2",
+      "OGTKM10"
+    ]
+  },
+  {
+    "id": "patchwerk-genetics",
+    "name": "Patchwerk Genetics",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Baraka",
+      "Barking Dog",
+      "Billy Goat Kush",
+      "Daffie F3",
+      "Dan Haze F1",
+      "Dan Haze F2",
+      "Duck Hunter",
+      "Dark Hulk",
+      "DH1",
+      "Drax"
+    ]
+  },
+  {
+    "id": "salve-my-body-medicinals",
+    "name": "Salve My Body Medicinals",
+    "strain_count": 20,
+    "award_count": 0,
+    "notable_strains": [
+      "Blueberry Cake Donutz",
+      "Chocolate Grilled Cheese",
+      "Chocolate Hash Breath",
+      "Chocolato 33",
+      "Chocolato Cookies",
+      "Hott Cocoa Skunk",
+      "Purple Skunk Breath",
+      "Raisinets",
+      "Skunk Widow",
+      "Skunky Chocolate Breath"
+    ]
+  },
+  {
+    "id": "pure-instinto",
+    "name": "Pure Instinto",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Cherry Cookies",
+      "Aca-Dos Delight",
+      "Chimera Crasher",
+      "HB Dunkin’z",
+      "Honeyed Cream Dream",
+      "Kings Banner",
+      "Mandarine Cream Auto",
+      "Mimosa Cake Auto",
+      "Pure Glitter",
+      "Pure Ice Cream"
+    ]
+  },
+  {
+    "id": "mandala-seeds",
+    "name": "Mandala Seeds",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Mandala 1",
+      "Beyond the Brain",
+      "Chill-OM",
+      "Hubble Bubble",
+      "Krystalica",
+      "Mango Zamal",
+      "Orisha",
+      "Point of No Return",
+      "Purple Mandala",
+      "Purple Paro Valley"
+    ]
+  },
+  {
+    "id": "pure-michigan-genetics",
+    "name": "Pure Michigan Genetics",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Achilles",
+      "Acid X",
+      "Afghan Posion Cream",
+      "Chocolate Posion",
+      "Cyanide Kush",
+      "Death By Kush",
+      "Bio-Hazard",
+      "MakaJilly",
+      "OG Posion",
+      "Space Crush"
+    ]
+  },
+  {
+    "id": "underground-seeds-collective",
+    "name": "Underground Seeds Collective",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghanchitral",
+      "Amnesia Sativa",
+      "Black Afghani",
+      "Coljam",
+      "Colombian Gold 72",
+      "Colowryder",
+      "Double Jam",
+      "Double Zamal",
+      "Ducksfoot",
+      "Cheesetral"
+    ]
+  },
+  {
+    "id": "magic-strains",
+    "name": "Magic Strains",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Overlord",
+      "B-Line",
+      "Bam Bam",
+      "Blood Moon",
+      "Bubba Fett",
+      "Bubba Kim",
+      "Bubba Trouble",
+      "Candy Cain",
+      "Hula Gurl",
+      "Kundalini"
+    ]
+  },
+  {
+    "id": "misterd-farmhouse",
+    "name": "misterD Farmhouse",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Sweet Candy",
+      "Chocolate Parfait",
+      "Citrus Parfait",
+      "Encore",
+      "Helmand Glue",
+      "Jamaican Tooth",
+      "Juicy Fruit Diesel",
+      "Maple Puff",
+      "Pineapple Parfait",
+      "Sour Hash Plant"
+    ]
+  },
+  {
+    "id": "chanetics",
+    "name": "CHAnetics",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Argon",
+      "Black Cherriez",
+      "Cherry Amaretto",
+      "Cherry Cadillac",
+      "Cherry Gelato x Koffee F8",
+      "Cherry Gellyz",
+      "Cherry Runtz Cake",
+      "Drone Strikez",
+      "Dubble Limes x Grape GAK",
+      "Cranberry Gellyz"
+    ]
+  },
+  {
+    "id": "wolfpack-selections",
+    "name": "Wolfpack Selections",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Jella-scotti",
+      "Bubba Guavotti",
+      "CaliGuavotti",
+      "Cheetah Piss S1",
+      "CheetieOs",
+      "Comprende",
+      "Jelly Bananas",
+      "Plantainz",
+      "Pur’ee",
+      "Rainnanabow"
+    ]
+  },
+  {
+    "id": "strains-lab",
+    "name": "Strains Lab",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Barbara Biker",
+      "Cheech Bomb",
+      "Cheech Island x Tropisour",
+      "Cheech Island",
+      "Hammer Juice",
+      "Hammer Juice x Toxic Cherry Bomb",
+      "Hammer Zest #7",
+      "Mistery Kush",
+      "Mururoa",
+      "Tangie Zest #7"
+    ]
+  },
+  {
+    "id": "hazeman-seeds",
+    "name": "Hazeman Seeds",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Band",
+      "Bubba's Widow",
+      "Cheese BX1",
+      "Cocoa Puffs",
+      "Double White Cheese",
+      "Escaped",
+      "Blue Bubba",
+      "Elephant Stomper",
+      "Hazeman Skunk",
+      "Head Candy"
+    ]
+  },
+  {
+    "id": "senpai-genetics",
+    "name": "Senpai Genetics",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Budō Geisha",
+      "Cherry Geisha",
+      "Dante's Geisha",
+      "Endo Crescendo",
+      "Apollo Punch",
+      "Būdo Kai Tempest",
+      "Endo Mendo",
+      "Jedi Fruit",
+      "Monkey Moon",
+      "Perfect Storm"
+    ]
+  },
+  {
+    "id": "nation-of-kamas",
+    "name": "Nation Of Kamas",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Candy Dog",
+      "Cheem Cream",
+      "Chemmental",
+      "ChemTex",
+      "ChemZu",
+      "Designer Cake",
+      "Designer Chem",
+      "Designer Zest",
+      "Bisco 75-11",
+      "Citron 1"
+    ]
+  },
+  {
+    "id": "universally-seeded",
+    "name": "Universally Seeded",
+    "strain_count": 19,
+    "award_count": 0,
+    "notable_strains": [
+      "Cement Shoes 2 Blueberry Edition",
+      "Cookie Cement",
+      "Animals XJ-13",
+      "Cement Shoes S1",
+      "Minted Shoes",
+      "Pink Abduction",
+      "Pink Cement",
+      "Pink Cereal Puffs",
+      "Pink Pound Cake",
+      "Pink Runtz S1"
+    ]
+  },
+  {
+    "id": "loompa-farms",
+    "name": "Loompa Farms",
+    "strain_count": 18,
+    "award_count": 1,
+    "notable_strains": [
+      "Jack Frost",
+      "Black Yeti",
+      "Emperor OG Kush",
+      "Harambe",
+      "Harambe #28 x Yeti Fuel",
+      "Harambe #4 x Yeti Fuel",
+      "Hills Have Eyes",
+      "Moondawg",
+      "Silver Bubster",
+      "Some Shit My Buddy Gave Me OG"
+    ]
+  },
+  {
+    "id": "de-sjamaan",
+    "name": "De Sjamaan",
+    "strain_count": 18,
+    "award_count": 8,
+    "notable_strains": [
+      "Purple Widow",
+      "Brainstorm",
+      "Crystal Ryder",
+      "Dwarf Ryder",
+      "Amazonia",
+      "Magic Crystal",
+      "Merlin's Dream",
+      "Peace Maker",
+      "Shaman's High",
+      "Shamanic Haze"
+    ]
+  },
+  {
+    "id": "lady-sativa-genetics",
+    "name": "Lady Sativa Genetics",
+    "strain_count": 18,
+    "award_count": 5,
+    "notable_strains": [
+      "Orange Diesel",
+      "Aphasia Haze",
+      "Atomic Orange",
+      "English OG",
+      "Exodus Orange Fuel",
+      "Bubba Orange Kush",
+      "Exodus Fuel",
+      "Masala OG",
+      "Orange Bubba Kush",
+      "Orange Diesel V3"
+    ]
+  },
+  {
+    "id": "mudro-seeds",
+    "name": "Mudro Seeds",
+    "strain_count": 18,
+    "award_count": 1,
+    "notable_strains": [
+      "Satori",
+      "Afghani #1",
+      "Auto Afghan Kush",
+      "Auto AK47",
+      "Auto Moxie",
+      "Auto Purple Kush",
+      "Auto White Widow ХХL",
+      "Diesel Ryder",
+      "Effing Day",
+      "Auto Astarta"
+    ]
+  },
+  {
+    "id": "bluehemp-switzerland",
+    "name": "BlueHemp Switzerland",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Haze",
+      "Afghani Wonder",
+      "Calvin",
+      "Chilla",
+      "DarkVader",
+      "Erdbeer Mix",
+      "Dark Kush",
+      "Nepali",
+      "NLB",
+      "Pakistani"
+    ]
+  },
+  {
+    "id": "loyal-2-tha-soil-va",
+    "name": "Loyal 2 Tha Soil - VA",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Godfather",
+      "Agent Purple",
+      "Col. Kurtz",
+      "Heli-Surf",
+      "JarHead",
+      "M.G.K.",
+      "Mustard Gas",
+      "Purple Mendo Breath",
+      "Sour Jokerz",
+      "Swamp Buggy"
+    ]
+  },
+  {
+    "id": "izi-seeds",
+    "name": "IZI Seeds",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Afghani Mazar",
+      "AK 47 Ultra",
+      "Auto Big Joy",
+      "Auto Gummy Kush",
+      "Auto Hulk OG",
+      "Auto Mazzar",
+      "Auto White Devotchka",
+      "Black Ultimate",
+      "Brain Swirl",
+      "Auto Scout Cookies"
+    ]
+  },
+  {
+    "id": "mean-beanz",
+    "name": "Mean Beanz",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "After Eightz",
+      "Alien Jaffa Cake",
+      "Cheese x ZBX",
+      "Chocolate Orange",
+      "Jaffa 360",
+      "Jaffacito",
+      "Jaffalato",
+      "Jaffalato v3",
+      "Mint Sorbet",
+      "Nutz"
+    ]
+  },
+  {
+    "id": "eazy-daze-cultivators",
+    "name": "Eazy Daze Cultivators",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Agent 1101",
+      "Alien Cheese Bus",
+      "Alien Struggle Bus",
+      "American Broomstick Auto",
+      "Eazy T Auto",
+      "EazyDaze Maui",
+      "EazyDaze Ryder",
+      "Black Tie Auto",
+      "Happy Juice",
+      "Hazel T"
+    ]
+  },
+  {
+    "id": "source-genetics",
+    "name": "Source Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "AJ Sour Diesel x Pre Soviet Afghani",
+      "Brothers Love",
+      "Bubblegas",
+      "Cherry Blossom",
+      "Colombian Neck Thai",
+      "Cookie Monster x Mango Haze",
+      "Bangkok Banshee",
+      "Curry Face",
+      "Pure Thai x Face Off",
+      "Schlemons"
+    ]
+  },
+  {
+    "id": "makena-genetics",
+    "name": "Makena Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "American Rainbow",
+      "Banjo Belts",
+      "Ben n Gary's",
+      "Boba Belts",
+      "Cakehoe",
+      "Cherimisu",
+      "Cherry Rain",
+      "Crumble Cake",
+      "Cream Walker",
+      "Jaeger Cake S1"
+    ]
+  },
+  {
+    "id": "brothers-in-farms",
+    "name": "Brothers In Farms",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Angry Gorilla",
+      "Bermuda Triangle",
+      "Boobie Point Card #1",
+      "Dionysus Delight",
+      "Durban Express",
+      "Cabernet",
+      "Kung-Pao",
+      "Peanut Butter Breath F3",
+      "Phantom Space Ramen",
+      "Prosecco"
+    ]
+  },
+  {
+    "id": "cannabinopathic-conceptions",
+    "name": "Cannabinopathic Conceptions",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Anthocyanide",
+      "Battery Acid",
+      "Berry Potpourri",
+      "Continental Breakfast",
+      "Egg Salad",
+      "Engine Bay",
+      "Patent Leather",
+      "Sauvignon Danc",
+      "Sewer Gas",
+      "SkunkAid"
+    ]
+  },
+  {
+    "id": "anthos-seeds",
+    "name": "Anthos Seeds",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Anthomancer",
+      "Bluebell",
+      "Congo Certz",
+      "Couchsurfer",
+      "Hibernator",
+      "Mexican Beach Weed",
+      "Niben",
+      "Peacefield",
+      "Pure Vermont",
+      "Siam Sour"
+    ]
+  },
+  {
+    "id": "magic-spirit-seed-co",
+    "name": "Magic Spirit Seed Co.",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Dragon",
+      "Bandaid Haze 3.0",
+      "Black Energy",
+      "Black Triangle Haze",
+      "Blue Dragongrass",
+      "Deep Space Dream Bud",
+      "Dragon Energy",
+      "Dragon Hammer",
+      "Dragon Hammer Haze",
+      "Dragon Whales"
+    ]
+  },
+  {
+    "id": "ukhta-420",
+    "name": "UKHTA 420",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Bad Guy",
+      "Biscotti x Candy Rain",
+      "Biscotti x Lemon Tree",
+      "Candy House",
+      "Coco Chanel x Candy Rain",
+      "Coffee Creamer x 50 Dragons",
+      "Coffee Creamer x Lemon Tree",
+      "Da Vinci",
+      "Coffee Creamer x Lemons",
+      "Rainbow Belts x Lemon Tree"
+    ]
+  },
+  {
+    "id": "true-grit-genetics",
+    "name": "True Grit Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana OG F3",
+      "Cherry Stardust",
+      "Cherry Starfighter",
+      "Cherry Super Dawg",
+      "Dedication OG",
+      "Alien Outbreak",
+      "Next Generation",
+      "Omerta",
+      "Placenta",
+      "Red Skies At Night"
+    ]
+  },
+  {
+    "id": "lusodream-seeds",
+    "name": "LusoDream Seeds",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Bang Bang",
+      "Cheese For You",
+      "Darkness Runtz",
+      "Do-Zi-Doz Kush",
+      "Krazy Dreamers",
+      "Macabre Cookies",
+      "Mad Mac Mints",
+      "Mangosa Glukies",
+      "Mangosa Glukies Auto",
+      "Mimosa Glukies"
+    ]
+  },
+  {
+    "id": "turn-it-up-genetics",
+    "name": "Turn It Up Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Banners Florida Vacation",
+      "Bubb For President",
+      "Bubba Runtz Bx1",
+      "Bubba Runtz",
+      "King Bubba",
+      "Runtz S1",
+      "St.Pete Funk",
+      "St.Pete Funk F2",
+      "Strawberry Gorilla Runtz",
+      "Strawberry Gorilla Runtz Bx1"
+    ]
+  },
+  {
+    "id": "california-connoisseur-genetics",
+    "name": "California Connoisseur Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Black & Red",
+      "Black Congo Pure",
+      "Colonbian Gold pure",
+      "Durban Poison pure",
+      "Black Magic x Sour Diesel",
+      "California #1",
+      "Panama Red Pure",
+      "Panama Red x 91 Crippy",
+      "Panama Red x Black Congo",
+      "Panama Red x Cokkies & Cream"
+    ]
+  },
+  {
+    "id": "howe-farms",
+    "name": "Howe Farms",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Blackberry Jack",
+      "Bushmaster",
+      "Caly Wompus",
+      "Cookie cutter Goonie Birds",
+      "Jamboree",
+      "Mojave Gold",
+      "Officinalis",
+      "Pitfall",
+      "Refugee",
+      "Skidmarks"
+    ]
+  },
+  {
+    "id": "shaman-genetics",
+    "name": "Shaman Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Kraken Auto",
+      "CBD #11",
+      "CBD #77",
+      "CBDiesel",
+      "Cheestar 99",
+      "Hubba Bubba Auto",
+      "Knockout",
+      "Kraken Auto",
+      "Marley's Tribute",
+      "Shaman OG"
+    ]
+  },
+  {
+    "id": "blue-star-seed-co",
+    "name": "Blue Star Seed Co",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Star OG",
+      "Blue Trop Cherry",
+      "Blueberry Apple Cobble",
+      "Blueberry Grapefruit",
+      "Blueberry Lemon Pound Cake",
+      "Blueberry Lemon Shake-Up",
+      "Candied Blueberries",
+      "Hollywood Blues",
+      "Juicy Fruit Kush",
+      "Mega Death Star"
+    ]
+  },
+  {
+    "id": "da-bean-co",
+    "name": "Da Bean Co.",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Blue Warrior",
+      "Brickland",
+      "Cali Warrior",
+      "Callahan",
+      "Creole",
+      "Charger",
+      "Heri Berry",
+      "Heri C99",
+      "Herijuanna",
+      "Mango x Warrior F3"
+    ]
+  },
+  {
+    "id": "high-quality-seeds",
+    "name": "High Quality Seeds",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Bob Marleys Best",
+      "Durban Poison Amazing Special",
+      "Northern Pride",
+      "Original Big Bud Super Skunk",
+      "Original Hawaiian Maui Wowie Skunk",
+      "Original Haze x Skunk",
+      "Original Highway Delight",
+      "Outsider",
+      "Skunk 3 x a2",
+      "South African Durban Poison x Skunk"
+    ]
+  },
+  {
+    "id": "bean-boyz-genetics",
+    "name": "Bean Boyz Genetics",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Bubble Girl",
+      "Buddha Ballz Kush",
+      "Chocolope Musk",
+      "De Chem Reaperz SFV OGK",
+      "De Grape Trainwreck #5",
+      "Dead Dawgs Walk'n SFV",
+      "Double Dawg Down OG Kush",
+      "Dead Dawg Queen",
+      "Drive-By Kush",
+      "Klock-Werkz Orangez"
+    ]
+  },
+  {
+    "id": "tatewari-tactical",
+    "name": "Tatewari Tactical",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Canyon Blues",
+      "Huckleberry Fairy",
+      "Kamook",
+      "Krampus × Skookum",
+      "Krampus × Suicidal Dreams",
+      "Milkweed",
+      "Monster Rain",
+      "Rougarou",
+      "Suicidal Dreams",
+      "The Great Graw"
+    ]
+  },
+  {
+    "id": "hoku-seed-co",
+    "name": "Hoku Seed Co",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Ceiba",
+      "Circles",
+      "Congoz V",
+      "Cyclops",
+      "Kannadaze V",
+      "Neville's Daze",
+      "Royal Kunduz V",
+      "Silent Nirvana",
+      "Sky Temple",
+      "Star Mind"
+    ]
+  },
+  {
+    "id": "uprising-seed-co",
+    "name": "Uprising Seed Co",
+    "strain_count": 18,
+    "award_count": 0,
+    "notable_strains": [
+      "Cherry Clifton",
+      "Daisy Cutter",
+      "Denso",
+      "Dosi Fire",
+      "Dosi Splitter",
+      "Mendo Splitter",
+      "Rainbow Truffle",
+      "Slymer Splitter",
+      "Triangle Wood",
+      "Mendo Clifton"
+    ]
+  },
+  {
+    "id": "la-plata-labs",
+    "name": "La Plata Labs",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Bubba",
+      "Colorado Clementines",
+      "Quin N Tonic",
+      "Alien Blues",
+      "Alien Bubba Berry",
+      "Alien Bubba BX3",
+      "CBDGOG",
+      "Durangatang",
+      "Durango Blues",
+      "Alien Bubba Pez"
+    ]
+  },
+  {
+    "id": "delta-9-labs",
+    "name": "Delta 9 Labs",
+    "strain_count": 17,
+    "award_count": 1,
+    "notable_strains": [
+      "Cannasutra",
+      "Superstar",
+      "Brainstorm Haze",
+      "Southern Lights",
+      "Afghani Mazar I Sharif",
+      "Aiea",
+      "Brainstorm X G13",
+      "Dawg Brains",
+      "Double Kush",
+      "Kopasetic Kush"
+    ]
+  },
+  {
+    "id": "greenlabel-seeds",
+    "name": "GreenLabel Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Og Cheese",
+      "Ace Silver Haze",
+      "AK Widow 47",
+      "Auto Silver Haze",
+      "Automatic Amnesia",
+      "Automatic Easy Skunk",
+      "Automatic Mary",
+      "Automatic Mega Bud",
+      "Automatic Widow",
+      "Berry Delight"
+    ]
+  },
+  {
+    "id": "medicann-seeds",
+    "name": "Medicann Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Cali Jack",
+      "Blue Blood",
+      "Black Afghani Kush",
+      "Black Blood",
+      "Blue Blood CBD",
+      "Blue Mountain Durban",
+      "Chem Dawg",
+      "Cookie Dream",
+      "Critical Dawg",
+      "Kush Fromage"
+    ]
+  },
+  {
+    "id": "naledi-seeds",
+    "name": "Naledi Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Neptune Kush",
+      "CBD High Hopes",
+      "CBD Medicalstar",
+      "CBD Painaway",
+      "Creamy Dreamy Auto",
+      "Critical Mars",
+      "Naledi AK Auto",
+      "Neptune Kush Auto",
+      "Supernova Auto",
+      "Titan Gorilla Auto"
+    ]
+  },
+  {
+    "id": "super-strains",
+    "name": "Super Strains",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Enemy Of The State",
+      "Agartha",
+      "Amajikoym",
+      "Automatic Fini",
+      "Cookies Krush",
+      "Crackers",
+      "DFA Autoflowering",
+      "El Cucaracha",
+      "Enemy’s Dream",
+      "Eden"
+    ]
+  },
+  {
+    "id": "oregon-microgrowers-guild",
+    "name": "Oregon Microgrowers Guild",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Franks Gift",
+      "Albino Rhino",
+      "Alexander the Grape",
+      "Courage The Cowardly Dog",
+      "Husky OG",
+      "Key Lime Custard",
+      "Mendo Cookies",
+      "Nerds",
+      "Phantom of the Cookies",
+      "Purple Pakiderm"
+    ]
+  },
+  {
+    "id": "prima",
+    "name": "Prima",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Afterburner",
+      "Air Mechanic",
+      "Blacknana",
+      "Bobby Brown",
+      "Candy Flight",
+      "Confiscated Chem",
+      "Banana Deep",
+      "Headstache",
+      "Prima Pie",
+      "Tahitian Flight"
+    ]
+  },
+  {
+    "id": "mr-h-genetics",
+    "name": "Mr H Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Aletria",
+      "Bad Dogg",
+      "Cheesey O’Grass",
+      "Cosmic Diesel",
+      "Cosmic Mandarine",
+      "Cosmic Dogg Shit",
+      "Knickerbocker Glory",
+      "Meteor Shower",
+      "Pluto",
+      "Rock Sugar"
+    ]
+  },
+  {
+    "id": "in-tents-genetix",
+    "name": "In-Tents Genetix",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Bio-Fuel",
+      "Arctic Widow",
+      "Ares Cherries",
+      "Citric Cataclysm",
+      "Alexander The Greatest",
+      "Bunkenstien",
+      "Hawaiian Shirt Sunday",
+      "Midnight Meltdown",
+      "Midwest Frost",
+      "Mudd Pie"
+    ]
+  },
+  {
+    "id": "east-coast-genetix",
+    "name": "East Coast Genetix",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Alien Stomper",
+      "Bandz",
+      "Blue Haze Auto",
+      "Blue Pebbles OG",
+      "Chem Lee",
+      "Chem Moments",
+      "Cosmic Crunch",
+      "Dead Gas",
+      "Deathly Gelly",
+      "Banana Nut Bubba"
+    ]
+  },
+  {
+    "id": "jamie-cee-s-premium-cannabis-seeds",
+    "name": "Jamie Cee’s Premium Cannabis Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Ambrosia Cream",
+      "Andalusia Dream",
+      "Apples And Oranges",
+      "Boogie Wonderland",
+      "Candy Orange Fusion",
+      "Cherokee Beach",
+      "Dauphin Island Kush",
+      "Cahaba Lilly",
+      "Heavenly Fruit",
+      "Operation Mindcrime"
+    ]
+  },
+  {
+    "id": "zativo",
+    "name": "Zativo",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Amnesia Haze Autoflowering",
+      "Amnesia Skunk Autoflowering",
+      "Blue Cheese Autoflowering",
+      "Blueberry Autoflowering",
+      "Bubble Kush Autoflowering",
+      "Critical Autoflowering",
+      "Critical Mango",
+      "Diesel Autoflowering",
+      "Hash Ultimate",
+      "Moby XL"
+    ]
+  },
+  {
+    "id": "copa-genetics",
+    "name": "Copa Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Ancient Lights",
+      "Ancient Pineapple",
+      "Ban Ham OG",
+      "Crazy Bitch",
+      "Ancient OG F3",
+      "Heaven Mountain Remix",
+      "Meigs County Gold",
+      "Meigs OG",
+      "Mocha Skunk",
+      "Project GSD"
+    ]
+  },
+  {
+    "id": "master-thai",
+    "name": "Master Thai",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Angel's Flight",
+      "Dream Lucky",
+      "Heavenly",
+      "Heavenly Blue",
+      "Heavenly Blue Kush",
+      "Master Thai's Green Dragon",
+      "Purple Lotus",
+      "Skoshi Tiger",
+      "Sour Blue Thai",
+      "Sweet & Sour Heaven"
+    ]
+  },
+  {
+    "id": "happy-valley-genetics",
+    "name": "Happy Valley Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Another Level",
+      "Baller’s Game",
+      "Candy Games #25",
+      "Easy Button Auto",
+      "Equilibrium",
+      "Everglades OG Auto",
+      "Downtown Haze",
+      "Haze Burger",
+      "Oh My Thai Auto",
+      "Pineapple Daddy Auto"
+    ]
+  },
+  {
+    "id": "aeque-genetics",
+    "name": "Aeque Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Atrocious",
+      "Bubba J",
+      "Dreamland OG",
+      "Drunken Bitch Slaps",
+      "Angels of Darkness",
+      "Hells Triangle",
+      "Heptane",
+      "Noxious Nuts",
+      "Peanut Butter Breath Mintz",
+      "Planet of the Grapes RBX2"
+    ]
+  },
+  {
+    "id": "ufo-genetics",
+    "name": "UFO Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Diamonds",
+      "Blueberry Kush Cake",
+      "Blueberry Soda",
+      "Blueberry Thai",
+      "Champagne Stomper",
+      "Dream Maker",
+      "Dreamland Bx1",
+      "Mother Ship",
+      "Platinum Skunk Breath",
+      "Blueberry Breath"
+    ]
+  },
+  {
+    "id": "viking-gardens",
+    "name": "Viking Gardens",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Banana Hammer Auto",
+      "Blood Cake Bx1",
+      "Amethyst Hammer Auto",
+      "Hammer The Pie",
+      "Hammer Time",
+      "M.A.C x Wedding Cake x Thor’s Hammer F4",
+      "MC Hammer Auto",
+      "Primal Passion",
+      "Runtz x Thor’s Hammer F4",
+      "Sundae Driver x Black Cherry Soda x Thors Hammer F4"
+    ]
+  },
+  {
+    "id": "all-in-medicinal-seeds",
+    "name": "All-in Medicinal Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Benedicta",
+      "Big Bolt",
+      "Big Marley",
+      "Big Marley Auto",
+      "Destroyer Auto",
+      "Bubble Boom",
+      "Jack Golden Auto",
+      "Jekke Auto",
+      "Kalaminoff",
+      "Kalaminoff Auto"
+    ]
+  },
+  {
+    "id": "the-alchemist-s-vault",
+    "name": "The Alchemist's Vault",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Black Coffee",
+      "C.Bonsai",
+      "Charas-Plant",
+      "Chiba-Chiba",
+      "Coffee Bush",
+      "Elephant Bones",
+      "Jungle Creeper",
+      "Juniper Berries",
+      "Kush Coma",
+      "Mango Elixir"
+    ]
+  },
+  {
+    "id": "terp-hogz",
+    "name": "Terp Hogz",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Black Hog",
+      "Cakez",
+      "Caramel Pinaz",
+      "Clemonadez",
+      "Crown Jewelz",
+      "Pellezino",
+      "Pienana",
+      "Pineapple Pellazino",
+      "Red Skrrrt-Banger",
+      "Skrrrt-Berry Zuava"
+    ]
+  },
+  {
+    "id": "bigworm-genetics",
+    "name": "Bigworm Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Blackcherry Dojo",
+      "Calypso",
+      "Dirty Flo",
+      "Double Bucks",
+      "Blue Kimbo",
+      "Double Purple Kush",
+      "Killer Cactus",
+      "Primal Dank",
+      "Prime Moonshine",
+      "Purple Crystal Dojo"
+    ]
+  },
+  {
+    "id": "pheno-finder-seeds",
+    "name": "Pheno Finder Seeds",
+    "strain_count": 17,
+    "award_count": 4,
+    "notable_strains": [
+      "Blue Sherbalato",
+      "Dirty Kuntz",
+      "Auto Lemon Bubble",
+      "Do Z Dos",
+      "Notorious OG",
+      "Peanut Dust",
+      "Pinkz",
+      "Purple Strawberry Sherbert",
+      "Sour Kuntz",
+      "Sour Walker"
+    ]
+  },
+  {
+    "id": "dungeon-of-dank-genetics",
+    "name": "Dungeon Of Dank Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "BlueMeanies",
+      "Daves Not Here",
+      "Dereks Stash",
+      "Ctrl-Alt-Delete",
+      "MDZ",
+      "MouthParty",
+      "Papa Smurpf",
+      "Platinum Blue Balls",
+      "Platinum BlueBreath",
+      "StreetBeanz"
+    ]
+  },
+  {
+    "id": "prolific-coast-seeds",
+    "name": "Prolific Coast Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Cake Bomb",
+      "Cold Cookies",
+      "Champawat",
+      "Eraser",
+      "Honey Trees",
+      "Ksmorz",
+      "Meow",
+      "PCS1",
+      "PCS2",
+      "Pearl 41"
+    ]
+  },
+  {
+    "id": "greenfire-genetics",
+    "name": "GreenFire Genetics",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Columbian Chem Fruit",
+      "Dozizoz",
+      "Mangolada",
+      "Peach Pie",
+      "Purple Papaya Fruit",
+      "Rainbow Gelato",
+      "Rainbow Pie",
+      "Strawberry Flame",
+      "Strawberry Peach Cake",
+      "Strawnana Lemonade"
+    ]
+  },
+  {
+    "id": "solkana-seeds",
+    "name": "Solkana Seeds",
+    "strain_count": 17,
+    "award_count": 0,
+    "notable_strains": [
+      "Creamsicle Cake",
+      "Destination Wedding",
+      "Juicy Boi",
+      "Mint Cake",
+      "Papaya Funk",
+      "Peach Smoothie",
+      "Razzberry Rush",
+      "Royal Redz",
+      "Sugar Snackz",
+      "Super Fruit"
+    ]
+  },
+  {
+    "id": "tikum-olam",
+    "name": "Tikum Olam",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "El Na",
+      "Alaska",
+      "Or",
+      "Avi Dekel",
+      "Eran Almog",
+      "Midnight",
+      "Erez",
+      "Dorit",
+      "Barak",
+      "Avidekel"
+    ]
+  },
+  {
+    "id": "seedism-seeds",
+    "name": "Seedism Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Superglue",
+      "Elvis",
+      "Champagne Kush",
+      "Cheesewreck",
+      "BLZ Bud",
+      "Exodus",
+      "HEX",
+      "Killa Watt",
+      "Milk",
+      "NevilleBerry"
+    ]
+  },
+  {
+    "id": "eskobar-seeds",
+    "name": "Eskobar Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Chocolate Rain",
+      "Chuckys Bride",
+      "Blue Rocket",
+      "Blueberry Sativa",
+      "Boudica",
+      "Cheeseberry Haze",
+      "Chocolate Berry",
+      "Chucky's Bride",
+      "Chocolate Cheese",
+      "Holy Princess"
+    ]
+  },
+  {
+    "id": "the-bulldog-seeds",
+    "name": "The Bulldog Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Mataro Blue",
+      "Strawberry Ice",
+      "Bubblegum Kush",
+      "Auto Blueberry 420",
+      "Citral Skunk",
+      "Energy Haze",
+      "Autoflower Haze",
+      "Bullshark",
+      "O.Z. Kush",
+      "Original Afghan"
+    ]
+  },
+  {
+    "id": "centennial-seeds",
+    "name": "Centennial Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Purple Rhino",
+      "Dakini Kush",
+      "Waipi O Hapa",
+      "BaOx",
+      "Chronic x Nepalese Hashplant",
+      "Ethiopian Highland Sativa",
+      "Hapa Haze",
+      "Nepalese Highland Sativa Heirloom",
+      "Nepalese Watermelon Haze",
+      "Otto #1"
+    ]
+  },
+  {
+    "id": "north-genetics",
+    "name": "North Genetics",
+    "strain_count": 16,
+    "award_count": 5,
+    "notable_strains": [
+      "Area 51",
+      "Nebula",
+      "Beyond Dreams",
+      "Element 9",
+      "Chem K",
+      "Kosher Smurf",
+      "Smurfette",
+      "Smurfzilla",
+      "Solar Flare",
+      "Space Assassin"
+    ]
+  },
+  {
+    "id": "b-c-grown",
+    "name": "B.C. Grown",
+    "strain_count": 16,
+    "award_count": 2,
+    "notable_strains": [
+      "Northern Lights  5",
+      "Afghani #5",
+      "BC Black Velvet",
+      "BC Bud lite",
+      "BC Grape Purps",
+      "BC Grown",
+      "BC HashPlant",
+      "BC Purps",
+      "BC Skunk #1",
+      "British Columbian"
+    ]
+  },
+  {
+    "id": "dr-blaze",
+    "name": "Dr. Blaze",
+    "strain_count": 16,
+    "award_count": 5,
+    "notable_strains": [
+      "Purple Punch",
+      "White Fire Og",
+      "Chemdawg",
+      "White Russian",
+      "White Rhino",
+      "Sunset Sherbet",
+      "Alien Cookies x Kush Mints",
+      "Alien Gorilla Glue",
+      "Apple & Bananas",
+      "Mac One"
+    ]
+  },
+  {
+    "id": "dr-greenthumb",
+    "name": "Dr. Greenthumb",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Endless Sky",
+      "Jazz",
+      "Bubba Og",
+      "East Coast Sour Diesel",
+      "Big Laughing",
+      "Big Purps",
+      "Chumaluma",
+      "Columbian Skies",
+      "J.J.s Gold",
+      "Millennium Bud"
+    ]
+  },
+  {
+    "id": "virgin-seeds",
+    "name": "Virgin Seeds",
+    "strain_count": 16,
+    "award_count": 1,
+    "notable_strains": [
+      "Purple Goo",
+      "Rainbow",
+      "Super Jack",
+      "Big Skunk x Stardawg",
+      "Old Dawg",
+      "Pure Chemdawg",
+      "Silver OG",
+      "Tigers Blood",
+      "White Ghost",
+      "White Satin"
+    ]
+  },
+  {
+    "id": "power-seeds",
+    "name": "Power Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Sputnik",
+      "White Skunk",
+      "Automatic Lemon",
+      "Automatic London Skunk",
+      "Cannalicious",
+      "Automatic Skunk",
+      "Cannabista",
+      "Jack Herriar",
+      "Nitromatic",
+      "Power Gold"
+    ]
+  },
+  {
+    "id": "dutch-quality-seeds",
+    "name": "Dutch Quality Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "White Shark",
+      "Afghana",
+      "Auto Blue",
+      "Auto Dutch",
+      "Auto Giant",
+      "Auto Russian",
+      "Auto Titan",
+      "Black Light",
+      "Critical+ for White Widow",
+      "Dark Widow"
+    ]
+  },
+  {
+    "id": "gea-seeds",
+    "name": "Gea Seeds",
+    "strain_count": 16,
+    "award_count": 6,
+    "notable_strains": [
+      "Early Skunk",
+      "Auto M8",
+      "Black Kush 98",
+      "Bubble Fruit",
+      "Caramellate",
+      "Critical Purple",
+      "Auto Widow",
+      "Cachalote",
+      "Hard Diesel",
+      "Jack Orange"
+    ]
+  },
+  {
+    "id": "stoney-girl-gardens",
+    "name": "Stoney Girl Gardens",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Pitbull",
+      "Sugar Plum",
+      "August West",
+      "Berkley",
+      "Blue Bull",
+      "Crimson",
+      "Cripit",
+      "Berkley Blues",
+      "Haze Plum",
+      "Noreen"
+    ]
+  },
+  {
+    "id": "christiania-seedbank",
+    "name": "Christiania Seedbank",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Swazi Gold",
+      "Baba-G",
+      "Beldia Heirloom",
+      "Christiania Kush",
+      "Alpha King",
+      "J.Hustle",
+      "J.Hustle Auto",
+      "Jane Dope",
+      "Nord-Lys Auto",
+      "Pusherstreet No.1 Auto"
+    ]
+  },
+  {
+    "id": "underground-originals",
+    "name": "Underground Originals",
+    "strain_count": 16,
+    "award_count": 2,
+    "notable_strains": [
+      "Killer Skunk",
+      "Disco Biscuit",
+      "Blues Bx2",
+      "DiscoTeq",
+      "KillerColada",
+      "KillerSkunk",
+      "Noname",
+      "Oldtimes BX",
+      "Premier Sweet",
+      "ScrewBall"
+    ]
+  },
+  {
+    "id": "freedom-of-seeds",
+    "name": "Freedom of Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "A Little Kushy",
+      "Banana Dance",
+      "Big Domina",
+      "Cheesedom",
+      "Crystal Dwarf",
+      "Dieselicious",
+      "Doctor Kush",
+      "Easy Cheese",
+      "Blue Angel",
+      "Chunky Skunk"
+    ]
+  },
+  {
+    "id": "palaces-seeds",
+    "name": "Palaces Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "AFK",
+      "Alien Sherpa",
+      "Bat Cake OG",
+      "Blue Elissir",
+      "EpoxyX",
+      "Hashmaki",
+      "Mac Tanuska",
+      "Matanuska White Valley",
+      "Mirage",
+      "Obsidian 710"
+    ]
+  },
+  {
+    "id": "omni-seeds",
+    "name": "Omni Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Agnih",
+      "AK-Snow",
+      "Angels Auto Mix",
+      "Auto Himalaya Diesel",
+      "Bangaru",
+      "Bhushana",
+      "Dame Fizz",
+      "Danish Passion x Nepal",
+      "Eleïson",
+      "Arany"
+    ]
+  },
+  {
+    "id": "sputnik-seeds",
+    "name": "Sputnik Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "AK Mir",
+      "Auto AK Mir",
+      "Auto Black Domina Explosion",
+      "Auto Critical Bang",
+      "Auto Galaxy Cheese",
+      "Auto Maxi Goom Tupolev",
+      "Auto Star Widow",
+      "Black Domina Explosion",
+      "Bubble Goom Gravity Auto",
+      "Critical Bang"
+    ]
+  },
+  {
+    "id": "khalifa-genetics",
+    "name": "Khalifa Genetics",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Aladdin Kush",
+      "Aladdin’s Skunk",
+      "Baghlan Hashplant",
+      "Balkh Hashplant",
+      "Desert Skunk",
+      "Kerala Chellakutti",
+      "Kullu Valley",
+      "Maharaja Haze",
+      "Moroccan Beldia",
+      "Nigerian Sativa"
+    ]
+  },
+  {
+    "id": "kineos-genetics",
+    "name": "Kineos Genetics",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Anslinger's Demise",
+      "Berry Lights",
+      "Big Island Dream",
+      "Citrus Explosion",
+      "Enter The Dragon",
+      "Kineo's Cheese",
+      "Kineo's Lights",
+      "M.O.M.",
+      "Midnight Sky",
+      "MORBID"
+    ]
+  },
+  {
+    "id": "surfr-seeds",
+    "name": "Surfr Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Apple Invader",
+      "Apple MAC",
+      "Bodhizafa",
+      "Chunk",
+      "Animal Mints X Secret OG",
+      "MAC #1 X Orange Zkittlez",
+      "Moon Balls",
+      "Oil Tanker",
+      "Pepe Le Fume",
+      "Rainbow Gelato X Trophy Wife"
+    ]
+  },
+  {
+    "id": "symbiotic-genetics",
+    "name": "Symbiotic Genetics",
+    "strain_count": 16,
+    "award_count": 1,
+    "notable_strains": [
+      "Baccarat",
+      "Banana Macaroon",
+      "Bitter Orange",
+      "Cara Cara",
+      "Cherry Punch",
+      "Dosi Punch",
+      "Kombucha",
+      "Miracle Fruit",
+      "Modified Grapes",
+      "Nimbus"
+    ]
+  },
+  {
+    "id": "tastebudz-seeds",
+    "name": "Tastebudz Seeds",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Back to the Future #2",
+      "Back To The Future #2 Auto",
+      "Biscotti #33 Auto",
+      "Bubble Runtz",
+      "Cannacotta",
+      "Critical Banana Smoothie",
+      "Hash Cake",
+      "MAC Muffin",
+      "Moonberry Pie Auto",
+      "Orange Cookies Auto"
+    ]
+  },
+  {
+    "id": "dirty-bird-genetics",
+    "name": "Dirty Bird Genetics",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Bad Apple",
+      "Baldur's Crepe",
+      "Bird Blood Stew",
+      "Black Phoenix",
+      "Dirty Mimosa",
+      "Dirty Unicorn",
+      "Dirty Sangria",
+      "Durban Pie S1",
+      "Oil Storm",
+      "Pine Tree Kush"
+    ]
+  },
+  {
+    "id": "sagemasta-select",
+    "name": "Sagemasta Select",
+    "strain_count": 16,
+    "award_count": 0,
+    "notable_strains": [
+      "Bat Country",
+      "Bubble N Freak",
+      "Bulls On Parade",
+      "Cheese Freak",
+      "Desert Python",
+      "Jetliner",
+      "Mesa Mist",
+      "Monk Ghost",
+      "Mutagen D",
+      "Ode’ de Bog"
+    ]
+  }
+]

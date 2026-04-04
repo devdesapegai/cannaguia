@@ -4,9 +4,19 @@
     "name": "Mirceno",
     "type": "terpene",
     "aroma": "Terroso, almiscarado, herbal, com notas de cravo",
-    "also_found_in": ["Manga", "Lúpulo", "Capim-limão", "Tomilho"],
+    "also_found_in": [
+      "Manga",
+      "Lúpulo",
+      "Capim-limão",
+      "Tomilho"
+    ],
     "boiling_point": "167°C",
-    "effects": ["Sedativo", "Relaxante muscular", "Anti-inflamatório", "Analgésico"],
+    "effects": [
+      "Sedativo",
+      "Relaxante muscular",
+      "Anti-inflamatório",
+      "Analgésico"
+    ],
     "mechanisms": [
       "Agonista de receptores TRPV1 (analgesia)",
       "Potencialização da permeabilidade da barreira hematoencefálica",
@@ -14,16 +24,43 @@
       "Inibição de prostaglandinas (anti-inflamatório)"
     ],
     "therapeutic_potential": "Sinergismo com THC (efeito entourage): o mirceno pode aumentar a penetração do THC no cérebro. Strains com >0.5% mirceno tendem a ser mais sedativas.",
-    "references": ["PMID: 21749363", "PMID: 23138934"]
+    "references": [
+      "PMID: 21749363",
+      "PMID: 23138934"
+    ],
+    "cid": 31253,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O Mirceno, especificamente o beta-Mirceno, é um monoterpeno encontrado em diversas plantas, incluindo a cannabis, lúpulo, tomilho e manga. É um dos terpenos mais abundantes na cannabis e é amplamente reconhecido por seu aroma terroso, almiscarado e frutado. Na cannabis, o mirceno contribui significativamente para o perfil aromático e é frequentemente associado ao efeito 'couch-lock' ou sedativo de certas variedades. Farmacologicamente, o mirceno tem sido estudado por suas propriedades anti-inflamatórias, analgésicas e sedativas. Acredita-se que ele possa atuar em sinergia com os canabinoides, um fenômeno conhecido como 'efeito entourage', potencializando ou modulando seus efeitos. Estudos farmacocinéticos em ratos mostraram que o mirceno pode atingir níveis sanguíneos de até 14.1 +/- 3.0 ug/mL após administração oral de 1.0 g/kg de peso corporal, sendo concentrado em tecidos adiposos e órgãos como cérebro, fígado, rins e testículos. Em termos de toxicidade, o mirceno exibe atividades inibitórias da tirosinase, uma enzima importante na formação da neuromelanina. Embora seja geralmente considerado seguro em níveis encontrados em alimentos e produtos naturais, a pesquisa continua a explorar seus mecanismos de ação e potenciais aplicações terapêuticas. (CID: 31253)",
+    "key_points": [
+      "Terpeno abundante na cannabis, lúpulo e manga.",
+      "Aroma terroso, almiscarado e frutado.",
+      "Associado ao efeito sedativo ('couch-lock') em algumas variedades de cannabis.",
+      "Propriedades anti-inflamatórias, analgésicas e sedativas.",
+      "Pode contribuir para o 'efeito entourage' com canabinoides.",
+      "Peso molecular de 136.23 g/mol.",
+      "XLogP de 4.3, indicando lipofilicidade moderada.",
+      "Inibe a tirosinase, envolvida na formação da neuromelanina."
+    ]
   },
   {
     "id": "limonene",
     "name": "Limoneno",
     "type": "terpene",
     "aroma": "Cítrico, laranja, limão",
-    "also_found_in": ["Casca de frutas cítricas", "Alecrim", "Zimbro", "Hortelã"],
+    "also_found_in": [
+      "Casca de frutas cítricas",
+      "Alecrim",
+      "Zimbro",
+      "Hortelã"
+    ],
     "boiling_point": "176°C",
-    "effects": ["Ansiolítico", "Antidepressivo", "Elevação de humor", "Antifúngico"],
+    "effects": [
+      "Ansiolítico",
+      "Antidepressivo",
+      "Elevação de humor",
+      "Antifúngico"
+    ],
     "mechanisms": [
       "Aumento de serotonina e dopamina no córtex pré-frontal",
       "Ansiolítico via receptores 5-HT1A",
@@ -31,16 +68,41 @@
       "Indução de apoptose em células tumorais (pré-clínico)"
     ],
     "therapeutic_potential": "Principal terpeno associado a melhora de humor. Estudos em aromaterapia mostram redução de cortisol. Potencial anti-câncer em fase pré-clínica (mama e pulmão).",
-    "references": ["PMID: 23137251", "PMID: 23631425"]
+    "references": [
+      "PMID: 23137251",
+      "PMID: 23631425"
+    ],
+    "cid": 22311,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O Limoneno, também conhecido como D-Limoneno, é um monoterpeno monocíclico com a fórmula molecular C10H16 e peso molecular de 136.23. É um dos terpenos mais abundantes na natureza, encontrado em altas concentrações em frutas cítricas como limões e laranjas, e também presente em diversas variedades de cannabis, contribuindo para seu aroma característico. Estudos pré-clínicos demonstraram que o limoneno possui efeitos anticarcinogênicos, especialmente em modelos de câncer de mama induzido. Ele atua modulando o metabolismo hepático de carcinógenos e a formação de adutos de DNA, além de aumentar a excreção urinária de metabólitos carcinogênicos. O limoneno também demonstrou modular a atividade do citocromo P450 e da epóxido hidrolase, enzimas importantes na desintoxicação de xenobióticos. Embora a pesquisa esteja em andamento, seu perfil de segurança e ampla ocorrência natural o tornam um candidato promissor para estudos adicionais. É amplamente utilizado na indústria como solvente, agente de limpeza e aditivo de fragrância e sabor em alimentos e produtos domésticos. CID PubChem: 22311.",
+    "key_points": [
+      "Terpeno monocíclico encontrado em frutas cítricas e cannabis.",
+      "Demonstrou efeitos anticarcinogênicos em modelos pré-clínicos.",
+      "Modula o metabolismo hepático de carcinógenos e a formação de adutos de DNA.",
+      "Aumenta a excreção urinária de metabólitos carcinogênicos.",
+      "Modula a atividade do citocromo P450 e da epóxido hidrolase.",
+      "Amplamente utilizado como solvente, fragrância e saborizante."
+    ]
   },
   {
     "id": "linalool",
     "name": "Linalol",
     "type": "terpene",
     "aroma": "Floral, lavanda, ligeiramente picante",
-    "also_found_in": ["Lavanda", "Manjericão", "Coentro", "Canela"],
+    "also_found_in": [
+      "Lavanda",
+      "Manjericão",
+      "Coentro",
+      "Canela"
+    ],
     "boiling_point": "198°C",
-    "effects": ["Ansiolítico", "Sedativo", "Anticonvulsivante", "Analgésico local"],
+    "effects": [
+      "Ansiolítico",
+      "Sedativo",
+      "Anticonvulsivante",
+      "Analgésico local"
+    ],
     "mechanisms": [
       "Modulação de receptores GABA-A (similar a benzodiazepínicos leves)",
       "Redução de glutamato (anticonvulsivante)",
@@ -48,16 +110,41 @@
       "Redução de hiperalgesia via receptores de adenosina A1"
     ],
     "therapeutic_potential": "Forte candidato para transtornos de ansiedade e epilepsia. Sinergismo com CBD para efeito anticonvulsivante. Inalação de linalol reduziu comportamento agressivo e ansioso em modelos animais.",
-    "references": ["PMID: 28940405", "PMID: 19962288"]
+    "references": [
+      "PMID: 28940405",
+      "PMID: 19962288"
+    ],
+    "cid": 6549,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Linalol é um monoterpeno acíclico com a fórmula molecular C10H18O e peso molecular de 154.25. É conhecido por seu aroma floral e amadeirado, sendo um componente comum em muitas plantas, incluindo a lavanda e a cannabis. Na cannabis, o linalol contribui para o perfil aromático e pode influenciar os efeitos gerais da planta. A farmacologia do linalol sugere um modo de ação neurotóxico/neurofarmacológico, o que pode explicar seu uso tradicional em sistemas medicinais para fins indutores de sono e anticonvulsivantes. Estudos indicam que o linalol pode ter efeitos sedativos, ansiolíticos e analgésicos. É um ingrediente comum em perfumes, cosméticos, sabonetes e detergentes, além de ser usado como agente aromatizante em alimentos. Também é empregado como inseticida para pulgas em animais de estimação e no controle de pragas de alimentos armazenados. CID PubChem: 6549.",
+    "key_points": [
+      "Terpeno acíclico com aroma floral e amadeirado.",
+      "Presente em lavanda e cannabis.",
+      "Modo de ação neurotóxico/neurofarmacológico.",
+      "Uso tradicional como indutor de sono e anticonvulsivante.",
+      "Potenciais efeitos sedativos, ansiolíticos e analgésicos.",
+      "Utilizado em cosméticos, alimentos e como inseticida."
+    ]
   },
   {
     "id": "beta-caryophyllene",
     "name": "Beta-Cariofileno",
     "type": "terpene",
     "aroma": "Picante, amadeirado, pimenta-do-reino",
-    "also_found_in": ["Pimenta-preta", "Cravo", "Canela", "Orégano"],
+    "also_found_in": [
+      "Pimenta-preta",
+      "Cravo",
+      "Canela",
+      "Orégano"
+    ],
     "boiling_point": "130°C",
-    "effects": ["Anti-inflamatório", "Analgésico", "Ansiolítico", "Gastroprotetor"],
+    "effects": [
+      "Anti-inflamatório",
+      "Analgésico",
+      "Ansiolítico",
+      "Gastroprotetor"
+    ],
     "mechanisms": [
       "Agonista seletivo de CB2 — único terpeno que ativa diretamente o sistema endocanabinoide",
       "Modulação de NF-κB (anti-inflamatório)",
@@ -65,16 +152,41 @@
       "Ativação de PPARγ (metabolismo e inflamação)"
     ],
     "therapeutic_potential": "Classificado como 'cannabinoide dietético' por ser agonista de CB2. Anti-inflamatório sem efeitos psicoativos. Potencial em doença inflamatória intestinal, artrite, e dor neuropática.",
-    "references": ["PMID: 18574142", "PMID: 24267674"]
+    "references": [
+      "PMID: 18574142",
+      "PMID: 24267674"
+    ],
+    "cid": 5281515,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O beta-Cariofileno, também conhecido simplesmente como Cariofileno, é um sesquiterpeno bicíclico com a fórmula molecular C15H24 e peso molecular de 204.35. É um dos terpenos mais abundantes na cannabis e em muitas outras plantas, como pimenta-do-reino, cravo e alecrim. É único entre os terpenos por sua capacidade de interagir seletivamente com o receptor canabinoide tipo 2 (CB2), um receptor não psicotrópico do sistema endocanabinoide. Essa interação confere ao beta-cariofileno propriedades anti-inflamatórias, analgésicas e potencialmente ansiolíticas. Ao ativar o CB2, ele pode modular a resposta inflamatória e a percepção da dor sem os efeitos psicoativos associados à ativação do receptor CB1. Além de suas ações anti-inflamatórias, o beta-cariofileno também demonstrou ter efeitos antipiréticos e inibidores de plaquetas, atuando de forma semelhante aos anti-inflamatórios não esteroides (AINEs) ao bloquear a síntese de prostaglandinas pela inibição da ciclooxigenase. No entanto, é importante notar que o beta-cariofileno é um sensibilizador cutâneo. CID PubChem: 5281515.",
+    "key_points": [
+      "Sesquiterpeno bicíclico comum na cannabis e pimenta-do-reino.",
+      "Interage seletivamente com o receptor canabinoide tipo 2 (CB2).",
+      "Possui propriedades anti-inflamatórias e analgésicas.",
+      "Não é psicoativo devido à seletividade pelo CB2.",
+      "Atua inibindo a ciclooxigenase e a síntese de prostaglandinas.",
+      "É um sensibilizador cutâneo."
+    ]
   },
   {
     "id": "pinene",
     "name": "Pineno (alfa e beta)",
     "type": "terpene",
     "aroma": "Pinheiro, floresta, refrescante",
-    "also_found_in": ["Pinheiro", "Alecrim", "Manjericão", "Salsa"],
+    "also_found_in": [
+      "Pinheiro",
+      "Alecrim",
+      "Manjericão",
+      "Salsa"
+    ],
     "boiling_point": "155°C (alfa), 166°C (beta)",
-    "effects": ["Broncodilatador", "Anti-inflamatório", "Melhora de memória", "Alerta"],
+    "effects": [
+      "Broncodilatador",
+      "Anti-inflamatório",
+      "Melhora de memória",
+      "Alerta"
+    ],
     "mechanisms": [
       "Inibição de acetilcolinesterase (melhora memória e atenção)",
       "Broncodilatação (abertura de vias aéreas)",
@@ -82,22 +194,1347 @@
       "Pode contrabalançar déficit de memória do THC"
     ],
     "therapeutic_potential": "Importante no efeito entourage por potencialmente mitigar o comprometimento cognitivo do THC. Útil para pacientes que precisam de THC mas querem manter lucidez.",
-    "references": ["PMID: 21749363"]
+    "references": [
+      "PMID: 21749363"
+    ]
   },
   {
     "id": "humulene",
     "name": "Humuleno",
     "type": "terpene",
     "aroma": "Terroso, amadeirado, lúpulo",
-    "also_found_in": ["Lúpulo", "Coentro", "Cravo", "Manjericão"],
+    "also_found_in": [
+      "Lúpulo",
+      "Coentro",
+      "Cravo",
+      "Manjericão"
+    ],
     "boiling_point": "198°C",
-    "effects": ["Anti-inflamatório", "Anorexígeno", "Antibacteriano"],
+    "effects": [
+      "Anti-inflamatório",
+      "Anorexígeno",
+      "Antibacteriano"
+    ],
     "mechanisms": [
       "Inibição de COX-2 e NF-κB",
       "Redução de apetite (oposto ao THC)",
       "Atividade antibacteriana contra S. aureus"
     ],
     "therapeutic_potential": "Anti-inflamatório comparável à dexametasona em estudos animais. Interessante para pacientes preocupados com aumento de apetite do THC.",
-    "references": ["PMID: 17348000"]
+    "references": [
+      "PMID: 17348000"
+    ],
+    "cid": 5281520,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O Humuleno, também conhecido como alfa-Humuleno, é um sesquiterpeno encontrado na cannabis, lúpulo (Humulus lupulus) e outras plantas. É um dos terpenos que contribuem para o aroma terroso e amadeirado de certas variedades de cannabis. Embora menos estudado que outros terpenos, o Humuleno tem demonstrado propriedades farmacológicas interessantes. Sua presença na cannabis sugere um papel no 'efeito entourage', onde atua sinergicamente com canabinoides e outros terpenos para modular os efeitos gerais da planta. Estudos preliminares indicam que o Humuleno pode ter ações anti-inflamatórias e antitumorais. A pesquisa sobre seus mecanismos de ação específicos e seu potencial terapêutico ainda está em andamento, com foco em sua interação com sistemas biológicos e sua aplicação em diversas condições de saúde. Atualmente, não há dados de toxicidade significativos relatados para o Humuleno em estudos de PubChem, o que sugere um perfil de segurança favorável em doses usuais.",
+    "key_points": [
+      "Sesquiterpeno encontrado na cannabis e lúpulo, com aroma terroso e amadeirado.",
+      "Contribui para o 'efeito entourage' da cannabis.",
+      "Demonstra propriedades anti-inflamatórias em estudos preliminares.",
+      "Evidências iniciais sugerem atividade antitumoral.",
+      "Mecanismos de ação específicos ainda estão sob investigação.",
+      "Não há dados de toxicidade significativos relatados no PubChem.",
+      "CID PubChem: 5281520."
+    ]
+  },
+  {
+    "id": "alpha-pinene",
+    "name": "Alfa-Pineno (alpha-Pinene)",
+    "type": "terpene",
+    "cid": 6654,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O alfa-Pineno é um terpeno bicíclico comum encontrado em diversas plantas, incluindo a cannabis, coníferas e alecrim. É um dos terpenos mais abundantes na natureza e é responsável por muitos dos aromas de pinho e madeira. Na cannabis, contribui para o perfil aromático e pode modular os efeitos dos canabinoides através do 'efeito entourage'. Estudos farmacocinéticos em humanos indicam que o alfa-Pineno é rapidamente absorvido pela pele, pulmões e intestino. A eliminação do alfa-Pineno do sangue é trifásica, com meias-vidas de 4,8, 39 e 695 minutos para a fase inicial, intermediária e terminal, respectivamente. A excreção urinária de alfa-Pineno inalterado é mínima, menos de 0,001% da dose, e a eliminação respiratória é de cerca de 7,7% da captação total. Embora seja rapidamente metabolizado, altas concentrações podem causar irritação nos olhos, nariz e garganta. Seu potencial terapêutico inclui propriedades anti-inflamatórias, broncodilatadoras, ansiolíticas e neuroprotetoras, sendo objeto de pesquisa para diversas aplicações médicas.",
+    "mechanisms": [
+      "Modulação de receptores canabinoides (indireta, via efeito entourage)",
+      "Atividade anti-inflamatória",
+      "Efeito broncodilatador",
+      "Propriedades ansiolíticas",
+      "Ação neuroprotetora"
+    ],
+    "therapeutic_potential": "O alfa-Pineno demonstra potencial terapêutico como anti-inflamatório, broncodilatador e ansiolítico. Sua capacidade de modular o sistema endocanabinoide e proteger neurônios o torna um alvo de interesse para o tratamento de condições respiratórias, inflamatórias e neurológicas. A pesquisa ainda está em estágios iniciais, mas os dados existentes são promissores.",
+    "key_points": [
+      "Terpeno bicíclico com aroma de pinho, comum na cannabis e coníferas.",
+      "Absorvido pela pele, pulmões e intestino; captação pulmonar média de 59%.",
+      "Eliminação sanguínea trifásica com meias-vidas de 4,8, 39 e 695 minutos.",
+      "Excreção urinária de alfa-Pineno inalterado é inferior a 0,001% da dose.",
+      "Pode causar irritação ocular, nasal e na garganta em concentrações elevadas.",
+      "Potencialmente tóxico para os rins em ambiente ocupacional e sensibilizador da pele.",
+      "ACGIH Carcinogen: Não Classificável.",
+      "CID PubChem: 6654."
+    ]
+  },
+  {
+    "id": "terpinolene",
+    "name": "Terpinoleno",
+    "type": "terpene",
+    "cid": 11463,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O Terpinoleno é um monoterpeno encontrado em diversas plantas, incluindo a cannabis, noz-moscada, lilases e cominho. É conhecido por seu aroma complexo, que pode ser descrito como pinho, floral, cítrico e amadeirado. Na cannabis, o Terpinoleno é um dos terpenos menos comuns, mas contribui significativamente para o perfil aromático de certas variedades. Em termos de farmacologia, os monoterpenos são produzidos pela via do isopreno nas plantas. O Terpinoleno tem sido investigado por suas propriedades antioxidantes, sedativas e anticancerígenas. Testes em humanos com 20% de Terpinoleno em petrolato não produziram irritação ou sensibilização após um teste de contato de 48 horas, indicando um bom perfil de segurança para contato tópico. É utilizado como solvente para resinas e óleos essenciais, e na fabricação de resinas sintéticas e sabores sintéticos. A pesquisa sobre seus mecanismos de ação específicos e seu potencial terapêutico em humanos ainda está em andamento, mas os dados iniciais são encorajadores.",
+    "mechanisms": [
+      "Atividade antioxidante",
+      "Efeito sedativo",
+      "Potencial anticancerígeno"
+    ],
+    "therapeutic_potential": "O Terpinoleno demonstra potencial terapêutico como antioxidante, sedativo e agente anticancerígeno. Sua segurança em testes de contato cutâneo e seu uso industrial sugerem um perfil favorável para futuras investigações. A pesquisa em andamento visa elucidar seus mecanismos de ação e aplicações clínicas, especialmente no contexto do 'efeito entourage' da cannabis.",
+    "key_points": [
+      "Monoterpeno com aroma complexo (pinho, floral, cítrico, amadeirado).",
+      "Encontrado na cannabis, noz-moscada, lilases e cominho.",
+      "Produzido pela via do isopreno em plantas.",
+      "Testes em humanos (20% em petrolato) não mostraram irritação ou sensibilização cutânea após 48 horas.",
+      "Utilizado como solvente para resinas e óleos essenciais.",
+      "Potencial para propriedades antioxidantes, sedativas e anticancerígenas.",
+      "CID PubChem: 11463."
+    ]
+  },
+  {
+    "id": "ocimene",
+    "name": "Ocimeno (beta-Ocimene)",
+    "type": "terpene",
+    "cid": 6434062,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O ocimeno, especificamente o beta-ocimeno, e um monoterpeno encontrado em diversas plantas, incluindo a cannabis, onde contribui para o seu perfil aromatico complexo. E conhecido por seu aroma doce, floral e herbaceo. Embora seja um componente comum em muitas variedades de cannabis, sua concentracao pode variar significativamente. A pesquisa sobre os mecanismos de acao do ocimeno ainda esta em estagio inicial, mas estudos pre-clinicos sugerem que ele pode possuir propriedades anti-inflamatorias e antifungicas. Seu potencial terapeutico e um campo de investigacao ativa, com foco em suas possiveis aplicacoes como agente antimicrobiano e no tratamento de condicoes inflamatorias. Atualmente, nao ha dados farmacologicos ou toxicologicos extensivos disponiveis no PubChem para o ocimeno, indicando a necessidade de mais pesquisas para compreender completamente seus efeitos no organismo humano. A ausencia de dados detalhados ressalta a importancia de estudos aprofundados para validar suas propriedades e seguranca.",
+    "mechanisms": [
+      "Potencialmente anti-inflamatorio (mecanismos em investigacao).",
+      "Potencialmente antifungico (mecanismos em investigacao)."
+    ],
+    "therapeutic_potential": "O ocimeno demonstra potencial como agente anti-inflamatorio e antifungico, embora mais pesquisas sejam necessarias para confirmar esses efeitos e determinar sua relevancia clinica.",
+    "key_points": [
+      "Monoterpeno com aroma doce, floral e herbaceo.",
+      "Encontrado na cannabis e em diversas outras plantas.",
+      "Potencial anti-inflamatorio e antifungico em estudos pre-clinicos.",
+      "CID PubChem: 6434062."
+    ]
+  },
+  {
+    "id": "nerolidol",
+    "name": "Nerolidol (trans-Nerolidol)",
+    "type": "terpene",
+    "cid": 5284507,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O nerolidol, especificamente o trans-nerolidol, e um sesquiterpeno com um aroma amadeirado e floral, frequentemente descrito como tendo notas de casca fresca. E encontrado em diversas plantas, incluindo a cannabis, onde contribui para o seu perfil terpenico. Embora nao haja dados farmacologicos detalhados no PubChem, estudos pre-clinicos sugerem que o nerolidol pode exibir propriedades ansioliticas, antimicrobianas, antiparasitarias e antioxidantes. Sua capacidade de aumentar a permeabilidade da pele tambem o torna um candidato interessante para a entrega transdermica de medicamentos. Em relacao a toxicidade, o nerolidol nao e indicado como carcinogenico para humanos pela IARC. A pesquisa continua a explorar seus mecanismos de acao, que podem envolver interacoes com o sistema endocanabinoide ou outras vias biologicas. O potencial terapeutico do nerolidol e promissor, especialmente em areas como o tratamento de infeccoes e a modulacao do humor, mas mais estudos clinicos sao necessarios para validar esses achados.",
+    "mechanisms": [
+      "Potencialmente ansiolitico (mecanismos em investigacao).",
+      "Potencialmente antimicrobiano (mecanismos em investigacao).",
+      "Potencialmente antiparasitario (mecanismos em investigacao).",
+      "Potencialmente antioxidante (mecanismos em investigacao).",
+      "Aumento da permeabilidade da pele."
+    ],
+    "therapeutic_potential": "O nerolidol apresenta um potencial terapeutico diversificado, incluindo acoes ansioliticas, antimicrobianas e antiparasitarias, alem de sua capacidade de melhorar a entrega transdermica de farmacos. Sua seguranca e relativamente bem estabelecida em termos de carcinogenicidade.",
+    "key_points": [
+      "Sesquiterpeno com aroma amadeirado e floral.",
+      "Presente na cannabis e em outras plantas.",
+      "Potencial ansiolitico, antimicrobiano, antiparasitario e antioxidante em estudos pre-clinicos.",
+      "Nao indicado como carcinogenico para humanos (IARC).",
+      "Pode aumentar a permeabilidade da pele.",
+      "CID PubChem: 5284507."
+    ]
+  },
+  {
+    "id": "bisabolol",
+    "name": "Bisabolol (alfa-Bisabolol)",
+    "type": "terpene",
+    "cid": 1549992,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O alfa-bisabolol e um sesquiterpeno monociclico alcoolico encontrado na planta de cannabis, na camomila e em outras fontes vegetais. E amplamente reconhecido por suas propriedades anti-inflamatorias, antioxidantes, antimicrobianas e cicatrizantes. Na cannabis, o bisabolol contribui para o 'efeito entourage', modulando os efeitos de outros canabinoides e terpenos. Estudos indicam que ele pode atuar em nivel extracelular e na membrana celular, embora os mecanismos exatos de suas acoes anti-inflamatorias e citoprotetoras ainda estejam sendo elucidados. E frequentemente utilizado em produtos cosmeticos e de cuidados com a pele devido a sua capacidade de acalmar a pele irritada e promover a regeneracao celular. Em termos de toxicidade, o bisabolol e considerado seguro nas praticas atuais de uso e concentracao, conforme relatorios do CIR (Cosmetic Ingredient Review). Seu potencial terapeutico e vasto, abrangendo desde o tratamento de inflamacoes cutaneas ate a protecao contra o estresse oxidativo, tornando-o um composto de grande interesse na farmacologia de produtos naturais.",
+    "mechanisms": [
+      "Anti-inflamatorio (mecanismos em investigacao).",
+      "Antioxidante.",
+      "Antimicrobiano.",
+      "Cicatrizante.",
+      "Interacao extracelular e na membrana celular."
+    ],
+    "therapeutic_potential": "O bisabolol possui um significativo potencial terapeutico como agente anti-inflamatorio, antioxidante e cicatrizante, sendo seguro para uso em diversas aplicacoes, incluindo produtos dermatologicos. Sua capacidade de modular o 'efeito entourage' na cannabis tambem e de grande interesse.",
+    "key_points": [
+      "Sesquiterpeno alcoolico com aroma floral suave.",
+      "Encontrado na cannabis e na camomila.",
+      "Propriedades anti-inflamatorias, antioxidantes, antimicrobianas e cicatrizantes.",
+      "Atua em nivel extracelular e na membrana celular.",
+      "Considerado seguro para uso em cosmeticos.",
+      "CID PubChem: 1549992."
+    ]
+  },
+  {
+    "id": "geraniol",
+    "name": "Geraniol",
+    "type": "terpene",
+    "cid": 637566,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Geraniol é um monoterpeno acíclico, um álcool, conhecido por seu aroma doce e floral, semelhante ao de rosas. É um dos terpenos mais abundantes na natureza, encontrado em diversas plantas, incluindo a cannabis, onde contribui para o perfil aromático e, potencialmente, para os efeitos terapêuticos. Este composto tem sido amplamente estudado por suas propriedades farmacológicas, incluindo efeitos antitumorais, quimiopreventivos, antioxidantes e anti-inflamatórios. Pesquisas indicam que o Geraniol pode ser eficaz na modulação da síndrome metabólica, atuando na redução da glicemia, adiposidade visceral e melhorando a sensibilidade à insulina. Seus mecanismos de ação envolvem a ativação transcricional do receptor gama ativado por proliferadores de peroxissomas (PPAR-gama), o que contribui para a redução da inflamação e do dano por radicais livres. Além disso, o Geraniol tem sido utilizado na indústria de fragrâncias e sabores, e é considerado um terpeno seguro em baixas concentrações. A pesquisa sobre o Geraniol continua a explorar seu potencial em diversas áreas da saúde, especialmente em condições inflamatórias e metabólicas. (CID PubChem: 637566)",
+    "mechanisms": [
+      "Ativação transcricional do PPAR-gama",
+      "Redução da inflamação (diminuição de IL-1beta e TNF-alfa)",
+      "Ação antioxidante (redução de peróxidos lipídicos e óxido nítrico hepático)",
+      "Melhora da sensibilidade à insulina",
+      "Supressão da hemoglobina glicada e RAGE"
+    ],
+    "therapeutic_potential": "O Geraniol possui um promissor potencial terapêutico, especialmente no tratamento e prevenção da síndrome metabólica, devido às suas propriedades anti-inflamatórias, antioxidantes e capacidade de modular a sensibilidade à insulina. Também apresenta potencial como agente antitumoral e quimiopreventivo.",
+    "key_points": [
+      "Terpeno acíclico com aroma de rosa, presente na cannabis.",
+      "Demonstra efeitos antitumorais, quimiopreventivos, antioxidantes e anti-inflamatórios.",
+      "Pode reduzir a glicemia e adiposidade visceral em modelos de síndrome metabólica.",
+      "Ativa o PPAR-gama, modulando inflamação e estresse oxidativo.",
+      "Utilizado em fragrâncias e sabores, com perfil de segurança estabelecido."
+    ]
+  },
+  {
+    "id": "eucalyptol",
+    "name": "Eucaliptol (1,8-Cineol)",
+    "type": "terpene",
+    "cid": 2758,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Eucaliptol, também conhecido como 1,8-Cineol, é um monoterpeno cíclico que se apresenta como um óleo essencial com um aroma fresco e canforado, característico do eucalipto. É um dos principais constituintes do óleo de eucalipto e está presente em diversas variedades de cannabis, contribuindo para seu perfil olfativo e, possivelmente, para seus efeitos terapêuticos. Este composto é amplamente reconhecido por suas propriedades antissépticas, expectorantes e mucolíticas, sendo frequentemente utilizado em produtos farmacêuticos para o alívio de sintomas respiratórios, como tosse e congestão. Além disso, o Eucaliptol atua como um agente antimicrobiano e pode ter propriedades anti-inflamatórias. É empregado como aromatizante em alimentos, doces e produtos de higiene pessoal. A pesquisa sugere que o Eucaliptol pode ter um papel na modulação de vias inflamatórias e na proteção contra agentes infecciosos. Embora seja geralmente seguro em doses terapêuticas, a ingestão excessiva pode ser tóxica. (CID PubChem: 2758)",
+    "mechanisms": [
+      "Ação antisséptica (prevenção da disseminação de agentes infecciosos)",
+      "Ação antitussígena (supressão do centro da tosse medular)",
+      "Propriedades mucolíticas",
+      "Potencial anti-inflamatório"
+    ],
+    "therapeutic_potential": "O Eucaliptol possui potencial terapêutico como expectorante, antisséptico e mucolítico, sendo útil no tratamento de doenças inflamatórias das vias aéreas e na prevenção de infecções. Também pode atuar como agente antimicrobiano e anti-inflamatório.",
+    "key_points": [
+      "Monoterpeno cíclico com aroma fresco e canforado, presente na cannabis.",
+      "Principal componente do óleo de eucalipto.",
+      "Reconhecido por propriedades antissépticas, expectorantes e mucolíticas.",
+      "Utilizado em produtos para alívio de sintomas respiratórios.",
+      "Atua como agente antimicrobiano e aromatizante."
+    ]
+  },
+  {
+    "id": "camphene",
+    "name": "Canfeno",
+    "type": "terpene",
+    "cid": 6616,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O Canfeno é um monoterpeno bicíclico que se apresenta como um cristal incolor com um odor semelhante ao da cânfora. É um terpeno comum encontrado em diversas plantas, incluindo a cannabis, onde contribui para o aroma e pode interagir com outros compostos para modular os efeitos da planta. Embora menos estudado que outros terpenos em termos de farmacologia direta na cannabis, o Canfeno é conhecido por sua rápida absorção e eliminação. Estudos indicam que é prontamente absorvido por inalação, ingestão ou aplicação tópica, sendo parcialmente eliminado inalterado pelo ar expirado. A principal via de eliminação do composto inalterado parece ser a bile, com excreção pelo trato intestinal, seguida pela formação de glucuronídeos e excreção renal. O Canfeno tem sido utilizado na indústria para a fabricação de cânfora sintética e como substituto da cânfora, além de ser empregado como fragrância e plastificante. Não é considerado um sensibilizante para a pele humana e não demonstrou citotoxicidade em concentrações testadas. (CID PubChem: 6616)",
+    "mechanisms": [
+      "Absorção rápida por diversas vias",
+      "Eliminação por expiração e via biliar com formação de glucuronídeos"
+    ],
+    "therapeutic_potential": "O potencial terapêutico direto do Canfeno na cannabis ainda está sob investigação. No entanto, suas propriedades de rápida absorção e eliminação, juntamente com seu perfil de segurança, sugerem que pode ter um papel como componente de fragrância e, potencialmente, em sinergia com outros canabinoides e terpenos.",
+    "key_points": [
+      "Monoterpeno bicíclico com odor semelhante à cânfora, presente na cannabis.",
+      "Rapidamente absorvido por inalação, ingestão ou aplicação tópica.",
+      "Eliminado parcialmente inalterado pelo ar expirado e via biliar.",
+      "Utilizado na fabricação de cânfora sintética e como fragrância.",
+      "Não é sensibilizante para a pele humana e não citotóxico em doses testadas."
+    ]
+  },
+  {
+    "id": "borneol",
+    "name": "Borneol (Bingpian)",
+    "type": "terpene",
+    "cid": 64685,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Borneol e um terpeno biciclico com a formula molecular C10H18O, encontrado em diversas plantas, incluindo a Cannabis, alecrim, hortela e canfora. E conhecido por seu aroma amadeirado e mentolado. Na farmacologia, estudos em camundongos demonstraram que o borneol e rapidamente distribuido para a maioria dos tecidos apos administracao intravenosa e intranasal, com maior concentracao no coracao, cerebro e rins. A administracao intranasal mostrou alta eficacia e direcionamento para o cerebro. E utilizado na medicina tradicional chinesa (MTC) como Bingpian, onde e valorizado por suas propriedades de \"abrir os orificios\" e \"clarear o calor\". A toxicidade do borneol e considerada semelhante a da canfora, e estudos indicam que nao causa sensibilizacao cutanea. Em testes in vitro com linfocitos humanos, concentracoes de ate 600 ug/mL nao demonstraram toxicidade significativa. A pesquisa atual explora seu potencial como um agente que melhora a permeabilidade de outras substancias, especialmente para o sistema nervoso central.",
+    "mechanisms": [
+      "Aumento da permeabilidade da barreira hematoencefalica (potencialmente facilitando a entrega de outros farmacos ao cerebro)",
+      "Interacao com receptores de odor (responsavel pelo aroma)"
+    ],
+    "therapeutic_potential": "O borneol possui potencial terapeutico como um agente que pode melhorar a biodisponibilidade de outros farmacos, especialmente para o cerebro, devido a sua capacidade de atravessar a barreira hematoencefalica. Suas propriedades na medicina tradicional sugerem usos para alivio da dor e inflamacao, embora mais pesquisas sejam necessarias para validar esses efeitos em contextos modernos.",
+    "key_points": [
+      "Terpeno biciclico com aroma amadeirado e mentolado.",
+      "Distribuicao tecidual rapida em camundongos, com maior concentracao no coracao, cerebro e rins apos administracao intravenosa e intranasal.",
+      "Administracao intranasal demonstrou o maior coeficiente e eficacia de direcionamento para o cerebro.",
+      "Utilizado na Medicina Tradicional Chinesa (MTC) como Bingpian.",
+      "Toxicidade semelhante a da canfora, sem preocupacao com sensibilizacao cutanea.",
+      "Nao genotoxico em linfocitos humanos in vitro em concentracoes de ate 600 ug/mL."
+    ]
+  },
+  {
+    "id": "valencene",
+    "name": "Valenceno",
+    "type": "terpene",
+    "cid": 9855795,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O Valenceno e um sesquiterpeno com a formula molecular C15H24, conhecido por seu aroma citrico, especialmente associado a laranjas e toranjas. Embora seja mais abundante em frutas citricas, tambem pode ser encontrado em variedades de Cannabis, contribuindo para seu perfil aromatico. A pesquisa sobre o valenceno na Cannabis ainda e limitada, e seus mecanismos de acao especificos e potencial terapeutico nao sao tao bem estabelecidos quanto os de outros terpenos. No entanto, estudos preliminares em outras fontes sugerem que o valenceno pode possuir propriedades anti-inflamatorias e repelentes de insetos. Sua presenca na Cannabis pode contribuir para o efeito entourage, onde terpenos e canabinoides atuam sinergicamente para modular os efeitos da planta. Atualmente, nao ha dados farmacologicos ou toxicologicos detalhados disponiveis no PubChem especificamente para o valenceno, indicando a necessidade de mais pesquisas para compreender completamente seu papel e aplicacoes terapeuticas.",
+    "mechanisms": [
+      "Interacao com receptores olfativos (responsavel pelo aroma citrico)",
+      "Potencial modulacao de vias inflamatorias (requer mais investigacao)"
+    ],
+    "therapeutic_potential": "O valenceno tem um potencial terapeutico emergente, principalmente devido as suas propriedades anti-inflamatorias e repelentes de insetos observadas em estudos fora do contexto da Cannabis. Na Cannabis, ele pode contribuir para o perfil aromatico e, possivelmente, para o 'efeito entourage', modulando os efeitos gerais da planta. Mais pesquisas sao necessarias para elucidar seus mecanismos de acao e validar seus beneficios terapeuticos em humanos.",
+    "key_points": [
+      "Sesquiterpeno com aroma citrico, similar a laranja e toranja.",
+      "Encontrado em frutas citricas e em algumas variedades de Cannabis.",
+      "Potencial para propriedades anti-inflamatorias e repelentes de insetos (evidencia preliminar de outras fontes).",
+      "Pode contribuir para o 'efeito entourage' na Cannabis.",
+      "Pesquisas sobre seus mecanismos de acao e potencial terapeutico na Cannabis sao limitadas."
+    ]
+  },
+  {
+    "id": "guaiol",
+    "name": "Guaiol",
+    "type": "terpene",
+    "cid": 227829,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O Guaiol e um sesquiterpeno alcoolico com a formula molecular C15H26O, caracterizado por seu aroma amadeirado e floral. E um componente comum em diversas plantas, incluindo a Cannabis, onde contribui para o perfil aromatico e, possivelmente, para os efeitos terapeuticos. O guaiol e encontrado em oleos essenciais de plantas como o guaiaco e a camomila. Embora a pesquisa sobre o guaiol especificamente na Cannabis seja limitada, estudos em outras fontes sugerem que ele pode possuir propriedades anti-inflamatorias, antimicrobianas e ansioliticas. Sua estrutura quimica, como um alcool sesquiterpenico, pode permitir interacoes com sistemas biologicos de maneiras que modulam a resposta inflamatoria e o estresse. Nao ha dados farmacologicos ou toxicologicos detalhados disponiveis no PubChem para o guaiol, o que ressalta a necessidade de mais investigacao para compreender plenamente seu potencial terapeutico e seguranca. Sua presenca na Cannabis sugere que ele pode desempenhar um papel no 'efeito entourage', contribuindo para a experiencia geral do usuario.",
+    "mechanisms": [
+      "Interacao com receptores olfativos (responsavel pelo aroma)",
+      "Potencial modulacao de vias inflamatorias e microbianas (requer mais investigacao)"
+    ],
+    "therapeutic_potential": "O guaiol demonstra potencial terapeutico como um agente anti-inflamatorio, antimicrobiano e ansiolitico, com base em estudos fora do contexto da Cannabis. Na Cannabis, ele pode contribuir para o perfil aromatico e, possivelmente, para o 'efeito entourage', influenciando os efeitos gerais da planta. Mais pesquisas sao essenciais para validar esses beneficios e entender seus mecanismos de acao em humanos.",
+    "key_points": [
+      "Sesquiterpeno alcoolico com aroma amadeirado e floral.",
+      "Encontrado na Cannabis, guaiaco e camomila.",
+      "Potencial para propriedades anti-inflamatorias, antimicrobianas e ansioliticas (evidencia preliminar de outras fontes).",
+      "Pode contribuir para o 'efeito entourage' na Cannabis.",
+      "Pesquisas sobre seus mecanismos de acao e potencial terapeutico na Cannabis sao limitadas."
+    ]
+  },
+  {
+    "id": "sabinene",
+    "name": "Sabineno",
+    "type": "terpene",
+    "cid": 18818,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O Sabineno e um monoterpeno biciclico encontrado em diversas plantas, incluindo a Cannabis sativa, onde contribui para o perfil aromatico caracteristico. Tambem esta presente em oleos essenciais de noz-moscada, pimenta-do-reino e cenoura. Embora sua presenca na cannabis seja notavel, a pesquisa sobre seus mecanismos de acao especificos e potencial terapeutico e ainda limitada em comparacao com outros terpenos mais estudados. Acredita-se que, como outros terpenos, o Sabineno possa interagir com o sistema endocanabinoide e outros alvos biologicos, contribuindo para o 'efeito entourage' da cannabis. Estudos preliminares sugerem propriedades anti-inflamatorias e antioxidantes, mas mais investigacoes sao necessarias para confirmar e elucidar esses efeitos. Seu papel exato na sinergia com canabinoides e outros terpenos ainda esta sob investigacao. (CID PubChem: 18818)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapeutico do Sabineno ainda esta em fase inicial de pesquisa, com indicacoes preliminares de propriedades anti-inflamatorias e antioxidantes. Sua contribuicao para o 'efeito entourage' da cannabis e um foco de interesse.",
+    "key_points": [
+      "Monoterpeno biciclico encontrado na Cannabis sativa, noz-moscada e pimenta-do-reino.",
+      "Contribui para o aroma e sabor de certas variedades de cannabis.",
+      "Peso molecular de 136.23 g/mol.",
+      "XLogP de 3.1, indicando boa lipofilicidade.",
+      "Pesquisas sobre seus efeitos terapeuticos sao limitadas, mas sugerem potencial anti-inflamatorio e antioxidante."
+    ]
+  },
+  {
+    "id": "3-carene",
+    "name": "3-Careno (Delta-3-Careno)",
+    "type": "terpene",
+    "cid": 26049,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O 3-Careno, tambem conhecido como Delta-3-Careno, e um monoterpeno biciclico com um aroma doce e pungente, que lembra pinho e citricos. E encontrado em diversas plantas, incluindo a Cannabis sativa, alecrim, pinho e cedro. Na cannabis, ele contribui para o perfil terpenico complexo e pode influenciar os efeitos gerais da planta. Estudos sugerem que o 3-Careno pode ter propriedades anti-inflamatorias e antifungicas. A nivel farmacologico, foi identificado que atua em locais extracelulares e na membrana celular. No entanto, e importante notar que o 3-Careno tambem apresenta toxicidade, sendo classificado como neurotoxina (sindrome aguda do solvente), sensibilizador cutaneo e pode induzir asma. A ACGIH o classifica como carcinogeno nao classificavel. Essas consideracoes de toxicidade sao cruciais para a avaliacao de seu uso terapeutico e exposicao. (CID PubChem: 26049)",
+    "mechanisms": [
+      "Interacao com alvos extracelulares",
+      "Interacao com a membrana celular"
+    ],
+    "therapeutic_potential": "O 3-Careno demonstra potencial terapeutico como agente anti-inflamatorio e antifungico. No entanto, seu uso e aplicacao devem ser cuidadosamente avaliados devido as preocupacoes de toxicidade, incluindo neurotoxicidade, sensibilizacao cutanea e potencial para induzir asma.",
+    "key_points": [
+      "Monoterpeno biciclico com aroma de pinho e citricos, presente na Cannabis, alecrim e pinho.",
+      "Peso molecular de 136.23 g/mol.",
+      "XLogP de 2.8.",
+      "Atua em locais extracelulares e na membrana.",
+      "Potencial anti-inflamatorio e antifungico.",
+      "Classificado como neurotoxina, sensibilizador cutaneo e pode induzir asma.",
+      "ACGIH o classifica como carcinogeno nao classificavel."
+    ]
+  },
+  {
+    "id": "isopulegol",
+    "name": "Isopulegol",
+    "type": "terpene",
+    "cid": 170833,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Isopulegol e um monoterpeno alcoolico que atua como um intermediario na sintese do mentol, conferindo-lhe um aroma refrescante e mentolado. E encontrado em pequenas quantidades na Cannabis sativa, bem como em plantas como citronela e eucalipto. Embora nao seja um dos terpenos mais abundantes na cannabis, sua presenca pode contribuir para o perfil aromatico e, potencialmente, para os efeitos sinergicos da planta. A pesquisa sobre o Isopulegol sugere propriedades gastroprotetoras, ansioliticas e anti-inflamatorias. Farmacologicamente, foi identificado que atua em locais extracelulares e na membrana celular, indicando uma interacao com sistemas biologicos. Seu papel no 'efeito entourage' e a extensao de seus beneficios terapeuticos na cannabis ainda estao sendo investigados, mas os estudos iniciais sao promissores. (CID PubChem: 170833)",
+    "mechanisms": [
+      "Interacao com alvos extracelulares",
+      "Interacao com a membrana celular"
+    ],
+    "therapeutic_potential": "O Isopulegol apresenta um promissor potencial terapeutico, com estudos indicando propriedades gastroprotetoras, ansioliticas e anti-inflamatorias. Sua contribuicao para os efeitos sinergicos da cannabis e um campo ativo de pesquisa.",
+    "key_points": [
+      "Monoterpeno alcoolico, intermediario na sintese do mentol, com aroma refrescante.",
+      "Presente na Cannabis, citronela e eucalipto.",
+      "Peso molecular de 154.25 g/mol.",
+      "XLogP de 3.0.",
+      "Atua em locais extracelulares e na membrana.",
+      "Potencial gastroprotetor, ansiolitico e anti-inflamatorio."
+    ]
+  },
+  {
+    "id": "pulegone",
+    "name": "Pulegone",
+    "type": "terpene",
+    "cid": 442495,
+    "molecular_formula": "C10H16O",
+    "molecular_weight": "152.23",
+    "description": "A Pulegone e um monoterpeno cetonico encontrado em diversas plantas, incluindo a menta-inglesa (Mentha pulegium), de onde deriva seu nome. Embora nao seja um terpeno primario da Cannabis, pode estar presente em algumas variedades em quantidades vestigiais. Estudos em ratos indicam que a pulegone (300 mg i.p.) causa dilatacao das veias centrais e distensao dos espacos sinusoidais em 6 horas, com necrose centrilobular observavel a partir de 12 horas. A microscopia eletronica apos 24 horas mostrou degeneracao do reticulo endoplasmatico, inchaco das mitocondrias e alteracoes nucleares. Sugere-se que os metabolitos da (R)-(+)-pulegone desativam as enzimas do citocromo P450, modificando o grupo heme prostetico ou a apoproteina. Em microssomas de figado humano in vitro, o (R)-(+)-mentofurano, um metabolito da pulegone, inibe especificamente a CYP2A6. A pulegone e seus metabolitos, como o mentofurano, sao hepatotoxicos e produzem efeitos semelhantes apos injecao intraperitoneal em camundongos, comparaveis aos relatados em intoxicacoes humanas por oleo de poejo. A IARC classificou a pulegone no Grupo 2B: possivelmente carcinogenica para humanos. Estudos de 2 anos em ratos e camundongos nao evidenciaram atividade carcinogenica em ratos machos, mas houve alguma evidencia em ratos femeas e clara evidencia em camundongos machos e femeas em doses elevadas. Devido a sua toxicidade, seu potencial terapeutico e limitado e seu uso deve ser evitado.",
+    "mechanisms": [
+      "Inibicao de enzimas do citocromo P450 (especialmente CYP2A6 pelo mentofurano)",
+      "Inducao de necrose centrilobular no figado"
+    ],
+    "therapeutic_potential": "O potencial terapeutico da Pulegone e extremamente limitado devido a sua significativa hepatotoxicidade e potencial carcinogenicidade. Nao e recomendada para uso terapeutico.",
+    "key_points": [
+      "Monoterpeno cetonico encontrado em menta-inglesa, com presenca vestigial na Cannabis.",
+      "Causa hepatotoxicidade em ratos e camundongos, com necrose centrilobular em doses elevadas.",
+      "Metabolitos como o (R)-(+)-mentofurano inibem especificamente a enzima CYP2A6.",
+      "Classificada como \"possivelmente carcinogenica para humanos\" (Grupo 2B pela IARC).",
+      "Estudos de carcinogenicidade em roedores mostraram \"alguma evidencia\" em ratas e \"clara evidencia\" em camundongos de ambos os sexos."
+    ]
+  },
+  {
+    "id": "fenchol",
+    "name": "Fenchol (Alcool Fenquilo)",
+    "type": "terpene",
+    "cid": 15406,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Fenchol, tambem conhecido como alcool fenquilo, e um monoterpeno alcoolico encontrado em diversas plantas, incluindo o manjericao e certas variedades de Cannabis. Embora nao seja um dos terpenos mais abundantes na Cannabis, contribui para o perfil aromatico e pode ter efeitos sinergicos com outros canabinoides e terpenos. A informacao farmacologica disponivel no PubChem indica sua presenca em compartimentos celulares como o citoplasma, o espaco extracelular e a membrana, sugerindo uma distribuicao ampla dentro das celulas e tecidos. No entanto, os mecanismos de acao especificos e o potencial terapeutico do fenchol ainda estao sob investigacao e nao sao totalmente compreendidos. A pesquisa atual sobre terpenos da Cannabis foca em elucidar como compostos como o fenchol interagem com o sistema endocanabinoide e outros sistemas biologicos para modular os efeitos da planta. A ausencia de dados de toxicidade no PubChem para o fenchol nao implica sua seguranca, mas sim a falta de estudos toxicos detalhados publicamente disponiveis para este composto especifico. Mais pesquisas sao necessarias para determinar seu perfil completo de seguranca e eficacia terapeutica.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapeutico do Fenchol e atualmente desconhecido e requer mais investigacao. Sua contribuicao para o efeito entourage na Cannabis e um foco de pesquisa.",
+    "key_points": [
+      "Monoterpeno alcoolico encontrado em manjericao e algumas variedades de Cannabis.",
+      "Contribui para o perfil aromatico da planta.",
+      "Distribuicao celular inclui citoplasma, espaco extracelular e membrana.",
+      "Mecanismos de acao e potencial terapeutico ainda nao totalmente compreendidos.",
+      "Faltam dados de toxicidade detalhados no PubChem, exigindo mais pesquisa."
+    ]
+  },
+  {
+    "id": "fenchone",
+    "name": "Fenchone",
+    "type": "terpene",
+    "cid": 14525,
+    "molecular_formula": "C10H16O",
+    "molecular_weight": "152.23",
+    "description": "A Fenchone e um monoterpeno cetonico com um aroma caracteristico, encontrado em plantas como o funcho (Foeniculum vulgare) e, em menor grau, em certas variedades de Cannabis. Ela e conhecida por suas propriedades aromaticas e e utilizada na industria de fragrancias e alimentos. A informacao farmacologica disponivel no PubChem indica sua presenca no espaco extracelular e na membrana celular, sugerindo que pode interagir com receptores ou canais de membrana. No entanto, os mecanismos de acao especificos e o potencial terapeutico da fenchone na Cannabis nao sao bem estabelecidos. A toxicidade da fenchone e notavel, sendo classificada como uma neurotoxina que pode causar sindrome aguda por solvente. Esta classificacao indica que a exposicao a fenchone, especialmente em altas concentracoes, pode ter efeitos adversos no sistema nervoso. Devido a esta toxicidade, seu uso terapeutico direto e limitado e requer cautela. A pesquisa continua a explorar o papel dos terpenos na Cannabis, mas a fenchone, devido ao seu perfil de toxicidade, e geralmente considerada com precaucao em contextos terapeuticos.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapeutico da Fenchone e limitado devido a sua neurotoxicidade. Seu uso em contextos terapeuticos requer extrema cautela e mais estudos sao necessarios para entender seus efeitos em baixas concentracoes.",
+    "key_points": [
+      "Monoterpeno cetonico com aroma caracteristico, presente em funcho e algumas variedades de Cannabis.",
+      "Utilizada na industria de fragrancias e alimentos.",
+      "Distribuicao celular inclui espaco extracelular e membrana.",
+      "Classificada como neurotoxina, podendo causar sindrome aguda por solvente.",
+      "Mecanismos de acao e potencial terapeutico na Cannabis nao bem estabelecidos."
+    ]
+  },
+  {
+    "id": "alpha-terpinene",
+    "name": "Alfa-Terpineno (alpha-Terpinene)",
+    "type": "terpene",
+    "cid": 7462,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O alfa-terpineno é um monoterpeno cíclico encontrado em diversas plantas, incluindo a cannabis, onde contribui para o seu perfil aromático característico. É um isômero do gama-terpineno e do terpinoleno. Na cannabis, ele é um dos muitos terpenos que interagem sinergicamente com canabinoides e outros compostos, um fenômeno conhecido como 'efeito entourage'. Embora sua presença seja notável, a pesquisa específica sobre seus mecanismos de ação isolados na cannabis ainda é limitada. Estudos gerais sobre terpenos indicam que eles podem interagir com membranas celulares e ter efeitos extracelulares. Em termos de toxicidade, o alfa-terpineno é classificado como uma neurotoxina que pode causar síndrome aguda de solvente em altas exposições. Seu potencial terapêutico é sugerido por suas propriedades antioxidantes e anti-inflamatórias em estudos pré-clínicos, mas mais pesquisas são necessárias para confirmar esses efeitos em humanos e em contextos específicos da cannabis. É um composto lipofílico, com um XLogP de 2.8, o que indica sua capacidade de atravessar membranas biológicas.",
+    "mechanisms": [
+      "Interação com membranas celulares (Extracelular | Membrana)",
+      "Potencial antioxidante",
+      "Potencial anti-inflamatório"
+    ],
+    "therapeutic_potential": "O alfa-terpineno demonstra potencial antioxidante e anti-inflamatório em modelos pré-clínicos, sugerindo possíveis aplicações no manejo de condições inflamatórias e estresse oxidativo. No entanto, a evidência é preliminar e requer mais investigação, especialmente em relação à sua interação com outros componentes da cannabis e sua segurança em doses terapêuticas.",
+    "key_points": [
+      "Monoterpeno cíclico encontrado na cannabis e outras plantas.",
+      "Contribui para o aroma da cannabis.",
+      "XLogP de 2.8, indicando lipofilicidade.",
+      "Classificado como neurotoxina em altas exposições, podendo causar síndrome aguda de solvente.",
+      "Potencial antioxidante e anti-inflamatório em estudos pré-clínicos.",
+      "Massa molecular de 136.23 g/mol.",
+      "CID PubChem: 7462."
+    ]
+  },
+  {
+    "id": "gamma-terpinene",
+    "name": "Gama-Terpineno (gamma-Terpinene)",
+    "type": "terpene",
+    "cid": 7461,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O gama-terpineno é um monoterpeno cíclico presente em diversas plantas, incluindo a cannabis, onde contribui para o seu perfil aromático. É um isômero do alfa-terpineno e do terpinoleno. Assim como outros terpenos, o gama-terpineno é considerado um componente que pode modular os efeitos dos canabinoides através do 'efeito entourage'. A pesquisa sobre seus mecanismos de ação específicos é contínua, mas estudos gerais sobre terpenos sugerem que eles podem interagir com membranas celulares e ter efeitos extracelulares. Em termos de segurança, não há indicação de carcinogenicidade em humanos, conforme não listado pela IARC. Estudos pré-clínicos indicam que o gama-terpineno pode possuir propriedades antioxidantes, anti-inflamatórias e antimicrobianas. Sua lipofilicidade, com um XLogP de 2.8, sugere que ele pode facilmente atravessar barreiras biológicas. A compreensão completa de seu papel terapêutico na cannabis ainda está em desenvolvimento, necessitando de mais estudos clínicos.",
+    "mechanisms": [
+      "Interação com membranas celulares (Extracelular | Membrana)",
+      "Potencial antioxidante",
+      "Potencial anti-inflamatório",
+      "Potencial antimicrobiano"
+    ],
+    "therapeutic_potential": "O gama-terpineno exibe potencial antioxidante, anti-inflamatório e antimicrobiano em estudos pré-clínicos. Essas propriedades sugerem um possível papel no tratamento de infecções, inflamações e condições relacionadas ao estresse oxidativo. A ausência de carcinogenicidade conhecida aumenta seu perfil de segurança. Mais pesquisas são necessárias para validar esses efeitos em humanos e determinar sua relevância terapêutica no contexto da cannabis.",
+    "key_points": [
+      "Monoterpeno cíclico encontrado na cannabis e outras plantas.",
+      "Contribui para o aroma da cannabis.",
+      "XLogP de 2.8, indicando lipofilicidade.",
+      "Não há indicação de carcinogenicidade em humanos (não listado pela IARC).",
+      "Potencial antioxidante, anti-inflamatório e antimicrobiano em estudos pré-clínicos.",
+      "Massa molecular de 136.23 g/mol.",
+      "CID PubChem: 7461."
+    ]
+  },
+  {
+    "id": "terpinen-4-ol",
+    "name": "Terpinen-4-ol (4-Terpineol)",
+    "type": "terpene",
+    "cid": 11230,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "O Terpinen-4-ol, também conhecido como 4-Terpineol, é um monoterpeno álcool encontrado em mais de 200 derivados de folhas, ervas e flores, sendo um componente chave do óleo essencial da árvore do chá (Melaleuca alternifolia) e presente na cannabis. É reconhecido por seu odor de pinho e é utilizado em perfumaria e na criação de óleos artificiais. Farmacologicamente, os terpenos como o Terpinen-4-ol são conhecidos por perturbar o arranjo lipídico na região intercelular do estrato córneo, aumentando a permeabilidade da pele, o que é explorado em formulações transdérmicas. Estudos in vitro em pele humana demonstraram que o Terpinen-4-ol apresenta a penetração mais rápida e progressiva em todas as camadas da pele, com maior acúmulo no estrato córneo e na epiderme/derme em comparação com outros terpenos como alfa-pineno, beta-pineno e eucaliptol. A penetração é maior quando o valor de log P do terpeno se aproxima de 3 (o Terpinen-4-ol tem XLogP de 2.2). Em termos de toxicidade, o Terpinen-4-ol pode induzir apoptose em células leucêmicas humanas MOLT-4 via vias intrínsecas e extrínsecas e suprimir a produção de citocinas pró-inflamatórias. É utilizado como medicação experimental e antimicrobiano tópico. Seu potencial terapêutico inclui atividades antimicrobianas, anti-inflamatórias e anticancerígenas, embora a maioria das evidências venha de estudos pré-clínicos e in vitro.",
+    "mechanisms": [
+      "Aumento da permeabilidade da pele (distúrbio do arranjo lipídico do estrato córneo)",
+      "Indução de apoptose em células cancerígenas (via intrínseca e extrínseca)",
+      "Supressão de citocinas pró-inflamatórias",
+      "Atividade antimicrobiana"
+    ],
+    "therapeutic_potential": "O Terpinen-4-ol possui um significativo potencial terapêutico como antimicrobiano tópico, anti-inflamatório e, potencialmente, como agente anticancerígeno, com base em estudos in vitro e pré-clínicos. Sua capacidade de aumentar a permeabilidade da pele o torna um candidato promissor para a entrega transdérmica de fármacos. No entanto, a aplicação clínica e a segurança em humanos para essas indicações requerem mais estudos aprofundados.",
+    "key_points": [
+      "Monoterpeno álcool com odor de pinho, presente na cannabis e óleo da árvore do chá.",
+      "Aumenta a permeabilidade da pele, sendo útil em formulações transdérmicas.",
+      "Penetra rapidamente e se acumula nas camadas da pele (estrato córneo, epiderme/derme).",
+      "XLogP de 2.2, otimizando a penetração cutânea.",
+      "Induz apoptose em células leucêmicas MOLT-4 e suprime citocinas pró-inflamatórias.",
+      "Utilizado como antimicrobiano tópico e em perfumaria.",
+      "Massa molecular de 154.25 g/mol.",
+      "CID PubChem: 11230."
+    ]
+  },
+  {
+    "id": "p-cymene",
+    "name": "p-Cimeno (para-Cimeno)",
+    "type": "terpene",
+    "cid": 7463,
+    "molecular_formula": "C10H14",
+    "molecular_weight": "134.22",
+    "description": "O p-Cimeno é um terpeno monocíclico encontrado em diversas plantas, incluindo a cannabis, com um aroma característico que lembra cominho e orégano. Na cannabis, contribui para o perfil aromático e pode atuar em sinergia com outros canabinoides e terpenos. Estudos recentes indicam que o p-Cimeno possui propriedades anti-inflamatórias significativas. Em modelos de lesão pulmonar aguda induzida por lipopolissacarídeos (LPS) em camundongos, o pré-condicionamento com p-Cimeno resultou em uma redução notável de citocinas pró-inflamatórias (TNF-alfa, IL-1beta e IL-6), diminuição do ganho de água pulmonar, infiltração de células inflamatórias e atividade de mieloperoxidase. Além disso, o p-Cimeno demonstrou bloquear a fosforilação da proteína IkBalpha e a ativação da via de sinalização de MAP quinases (MAPK). A pesquisa também sugere que o p-Cimeno pode regular a produção de citocinas inflamatórias em células RAW 264.7 estimuladas por LPS, inibindo a ativação de ERK1/2, p38, JNK e IkBalpha. Embora promissor, mais pesquisas são necessárias para entender completamente seu potencial terapêutico em humanos. A informação sobre o potencial carcinogênico é inadequada para avaliação.",
+    "mechanisms": [
+      "Redução da produção de citocinas pró-inflamatórias (TNF-alfa, IL-1beta, IL-6)",
+      "Bloqueio da fosforilação da proteína IkBalpha",
+      "Inibição da ativação da via de sinalização de MAP quinases (MAPK)",
+      "Downregulation dos níveis de mRNA de genes de citocinas inflamatórias",
+      "Inibição da ativação de ERK1/2, p38, JNK"
+    ],
+    "therapeutic_potential": "O p-Cimeno demonstra um potencial terapêutico significativo como agente anti-inflamatório, especialmente em condições que envolvem inflamação pulmonar aguda. Sua capacidade de modular múltiplas vias de sinalização inflamatória o torna um alvo interessante para o desenvolvimento de novas terapias.",
+    "key_points": [
+      "Terpeno monocíclico com aroma de cominho/orégano.",
+      "Reduz citocinas pró-inflamatórias (TNF-alfa, IL-1beta, IL-6) em modelos de lesão pulmonar aguda.",
+      "Inibe a ativação de vias de sinalização inflamatórias como NF-kB e MAPK.",
+      "Dose de referência oral (RfD) de 4 x 10^-3 mg/kg-dia e inalatória (RfC) de 4 x 10^-2 mg/m^3.",
+      "Informação inadequada para avaliar potencial carcinogênico.",
+      "CID PubChem: 7463."
+    ]
+  },
+  {
+    "id": "alpha-phellandrene",
+    "name": "Alfa-Felandreno (Pelandreno)",
+    "type": "terpene",
+    "cid": 7460,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O alfa-Felandreno é um terpeno monocíclico encontrado em diversas plantas, incluindo a cannabis, com um aroma que pode variar de menta a cítrico. Na cannabis, ele contribui para o perfil terpênico geral, que pode influenciar os efeitos da planta através do 'efeito entourage'. A pesquisa sobre o alfa-Felandreno é limitada, mas sabe-se que ele pode ser absorvido pela pele e pode causar irritação. Há relatos de hipersensibilidade devido às suas propriedades sensibilizantes, especialmente quando presente em preparações dentárias, juntamente com alfa-pineno e limoneno. Não há informações detalhadas sobre mecanismos farmacológicos específicos ou potencial terapêutico robusto disponíveis no PubChem para este composto. A evidência atual sugere que seu principal impacto pode estar relacionado à sua capacidade de causar irritação e sensibilização cutânea. Mais estudos são necessários para explorar quaisquer outros efeitos farmacológicos ou terapêuticos que possa possuir.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do alfa-Felandreno é atualmente pouco compreendido devido à escassez de dados farmacológicos. Sua principal relevância conhecida está relacionada à sua capacidade de causar irritação e sensibilização cutânea.",
+    "key_points": [
+      "Terpeno monocíclico com aroma de menta/cítrico.",
+      "Pode ser absorvido pela pele e causar irritação.",
+      "Associado a hipersensibilidade em preparações dentárias.",
+      "Informações farmacológicas e terapêuticas limitadas.",
+      "CID PubChem: 7460."
+    ]
+  },
+  {
+    "id": "beta-phellandrene",
+    "name": "Beta-Felandreno",
+    "type": "terpene",
+    "cid": 11142,
+    "molecular_formula": "C10H16",
+    "molecular_weight": "136.23",
+    "description": "O beta-Felandreno é um terpeno monocíclico encontrado em várias espécies de plantas, incluindo a cannabis, onde contribui para o perfil aromático e pode interagir com outros compostos da planta. Embora seja um componente comum em óleos essenciais, as informações farmacológicas específicas e detalhadas sobre o beta-Felandreno são limitadas no PubChem. A toxicidade reportada indica que ele pode atuar como um neurotoxina, causando síndrome aguda do solvente. Em termos de mecanismos de ação, as informações disponíveis são escassas, mencionando apenas que ele pode atuar em locais extracelulares e na membrana celular, sem especificar os alvos ou vias. A pesquisa sobre o beta-Felandreno na cannabis e seus potenciais efeitos terapêuticos ainda está em estágios iniciais e requer investigações mais aprofundadas para elucidar seu papel e segurança. É importante notar a preocupação com sua neurotoxicidade em exposições agudas.",
+    "mechanisms": [
+      "Atuação em locais extracelulares",
+      "Atuação na membrana celular"
+    ],
+    "therapeutic_potential": "O potencial terapêutico do beta-Felandreno é atualmente desconhecido devido à falta de dados farmacológicos robustos. A principal preocupação reside em sua toxicidade como neurotoxina em exposições agudas, o que exige cautela e mais pesquisas sobre sua segurança e efeitos em humanos.",
+    "key_points": [
+      "Terpeno monocíclico encontrado na cannabis.",
+      "Pode atuar como neurotoxina, causando síndrome aguda do solvente.",
+      "Mecanismos de ação pouco compreendidos, com menção a alvos extracelulares e de membrana.",
+      "Informações farmacológicas e terapêuticas detalhadas são limitadas.",
+      "CID PubChem: 11142."
+    ]
+  },
+  {
+    "id": "camphor",
+    "name": "Canfora (Camphor)",
+    "type": "terpene",
+    "cid": 2537,
+    "molecular_formula": "C10H16O",
+    "molecular_weight": "152.23",
+    "description": "A canfora e um composto terpenico natural, conhecido pelo seu aroma forte e caracteristico. Embora seja mais comumente associada a plantas como a canforeira (Cinnamomum camphora), tambem pode ser encontrada em pequenas quantidades em certas variedades de cannabis, contribuindo para o perfil terpenico complexo da planta. Farmacologicamente, a canfora e amplamente utilizada como analgesico topico em balsamos e linimentos. Sua acao envolve a ativacao de canais de potencial receptor transiente (TRP), como o TRPV3 e o TRPV1, este ultimo tambem ativado pela capsaicina. A canfora demonstrou dessensibilizar o TRPV1 de forma mais rapida e completa que a capsaicina, o que pode contribuir para seus efeitos analgesicos. Alem disso, inibe outros canais TRP, como o TRPA1. A pesquisa sugere que a dessensibilizacao do TRPV1 e o bloqueio do TRPA1 sao mecanismos subjacentes aos seus efeitos analgesicos. E importante notar que, embora ative o TRPV1, a canfora requer concentracoes mais elevadas do que a capsaicina. A canfora e um contra-irritante e rubefaciente, criando uma sensacao de resfriamento quando aplicada suavemente na pele, o que a torna util para aliviar a coceira e como anestesico de superficie. Seu uso como pesticida nao e mais aprovado nos EUA. (CID PubChem: 2537)",
+    "mechanisms": [
+      "Ativacao do canal TRPV3",
+      "Ativacao e dessensibilizacao do canal TRPV1",
+      "Inibicao do canal TRPA1"
+    ],
+    "therapeutic_potential": "A canfora possui potencial terapeutico como analgesico topico, anti-inflamatorio e antipruriginoso, atuando na modulacao de canais TRP envolvidos na percepcao da dor e coceira. Sua capacidade de dessensibilizar o TRPV1 e bloquear o TRPA1 a torna relevante para o manejo de dores musculares, neuralgia e condicoes de pele pruriginosas.",
+    "key_points": [
+      "Terpeno natural com aroma forte, encontrado em canforeira e em algumas variedades de cannabis.",
+      "Utilizado como analgesico topico, contra-irritante e antipruriginoso.",
+      "Ativa canais TRPV3 e TRPV1, e inibe TRPA1.",
+      "Dessensibiliza o TRPV1 mais rapidamente que a capsaicina, contribuindo para o efeito analgesico.",
+      "Pode ser usado em concentracoes de 0.1% a 3% como loção antipruriginosa.",
+      "LD50 oral em roedores geralmente superior a 1000 mg/kg (baixa toxicidade aguda)."
+    ]
+  },
+  {
+    "id": "citral",
+    "name": "Citral (Geranial)",
+    "type": "terpene",
+    "cid": 638011,
+    "molecular_formula": "C10H16O",
+    "molecular_weight": "152.23",
+    "description": "O citral e um terpeno aldeido com um aroma citrico pronunciado, sendo uma mistura de dois isomeros: neral (cis) e geranial (trans). E um componente comum em oleos essenciais de plantas citricas e tambem presente na cannabis, contribuindo para seu perfil aromatico. Farmacologicamente, o citral demonstrou inibir as isozimas E1, E2 e E3 da aldeido desidrogenase humana (ALDH), uma enzima crucial no metabolismo de aldeidos. Essa inibicao e reversivel e o citral atua tanto como inibidor quanto como substrato para essas enzimas, sendo o geranial um substrato e inibidor mais eficaz que o neral. A isozima E1 parece ser a principal envolvida no metabolismo in vivo do citral. Alem disso, estudos em insetos indicaram que o citral possui efeitos neurofisiologicos, incluindo efeitos depressivos e aumento da atividade espontanea em baixas doses. Em termos de toxicidade, o citral e rapidamente absorvido pelo trato gastrointestinal e metabolizado, sendo a urina a principal via de eliminacao. A toxicidade aguda em roedores e baixa, com valores de LD50 oral e dermal superiores a 1000 mg/kg. E classificado como irritante para a pele, mas nao para os olhos em coelhos. (CID PubChem: 638011)",
+    "mechanisms": [
+      "Inibicao das isozimas E1, E2 e E3 da aldeido desidrogenase (ALDH)",
+      "Atua como substrato para as isozimas ALDH"
+    ],
+    "therapeutic_potential": "O citral apresenta potencial terapeutico devido a sua capacidade de modular a atividade da aldeido desidrogenase, o que pode ter implicacoes em processos metabolicos e de desintoxicacao. Embora mais pesquisas sejam necessarias, seus efeitos neurofisiologicos observados em modelos animais sugerem um possivel papel na modulacao do sistema nervoso. Sua baixa toxicidade aguda o torna um candidato interessante para futuras investigacoes.",
+    "key_points": [
+      "Terpeno aldeido com aroma citrico, presente em citricos e cannabis.",
+      "Composto por dois isomeros: neral (cis) e geranial (trans).",
+      "Inibe as isozimas E1, E2 e E3 da aldeido desidrogenase humana (ALDH).",
+      "Geranial e um substrato e inibidor mais potente que neral para ALDH.",
+      "Toxicidade aguda baixa em roedores (LD50 > 1000 mg/kg).",
+      "Irritante para a pele, mas nao para os olhos."
+    ]
+  },
+  {
+    "id": "citronellol",
+    "name": "Citronelol (Citronellol)",
+    "type": "terpene",
+    "cid": 8842,
+    "molecular_formula": "C10H20O",
+    "molecular_weight": "156.26",
+    "description": "O citronelol e um alcool monoterpenico encontrado em diversos oleos essenciais, como o oleo de rosa e o oleo de citronela, e tambem pode estar presente em variedades de cannabis, contribuindo para seu perfil aromatico. E conhecido por seu aroma floral e citrico. Farmacologicamente, o citronelol demonstrou ativar os receptores ativados por proliferadores de peroxissomos (PPAR) alfa e gama. Os PPARs sao uma classe de receptores nucleares que desempenham papeis cruciais na regulacao do metabolismo de lipideos, glicose e na resposta inflamatoria. Alem disso, o citronelol suprimiu a expressao da ciclooxigenase-2 (COX-2) induzida por LPS em ensaios de cultura de celulas. A COX-2 e uma enzima chave na via inflamatoria, e sua supressao e um alvo para muitos medicamentos anti-inflamatorios. A supressao da atividade do promotor da COX-2 dependente de PPAR gama foi especificamente atribuida ao citronelol, indicando que e um componente ativo com propriedades anti-inflamatorias. Em termos de toxicidade, o citronelol e registrado para uso como pesticida nos EUA e e utilizado em perfumaria. Testes de contato em voluntarios humanos mostraram que o citronelol pode causar reacoes alergicas em algumas pessoas. (CID PubChem: 8842)",
+    "mechanisms": [
+      "Ativacao dos receptores PPAR alfa",
+      "Ativacao dos receptores PPAR gama",
+      "Supressao da expressao da ciclooxigenase-2 (COX-2)"
+    ],
+    "therapeutic_potential": "O citronelol possui um potencial terapeutico significativo devido a sua capacidade de ativar os receptores PPAR alfa e gama e suprimir a expressao da COX-2. Isso sugere um papel promissor como agente anti-inflamatorio e na modulacao de processos metabolicos. Sua acao nos PPARs pode ser explorada para condicoes relacionadas ao metabolismo e inflamacao, embora mais estudos clinicos sejam necessarios para confirmar esses beneficios em humanos.",
+    "key_points": [
+      "Alcool monoterpenico com aroma floral e citrico, presente em oleos essenciais e cannabis.",
+      "Ativa os receptores PPAR alfa e gama.",
+      "Suprime a expressao da ciclooxigenase-2 (COX-2) induzida por LPS.",
+      "A supressao da COX-2 e dependente de PPAR gama.",
+      "Registrado para uso como pesticida nos EUA.",
+      "Pode causar reacoes alergicas em humanos."
+    ]
+  },
+  {
+    "id": "nerol",
+    "name": "Nerol",
+    "type": "terpene",
+    "cid": 643820,
+    "molecular_formula": "C10H18O",
+    "molecular_weight": "154.25",
+    "description": "Nerol é um monoterpeno acíclico encontrado em diversas plantas, incluindo a cannabis, e é conhecido por seu aroma floral doce, frequentemente associado a rosas e neroli. Na cannabis, ele contribui para o perfil aromático e pode atuar em sinergia com outros canabinoides e terpenos. Estudos farmacológicos indicam que o nerol pode ser absorvido por inalação, com concentrações sanguíneas de 5.7 ng/mL observadas 1 hora após a exposição em camundongos. Embora a pesquisa sobre seus mecanismos de ação específicos na cannabis ainda esteja em andamento, terpenos como o nerol são conhecidos por interagir com o sistema endocanabinoide e outros receptores, influenciando os efeitos gerais da planta. O potencial terapêutico do nerol inclui propriedades anti-inflamatórias, antioxidantes e antimicrobianas. Sua segurança foi avaliada em testes de sensibilização cutânea em humanos, onde uma concentração de 4% em petrolato não produziu reações. No entanto, mais pesquisas são necessárias para elucidar completamente seus efeitos e aplicações terapêuticas na cannabis. (CID: 643820)",
+    "mechanisms": [
+      "Interação com o sistema endocanabinoide (hipotético, como outros terpenos)",
+      "Ação antioxidante",
+      "Ação anti-inflamatória",
+      "Ação antimicrobiana"
+    ],
+    "therapeutic_potential": "O nerol demonstra potencial terapêutico como agente anti-inflamatório, antioxidante e antimicrobiano. Sua presença na cannabis pode contribuir para o 'efeito entourage', modulando os efeitos dos canabinoides.",
+    "key_points": [
+      "Terpeno acíclico com aroma floral doce.",
+      "Encontrado na cannabis e em óleos essenciais como o de neroli.",
+      "Concentração sanguínea de 5.7 ng/mL detectada 1 hora após inalação em camundongos.",
+      "Não causou reações de sensibilização em testes cutâneos em humanos a 4%.",
+      "Potencial anti-inflamatório, antioxidante e antimicrobiano."
+    ]
+  },
+  {
+    "id": "geranyl-acetate",
+    "name": "Acetato de Geranila (Geranyl acetate)",
+    "type": "terpene",
+    "cid": 1549026,
+    "molecular_formula": "C12H20O2",
+    "molecular_weight": "196.29",
+    "description": "O acetato de geranila é um éster monoterpênico encontrado na cannabis e em diversas outras plantas, contribuindo para seu aroma frutado e floral, frequentemente descrito como rosa ou lavanda. É o éster do geraniol, um álcool monoterpênico. A farmacologia sugere que ésteres terpênicos como o acetato de geranila são provavelmente hidrolisados a seus respectivos álcoois (neste caso, geraniol) no organismo, que então podem ser oxidados a ácidos. No caso do geraniol, parte é oxidada ao ácido de Hildebrandt. Em termos de toxicidade, estudos de carcinogenicidade em ratos F344/N e camundongos B6C3F1 não encontraram evidências de carcinogenicidade para o acetato de geranila, embora tenha sido observada uma redução na sobrevivência em doses elevadas em alguns grupos. Isso indica um perfil de segurança relativamente favorável para o composto em relação ao câncer, mas ressalta a importância da dosagem. O potencial terapêutico do acetato de geranila, embora menos estudado diretamente do que o geraniol, pode estar relacionado às propriedades do geraniol, que incluem atividades anti-inflamatórias, antioxidantes e neuroprotetoras. (CID: 1549026)",
+    "mechanisms": [
+      "Hidrólise a geraniol, que pode interagir com o sistema endocanabinoide (indiretamente)",
+      "Ação antioxidante (indiretamente via geraniol)",
+      "Ação anti-inflamatória (indiretamente via geraniol)"
+    ],
+    "therapeutic_potential": "O acetato de geranila, através de sua metabolização em geraniol, pode oferecer potencial terapêutico relacionado a propriedades anti-inflamatórias, antioxidantes e neuroprotetoras. Sua contribuição para o 'efeito entourage' na cannabis é provável.",
+    "key_points": [
+      "Éster monoterpênico com aroma frutado e floral.",
+      "Encontrado na cannabis e em óleos essenciais.",
+      "Provavelmente hidrolisado a geraniol no organismo.",
+      "Não carcinogênico em estudos com ratos e camundongos, mas doses altas afetaram a sobrevivência.",
+      "Potencial terapêutico ligado às propriedades do geraniol (anti-inflamatório, antioxidante)."
+    ]
+  },
+  {
+    "id": "caryophyllene-oxide",
+    "name": "Óxido de Cariofileno (Caryophyllene oxide)",
+    "type": "terpene",
+    "cid": 1742210,
+    "molecular_formula": "C15H24O",
+    "molecular_weight": "220.35",
+    "description": "O óxido de cariofileno é um sesquiterpeno epóxido encontrado em diversas variedades de cannabis, bem como em outras plantas como a melissa e o eucalipto. É o produto da oxidação do beta-cariofileno, um terpeno conhecido por sua capacidade de interagir com o receptor CB2 do sistema endocanabinoide. O óxido de cariofileno é frequentemente utilizado como um marcador para a presença de cannabis em testes de detecção de drogas, pois não é psicoativo. Em termos de farmacologia, estudos em coelhos tratados com (-)-cariofileno mostraram que o óxido de cariofileno é um intermediário metabólico, sendo posteriormente convertido em 14-hidroxicariofileno. Isso sugere uma via metabólica para este composto no organismo. A toxicidade do óxido de cariofileno foi avaliada em estudos com LD50, revelando valores de 0.20 mL de uma solução a 0.1% em clorofórmio para o beta-cariofileno epóxido em um modelo não especificado, indicando uma toxicidade relativamente alta em doses concentradas. No entanto, é importante notar que a toxicidade pode variar entre o composto natural e o sintético. O potencial terapêutico do óxido de cariofileno inclui propriedades antifúngicas, anti-inflamatórias e antiproliferativas, embora mais pesquisas sejam necessárias para entender completamente sua relevância clínica. (CID: 1742210)",
+    "mechanisms": [
+      "Metabolismo via 14-hidroxicariofileno",
+      "Ação antifúngica",
+      "Ação anti-inflamatória",
+      "Ação antiproliferativa"
+    ],
+    "therapeutic_potential": "O óxido de cariofileno apresenta potencial terapêutico como agente antifúngico, anti-inflamatório e antiproliferativo. Sua presença na cannabis pode contribuir para o 'efeito entourage', embora não seja psicoativo.",
+    "key_points": [
+      "Sesquiterpeno epóxido, produto da oxidação do beta-cariofileno.",
+      "Encontrado na cannabis e em outras plantas como melissa e eucalipto.",
+      "Não psicoativo, usado como marcador de cannabis em testes.",
+      "Metabolizado em 14-hidroxicariofileno no organismo.",
+      "LD50 de 0.20 mL (solução 0.1%) em estudos de toxicidade, indicando alta toxicidade em doses concentradas.",
+      "Potencial antifúngico, anti-inflamatório e antiproliferativo."
+    ]
+  },
+  {
+    "id": "alpha-bergamotene",
+    "name": "Alfa-Bergamoteno",
+    "type": "terpene",
+    "cid": 86608,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O alfa-Bergamoteno é um sesquiterpeno, um tipo de composto orgânico volátil encontrado em diversas plantas, incluindo a cannabis. Embora menos estudado que outros terpenos, ele contribui para o aroma e sabor característicos de certas variedades de cannabis, apresentando notas cítricas e amadeiradas. Sua presença na cannabis é parte do complexo \"efeito entourage\", onde múltiplos compostos da planta interagem para modular os efeitos terapêuticos. A pesquisa sobre o alfa-Bergamoteno ainda é limitada, mas estudos preliminares em outras fontes botânicas sugerem potenciais propriedades anti-inflamatórias e antimicrobianas. No entanto, a extensão de sua contribuição para os efeitos farmacológicos da cannabis ainda precisa ser mais explorada através de estudos específicos. Não há dados farmacológicos ou toxicológicos detalhados disponíveis no PubChem para este composto, indicando a necessidade de mais investigações para compreender plenamente seu perfil de segurança e eficácia. (CID: 86608)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do alfa-Bergamoteno ainda está sob investigação, com evidências limitadas sugerindo possíveis propriedades anti-inflamatórias e antimicrobianas, mas sem dados conclusivos específicos para a cannabis.",
+    "key_points": [
+      "Sesquiterpeno encontrado na cannabis e outras plantas.",
+      "Contribui para o perfil aromático com notas cítricas e amadeiradas.",
+      "Massa molecular de 204.35 g/mol.",
+      "XLogP de 4.8, indicando lipofilicidade.",
+      "Pesquisa sobre suas propriedades terapêuticas ainda é incipiente."
+    ]
+  },
+  {
+    "id": "alpha-farnesene",
+    "name": "Alfa-Farneseno",
+    "type": "terpene",
+    "cid": 5281516,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O alfa-Farneseno é um sesquiterpeno comum encontrado em diversas plantas, incluindo a cannabis, maçãs, peras e camomila. Ele é conhecido por seu aroma doce e verde, contribuindo significativamente para o perfil olfativo de muitas variedades de cannabis. Na cannabis, o alfa-Farneseno é um dos muitos terpenos que interagem com canabinoides e outros compostos para produzir o \"efeito entourage\", potencialmente modulando os efeitos terapêuticos da planta. Estudos pré-clínicos indicam que o alfa-Farneseno pode possuir propriedades anti-inflamatórias, antioxidantes e até mesmo repelentes de insetos. O PubChem indica que este composto atua em locais extracelulares e na membrana, sugerindo uma interação com receptores ou enzimas localizadas nessas regiões, o que pode explicar seus potenciais efeitos biológicos. A pesquisa está em andamento para elucidar completamente seus mecanismos de ação e aplicações terapêuticas na medicina canábica. (CID: 5281516)",
+    "mechanisms": [
+      "Interação com locais extracelulares",
+      "Interação com a membrana celular",
+      "Modulação de vias inflamatórias (hipotético)",
+      "Atividade antioxidante (hipotético)"
+    ],
+    "therapeutic_potential": "O alfa-Farneseno demonstra potencial terapêutico como agente anti-inflamatório e antioxidante, além de sua contribuição para o \"efeito entourage\" na cannabis, modulando os efeitos gerais da planta.",
+    "key_points": [
+      "Sesquiterpeno presente na cannabis, maçãs e camomila.",
+      "Aroma doce e verde, contribuindo para o perfil olfativo da cannabis.",
+      "Massa molecular de 204.35 g/mol.",
+      "XLogP de 6.1, indicando alta lipofilicidade.",
+      "Pode atuar em locais extracelulares e na membrana.",
+      "Potenciais propriedades anti-inflamatórias e antioxidantes."
+    ]
+  },
+  {
+    "id": "beta-farnesene",
+    "name": "Beta-Farneseno (trans-beta-Farneseno)",
+    "type": "terpene",
+    "cid": 5281517,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O beta-Farneseno, especificamente a forma trans-beta-Farneseno, é um sesquiterpeno encontrado na cannabis e em uma variedade de outras plantas, como a camomila, a hortelã e a pimenta-do-reino. Ele é conhecido por seu aroma amadeirado, cítrico e por vezes floral, contribuindo para a complexidade do perfil terpênico da cannabis. Este terpeno é particularmente notável por ser um feromônio de alarme para afídeos (pulgoes), o que sugere um papel na defesa das plantas. Na farmacologia da cannabis, o beta-Farneseno, como outros terpenos, é considerado um componente do \"efeito entourage\", onde interage com canabinoides e outros compostos para influenciar os efeitos terapêuticos. Embora a pesquisa direta sobre seus efeitos em humanos seja limitada, estudos preliminares em modelos in vitro e in vivo de outras fontes botânicas indicam possíveis propriedades sedativas, anti-inflamatórias e antimicrobianas. Não há dados farmacológicos ou toxicológicos detalhados disponíveis no PubChem para este composto, ressaltando a necessidade de mais estudos para confirmar e detalhar seus mecanismos de ação e potencial terapêutico. (CID: 5281517)",
+    "mechanisms": [
+      "Interação com o sistema endocanabinoide (hipotético, via efeito entourage)",
+      "Modulação de vias inflamatórias (hipotético)",
+      "Atividade antimicrobiana (hipotético)"
+    ],
+    "therapeutic_potential": "O beta-Farneseno tem potencial terapêutico como agente sedativo, anti-inflamatório e antimicrobiano, além de contribuir para o \"efeito entourage\" na cannabis, influenciando os efeitos gerais da planta.",
+    "key_points": [
+      "Sesquiterpeno presente na cannabis, camomila e hortelã.",
+      "Aroma amadeirado, cítrico e floral.",
+      "Massa molecular de 204.35 g/mol.",
+      "XLogP de 6.2, indicando alta lipofilicidade.",
+      "Feromônio de alarme para afídeos.",
+      "Potenciais propriedades sedativas, anti-inflamatórias e antimicrobianas."
+    ]
+  },
+  {
+    "id": "gamma-cadinene",
+    "name": "Gama-Cadineno",
+    "type": "terpene",
+    "cid": 6432404,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O gama-Cadineno é um sesquiterpeno, um tipo de composto orgânico volátil encontrado em diversas plantas, incluindo a Cannabis. Embora menos estudado que outros terpenos mais abundantes na cannabis, ele contribui para o perfil aromático e sabor de certas variedades, conferindo notas amadeiradas e picantes. Sua presença na planta sugere um papel potencial na defesa contra herbívoros e patógenos. A pesquisa sobre o gama-Cadineno ainda é limitada, e seus mecanismos de ação específicos no sistema humano não são totalmente compreendidos. No entanto, como outros terpenos, é provável que ele interaja com o sistema endocanabinoide e outros receptores, contribuindo para o 'efeito entourage' que modula os efeitos dos canabinoides. Não há dados farmacológicos ou toxicológicos extensivos disponíveis no PubChem para este composto, indicando a necessidade de mais estudos para elucidar seu perfil de segurança e eficácia. (CID PubChem: 6432404)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do gama-Cadineno ainda não foi extensivamente investigado. Com base em estudos de outros sesquiterpenos, pode ter propriedades anti-inflamatórias ou antimicrobianas, mas isso requer validação em pesquisas futuras.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e outras plantas.",
+      "Contribui para aromas amadeirados e picantes.",
+      "Peso molecular: 204.35 g/mol.",
+      "XLogP: 4.3, indicando alta lipofilicidade.",
+      "Pesquisa sobre seus efeitos terapêuticos é limitada."
+    ]
+  },
+  {
+    "id": "alpha-selinene",
+    "name": "Alfa-Selineno",
+    "type": "terpene",
+    "cid": 10856614,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O alfa-Selineno é um sesquiterpeno, um composto orgânico volátil presente em diversas espécies vegetais, incluindo a Cannabis. Ele é conhecido por contribuir para o aroma característico de certas plantas, com notas que podem variar de amadeiradas a terrosas. Na Cannabis, o alfa-Selineno, como outros terpenos, desempenha um papel na interação da planta com o ambiente, possivelmente atuando na defesa contra pragas e na atração de polinizadores. A compreensão de seus mecanismos de ação no corpo humano é incipiente, mas, como outros terpenos, ele pode interagir com receptores celulares e modular a atividade de canabinoides através do 'efeito entourage'. Não há dados farmacológicos ou toxicológicos detalhados disponíveis no PubChem para o alfa-Selineno, o que destaca a necessidade de mais pesquisas para determinar seu perfil de segurança e potenciais aplicações terapêuticas. (CID PubChem: 10856614)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do alfa-Selineno é largely desconhecido devido à falta de estudos específicos. Pode compartilhar propriedades com outros sesquiterpenos, como efeitos anti-inflamatórios ou antioxidantes, mas isso é especulativo e requer investigação científica.",
+    "key_points": [
+      "Sesquiterpeno presente na Cannabis e outras plantas.",
+      "Contribui para aromas amadeirados/terrosos.",
+      "Peso molecular: 204.35 g/mol.",
+      "XLogP: 5.2, indicando alta lipofilicidade.",
+      "Pesquisa sobre seus efeitos terapêuticos é limitada."
+    ]
+  },
+  {
+    "id": "beta-selinene",
+    "name": "Beta-Selineno",
+    "type": "terpene",
+    "cid": 442393,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O beta-Selineno é um sesquiterpeno, um tipo de composto orgânico volátil encontrado em diversas plantas, incluindo a Cannabis. Ele é um isômero do alfa-Selineno e contribui para o perfil aromático e sabor de certas variedades de cannabis, embora suas notas específicas possam variar. Na planta, o beta-Selineno, assim como outros terpenos, pode ter funções ecológicas, como proteção contra herbívoros ou atração de polinizadores. A pesquisa sobre os mecanismos de ação do beta-Selineno no corpo humano é limitada. No entanto, é plausível que ele, como outros terpenos, interaja com o sistema endocanabinoide e outros sistemas biológicos, contribuindo para o 'efeito entourage' que modula os efeitos dos canabinoides. Não há dados farmacológicos ou toxicológicos extensivos disponíveis no PubChem para este composto, o que ressalta a necessidade de mais estudos para caracterizar completamente seu perfil e potenciais benefícios. (CID PubChem: 442393)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do beta-Selineno é atualmente pouco compreendido. Embora outros sesquiterpenos tenham demonstrado atividades biológicas, como anti-inflamatórias ou antimicrobianas, a evidência para o beta-Selineno é escassa e exige mais pesquisa para ser estabelecida.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e outras plantas.",
+      "Isômero do alfa-Selineno.",
+      "Peso molecular: 204.35 g/mol.",
+      "XLogP: 5.4, indicando alta lipofilicidade.",
+      "Pesquisa sobre seus efeitos terapêuticos é limitada."
+    ]
+  },
+  {
+    "id": "alpha-eudesmol",
+    "name": "Alfa-Eudesmol (alpha-Eudesmol)",
+    "type": "terpene",
+    "cid": 92762,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O alfa-Eudesmol é um sesquiterpeno, um tipo de composto orgânico volátil encontrado em diversas plantas, incluindo a Cannabis. Sua estrutura molecular é C15H26O e possui um peso molecular de 222.37. Embora seja menos estudado que outros terpenos da cannabis, como o mirceno ou o limoneno, o alfa-Eudesmol contribui para o perfil aromático e, potencialmente, para os efeitos terapêuticos da planta. É conhecido por seu aroma amadeirado e picante. A pesquisa sobre seus mecanismos de ação específicos na cannabis ainda é limitada, mas, como outros terpenos, pode interagir com o sistema endocanabinoide e outros receptores, modulando os efeitos dos canabinoides. Seu potencial terapêutico está sob investigação, com estudos preliminares sugerindo possíveis propriedades anti-inflamatórias e antimicrobianas. No entanto, são necessárias mais pesquisas para confirmar esses efeitos e entender completamente seu papel na farmacologia da cannabis. Não há dados de farmacologia ou toxicidade detalhados disponíveis no PubChem para este composto.",
+    "mechanisms": [
+      "Interação potencial com o sistema endocanabinoide (hipotético)",
+      "Modulação de receptores celulares (hipotético)",
+      "Atividade antimicrobiana (em investigação)",
+      "Atividade anti-inflamatória (em investigação)"
+    ],
+    "therapeutic_potential": "O alfa-Eudesmol apresenta um potencial terapêutico emergente, com indicações preliminares de atividade anti-inflamatória e antimicrobiana. Sua contribuição para o 'efeito entourage' na cannabis pode amplificar os benefícios de outros canabinoides e terpenos. No entanto, a evidência é limitada e requer estudos mais aprofundados para validar e caracterizar esses efeitos.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e outras plantas.",
+      "Fórmula molecular C15H26O, peso molecular 222.37.",
+      "Aroma amadeirado e picante.",
+      "Potencialmente contribui para o 'efeito entourage'.",
+      "Estudos preliminares sugerem propriedades anti-inflamatórias e antimicrobianas.",
+      "XLogP de 3.5, indicando lipofilicidade moderada.",
+      "CID PubChem: 92762."
+    ]
+  },
+  {
+    "id": "beta-eudesmol",
+    "name": "Beta-Eudesmol (beta-Eudesmol)",
+    "type": "terpene",
+    "cid": 91457,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O beta-Eudesmol é um sesquiterpeno, um composto orgânico com 15 átomos de carbono, presente em diversas espécies vegetais, incluindo a Cannabis. Sua fórmula molecular é C15H26O e seu peso molecular é de 222.37. Este terpeno é conhecido por seu aroma característico, que pode variar de amadeirado a levemente floral ou picante, contribuindo para o perfil olfativo único de certas variedades de cannabis. Embora não seja tão abundante quanto outros terpenos, sua presença pode influenciar as propriedades organolépticas e, potencialmente, os efeitos terapêuticos da planta. A pesquisa sobre os mecanismos de ação específicos do beta-Eudesmol é limitada, mas, como outros terpenos, ele pode interagir com o sistema endocanabinoide e outros alvos biológicos, modulando a atividade de canabinoides. Estudos preliminares em modelos in vitro e in vivo sugerem que o beta-Eudesmol pode possuir propriedades anti-inflamatórias, analgésicas e até mesmo antitumorais, embora a evidência seja ainda incipiente e exija validação em estudos clínicos. Não há dados de farmacologia ou toxicidade detalhados disponíveis no PubChem para este composto.",
+    "mechanisms": [
+      "Interação potencial com o sistema endocanabinoide (hipotético)",
+      "Modulação de receptores de dor (em investigação)",
+      "Atividade anti-inflamatória (em investigação)",
+      "Atividade antitumoral (em investigação)"
+    ],
+    "therapeutic_potential": "O beta-Eudesmol demonstra um potencial terapêutico promissor, com estudos iniciais sugerindo efeitos anti-inflamatórios, analgésicos e antitumorais. Sua presença na cannabis pode contribuir para o 'efeito entourage', otimizando os benefícios de outros compostos. Contudo, a pesquisa ainda está em estágios iniciais e são necessários mais estudos para confirmar e elucidar completamente esses efeitos.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e em óleos essenciais de outras plantas.",
+      "Fórmula molecular C15H26O, peso molecular 222.37.",
+      "Aroma amadeirado, floral ou picante.",
+      "Potencialmente contribui para o 'efeito entourage'.",
+      "Estudos preliminares indicam possíveis propriedades anti-inflamatórias, analgésicas e antitumorais.",
+      "XLogP de 3.7, indicando lipofilicidade moderada.",
+      "CID PubChem: 91457."
+    ]
+  },
+  {
+    "id": "gamma-eudesmol",
+    "name": "Gama-Eudesmol (gamma-Eudesmol)",
+    "type": "terpene",
+    "cid": 6432005,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "O gama-Eudesmol é um sesquiterpeno, um tipo de terpeno com 15 átomos de carbono, presente em diversas fontes botânicas, incluindo a planta Cannabis. Sua fórmula molecular é C15H26O e seu peso molecular é de 222.37. Este composto contribui para o perfil aromático e sabor de certas variedades de cannabis, embora sua presença seja geralmente em concentrações menores em comparação com outros terpenos mais abundantes. O gama-Eudesmol é conhecido por seu aroma amadeirado e terroso. A pesquisa sobre seus mecanismos de ação específicos na cannabis é limitada, mas, como outros terpenos, ele pode interagir com o sistema endocanabinoide e outros receptores, influenciando os efeitos gerais da planta. Estudos preliminares em outras fontes botânicas sugerem que o gama-Eudesmol pode possuir propriedades anti-inflamatórias, antioxidantes e antimicrobianas. No entanto, a evidência para esses efeitos é ainda incipiente e requer validação em estudos mais robustos, especialmente no contexto da cannabis. Não há dados de farmacologia ou toxicidade detalhados disponíveis no PubChem para este composto.",
+    "mechanisms": [
+      "Interação potencial com o sistema endocanabinoide (hipotético)",
+      "Atividade anti-inflamatória (em investigação)",
+      "Atividade antioxidante (em investigação)",
+      "Atividade antimicrobiana (em investigação)"
+    ],
+    "therapeutic_potential": "O gama-Eudesmol apresenta um potencial terapêutico a ser explorado, com indicações preliminares de propriedades anti-inflamatórias, antioxidantes e antimicrobianas. Sua contribuição para o 'efeito entourage' na cannabis pode modular os efeitos de outros compostos. No entanto, a pesquisa é limitada e são necessários estudos mais aprofundados para confirmar e caracterizar esses benefícios.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e em óleos essenciais de outras plantas.",
+      "Fórmula molecular C15H26O, peso molecular 222.37.",
+      "Aroma amadeirado e terroso.",
+      "Potencialmente contribui para o 'efeito entourage'.",
+      "Estudos preliminares sugerem propriedades anti-inflamatórias, antioxidantes e antimicrobianas.",
+      "XLogP de 3.4, indicando lipofilicidade moderada.",
+      "CID PubChem: 6432005."
+    ]
+  },
+  {
+    "id": "alpha-curcumene",
+    "name": "Alfa-Curcumeno (alpha-Curcumene)",
+    "type": "terpene",
+    "cid": 92139,
+    "molecular_formula": "C15H22",
+    "molecular_weight": "202.33",
+    "description": "O alfa-Curcumeno é um sesquiterpeno encontrado em diversas plantas, incluindo a Cannabis sativa, onde contribui para o perfil aromático e, potencialmente, para os efeitos terapêuticos. Este composto é conhecido por sua presença em óleos essenciais de cúrcuma (Curcuma longa), gengibre e mirra. Na cannabis, ele é um dos muitos terpenos que interagem sinergicamente com canabinoides e outros compostos, um fenômeno conhecido como 'efeito entourage'. Embora a pesquisa sobre o alfa-Curcumeno isolado na cannabis seja limitada, estudos em outras fontes vegetais sugerem propriedades anti-inflamatórias, antioxidantes e antimicrobianas. Sua natureza lipofílica (XLogP de 5.4) indica que ele pode interagir com membranas celulares, o que é consistente com sua classificação farmacológica como 'Membrana'. Mais estudos são necessários para elucidar completamente seu papel e potencial terapêutico específico no contexto da cannabis.",
+    "mechanisms": [
+      "Interação com membranas celulares (baseado em dados de farmacologia do PubChem)",
+      "Atividade antioxidante (evidência de outras fontes vegetais)",
+      "Atividade anti-inflamatória (evidência de outras fontes vegetais)",
+      "Atividade antimicrobiana (evidência de outras fontes vegetais)"
+    ],
+    "therapeutic_potential": "O alfa-Curcumeno demonstra potencial terapêutico como agente anti-inflamatório, antioxidante e antimicrobiano, embora a maioria das evidências venha de estudos com outras plantas. Seu papel específico e contribuição para os efeitos da cannabis requerem mais investigação.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis sativa, cúrcuma e gengibre.",
+      "Contribui para o aroma e sabor de diversas plantas.",
+      "XLogP de 5.4, indicando alta lipofilicidade e potencial interação com membranas celulares.",
+      "Estudos preliminares sugerem propriedades anti-inflamatórias, antioxidantes e antimicrobianas.",
+      "Parte do 'efeito entourage' na cannabis, interagindo com outros compostos.",
+      "CID PubChem: 92139."
+    ]
+  },
+  {
+    "id": "germacrene-b",
+    "name": "Germacreno B (Germacrene B)",
+    "type": "terpene",
+    "cid": 5281519,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O Germacreno B é um sesquiterpeno cíclico comum encontrado em uma variedade de plantas, incluindo a Cannabis sativa, onde contribui para o complexo perfil de terpenos. Este composto é conhecido por sua estrutura molecular única e por ser um precursor biossintético de outros sesquiterpenos. Embora sua presença na cannabis seja estabelecida, a pesquisa sobre seus efeitos farmacológicos específicos no contexto da planta ainda é incipiente. Em outras fontes vegetais, terpenos da família germacreno têm sido associados a propriedades repelentes de insetos e atividades antimicrobianas. Sua lipofilicidade (XLogP de 4.1) sugere que pode atravessar barreiras biológicas e interagir com sistemas celulares. Atualmente, não há dados farmacológicos ou toxicológicos específicos listados no PubChem para o Germacreno B que detalhem seus mecanismos de ação ou toxicidade em humanos. Portanto, qualquer alegação sobre seu potencial terapêutico na cannabis deve ser vista com cautela e requer validação por meio de estudos mais aprofundados.",
+    "mechanisms": [
+      "Potencial atividade repelente de insetos (evidência de outras fontes vegetais)",
+      "Potencial atividade antimicrobiana (evidência de outras fontes vegetais)"
+    ],
+    "therapeutic_potential": "O potencial terapêutico do Germacreno B na cannabis é atualmente desconhecido devido à falta de pesquisa específica. Com base em estudos de outras plantas, pode ter propriedades repelentes de insetos e antimicrobianas, mas isso precisa ser confirmado no contexto da cannabis.",
+    "key_points": [
+      "Sesquiterpeno cíclico presente na Cannabis sativa e em outras plantas.",
+      "XLogP de 4.1, indicando lipofilicidade moderada.",
+      "Pode atuar como precursor biossintético de outros sesquiterpenos.",
+      "Estudos em outras plantas sugerem propriedades repelentes de insetos e antimicrobianas.",
+      "Não há dados farmacológicos ou toxicológicos específicos listados no PubChem para este composto.",
+      "CID PubChem: 5281519."
+    ]
+  },
+  {
+    "id": "aromadendrene",
+    "name": "Aromadendreno (Aromadendrene)",
+    "type": "terpene",
+    "cid": 11095734,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "O Aromadendreno é um sesquiterpeno bicíclico que pode ser encontrado na Cannabis sativa, contribuindo para a complexidade do seu perfil terpênico. Este composto é caracterizado por sua estrutura química incomum, que inclui um anel ciclopropano. Embora seja um componente da cannabis, a pesquisa sobre os efeitos farmacológicos específicos do Aromadendreno isolado é limitada. Terpenos como o Aromadendreno são frequentemente estudados por suas contribuições para o aroma e sabor das plantas, bem como por suas potenciais interações com outros compostos vegetais no que é conhecido como 'efeito entourage'. Sua lipofilicidade (XLogP de 4.7) sugere que ele pode interagir com sistemas biológicos. No entanto, o PubChem não fornece dados farmacológicos ou toxicológicos detalhados para o Aromadendreno, o que significa que seu papel exato na farmacologia da cannabis e seu potencial terapêutico ainda não foram bem estabelecidos. Mais pesquisas são necessárias para compreender completamente suas propriedades e contribuições para os efeitos da planta.",
+    "mechanisms": [
+      "Interação com outros compostos no 'efeito entourage' (hipotético, baseado em outros terpenos)"
+    ],
+    "therapeutic_potential": "O potencial terapêutico do Aromadendreno na cannabis é atualmente desconhecido devido à escassez de pesquisa. Sua presença sugere uma contribuição para o perfil aromático e o 'efeito entourage', mas mais estudos são necessários para identificar quaisquer propriedades farmacológicas diretas.",
+    "key_points": [
+      "Sesquiterpeno bicíclico presente na Cannabis sativa.",
+      "Estrutura química incomum com um anel ciclopropano.",
+      "XLogP de 4.7, indicando lipofilicidade moderada.",
+      "Contribui para o aroma e sabor da cannabis.",
+      "Não há dados farmacológicos ou toxicológicos específicos listados no PubChem para este composto.",
+      "CID PubChem: 11095734."
+    ]
+  },
+  {
+    "id": "ledene",
+    "name": "Ledene (Viridiflorene)",
+    "type": "terpene",
+    "cid": 10910653,
+    "molecular_formula": "C15H24",
+    "molecular_weight": "204.35",
+    "description": "Ledene, tambem conhecido como Viridiflorene, e um sesquiterpeno encontrado em diversas plantas, incluindo a Cannabis. Sua estrutura quimica (C15H24) e caracterizada por um anel de cinco membros. Embora seja um componente da complexa quimica da cannabis, a pesquisa sobre seus efeitos farmacologicos especificos e limitada. Atualmente, nao ha dados extensivos sobre seus mecanismos de acao ou potencial terapeutico em estudos pre-clinicos ou clinicos. E um composto lipofilico, com um XLogP de 4, indicando boa permeabilidade em membranas. A presenca de Ledene na cannabis contribui para o perfil aromatico e o \"efeito entourage\", onde diferentes compostos da planta atuam sinergicamente. Mais estudos sao necessarios para elucidar completamente seu papel e beneficios. (CID: 10910653)",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapeutico do Ledene ainda e amplamente desconhecido devido a falta de pesquisa especifica. Sua contribuicao para o \"efeito entourage\" sugere um papel modulador, mas nao ha evidencias diretas de beneficios terapeuticos isolados.",
+    "key_points": [
+      "Sesquiterpeno encontrado na Cannabis e outras plantas.",
+      "Formula molecular C15H24, peso molecular 204.35 g/mol.",
+      "XLogP de 4, indicando lipofilicidade.",
+      "Contribuicao para o aroma da planta.",
+      "Pesquisa sobre seus efeitos farmacologicos e limitada."
+    ]
+  },
+  {
+    "id": "bulnesol",
+    "name": "Bulnesol",
+    "type": "terpene",
+    "cid": 90785,
+    "molecular_formula": "C15H26O",
+    "molecular_weight": "222.37",
+    "description": "Bulnesol e um sesquiterpeno alcoolico (C15H26O) presente em diversas fontes botanicas, incluindo a Cannabis. Com um peso molecular de 222.37 g/mol e um XLogP de 2.9, e um composto relativamente lipofilico. A pesquisa farmacologica indica que o Bulnesol pode interagir com o ambiente extracelular e membranas celulares, sugerindo um potencial para modular processos celulares. Embora nao haja estudos extensivos sobre seus efeitos especificos na cannabis, terpenos como o Bulnesol sao conhecidos por contribuir para o aroma e sabor caracteristicos da planta, alem de potencialmente influenciar o \"efeito entourage\". A compreensao de seus mecanismos de acao e potencial terapeutico ainda esta em estagio inicial e requer mais investigacao. (CID: 90785)",
+    "mechanisms": [
+      "Interacao com o ambiente extracelular",
+      "Interacao com membranas celulares"
+    ],
+    "therapeutic_potential": "O potencial terapeutico do Bulnesol e atualmente incerto e requer mais estudos. Sua capacidade de interagir com membranas e o ambiente extracelular pode indicar um papel em processos celulares, mas nao ha evidencias diretas de beneficios terapeuticos especificos para condicoes de saude.",
+    "key_points": [
+      "Sesquiterpeno alcoolico encontrado na Cannabis.",
+      "Formula molecular C15H26O, peso molecular 222.37 g/mol.",
+      "XLogP de 2.9, indicando lipofilicidade moderada.",
+      "Interage com o ambiente extracelular e membranas.",
+      "Contribuicao para o aroma da planta.",
+      "Potencial terapeutico ainda em investigacao."
+    ]
+  },
+  {
+    "id": "phytol",
+    "name": "Phytol",
+    "type": "terpene",
+    "cid": 5280435,
+    "molecular_formula": "C20H40O",
+    "molecular_weight": "296.5",
+    "description": "Phytol e um diterpeno alcoolico (C20H40O) de cadeia aberta, um componente essencial da clorofila e, portanto, amplamente distribuido em plantas verdes, incluindo a Cannabis. Com um peso molecular de 296.5 g/mol e um XLogP de 8.2, e um composto altamente lipofilico. O Phytol e conhecido por suas propriedades antioxidantes, anti-inflamatorias e ansioliticas em modelos pre-clinicos. Estudos sugerem que ele pode atuar em fibroblastos e possui atividade inibitoria contra certas enzimas. Sua presenca na cannabis contribui para o perfil terpenico geral e pode modular os efeitos de outros canabinoides e terpenos atraves do \"efeito entourage\". A pesquisa continua a explorar seu potencial terapeutico em diversas areas, incluindo cancer, inflamacao e doencas neurodegenerativas. (CID: 5280435)",
+    "mechanisms": [
+      "Atividade antioxidante",
+      "Atividade anti-inflamatoria",
+      "Atividade ansiolitica",
+      "Interacao com fibroblastos",
+      "Inibicao enzimatica"
+    ],
+    "therapeutic_potential": "O Phytol demonstra um promissor potencial terapeutico devido as suas propriedades antioxidantes, anti-inflamatorias e ansioliticas. Estudos pre-clinicos sugerem beneficios em condicoes como cancer, inflamacao e doencas neurodegenerativas, alem de seu papel no \"efeito entourage\" da cannabis.",
+    "key_points": [
+      "Diterpeno alcoolico de cadeia aberta, componente da clorofila.",
+      "Formula molecular C20H40O, peso molecular 296.5 g/mol.",
+      "XLogP de 8.2, indicando alta lipofilicidade.",
+      "Propriedades antioxidantes, anti-inflamatorias e ansioliticas.",
+      "Atua em fibroblastos e possui atividade inibitoria enzimática.",
+      "Potencial terapeutico em cancer, inflamacao e neurodegeneracao."
+    ]
+  },
+  {
+    "id": "friedelin",
+    "name": "Friedelin",
+    "type": "terpene",
+    "cid": 91472,
+    "molecular_formula": "C30H50O",
+    "molecular_weight": "426.7",
+    "description": "Friedelin e um triterpeno pentaciclico, um tipo de composto organico encontrado em diversas plantas, incluindo a Cannabis sativa. Embora nao seja exclusivo da cannabis, sua presenca contribui para o perfil fitoquimico complexo da planta. Sua estrutura quimica e caracterizada por um esqueleto de 30 atomos de carbono. A pesquisa sobre friedelin ainda e limitada, especialmente no contexto da cannabis, mas estudos pre-clinicos em outras fontes vegetais sugerem potenciais atividades biologicas. Nao ha dados farmacologicos especificos para friedelin derivados da cannabis no PubChem, e seu papel exato nos efeitos terapeuticos da planta ainda nao foi completamente elucidado. A maioria das informacoes disponiveis provém de estudos com extratos de outras plantas ricas em friedelin, indicando a necessidade de mais pesquisas direcionadas para entender seu impacto na farmacologia canabica. Atualmente, nao ha informacoes sobre toxicidade ou mecanismos de acao detalhados no contexto da cannabis.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapeutico do Friedelin na cannabis e atualmente desconhecido devido a falta de pesquisa especifica. Estudos em outras fontes vegetais sugerem possiveis propriedades anti-inflamatorias e antioxidantes, mas estas precisam ser confirmadas no contexto da cannabis.",
+    "key_points": [
+      "Triterpeno pentaciclico encontrado na Cannabis sativa e outras plantas.",
+      "Formula molecular C30H50O, peso molecular 426.7 g/mol.",
+      "XLogP de 9.8, indicando alta lipofilicidade.",
+      "Pesquisa limitada sobre seus efeitos especificos na cannabis.",
+      "Potenciais atividades biologicas sugeridas por estudos pre-clinicos em outras fontes."
+    ]
+  },
+  {
+    "id": "nootkatone",
+    "name": "Nootkatone",
+    "type": "terpene",
+    "cid": 1268142,
+    "molecular_formula": "C15H22O",
+    "molecular_weight": "218.33",
+    "description": "Nootkatone e um sesquiterpeno, um composto aromatico encontrado em diversas plantas, notavelmente na toranja (grapefruit) e, em menor grau, na Cannabis sativa. E o principal componente responsavel pelo aroma caracteristico da toranja. Embora sua presenca na cannabis nao seja tao proeminente quanto a de outros terpenos, ele contribui para a complexidade do perfil terpenico da planta. Nootkatone e amplamente utilizado na industria de alimentos e fragrancias. Alem disso, tem sido investigado como um potencial pesticida bio-baseado, mostrando eficacia contra insetos como mosquitos, carrapatos (incluindo Ixodes scapularis, vetor da doenca de Lyme), formigas e baratas. Os mecanismos de acao como pesticida envolvem a interferencia com o sistema nervoso dos insetos. No entanto, nao ha dados farmacologicos conhecidos ou mecanismos de acao especificos relacionados a efeitos terapeuticos em humanos derivados da cannabis. O PubChem nao reporta dados humanos de toxicidade, mas o composto e considerado seguro para uso alimentar em baixas concentracoes. A pesquisa sobre seu papel na farmacologia canabica e limitada, focando mais em seu uso como aromatizante e pesticida.",
+    "mechanisms": [
+      "Interferencia com o sistema nervoso de insetos (como pesticida)."
+    ],
+    "therapeutic_potential": "O potencial terapeutico do Nootkatone em humanos, especialmente no contexto da cannabis, e atualmente desconhecido. Sua principal aplicacao e como aromatizante e, mais recentemente, como um promissor pesticida natural. Nao ha evidencias de efeitos terapeuticos diretos em humanos a partir da cannabis.",
+    "key_points": [
+      "Sesquiterpeno responsavel pelo aroma da toranja, presente tambem na cannabis.",
+      "Formula molecular C15H22O, peso molecular 218.33 g/mol.",
+      "XLogP de 3.9.",
+      "Utilizado como aromatizante em alimentos e fragrancias.",
+      "Potencial pesticida bio-baseado contra mosquitos, carrapatos, formigas e baratas.",
+      "Nao ha dados humanos de toxicidade reportados no PubChem, mas e considerado seguro para uso alimentar."
+    ]
+  },
+  {
+    "id": "web-beta-cariofileno-o-terpeno-sesquiterpenico-que-atua-como-can",
+    "title": "Beta-cariofileno: o terpeno sesquiterpênico que atua como canabinoide alimentar",
+    "category": "farmacologia",
+    "area": "terpenes",
+    "content": "O beta-cariofileno (BCP) é um sesquiterpeno amplamente encontrado em Cannabis sativa, pimenta-do-reino, cravo, lúpulo e outras plantas aromáticas. Seu aroma é tipicamente picante, amadeirado, apimentado e levemente seco. O ponto de ebulição reportado para o beta-cariofileno fica em torno de 119–130 °C sob pressão reduzida, enquanto em condições atmosféricas costuma ser descrito na faixa aproximada de 260 °C, o que é relevante para formulações e vaporização. O estudo clássico de Gertsch et al. (PNAS, 2008) demonstrou que o BCP se liga seletivamente ao receptor canabinoide CB2, sem ativar CB1, o que explica a ausência de efeitos psicoativos típicos do THC.\n\nEsse trabalho posicionou o beta-cariofileno como um “canabinoide dietético”, com potencial anti-inflamatório, analgésico e imunomodulador. Em modelos experimentais, o BCP reduziu processos inflamatórios por mecanismo dependente de CB2, sugerindo utilidade em condições associadas à inflamação periférica e dor. Como o receptor CB2 está mais relacionado a células imunes e tecidos periféricos do que ao efeito psicoativo central, o BCP ganhou destaque como composto de interesse para estratégias terapêuticas e para o chamado efeito entourage em produtos de cannabis.\n\nDo ponto de vista fitoquímico, o BCP é um dos terpenos mais relevantes para perfis quimiotaxonômicos de cultivares com notas condimentadas. Sua presença pode modular a experiência subjetiva e o perfil farmacológico de extratos integrais, especialmente quando combinado a canabinoides e outros terpenos. Embora os dados pré-clínicos sejam robustos, a tradução clínica ainda depende de ensaios humanos bem controlados. Referência principal: Gertsch J. et al., 2008, Proc Natl Acad Sci U S A, 105(26):9099–9104, doi:10.1073/pnas.0803601105.",
+    "key_points": [
+      "Nome do terpeno: beta-cariofileno (β-caryophyllene)",
+      "Categoria temática: farmacologia",
+      "Classe química: sesquiterpeno",
+      "Aroma: picante, amadeirado, apimentado, seco",
+      "Ponto de ebulição: ~119–130 °C sob pressão reduzida; ~260 °C em pressão atmosférica",
+      "Não é psicoativo via CB1",
+      "Age como agonista seletivo de receptor CB2",
+      "Efeitos potenciais: anti-inflamatório, analgésico, imunomodulador",
+      "Presente também em cravo, pimenta-preta e lúpulo",
+      "Estudo-chave: Gertsch et al., PNAS, 2008",
+      "Importância para extratos full-spectrum e efeito entourage",
+      "Aplicação potencial em dor e inflamação periférica"
+    ],
+    "warnings": [
+      "A maior parte das evidências mecanísticas é pré-clínica, não substituindo ensaios clínicos em humanos.",
+      "Pode interagir com formulações complexas de cannabis, dificultando atribuição isolada de efeitos.",
+      "Uso terapêutico não deve substituir avaliação médica em doenças inflamatórias, dor crônica ou distúrbios imunes."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2449371/",
+    "source": "journal_bcp-dietary-cannabinoid-pmc"
+  },
+  {
+    "id": "web-beta-cariofileno-em-transtornos-emocionais-e-cognitivos-pote",
+    "title": "Beta-cariofileno em transtornos emocionais e cognitivos: potencial do agonismo seletivo em CB2",
+    "category": "farmacologia",
+    "area": "terpenes",
+    "content": "O beta-cariofileno (BCP) é um terpeno sesquiterpênico de aroma picante, amadeirado e condimentado, encontrado em cannabis e em diversas especiarias. Seu ponto de ebulição é geralmente citado em torno de 260 °C em pressão atmosférica, com valores menores quando medido sob vácuo. A revisão de Ricardi et al. (Int J Mol Sci, 2024) sintetiza evidências sobre o papel do BCP como agonista seletivo do receptor canabinoide CB2 em transtornos emocionais e cognitivos, incluindo ansiedade, depressão, alterações de memória e possíveis contextos neuroinflamatórios, como long-COVID.\n\nO racional farmacológico central é que a ativação de CB2 pode modular neuroinflamação, estresse oxidativo e sinalização imune, fatores frequentemente implicados em desordens psiquiátricas e cognitivas. A revisão destaca estudos pré-clínicos nos quais o BCP apresentou efeitos ansiolíticos, antidepressivos, neuroprotetores e pró-cognitivos, frequentemente associados à redução de citocinas inflamatórias, melhora da homeostase redox e modulação de vias como PPARs e sistemas monoaminérgicos, além do eixo endocanabinoide.\n\nNa cannabis, o BCP é particularmente relevante por oferecer uma ponte entre terpenos e farmacologia canabinoide, reforçando a hipótese de sinergia entre compostos da planta. Em formulações integrais, pode contribuir para perfis mais “calmantes” ou anti-inflamatórios, embora isso dependa da matriz química completa e da dose. A revisão de 2024 ressalta que, apesar do grande potencial translacional, ainda faltam estudos clínicos robustos para definir dose, biodisponibilidade, segurança de longo prazo e eficácia em populações humanas com transtornos psiquiátricos ou cognitivos. Referência principal: Ricardi C. et al., 2024, Int J Mol Sci, 25(6):3203, doi:10.3390/ijms25063203.",
+    "key_points": [
+      "Nome do terpeno: beta-cariofileno",
+      "Categoria temática: farmacologia",
+      "Aroma: picante, amadeirado, condimentado",
+      "Ponto de ebulição: ~260 °C em pressão atmosférica",
+      "Alvo principal: receptor canabinoide CB2",
+      "Sem perfil psicoativo típico de agonistas CB1",
+      "Efeitos potenciais: ansiolítico, antidepressivo, neuroprotetor, pró-cognitivo",
+      "Mecanismos sugeridos: modulação de neuroinflamação e estresse oxidativo",
+      "Possível relevância em long-COVID e disfunção neuropsiquiátrica",
+      "Importância para produtos de cannabis de espectro completo",
+      "Base atual predominantemente pré-clínica e de revisão",
+      "Estudo referenciado: Ricardi et al., IJMS, 2024"
+    ],
+    "warnings": [
+      "Não há evidência clínica suficiente para recomendar beta-cariofileno como tratamento isolado de depressão, ansiedade ou déficit cognitivo.",
+      "Transtornos psiquiátricos exigem acompanhamento profissional; automedicação pode atrasar diagnóstico e tratamento.",
+      "A resposta pode variar conforme dose, via de administração e composição total do extrato de cannabis."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10970213/",
+    "source": "journal_bcp-emotional-cognitive-pmc"
+  },
+  {
+    "id": "web-terpenos-da-cannabis-biossintese-perfis-aromaticos-ebulicao-",
+    "title": "Terpenos da cannabis: biossíntese, perfis aromáticos, ebulição e relevância farmacológica",
+    "category": "biossintese",
+    "area": "terpenes",
+    "content": "Os terpenos da cannabis constituem uma fração essencial do perfil químico da planta, influenciando aroma, volatilidade, defesa vegetal e, possivelmente, a modulação dos efeitos dos canabinoides. A revisão de Sommano et al. (Molecules, 2020) descreve a origem biossintética desses compostos a partir das vias do mevalonato (MVA) e do metileritritol fosfato (MEP), que geram os precursores isopentenil difosfato e dimetilalil difosfato. A partir deles, a planta sintetiza monoterpenos e sesquiterpenos por ação de terpene synthases, especialmente nos tricomas glandulares.\n\nEntre os terpenos mais relevantes estão mirceno, limoneno, alfa-pineno, linalol, terpinoleno, humuleno e beta-cariofileno. Seus aromas variam de terroso e herbal a cítrico, floral, pináceo e apimentado. Exemplos úteis: mirceno apresenta aroma terroso e almiscarado, com ponto de ebulição em torno de 166–168 °C; limoneno é cítrico, cerca de 176 °C; alfa-pineno é pináceo, cerca de 155–156 °C; linalol é floral, cerca de 198 °C; beta-cariofileno é picante/amadeirado, cerca de 260 °C em pressão atmosférica. Esses valores ajudam a entender perdas por calor, secagem, cura e vaporização.\n\nA revisão também discute a hipótese de sinergia entre terpenos e canabinoides, embora destaque que muitas alegações ainda carecem de validação clínica robusta. Do ponto de vista farmacológico, diferentes terpenos apresentam atividades relatadas como anti-inflamatórias, ansiolíticas, broncodilatadoras, sedativas ou analgésicas, mas a intensidade e relevância clínica dependem de dose, biodisponibilidade e contexto de uso. Referência principal: Sommano S.R. et al., 2020, Molecules, 25(24):5792, doi:10.3390/molecules25245792.",
+    "key_points": [
+      "Categoria temática: biossíntese",
+      "Terpenos são produzidos principalmente nos tricomas glandulares",
+      "Vias biossintéticas centrais: MVA e MEP",
+      "Precursores: IPP e DMAPP",
+      "Monoterpenos e sesquiterpenos definem grande parte do aroma da cannabis",
+      "Mirceno: terroso/almiscarado, ebulição ~166–168 °C",
+      "Limoneno: cítrico, ebulição ~176 °C",
+      "Alfa-pineno: pinho, ebulição ~155–156 °C",
+      "Linalol: floral, ebulição ~198 °C",
+      "Beta-cariofileno: picante/amadeirado, ebulição ~260 °C",
+      "Terpenos influenciam volatilidade, defesa vegetal e perfil sensorial",
+      "A hipótese de efeito entourage é promissora, mas ainda incompletamente validada",
+      "Estudo referenciado: Sommano et al., Molecules, 2020"
+    ],
+    "warnings": [
+      "Pontos de ebulição podem variar conforme método analítico, pureza e pressão utilizada.",
+      "Aroma e efeito percebido não permitem prever com precisão a resposta clínica.",
+      "Aquecimento excessivo pode degradar terpenos e gerar subprodutos indesejáveis."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7763918/",
+    "source": "journal_cannabis-terpenes-review-pmc"
+  },
+  {
+    "id": "web-efeito-entourage-em-produtos-medicinais-de-cannabis-revisao-",
+    "title": "Efeito entourage em produtos medicinais de cannabis: revisão crítica e implicações farmacológicas",
+    "category": "entourage",
+    "area": "terpenes",
+    "content": "Esta revisão abrangente de 2024 analisa o chamado efeito entourage em produtos medicinais de cannabis, isto é, a hipótese de que canabinoides, terpenos e outros fitocompostos atuem em conjunto para produzir efeitos terapêuticos diferentes ou superiores aos de compostos isolados. Do ponto de vista fitoquímico, o artigo reforça que a discussão não deve ser reduzida a marketing: há plausibilidade biológica para interações farmacodinâmicas e farmacocinéticas, mas a robustez clínica ainda é desigual.\n\nEntre os terpenos mais discutidos no contexto da cannabis estão o β-mirceno, limoneno, α-pineno, linalol e β-cariofileno. O β-mirceno apresenta aroma terroso, herbal e almiscarado, com ponto de ebulição em torno de 166–168 °C; é frequentemente associado a relaxamento, modulação da dor e possível contribuição sedativa. O limoneno tem aroma cítrico e ponto de ebulição ~176 °C, sendo relacionado a melhora de humor e potencial ansiolítico. O α-pineno, de aroma resinoso/pinheiro e ebulição ~155–156 °C, é investigado por efeitos broncodilatadores e possível modulação de atenção/memória. O linalol, floral/lavanda, ebulição ~198 °C, é associado a efeitos calmantes. Já o β-cariofileno, picante/amadeirado, ebulição ~119–130 °C sob pressão reduzida e frequentemente reportado acima de 250 °C em condições atmosféricas, destaca-se por interagir com CB2 e por potencial anti-inflamatório.\n\nA revisão aponta que a sinergia pode ocorrer em múltiplos níveis: modulação de receptores canabinoides, TRP, GABAérgicos, serotoninérgicos, permeabilidade biológica, metabolismo hepático e tolerabilidade global. No entanto, os autores também observam limitações metodológicas importantes: variabilidade de quimiovares, extratos mal padronizados, doses inconsistentes e poucos ensaios clínicos comparando formulações full-spectrum versus isolados em condições controladas.\n\nEm síntese, o artigo sustenta que o efeito entourage permanece uma hipótese farmacológica relevante e parcialmente suportada por dados pré-clínicos e observacionais, mas ainda carece de confirmação clínica de alta qualidade. Estudos referenciados: André et al., 2024 (Pharmaceuticals); literatura pré-clínica e clínica sobre combinações THC/CBD/terpenos revisada pelos autores.",
+    "key_points": [
+      "O efeito entourage descreve possíveis interações entre canabinoides, terpenos e outros constituintes da cannabis.",
+      "A plausibilidade farmacológica existe, mas a evidência clínica ainda é heterogênea.",
+      "β-mirceno: aroma terroso/herbal; ebulição ~166–168 °C; associado a relaxamento e analgesia.",
+      "Limoneno: aroma cítrico; ebulição ~176 °C; relacionado a humor e ansiedade.",
+      "α-pineno: aroma de pinho; ebulição ~155–156 °C; investigado por atenção e broncodilatação.",
+      "Linalol: aroma floral; ebulição ~198 °C; potencial calmante e ansiolítico.",
+      "β-cariofileno: aroma picante/amadeirado; potencial ação anti-inflamatória via CB2.",
+      "A sinergia pode ser farmacodinâmica, farmacocinética ou sensorial.",
+      "Extratos full-spectrum precisam de padronização química rigorosa.",
+      "Comparações entre isolados e extratos completos ainda são insuficientes.",
+      "Resultados terapêuticos podem variar conforme quimiovar, dose e via de administração.",
+      "A revisão defende mais ensaios clínicos controlados e melhor caracterização fitoquímica."
+    ],
+    "warnings": [
+      "O efeito entourage não deve ser presumido como comprovado para todas as formulações.",
+      "Terpenos podem oxidar, degradar ou mudar de perfil durante armazenamento e aquecimento.",
+      "Produtos full-spectrum variam muito em composição; extrapolações entre marcas são arriscadas.",
+      "Interações medicamentosas com canabinoides e terpenos podem ocorrer, especialmente via metabolismo hepático."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870048/",
+    "source": "journal_entourage-comprehensive-2024"
+  },
+  {
+    "id": "web-decodificando-o-efeito-entourage-na-cannabis-medicinal-o-que",
+    "title": "Decodificando o efeito entourage na cannabis medicinal: o que é, o que não é e onde faltam evidências",
+    "category": "farmacologia",
+    "area": "terpenes",
+    "content": "Esta revisão de escopo de 2023 examina criticamente o uso do termo “efeito entourage” na cannabis medicinal e procura separar hipótese farmacológica legítima de generalizações excessivas. Os autores lembram que o termo surgiu originalmente em contexto endocanabinoide, descrevendo metabólitos inativos que potencializavam um mediador bioativo. Posteriormente, passou a ser usado de forma ampla para sugerir que produtos full-spectrum de Cannabis sativa seriam sempre superiores a moléculas isoladas, algo que ainda não foi demonstrado de modo consistente.\n\nDo ponto de vista dos terpenos, o artigo é importante porque alerta contra inferências simplistas. Terpenos como β-mirceno, limoneno, linalol, α-pineno e β-cariofileno possuem atividades biológicas próprias, mas isso não significa automaticamente sinergia clínica relevante em todas as doses presentes em produtos medicinais. O β-mirceno tem aroma terroso/frutado e ponto de ebulição ~166–168 °C; é frequentemente citado por potenciais efeitos sedativos e analgésicos. O limoneno, cítrico, ~176 °C, é associado a modulação de humor. O linalol, floral, ~198 °C, é estudado por efeitos calmantes. O α-pineno, pinho, ~155–156 °C, pode influenciar vias colinérgicas e respiratórias. O β-cariofileno, picante/amadeirado, é particularmente relevante por sua afinidade funcional com CB2.\n\nA revisão conclui que a literatura disponível ainda é inicial, com muitos estudos pré-clínicos simplificados, modelos pouco translacionais e ensaios clínicos escassos. Em vários casos, diferenças entre extratos integrais e compostos isolados podem decorrer de dose, biodisponibilidade, formulação ou perfil de impurezas, e não necessariamente de um verdadeiro efeito entourage. Assim, o conceito não deve ser descartado, mas precisa ser usado com precisão.\n\nEstudos referenciados: Christensen et al., 2023 (Biomedicines), além de trabalhos pré-clínicos e clínicos revisados sobre combinações de canabinoides e terpenos. A principal mensagem é metodológica: sem padronização química e desenho experimental robusto, “entourage” permanece mais hipótese do que conclusão.",
+    "key_points": [
+      "O artigo diferencia o conceito original de entourage do uso comercial ampliado do termo.",
+      "Nem todo produto full-spectrum é automaticamente superior a um isolado.",
+      "Terpenos têm bioatividade própria, mas isso não prova sinergia clínica.",
+      "β-mirceno: terroso/frutado; ~166–168 °C; possível sedação/analgesia.",
+      "Limoneno: cítrico; ~176 °C; potencial modulação de humor.",
+      "Linalol: floral; ~198 °C; associado a relaxamento.",
+      "α-pineno: pinho; ~155–156 °C; investigado por atenção e vias respiratórias.",
+      "β-cariofileno pode atuar funcionalmente em CB2.",
+      "Muitos estudos existentes usam metodologias simplificadas e pouco translacionais.",
+      "Diferenças observadas podem refletir formulação, dose ou biodisponibilidade.",
+      "O termo entourage deve ser usado com rigor farmacológico.",
+      "A revisão pede ensaios clínicos comparativos melhor desenhados."
+    ],
+    "warnings": [
+      "Evite interpretar alegações de sinergia como fato estabelecido sem dados clínicos adequados.",
+      "Perfis terpênicos variam entre lotes e podem comprometer reprodutibilidade terapêutica.",
+      "A presença de um terpeno não garante efeito perceptível na concentração usada.",
+      "Marketing de full-spectrum frequentemente excede o nível real de evidência científica."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10452568/",
+    "source": "journal_entourage-decoding-2023"
+  },
+  {
+    "id": "web-mirceno-perfil-individual-aroma-ponto-de-ebulicao-e-potencia",
+    "title": "β-Mirceno: perfil individual, aroma, ponto de ebulição e potenciais benefícios à saúde",
+    "category": "perfil-individual",
+    "area": "terpenes",
+    "content": "O β-mirceno é um monoterpeno amplamente distribuído em plantas aromáticas, incluindo lúpulo, manga, capim-limão, tomilho e cannabis. Na cannabis, é um dos terpenos mais abundantes em diversos quimiovares e tem grande relevância sensorial e farmacológica. Seu aroma é tipicamente terroso, herbal, almiscarado, com nuances balsâmicas e frutadas. O ponto de ebulição é geralmente reportado em torno de 166–168 °C, dado importante para formulações inaláveis e vaporização controlada.\n\nA revisão de 2021 destaca que o β-mirceno é usado como agente aromatizante e flavorizante, mas também apresenta um conjunto de atividades biológicas promissoras. Entre os efeitos mais estudados estão propriedades anti-inflamatórias, antioxidantes, analgésicas, sedativas/relaxantes, antimicrobianas e potencial quimiopreventivo em modelos experimentais. Em contexto canábico, o mirceno é frequentemente associado ao relaxamento corporal e à modulação do desconforto, embora muitos desses efeitos ainda dependam de confirmação clínica em humanos.\n\nDo ponto de vista mecanístico, o β-mirceno pode influenciar mediadores inflamatórios, estresse oxidativo e vias relacionadas à nocicepção. Há também interesse em seu papel em formulações multicomponentes, nas quais poderia contribuir para perfis subjetivos de sedação ou conforto. Contudo, a revisão ressalta que grande parte da evidência vem de estudos in vitro e em animais, com escassez de ensaios clínicos robustos.\n\nPara a cannabis medicinal, o β-mirceno é um marcador relevante de quimioperfil. Em extratos e flores, sua concentração pode afetar aroma, estabilidade e experiência farmacossensorial. Em vaporização, temperaturas excessivas podem degradar terpenos e gerar subprodutos indesejáveis, o que reforça a importância de controle térmico.\n\nEstudos referenciados: Surendran et al., 2021 (Frontiers in Nutrition), revisão dedicada ao β-mirceno e seus potenciais benefícios à saúde; o artigo compila evidências pré-clínicas sobre inflamação, dor, oxidação e outras aplicações biológicas.",
+    "key_points": [
+      "Nome do terpeno: β-mirceno.",
+      "Categoria química: monoterpeno.",
+      "Aroma: terroso, herbal, almiscarado, balsâmico e levemente frutado.",
+      "Ponto de ebulição: ~166–168 °C.",
+      "É um dos terpenos mais abundantes em muitos perfis de cannabis.",
+      "Também ocorre em lúpulo, manga, capim-limão e outras plantas.",
+      "Potenciais efeitos: anti-inflamatório, analgésico, antioxidante e relaxante.",
+      "Frequentemente associado a sensação corporal mais sedativa em quimiovares ricos em mirceno.",
+      "A maior parte das evidências ainda é pré-clínica.",
+      "Tem relevância para aroma, formulação e vaporização.",
+      "Pode participar de interações multicomponentes com canabinoides e outros terpenos.",
+      "Controle de temperatura é importante para preservar o perfil terpênico."
+    ],
+    "warnings": [
+      "Os benefícios do β-mirceno em humanos ainda não estão plenamente confirmados por ensaios clínicos.",
+      "Aquecimento excessivo pode degradar terpenos e alterar segurança/toxicologia do aerossol.",
+      "Efeitos sedativos podem ser indesejáveis em algumas pessoas ou contextos de uso.",
+      "Perfis ricos em mirceno não substituem avaliação clínica individualizada, especialmente em pacientes polimedicados."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8326332/",
+    "source": "journal_myrcene-health-benefits-pmc"
+  },
+  {
+    "id": "web-pineno-e-linalol-na-saude-cerebral-potencial-terapeutico-ale",
+    "title": "Pineno e linalol na saúde cerebral: potencial terapêutico além dos canabinoides",
+    "category": "farmacologia",
+    "area": "terpenes",
+    "content": "Esta revisão de Weston-Green et al. (2021) analisa o potencial de dois terpenos relevantes da cannabis para a saúde do cérebro: α/β-pineno e linalol. O pineno apresenta aroma resinoso, de pinho e ervas frescas; seu ponto de ebulição varia conforme o isômero, com α-pineno em torno de 155–156°C e β-pineno em torno de 164–166°C. O linalol tem aroma floral, lavanda e cítrico suave, com ponto de ebulição aproximado de 198°C. A revisão destaca que ambos possuem atividades farmacológicas independentes dos canabinoides, com interesse especial em neuroinflamação, ansiedade, humor, cognição e neurodegeneração.\n\nO pineno foi associado em estudos pré-clínicos a efeitos anti-inflamatórios, antioxidantes, ansiolíticos e possivelmente promotores de atenção. Há discussão sobre seu potencial de modular neurotransmissão e reduzir processos inflamatórios ligados a doenças neuropsiquiátricas. Já o linalol apresenta evidências mais robustas em modelos animais para efeitos ansiolíticos, sedativos, anticonvulsivantes, analgésicos e neuroprotetores. A revisão sugere que o linalol pode influenciar sistemas glutamatérgicos, GABAérgicos e inflamatórios, o que ajuda a explicar seu interesse em epilepsia, ansiedade e doenças neurodegenerativas.\n\nOs autores enquadram esses terpenos dentro da hipótese de sinergia da cannabis, mas enfatizam que a maior parte das evidências ainda vem de estudos in vitro e em animais, com escassez de ensaios clínicos humanos de alta qualidade. Assim, pineno e linalol devem ser vistos como candidatos promissores a fármacos terpênicos ou adjuvantes, e não como terapias já validadas. Em formulações de cannabis medicinal, o perfil terpênico pode influenciar tolerabilidade, experiência subjetiva e possivelmente alguns desfechos clínicos, mas a padronização química continua sendo essencial para traduzir esses achados à prática.",
+    "key_points": [
+      "Terpenos centrais da revisão: pineno e linalol.",
+      "Pineno: aroma de pinho/resina; ebulição ~155–166°C conforme o isômero.",
+      "Linalol: aroma floral/lavanda; ebulição ~198°C.",
+      "Pineno mostrou potencial anti-inflamatório, antioxidante e ansiolítico em estudos pré-clínicos.",
+      "Linalol apresentou efeitos ansiolíticos, sedativos, anticonvulsivantes e neuroprotetores em modelos animais.",
+      "Ambos podem ter relevância em neuroinflamação e doenças neurodegenerativas.",
+      "A revisão discute possível papel em cognição, humor e saúde cerebral.",
+      "A maior parte da evidência ainda não é clínica, mas pré-clínica.",
+      "Os autores defendem mais ensaios clínicos controlados em humanos.",
+      "O perfil terpênico pode complementar a ação dos canabinoides em produtos medicinais.",
+      "Estudo referenciado: Weston-Green K, Clunas H, Jimenez Naranjo C. Front Psychiatry. 2021;12:583211. doi:10.3389/fpsyt.2021.583211"
+    ],
+    "warnings": [
+      "Evidência clínica humana ainda limitada; não extrapolar resultados pré-clínicos diretamente para tratamento.",
+      "Terpenos isolados ou em altas doses podem causar irritação, sedação ou interações farmacológicas.",
+      "Uso em transtornos neurológicos ou psiquiátricos deve ocorrer com supervisão profissional."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8426550/",
+    "source": "journal_pinene-linalool-brain-pmc"
+  },
+  {
+    "id": "web-produtos-padronizados-de-cannabis-efeitos-clinicos-seguranca",
+    "title": "Produtos padronizados de cannabis: efeitos clínicos, segurança e papel indireto do perfil químico",
+    "category": "entourage",
+    "area": "terpenes",
+    "content": "A revisão sistemática de Leen et al. (2024) sintetiza os efeitos de produtos padronizados de cannabis medicinal, com foco principal em formulações com teores consistentes de THC e CBD. Embora o artigo não seja centrado em terpenos individuais, ele é altamente relevante para o conceito de entourage, pois reforça que a composição química total do produto — incluindo proporção CBD:THC e, por extensão, outros constituintes como terpenos — pode influenciar eficácia, tolerabilidade e experiência subjetiva.\n\nNos voluntários saudáveis, a administração de cannabis produziu efeitos agudos dose-dependentes: aumento rápido das concentrações sanguíneas de THC e CBD, sensação subjetiva de “high”, ansiedade, lentificação do tempo de reação e prejuízo de atenção, aprendizagem e memória de trabalho. Em pacientes, os estudos sugeriram redução da intensidade da dor em diferentes condições de dor crônica, com perfil de segurança geralmente leve, marcado por efeitos transitórios como tosse, confusão mental e sensação de intoxicação.\n\nDo ponto de vista fitoquímico, a principal contribuição desta revisão é mostrar que a padronização é indispensável para interpretar resultados clínicos. Isso abre espaço para futuras investigações mais refinadas sobre sinergia entre canabinoides e terpenos. Embora o artigo não detalhe terpenos específicos como mirceno, pineno, limoneno ou linalol, ele sustenta a ideia de que diferenças de composição entre produtos podem alterar desfechos clínicos e taxas de abandono. Em outras palavras, antes de testar formalmente o efeito entourage, é preciso garantir consistência entre lotes e formulações.\n\nAssim, a revisão apoia uma visão farmacológica moderna da cannabis medicinal: não basta saber que há THC e CBD; é necessário caracterizar o produto de forma ampla, incluindo composição botânica e química, para relacionar dose, resposta e segurança com maior precisão.",
+    "key_points": [
+      "Revisão focada em produtos padronizados de cannabis medicinal.",
+      "Tema central: consistência de THC e CBD entre lotes e formulações.",
+      "Efeitos agudos em saudáveis foram dose-dependentes.",
+      "Foram observados high, ansiedade e prejuízo cognitivo agudo.",
+      "Em pacientes, houve redução de dor em várias condições crônicas.",
+      "Perfil de segurança foi geralmente leve, com efeitos transitórios.",
+      "A proporção CBD:THC influenciou efeitos e tolerabilidade.",
+      "O artigo é relevante para entourage por defender caracterização química rigorosa.",
+      "Não descreve terpenos individuais nem pontos de ebulição específicos.",
+      "Sugere que composição do produto e histórico de uso modulam resposta clínica.",
+      "Estudo referenciado: Leen NA, Kowal MA, Batalla A, Bossong MG. Front Pharmacol. 2024;15:1411631. doi:10.3389/fphar.2024.1411631"
+    ],
+    "warnings": [
+      "Produtos com THC podem causar ansiedade, lentificação psicomotora e prejuízo de memória de trabalho.",
+      "Risco funcional aumentado para dirigir, operar máquinas ou realizar tarefas complexas após uso.",
+      "Pacientes sensíveis a THC, iniciantes e pessoas com histórico psiquiátrico exigem cautela adicional."
+    ],
+    "source_url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1411631/full",
+    "source": "journal_terpene-entourage-drexel"
+  },
+  {
+    "id": "web-terpenos-e-terpenoides-na-cannabis-importancia-quimica-perfi",
+    "title": "Terpenos e terpenoides na cannabis: importância química, perfis individuais e possível sinergia",
+    "category": "perfil-individual",
+    "area": "terpenes",
+    "content": "O artigo de Hanuš e Hod (2020) revisa a relevância dos terpenos e terpenoides na cannabis, destacando que a planta contém muito mais do que canabinoides. Os autores discutem a diversidade química observada por cromatografia gasosa/espectrometria de massas e reforçam que diferentes quimiotipos apresentam perfis terpênicos distintos, o que pode alterar aroma, propriedades organolépticas e possivelmente efeitos biológicos. Entre os terpenos mais recorrentes na cannabis estão mirceno, limoneno, α-pineno, β-pineno, linalol, β-cariofileno, humuleno e terpinoleno.\n\nPerfis individuais importantes incluem: α-pineno, com aroma de pinho e ebulição ~155–156°C; limoneno, aroma cítrico e ebulição ~176°C; mirceno, aroma terroso/herbal e ebulição ~166–168°C; linalol, aroma floral/lavanda e ebulição ~198°C; β-cariofileno, aroma picante/amadeirado e ebulição ~119–130°C sob pressão reduzida, frequentemente reportado em torno de ~260°C à pressão atmosférica. Em termos de efeitos, a literatura compilada associa mirceno a relaxamento e analgesia; limoneno a elevação de humor e ação ansiolítica potencial; pineno a alerta e ação anti-inflamatória; linalol a sedação e ansiólise; β-cariofileno a atividade anti-inflamatória e interação com CB2.\n\nO artigo é importante por contextualizar a hipótese de sinergia/entourage, mas mantém tom cauteloso: a presença de um terpeno não garante um efeito clínico específico, pois concentração, via de administração, estabilidade térmica e interação com canabinoides importam muito. Os autores também ressaltam a necessidade de padronização e nomenclatura correta por quimiotipo, em vez de depender apenas de nomes comerciais de “strains”.\n\nComo documento de referência, esta revisão ajuda a entender por que o perfil terpênico é relevante para pesquisa, desenvolvimento de extratos e interpretação farmacológica da cannabis medicinal.",
+    "key_points": [
+      "A cannabis contém ampla diversidade de terpenos e terpenoides além dos canabinoides.",
+      "Perfis terpênicos variam entre quimiotipos e influenciam aroma e possivelmente efeitos.",
+      "α-Pineno: pinho; ~155–156°C; associado a alerta e ação anti-inflamatória.",
+      "Limoneno: cítrico; ~176°C; associado a humor e ansiólise potencial.",
+      "Mirceno: terroso/herbal; ~166–168°C; associado a relaxamento e analgesia.",
+      "Linalol: floral/lavanda; ~198°C; associado a sedação e ansiólise.",
+      "β-Cariofileno: picante/amadeirado; interação relevante com CB2 e ação anti-inflamatória.",
+      "A revisão enfatiza análise por GC-MS para caracterização química.",
+      "Nomes comerciais de strains não substituem quimiotipos bem definidos.",
+      "A hipótese entourage é plausível, mas ainda requer validação clínica robusta.",
+      "Estudo referenciado: Hanuš LO, Hod Y. Med Cannabis Cannabinoids. 2020;3(1):25-60. doi:10.1159/000509733"
+    ],
+    "warnings": [
+      "Perfis aromáticos não devem ser usados isoladamente para prever efeito terapêutico.",
+      "Aquecimento, armazenamento e oxidação podem alterar o conteúdo terpênico.",
+      "Falta de padronização entre produtos limita comparações clínicas e farmacológicas."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8489319/",
+    "source": "journal_terpenes-important-pmc"
+  },
+  {
+    "id": "web-identificacao-e-analise-de-expressao-da-familia-genica-tps-e",
+    "title": "Identificação e análise de expressão da família gênica TPS em Cannabis sativa",
+    "category": "biossintese",
+    "area": "terpenes",
+    "content": "Este estudo de 2024 publicado na Heliyon investigou a família de genes TPS (terpene synthase) em Cannabis sativa, enzimas centrais na biossíntese de terpenos. Em vez de focar em um único terpeno, o artigo mapeia o conjunto de genes responsáveis pela formação de monoterpenos e sesquiterpenos que compõem o aroma e parte da atividade biológica da planta. Entre os terpenos mais associados à atividade dessas enzimas em cannabis estão mirceno (aroma terroso/herbal; ponto de ebulição ~166–168 °C), limoneno (cítrico; ~176 °C), α-pineno (pinho; ~155–156 °C), β-cariofileno (picante/amadeirado; ~119–130 °C a vácuo, frequentemente reportado ~262 °C a 1 atm com decomposição) e linalol (floral; ~198 °C). Esses compostos são frequentemente relacionados a efeitos sensoriais e farmacológicos como relaxamento, alerta, modulação inflamatória e possível contribuição ao chamado efeito entourage.\n\nOs autores utilizaram ferramentas de bioinformática para identificar genes TPS no genoma de C. sativa e avaliar padrões de expressão. A análise sugere expansão e diversificação funcional dessa família gênica, o que ajuda a explicar por que diferentes cultivares exibem perfis terpênicos distintos. O trabalho também indica que a expressão dos genes TPS varia entre tecidos e condições fisiológicas, reforçando que o perfil aromático final depende não apenas da genética, mas também do estágio de desenvolvimento e do ambiente.\n\nDo ponto de vista fitoquímico, o estudo é relevante porque conecta genótipo e quimiotipo: genes TPS mais expressos tendem a direcionar o fluxo metabólico para determinados esqueletos terpênicos. Isso tem aplicação em melhoramento genético, padronização medicinal e seleção de variedades com perfis aromáticos específicos. Embora o artigo não seja um ensaio clínico e não determine efeitos terapêuticos diretos em humanos, ele oferece base molecular importante para compreender como a cannabis produz terpenos de interesse farmacológico e sensorial.\n\nEstudo referenciado: Xu J, Kong L, Ren W, Wang Z, Tang L, Wu W, Liu X, Ma W, Zhang S. Identification and expression analysis of TPS family gene in Cannabis sativa L. Heliyon. 2024;10(6):e27817. doi:10.1016/j.heliyon.2024.e27817.",
+    "key_points": [
+      "Categoria temática: biossíntese",
+      "O artigo analisa a família gênica TPS, responsável pela síntese de terpenos em Cannabis sativa",
+      "TPSs influenciam aroma, defesa vegetal, desenvolvimento e resposta a estresses",
+      "O estudo usa bioinformática para identificar genes TPS no genoma da cannabis",
+      "A expressão diferencial dos genes ajuda a explicar variações entre cultivares",
+      "O trabalho conecta genética da planta ao perfil químico final dos terpenos",
+      "Terpenos associados à atividade TPS incluem mirceno, limoneno, pineno, linalol e cariofileno",
+      "Mirceno: aroma terroso/herbal; ebulição ~166–168 °C; associado a relaxamento",
+      "Limoneno: aroma cítrico; ebulição ~176 °C; associado a elevação de humor e alerta",
+      "α-Pineno: aroma de pinho; ebulição ~155–156 °C; associado a frescor e possível suporte cognitivo",
+      "Linalol: aroma floral; ebulição ~198 °C; associado a relaxamento",
+      "β-Cariofileno: aroma picante/amadeirado; sesquiterpeno de interesse farmacológico",
+      "O estudo é útil para melhoramento genético e padronização de quimiotipos",
+      "Não avalia diretamente eficácia clínica em humanos",
+      "Fornece base molecular para estudos de sinergia e efeito entourage"
+    ],
+    "warnings": [
+      "O artigo é genômico/bioinformático e não comprova efeitos terapêuticos em humanos",
+      "Perfis terpênicos variam com genética, cultivo, secagem, cura e armazenamento",
+      "Pontos de ebulição de alguns sesquiterpenos podem variar conforme método e pressão reportados",
+      "Não extrapolar expressão gênica diretamente para efeito farmacológico sem validação química e biológica"
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10966592/",
+    "source": "journal_tps-family-cannabis-pmc"
   }
 ]

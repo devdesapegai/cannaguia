@@ -1,0 +1,315 @@
+[
+  {
+    "id": "cannflavin-a",
+    "name": "Cannflavin A",
+    "type": "flavonoid",
+    "cid": 14159104,
+    "molecular_formula": "C17H27N3O5Si",
+    "molecular_weight": "381.5",
+    "description": "Cannflavin A e um flavonoide prenylado encontrado exclusivamente na planta Cannabis sativa. Flavonoides sao uma classe de metabolitos secundarios de plantas conhecidos por suas diversas propriedades biologicas, incluindo atividades antioxidantes e anti-inflamatorias. Cannflavin A, juntamente com Cannflavin B e C, tem sido objeto de interesse devido ao seu potencial anti-inflamatorio. Estudos pre-clinicos sugerem que o Cannflavin A pode inibir a producao de prostaglandina E2 (PGE2), um mediador lipidico chave na inflamacao, em concentracoes muito baixas, possivelmente mais eficazmente do que alguns anti-inflamatorios nao esteroides (AINEs). Este mecanismo de acao o torna um candidato promissor para o desenvolvimento de novos agentes anti-inflamatorios. No entanto, a pesquisa ainda esta em estagios iniciais, e a maioria dos estudos foi realizada in vitro ou em modelos animais. Nao ha dados farmacologicos ou de toxicidade em humanos amplamente disponiveis no PubChem para Cannflavin A, e sua biodisponibilidade e seguranca em humanos ainda precisam ser extensivamente investigadas. Sua presenca na cannabis contribui para o 'efeito entourage', onde diferentes compostos da planta atuam sinergicamente para modular os efeitos terapeuticos.",
+    "mechanisms": [
+      "Inibicao da producao de prostaglandina E2 (PGE2)."
+    ],
+    "therapeutic_potential": "O Cannflavin A apresenta um promissor potencial anti-inflamatorio, sugerindo seu uso futuro no tratamento de condicoes inflamatorias. No entanto, mais pesquisas, incluindo ensaios clinicos em humanos, sao necessarias para confirmar sua eficacia e seguranca.",
+    "key_points": [
+      "Flavonoide prenylado encontrado exclusivamente na Cannabis sativa.",
+      "Conhecido por suas propriedades anti-inflamatorias.",
+      "Pode inibir a producao de prostaglandina E2 (PGE2), um mediador da inflamacao.",
+      "Potencialmente mais potente que alguns AINEs em estudos pre-clinicos.",
+      "Pesquisa ainda em estagios iniciais, principalmente in vitro e em modelos animais.",
+      "Contribui para o 'efeito entourage' da cannabis."
+    ]
+  },
+  {
+    "id": "cannflavin-b",
+    "name": "Cannflavin B",
+    "type": "flavonoid",
+    "cid": 5281214,
+    "molecular_formula": "C11H12N2O6",
+    "molecular_weight": "268.22",
+    "description": "Cannflavin B é um flavonoide, uma classe de compostos polifenólicos conhecidos por suas diversas atividades biológicas. Embora seja encontrado na planta Cannabis sativa, a pesquisa sobre o Cannflavin B é limitada em comparação com outros canabinoides e flavonoides mais estudados. Sua estrutura molecular (C11H12N2O6) e peso molecular (268.22) são conhecidos, mas informações detalhadas sobre seus mecanismos de ação farmacológica, potencial terapêutico específico e toxicidade ainda são escassas. Estudos preliminares em flavonoides da cannabis sugerem que eles podem contribuir para o \"efeito entourage\", modulando a ação de canabinoides e terpenos. No entanto, para o Cannflavin B em particular, são necessárias mais investigações para elucidar seu papel exato e suas propriedades farmacológicas. Atualmente, não há dados substanciais de farmacologia ou toxicidade disponíveis no PubChem para este composto, indicando que a pesquisa está em estágios iniciais ou é limitada. É importante notar que a ausência de dados não significa ausência de atividade, mas sim a necessidade de mais estudos científicos rigorosos.",
+    "mechanisms": [],
+    "therapeutic_potential": "",
+    "key_points": [
+      "Flavonoide encontrado na Cannabis sativa.",
+      "Fórmula molecular: C11H12N2O6.",
+      "Peso molecular: 268.22 g/mol.",
+      "XLogP: -0.5, indicando baixa lipofilicidade.",
+      "Pesquisa limitada sobre mecanismos de ação e potencial terapêutico.",
+      "Não há dados substanciais de farmacologia ou toxicidade disponíveis no PubChem (CID: 5281214)."
+    ]
+  },
+  {
+    "id": "cannflavin-c",
+    "name": "Cannflavin C",
+    "type": "flavonoid",
+    "cid": 154159,
+    "molecular_formula": "C14H18O4",
+    "molecular_weight": "250.29",
+    "description": "Cannflavin C é um flavonoide presente na planta Cannabis sativa, embora seja menos estudado que outros compostos da cannabis. Sua estrutura molecular é C14H18O4 e possui um peso molecular de 250.29 g/mol. Assim como outros flavonoides, espera-se que o Cannflavin C possua propriedades antioxidantes e anti-inflamatórias, que são características comuns a essa classe de fitoquímicos. No entanto, informações específicas sobre seus mecanismos de ação farmacológica detalhados, alvos moleculares e potencial terapêutico são limitadas na literatura científica atual. A pesquisa sobre flavonoides da cannabis sugere que eles podem contribuir para os efeitos sinérgicos da planta, conhecidos como \"efeito entourage\", influenciando a biodisponibilidade e a atividade de canabinoides e terpenos. Dada a escassez de dados farmacológicos e toxicológicos específicos para o Cannflavin C no PubChem, mais estudos são necessários para compreender completamente suas propriedades e aplicações potenciais. É crucial que futuras pesquisas explorem seus efeitos in vitro e in vivo para determinar seu valor terapêutico e perfil de segurança. Atualmente, não há indícios de toxicidade ou farmacologia detalhada para este composto.",
+    "mechanisms": [],
+    "therapeutic_potential": "",
+    "key_points": [
+      "Flavonoide encontrado na Cannabis sativa.",
+      "Fórmula molecular: C14H18O4.",
+      "Peso molecular: 250.29 g/mol.",
+      "XLogP: 3.7, indicando lipofilicidade moderada.",
+      "Pesquisa limitada sobre mecanismos de ação e potencial terapêutico específico.",
+      "Não há dados substanciais de farmacologia ou toxicidade disponíveis no PubChem (CID: 154159)."
+    ]
+  },
+  {
+    "id": "apigenin",
+    "name": "Apigenina",
+    "type": "flavonoid",
+    "cid": 5280443,
+    "molecular_formula": "C15H10O5",
+    "molecular_weight": "270.24",
+    "description": "A Apigenina é um flavonoide dietético amplamente distribuído em diversas plantas, incluindo a Cannabis sativa, camomila, salsa e aipo. Este composto tem demonstrado múltiplos efeitos benéficos, especialmente no endotélio vascular. A Apigenina atua ativando canais de K+ ativados por Ca2+ (KCa), o que leva à hiperpolarização da membrana celular e subsequente influxo de Ca2+. Esse aumento do Ca2+ intracelular é crucial para a produção de óxido nítrico (NO), um mediador chave com efeitos antiangiogênicos. A Apigenina inibe a proliferação celular, a incorporação de timidina e a migração celular, além de reduzir a fosforilação de Akt induzida por fatores de crescimento. Estes mecanismos sugerem um papel importante na modulação da angiogênese e na saúde cardiovascular. Estudos indicam que a Apigenina pode ter propriedades anti-inflamatórias, antioxidantes e anticancerígenas, embora a maioria das pesquisas esteja em estágio pré-clínico. Não há indicação de carcinogenicidade em humanos, conforme não listado pela IARC. A Apigenina é um composto promissor com um perfil de segurança aparentemente favorável, mas mais estudos clínicos são necessários para confirmar seus benefícios terapêuticos em humanos. (CID: 5280443)",
+    "mechanisms": [
+      "Ativação de canais de K+ ativados por Ca2+ (KCa) de pequena e grande condutância.",
+      "Indução de hiperpolarização da membrana celular.",
+      "Aumento do influxo de Ca2+ intracelular.",
+      "Aumento da produção de óxido nítrico (NO).",
+      "Desfosforilação de Akt.",
+      "Inibição da proliferação celular.",
+      "Inibição da migração celular."
+    ],
+    "therapeutic_potential": "A Apigenina demonstra potencial terapêutico significativo como agente antiangiogênico, com implicações para o tratamento de doenças cardiovasculares e possivelmente câncer. Suas propriedades anti-inflamatórias e antioxidantes também sugerem benefícios para a saúde geral e prevenção de doenças crônicas.",
+    "key_points": [
+      "Flavonoide dietético presente na Cannabis, camomila, salsa e aipo.",
+      "Fórmula molecular: C15H10O5.",
+      "Peso molecular: 270.24 g/mol.",
+      "XLogP: 1.7, indicando lipofilicidade moderada.",
+      "Causa aumento dose-dependente nos níveis de guanosina monofosfato cíclico, com efeito máximo a 1 uM.",
+      "Induz hiperpolarização bloqueada por inibidores de KCa (apamina e iberiotoxina).",
+      "Inibe a proliferação celular, incorporação de timidina e migração celular.",
+      "Reduz a fosforilação de Akt induzida por fatores de crescimento.",
+      "Não há indicação de carcinogenicidade em humanos."
+    ]
+  },
+  {
+    "id": "luteolin",
+    "name": "Luteolina",
+    "type": "flavonoid",
+    "cid": 5280445,
+    "molecular_formula": "C15H10O6",
+    "molecular_weight": "286.24",
+    "description": "A Luteolina (CID 5280445) é um flavonoide comum encontrado em diversas plantas, incluindo a Cannabis sativa. Este composto é conhecido por suas propriedades antioxidantes e anti-inflamatórias. Na cannabis, a luteolina contribui para o perfil fitoquímico complexo, que pode influenciar os efeitos terapêuticos da planta. Estudos farmacológicos indicam que a luteolina possui metabólitos humanos conhecidos, como a Luteolina-7-glucuronídeo, o que sugere sua biodisponibilidade e atividade biológica no organismo. A pesquisa sobre a luteolina tem explorado seu potencial em diversas áreas da saúde, incluindo a neuroproteção e a modulação imunológica. Embora não seja um canabinoide, a luteolina interage com outros compostos da cannabis, podendo contribuir para o efeito entourage. O status de pesquisa da luteolina é promissor, com muitos estudos in vitro e in vivo investigando seus mecanismos de ação e aplicações terapêuticas.",
+    "mechanisms": [
+      "Atividade antioxidante (neutralização de radicais livres)",
+      "Atividade anti-inflamatória (modulação de vias inflamatórias)",
+      "Modulação de enzimas metabólicas"
+    ],
+    "therapeutic_potential": "A Luteolina demonstra potencial terapêutico significativo devido às suas propriedades antioxidantes e anti-inflamatórias, com aplicações em neuroproteção, suporte imunológico e modulação de processos inflamatórios crônicos. A pesquisa continua a explorar seu papel em diversas condições de saúde.",
+    "key_points": [
+      "Flavonoide comum encontrado na Cannabis sativa.",
+      "Possui propriedades antioxidantes e anti-inflamatórias.",
+      "Metabólitos humanos conhecidos incluem Luteolina-7-glucuronídeo.",
+      "Potencial terapêutico em neuroproteção e modulação imunológica.",
+      "Contribui para o 'efeito entourage' da cannabis."
+    ]
+  },
+  {
+    "id": "kaempferol",
+    "name": "Kaempferol",
+    "type": "flavonoid",
+    "cid": 5280863,
+    "molecular_formula": "C15H10O6",
+    "molecular_weight": "286.24",
+    "description": "O Kaempferol (CID 5280863) é um flavonoide natural amplamente distribuído em plantas, incluindo a Cannabis sativa. Este composto é reconhecido por suas potentes atividades antioxidantes, anti-inflamatórias e neuroprotetoras. Estudos farmacológicos revelaram que o kaempferol atua como um inibidor da monoamina oxidase (MAO), particularmente da MAO-A, com um valor de IC50 de 7 x 10(-7) M, o que sugere um potencial para influenciar os níveis de neurotransmissores. Além disso, o kaempferol demonstrou proteger contra a toxicidade neuronal induzida por N-metil-D-aspartato in vitro. Curiosamente, foi estabelecido que o kaempferol funciona como um agonista inverso para os receptores relacionados ao estrogênio alfa e gama (ERRalpha e ERRgamma), ligando-se a eles e bloqueando sua interação com o coativador PGC-1alpha, suprimindo a expressão de genes-alvo do ERR. Em termos de toxicidade, o kaempferol é classificado no Grupo 3 pela IARC, ou seja, não classificável quanto à sua carcinogenicidade para humanos. Sua presença na cannabis pode contribuir para os efeitos terapêuticos gerais da planta, especialmente em sinergia com outros fitocomplexos.",
+    "mechanisms": [
+      "Inibição da monoamina oxidase (MAO-A)",
+      "Atividade antioxidante (neutralização de radicais livres)",
+      "Atividade anti-inflamatória",
+      "Neuroproteção",
+      "Modulação de receptores relacionados ao estrogênio (ERRalpha e ERRgamma)"
+    ],
+    "therapeutic_potential": "O Kaempferol apresenta um potencial terapêutico diversificado, incluindo neuroproteção, modulação do humor através da inibição da MAO, e efeitos anti-inflamatórios e antioxidantes. Sua interação com receptores de estrogênio sugere um papel potencial em condições hormonais. A pesquisa continua a explorar suas aplicações em doenças neurodegenerativas e inflamatórias.",
+    "key_points": [
+      "Flavonoide presente na Cannabis sativa com propriedades antioxidantes e anti-inflamatórias.",
+      "Potente inibidor da MAO-A (IC50 de 7 x 10(-7) M).",
+      "Protege contra a toxicidade neuronal induzida por N-metil-D-aspartato in vitro.",
+      "Funciona como agonista inverso para receptores relacionados ao estrogênio (ERRalpha e ERRgamma).",
+      "Classificado no Grupo 3 pela IARC (não classificável quanto à carcinogenicidade para humanos).",
+      "Peso molecular: 286.24 g/mol."
+    ]
+  },
+  {
+    "id": "quercetin",
+    "name": "Quercetina",
+    "type": "flavonoid",
+    "cid": 5280343,
+    "molecular_formula": "C15H10O7",
+    "molecular_weight": "302.23",
+    "description": "A Quercetina (CID 5280343) é um flavonoide amplamente encontrado em diversas plantas, incluindo a Cannabis sativa, e é reconhecida por suas notáveis propriedades antioxidantes e anti-inflamatórias. Este composto é um potente 'quencher' de espécies reativas de oxigênio (ROS), devido à sua estrutura molecular que atende a três critérios essenciais para forte atividade antioxidante: anel B com dois grupos hidroxila adjacentes, anel C com ligação dupla 2,3, 4-oxo e grupo 3-hidroxila, e anel A com grupos 5,7-di-hidroxila. A quercetina também é um inibidor específico da quinona redutase 2 (QR2), uma enzima que catalisa o metabolismo de quinolinas tóxicas, com potencial para induzir estresse oxidativo letal em parasitas como o Plasmodium. Além disso, a quercetina demonstrou sensibilizar células de adenocarcinoma de cólon humano à apoptose induzida por TRAIL, sugerindo um potencial em terapias combinadas contra o câncer. Os conjugados de glucuronídeo da quercetina, encontrados no plasma, também mantêm potente atividade antioxidante, indicando sua biodisponibilidade e eficácia in vivo. Sua presença na cannabis contribui para o perfil terapêutico geral da planta.",
+    "mechanisms": [
+      "Atividade antioxidante (neutralização de radicais livres)",
+      "Inibição da quinona redutase 2 (QR2)",
+      "Atividade anti-inflamatória",
+      "Indução de apoptose em células cancerígenas (em combinação)",
+      "Modulação da resposta imune"
+    ],
+    "therapeutic_potential": "A Quercetina possui um vasto potencial terapêutico, abrangendo desde a proteção contra o estresse oxidativo e inflamação até o suporte em terapias anticâncer e antiparasitárias. Sua capacidade de modular vias celulares e enzimáticas a torna um composto de grande interesse para a saúde humana, especialmente em condições crônicas e degenerativas.",
+    "key_points": [
+      "Flavonoide abundante na Cannabis sativa com forte atividade antioxidante e anti-inflamatória.",
+      "Estrutura molecular otimizada para 'quench' de espécies reativas de oxigênio (ROS).",
+      "Inibidor específico da quinona redutase 2 (QR2), com potencial antiparasitário.",
+      "Sensibiliza células de adenocarcinoma de cólon à apoptose induzida por TRAIL.",
+      "Conjugados de glucuronídeo no plasma mantêm atividade antioxidante.",
+      "Peso molecular: 302.23 g/mol."
+    ]
+  },
+  {
+    "id": "naringenin",
+    "name": "Naringenina",
+    "type": "flavonoid",
+    "cid": 439246,
+    "molecular_formula": "C15H12O5",
+    "molecular_weight": "272.25",
+    "description": "A Naringenina e um flavonoide encontrado em diversas plantas, incluindo a cannabis, frutas citricas (especialmente toranjas), e tomates. Este composto tem sido amplamente estudado por suas propriedades anti-inflamatorias e antioxidantes. Sua acao farmacologica envolve o aumento da atividade de enzimas antioxidantes como a glutationa S-transferase, superoxido dismutase, glutationa peroxidase e catalase, ao mesmo tempo em que reduz os niveis sericos de alanina aminotransferase, aspartato aminotransferase, lactato desidrogenase e malondialdeido. Alem disso, a Naringenina demonstra potencial anti-apoptotico, regulando proteinas como Bcl-2, Bax e caspase-3/9. Pesquisas indicam que a Naringenina oferece efeitos protetores contra toxicidades induzidas por toxinas naturais, farmaceuticos, metais pesados e produtos quimicos ambientais, principalmente atraves da supressao da peroxidacao lipidica, estresse oxidativo e fatores inflamatorios, e pela ativacao das vias de sinalizacao de sobrevivencia PI3K/Akt e MAPK. Embora presente na cannabis, a pesquisa especifica sobre seu papel no \"efeito entourage\" e limitada, mas suas propriedades gerais sugerem um potencial benefico.",
+    "mechanisms": [
+      "Aumento da atividade de glutationa S-transferase, superoxido dismutase, glutationa peroxidase e catalase.",
+      "Reducao dos niveis sericos de alanina aminotransferase, aspartato aminotransferase, lactato desidrogenase e malondialdeido.",
+      "Regulacao de proteinas anti-apoptoticas (Bcl-2) e pro-apoptoticas (Bax, caspase-3/9).",
+      "Supressao da peroxidacao lipidica e estresse oxidativo.",
+      "Supressao de fatores inflamatorios.",
+      "Ativacao das vias de sinalizacao de sobrevivencia PI3K/Akt e MAPK."
+    ],
+    "therapeutic_potential": "A Naringenina possui um vasto potencial terapeutico devido as suas potentes acoes anti-inflamatorias, antioxidantes e protetoras contra toxicidades. Pode ser util no tratamento de condicoes relacionadas ao estresse oxidativo, inflamacao e danos celulares, incluindo doencas hepaticas, neurodegenerativas e cardiovasculares. Sua capacidade de modular vias de sobrevivencia celular tambem sugere um papel em estrategias de quimioprevencao e protecao contra danos induzidos por toxinas.",
+    "key_points": [
+      "Flavonoide encontrado na cannabis, frutas citricas e tomates.",
+      "Peso molecular de 272.25 g/mol.",
+      "Demonstra propriedades anti-inflamatorias e antioxidantes.",
+      "Aumenta a atividade de enzimas antioxidantes como glutationa S-transferase e superoxido dismutase.",
+      "Reduz niveis de marcadores de dano hepatico e estresse oxidativo.",
+      "Possui potencial anti-apoptotico, regulando Bcl-2, Bax e caspase-3/9.",
+      "Oferece protecao contra toxicidades induzidas por diversas substancias.",
+      "CID PubChem: 439246."
+    ]
+  },
+  {
+    "id": "vitexin",
+    "name": "Vitexina",
+    "type": "flavonoid",
+    "cid": 5280441,
+    "molecular_formula": "C21H20O10",
+    "molecular_weight": "432.4",
+    "description": "A Vitexina e um flavonoide C-glicosilado, o que significa que possui uma molecula de acucar (glicose) ligada diretamente a um carbono do esqueleto flavonoide, conferindo-lhe caracteristicas quimicas distintas. Este composto e encontrado em diversas plantas, incluindo a cannabis, maracuja, bambu e outras ervas medicinais. Embora seja um componente da cannabis, a pesquisa sobre seus efeitos especificos no contexto canabinoide ainda esta em estagio inicial. Estudos gerais sobre a Vitexina em outras fontes vegetais sugerem propriedades antioxidantes, anti-inflamatorias e ansioliticas. No entanto, informacoes detalhadas sobre seus mecanismos de acao farmacologica e toxicidade no PubChem sao limitadas. E importante notar que, como outros flavonoides, a Vitexina pode contribuir para o perfil terapeutico geral da planta atraves de interacoes sinergicas com canabinoides e terpenos, um conceito conhecido como \"efeito entourage\". Mais pesquisas sao necessarias para elucidar completamente seu papel e potencial terapeutico especifico na cannabis.",
+    "mechanisms": [
+      "Acoes antioxidantes (mecanismos especificos nao detalhados no PubChem).",
+      "Acoes anti-inflamatorias (mecanismos especificos nao detalhados no PubChem).",
+      "Acoes ansioliticas (mecanismos especificos nao detalhados no PubChem)."
+    ],
+    "therapeutic_potential": "O potencial terapeutico da Vitexina, embora ainda pouco explorado especificamente na cannabis, e promissor com base em estudos de outras fontes vegetais. Suas propriedades antioxidantes e anti-inflamatorias podem ser relevantes para o manejo de condicoes inflamatorias e estresse oxidativo. O potencial ansiolitico tambem sugere aplicacoes no suporte a saude mental. Contudo, a ausencia de dados farmacologicos e toxicologicos detalhados no PubChem para este composto ressalta a necessidade de mais investigacao para confirmar e expandir essas indicacoes.",
+    "key_points": [
+      "Flavonoide C-glicosilado encontrado na cannabis e outras plantas.",
+      "Peso molecular de 432.4 g/mol.",
+      "Estrutura quimica: Apigenina 8-C-glicosideo.",
+      "Sugere-se propriedades antioxidantes, anti-inflamatorias e ansioliticas com base em estudos de outras fontes.",
+      "Informacoes detalhadas sobre farmacologia e toxicidade sao limitadas no PubChem.",
+      "Pode contribuir para o \"efeito entourage\" da cannabis.",
+      "CID PubChem: 5280441."
+    ]
+  },
+  {
+    "id": "isovitexin",
+    "name": "Isovitexina",
+    "type": "flavonoid",
+    "cid": 162350,
+    "molecular_formula": "C21H20O10",
+    "molecular_weight": "432.4",
+    "description": "A Isovitexina e um flavonoide C-glicosilado, isomerico a Vitexina, distinguindo-se pela posicao da ligacao da glicose ao esqueleto da apigenina (neste caso, na posicao 6). Este composto e encontrado em diversas especies vegetais, incluindo a cannabis, passiflora e outras plantas medicinais. Assim como a Vitexina, a Isovitexina e um componente da cannabis, mas a pesquisa especifica sobre seus efeitos no contexto canabinoide e limitada. Estudos gerais sobre a Isovitexina em outras fontes indicam propriedades antioxidantes, anti-inflamatorias, neuroprotetoras e potenciais efeitos contra o cancer. No entanto, o PubChem nao fornece informacoes detalhadas sobre seus mecanismos de acao farmacologica ou toxicidade. E provavel que a Isovitexina, como outros flavonoides, contribua para os efeitos sinergicos da planta, o \"efeito entourage\", modulando a atividade de canabinoides e terpenos. A compreensao completa de seu papel na cannabis requer mais investigacao cientifica.",
+    "mechanisms": [
+      "Acoes antioxidantes (mecanismos especificos nao detalhados no PubChem).",
+      "Acoes anti-inflamatorias (mecanismos especificos nao detalhados no PubChem).",
+      "Acoes neuroprotetoras (mecanismos especificos nao detalhados no PubChem).",
+      "Potenciais acoes anticancerigenas (mecanismos especificos nao detalhados no PubChem)."
+    ],
+    "therapeutic_potential": "O potencial terapeutico da Isovitexina e promissor, com base em estudos de outras fontes vegetais que indicam propriedades antioxidantes, anti-inflamatorias e neuroprotetoras. Isso sugere possiveis aplicacoes no manejo de doencas neurodegenerativas, condicoes inflamatorias e estresse oxidativo. A ausencia de dados farmacologicos e toxicologicos detalhados no PubChem para este composto enfatiza a necessidade de mais pesquisas para validar e expandir essas indicacoes, especialmente no contexto da cannabis.",
+    "key_points": [
+      "Flavonoide C-glicosilado, isometro da Vitexina, encontrado na cannabis e outras plantas.",
+      "Peso molecular de 432.4 g/mol.",
+      "Estrutura quimica: Apigenina-6-C-glicosideo.",
+      "Sugere-se propriedades antioxidantes, anti-inflamatorias, neuroprotetoras e anticancerigenas com base em estudos de outras fontes.",
+      "Informacoes detalhadas sobre farmacologia e toxicidade sao limitadas no PubChem.",
+      "Pode contribuir para o \"efeito entourage\" da cannabis.",
+      "CID PubChem: 162350."
+    ]
+  },
+  {
+    "id": "orientin",
+    "name": "Orientin (Luteolin 8-C-glucoside)",
+    "type": "flavonoid",
+    "cid": 5281675,
+    "molecular_formula": "C21H20O11",
+    "molecular_weight": "448.4",
+    "description": "Orientin e um flavonoide glicosilado, especificamente um C-glicosideo da luteolina, o que significa que um acucar (glicose) esta ligado diretamente ao carbono 8 do anel A da estrutura flavonoide. Este composto e amplamente distribuido no reino vegetal, sendo encontrado em diversas plantas, incluindo a Cannabis sativa, onde contribui para o perfil fitoquimico complexo da planta. Embora sua presenca na cannabis seja conhecida, a pesquisa sobre seus papeis especificos e interacoes dentro da matriz canabica ainda esta em estagio inicial. Estudos pre-clinicos sugerem que o orientin possui propriedades antioxidantes, anti-inflamatorias, e neuroprotetoras. Seu potencial terapeutico esta sendo investigado em condicoes como doencas cardiovasculares, diabetes e certos tipos de cancer, embora a evidencia direta de sua eficacia em humanos seja limitada. A pesquisa continua para elucidar seus mecanismos de acao e biodisponibilidade.",
+    "mechanisms": [
+      "Atividade antioxidante (neutralizacao de radicais livres)",
+      "Modulacao de vias inflamatorias (ainda sob investigacao)",
+      "Neuroprotecao (mecanismos especificos em estudo)"
+    ],
+    "therapeutic_potential": "O orientin demonstra potencial terapeutico em areas como prevencao de doencas cardiovasculares, manejo de diabetes e como agente quimiopreventivo, com base em estudos in vitro e em animais. No entanto, sao necessarios mais estudos clinicos para confirmar sua eficacia e seguranca em humanos.",
+    "key_points": [
+      "Flavonoide C-glicosideo da luteolina.",
+      "Amplamente distribuido em plantas, incluindo Cannabis sativa.",
+      "Peso molecular: 448.4 g/mol.",
+      "XLogP: -0.2, indicando alta hidrofilicidade.",
+      "Potencial antioxidante, anti-inflamatorio e neuroprotetor em estudos pre-clinicos.",
+      "CID PubChem: 5281675."
+    ]
+  },
+  {
+    "id": "chrysoeriol",
+    "name": "Chrysoeriol (Luteolin 3'-methyl ether)",
+    "type": "flavonoid",
+    "cid": 5280666,
+    "molecular_formula": "C16H12O6",
+    "molecular_weight": "300.26",
+    "description": "Chrysoeriol e um flavonoide metoxilado, um derivado da luteolina onde um grupo metil esta ligado a posicao 3' do anel B. Este composto e encontrado em diversas especies vegetais, incluindo a Cannabis sativa, onde contribui para a complexidade fitoquimica e os potenciais efeitos sinergicos da planta. A presenca de um grupo metil pode influenciar sua biodisponibilidade e atividade biologica em comparacao com a luteolina nao metilada. Estudos pre-clinicos indicam que o chrysoeriol possui propriedades antioxidantes, anti-inflamatorias, anticancerigenas e antimicrobianas. Foi identificado que o chrysoeriol possui metabolitos humanos conhecidos, incluindo o acido (2S,3S,4S,5R)-3,4,5-tri-hidroxi-6-[5-hidroxi-2-(4-hidroxi-3-metoxifenil)-4-oxocromen-7-il]oxioxano-2-carboxilico, o que sugere que e metabolizado no corpo humano. A pesquisa sobre o chrysoeriol na cannabis esta em andamento para entender melhor seu papel nos efeitos terapeuticos da planta.",
+    "mechanisms": [
+      "Atividade antioxidante",
+      "Inibicao de vias inflamatorias",
+      "Modulacao de proliferacao celular (em estudos de cancer)",
+      "Atividade antimicrobiana"
+    ],
+    "therapeutic_potential": "O chrysoeriol apresenta um promissor potencial terapeutico como agente anti-inflamatorio, antioxidante e anticancerigeno, com base em estudos in vitro e em modelos animais. A identificacao de seus metabolitos humanos sugere que e biodisponivel. Mais pesquisas clinicas sao necessarias para validar esses achados e determinar sua aplicabilidade terapeutica.",
+    "key_points": [
+      "Flavonoide metoxilado, derivado da luteolina.",
+      "Presente em Cannabis sativa e outras plantas.",
+      "Peso molecular: 300.26 g/mol.",
+      "XLogP: 1.7, indicando moderada lipofilicidade.",
+      "Metabolitos humanos conhecidos.",
+      "Potencial antioxidante, anti-inflamatorio, anticancerigeno e antimicrobiano.",
+      "CID PubChem: 5280666."
+    ]
+  },
+  {
+    "id": "chrysin",
+    "name": "Chrysin (5,7-Dihydroxyflavone)",
+    "type": "flavonoid",
+    "cid": 5281607,
+    "molecular_formula": "C15H10O4",
+    "molecular_weight": "254.24",
+    "description": "Chrysin e um flavonoide natural, especificamente uma flavona, caracterizado por dois grupos hidroxila nas posicoes 5 e 7 do anel A. E encontrado em diversas plantas, incluindo a passiflora, mel e propolis, e tambem em quantidades menores na Cannabis sativa. Este composto tem sido extensivamente estudado por suas diversas propriedades farmacologicas. Estudos pre-clinicos e algumas pesquisas iniciais em humanos sugerem que a chrysin possui efeitos ansioliticos, anti-inflamatorios, antioxidantes e anticancerigenos. E conhecido por ter metabolitos humanos, incluindo o acido (2S,3S,4S,5R)-3,4,5-tri-hidroxi-6-(5-hidroxi-4-oxo-2-fenilcromen-7-il)oxioxano-2-carboxilico. Em termos de toxicidade, nao ha indicacao de carcinogenicidade para humanos (nao listado pela IARC). A chrysin e frequentemente investigada por seu potencial de inibir a aromatase, uma enzima que converte androgenios em estrogenios, o que a torna de interesse em terapias hormonais e no tratamento de certos tipos de cancer dependentes de estrogenio. No entanto, sua baixa biodisponibilidade oral e um desafio para sua aplicacao terapeutica.",
+    "mechanisms": [
+      "Inibicao da aromatase",
+      "Atividade antioxidante (eliminacao de radicais livres)",
+      "Modulacao de vias inflamatorias (ex: NF-kB)",
+      "Inducao de apoptose em celulas cancerosas",
+      "Modulacao de receptores GABA (potencial ansiolitico)"
+    ],
+    "therapeutic_potential": "A chrysin demonstra um potencial terapeutico significativo como inibidor da aromatase, agente anticancerigeno e anti-inflamatorio. Seu uso em condicoes como ansiedade e modulacao hormonal e promissor, mas a baixa biodisponibilidade oral e um obstaculo. Pesquisas estao focadas em melhorar sua formulacao para otimizar a absorcao e eficacia em humanos.",
+    "key_points": [
+      "Flavonoide natural (flavona) com grupos hidroxila em 5 e 7.",
+      "Encontrado em passiflora, mel, propolis e Cannabis sativa.",
+      "Peso molecular: 254.24 g/mol.",
+      "XLogP: 2.1, indicando lipofilicidade moderada.",
+      "Metabolitos humanos conhecidos.",
+      "Nao carcinogenicidade para humanos (IARC).",
+      "Potencial ansiolitico, anti-inflamatorio, antioxidante e anticancerigeno.",
+      "CID PubChem: 5281607."
+    ]
+  }
+]

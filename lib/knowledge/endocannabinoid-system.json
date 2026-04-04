@@ -488,5 +488,36 @@
       "Promotor do crescimento osseo (celulas-tronco medulares)",
       "Anti-inflamatorio e imunomodulador via CB2"
     ]
+  },
+  {
+    "id": "web-sistema-endocanabinoide-em-animais",
+    "title": "Sistema Endocanabinoide em Animais",
+    "category": "homeostase",
+    "area": "ecs",
+    "content": "O sistema endocanabinoide (SEC) é uma rede biológica amplamente distribuída no reino animal e desempenha papel central na manutenção da homeostase. De forma clássica, ele é composto por três elementos: ligantes endógenos, receptores e enzimas responsáveis pela síntese, degradação e reciclagem desses mediadores. Os dois principais endocanabinoides descritos são a anandamida (AEA) e o 2-araquidonoilglicerol (2-AG). Esses ligantes atuam principalmente sobre os receptores canabinoides CB1 e CB2, mas também interagem com alvos relacionados, como GPR55 e TRPV1, ampliando o alcance funcional do sistema.\n\nO receptor CB1 está mais associado ao sistema nervoso, modulando dor, apetite, memória, excitabilidade neuronal e resposta ao estresse. Já o CB2 tem papel mais destacado em células imunes e processos inflamatórios. Receptores não clássicos, como GPR55, e canais iônicos como TRPV1, também participam da sinalização endocanabinoide, especialmente em nocicepção, inflamação e regulação neuroimune. Além disso, enzimas como FAAH e MAGL controlam a duração do sinal ao degradarem, respectivamente, anandamida e 2-AG.\n\nO artigo destaca que o SEC é encontrado em muitos mamíferos e também em alguns invertebrados primitivos, como Hydra, sugerindo origem evolutiva antiga. Em contraste, insetos parecem não apresentar esse sistema de forma clássica. A distribuição anatômica dos receptores varia entre espécies, e em animais domésticos, especialmente cães, esse mapeamento tem recebido grande atenção por seu potencial terapêutico.\n\nDo ponto de vista clínico, o SEC surge como alvo promissor para manejo da dor, inflamação, ansiedade, estresse, distúrbios neurológicos e possivelmente câncer. Moléculas endógenas, fitocanabinoides e outros moduladores podem agir como ligantes diretos ou influenciar indiretamente essa rede, reforçando a relevância do SEC na fisiologia e na medicina veterinária translacional.",
+    "key_points": [
+      "O sistema endocanabinoide ajuda a manter a homeostase em múltiplos órgãos e sistemas.",
+      "Os principais ligantes endógenos são anandamida (AEA) e 2-AG.",
+      "CB1 está mais relacionado ao sistema nervoso e à modulação da dor e comportamento.",
+      "CB2 participa principalmente da regulação imune e inflamatória.",
+      "GPR55 e TRPV1 são alvos relevantes associados à sinalização endocanabinoide.",
+      "FAAH degrada anandamida e MAGL degrada 2-AG.",
+      "Fitocanabinoides de Cannabis sativa podem interagir com o SEC.",
+      "O SEC foi identificado em mamíferos e em alguns invertebrados primitivos.",
+      "Insetos parecem não possuir um SEC clássico como o observado em outros animais.",
+      "A distribuição de receptores varia entre espécies animais.",
+      "Cães são uma das espécies mais estudadas quanto à distribuição de receptores canabinoides.",
+      "O SEC é alvo terapêutico potencial para dor, inflamação, ansiedade e doenças neurológicas.",
+      "A modulação do SEC pode ocorrer por ligantes diretos ou por mecanismos indiretos.",
+      "O sistema conecta funções nervosas, imunes e metabólicas em uma rede regulatória integrada."
+    ],
+    "warnings": [
+      "A extrapolação de dados entre espécies deve ser feita com cautela, pois a distribuição de receptores e a resposta aos canabinoides variam.",
+      "Produtos com THC podem causar efeitos adversos importantes em animais, especialmente em cães.",
+      "O uso terapêutico de canabinoides em medicina veterinária ainda requer padronização de dose, formulação e monitoramento clínico.",
+      "Interações entre fitocanabinoides, receptores não clássicos e enzimas do SEC ainda estão em investigação."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770351/",
+    "source": "journal_ecs-comprehensive-review"
   }
 ]

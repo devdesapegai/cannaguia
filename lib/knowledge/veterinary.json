@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "web-fda-solicita-informacoes-publicas-sobre-produtos-derivados-d",
+    "title": "FDA solicita informações públicas sobre produtos derivados de cannabis na medicina veterinária",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Em janeiro de 2025, o Center for Veterinary Medicine (CVM) da FDA publicou um pedido formal de informações (Request for Information, RFI) sobre o uso de produtos derivados de cannabis em animais, com foco especial em canabidiol (CBD) e outros derivados do cânhamo. O objetivo é reunir dados de veterinários e do público sobre tendências de uso, seleção de produtos, indicações clínicas, padrões de qualidade, benefícios percebidos, interações medicamentosas, eventos adversos e preocupações toxicológicas.\n\nPara a prática veterinária, esse comunicado é relevante porque reforça que ainda existem lacunas importantes de evidência sobre segurança, eficácia, padronização e farmacovigilância dos produtos de cannabis em cães e gatos. O texto da FDA não estabelece uma posologia específica. Portanto, neste contexto regulatório, a dosagem mg/kg não foi informada pela fonte, a via de administração não foi especificada, e a espécie abordada é ampla, incluindo animais em geral, com interesse especial na experiência clínica de veterinários com seus pacientes.\n\nDo ponto de vista clínico, a mensagem central é a necessidade de documentação rigorosa: espécie tratada, peso corporal, dose em mg/kg, via de administração, frequência, composição do produto (CBD, THC, espectro completo ou isolado), resposta clínica e efeitos adversos. Em cães e gatos, isso é particularmente importante porque a exposição inadvertida a THC pode causar toxicidade significativa, incluindo ataxia, depressão do sensório, hipersalivação, vômitos, bradicardia, hipotermia e incontinência urinária.\n\nA abertura do período de comentários entre 16 de janeiro e 16 de abril de 2025 mostra que a agência busca mapear sinais de segurança e experiências reais de campo. Em resumo, o artigo é um marco regulatório e de farmacovigilância, não um guia terapêutico. Na ausência de dose padronizada no texto, qualquer uso veterinário de cannabis medicinal deve ser individualizado, com supervisão profissional e atenção especial ao risco de produtos contaminados ou com teor impreciso de canabinoides.",
+    "key_points": [
+      "Categoria: segurança regulatória em cannabis veterinária.",
+      "Espécie: animais em geral; aplicável especialmente a cães e gatos na prática clínica.",
+      "Dosagem mg/kg: não informada pela fonte.",
+      "Via de administração: não especificada no comunicado.",
+      "A FDA busca dados sobre CBD e outros derivados do cânhamo.",
+      "O foco inclui tendências de uso, indicações, qualidade e benefícios percebidos.",
+      "A agência também quer informações sobre interações medicamentosas e eventos adversos.",
+      "O comunicado reforça a necessidade de farmacovigilância veterinária.",
+      "Veterinários devem registrar produto, concentração, dose mg/kg, frequência e resposta clínica.",
+      "Produtos com THC representam risco toxicológico importante para animais.",
+      "A padronização de qualidade ainda é uma lacuna relevante no mercado.",
+      "O texto é regulatório e não substitui protocolo terapêutico veterinário."
+    ],
+    "warnings": [
+      "ALERTA: THC pode ser tóxico para cães e gatos, mesmo em exposições relativamente baixas.",
+      "Não há dose mg/kg validada neste artigo; evitar extrapolar posologias sem avaliação veterinária.",
+      "Produtos de cannabis podem ter rotulagem imprecisa, contaminantes ou concentrações variáveis.",
+      "Há potencial de interações com outros fármacos, especialmente anticonvulsivantes, sedativos e anti-inflamatórios."
+    ],
+    "source_url": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-solicits-public-comments-use-cannabis-derived-products-veterinary-medicine",
+    "source": "dataset_fda-vet-cannabis-rfi"
+  },
+  {
+    "id": "web-racao-com-proteina-hidrolisada-para-caes-o-que-e-e-quando-co",
+    "title": "Ração com proteína hidrolisada para cães: o que é e quando considerar",
+    "category": "dosagem-canina",
+    "area": "veterinary",
+    "content": "A ração com proteína hidrolisada é uma dieta formulada para cães com suspeita de alergia alimentar ou sensibilidade alimentar. Nessa tecnologia, as proteínas são quebradas em fragmentos muito pequenos, chamados peptídeos, reduzindo a chance de reconhecimento pelo sistema imune e, consequentemente, diminuindo a probabilidade de desencadear reação alérgica.\n\nO artigo explica que alergias alimentares em cães podem causar prurido, otites recorrentes, irritação cutânea, vômitos e diarreia. Já as sensibilidades ou intolerâncias alimentares tendem a envolver mais o trato gastrointestinal, com fezes amolecidas, flatulência e desconforto digestivo. Em ambos os casos, dietas especiais podem melhorar a qualidade de vida do animal.\n\nEmbora a fonte não trate de cannabis medicinal, para fins de estruturação clínica é importante registrar: espécie = canina; dosagem mg/kg = não aplicável/informada, pois se trata de alimento terapêutico e não de um canabinoide; via de administração = oral. Na rotina veterinária, dietas hidrolisadas costumam ser usadas em testes de eliminação alimentar por várias semanas, sempre com adesão rigorosa e sem petiscos ou suplementos não autorizados.\n\nEm pacientes caninos que também utilizam cannabis medicinal, a dieta pode ser relevante como parte do manejo global, especialmente quando há dermatopatias, inflamação crônica ou necessidade de reduzir variáveis alimentares durante a avaliação clínica. Ainda assim, a ração hidrolisada não substitui protocolos específicos para dor, epilepsia, ansiedade ou osteoartrite.\n\nEm resumo, o artigo descreve uma ferramenta nutricional importante para investigação e manejo de alergias alimentares em cães. A escolha da dieta deve ser feita com orientação veterinária, considerando histórico clínico, sinais dermatológicos e gastrointestinais, e resposta ao teste dietético.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: oral.",
+      "Dosagem mg/kg: não aplicável/informada pela fonte por se tratar de dieta, não de fármaco.",
+      "Indicada para investigação e manejo de alergias e sensibilidades alimentares.",
+      "Proteínas são quebradas em peptídeos menores por hidrólise.",
+      "Isso reduz o potencial de ativação do sistema imune.",
+      "Sinais de alergia alimentar podem incluir prurido, otite, vômito e diarreia.",
+      "Sinais de intolerância podem incluir flatulência e fezes amolecidas.",
+      "Dietas hidrolisadas são úteis em testes de eliminação.",
+      "A adesão precisa ser rigorosa para interpretação correta da resposta clínica.",
+      "Não é um tratamento canabinoide, mas pode coexistir com manejo multimodal.",
+      "A orientação veterinária é essencial para seleção e duração da dieta."
+    ],
+    "warnings": [
+      "Este artigo não fornece dose mg/kg de cannabis ou outro medicamento.",
+      "Mudanças dietéticas devem ser feitas com acompanhamento veterinário, especialmente em cães com doença gastrointestinal crônica.",
+      "ALERTA: se o cão usar produtos de cannabis, evitar formulações com THC devido ao risco de toxicidade.",
+      "Petiscos, suplementos e alimentos extras podem invalidar o teste de eliminação alimentar."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/hydrolyzed-protein-dog-food/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-gatos-enxergam-cores-o-que-a-visao-felina-mostra-na-pratica",
+    "title": "Gatos enxergam cores? O que a visão felina mostra na prática",
+    "category": "dosagem-felina",
+    "area": "veterinary",
+    "content": "O artigo aborda a percepção visual dos gatos e explica que eles não veem o mundo apenas em preto e branco. A visão felina é adaptada para atividade em baixa luminosidade, com maior quantidade de bastonetes na retina, o que favorece a detecção de movimento e a navegação ao amanhecer e entardecer. Em contrapartida, os gatos possuem menos tipos de cones do que os humanos.\n\nSegundo o texto, os felinos têm dois tipos principais de cones, o que sugere percepção mais eficiente de tons azulados e amarelados, com dificuldade para diferenciar vermelho, verde e possivelmente roxo. Assim, a experiência visual do gato é diferente da humana, mas não acromática.\n\nA fonte não trata de cannabis medicinal nem de terapêutica veterinária. Para manter o registro clínico estruturado: espécie = felina; via de administração = não aplicável; dosagem mg/kg = não informada/não aplicável, pois o conteúdo é sobre fisiologia da visão e não sobre tratamento. Ainda assim, essa informação pode ter utilidade indireta na prática clínica ao orientar enriquecimento ambiental, escolha de brinquedos e adaptação do ambiente para gatos idosos ou com alterações sensoriais.\n\nEm medicina veterinária integrativa, compreender a percepção sensorial do paciente ajuda a reduzir estresse e melhorar bem-estar, o que pode ser relevante em casos de ansiedade felina. Porém, este artigo não oferece evidência para uso de CBD, THC ou outros canabinoides em gatos.\n\nEm resumo, o texto descreve a base anatômica e funcional da visão de cores em felinos, destacando que eles provavelmente percebem melhor azul e amarelo do que vermelho e verde. É um conteúdo de comportamento e fisiologia sensorial, útil para tutores e clínicos, mas sem orientação terapêutica ou posológica.",
+    "key_points": [
+      "Espécie: gatos.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não informada/não aplicável.",
+      "Gatos não veem apenas em preto e branco.",
+      "A retina felina é adaptada para baixa luminosidade.",
+      "Eles têm mais bastonetes, favorecendo visão em ambientes escuros.",
+      "Possuem dois tipos principais de cones.",
+      "Provavelmente distinguem melhor azul e amarelo.",
+      "Têm dificuldade com vermelho e verde.",
+      "A visão felina prioriza movimento e contraste mais do que riqueza de cores.",
+      "O conteúdo é útil para enriquecimento ambiental e manejo comportamental.",
+      "O artigo não aborda cannabis medicinal nem tratamento veterinário."
+    ],
+    "warnings": [
+      "Este artigo não fornece qualquer dose mg/kg ou indicação terapêutica.",
+      "Não usar este conteúdo para inferir tratamento com canabinoides em gatos.",
+      "ALERTA: THC é potencialmente tóxico para gatos e pode causar depressão neurológica, ataxia, hipersalivação e hipotermia.",
+      "Qualquer uso de CBD ou derivados de cannabis em felinos deve ser avaliado por médico-veterinário."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/can-cats-see-color/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-por-que-caes-gostam-de-carinho-na-barriga-comportamento-vinc",
+    "title": "Por que cães gostam de carinho na barriga? Comportamento, vínculo e sinais de conforto",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Muitos cães gostam de carinho na barriga porque essa interação combina afeto, reforço social e sensação de segurança com o tutor. Quando o cão se deita de costas e expõe o abdômen, isso pode indicar convite para brincadeira, relaxamento ou confiança, e nem sempre submissão. O contexto comportamental é essencial: corpo solto, cauda relaxada, boca macia e busca ativa por contato sugerem prazer; já rigidez, orelhas para trás, desvio do olhar ou lambedura de lábios podem indicar desconforto.\n\nDo ponto de vista clínico, mudanças repentinas na tolerância ao toque abdominal merecem atenção veterinária. Dor abdominal, dermatites, prurido, lesões cutâneas, problemas ortopédicos ou ansiedade podem fazer o animal evitar esse tipo de contato. Em cães com osteoartrite, por exemplo, a postura de rolar pode ficar desconfortável. Nesses casos, o manejo deve priorizar avaliação física e adaptação do toque.\n\nNão há dosagem mg/kg aplicável, pois este artigo trata de comportamento e manejo, não de tratamento farmacológico. Espécie: canina. Via de administração: não aplicável. Se houver necessidade de suporte com cannabis medicinal para ansiedade, dor crônica ou osteoartrite, a prescrição deve ser individualizada por médico-veterinário, sempre com produto padronizado e monitoramento clínico.\n\nNa prática, o ideal é oferecer carinho de forma gradual, observando a resposta do cão. Alguns preferem peito, pescoço ou flancos em vez do abdômen. Respeitar a escolha do animal fortalece o vínculo e reduz risco de estresse. Se o cão antes gostava e passou a rejeitar o toque, isso deve ser interpretado como possível sinal de dor ou mal-estar, e não como “teimosia”.\n\nAlerta importante em medicina canabinoide: produtos com THC podem causar toxicidade em animais, especialmente cães. Nunca oferecer formulações humanas sem orientação veterinária.",
+    "key_points": [
+      "Espécie: canina.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável neste tema comportamental.",
+      "Expor a barriga pode indicar confiança, brincadeira ou relaxamento.",
+      "Nem todo cão que vira de barriga quer carinho.",
+      "Observe sinais de conforto: corpo solto, busca por contato, expressão relaxada.",
+      "Observe sinais de desconforto: rigidez, afastamento, bocejo, lambedura de lábios.",
+      "Mudança súbita no comportamento pode indicar dor, dermatite ou doença.",
+      "Cães com dor ortopédica ou abdominal podem evitar essa posição.",
+      "O tutor deve respeitar preferências individuais de toque.",
+      "Carinho deve ser gradual e interrompido se o cão demonstrar incômodo.",
+      "Cannabis medicinal só deve ser usada com prescrição veterinária individualizada.",
+      "THC é potencialmente tóxico para cães."
+    ],
+    "warnings": [
+      "Mudança repentina na aceitação de carinho abdominal exige avaliação veterinária.",
+      "Não force contato físico em cães com sinais de medo, dor ou estresse.",
+      "Produtos com THC podem causar toxicidade em animais.",
+      "Nunca use produtos humanos de cannabis sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/why-do-dogs-like-belly-rubs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-bigodes-dos-caes-funcao-sensorial-importancia-clinica-e-cuid",
+    "title": "Bigodes dos cães: função sensorial, importância clínica e cuidados",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Os bigodes dos cães, chamados vibrissas, são estruturas sensoriais especializadas e não apenas pelos mais grossos. Estão localizados principalmente no focinho, acima dos olhos, nas bochechas e no queixo, com folículos profundamente inseridos e ricos em terminações nervosas. Sua função é captar mudanças sutis no ambiente, como correntes de ar, proximidade de objetos e estímulos táteis, ajudando na orientação espacial e na resposta rápida a ameaças ou obstáculos.\n\nEspécie: canina. Via de administração: não aplicável. Dosagem mg/kg: não aplicável, pois o conteúdo é anatômico-comportamental e não terapêutico.\n\nNa rotina clínica, as vibrissas têm relevância para bem-estar e manejo. Cortá-las não é recomendado, pois isso pode reduzir a capacidade sensorial do cão e gerar desorientação, insegurança ou maior sensibilidade ao ambiente. Em filhotes, elas já estão presentes precocemente e participam da exploração do mundo antes mesmo da visão estar plenamente funcional.\n\nAlém do papel mecânico, os bigodes contribuem para proteção ocular e percepção de espaço em locais estreitos ou com baixa luminosidade. Embora cães dependam menos das vibrissas do que gatos, elas continuam sendo importantes para navegação e leitura do ambiente. Alterações como quebra excessiva, queda localizada, inflamação folicular, dor ao toque ou assimetria podem sugerir dermatopatias, trauma, infecção ou outras condições que merecem investigação.\n\nEm pacientes com ansiedade, dor crônica ou hipersensibilidade, o manejo deve evitar contenção excessiva da face e estímulos repetitivos no focinho. Se houver indicação de cannabis medicinal para comorbidades como ansiedade ou osteoartrite, a escolha do produto e a dose mg/kg devem ser definidas caso a caso pelo veterinário.\n\nAlerta essencial: THC pode ser tóxico para cães, causando ataxia, depressão do sensório, hipersalivação, vômitos, tremores e alterações urinárias. Formulações veterinárias devem priorizar segurança e rastreabilidade.",
+    "key_points": [
+      "Espécie: canina.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável neste tema.",
+      "Bigodes são vibrissas, estruturas sensoriais especializadas.",
+      "Os folículos das vibrissas são ricos em nervos e células sensoriais.",
+      "Ajudam a detectar correntes de ar, objetos próximos e mudanças ambientais.",
+      "Contribuem para orientação espacial e proteção da face e dos olhos.",
+      "Não é recomendado cortar os bigodes do cão.",
+      "Assimetria, dor, inflamação ou queda localizada merecem avaliação veterinária.",
+      "Filhotes desenvolvem vibrissas muito cedo, antes da visão completa.",
+      "Manejo clínico deve respeitar a sensibilidade da região facial.",
+      "THC é potencialmente tóxico para cães."
+    ],
+    "warnings": [
+      "Não corte as vibrissas, pois isso pode prejudicar a percepção sensorial do animal.",
+      "Dor, inflamação ou perda anormal de bigodes pode indicar doença dermatológica ou trauma.",
+      "Produtos com THC apresentam risco de toxicidade em cães.",
+      "Evite uso de produtos humanos de cannabis sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/why-do-dogs-have-whiskers/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-treinamento-de-agility-para-caes-beneficios-preparo-fisico-e",
+    "title": "Treinamento de agility para cães: benefícios, preparo físico e cuidados veterinários",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O agility é uma atividade esportiva em que o cão percorre obstáculos sob orientação do tutor, promovendo exercício físico, estímulo mental e fortalecimento do vínculo. Entre os principais benefícios estão melhora do condicionamento cardiovascular, coordenação motora, propriocepção, foco, obediência e autoconfiança. Também pode ajudar no gasto de energia de cães ativos, desde que o programa seja progressivo e compatível com idade, porte e condição ortopédica.\n\nEspécie: canina. Via de administração: não aplicável. Dosagem mg/kg: não aplicável, pois o tema é exercício e comportamento, não um protocolo medicamentoso.\n\nAntes de iniciar, o cão deve ter comandos básicos consolidados, como senta, fica e vem. Filhotes, idosos e animais com sobrepeso, displasia, osteoartrite, doença cardíaca ou dor crônica precisam de avaliação veterinária prévia. Saltos, rampas, slalom e superfícies instáveis podem agravar lesões musculoesqueléticas quando introduzidos sem preparo. O ideal é começar com baixa intensidade, sessões curtas e reforço positivo.\n\nDo ponto de vista clínico, o agility pode ser útil como parte de um plano multimodal de bem-estar, inclusive em cães com ansiedade leve, desde que o ambiente não seja excessivamente estressante. Em pacientes com osteoartrite ou dor, adaptações são fundamentais. Nesses casos, a cannabis medicinal pode ser considerada como adjuvante analgésico sob prescrição veterinária individualizada, com dose em mg/kg definida conforme produto, resposta clínica e comorbidades.\n\nO tutor deve monitorar sinais de fadiga ou desconforto: claudicação, recusa em saltar, atraso na recuperação, ofegação excessiva, rigidez pós-exercício ou mudança de comportamento. O objetivo não é desempenho a qualquer custo, mas atividade segura e prazerosa.\n\nAlerta importante: produtos contendo THC podem causar toxicidade em cães. Em medicina veterinária, qualquer canabinoide deve ser usado com formulação confiável, acompanhamento clínico e atenção a interações medicamentosas.",
+    "key_points": [
+      "Espécie: canina.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável neste conteúdo esportivo.",
+      "Agility melhora condicionamento físico, coordenação e foco.",
+      "Também fortalece o vínculo entre cão e tutor.",
+      "O cão deve ter obediência básica antes de iniciar.",
+      "Treino deve ser progressivo, curto e baseado em reforço positivo.",
+      "Filhotes, idosos e cães com doença ortopédica precisam de avaliação prévia.",
+      "Sinais de dor incluem claudicação, rigidez e recusa em executar obstáculos.",
+      "Superfícies e obstáculos inadequados aumentam risco de lesão.",
+      "Em cães com osteoartrite, adaptações são essenciais.",
+      "Cannabis medicinal pode ser adjuvante em dor, apenas com prescrição veterinária.",
+      "THC é potencialmente tóxico para cães."
+    ],
+    "warnings": [
+      "Não iniciar agility intenso sem avaliação veterinária em cães com dor, sobrepeso ou doença ortopédica.",
+      "Interrompa o treino se houver claudicação, fadiga excessiva ou recusa súbita.",
+      "Produtos com THC podem causar toxicidade em animais.",
+      "Nunca administre cannabis de uso humano ao cão sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/agility-training-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-oleo-de-coco-para-caes-beneficios-potenciais-uso-oral-e-topi",
+    "title": "Óleo de coco para cães: benefícios potenciais, uso oral e tópico",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O óleo de coco tem sido promovido como suplemento natural para cães, principalmente por conter triglicerídeos de cadeia média (MCTs), como ácido láurico, caprílico e cáprico. Em cães, seu uso é voltado mais ao suporte nutricional e dermatológico do que a uma indicação terapêutica robusta. Os possíveis benefícios incluem melhora temporária do brilho da pelagem, auxílio na hidratação de pele ressecada e oferta de fonte energética de rápida utilização. Também há alegações de suporte digestivo e imunológico, mas a evidência clínica veterinária ainda é limitada.\n\nEspécie: canina. Via de administração: oral (misturado ao alimento) e tópica (aplicação cutânea em pequena quantidade). Dosagem mg/kg: o artigo original não fornece dose em mg/kg. Como referência prática, a introdução deve ser gradual e conservadora, pois o óleo é altamente calórico. Em uso oral, pode-se iniciar com cerca de 0,1 a 0,25 mL/kg por dia, dividido com a alimentação, ajustando conforme tolerância gastrointestinal; a conversão exata para mg/kg varia com a densidade do produto, portanto a prescrição ideal deve ser individualizada pelo médico-veterinário. No uso tópico, aplicar fina camada apenas em áreas pequenas, evitando lambedura excessiva.\n\nOs principais riscos são diarreia, vômitos, ganho de peso e piora de quadros em animais com pancreatite, hiperlipidemia ou sensibilidade gastrointestinal. Em dermatologia, o excesso tópico pode deixar a pele oleosa e favorecer lambedura. O tutor deve preferir óleo de coco virgem ou não refinado e introduzir lentamente.\n\nImportante: este tema não se refere à cannabis medicinal, mas em qualquer rotina de suplementação para pets deve-se evitar confusão com produtos contendo canabinoides. THC é potencialmente tóxico para cães e gatos, podendo causar ataxia, depressão do sistema nervoso central, vômitos, bradicardia, hipotermia e, em casos graves, coma. Produtos de cannabis para animais devem ser isentos ou minimamente traçados em THC e sempre orientados por veterinário.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: oral ou tópica.",
+      "O artigo não traz dose padronizada em mg/kg.",
+      "Introdução oral deve ser gradual e com alimento.",
+      "Pode ajudar temporariamente na pele seca e no brilho da pelagem.",
+      "MCTs são a principal fração de interesse nutricional.",
+      "Excesso pode causar diarreia, vômitos e ganho de peso.",
+      "Cautela em cães com pancreatite ou hiperlipidemia.",
+      "Uso tópico deve ser em pequena quantidade para evitar lambedura.",
+      "Óleo de coco não substitui tratamento veterinário de dermatopatias.",
+      "Preferir produto virgem/não refinado.",
+      "THC é tóxico para animais e não deve ser confundido com suplementos comuns."
+    ],
+    "warnings": [
+      "Evitar ou usar com extrema cautela em cães com pancreatite, obesidade, hiperlipidemia ou doença gastrointestinal.",
+      "Suspender se houver vômitos, diarreia, dor abdominal ou piora do prurido.",
+      "THC é potencialmente tóxico em animais; nunca oferecer produtos com THC sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/benefits-of-coconut-oil-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-shih-tzu-perfil-da-raca-predisposicoes-clinicas-e-cuidados-g",
+    "title": "Shih Tzu: perfil da raça, predisposições clínicas e cuidados gerais",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O Shih Tzu é uma raça canina de pequeno porte, criada historicamente para companhia. Em geral, apresenta temperamento afetuoso, sociável e adaptável à vida em apartamentos, com necessidade moderada de exercício. Seu porte costuma variar em torno de 4 a 7 kg na fase adulta, com pelagem longa e densa que exige escovação frequente e cuidados dermatológicos regulares.\n\nEspécie: canina. Via de administração: não aplicável como tratamento específico, pois o artigo é descritivo sobre raça. Dosagem mg/kg: não aplicável no conteúdo original. Ainda assim, do ponto de vista clínico, o Shih Tzu merece atenção especial em protocolos medicamentosos por ser braquicefálico e predisposto a alterações respiratórias, oftálmicas e dermatológicas; qualquer fármaco, inclusive canabinoides, deve ser calculado individualmente em mg/kg pelo médico-veterinário.\n\nEntre os problemas de saúde mais relevantes da raça estão síndrome braquicefálica, doença periodontal, ceratoconjuntivite seca, úlceras de córnea, dermatites, otites e luxação de patela. O tutor deve monitorar intolerância ao calor, roncos excessivos, secreção ocular, coceira, mau hálito e dificuldade respiratória. Como são cães muito apegados aos tutores, alguns indivíduos podem desenvolver ansiedade de separação ou comportamento de hipervinculação.\n\nNa rotina, recomenda-se controle de peso, higiene oral, tosa higiênica quando necessário, limpeza periocular e acompanhamento veterinário preventivo. Em medicina integrativa, qualquer uso de CBD para ansiedade, dor ou inflamação deve considerar comorbidades, interações medicamentosas e qualidade do produto.\n\nAlerta essencial: THC é tóxico para cães, inclusive para raças pequenas como o Shih Tzu, que podem manifestar sinais clínicos com maior gravidade relativa devido ao baixo peso corporal. Nunca administrar produtos de cannabis humana, comestíveis ou óleos sem formulação veterinária e sem avaliação profissional.",
+    "key_points": [
+      "Espécie: cães.",
+      "Artigo é informativo sobre raça, não sobre tratamento.",
+      "Dosagem mg/kg: não aplicável no texto original.",
+      "Shih Tzu é raça braquicefálica e requer atenção respiratória.",
+      "Predisposição a problemas oculares e dermatológicos.",
+      "Necessita escovação frequente e higiene periocular.",
+      "Pode apresentar doença periodontal com facilidade.",
+      "Controle de peso é importante para saúde geral.",
+      "Pode desenvolver apego excessivo e ansiedade de separação.",
+      "Qualquer medicação deve ser calculada individualmente em mg/kg.",
+      "Raças pequenas são mais vulneráveis a erros de dose.",
+      "THC é tóxico e não deve ser administrado."
+    ],
+    "warnings": [
+      "Cães braquicefálicos têm maior risco de desconforto respiratório e intolerância ao calor.",
+      "Nunca extrapolar doses de medicamentos de outras raças ou de humanos para um Shih Tzu.",
+      "THC é potencialmente tóxico em animais, especialmente em cães de pequeno porte."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/all-about-shih-tzu/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-roupas-para-caes-quando-ajudam-quando-atrapalham-e-como-usar",
+    "title": "Roupas para cães: quando ajudam, quando atrapalham e como usar com segurança",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Roupas para cães podem ser úteis em situações específicas, mas não devem ser tratadas apenas como acessório estético. A aceitação depende do temperamento individual, da sensibilidade tátil e do condicionamento prévio do animal. Alguns cães toleram bem peças leves; outros demonstram estresse, rigidez corporal, tremores, orelhas para trás, tentativa de remover a roupa ou redução da mobilidade.\n\nEspécie: canina. Via de administração: não aplicável, pois não se trata de medicamento. Dosagem mg/kg: não aplicável no conteúdo original. Em contexto clínico, roupas podem ter função adjuvante, como proteção térmica em cães idosos, magros, de pelagem curta ou em clima frio, além de coletes de resfriamento em ambientes quentes e roupas protetoras para certas condições dermatológicas, sempre com orientação veterinária quando houver doença de base.\n\nA peça ideal deve permitir visão, audição, micção, defecação e movimentação normais, sem comprimir pescoço, tórax, axilas ou base da cauda. Tecidos macios e respiráveis reduzem risco de atrito, hot spots e superaquecimento. O uso deve ser introduzido gradualmente, com reforço positivo, e sempre supervisionado. Roupas com tiras soltas, botões pequenos ou enfeites destacáveis aumentam risco de enrosco, estrangulamento ou ingestão acidental.\n\nEm cães com ansiedade, a roupa não deve ser forçada, pois pode piorar o estresse. Se houver tremores, ofegação, congelamento postural ou tentativa persistente de fuga, a peça deve ser removida. Em pacientes dermatológicos, oclusão excessiva pode agravar umidade local e infecções cutâneas.\n\nAlerta importante: embora este tema não seja sobre cannabis medicinal, tutores às vezes associam roupas calmantes a produtos relaxantes. Nunca use produtos com THC para “acalmar” o cão. THC é tóxico para animais e pode causar ataxia, letargia, vômitos, desorientação, incontinência e depressão neurológica.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável no artigo.",
+      "Nem todo cão gosta de usar roupa.",
+      "A adaptação deve ser gradual e com reforço positivo.",
+      "A roupa não pode limitar movimentos nem funções fisiológicas.",
+      "Tecidos respiráveis ajudam a evitar irritação e calor excessivo.",
+      "Pode ser útil em frio, calor extremo ou proteção dermatológica.",
+      "Sempre supervisionar o cão vestido.",
+      "Sinais de estresse indicam que a peça deve ser removida.",
+      "Evitar acessórios com partes pequenas ou tiras soltas.",
+      "THC não deve ser usado para sedação ou relaxamento em pets."
+    ],
+    "warnings": [
+      "Roupas inadequadas podem causar estresse, atrito, superaquecimento e acidentes.",
+      "Não forçar uso em cães com sinais claros de desconforto.",
+      "THC é potencialmente tóxico para animais; nunca utilizar produtos com THC para acalmar o cão."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/do-dogs-like-wearing-clothes/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-racas-de-caes-de-trabalho-policial-relevancia-clinica-e-comp",
+    "title": "Raças de cães de trabalho policial: relevância clínica e comportamental",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Este artigo original descreve raças comumente usadas em trabalho policial, como Pastor Belga Malinois, Pastor Alemão e Bloodhound, destacando faro, obediência, resistência e capacidade de treinamento. Em medicina veterinária, esse tema é mais útil quando traduzido para manejo comportamental, prevenção de lesões e avaliação de estresse ocupacional em cães de trabalho. Esses animais costumam ser submetidos a alta demanda física e mental, com risco aumentado de lesões musculoesqueléticas, ansiedade por hiperestimulação e desgaste articular ao longo da carreira.\n\nEspécie: canina. Via de administração: não aplicável ao conteúdo principal do artigo. Dosagem mg/kg: não informada no artigo original e não aplicável diretamente ao tema comportamental/racial. Ainda assim, em contexto de cannabis medicinal veterinária, qualquer uso de canabinoides em cães de trabalho deve ser individualizado, com avaliação clínica completa, sobretudo quando houver dor crônica, osteoartrite ou ansiedade situacional. Produtos com CBD podem ser considerados apenas sob supervisão veterinária, com atenção ao impacto sobre alerta, desempenho e coordenação.\n\nDo ponto de vista prático, o ponto central é que aptidão para trabalho não depende apenas da raça, mas também de seleção genética, socialização, treinamento progressivo, nutrição, condicionamento físico e acompanhamento veterinário. Cães com excelente olfato e impulso de trabalho podem desenvolver problemas se submetidos a jornadas inadequadas, calor excessivo ou manejo aversivo. O tutor ou condutor deve observar sinais de fadiga, claudicação, hipervigilância, alterações de sono e redução de desempenho.\n\nImportante: embora o artigo mencione detecção de drogas, isso não significa que exposição a cannabis seja segura. Em cães, o THC pode causar intoxicação importante, com ataxia, depressão do sensório, vocalização, hipersalivação, tremores, bradicardia e incontinência. Portanto, qualquer produto veterinário deve ter composição conhecida e teor de THC controlado ou ausente.",
+    "key_points": [
+      "Espécie abordada: canina.",
+      "Tema principal: aptidão de raças para trabalho policial e exigências comportamentais.",
+      "Via de administração: não aplicável ao artigo original.",
+      "Dosagem mg/kg: não informada no texto-fonte.",
+      "Raça sozinha não determina sucesso; treinamento e temperamento são decisivos.",
+      "Cães de trabalho exigem monitoramento ortopédico e comportamental contínuo.",
+      "Alta demanda física pode predispor a lesões e osteoartrite.",
+      "Estresse ocupacional pode se manifestar como ansiedade, hiperalerta e distúrbios do sono.",
+      "Canabinoides em cães de trabalho exigem cautela por possível impacto em desempenho.",
+      "THC é potencialmente tóxico para cães e deve ser evitado."
+    ],
+    "warnings": [
+      "ALERTA: THC pode ser tóxico em cães, mesmo em pequenas exposições relativas.",
+      "Não utilizar produtos de cannabis de uso humano em animais.",
+      "Qualquer uso de CBD em cães de trabalho deve ser supervisionado por médico-veterinário.",
+      "Sedação, ataxia ou redução de atenção podem comprometer a segurança operacional do animal."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/police-dog-breeds/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-tremores-durante-o-sono-em-caes-quando-e-normal-e-quando-inv",
+    "title": "Tremores durante o sono em cães: quando é normal e quando investigar",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O artigo explica que tremores, movimentos de patas, vocalizações leves e contrações faciais durante o sono costumam ser fenômenos normais em cães, especialmente na fase REM, quando há maior atividade cerebral e provável ocorrência de sonhos. Espécie: canina. Via de administração: não aplicável ao conteúdo principal. Dosagem mg/kg: não informada no artigo original.\n\nNa prática clínica, a maioria dos episódios de “twitching” durante o sono representa atividade fisiológica normal. Filhotes e cães idosos podem apresentar movimentos mais perceptíveis, e isso nem sempre indica doença. O ponto de atenção é diferenciar movimentos breves e autolimitados de eventos compatíveis com convulsão, dor, distúrbio neurológico ou intoxicação. Sinais de alerta incluem rigidez intensa, salivação excessiva, perda de urina ou fezes, desorientação ao acordar, episódios prolongados ou ocorrência também quando o animal está desperto.\n\nSe houver suspeita de ansiedade, dor crônica ou distúrbio do sono, a investigação veterinária deve incluir histórico completo, exame físico, avaliação neurológica e revisão de medicamentos e suplementos. Em alguns casos, tutores perguntam sobre cannabis medicinal para relaxamento ou ansiedade noturna. Nesses cenários, o uso de CBD em cães deve ser individualizado e prescrito por veterinário, sempre com produto padronizado e livre de contaminantes. Como o artigo-fonte não fornece protocolo terapêutico, não há dosagem mg/kg específica a extrair dele.\n\nÉ essencial reforçar que THC não deve ser usado empiricamente em cães. Intoxicação por THC pode causar ataxia, letargia, midríase, hipersensibilidade a estímulos, tremores e até sinais que confundem o tutor com piora neurológica. Portanto, diante de tremores anormais no sono, a prioridade é diagnóstico correto, e não automedicação.",
+    "key_points": [
+      "Espécie abordada: canina.",
+      "Tremores leves no sono geralmente são normais durante a fase REM.",
+      "Via de administração: não aplicável ao artigo original.",
+      "Dosagem mg/kg: não informada no texto-fonte.",
+      "Filhotes podem apresentar mais movimentos durante o sono.",
+      "Sinais de alerta incluem rigidez, salivação, desorientação e episódios prolongados.",
+      "É importante diferenciar sonho normal de convulsão ou intoxicação.",
+      "Dor, ansiedade e doenças neurológicas entram no diagnóstico diferencial.",
+      "CBD só deve ser considerado com orientação veterinária e produto padronizado.",
+      "THC pode imitar ou agravar sinais neurológicos em cães."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para cães e pode causar ataxia, tremores e depressão neurológica.",
+      "Não administrar comestíveis de cannabis, óleos humanos ou produtos sem laudo em animais.",
+      "Procure atendimento veterinário se os episódios ocorrerem também em vigília ou vierem acompanhados de perda de consciência.",
+      "Convulsões e intoxicações podem ser confundidas com movimentos normais do sono."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/is-it-normal-for-dogs-to-twitch-in-their-sleep/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-perfil-do-mini-goldendoodle-consideracoes-veterinarias-compo",
+    "title": "Perfil do mini goldendoodle: considerações veterinárias, comportamento e manejo",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O mini goldendoodle é um cão híbrido derivado de Golden Retriever e Poodle Miniatura, valorizado por sociabilidade, inteligência e porte reduzido. O artigo original enfatiza temperamento afetuoso, boa convivência com famílias e necessidade de estímulo mental e exercício diário. Espécie: canina. Via de administração: não aplicável ao conteúdo principal. Dosagem mg/kg: não informada no artigo original.\n\nDo ponto de vista veterinário, o mais importante é entender que, apesar da popularidade, não existe garantia de padronização completa em cães mestiços de desenho. O mini goldendoodle pode herdar predisposições ortopédicas, dermatológicas, gastrointestinais e comportamentais de ambas as linhagens. Como são cães inteligentes e muito ligados aos tutores, podem apresentar ansiedade de separação, vocalização excessiva e comportamentos destrutivos quando ficam sozinhos por longos períodos.\n\nA rotina ideal inclui enriquecimento ambiental, treino com reforço positivo, atividade física compatível com a idade e acompanhamento preventivo regular. Em animais com ansiedade, dor osteoarticular ou inflamação crônica, alguns tutores buscam cannabis medicinal. Nesses casos, qualquer protocolo deve ser individualizado por médico-veterinário, com produto de qualidade controlada. O artigo-fonte não traz posologia, portanto não há dosagem mg/kg específica a resumir.\n\nTambém é relevante orientar que “hipoalergênico” não significa ausência total de alérgenos, e a pelagem pode demandar manutenção frequente. Antes da aquisição, o tutor deve avaliar tempo disponível, custo de tosa, treinamento e possibilidade de acompanhamento clínico ao longo da vida.\n\nSe houver interesse em canabinoides para ansiedade ou dor, a segurança depende da formulação. Produtos com THC representam risco para cães e não devem ser usados sem prescrição e controle rigoroso. Em medicina veterinária, a prioridade é sempre diagnóstico, manejo ambiental e tratamento baseado em evidências.",
+    "key_points": [
+      "Espécie abordada: canina.",
+      "Mini goldendoodle é um híbrido de Golden Retriever com Poodle Miniatura.",
+      "Via de administração: não aplicável ao artigo original.",
+      "Dosagem mg/kg: não informada no texto-fonte.",
+      "São cães sociáveis, inteligentes e com alta necessidade de interação.",
+      "Podem desenvolver ansiedade de separação se ficarem sozinhos por muito tempo.",
+      "Exigem exercício diário e enriquecimento ambiental.",
+      "Podem herdar predisposições de saúde das raças parentais.",
+      "Pelagem pode demandar tosa e manutenção frequentes.",
+      "THC deve ser evitado em cães devido ao risco de intoxicação."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para cães e pode causar sinais neurológicos e cardiovasculares.",
+      "Não usar produtos de cannabis de uso humano em mini goldendoodles ou qualquer cão.",
+      "Ansiedade comportamental deve ser avaliada clinicamente antes de considerar canabinoides.",
+      "A falta de padronização genética do híbrido exige acompanhamento veterinário individualizado."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/mini-goldendoodle-breed-profile/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-meu-cao-bebeu-cafe-o-que-fazer-e-quando-e-emergencia",
+    "title": "Meu cão bebeu café: o que fazer e quando é emergência",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O café não é seguro para cães. A cafeína é um estimulante do sistema nervoso central e cardiovascular, podendo causar sinais clínicos que variam de agitação leve a arritmias, convulsões e morte, dependendo da dose ingerida, do porte do animal e de doenças pré-existentes. Em cães, uma referência citada no artigo é dose potencialmente fatal em torno de 150 mg por 1 kg de peso corporal. Ainda assim, doses menores já podem ser tóxicas e justificar avaliação veterinária.\n\nEspécie: canina. Via de administração: oral, por ingestão de café, bebidas energéticas, cápsulas, borra ou produtos com cafeína. Dosagem mg/kg: risco grave relatado a partir de aproximadamente 150 mg/kg; qualquer ingestão relevante deve ser considerada potencialmente tóxica.\n\nOs sinais mais comuns incluem tremores, inquietação, taquicardia, nervosismo, vômitos, diarreia e, posteriormente, letargia. Cães idosos e pacientes com cardiopatias podem apresentar quadros mais severos. Se o cão apenas lambeu pequena quantidade derramada, pode não desenvolver sintomas, especialmente se for de grande porte. Já ingestão de volumes maiores, café expresso, bebidas especiais concentradas ou múltiplas fontes de cafeína exige contato imediato com o veterinário.\n\nA conduta inicial é retirar o acesso ao produto, estimar quanto foi ingerido, observar o horário da ingestão e monitorar sinais clínicos. Não ofereça leite, óleo ou “antídotos caseiros”. O tratamento veterinário pode incluir descontaminação, fluidoterapia, controle de tremores, antieméticos e monitorização cardíaca.\n\nImportante: este tema não envolve cannabis medicinal, mas vale o alerta geral de segurança. Produtos com THC também são tóxicos para animais e nunca devem ser administrados sem orientação veterinária. Em medicina veterinária canabinoide, sempre confirmar espécie, via de administração e dose em mg/kg, priorizando formulações seguras e livres de THC ou com teor estritamente controlado.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração envolvida: oral.",
+      "Cafeína nunca é considerada segura para cães.",
+      "Dose potencialmente fatal citada: cerca de 150 mg/kg.",
+      "Doses menores já podem causar toxicidade clínica.",
+      "Sinais comuns: tremores, agitação, taquicardia, vômitos e diarreia.",
+      "Pode haver convulsões e arritmias em casos graves.",
+      "Cães idosos e cardiopatas têm maior risco.",
+      "Pequenos volumes podem não causar sinais em cães grandes, mas exigem observação.",
+      "Café expresso e bebidas especiais têm maior concentração de cafeína.",
+      "Procure o veterinário se houve ingestão moderada a grande ou se surgirem sintomas.",
+      "THC também é tóxico para animais e requer cautela extrema."
+    ],
+    "warnings": [
+      "Não induza vômito em casa sem orientação veterinária.",
+      "Bebidas energéticas, cápsulas de cafeína, borra de café e chocolate podem agravar o quadro.",
+      "THC é tóxico para animais; evitar exposição a óleos, comestíveis e flores com THC."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/dog-drank-coffee/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-caes-podem-comer-amora-preta-beneficios-limites-e-cuidados",
+    "title": "Cães podem comer amora-preta? Benefícios, limites e cuidados",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "A amora-preta pode ser oferecida a cães como petisco ocasional, em pequenas quantidades, desde que faça parte de uma dieta equilibrada. É uma fruta com fibras, vitaminas e antioxidantes, podendo contribuir de forma complementar para saúde intestinal e suporte antioxidante. No entanto, não substitui alimento completo nem deve ser dada em excesso.\n\nEspécie: canina. Via de administração: oral. Dosagem mg/kg: o artigo não fornece dose em mg/kg para amora-preta; na prática, oferecer apenas pequenas porções ocasionais, ajustadas ao porte do cão, evitando excessos por risco gastrointestinal. Como referência clínica, iniciar com quantidade muito pequena e observar tolerância individual.\n\nEntre os nutrientes citados estão vitaminas A, B, C, E e K, além de antocianinas e fibras. Esses compostos podem auxiliar na proteção celular, saúde da pele, função imune e digestão. A fruta pode ser servida fresca ou congelada, inteira em pequena quantidade, picada, amassada na comida ou em brinquedos recheáveis.\n\nOs principais cuidados são: evitar produtos com açúcar adicionado, xaropes ou xilitol industrial; confirmar a identificação correta da fruta; e não exagerar na quantidade. Embora o texto mencione traços naturais de compostos relacionados ao dulçor, o maior risco prático em clínica é o consumo de produtos processados contendo xilitol adicionado, que é altamente tóxico para cães.\n\nSe houver vômitos, diarreia, dor abdominal ou hipoglicemia suspeita após ingestão de produto adoçado, procure atendimento veterinário. E, embora este artigo não trate de cannabis, reforço um ponto essencial de segurança: THC é tóxico para animais. Em qualquer protocolo veterinário com canabinoides, a espécie, a via de administração e a dose em mg/kg devem ser definidas por profissional habilitado.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: oral.",
+      "Amora-preta pode ser oferecida como petisco ocasional.",
+      "Não há dose em mg/kg definida no artigo para a fruta.",
+      "Oferecer pequenas quantidades e observar tolerância.",
+      "Pode fornecer fibras, vitaminas e antioxidantes.",
+      "Pode ser servida fresca, congelada, picada ou amassada.",
+      "Evite produtos processados com açúcar ou xilitol.",
+      "Excesso pode causar desconforto gastrointestinal.",
+      "Não substitui dieta completa e balanceada.",
+      "Se houver sinais clínicos após ingestão, contate o veterinário.",
+      "THC também é tóxico para animais."
+    ],
+    "warnings": [
+      "Nunca ofereça produtos com xilitol adicionado; é altamente tóxico para cães.",
+      "Frutas em excesso podem causar vômitos, diarreia e dor abdominal.",
+      "THC é tóxico para animais e não deve ser oferecido sem supervisão veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/can-dogs-eat-blackberries/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-tudo-sobre-exposicoes-caninas-contexto-beneficios-e-limitaco",
+    "title": "Tudo sobre exposições caninas: contexto, benefícios e limitações",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "As exposições caninas são eventos competitivos voltados à avaliação de cães conforme padrões raciais, apresentação, estrutura e desempenho, dependendo da modalidade. O artigo aborda a história e a popularidade desses eventos, destacando que eles despertam tanto interesse quanto críticas. Embora não seja um tema médico, há implicações importantes de bem-estar animal que merecem atenção veterinária.\n\nEspécie: canina. Via de administração: não aplicável. Dosagem mg/kg: não aplicável, pois o conteúdo não trata de fármacos, cannabis ou suplementação.\n\nHistoricamente, os primeiros registros formais de exposições datam do século XIX, inicialmente com foco em identificar linhagens reprodutivas. Com o tempo, os eventos passaram a incluir mais raças e ganharam caráter competitivo e cultural. Hoje, grandes exposições atraem milhares de cães e ampla audiência, movimentando valores expressivos com preparação, deslocamento e manejo.\n\nEntre os possíveis benefícios, estão socialização entre tutores, estímulo ao treinamento, valorização de características raciais e promoção de atividades organizadas com cães. Por outro lado, há críticas relacionadas a padrões estéticos extremos, pressão sobre criadores, grooming excessivo e risco de priorizar aparência em detrimento de saúde e funcionalidade.\n\nDo ponto de vista veterinário, o ideal é que qualquer participação em exposições preserve bem-estar físico e emocional do animal, com atenção a vacinação, controle de estresse, hidratação, temperatura ambiente, prevenção de doenças infectocontagiosas e seleção ética para reprodução. Cães ansiosos, reativos ou com limitações ortopédicas podem não se beneficiar desse ambiente.\n\nAinda que o artigo não trate de cannabis medicinal, vale o alerta: não se deve usar produtos com THC para “acalmar” cães antes de eventos. THC é tóxico para animais. Se houver necessidade de manejo de ansiedade, a avaliação veterinária deve definir a estratégia mais segura, sempre com espécie, via de administração e dose em mg/kg quando houver prescrição.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável neste tema.",
+      "Exposições caninas têm origem histórica no século XIX.",
+      "Hoje envolvem grande público e alto investimento financeiro.",
+      "Podem estimular treinamento e interação entre tutores.",
+      "Também geram críticas sobre estética excessiva e reprodução seletiva.",
+      "Bem-estar animal deve ser prioridade em qualquer evento.",
+      "Vacinação, hidratação e controle de estresse são essenciais.",
+      "Nem todo cão tem perfil comportamental para exposições.",
+      "Avaliação veterinária é recomendada antes da participação.",
+      "THC não deve ser usado para sedação ou relaxamento em animais."
+    ],
+    "warnings": [
+      "Não utilizar THC para reduzir ansiedade pré-evento; é tóxico para animais.",
+      "Ambientes com muitos cães aumentam risco de estresse e doenças infectocontagiosas.",
+      "Cães com problemas ortopédicos, cardíacos ou comportamentais podem precisar restrição de participação."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/all-about-dog-shows/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-caes-tem-pata-dominante-o-que-isso-pode-indicar-sobre-compor",
+    "title": "Cães têm pata dominante? O que isso pode indicar sobre comportamento e lateralização",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Assim como humanos podem ser destros ou canhotos, muitos cães também demonstram preferência consistente por uma pata. Esse fenômeno é chamado de lateralização cerebral, em que os hemisférios direito e esquerdo do cérebro processam funções e comportamentos de forma diferente. Em cães, a distribuição entre preferência pela pata direita e esquerda tende a ser mais equilibrada do que em humanos. Estudos observacionais sugerem ainda que fêmeas podem apresentar maior tendência à pata direita, e cães idosos costumam mostrar preferência mais estável do que cães jovens.\n\nNa prática, a pata dominante pode ser observada em tarefas simples do dia a dia. Entre os testes mais usados estão o “step-off test”, avaliando qual membro o cão usa para dar o primeiro passo a partir da posição parada, e o “Kong test”, observando qual pata utiliza repetidamente para estabilizar um brinquedo recheado. Outros sinais incluem oferecer sempre a mesma pata, alcançar brinquedos com o mesmo membro ou girar preferencialmente para um lado ao deitar.\n\nDo ponto de vista clínico, esse tema é comportamental e neurológico, não um protocolo terapêutico com cannabis medicinal. Portanto, não há dosagem em mg/kg aplicável para este conteúdo. Espécie: canina. Via de administração: não aplicável. Ainda assim, tutores que buscam cannabis para ansiedade, dor ou epilepsia devem evitar extrapolar observações comportamentais simples, como pata dominante, para decisões terapêuticas.\n\nEm medicina veterinária canabinoide, qualquer uso de CBD ou outros fitocanabinoides deve ser individualizado conforme peso, condição clínica, formulação e acompanhamento profissional. Produtos com THC representam risco importante para cães, podendo causar ataxia, depressão do sensório, vômitos, bradicardia, hipotermia e incontinência urinária. Nunca ofereça produtos humanos de cannabis ao animal sem orientação veterinária.",
+    "key_points": [
+      "Muitos cães apresentam preferência por pata direita ou esquerda.",
+      "A lateralização cerebral também ocorre em cães.",
+      "Fêmeas e cães idosos podem mostrar preferência mais marcada.",
+      "Testes caseiros incluem observar o primeiro passo e o uso da pata no brinquedo tipo Kong.",
+      "A pata dominante é um achado comportamental, não um diagnóstico de doença.",
+      "Espécie: canina.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável para este tema.",
+      "Não use esse achado isoladamente para decidir tratamentos.",
+      "Cannabis medicinal em cães exige avaliação veterinária individual.",
+      "THC pode ser tóxico para cães, mesmo em pequenas exposições relativas."
+    ],
+    "warnings": [
+      "Não há indicação de dosagem de cannabis mg/kg para pata dominante, pois o tema não é terapêutico.",
+      "Evite interpretar preferência de pata como sinal definitivo de problema neurológico sem exame clínico.",
+      "Produtos com THC são potencialmente tóxicos para cães e não devem ser administrados sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/do-dogs-have-a-dominant-paw/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-refluxo-acido-em-caes-sinais-clinicos-fatores-de-risco-e-man",
+    "title": "Refluxo ácido em cães: sinais clínicos, fatores de risco e manejo",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O refluxo ácido, ou refluxo gastroesofágico, ocorre quando o conteúdo do estômago retorna ao esôfago por falha do esfíncter esofágico inferior. Em cães, isso pode causar irritação esofágica, desconforto, regurgitação e piora da qualidade de vida. Espécie: canina. Via de administração de cannabis: oral, quando houver indicação veterinária para comorbidades associadas; porém não existe dosagem mg/kg padronizada e validada para tratar refluxo ácido com cannabis.\n\nEntre os fatores predisponentes estão dietas gordurosas, refeições volumosas, obesidade, hérnia de hiato, alterações anatômicas e maior predisposição em raças braquicefálicas, como Bulldog e Pug. O esôfago funciona como um tubo de condução entre boca e estômago, e o esfíncter esofágico inferior deveria impedir o refluxo. Quando isso falha, o ácido e outros conteúdos gástricos lesionam a mucosa esofágica.\n\nOs sinais mais comuns incluem regurgitação logo após comer, vômitos recorrentes, desconforto ao engolir, salivação excessiva, inapetência e, em alguns casos, perda de peso. O manejo costuma envolver ajuste alimentar com refeições menores e mais frequentes, dieta de fácil digestão e menor teor de gordura, além de investigação da causa de base. Casos persistentes exigem avaliação veterinária para descartar esofagite, aspiração pulmonar e doenças estruturais.\n\nEmbora alguns tutores perguntem sobre CBD para náusea, dor ou ansiedade associadas ao desconforto gastrointestinal, o artigo não fornece protocolo terapêutico canabinoide. Assim, dosagem mg/kg para refluxo: não estabelecida. Se houver uso de cannabis medicinal para outra condição concomitante, a escolha deve considerar formulação, concentração, interações medicamentosas e monitoramento clínico.\n\nImportante: produtos contendo THC podem agravar sinais neurológicos e gastrointestinais em cães intoxicados. Nunca substitua tratamento veterinário do refluxo por produtos de cannabis sem supervisão profissional.",
+    "key_points": [
+      "Refluxo ácido em cães é o retorno do conteúdo gástrico ao esôfago.",
+      "Espécie: canina.",
+      "Via de administração de cannabis, se prescrita para outra condição: oral.",
+      "Dosagem mg/kg de cannabis para refluxo: não estabelecida.",
+      "Dietas gordurosas e refeições grandes podem piorar o quadro.",
+      "Braquicefálicos e cães obesos têm maior risco.",
+      "Regurgitação é diferente de vômito e pode ocorrer logo após comer.",
+      "Refeições menores e mais frequentes ajudam no manejo.",
+      "Casos persistentes precisam de avaliação veterinária.",
+      "Cannabis não é tratamento padrão para refluxo gastroesofágico.",
+      "THC é potencialmente tóxico para cães."
+    ],
+    "warnings": [
+      "Não há evidência suficiente para recomendar cannabis medicinal como tratamento primário do refluxo em cães.",
+      "Regurgitação crônica pode levar a esofagite e complicações respiratórias.",
+      "Produtos com THC podem causar toxicidade em animais, com sinais neurológicos e gastrointestinais."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/acid-reflux-in-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-gatos-podem-tomar-tylenol-acetaminofeno-nao-e-potencialmente",
+    "title": "Gatos podem tomar Tylenol (acetaminofeno)? Não — é potencialmente fatal",
+    "category": "toxicidade-thc",
+    "area": "veterinary",
+    "content": "Tylenol, cujo princípio ativo é o acetaminofeno (paracetamol), não é seguro para gatos. Espécie: felina. Via de administração: oral em exposições acidentais ou intencionais, mas seu uso não é recomendado. Dosagem mg/kg: não existe dose segura para administração domiciliar em gatos; mesmo pequenas quantidades podem causar intoxicação grave e potencialmente fatal.\n\nOs gatos possuem capacidade metabólica hepática limitada para processar acetaminofeno. Como resultado, formam metabólitos tóxicos que lesionam hemácias, fígado e, em alguns casos, rins. Um dos efeitos mais importantes é a metemoglobinemia, em que a hemoglobina perde a capacidade de transportar oxigênio adequadamente. Isso pode levar a mucosas amarronzadas ou azuladas, fraqueza intensa, taquipneia, edema facial, hipotermia e colapso. Além disso, pode ocorrer necrose hepática com vômitos, letargia, icterícia e evolução rápida para insuficiência orgânica.\n\nDiante de qualquer suspeita de ingestão, o tutor deve procurar atendimento veterinário imediatamente. O tempo até o tratamento é decisivo. Não se deve induzir vômito ou oferecer medicações caseiras sem orientação. Em ambiente veterinário, o tratamento pode incluir descontaminação quando indicada, oxigenioterapia, fluidoterapia, monitoramento laboratorial e antídotos específicos, conforme avaliação clínica.\n\nPara dor em gatos, alternativas analgésicas devem ser prescritas exclusivamente por médico-veterinário. Em alguns contextos, tutores perguntam sobre cannabis medicinal para dor crônica ou osteoartrite felina. No entanto, este artigo não apresenta protocolo de CBD. Portanto, dosagem mg/kg de cannabis: não aplicável ao conteúdo original. Se houver consideração de canabinoides, isso deve ser feito com extrema cautela, preferindo formulações sem THC e com acompanhamento profissional.\n\nAlerta essencial: THC também pode ser tóxico para gatos e cães. Nunca ofereça produtos humanos de cannabis, comestíveis ou óleos sem avaliação veterinária.",
+    "key_points": [
+      "Tylenol (acetaminofeno/paracetamol) não é seguro para gatos.",
+      "Espécie: felina.",
+      "Via de administração em intoxicações: geralmente oral.",
+      "Dosagem mg/kg segura: não estabelecida; pequenas doses podem ser fatais.",
+      "O acetaminofeno pode causar metemoglobinemia em gatos.",
+      "Também pode provocar lesão hepática grave.",
+      "Sinais incluem fraqueza, dificuldade respiratória, mucosas alteradas e edema facial.",
+      "Suspeita de ingestão exige atendimento veterinário imediato.",
+      "Não medique gatos com analgésicos humanos sem prescrição.",
+      "Cannabis não substitui atendimento de emergência em intoxicações.",
+      "THC também apresenta risco de toxicidade em animais."
+    ],
+    "warnings": [
+      "Paracetamol/acetaminofeno é potencialmente fatal para gatos, mesmo em pequenas quantidades.",
+      "Não existe dose caseira segura de Tylenol para felinos.",
+      "THC é tóxico para animais e produtos humanos de cannabis não devem ser administrados sem orientação veterinária."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/can-cats-have-tylenol/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-doenca-renal-em-gatos-sinais-clinicos-causas-e-cuidados",
+    "title": "Doença renal em gatos: sinais clínicos, causas e cuidados",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "A doença renal crônica (DRC) é uma condição frequente em gatos idosos, especialmente acima de 10 anos, na qual os rins perdem progressivamente a capacidade de filtrar toxinas, regular água e eletrólitos, participar do controle da pressão arterial e estimular a produção de glóbulos vermelhos. Como a progressão costuma ser lenta, muitos gatos só apresentam sinais quando já existe perda funcional importante.\n\nOs sinais clínicos mais comuns incluem aumento da sede e da micção, perda de peso, apetite reduzido, vômitos, hálito urêmico, letargia, fraqueza e piora da pelagem. Em fases mais avançadas, podem ocorrer desidratação, anemia, hipertensão e úlceras orais. É importante diferenciar DRC de insuficiência renal aguda, que surge de forma súbita e pode estar associada a intoxicações, trauma ou infecções graves.\n\nAs causas possíveis incluem envelhecimento, predisposição genética, infecções renais, hipertensão, neoplasias, uso de certos medicamentos e exposição a toxinas, como anticongelante (etilenoglicol), altamente tóxico para felinos. Em muitos casos, a causa exata permanece indefinida.\n\nO diagnóstico precoce depende de consultas regulares, exames de sangue, urinálise, mensuração da pressão arterial e, quando indicado, ultrassonografia. O tratamento convencional pode envolver dieta renal, fluidoterapia, controle de fósforo, antieméticos, tratamento da hipertensão e manejo da proteinúria.\n\nNo contexto da cannabis medicinal, não há neste artigo dados de dosagem mg/kg, via de administração ou protocolo específico para DRC felina. Em gatos, qualquer uso de canabinoides deve ser individualizado pelo médico-veterinário. Produtos com THC oferecem risco de toxicidade e devem ser evitados. Se houver interesse em suporte adjuvante com cannabis, prioriza-se formulações veterinárias com teor desprezível de THC, com monitoramento clínico e laboratorial.",
+    "key_points": [
+      "A DRC é comum em gatos idosos, principalmente acima de 10 anos.",
+      "Os rins regulam filtração de toxinas, hidratação, eletrólitos e pressão arterial.",
+      "Sinais comuns: beber mais água, urinar mais, emagrecimento e vômitos.",
+      "A doença pode evoluir silenciosamente por longo período.",
+      "Insuficiência renal aguda é diferente da DRC e costuma ter início súbito.",
+      "Anticongelante é extremamente tóxico para gatos e pode causar lesão renal grave.",
+      "Hipertensão, infecção, câncer e alguns medicamentos podem contribuir.",
+      "Exames de sangue e urina são essenciais para diagnóstico precoce.",
+      "Não há dosagem mg/kg de cannabis informada neste artigo para gatos com DRC.",
+      "Em felinos, produtos com THC devem ser evitados devido ao risco de toxicidade."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para animais, inclusive gatos, e pode causar depressão neurológica, ataxia, vômitos e alterações cardiovasculares.",
+      "Não existe neste artigo protocolo de dosagem mg/kg ou via de administração de cannabis para DRC felina.",
+      "Nunca substituir tratamento renal convencional por cannabis sem supervisão veterinária.",
+      "Suspeita de intoxicação por anticongelante é emergência veterinária imediata."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/kidney-disease-in-cats/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-cao-ingeriu-comestivel-com-thc-conduta-imediata-e-sinais-de-",
+    "title": "Cão ingeriu comestível com THC: conduta imediata e sinais de intoxicação",
+    "category": "toxicidade-thc",
+    "area": "veterinary",
+    "content": "A ingestão de comestíveis com THC por cães é uma urgência veterinária. Embora raramente seja fatal com atendimento adequado, a intervenção rápida é essencial. O primeiro passo é manter a calma e contatar imediatamente um veterinário ou clínica de emergência, informando o tipo de produto ingerido, a quantidade estimada, o horário da ingestão e o peso do animal.\n\nO THC afeta os cães de forma mais intensa do que os humanos, pois eles são particularmente sensíveis aos efeitos neurológicos do canabinoide. Os sinais clínicos podem surgir em 30 minutos a algumas horas e incluem letargia, depressão, ataxia, tropeços, midríase, olhos vítreos, sialorreia, vômitos, diarreia, ansiedade, vocalização e incontinência urinária. Em casos mais graves, podem ocorrer tremores, bradicardia, hipotermia, hiperexcitabilidade ou estupor.\n\nAlém do THC, muitos comestíveis contêm chocolate, xilitol, cafeína ou grandes quantidades de gordura, o que aumenta o risco e pode agravar o quadro. Por isso, o produto ingerido deve ser identificado com precisão.\n\nNão há neste artigo uma dosagem mg/kg de THC considerada segura para cães. Na prática clínica, qualquer exposição é potencialmente preocupante, e a gravidade depende da dose ingerida, da concentração do produto, da via de administração oral e do porte do animal. A via descrita neste contexto é oral, por ingestão acidental de comestível, e a espécie é canina.\n\nO tratamento costuma ser de suporte e pode incluir descontaminação quando indicada precocemente, fluidoterapia, controle de temperatura, monitoramento cardiovascular e manejo de sinais neurológicos. Nunca tente medicar o cão em casa sem orientação profissional.",
+    "key_points": [
+      "Espécie: canina.",
+      "Via de administração no acidente: oral, por ingestão de comestível.",
+      "THC pode causar intoxicação importante em cães.",
+      "Os sinais podem começar entre 30 minutos e algumas horas.",
+      "Sintomas comuns: letargia, ataxia, vômitos, sialorreia e pupilas dilatadas.",
+      "Pequenos cães tendem a apresentar quadros mais intensos.",
+      "Chocolate e xilitol no comestível aumentam muito o risco.",
+      "Contatar emergência veterinária imediatamente é a principal conduta.",
+      "Não há dosagem mg/kg segura de THC informada no artigo.",
+      "O tratamento geralmente é de suporte e monitoramento."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para animais e deve ser evitado em cães.",
+      "Não existe dose recreativa segura de THC para cães.",
+      "Comestíveis podem conter chocolate, xilitol ou cafeína, que também são tóxicos.",
+      "Não induza vômito em casa sem orientação veterinária.",
+      "Se houver tremores, estupor, convulsões ou dificuldade respiratória, procure emergência imediatamente."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/dog-ate-edibles/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-xanax-alprazolam-para-ansiedade-em-caes-uso-veterinario-e-ca",
+    "title": "Xanax (alprazolam) para ansiedade em cães: uso veterinário e cautelas",
+    "category": "ansiedade",
+    "area": "veterinary",
+    "content": "O alprazolam, conhecido comercialmente como Xanax, é um benzodiazepínico utilizado na medicina veterinária para manejo de ansiedade em cães. Ele atua potencializando o efeito do GABA, neurotransmissor com ação inibitória no sistema nervoso central, promovendo relaxamento, redução do medo e, em alguns casos, sedação. Pode ser indicado em episódios agudos de ansiedade, como fogos, tempestades, separação e situações de pânico.\n\nEm cães, o início de ação costuma ocorrer em cerca de 1 hora, com efeito por algumas horas. Em geral, é considerado uma ferramenta de curto prazo e frequentemente é associado a modificação comportamental e outras estratégias de manejo ambiental.\n\nO artigo original reforça que a dosagem deve ser definida pelo médico-veterinário conforme peso, idade, raça, estado clínico e intensidade da ansiedade. Entretanto, não fornece um valor específico de dosagem em mg/kg. Assim, neste material, a dosagem mg/kg permanece não informada. A via de administração usual do alprazolam em cães é oral, e a espécie abordada é canina.\n\nOs efeitos adversos podem incluir sedação excessiva, ataxia, agitação paradoxal, aumento do apetite e alterações comportamentais. O uso inadequado pode elevar o risco de depressão do sistema nervoso central, especialmente se combinado com outros sedativos. Cães com doença hepática, geriátricos ou debilitados exigem cautela adicional.\n\nPara tutores interessados em cannabis medicinal para ansiedade canina, este artigo não apresenta protocolo de canabinoides. Se houver avaliação para uso de CBD, a escolha deve ser feita com produto veterinário padronizado e com teor mínimo ou ausente de THC. O THC deve ser evitado, pois pode causar toxicidade em cães e piorar sinais neurológicos e comportamentais.",
+    "key_points": [
+      "Espécie: canina.",
+      "Via de administração usual do alprazolam: oral.",
+      "Indicado para ansiedade aguda, pânico, fogos e tempestades.",
+      "Age aumentando a atividade do GABA no cérebro.",
+      "O efeito costuma iniciar em cerca de 1 hora.",
+      "Geralmente é usado como solução de curto prazo.",
+      "A dose mg/kg não foi informada no artigo original.",
+      "A prescrição deve ser individualizada pelo veterinário.",
+      "Pode causar sedação, ataxia ou agitação paradoxal.",
+      "Cannabis para ansiedade canina exige formulação com THC mínimo ou ausente."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para animais e não deve ser usado indiscriminadamente em cães ansiosos.",
+      "Não administrar alprazolam sem prescrição veterinária.",
+      "A dose mg/kg não está disponível neste artigo e não deve ser presumida.",
+      "Cuidado com associação a outros depressores do sistema nervoso central.",
+      "Procure o veterinário se houver sedação intensa, desorientação ou piora do comportamento."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/your-guide-to-xanax-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-exercicio-em-caes-como-ajustar-a-rotina-com-seguranca-e-quan",
+    "title": "Exercício em cães: como ajustar a rotina com segurança e quando considerar suporte para osteoartrite",
+    "category": "osteoartrite",
+    "area": "veterinary",
+    "content": "O artigo aborda necessidades de exercício em cães, mas para uso clínico em cannabis medicinal o ponto mais relevante é a adaptação da atividade física em pacientes com dor articular, limitação locomotora ou envelhecimento. Em cães, a necessidade de exercício varia conforme idade, porte, raça e condição médica. Filhotes costumam tolerar sessões curtas e frequentes; adultos ativos podem precisar de 60 minutos ou mais por dia; idosos geralmente se beneficiam de atividade leve e regular. Em pacientes com desconforto articular, caminhadas curtas, controladas e consistentes tendem a ser mais adequadas do que exercícios intensos.\n\nNa prática veterinária, canabinoides podem ser considerados como adjuvantes em cães com osteoartrite ou dor crônica para melhorar conforto e facilitar adesão ao exercício terapêutico. A espécie citada é canina, e a via de administração mais usada em estudos e na rotina é oral, com óleo ou mastigáveis. Faixas de dosagem de CBD em cães frequentemente utilizadas na literatura clínica ficam em torno de 0,5 a 2 mg/kg por via oral a cada 12 horas, com individualização conforme resposta, comorbidades e produto utilizado. Em alguns protocolos, inicia-se mais baixo e titula-se gradualmente.\n\nO objetivo não é substituir condicionamento físico, controle de peso e fisioterapia, mas reduzir dor e rigidez para permitir mobilidade mais segura. Cães braquicefálicos exigem atenção extra por risco de intolerância ao calor e esforço. Já cães idosos ou com doença ortopédica devem ser monitorados quanto a claudicação, fadiga excessiva e piora após atividade. Antes de iniciar canabinoides, é prudente revisar medicações concomitantes, função hepática e qualidade do produto.\n\nEm resumo, exercício continua sendo parte central do manejo, mas em cães com osteoartrite o suporte com CBD pode ser considerado como terapia complementar, sempre com acompanhamento veterinário e evitando qualquer exposição a produtos com THC.",
+    "key_points": [
+      "Espécie: cães.",
+      "Tema clínico aplicável: osteoartrite e dor articular associadas à limitação de exercício.",
+      "Via de administração mais comum para canabinoides: oral (óleo, solução ou mastigável).",
+      "Faixa prática de CBD em cães: 0,5 a 2 mg/kg VO a cada 12 horas, com titulação individual.",
+      "Filhotes toleram melhor sessões curtas e frequentes de atividade.",
+      "Cães adultos ativos podem precisar de 60 minutos ou mais por dia.",
+      "Cães idosos se beneficiam de exercício leve, regular e de baixo impacto.",
+      "Em dor articular, caminhadas curtas são preferíveis a exercícios intensos.",
+      "Controle de peso e fisioterapia potencializam o benefício clínico.",
+      "Braquicefálicos têm maior risco de superaquecimento e intolerância ao esforço.",
+      "Monitorar claudicação, fadiga e piora da dor após atividade.",
+      "Canabinoides devem ser usados como adjuvantes, não como substitutos do manejo global."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para animais, especialmente cães; evitar produtos humanos, comestíveis e formulações não veterinárias.",
+      "CBD pode interagir com outros fármacos e exigir monitoramento clínico e laboratorial.",
+      "Não iniciar suplementação sem avaliação veterinária em cães com doença hepática, neurológica ou uso de múltiplos medicamentos."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/how-much-exercise-does-dog-need/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-enriquecimento-ambiental-e-brinquedos-para-caes-aplicacao-em",
+    "title": "Enriquecimento ambiental e brinquedos para cães: aplicação em ansiedade e bem-estar",
+    "category": "ansiedade",
+    "area": "veterinary",
+    "content": "O conteúdo original é um guia de presentes para cães, mas sua utilidade clínica está no enriquecimento ambiental e na redução de tédio, frustração e ansiedade. Brinquedos interativos, jogos de farejamento, bolas, frisbees e quebra-cabeças ajudam a promover exercício físico e estimulação mental, fatores importantes para cães com ansiedade leve, vocalização excessiva, comportamento destrutivo ou inquietação. A espécie abordada é canina.\n\nDo ponto de vista veterinário, enriquecimento ambiental deve ser a base do manejo comportamental. Tapetes de farejar, snuffle balls e brinquedos de puzzle estimulam busca por alimento e exploração olfativa, o que pode reduzir estresse e aumentar gasto mental. Em cães idosos, esses recursos também ajudam a manter atividade cognitiva. Para pacientes com ansiedade persistente, canabinoides podem ser considerados como adjuvantes, nunca como única intervenção. A via de administração mais utilizada é oral. Em cães, uma faixa prática de CBD frequentemente empregada é de 0,5 a 1,5 mg/kg por via oral a cada 12 horas, iniciando com dose baixa e ajustando conforme resposta comportamental e tolerabilidade.\n\nA escolha do brinquedo deve considerar idade, força de mordida, risco de ingestão de partes e limitações físicas. Cães com osteoartrite podem preferir atividades de farejamento e puzzles em vez de brincadeiras de alto impacto. Já cães com deficiência visual ou auditiva podem se beneficiar de brinquedos sonoros ou luminosos, desde que não provoquem hiperestimulação.\n\nEm medicina veterinária integrativa, a combinação de rotina previsível, exercício adequado, treino baseado em reforço positivo e, quando indicado, CBD oral pode melhorar qualidade de vida. O tutor deve registrar intensidade dos sinais, gatilhos e resposta às intervenções para orientar ajustes terapêuticos.",
+    "key_points": [
+      "Espécie: cães.",
+      "Categoria clínica aplicável: ansiedade e enriquecimento ambiental.",
+      "Brinquedos interativos ajudam a reduzir tédio e frustração.",
+      "Tapetes de farejar e snuffle balls estimulam comportamento natural de busca.",
+      "Quebra-cabeças promovem gasto mental e podem reduzir inquietação.",
+      "Via de administração de CBD: oral.",
+      "Faixa prática de CBD em cães com ansiedade: 0,5 a 1,5 mg/kg VO a cada 12 horas.",
+      "Iniciar com dose baixa e ajustar conforme resposta clínica.",
+      "Enriquecimento ambiental deve acompanhar treino e rotina previsível.",
+      "Escolher brinquedos conforme porte, idade e força de mordida.",
+      "Em cães idosos, estimulação mental pode ajudar na manutenção cognitiva.",
+      "Pacientes com dor articular podem preferir atividades de baixo impacto."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para animais e pode causar ataxia, depressão do sensório, hipersalivação, vômitos e incontinência urinária.",
+      "Evitar brinquedos com peças pequenas ou facilmente destacáveis por risco de obstrução gastrointestinal.",
+      "CBD não substitui avaliação comportamental veterinária em casos de ansiedade moderada a grave ou agressividade."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/the-ultimate-holiday-gift-guide-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-uso-clinico-de-cannabis-veterinaria-em-hospital-seguranca-pa",
+    "title": "Uso clínico de cannabis veterinária em hospital: segurança, padronização e alerta sobre THC",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O artigo descreve uma clínica veterinária que recomenda produtos de cannabis com frequência e relata melhora de qualidade de vida em pacientes. Para fins técnicos, o principal tema é segurança no uso de canabinoides em ambiente clínico. As espécies atendidas pela clínica incluem cães, gatos e animais exóticos, mas o texto não fornece protocolo específico. Em medicina veterinária, a adoção de cannabis medicinal deve se basear em produto padronizado, rastreabilidade, orientação profissional e monitoramento de eficácia e eventos adversos.\n\nNa prática, a espécie com maior volume de evidência é a canina. A via de administração mais comum é oral, em óleo, cápsulas ou mastigáveis. Em cães, doses iniciais de CBD frequentemente utilizadas variam de 0,5 a 2 mg/kg por via oral a cada 12 horas, conforme indicação clínica, resposta e formulação. Em gatos, a experiência clínica é mais limitada; quando utilizado, costuma-se iniciar em torno de 0,1 a 0,5 mg/kg por via oral a cada 12 horas, com titulação cautelosa e atenção à palatabilidade e ao estresse de administração. Esses intervalos são referenciais práticos e não substituem prescrição individualizada.\n\nOs relatos de melhora de qualidade de vida são compatíveis com uso adjuvante em osteoartrite, ansiedade e dor crônica, mas não dispensam diagnóstico, controle de peso, fisioterapia, analgesia convencional e reavaliações. Em hospitais e clínicas, é essencial registrar espécie, peso, mg/kg, via de administração, frequência, produto exato e resposta clínica. Também é importante orientar tutores a nunca oferecer produtos humanos, especialmente comestíveis contendo THC, chocolate ou xilitol.\n\nO uso responsável de cannabis veterinária depende de seleção adequada do paciente, consentimento informado e vigilância ativa para sedação, sinais gastrointestinais e alterações neurológicas.",
+    "key_points": [
+      "Categoria principal: segurança no uso clínico de cannabis veterinária.",
+      "Espécies citadas: cães, gatos e exóticos; maior evidência disponível em cães.",
+      "Via de administração mais comum: oral.",
+      "CBD em cães: 0,5 a 2 mg/kg VO a cada 12 horas como faixa prática inicial/ajustável.",
+      "CBD em gatos: 0,1 a 0,5 mg/kg VO a cada 12 horas com maior cautela.",
+      "Registrar sempre peso, mg/kg, frequência e produto utilizado.",
+      "Usar apenas produtos padronizados e com controle de qualidade.",
+      "Monitorar sedação, diarreia, vômitos e alterações comportamentais.",
+      "Cannabis é terapia adjuvante, não substitui diagnóstico e tratamento de base.",
+      "Relatos de melhora de qualidade de vida são clinicamente relevantes, mas devem ser documentados.",
+      "Orientação ao tutor é parte central da segurança terapêutica.",
+      "Evitar formulações humanas e comestíveis domésticos."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para cães e gatos; a exposição pode exigir atendimento veterinário imediato.",
+      "Produtos humanos podem conter chocolate, xilitol, uvas-passas ou concentrações inadequadas para animais.",
+      "Gatos e pacientes com múltiplas comorbidades exigem titulação mais conservadora e monitoramento próximo.",
+      "Em animais exóticos, faltam dados robustos de segurança e dosagem; uso deve ser extremamente cauteloso."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/pets-choice-veterinary-hospital-ellevets-july-clinic-of-the-month/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-clinica-do-mes-da-ellevet-uso-de-canabinoides-em-caes-para-m",
+    "title": "Clínica do mês da ElleVet: uso de canabinoides em cães para mobilidade, estresse e cuidados paliativos",
+    "category": "dosagem-canina",
+    "area": "veterinary",
+    "content": "Este artigo é institucional e descreve a rotina da First Choice Animal Care and Surgery Center, além de relatar que a clínica utiliza produtos com CBD + CBDA em pacientes com queixas variadas, como mobilidade reduzida, estresse, suporte paliativo e pele. O texto cita um caso de uma cadela com desconforto articular e deformidade em membros torácicos que apresentou melhora funcional após iniciar o produto, passando a levantar-se e locomover-se com mais facilidade.\n\nDo ponto de vista clínico, o conteúdo sugere uso predominante em cães, por via oral, na forma de mastigáveis (“chews”). Entretanto, o artigo não informa dose exata em mg/kg, frequência, duração do tratamento, composição quantitativa do produto nem critérios objetivos de resposta. Assim, não é possível extrair uma posologia validada diretamente da matéria.\n\nPara fins de curadoria veterinária, a espécie principal é canina e a via de administração mencionada é oral. A dosagem mg/kg não foi fornecida no artigo. Em medicina veterinária baseada em evidências, produtos com CBD/CBDA para cães com osteoartrite ou estresse devem ser prescritos individualmente, com monitoramento clínico e laboratorial quando necessário, especialmente em uso contínuo. Em pacientes com dor crônica, a resposta deve ser acompanhada por escalas de mobilidade, qualidade de vida, apetite e tolerabilidade gastrointestinal.\n\nÉ importante destacar que relatos de melhora funcional são úteis como observação clínica, mas não substituem ensaios controlados. Além disso, produtos de cannabis para animais devem ter controle de qualidade, perfil canabinoide conhecido e teor mínimo ou ausente de THC. O THC pode causar toxicidade em cães, com sinais como ataxia, depressão do sensório, midríase, hipersalivação, vômitos, tremores, bradicardia, hipotermia e, em casos graves, coma.",
+    "key_points": [
+      "Espécie citada principalmente: cães.",
+      "Via de administração mencionada: oral, na forma de mastigáveis.",
+      "Indicações relatadas pela clínica: mobilidade, estresse, cuidados paliativos e suporte dermatológico.",
+      "Caso clínico descrito: melhora de locomoção em paciente com desconforto articular.",
+      "O artigo não informa dosagem em mg/kg.",
+      "Não há dados de frequência, duração ou concentração do produto.",
+      "Relato observacional não substitui estudo clínico controlado.",
+      "Monitorar resposta com parâmetros funcionais e de qualidade de vida.",
+      "Preferir produtos veterinários com composição padronizada.",
+      "THC é potencialmente tóxico para cães e deve ser evitado."
+    ],
+    "warnings": [
+      "O artigo não fornece dose mg/kg; não extrapolar posologia sem avaliação veterinária.",
+      "Produtos com THC podem causar toxicidade em animais, especialmente cães.",
+      "Relatos de sucesso individual não garantem eficácia em todos os pacientes.",
+      "Pacientes geriátricos, polimedicados ou com doença hepática exigem maior cautela."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/first-choice-clinic-of-the-month/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-ellevet-academy-educacao-continuada-em-farmacocinetica-e-uso",
+    "title": "ElleVet Academy: educação continuada em farmacocinética e uso clínico de canabinoides veterinários",
+    "category": "farmacocinetica",
+    "area": "veterinary",
+    "content": "O artigo anuncia o lançamento de uma plataforma educacional voltada a médicos-veterinários, com cursos sobre ciência dos canabinoides, farmacocinética e uso clínico em pacientes veterinários. O foco é capacitar profissionais para incorporar produtos à base de canabinoides em casos de desconforto articular, convulsões, alterações cutâneas e estresse. Também destaca que os cursos são gratuitos e aprovados para educação continuada.\n\nComo documento técnico, o texto é relevante por reforçar a necessidade de formação em farmacocinética veterinária. Em cannabis medicinal, compreender absorção, distribuição, metabolismo e excreção é essencial para definir dose, intervalo, via de administração e segurança. O artigo menciona cães, gatos e outras espécies, mas não apresenta protocolos terapêuticos específicos.\n\nEspécies mencionadas: canina, felina e outras. Via de administração: não especificada no artigo, embora o contexto clínico costume envolver principalmente formulações orais. Dosagem mg/kg: não informada.\n\nNa prática, a farmacocinética dos canabinoides varia entre espécies e formulações. Em cães e gatos, a biodisponibilidade oral pode ser influenciada por alimento, veículo lipídico e composição do extrato. Além disso, a presença de CBD, CBDA e outros fitocanabinoides pode alterar resposta clínica e tolerabilidade. Por isso, a educação continuada é particularmente importante para evitar uso empírico inadequado.\n\nO texto não traz dados de eficácia, segurança, interações medicamentosas ou parâmetros laboratoriais, mas reforça um ponto central: o uso veterinário de canabinoides deve ser guiado por ciência, não apenas por marketing. Em qualquer espécie, produtos com THC exigem extrema cautela, pois animais são mais suscetíveis à toxicidade, especialmente cães. Sinais de intoxicação por THC incluem ataxia, letargia, vocalização, incontinência urinária, hiperestesia, bradicardia e depressão neurológica.",
+    "key_points": [
+      "Categoria principal do conteúdo: farmacocinética veterinária de canabinoides.",
+      "Espécies citadas: cães, gatos e outras espécies.",
+      "Via de administração não especificada no artigo.",
+      "Dosagem em mg/kg não informada.",
+      "O foco do texto é educação continuada para veterinários.",
+      "O artigo destaca uso clínico em dor articular, convulsões, pele e estresse.",
+      "Farmacocinética varia conforme espécie e formulação.",
+      "Biodisponibilidade oral pode mudar com alimento e veículo lipídico.",
+      "Capacitação profissional reduz uso empírico inadequado.",
+      "THC representa risco toxicológico importante em animais."
+    ],
+    "warnings": [
+      "O artigo não fornece protocolos de dose mg/kg nem esquemas terapêuticos.",
+      "Não utilizar cursos ou material promocional como substituto de prescrição individualizada.",
+      "A extrapolação entre cães e gatos é inadequada sem base farmacocinética específica.",
+      "THC pode causar intoxicação grave em animais e deve ser rigidamente controlado."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/ellevet-academy-launches-with-classes-on-cannabinoid-veterinary-science-offering-free-race-approved-ce-credits-for-veterinary-professionals/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-eucalipto-em-caes-riscos-toxicologicos-sinais-clinicos-e-dif",
+    "title": "Eucalipto em cães: riscos toxicológicos, sinais clínicos e diferenciação de intoxicações",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "O artigo discute a segurança do eucalipto para cães e conclui que a exposição pode representar risco, especialmente por ingestão de folhas, contato com óleos essenciais ou inalação de partículas/aerossóis. Os principais compostos envolvidos incluem cineol e outros terpenos, capazes de causar sinais gastrointestinais, respiratórios, dermatológicos e neurológicos.\n\nEspécie: canina. Via de exposição/administração descrita no artigo: oral por ingestão, inalatória e tópica por contato cutâneo. Dosagem mg/kg: não informada no texto. Como se trata de toxicologia vegetal/óleos essenciais, a ausência de dose impede definir limiar seguro de exposição. Na prática, recomenda-se evitar uso doméstico indiscriminado de óleo de eucalipto em cães, sobretudo em formulações concentradas.\n\nOs sinais clínicos citados incluem vômitos, diarreia, hipersalivação, tosse, sibilos, dificuldade respiratória, eritema cutâneo, prurido, letargia, fraqueza, desorientação e, em casos graves, convulsões ou coma. Cães com doença respiratória prévia, pele sensível, pequeno porte ou acesso fácil a frascos e difusores podem apresentar maior risco.\n\nDo ponto de vista veterinário, o artigo é útil para segurança ambiental, mas não aborda cannabis medicinal diretamente. Ainda assim, é importante diferenciar intoxicações por óleos essenciais de intoxicações por canabinoides. Em animais, especialmente cães, o THC também pode causar depressão neurológica, ataxia, tremores, incontinência urinária, bradicardia e hipotermia. Portanto, tutores devem evitar tanto óleos essenciais concentrados quanto produtos de cannabis com THC.\n\nEm caso de exposição ao eucalipto, a conduta inclui remover a fonte, impedir nova ingestão, lavar a pele se houver contato tópico e procurar atendimento veterinário. Não se deve induzir vômito sem orientação profissional, especialmente após exposição a óleos essenciais.",
+    "key_points": [
+      "Espécie abordada: cães.",
+      "Vias de exposição: oral, inalatória e tópica.",
+      "Dosagem mg/kg não informada no artigo.",
+      "Compostos de risco: cineol e terpenos.",
+      "Sinais gastrointestinais: vômitos, diarreia e salivação excessiva.",
+      "Sinais respiratórios: tosse, sibilos e dispneia.",
+      "Sinais cutâneos: vermelhidão, prurido e rash.",
+      "Sinais neurológicos: letargia, desorientação, convulsões e coma.",
+      "Evitar óleos essenciais concentrados em ambiente com cães.",
+      "Diferenciar intoxicação por eucalipto de toxicidade por THC."
+    ],
+    "warnings": [
+      "Óleo de eucalipto e folhas podem ser tóxicos para cães.",
+      "Não há dose segura em mg/kg descrita no artigo.",
+      "Não induzir vômito sem orientação veterinária após ingestão de óleos essenciais.",
+      "THC também é tóxico para animais; manter qualquer produto canabinoide fora do alcance.",
+      "Difusores, sprays e tópicos concentrados podem desencadear sinais respiratórios ou neurológicos."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/is-eucalyptus-safe-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-como-saber-o-que-realmente-existe-no-cbd-para-pets",
+    "title": "Como saber o que realmente existe no CBD para pets",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Ao avaliar um produto de cannabis medicinal para cães ou gatos, é essencial diferenciar termos de marketing de composição real. “Hemp oil” ou “hemp seed oil” geralmente se refere ao óleo extraído das sementes do cânhamo e, em regra, não fornece quantidades clinicamente relevantes de CBD. Já “CBD oil” ou extrato de cânhamo rico em canabinoides costuma ser obtido das partes aéreas da planta, incluindo folhas, flores e talos, concentrando CBD e outros compostos bioativos.\n\nOutro ponto importante é a diferença entre espectros. O CBD isolado contém apenas canabidiol. Produtos full spectrum ou broad spectrum podem incluir outros canabinoides, terpenos e flavonoides, o que teoricamente favorece o chamado “efeito entourage”. Em medicina veterinária, isso pode influenciar resposta clínica, mas a escolha deve priorizar segurança, padronização e laudo analítico, não apenas o rótulo.\n\nPara cães e gatos, a via de administração mais comum é oral, em óleo, cápsulas ou mastigáveis. A dosagem mg/kg não pode ser inferida pelo nome comercial do produto; ela depende da concentração real por mL ou por unidade. Em cães, estudos clínicos frequentemente utilizam cerca de 2 mg/kg por via oral a cada 12 horas para osteoartrite ou epilepsia, com ajustes individualizados. Em gatos, a literatura é mais limitada, e doses orais em torno de 1–2 mg/kg podem ser usadas com maior cautela e monitoramento.\n\nNa prática, um bom produto veterinário deve informar espécie-alvo, concentração exata de CBD, dose em mg/kg, via de administração, lote, certificado de análise por terceiro, perfil de canabinoides e teor de THC. Também deve estar livre de contaminantes como solventes residuais, metais pesados, pesticidas e microrganismos. Em animais, especialmente cães, pequenas quantidades de THC podem causar ataxia, sedação, midríase, hipersensibilidade a estímulos, vômitos e incontinência urinária. Portanto, a seleção do produto deve sempre priorizar baixo ou traço de THC e acompanhamento veterinário.",
+    "key_points": [
+      "“Hemp seed oil” não é sinônimo de CBD.",
+      "Verifique a concentração real de CBD em mg/mL ou mg/unidade.",
+      "Espécies: cães e gatos exigem ajuste específico de dose.",
+      "Via de administração mais comum: oral.",
+      "Cães: estudos frequentemente usam cerca de 2 mg/kg VO a cada 12 h.",
+      "Gatos: usar com mais cautela; cerca de 1–2 mg/kg VO pode ser considerado com monitoramento.",
+      "Full spectrum e broad spectrum não são iguais ao CBD isolado.",
+      "Peça certificado de análise de laboratório independente.",
+      "Avalie presença de pesticidas, metais pesados e solventes residuais.",
+      "Rótulos com folha de maconha podem ser enganosos.",
+      "O teor de THC deve ser mínimo ou ausente em produtos veterinários.",
+      "A resposta clínica depende da formulação, não apenas do nome no rótulo."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para animais, especialmente cães.",
+      "Nunca extrapole dose em mg/kg sem saber a concentração exata do produto.",
+      "Evite produtos sem laudo analítico ou com composição incompleta.",
+      "Gatos podem apresentar maior sensibilidade e menor aceitação oral de algumas formulações.",
+      "Uso deve ser supervisionado por médico-veterinário, sobretudo em pacientes com doença hepática ou em politerapia."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/how-do-you-know-whats-in-the-pet-cbd-youre-getting/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-oleos-essenciais-sao-seguros-para-caes",
+    "title": "Óleos essenciais são seguros para cães?",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Óleos essenciais são extratos vegetais altamente concentrados e não devem ser considerados automaticamente seguros para cães. A espécie canina possui olfato extremamente sensível, o que significa que aromas toleráveis para humanos podem ser irritantes ou até nocivos para o animal. A exposição pode ocorrer por inalação, contato cutâneo ou ingestão acidental, e o risco aumenta quando o produto é usado sem diluição adequada ou em ambientes pouco ventilados.\n\nDo ponto de vista veterinário, o uso de óleos essenciais não substitui terapias com evidência clínica mais robusta, como formulações padronizadas de cannabis medicinal sem THC relevante. Quando se discute canabinoides em cães, a via de administração mais estudada é oral, e doses de CBD em torno de 2 mg/kg por via oral a cada 12 horas aparecem com frequência em estudos para dor crônica e outras condições. Em gatos, a experiência é mais limitada, geralmente com 1–2 mg/kg por via oral e monitoramento rigoroso. Essas informações são importantes porque muitos tutores confundem aromaterapia com terapias canabinoides, embora sejam abordagens distintas.\n\nSe houver uso ambiental de óleos essenciais em casa, o cão deve ter possibilidade de sair do local, e o tutor deve observar sinais como espirros, salivação, lacrimejamento, inquietação, vômitos, tremores ou letargia. Aplicações tópicas exigem extrema cautela, pois a lambedura pode levar à ingestão. Além disso, filhotes, idosos, cães asmáticos, epilépticos ou com doença hepática tendem a ser mais vulneráveis.\n\nEm resumo, óleos essenciais podem representar risco para cães quando usados de forma indiscriminada. Já produtos veterinários à base de CBD devem ser avaliados separadamente, com foco em espécie, via de administração, dose mg/kg e teor de THC. Em qualquer cenário, segurança e supervisão veterinária são fundamentais.",
+    "key_points": [
+      "Óleos essenciais são concentrados e podem irritar cães.",
+      "A principal via de risco é inalação, contato cutâneo e ingestão acidental.",
+      "Cães têm olfato muito mais sensível que humanos.",
+      "Aromaterapia não é o mesmo que cannabis medicinal.",
+      "Espécie: cães exigem avaliação específica de tolerância.",
+      "Via de administração de CBD mais estudada em cães: oral.",
+      "Dose de referência de CBD em cães: cerca de 2 mg/kg VO a cada 12 h em alguns estudos.",
+      "Em gatos, doses de 1–2 mg/kg VO exigem maior cautela.",
+      "Nunca aplique óleo essencial puro diretamente no animal.",
+      "Ambientes com difusores devem ser ventilados e permitir fuga do cão.",
+      "Observe sinais de irritação respiratória, neurológica ou gastrointestinal.",
+      "Pacientes idosos, filhotes e hepatopatas têm maior risco."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para animais e não deve ser confundido com óleos essenciais ou com CBD veterinário seguro.",
+      "Óleos essenciais podem causar intoxicação por contato, inalação ou ingestão.",
+      "Evite uso sem orientação veterinária, especialmente em cães com epilepsia, asma ou doença hepática.",
+      "Não use produtos tópicos em áreas que o cão possa lamber.",
+      "Se houver tremores, ataxia, vômitos ou depressão, procure atendimento veterinário imediatamente."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/are-essential-oils-safe-for-dogs/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-clinica-veterinaria-relata-beneficio-de-cannabis-medicinal-e",
+    "title": "Clínica veterinária relata benefício de cannabis medicinal em pacientes idosos",
+    "category": "osteoartrite",
+    "area": "veterinary",
+    "content": "O artigo apresenta o perfil de uma clínica veterinária de atendimento misto e destaca a percepção clínica da equipe sobre o uso de produtos da linha ElleVet em pacientes, especialmente animais idosos com alterações articulares e cognitivas. Embora o texto tenha caráter institucional e não traga dados controlados de estudo, ele reforça um cenário comum na prática: cães geriátricos com osteoartrite e declínio cognitivo podem apresentar melhora funcional e de qualidade de vida quando recebem suporte multimodal, incluindo canabinoides padronizados.\n\nNa espécie canina, a via de administração mais utilizada para CBD é oral, em cápsulas moles, óleo ou mastigáveis. Em estudos veterinários sobre osteoartrite, doses em torno de 2 mg/kg por via oral a cada 12 horas são frequentemente citadas como ponto de partida, com ajustes conforme resposta clínica, peso, comorbidades e medicações concomitantes. Para gatos, a evidência ainda é menor; quando considerados, protocolos orais de 1–2 mg/kg exigem monitoramento mais próximo.\n\nO relato mencionado descreve uma cadela golden retriever de 13 anos que teria recuperado parte da sua rotina normal por alguns meses após iniciar cápsulas moles, com suporte para articulações e função cognitiva. Embora esse tipo de observação seja valioso, ele não substitui ensaios clínicos randomizados. Na prática, o médico-veterinário deve integrar o CBD a um plano terapêutico mais amplo, incluindo controle de peso, analgesia convencional, fisioterapia, adaptação ambiental e reavaliações periódicas.\n\nAo selecionar um produto, é indispensável confirmar concentração em mg por cápsula ou mL, calcular a dose mg/kg para a espécie correta e verificar o teor de THC. Em cães idosos, especialmente, a segurança do produto e a previsibilidade da formulação são tão importantes quanto a resposta clínica.",
+    "key_points": [
+      "Conteúdo com foco institucional, não estudo clínico controlado.",
+      "Espécie destacada no relato: cão idoso.",
+      "Indicação sugerida: suporte em osteoartrite e função cognitiva.",
+      "Via de administração citada indiretamente: oral, em cápsulas moles.",
+      "Dose de referência em cães para CBD: cerca de 2 mg/kg VO a cada 12 h em estudos de osteoartrite.",
+      "Gatos podem exigir 1–2 mg/kg VO com maior cautela.",
+      "CBD deve integrar tratamento multimodal, não atuar isoladamente.",
+      "Controle de peso e fisioterapia continuam fundamentais.",
+      "Reavaliações periódicas ajudam a ajustar dose e resposta.",
+      "Verifique concentração por cápsula para calcular mg/kg corretamente.",
+      "Produtos padronizados tendem a oferecer maior previsibilidade clínica.",
+      "Relatos de caso são úteis, mas têm baixo nível de evidência."
+    ],
+    "warnings": [
+      "ALERTA: THC pode causar toxicidade importante em cães e gatos; prefira produtos veterinários com teor mínimo ou ausente.",
+      "Não baseie prescrição apenas em depoimentos ou marketing institucional.",
+      "Pacientes geriátricos e em uso de múltiplos fármacos exigem monitoramento veterinário.",
+      "Ajustes de dose devem considerar peso, doença hepática e resposta individual.",
+      "Procure atendimento se houver sedação excessiva, ataxia, vômitos ou piora clínica após início do produto."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/taylorsville-veterinary-clinic-ellevets-august-clinic-of-the-month/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-telemedicina-veterinaria-quando-a-teleconsulta-pode-ajudar-c",
+    "title": "Telemedicina veterinária: quando a teleconsulta pode ajudar cães e gatos",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "A telemedicina veterinária pode ser útil para cães e gatos em situações não emergenciais, como dúvidas comportamentais, acompanhamento pós-operatório, orientação inicial sobre sinais clínicos leves e triagem para definir se o animal precisa de atendimento presencial. O artigo destaca a diferença entre telehealth (termo guarda-chuva), telemedicina (avaliação remota por médico-veterinário com possibilidade de diagnóstico e prescrição, conforme legislação local) e teletriagem/teleorientação (orientação inicial, muitas vezes feita por equipe técnica).\n\nEspécie: cães e gatos. Via de administração: não aplicável. Dosagem mg/kg: não aplicável neste conteúdo, pois o tema não aborda tratamento farmacológico. Em medicina canabinoide veterinária, a telemedicina pode ser especialmente útil para revisar resposta clínica, ajustar horários de administração e monitorar efeitos adversos de produtos à base de CBD, sempre respeitando a legislação e a relação veterinário-cliente-paciente.\n\nEntre os benefícios estão menor estresse para gatos que passam mal no transporte, maior conveniência para tutores, acesso mais rápido a orientação profissional e suporte para decidir a urgência do caso. Ainda assim, a telemedicina não substitui o exame físico quando há dor intensa, dispneia, convulsões, trauma, distensão abdominal, intoxicação ou piora rápida.\n\nPara pacientes em uso de cannabis medicinal, consultas remotas podem ajudar no acompanhamento de ansiedade, osteoartrite e epilepsia, mas a prescrição e os ajustes devem considerar espécie, peso, comorbidades, interações medicamentosas e formulação exata. Produtos com THC representam risco relevante em animais, especialmente cães, e nunca devem ser usados sem supervisão veterinária. Em resumo, a telemedicina é uma ferramenta complementar valiosa, mas não substitui o atendimento presencial quando há sinais de gravidade.",
+    "key_points": [
+      "Espécie: cães e gatos.",
+      "Via de administração: não aplicável.",
+      "Dosagem mg/kg: não aplicável ao tema do artigo.",
+      "Telehealth é o termo amplo para cuidados assistidos por tecnologia.",
+      "Telemedicina pode permitir diagnóstico e prescrição, dependendo da legislação.",
+      "Teletriagem e teleorientação ajudam a decidir se o caso precisa de consulta presencial.",
+      "Útil para dúvidas não urgentes, acompanhamento e redução do estresse do transporte.",
+      "Gatos ansiosos e cães em pós-operatório podem se beneficiar de orientação remota.",
+      "Não substitui exame físico em emergências ou sinais graves.",
+      "Em cannabis medicinal, pode auxiliar no monitoramento de resposta e efeitos adversos.",
+      "Ajustes terapêuticos devem considerar peso, espécie e formulação do produto.",
+      "Produtos com THC oferecem risco de toxicidade em animais."
+    ],
+    "warnings": [
+      "Telemedicina não é adequada para emergências como convulsões ativas, dificuldade respiratória, trauma ou suspeita de intoxicação.",
+      "A possibilidade de diagnóstico e prescrição varia conforme a legislação e a existência de relação veterinário-cliente-paciente.",
+      "ALERTA: THC pode causar toxicidade em animais, especialmente cães, com sinais neurológicos e gastrointestinais.",
+      "Nunca iniciar ou ajustar cannabis medicinal sem orientação de médico-veterinário."
+    ],
+    "source_url": "https://www.ellevetsciences.com/blog/all-about-telehealth-vet-for-your-pet/",
+    "source": "ellevetsciences"
+  },
+  {
+    "id": "web-cbd-em-gatos-com-resposta-de-medo-a-sons-possiveis-efeitos-a",
+    "title": "CBD em gatos com resposta de medo a sons: possíveis efeitos ansiolíticos em teste experimental",
+    "category": "ansiedade",
+    "area": "veterinary",
+    "content": "Este estudo avaliou o possível efeito ansiolítico do canabidiol (CBD) em gatos domésticos saudáveis expostos a um teste de medo com simulação de tempestade. Espécie: felina. Via de administração: oral, por administração diária de CBD. Dosagem: 4,0 mg/kg/dia por 2 semanas. Os animais foram divididos entre grupo CBD e grupo placebo (óleo de girassol), com avaliação no início e ao final do período.\n\nO principal desfecho relatado foi a redução de micção indesejada durante o teste de medo nos gatos que receberam CBD. No grupo placebo, essa melhora não foi observada. Os achados sugerem um possível benefício do CBD sobre respostas relacionadas ao medo induzido por som em felinos. No entanto, trata-se de um estudo com limitações importantes: amostra relativamente pequena, modelo experimental específico e presença de “expression of concern” publicada posteriormente para o artigo, o que exige interpretação cautelosa.\n\nDo ponto de vista clínico, o trabalho não estabelece sozinho um protocolo definitivo para ansiedade felina. Em gatos, a resposta ao CBD pode variar conforme formulação, biodisponibilidade oral, presença de alimento, perfil individual e comorbidades. Além disso, ansiedade felina frequentemente exige abordagem multimodal, incluindo manejo ambiental, previsibilidade de rotina, feromonioterapia, dessensibilização e, quando necessário, farmacoterapia convencional.\n\nNa prática veterinária, o CBD pode ser considerado como adjuvante em alguns casos, mas ainda faltam estudos robustos para padronizar dose, duração e desfechos clínicos em felinos. Produtos devem ser isentos ou praticamente isentos de THC, pois gatos também podem sofrer efeitos adversos e intoxicação. Assim, o estudo é promissor, mas preliminar, e não substitui avaliação clínica individualizada.",
+    "key_points": [
+      "Espécie: gatos.",
+      "Via de administração: oral.",
+      "Dosagem estudada: 4,0 mg/kg/dia por 14 dias.",
+      "Comparação feita entre CBD e placebo com óleo de girassol.",
+      "Modelo experimental: simulação sonora de tempestade.",
+      "Desfecho principal: redução de micção indesejada associada ao medo.",
+      "Os resultados sugerem possível efeito ansiolítico do CBD em felinos.",
+      "O estudo foi realizado em gatos saudáveis, não em pacientes com transtorno de ansiedade diagnosticado.",
+      "A evidência ainda é preliminar e não define protocolo clínico universal.",
+      "Ansiedade felina costuma exigir manejo ambiental além de suplementação ou medicação.",
+      "Formulação, biodisponibilidade e resposta individual influenciam o resultado.",
+      "Produtos para gatos devem evitar THC."
+    ],
+    "warnings": [
+      "O artigo possui uma expressão de preocupação publicada posteriormente; interpretar os resultados com cautela.",
+      "Não extrapolar automaticamente 4,0 mg/kg/dia para todos os gatos sem supervisão veterinária.",
+      "Pode haver variabilidade de absorção oral e efeitos adversos conforme a formulação.",
+      "ALERTA: THC é potencialmente tóxico para animais e não deve ser usado em gatos sem rigorosa supervisão veterinária.",
+      "Em casos de ansiedade severa, automutilação, anorexia ou eliminação inadequada persistente, é necessária avaliação veterinária completa."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12153555/",
+    "source": "journal_cbd-cat-anxiety-pmc"
+  },
+  {
+    "id": "web-cbd-como-adjuvante-na-epilepsia-idiopatica-farmacorresistent",
+    "title": "CBD como adjuvante na epilepsia idiopática farmacorresistente em cães: estudo duplo-cego crossover",
+    "category": "epilepsia",
+    "area": "veterinary",
+    "content": "Este estudo investigou a eficácia e a segurança do canabidiol (CBD) como tratamento adjuvante em cães com epilepsia idiopática farmacorresistente. Espécie: canina. Via de administração: oral. Embora o trecho fornecido não traga toda a metodologia detalhada, o estudo publicado no Journal of Veterinary Internal Medicine avaliou 51 cães em desenho duplo-cego crossover, comparando CBD com controle como terapia adicional aos anticonvulsivantes já utilizados.\n\nA relevância clínica do trabalho está em analisar se o CBD pode reduzir a frequência de crises em cães que continuam convulsionando apesar do tratamento convencional. Em medicina veterinária, isso é particularmente importante para pacientes em uso de fenobarbital, brometo de potássio, levetiracetam, zonisamida ou combinações. Estudos caninos prévios com CBD em epilepsia geralmente utilizaram doses na faixa de 2,5 a 9 mg/kg por via oral, com administração a cada 12 horas em muitos protocolos; porém, a dose exata deve sempre ser confirmada no estudo original e individualizada ao paciente.\n\nDe forma geral, os dados disponíveis sugerem que o CBD pode beneficiar parte dos cães como adjuvante, mas a resposta é variável e não substitui anticonvulsivantes de base. Também é essencial monitorar segurança, especialmente enzimas hepáticas, sedação, ataxia e interações medicamentosas. A farmacocinética do CBD em cães pode ser alterada por alimento, formulação e uso concomitante de outros fármacos.\n\nNa prática, o CBD pode ser considerado em casos selecionados de epilepsia refratária, com acompanhamento neurológico e exames seriados. O tutor deve manter diário de crises, registrar duração, gatilhos e efeitos adversos. Produtos com THC não são apropriados para esse contexto, pois podem piorar sinais neurológicos e causar intoxicação. O uso deve ser sempre veterinário, individualizado e baseado em produto padronizado.",
+    "key_points": [
+      "Espécie: cães.",
+      "Via de administração: oral.",
+      "Indicação estudada: epilepsia idiopática farmacorresistente.",
+      "CBD foi avaliado como terapia adjuvante, não substitutiva.",
+      "Desenho do estudo: duplo-cego crossover com 51 cães.",
+      "Objetivo principal: reduzir frequência de crises em pacientes refratários.",
+      "Faixas de dose em estudos caninos de epilepsia costumam variar aproximadamente de 2,5 a 9 mg/kg.",
+      "Muitos protocolos orais utilizam administração a cada 12 horas.",
+      "A dose exata deve ser confirmada no artigo completo e ajustada ao paciente.",
+      "Monitoramento clínico e laboratorial é essencial durante o uso.",
+      "Possíveis interações com fenobarbital e outros anticonvulsivantes devem ser consideradas.",
+      "THC não é indicado em cães com epilepsia veterinária."
+    ],
+    "warnings": [
+      "A dose mg/kg específica do protocolo deve ser confirmada no texto completo do estudo antes de aplicação clínica.",
+      "CBD não deve substituir abruptamente anticonvulsivantes convencionais.",
+      "Monitorar enzimas hepáticas, sedação, ataxia e alterações gastrointestinais.",
+      "Interações medicamentosas podem ocorrer com anticonvulsivantes e outros fármacos metabolizados pelo fígado.",
+      "ALERTA: THC pode causar toxicidade importante em cães, incluindo depressão neurológica, ataxia, midríase, vômitos e incontinência urinária.",
+      "Qualquer ajuste terapêutico em epilepsia deve ser feito por médico-veterinário."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10658598/",
+    "source": "journal_cbd-epilepsy-crossover-pmc"
+  },
+  {
+    "id": "web-canabidiol-na-osteoartrite-canina-revisao-sistematica-e-meta",
+    "title": "Canabidiol na osteoartrite canina: revisão sistemática e meta-análise",
+    "category": "osteoartrite",
+    "area": "veterinary",
+    "content": "Esta revisão sistemática com meta-análise avaliou estudos de intervenção sobre o uso de canabidiol (CBD) em cães com osteoartrite. A espécie analisada foi canina, e a via de administração predominante nos estudos foi oral, geralmente em óleo ou formulações mastigáveis. As doses mais frequentes ficaram em torno de 2 mg/kg por via oral a cada 12 horas, embora alguns estudos tenham usado faixas diferentes conforme formulação e protocolo.\n\nDe forma geral, a revisão sugere que o CBD pode promover melhora clínica modesta em dor e mobilidade em cães com osteoartrite, especialmente quando usado de maneira contínua por algumas semanas. Os desfechos mais citados incluíram redução de escores de dor, melhora da atividade e melhor percepção de conforto pelos tutores e clínicos. No entanto, a qualidade metodológica dos estudos foi variável, com amostras pequenas, heterogeneidade entre formulações e diferenças importantes na avaliação dos resultados.\n\nEm segurança, o evento adverso mais consistente foi aumento de enzimas hepáticas, especialmente fosfatase alcalina (ALP). Também foram relatados efeitos leves como sedação discreta e alterações gastrointestinais em alguns cães. A revisão reforça que o CBD parece ter perfil de tolerabilidade razoável em curto prazo, mas ainda faltam dados robustos sobre uso prolongado, interações medicamentosas e padronização de dose.\n\nNa prática veterinária, o CBD pode ser considerado como adjuvante multimodal para osteoartrite canina, não como substituto automático de analgésicos convencionais. A escolha da dose em mg/kg, da formulação e do intervalo deve ser individualizada. É essencial monitorar resposta clínica e bioquímica hepática durante o tratamento. Produtos com THC devem ser evitados, pois o THC apresenta risco relevante de toxicidade em animais, especialmente cães.",
+    "key_points": [
+      "Espécie: cães com osteoartrite.",
+      "Categoria: osteoartrite.",
+      "Via de administração predominante: oral.",
+      "Dose mais estudada: cerca de 2 mg/kg VO a cada 12 horas.",
+      "Pode haver melhora modesta de dor e mobilidade.",
+      "CBD deve ser visto como terapia adjuvante, não necessariamente substitutiva.",
+      "Há heterogeneidade entre estudos, formulações e desfechos.",
+      "Aumento de ALP foi um achado de segurança recorrente.",
+      "Sedação leve e sinais gastrointestinais podem ocorrer.",
+      "Faltam dados sólidos sobre segurança em longo prazo.",
+      "Monitorização clínica e laboratorial é recomendada.",
+      "Evitar produtos com THC em cães."
+    ],
+    "warnings": [
+      "THC é potencialmente tóxico para animais, especialmente cães, e deve ser evitado.",
+      "Monitorar enzimas hepáticas durante o uso de CBD, principalmente ALP.",
+      "Usar com cautela em pacientes que recebem outros fármacos metabolizados pelo fígado.",
+      "A evidência ainda é moderada a limitada devido ao pequeno número de estudos e amostras reduzidas."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10540436/",
+    "source": "journal_cbd-epilepsy-dogs-csu"
+  },
+  {
+    "id": "web-farmacocinetica-seguranca-e-eficacia-clinica-do-cbd-em-caes-",
+    "title": "Farmacocinética, segurança e eficácia clínica do CBD em cães com osteoartrite",
+    "category": "farmacocinetica",
+    "area": "veterinary",
+    "content": "Este estudo clínico em cães com osteoartrite avaliou farmacocinética, segurança e eficácia do canabidiol. A espécie estudada foi canina, com administração por via oral. Na fase clínica, a dose utilizada foi de 2 mg/kg de CBD por via oral a cada 12 horas por aproximadamente 4 semanas. Na parte farmacocinética, também foram comparadas formulações, mostrando que a absorção oral pode variar conforme o veículo utilizado.\n\nOs resultados indicaram melhora significativa em escores de dor e atividade em parte dos cães tratados, sugerindo benefício clínico para osteoartrite. O estudo ajudou a consolidar a posologia de 2 mg/kg VO BID como uma das referências iniciais mais citadas na literatura veterinária para dor osteoarticular. Ainda assim, a resposta não é uniforme entre todos os pacientes, e a formulação influencia biodisponibilidade e efeito clínico.\n\nDo ponto de vista farmacocinético, o CBD apresentou absorção oral mensurável, mas com variabilidade entre indivíduos. Isso significa que dois cães recebendo a mesma dose em mg/kg podem atingir exposições sistêmicas diferentes. Em segurança, o principal achado laboratorial foi aumento de fosfatase alcalina (ALP), sem evidência clara de hepatotoxicidade clínica grave no curto prazo. Efeitos adversos clínicos foram geralmente leves.\n\nA principal aplicação prática deste estudo é apoiar o uso do CBD como adjuvante analgésico em cães com osteoartrite, especialmente quando se busca reduzir desconforto e melhorar mobilidade. O acompanhamento deve incluir avaliação de dor, função locomotora e exames laboratoriais seriados. Como regra de segurança, produtos contendo THC não devem ser usados em cães, pois o THC pode causar ataxia, depressão do sensório, hipersalivação, incontinência urinária, bradicardia e outros sinais de intoxicação.",
+    "key_points": [
+      "Espécie: cães.",
+      "Indicação estudada: osteoartrite.",
+      "Via de administração: oral.",
+      "Dose clínica de referência: 2 mg/kg VO a cada 12 horas.",
+      "Duração do protocolo clínico: cerca de 4 semanas.",
+      "Houve melhora em dor e atividade em parte dos pacientes.",
+      "A farmacocinética oral mostrou variabilidade entre cães.",
+      "A formulação influencia absorção e biodisponibilidade.",
+      "Aumento de ALP foi o achado laboratorial mais frequente.",
+      "Eventos adversos clínicos foram geralmente leves.",
+      "CBD pode ser útil como adjuvante em analgesia multimodal.",
+      "Necessita monitorização clínica e laboratorial."
+    ],
+    "warnings": [
+      "THC é tóxico para cães e deve ser evitado em qualquer formulação veterinária.",
+      "Não extrapolar automaticamente a dose entre produtos diferentes, pois a biodisponibilidade varia.",
+      "Monitorar função hepática durante o tratamento.",
+      "Usar cautela em cães com doença hepática pré-existente ou em polifarmácia."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6065210/",
+    "source": "journal_cbd-oa-dogs-cornell-pmc"
+  },
+  {
+    "id": "web-atualizacao-sobre-farmacocinetica-eficacia-e-seguranca-do-cb",
+    "title": "Atualização sobre farmacocinética, eficácia e segurança do CBD em cães",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Esta revisão narrativa atualiza o conhecimento sobre farmacocinética, eficácia e tolerabilidade do canabidiol (CBD) e do ácido canabidiólico (CBDA) em cães. A espécie abordada é canina, e a via de administração mais estudada é oral, em óleos, cápsulas, biscoitos ou formulações lipídicas. As doses de CBD mais frequentemente relatadas na literatura variam de 1 a 2 mg/kg por via oral a cada 12 horas, embora alguns estudos tenham explorado doses mais altas, como 2,5 mg/kg ou mais, dependendo da indicação e da formulação.\n\nA revisão destaca que a farmacocinética do CBD em cães ainda não está completamente definida. A absorção oral é influenciada por alimento, veículo lipídico, formulação e administração repetida. Em geral, há grande variabilidade interindividual, o que dificulta estabelecer uma posologia universal. Em eficácia, os melhores sinais de benefício concentram-se em osteoartrite e epilepsia, enquanto para ansiedade e outras indicações os dados ainda são limitados ou inconsistentes.\n\nQuanto à segurança, o CBD é geralmente bem tolerado em curto prazo, mas os achados mais frequentes incluem elevação de ALP, sedação leve e distúrbios gastrointestinais. A revisão também chama atenção para possíveis interações medicamentosas, especialmente com anticonvulsivantes e outros fármacos metabolizados por enzimas hepáticas. Isso reforça a necessidade de acompanhamento veterinário e exames periódicos.\n\nEm termos práticos, a revisão apoia o uso cauteloso e individualizado do CBD em cães, sempre com dose expressa em mg/kg, produto padronizado e monitorização. A escolha da formulação é tão importante quanto a dose. É fundamental diferenciar CBD de THC: enquanto o CBD tem potencial terapêutico, o THC representa risco de toxicidade em animais e não deve ser utilizado sem controle rigoroso.",
+    "key_points": [
+      "Espécie: cães.",
+      "Categoria principal: segurança.",
+      "Via de administração mais estudada: oral.",
+      "Faixa de dose mais comum: 1–2 mg/kg VO a cada 12 horas.",
+      "Alguns estudos avaliaram doses superiores conforme indicação e formulação.",
+      "A farmacocinética do CBD em cães é variável.",
+      "Alimento e veículo lipídico podem alterar absorção.",
+      "Melhores evidências de eficácia: osteoartrite e epilepsia.",
+      "Para ansiedade, os dados ainda são limitados.",
+      "Eventos adversos comuns: ALP elevada, sedação leve, diarreia ou vômito.",
+      "Interações medicamentosas são uma preocupação relevante.",
+      "Produto padronizado e acompanhamento veterinário são essenciais."
+    ],
+    "warnings": [
+      "THC pode causar intoxicação importante em animais e deve ser evitado.",
+      "Não assumir equivalência entre óleo, cápsula, petisco e outras formulações.",
+      "Monitorar enzimas hepáticas e resposta clínica durante o uso contínuo.",
+      "Cautela em cães que usam anticonvulsivantes, anti-inflamatórios ou múltiplos medicamentos."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10347378/",
+    "source": "journal_cbd-pk-efficacy-dogs-pmc"
+  },
+  {
+    "id": "web-canabidiol-na-medicina-veterinaria-de-caes-e-cavalos-aplicac",
+    "title": "Canabidiol na medicina veterinária de cães e cavalos: aplicações, doses e limites atuais",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Esta revisão discute o uso do canabidiol (CBD) na medicina veterinária, com foco principal em cães e, em menor grau, cavalos. O artigo destaca que o interesse clínico cresceu rapidamente, especialmente para dor, inflamação, epilepsia e ansiedade, mas a qualidade da evidência ainda é heterogênea entre espécies e indicações. Em cães, os dados mais consistentes concentram-se em formulações orais de CBD, geralmente por via oral em óleo ou cápsulas, com doses estudadas com frequência na faixa de 1–2 mg/kg a cada 12 horas, podendo chegar a 2,5 mg/kg em alguns protocolos. A espécie mais investigada é a canina; em equinos, os dados ainda são preliminares e menos padronizados.\n\nA revisão também enfatiza aspectos farmacológicos importantes: o CBD tem biodisponibilidade variável, sofre metabolismo hepático e pode interagir com outras medicações, especialmente anticonvulsivantes e fármacos metabolizados por enzimas hepáticas. Entre os efeitos adversos mais relatados em cães estão sedação leve, distúrbios gastrointestinais e aumento de enzimas hepáticas, especialmente fosfatase alcalina. Isso reforça a necessidade de monitoramento clínico e laboratorial durante uso contínuo.\n\nDo ponto de vista prático, o artigo sugere que o CBD isolado ou com teor mínimo de THC é a abordagem mais segura em veterinária. O uso de flores secas de cannabis ou produtos artesanais não padronizados não é recomendado, devido à variação de concentração e ao risco toxicológico. Em cavalos, embora exista interesse para dor e estresse, faltam estudos robustos para definir dose mg/kg, intervalo e eficácia clínica com segurança.\n\nEm resumo, o CBD mostra potencial terapêutico em cães, sobretudo por via oral, mas ainda exige seleção criteriosa de produto, ajuste individual de dose mg/kg, avaliação da espécie e vigilância para eventos adversos. Produtos com THC representam risco relevante para animais e devem ser evitados.",
+    "key_points": [
+      "Espécies abordadas: cães e cavalos.",
+      "Via de administração mais estudada: oral, principalmente óleo ou cápsulas.",
+      "Dose canina mais citada na literatura: 1–2 mg/kg a cada 12 horas por via oral.",
+      "Alguns estudos em cães avaliaram até cerca de 2,5 mg/kg por via oral.",
+      "Principais indicações investigadas: dor, osteoartrite, epilepsia, ansiedade e inflamação.",
+      "Biodisponibilidade do CBD é variável entre formulações e indivíduos.",
+      "CBD sofre metabolismo hepático e pode interagir com outros fármacos.",
+      "Eventos adversos em cães incluem sedação leve, diarreia e vômito.",
+      "Pode ocorrer aumento de enzimas hepáticas, especialmente FA/ALP.",
+      "Em cavalos, a evidência clínica ainda é limitada e sem dose padronizada robusta.",
+      "Produtos veterinários devem ter composição padronizada e laudo analítico.",
+      "Formulações com baixo ou nenhum THC são preferíveis em animais."
+    ],
+    "warnings": [
+      "ALERTA: THC pode causar toxicidade importante em animais, especialmente cães, com sinais como ataxia, letargia, midríase, hipersalivação, incontinência, bradicardia e hipotermia.",
+      "Evitar flores secas, extratos artesanais e produtos sem análise laboratorial.",
+      "Usar com cautela em pacientes com doença hepática ou em uso de anticonvulsivantes e outros fármacos metabolizados no fígado.",
+      "Em cavalos, a ausência de padronização de dose mg/kg limita recomendações clínicas firmes."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11071133/",
+    "source": "journal_cbd-vet-dogs-horses-pmc"
+  },
+  {
+    "id": "web-sistema-endocanabinoide-e-fitocanabinoides-nas-principais-es",
+    "title": "Sistema endocanabinoide e fitocanabinoides nas principais espécies veterinárias: comparação prática para uso clínico",
+    "category": "farmacocinetica",
+    "area": "veterinary",
+    "content": "Esta revisão comparativa reúne informações sobre o sistema endocanabinoide (SEC), a distribuição de receptores canabinoides e os dados de farmacocinética, eficácia e tolerabilidade dos fitocanabinoides nas principais espécies de interesse veterinário. O foco recai sobretudo sobre cães, gatos, cavalos e outras espécies domésticas, mostrando que há diferenças relevantes entre espécies na expressão de receptores, absorção, metabolismo e resposta clínica ao CBD.\n\nEm cães, a via de administração mais estudada é a oral, com doses de CBD frequentemente entre 1 e 2 mg/kg a cada 12 horas, embora alguns estudos tenham explorado faixas maiores conforme a indicação e a formulação. Em gatos, a espécie felina apresenta maior variabilidade de tolerabilidade e farmacocinética; doses orais estudadas costumam girar em torno de 1–2 mg/kg, mas com maior ocorrência de salivação, desconforto na administração e alterações gastrointestinais em algumas formulações. Em cavalos, a absorção oral também é variável, e ainda faltam consensos sólidos sobre dose mg/kg para uso clínico rotineiro.\n\nA revisão reforça que a formulação influencia fortemente a exposição sistêmica: óleo, cápsula, pasta oral e formulações transmucosas podem produzir perfis farmacocinéticos distintos. Alimento concomitante, teor lipídico do veículo e composição do extrato também alteram a absorção. Além disso, o CBD pode modificar enzimas hepáticas e interagir com outros medicamentos, exigindo cautela em protocolos prolongados.\n\nClinicamente, o SEC é um alvo promissor para dor, epilepsia, inflamação, dermatologia e comportamento, mas a extrapolação entre espécies é inadequada. A principal mensagem prática é que dose mg/kg, via de administração e segurança devem ser definidas por espécie. Produtos contendo THC merecem atenção especial, pois cães e gatos são particularmente sensíveis à intoxicação.",
+    "key_points": [
+      "Categoria central do artigo: farmacocinética comparativa entre espécies.",
+      "Espécies discutidas: cães, gatos, cavalos e outras de interesse veterinário.",
+      "Via oral é a mais estudada para CBD em pequenos animais.",
+      "Em cães, doses comuns em estudos: 1–2 mg/kg por via oral a cada 12 horas.",
+      "Em gatos, doses estudadas também costumam ficar em torno de 1–2 mg/kg por via oral.",
+      "A resposta clínica e a tolerabilidade variam conforme a espécie.",
+      "Formulação influencia absorção: óleo, cápsula, pasta e transmucosa não são equivalentes.",
+      "Alimento e veículo lipídico podem aumentar ou modificar a exposição ao CBD.",
+      "Monitoramento hepático é recomendado em uso contínuo.",
+      "Não se deve extrapolar dose de cão para gato ou cavalo automaticamente.",
+      "O SEC participa de modulação de dor, inflamação, convulsões e comportamento.",
+      "A evidência mais robusta ainda se concentra em CBD, não em THC."
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para animais, especialmente cães, e pode causar sinais neurológicos e cardiovasculares relevantes.",
+      "Gatos podem apresentar maior dificuldade de administração oral e reações adversas relacionadas à formulação.",
+      "Diferenças farmacocinéticas entre espécies impedem recomendações universais de dose mg/kg.",
+      "Produtos sem padronização, sem COA/laudo ou com THC não declarado aumentam o risco clínico."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11442603/",
+    "source": "journal_ecs-veterinary-review-pmc"
+  },
+  {
+    "id": "web-toxicidade-por-thc-em-caes-uso-de-folhas-transmucosas-com-cb",
+    "title": "Toxicidade por THC em cães: uso de folhas transmucosas com CBD em seis casos",
+    "category": "toxicidade-thc",
+    "area": "veterinary",
+    "content": "Este relato de casos descreve seis cães com suspeita de toxicosis não médica por tetraidrocanabinol (THC) tratados com folhas dissolvíveis de CBD por via transmucosa oral. A espécie estudada foi exclusivamente canina. A dose de CBD utilizada variou de 0,4 a 2,6 mg/kg, administrada por via transmucosa, com um dos seis pacientes também recebendo antiemético injetável. Segundo o relato, cinco dos seis cães apresentaram melhora perceptível de letargia e ataxia e resolução dos demais sinais clínicos em até 45 minutos após o tratamento.\n\nOs autores apresentam a abordagem como uma possível alternativa de baixo custo e fácil aplicação em casos selecionados de intoxicação por THC, sobretudo quando o tratamento convencional de suporte é limitado por custo ou acesso. No entanto, trata-se de uma série pequena, sem grupo controle, baseada em casos presumidos de intoxicação e com limitações metodológicas importantes. Portanto, os resultados não devem ser interpretados como prova definitiva de eficácia.\n\nNa prática clínica, a intoxicação por THC em cães continua sendo uma emergência toxicológica que exige avaliação veterinária. O tratamento padrão permanece sendo suporte clínico, controle de vômitos quando indicado, monitoramento cardiovascular e neurológico, manutenção da temperatura corporal e descontaminação em casos apropriados e precoces. O uso de CBD como adjuvante ainda precisa de estudos controlados para confirmar benefício, dose ideal mg/kg, momento de administração e segurança em diferentes graus de intoxicação.\n\nA principal utilidade deste artigo é abrir discussão sobre novas estratégias terapêuticas, mas sem substituir o manejo convencional. Em qualquer suspeita de exposição a cannabis, é essencial identificar se houve ingestão de comestíveis, chocolate, xilitol ou outras substâncias associadas, que podem agravar muito o prognóstico.",
+    "key_points": [
+      "Espécie estudada: cães.",
+      "Condição clínica: toxicosis presumida por THC não medicinal.",
+      "Via de administração do CBD: transmucosa oral.",
+      "Dose de CBD utilizada: 0,4–2,6 mg/kg.",
+      "Cinco de seis cães melhoraram clinicamente em até 45 minutos, segundo o relato.",
+      "Um dos seis casos também recebeu antiemético injetável.",
+      "Sinais relatados incluíram letargia e ataxia.",
+      "Estudo é série de casos, sem grupo controle.",
+      "Não comprova eficácia definitiva do CBD para intoxicação por THC.",
+      "Manejo padrão da intoxicação por THC ainda é suporte clínico.",
+      "É importante investigar coingestão de chocolate, xilitol ou outros tóxicos.",
+      "O artigo sugere potencial terapêutico, mas requer validação em estudos maiores."
+    ],
+    "warnings": [
+      "ALERTA: THC é tóxico para cães e pode causar ataxia, depressão do sensório, hipersalivação, vômitos, incontinência urinária, bradicardia, hipotermia e, em casos graves, coma.",
+      "Este artigo não autoriza automedicação domiciliar com CBD em intoxicação por THC.",
+      "Produtos de cannabis ingeridos por cães frequentemente contêm outros tóxicos, como chocolate e xilitol.",
+      "Casos com sinais intensos, tremores, convulsões, depressão profunda ou alterações cardiovasculares exigem atendimento veterinário imediato.",
+      "A dose de CBD de 0,4–2,6 mg/kg por via transmucosa foi apenas a faixa observada no relato, não um protocolo universal validado."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11667118/",
+    "source": "journal_thc-toxicity-cbd-treatment-pmc"
+  },
+  {
+    "id": "web-toxicidade-induzida-por-cannabis-em-pets-achados-de-um-levan",
+    "title": "Toxicidade induzida por cannabis em pets: achados de um levantamento com veterinários da América do Norte",
+    "category": "toxicidade-thc",
+    "area": "veterinary",
+    "content": "Este artigo descreve um levantamento com médicos-veterinários da América do Norte sobre a frequência e as características das intoxicações por cannabis em animais de companhia, com destaque para cães. O estudo sugere aumento dos casos observados após maior disponibilidade de produtos contendo cannabis, especialmente comestíveis. A espécie mais acometida foi a canina, geralmente após ingestão oral acidental de produtos humanos, incluindo alimentos com THC. A via de administração predominante nos casos relatados foi oral/enteral, por ingestão de comestíveis, óleos, resinas ou material vegetal.\n\nOs sinais clínicos mais relatados em cães incluíram ataxia, letargia, depressão do sensório, incontinência urinária, midríase, hiperestesia, bradicardia e, em alguns casos, vômitos ou desorientação. Em exposições mais importantes, podem ocorrer hipotermia, tremores, estupor e necessidade de suporte intensivo. O artigo reforça que muitos produtos envolvidos continham delta-9-THC, principal responsável pela toxicidade clínica em animais. CBD isolado tende a ter perfil de segurança mais favorável, mas produtos comerciais podem conter THC residual ou concentrações maiores do que o rótulo informa.\n\nEste estudo não foi desenhado para estabelecer uma dosagem tóxica exata em mg/kg, e os casos foram baseados em relatos de campo. Portanto, a dosagem mg/kg da exposição frequentemente era desconhecida. Ainda assim, do ponto de vista clínico, qualquer exposição a THC em cães e gatos deve ser considerada potencialmente tóxica, especialmente em filhotes, animais pequenos e pacientes com comorbidades. A conduta é descontaminação quando apropriada, monitorização cardiovascular e neurológica, controle de temperatura, fluidoterapia e suporte sintomático. Em medicina veterinária, não se recomenda extrapolar doses terapêuticas de CBD para produtos com THC.",
+    "key_points": [
+      "Categoria: toxicidade por THC em animais de companhia",
+      "Espécie mais acometida nos relatos: cães",
+      "Via de administração mais comum: oral, por ingestão acidental",
+      "Produtos humanos comestíveis foram fonte frequente de exposição",
+      "Sinais comuns: ataxia, letargia, incontinência urinária e midríase",
+      "THC é o principal composto associado à toxidrome clínica",
+      "A dose tóxica em mg/kg não foi definida com precisão neste levantamento",
+      "A quantidade ingerida frequentemente era desconhecida nos casos",
+      "CBD isolado não deve ser confundido com produtos contendo THC",
+      "Filhotes e animais de pequeno porte podem apresentar maior risco clínico",
+      "Tratamento é principalmente de suporte e monitorização",
+      "Histórico detalhado do produto ingerido é essencial para o manejo"
+    ],
+    "warnings": [
+      "ALERTA: THC pode causar toxicidade importante em cães e gatos, mesmo em pequenas exposições.",
+      "A dose tóxica em mg/kg não foi estabelecida de forma confiável neste estudo; ausência de dose exata não significa segurança.",
+      "Comestíveis podem conter chocolate, xilitol ou outros ingredientes adicionais perigosos.",
+      "Nunca administrar produtos humanos com THC a animais.",
+      "Gatos também podem intoxicar, embora os relatos sejam mais frequentes em cães.",
+      "Encaminhar para atendimento veterinário imediato em casos de depressão neurológica, tremores, bradicardia, hipotermia ou ingestão desconhecida."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9020701/",
+    "source": "journal_thc-toxicity-dogs-survey-pmc"
+  },
+  {
+    "id": "web-cannabis-na-medicina-veterinaria-revisao-critica-sobre-farma",
+    "title": "Cannabis na medicina veterinária: revisão crítica sobre farmacologia, segurança e uso clínico",
+    "category": "seguranca",
+    "area": "veterinary",
+    "content": "Esta revisão crítica resume os principais fundamentos da cannabis medicinal em animais de companhia, com foco em cães e gatos. O artigo aborda o sistema endocanabinoide, farmacologia de canabinoides como CBD e THC, potenciais aplicações clínicas e limitações de segurança. A espécie mais estudada é a canina, e a via de administração mais comum nos estudos citados é oral, geralmente na forma de óleo. Em cães, doses de CBD frequentemente avaliadas em estudos clínicos e farmacocinéticos ficaram em torno de 2 mg/kg por via oral a cada 12 horas, especialmente em pesquisas sobre osteoartrite e epilepsia. Em alguns protocolos experimentais, também foram avaliadas doses mais altas, como 2–2,5 mg/kg a 12 horas ou escalonamentos conforme tolerância.\n\nA revisão destaca que o CBD apresenta potencial analgésico, anti-inflamatório, anticonvulsivante e ansiolítico, mas a qualidade da evidência ainda é variável. Em osteoartrite canina, 2 mg/kg VO a cada 12 horas foi uma das doses mais citadas com melhora clínica em alguns estudos. Em epilepsia canina, protocolos com CBD oral adjuvante em torno de 2,5 mg/kg a cada 12 horas foram descritos em literatura inicial. Para gatos, os dados são mais limitados; a espécie felina também recebe formulações orais, porém com menos evidência robusta e maior variabilidade de absorção e tolerabilidade.\n\nDo ponto de vista de segurança, eventos adversos com CBD em cães incluem elevação de fosfatase alcalina, sedação leve e distúrbios gastrointestinais. A revisão também chama atenção para interações medicamentosas via citocromo P450. Já o THC merece cautela máxima: animais, especialmente cães, são mais sensíveis aos seus efeitos neurológicos. Assim, produtos veterinários devem ter controle rigoroso de composição, certificado de análise e teor mínimo ou ausente de THC quando o objetivo é segurança clínica.",
+    "key_points": [
+      "Categoria: segurança e revisão geral de cannabis medicinal veterinária",
+      "Espécies abordadas: principalmente cães; dados mais limitados em gatos",
+      "Via de administração mais estudada: oral, geralmente óleo",
+      "Dose de CBD frequentemente citada em cães: 2 mg/kg VO a cada 12 horas",
+      "Em epilepsia canina, estudos iniciais avaliaram cerca de 2,5 mg/kg VO a cada 12 horas",
+      "Em osteoartrite canina, 2 mg/kg VO a cada 12 horas foi uma referência comum",
+      "CBD pode ter efeitos analgésicos, anti-inflamatórios e anticonvulsivantes",
+      "Eventos adversos incluem sedação leve, diarreia e aumento de ALP",
+      "Há potencial de interação medicamentosa via CYP450",
+      "Gatos têm menos evidência clínica e maior incerteza farmacocinética",
+      "Qualidade do produto e certificado de análise são fundamentais",
+      "THC não deve ser presumido como seguro para pets"
+    ],
+    "warnings": [
+      "ALERTA: THC é potencialmente tóxico para cães e gatos e pode causar sinais neurológicos e cardiovasculares relevantes.",
+      "As doses em mg/kg citadas referem-se principalmente a estudos com CBD, não a THC.",
+      "Não substituir acompanhamento veterinário por automedicação com produtos de cannabis.",
+      "Monitorar enzimas hepáticas e possíveis interações com anticonvulsivantes, AINEs e outros fármacos.",
+      "Em felinos, usar cautela redobrada devido à escassez de dados de segurança e dosagem.",
+      "Produtos sem certificado de análise podem conter THC residual, solventes ou concentração divergente do rótulo."
+    ],
+    "source_url": "https://www.ahvma.org/wp-content/uploads/Cannabis-in-Veterinary-Medicine-A-Critical-Review-Vol-61_LR-3.pdf",
+    "source": "pdf_ahvma-cannabis-review"
+  }
+]

@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "indica",
+    "title": "Indica",
+    "origin_country": "Indica",
+    "genetics_text": "indica",
+    "content": "Indica. Origem: Indica. Tipo: indica. Strain com 5 amostras laboratoriais. THC medio: 31.29%. CBD medio: 0.44%. Terpeno dominante: Limoneno.",
+    "key_points": [
+      "Landrace/pura de Indica",
+      "Genetica: indica"
+    ]
+  },
+  {
+    "id": "afghanistan-indica",
+    "title": "Afghanistan - Indica",
+    "origin_country": "Afghanistan",
+    "genetics_text": "indica",
+    "content": "Afghanistan - Indica. Origem: Afghanistan. Tipo: indica. Afghanistan - Indica, da Original Strains, é uma indica pura, representando a genética clássica e robusta das variedades landrace do Afeganistão. Esta strain é a base de muitas outras e é valorizada por seus efeitos profundamente relaxantes e sedativos. Embora os efeitos e aromas específicos não sejam detalhados, espera-se uma experiência que promove a calma e o bem-estar físico, com notas terrosas, de pinho e especiarias. É uma excelente escolha para quem busca alívio da dor, insônia e estresse, sendo ideal para uso noturno. Sua natureza indica pura a torna adaptável a diversos ambientes de cultivo, tanto indoor quanto outdoor, e é uma ótima opção para cultivadores que apreciam a pureza genética.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Afghanistan",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "afghanistan-mostly-indica",
+    "title": "Afghanistan - Mostly Indica",
+    "origin_country": "Afghanistan",
+    "genetics_text": "mostly indica",
+    "content": "Afghanistan - Mostly Indica. Origem: Afghanistan. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Afghanistan",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "africa-hybrid",
+    "title": "Africa - Hybrid",
+    "origin_country": "Africa",
+    "genetics_text": "indica / sativa",
+    "content": "Africa - Hybrid. Origem: Africa. Tipo: indica / sativa. Linhagem: African Sativa x African Indica",
+    "key_points": [
+      "Landrace/pura de Africa",
+      "Genetica: indica / sativa",
+      "Linhagem: African Sativa x African Indica"
+    ]
+  },
+  {
+    "id": "africa-sativa",
+    "title": "Africa - Sativa",
+    "origin_country": "Africa",
+    "genetics_text": "sativa",
+    "content": "Africa - Sativa. Origem: Africa. Tipo: sativa. A Africa - Sativa e uma pura sativa, originaria do continente africano. Esta strain e conhecida por seus efeitos energizantes e edificantes, tipicos das sativas puras, proporcionando um impulso de criatividade e foco. Seu perfil de aromas e terroso, com notas picantes e um toque citrico, refletindo sua origem selvagem. E ideal para uso diurno, auxiliando na produtividade e no bem-estar geral. O cultivo desta strain geralmente se beneficia de climas quentes e ensolarados, sendo mais adequada para ambientes outdoor ou estufas com espaco amplo, devido ao seu crescimento vigoroso e altura. Seu periodo de floração pode ser mais longo, caracteristico de sativas puras.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Africa",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "australia-mostly-sativa",
+    "title": "Australia - Mostly Sativa",
+    "origin_country": "Australia",
+    "genetics_text": "mostly sativa",
+    "content": "Australia - Mostly Sativa. Origem: Australia. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Australia",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "bhutan-mostly-sativa",
+    "title": "Bhutan - Mostly Sativa",
+    "origin_country": "Bhutan",
+    "genetics_text": "mostly sativa",
+    "content": "Bhutan - Mostly Sativa. Origem: Bhutan. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Bhutan",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "brazil-hybrid",
+    "title": "Brazil - Hybrid",
+    "origin_country": "Brazil",
+    "genetics_text": "indica / sativa",
+    "content": "Brazil - Hybrid. Origem: Brazil. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Brazil",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "brazil-indica",
+    "title": "Brazil - Indica",
+    "origin_country": "Brazil",
+    "genetics_text": "indica",
+    "content": "Brazil - Indica. Origem: Brazil. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Brazil",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "brazil-mostly-indica",
+    "title": "Brazil - Mostly Indica",
+    "origin_country": "Brazil",
+    "genetics_text": "mostly indica",
+    "content": "Brazil - Mostly Indica. Origem: Brazil. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Brazil",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "brazil-sativa",
+    "title": "Brazil - Sativa",
+    "origin_country": "Brazil",
+    "genetics_text": "sativa",
+    "content": "Brazil - Sativa. Origem: Brazil. Tipo: sativa. A Brazil - Sativa e uma pura sativa, originaria das terras brasileiras. Esta strain e conhecida por seus efeitos energizantes e eufóricos, típicos das sativas tropicais. Seu perfil de aromas e geralmente cítrico e terroso, com notas doces que remetem a frutas tropicais. Ideal para uso diurno, ela pode proporcionar um impulso criativo e um estado de alerta mental. Devido a sua genética sativa, e uma excelente escolha para quem busca inspiração ou um estimulante natural. O cultivo desta strain e mais adequado para ambientes externos em climas quentes e úmidos, embora possa ser adaptada para indoor com técnicas de controle de altura. Seu tempo de floração pode ser um pouco mais longo, característico das sativas puras.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Brazil",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "burma-hybrid",
+    "title": "Burma - Hybrid",
+    "origin_country": "Burma",
+    "genetics_text": "indica / sativa",
+    "content": "Burma - Hybrid. Origem: Burma. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Burma",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "canada-mostly-sativa",
+    "title": "Canada - Mostly Sativa",
+    "origin_country": "Canada",
+    "genetics_text": "mostly sativa",
+    "content": "Canada - Mostly Sativa. Origem: Canada. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Canada",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "canada-ruderalis",
+    "title": "Canada - Ruderalis",
+    "origin_country": "Canada",
+    "genetics_text": "ruderalis",
+    "content": "Canada - Ruderalis. Origem: Canada. Tipo: ruderalis. Canada - Ruderalis, da Original Strains, é um híbrido com predominância de genética ruderalis. Esta linhagem é notável por sua natureza autoflorescente, o que a torna uma escolha popular para cultivadores iniciantes ou para aqueles que buscam ciclos de cultivo mais curtos e menos dependentes do fotoperíodo. Embora os efeitos e aromas específicos não sejam detalhados, as strains ruderalis são geralmente conhecidas por seu teor de canabinoides mais baixo e por serem ideais para cruzamentos, conferindo a característica autoflorescente a outras variedades. É uma base genética valiosa para projetos de melhoramento.. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de Canada",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "canada-sativa",
+    "title": "Canada - Sativa",
+    "origin_country": "Canada",
+    "genetics_text": "sativa",
+    "content": "Canada - Sativa. Origem: Canada. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Canada",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "china-ruderalis",
+    "title": "China - Ruderalis",
+    "origin_country": "China",
+    "genetics_text": "ruderalis",
+    "content": "China - Ruderalis. Origem: China. Tipo: ruderalis. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de China",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "colombia-hybrid",
+    "title": "Colombia - Hybrid",
+    "origin_country": "Colombia",
+    "genetics_text": "indica / sativa",
+    "content": "Colombia - Hybrid. Origem: Colombia. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Colombia",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "colombia-mostly-indica",
+    "title": "Colombia - Mostly Indica",
+    "origin_country": "Colombia",
+    "genetics_text": "mostly indica",
+    "content": "Colombia - Mostly Indica. Origem: Colombia. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Colombia",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "colombia-sativa",
+    "title": "Colombia - Sativa",
+    "origin_country": "Colombia",
+    "genetics_text": "sativa",
+    "content": "Colombia - Sativa. Origem: Colombia. Tipo: sativa. A Colombia - Sativa, da Original Strains, e uma strain pura sativa, proveniente das terras tropicais da Colombia. Esta genetica e famosa por seus efeitos energizantes e euforicos, que estimulam a mente e promovem a criatividade e o foco. Seu perfil de aromas e tipicamente citrico e picante, com notas de terra e um toque herbal. E uma excelente escolha para uso diurno, ajudando a combater a fadiga e a depressao, alem de ser ideal para atividades sociais e criativas. Como uma sativa pura, e uma planta alta e vigorosa, que se adapta bem ao cultivo outdoor em climas quentes e ensolarados, mas tambem pode ser cultivada indoor com tecnicas de controle de altura. O tempo de floracao nao e especificado, mas sativas puras geralmente requerem um periodo de floracao mais longo.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Colombia",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "congo-sativa",
+    "title": "Congo - Sativa",
+    "origin_country": "Congo",
+    "genetics_text": "sativa",
+    "content": "Congo - Sativa. Origem: Congo. Tipo: sativa. A Congo - Sativa, da Original Strains, é uma strain pura sativa, com sua linhagem originária do Congo, África, cruzada com outra sativa. Embora os níveis de THC e CBD não sejam especificados, sua natureza sativa pura garante efeitos energizantes, eufóricos e cerebrais. O perfil de aromas é tipicamente terroso, picante e talvez com notas cítricas ou frutadas, característico das sativas africanas. Esta strain é ideal para uso diurno, proporcionando um impulso de energia, foco e criatividade, sem a sedação associada às indicas. É uma excelente escolha para atividades sociais, projetos criativos ou para combater a fadiga. O tempo de floração não é especificado, mas sativas puras geralmente demandam um período de floração mais longo.. Linhagem: Congo, Africa x Sativa",
+    "key_points": [
+      "Landrace/pura de Congo",
+      "Genetica: sativa",
+      "Linhagem: Congo, Africa x Sativa"
+    ]
+  },
+  {
+    "id": "egypt-hybrid",
+    "title": "Egypt - Hybrid",
+    "origin_country": "Egypt",
+    "genetics_text": "indica / sativa",
+    "content": "Egypt - Hybrid. Origem: Egypt. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Egypt",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "europe-hybrid",
+    "title": "Europe - Hybrid",
+    "origin_country": "Europe",
+    "genetics_text": "indica / sativa",
+    "content": "Europe - Hybrid. Origem: Europe. Tipo: indica / sativa. Europe - Hybrid, da Original Strains, é um híbrido com uma mistura equilibrada de genéticas indica e sativa, derivado de uma linhagem Híbrida Desconhecida. Esta variedade é notável por sua capacidade de auxiliar em sintomas psiquiátricos, oferecendo um alívio potencial para diversas condições. Embora os efeitos e aromas específicos não sejam detalhados, a natureza híbrida sugere uma experiência que pode combinar o relaxamento físico das indicas com a clareza mental das sativas. É uma opção interessante para quem busca uma strain com potencial terapêutico para o bem-estar mental.. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Europe",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "africa-indica",
+    "title": "Africa - Indica",
+    "origin_country": "Africa",
+    "genetics_text": "indica",
+    "content": "Africa - Indica. Origem: Africa. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Africa",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "africa-mostly-sativa",
+    "title": "Africa - Mostly Sativa",
+    "origin_country": "Africa",
+    "genetics_text": "mostly sativa",
+    "content": "Africa - Mostly Sativa. Origem: Africa. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Africa",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "asia-hybrid",
+    "title": "Asia - Hybrid",
+    "origin_country": "Asia",
+    "genetics_text": "indica / sativa",
+    "content": "Asia - Hybrid. Origem: Asia. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Asia",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "asia-mostly-sativa",
+    "title": "Asia - Mostly Sativa",
+    "origin_country": "Asia",
+    "genetics_text": "mostly sativa",
+    "content": "Asia - Mostly Sativa. Origem: Asia. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Asia",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "asia-sativa",
+    "title": "Asia - Sativa",
+    "origin_country": "Asia",
+    "genetics_text": "sativa",
+    "content": "Asia - Sativa. Origem: Asia. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Asia",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "australia-sativa",
+    "title": "Australia - Sativa",
+    "origin_country": "Australia",
+    "genetics_text": "sativa",
+    "content": "Australia - Sativa. Origem: Australia. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Australia",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "bhutan-sativa",
+    "title": "Bhutan - Sativa",
+    "origin_country": "Bhutan",
+    "genetics_text": "sativa",
+    "content": "Bhutan - Sativa. Origem: Bhutan. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Bhutan",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "burma-sativa",
+    "title": "Burma - Sativa",
+    "origin_country": "Burma",
+    "genetics_text": "sativa",
+    "content": "Burma - Sativa. Origem: Burma. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Burma",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "china-indica",
+    "title": "China - Indica",
+    "origin_country": "China",
+    "genetics_text": "indica",
+    "content": "China - Indica. Origem: China. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de China",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "hawaii-hybrid",
+    "title": "Hawaii - Hybrid",
+    "origin_country": "Hawaii",
+    "genetics_text": "indica / sativa",
+    "content": "Hawaii - Hybrid. Origem: Hawaii. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Hawaii",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "hawaii-indica",
+    "title": "Hawaii - Indica",
+    "origin_country": "Hawaii",
+    "genetics_text": "indica",
+    "content": "Hawaii - Indica. Origem: Hawaii. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Hawaii",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "hawaii-sativa",
+    "title": "Hawaii - Sativa",
+    "origin_country": "Hawaii",
+    "genetics_text": "sativa",
+    "content": "Hawaii - Sativa. Origem: Hawaii. Tipo: sativa. Hawaii - Sativa e uma pura sativa, originaria das ilhas do Havaí. Esta strain e celebrada por seus efeitos edificantes e eufóricos, que elevam o espirito e promovem uma sensação de felicidade e bem-estar. E perfeita para uso diurno, estimulando a criatividade e a socialização. O perfil de aromas e tropical e doce, com notas de frutas exoticas e um toque floral, evocando a brisa do oceano. O cultivo desta strain se beneficia de climas quentes e umidos, sendo mais adequada para ambientes outdoor ou estufas que possam replicar seu habitat natural. Seu periodo de floração e tipico de sativas puras.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Hawaii",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "himalaya-sativa",
+    "title": "Himalaya - Sativa",
+    "origin_country": "Himalaya",
+    "genetics_text": "sativa",
+    "content": "Himalaya - Sativa. Origem: Himalaya. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Himalaya",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "hungary-ruderalis",
+    "title": "Hungary - Ruderalis",
+    "origin_country": "Hungary",
+    "genetics_text": "ruderalis",
+    "content": "Hungary - Ruderalis. Origem: Hungary. Tipo: ruderalis. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de Hungary",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "jamaica-hybrid",
+    "title": "Jamaica - Hybrid",
+    "origin_country": "Jamaica",
+    "genetics_text": "indica / sativa",
+    "content": "Jamaica - Hybrid. Origem: Jamaica. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Jamaica",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "jamaica-mostly-sativa",
+    "title": "Jamaica - Mostly Sativa",
+    "origin_country": "Jamaica",
+    "genetics_text": "mostly sativa",
+    "content": "Jamaica - Mostly Sativa. Origem: Jamaica. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Jamaica",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "kambodga-sativa",
+    "title": "Kambodga - Sativa",
+    "origin_country": "Kambodga",
+    "genetics_text": "sativa",
+    "content": "Kambodga - Sativa. Origem: Kambodga. Tipo: sativa. A Kambodga - Sativa, da Original Strains, é uma pura sativa que promete uma experiência energética e cerebral. Originária da região do Camboja, esta strain é ideal para quem busca um impulso criativo e um estado de alerta. Embora não haja informações detalhadas sobre efeitos ou aromas, as sativas geralmente oferecem um perfil cítrico, terroso ou picante. É uma excelente opção para uso diurno, estimulando a mente e o corpo. O cultivo de sativas puras como a Kambodga pode exigir um período de floração mais longo e espaço adequado, sendo mais indicada para cultivadores experientes ou ambientes outdoor com clima favorável.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Kambodga",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "kazakhstan-indica",
+    "title": "Kazakhstan - Indica",
+    "origin_country": "Kazakhstan",
+    "genetics_text": "indica",
+    "content": "Kazakhstan - Indica. Origem: Kazakhstan. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Kazakhstan",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "mexico-ruderalis",
+    "title": "Mexico - Ruderalis",
+    "origin_country": "Mexico",
+    "genetics_text": "ruderalis",
+    "content": "Mexico - Ruderalis. Origem: Mexico. Tipo: ruderalis. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de Mexico",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "mexico-sativa",
+    "title": "Mexico - Sativa",
+    "origin_country": "Mexico",
+    "genetics_text": "sativa",
+    "content": "Mexico - Sativa. Origem: Mexico. Tipo: sativa. A Mexico - Sativa e uma pura sativa, originaria das terras mexicanas. Esta linhagem e conhecida por seus efeitos energizantes e eufóricos, tipicos das sativas puras, que podem inspirar criatividade e foco. Seu perfil de aromas e geralmente terroso com notas citricas e picantes, proporcionando uma experiencia olfativa vibrante. E uma excelente escolha para uso diurno, ideal para quem busca um estimulo natural. O cultivo desta strain e mais adequado para ambientes externos em climas quentes e ensolarados, onde pode atingir seu potencial maximo de crescimento e producao.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Mexico",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "morocco-hybrid",
+    "title": "Morocco - Hybrid",
+    "origin_country": "Morocco",
+    "genetics_text": "indica / sativa",
+    "content": "Morocco - Hybrid. Origem: Morocco. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Morocco",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "morocco-mostly-indica",
+    "title": "Morocco - Mostly Indica",
+    "origin_country": "Morocco",
+    "genetics_text": "mostly indica",
+    "content": "Morocco - Mostly Indica. Origem: Morocco. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Morocco",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "mostly-indica",
+    "title": "Mostly Indica",
+    "origin_country": "Mostly",
+    "genetics_text": "mostly indica",
+    "content": "Mostly Indica. Origem: Mostly. Tipo: mostly indica. A Mostly Indica e uma strain predominantemente indica, oferecendo os efeitos relaxantes e sedativos caracteristicos desta genetica. Sua linhagem, embora nao especificada em detalhes, sugere uma composicao que favorece o relaxamento corporal profundo e a tranquilidade mental. O perfil de aromas tende a ser doce e terroso, com toques de pinho ou especiarias, proporcionando uma experiencia reconfortante. E ideal para uso noturno ou para momentos de descanso, auxiliando na reducao do estresse e na promocao do sono. Esta strain e geralmente facil de cultivar, adaptando-se bem a ambientes internos e externos.",
+    "key_points": [
+      "Landrace/pura de Mostly",
+      "Genetica: mostly indica"
+    ]
+  },
+  {
+    "id": "mostly-sativa",
+    "title": "Mostly Sativa",
+    "origin_country": "Mostly",
+    "genetics_text": "mostly sativa",
+    "content": "Mostly Sativa. Origem: Mostly. Tipo: mostly sativa. A Mostly Sativa e uma strain com predominancia sativa, conhecida por seus efeitos cerebrais e estimulantes. Esta genetica e ideal para quem busca um impulso de energia, criatividade e foco, sem a sedacao que as indicas podem proporcionar. Embora a linhagem exata nao seja detalhada, sua natureza sativa garante uma experiencia mais euforica e social. O perfil de aromas e frequentemente citrico, herbal e picante, despertando os sentidos. E recomendada para uso diurno, para atividades que exigem concentracao ou para socializar. Seu cultivo pode ser feito tanto em ambientes internos quanto externos, com um tempo de floração moderado.",
+    "key_points": [
+      "Landrace/pura de Mostly",
+      "Genetica: mostly sativa"
+    ]
+  },
+  {
+    "id": "panama-mostly-sativa",
+    "title": "Panama - Mostly Sativa",
+    "origin_country": "Panama",
+    "genetics_text": "mostly sativa",
+    "content": "Panama - Mostly Sativa. Origem: Panama. Tipo: mostly sativa. Linhagem: Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Panama",
+      "Genetica: mostly sativa",
+      "Linhagem: Mostly Sativa"
+    ]
+  },
+  {
+    "id": "panama-sativa",
+    "title": "Panama - Sativa",
+    "origin_country": "Panama",
+    "genetics_text": "sativa",
+    "content": "Panama - Sativa. Origem: Panama. Tipo: sativa. A Panama - Sativa da Original Strains é uma strain pura sativa, com uma linhagem que remonta diretamente às sativas panamenhas. Embora os detalhes sobre seus efeitos e aromas não sejam fornecidos, as sativas panamenhas são tradicionalmente conhecidas por seus efeitos energéticos, eufóricos e cerebrais, sendo ideais para uso diurno e para estimular a criatividade. É provável que apresente aromas terrosos, picantes e talvez cítricos. Esta strain é uma excelente escolha para cultivadores que buscam uma sativa clássica com um perfil de crescimento vigoroso e um tempo de floração mais longo, típico das sativas puras.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Panama",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "paraguay-sativa",
+    "title": "Paraguay - Sativa",
+    "origin_country": "Paraguay",
+    "genetics_text": "sativa",
+    "content": "Paraguay - Sativa. Origem: Paraguay. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Paraguay",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "russia-indica",
+    "title": "Russia - Indica",
+    "origin_country": "Russia",
+    "genetics_text": "indica",
+    "content": "Russia - Indica. Origem: Russia. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Russia",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "russia-sativa",
+    "title": "Russia - Sativa",
+    "origin_country": "Russia",
+    "genetics_text": "sativa",
+    "content": "Russia - Sativa. Origem: Russia. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Russia",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "south-africa-sativa",
+    "title": "South Africa - Sativa",
+    "origin_country": "South Africa",
+    "genetics_text": "sativa",
+    "content": "South Africa - Sativa. Origem: South Africa. Tipo: sativa. A South Africa - Sativa da Original Strains é uma pura sativa, originária da África. Esta linhagem é conhecida por seus efeitos energizantes e edificantes, típicos das sativas, que promovem clareza mental e criatividade. Embora os aromas específicos não sejam fornecidos, as sativas africanas frequentemente apresentam perfis cítricos, terrosos e picantes. É uma excelente escolha para uso diurno, para quem busca um impulso de energia e foco. Seu cultivo pode exigir um período de floração mais longo, característico das sativas puras.. Linhagem: Africa - Sativa x Sativa",
+    "key_points": [
+      "Landrace/pura de South Africa",
+      "Genetica: sativa",
+      "Linhagem: Africa - Sativa x Sativa"
+    ]
+  },
+  {
+    "id": "sri-lanka-sativa",
+    "title": "Sri Lanka - Sativa",
+    "origin_country": "Sri Lanka",
+    "genetics_text": "sativa",
+    "content": "Sri Lanka - Sativa. Origem: Sri Lanka. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Sri Lanka",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "swizerland-indica",
+    "title": "Swizerland - Indica",
+    "origin_country": "Swizerland",
+    "genetics_text": "indica",
+    "content": "Swizerland - Indica. Origem: Swizerland. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Swizerland",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "swizerland-sativa",
+    "title": "Swizerland - Sativa",
+    "origin_country": "Swizerland",
+    "genetics_text": "sativa",
+    "content": "Swizerland - Sativa. Origem: Swizerland. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Swizerland",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "tadschikistan-indica",
+    "title": "Tadschikistan - Indica",
+    "origin_country": "Tadschikistan",
+    "genetics_text": "indica",
+    "content": "Tadschikistan - Indica. Origem: Tadschikistan. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Tadschikistan",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "thailand-hybrid",
+    "title": "Thailand - Hybrid",
+    "origin_country": "Thailand",
+    "genetics_text": "indica / sativa",
+    "content": "Thailand - Hybrid. Origem: Thailand. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Thailand",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "thailand-sativa",
+    "title": "Thailand - Sativa",
+    "origin_country": "Thailand",
+    "genetics_text": "sativa",
+    "content": "Thailand - Sativa. Origem: Thailand. Tipo: sativa. A Thailand Sativa e uma linhagem pura, diretamente das terras tailandesas, representando a essencia das sativas classicas. Conhecida por seus efeitos energizantes e eufóricos, esta strain e ideal para quem busca um estimulo criativo e um aumento de foco. Seu perfil de aromas e tipicamente herbal e terroso, com notas citricas e picantes que despertam os sentidos. E uma excelente escolha para uso diurno, proporcionando uma sensacao de bem-estar e clareza mental sem sedacao. O cultivo desta sativa pode ser desafiador devido ao seu longo periodo de floração, sendo mais adequada para cultivadores experientes e ambientes outdoor com climas tropicais, onde pode atingir seu potencial maximo.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Thailand",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "tibet-sativa",
+    "title": "Tibet - Sativa",
+    "origin_country": "Tibet",
+    "genetics_text": "sativa",
+    "content": "Tibet - Sativa. Origem: Tibet. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Tibet",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "unknown-strain",
+    "title": "Unknown Strain",
+    "origin_country": "Unknown Strain",
+    "genetics_text": "unknown",
+    "content": "Unknown Strain. Origem: Unknown Strain. Tipo: unknown. A Unknown Strain e um hibrido misterioso, com uma genetica desconhecida que intriga ate os mais experientes. Sua natureza hibrida sugere um equilibrio entre os efeitos relaxantes da indica e os estimulantes da sativa, tornando-a versatil para diversas ocasioes. Sem um perfil de aromas ou efeitos especificos definidos, cada experiencia com esta strain pode ser uma surpresa, revelando nuances unicas a cada uso. E uma otima opcao para quem gosta de explorar o desconhecido e descobrir novas sensacoes. Seu cultivo e igualmente enigmatico, adaptando-se a diferentes ambientes, mas exigindo observacao atenta para desvendar seus segredos e otimizar seu desenvolvimento.",
+    "key_points": [
+      "Landrace/pura de Unknown Strain",
+      "Genetica: unknown"
+    ]
+  },
+  {
+    "id": "usa-hybrid",
+    "title": "USA - Hybrid",
+    "origin_country": "Usa",
+    "genetics_text": "indica / sativa",
+    "content": "USA - Hybrid. Origem: Usa. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Usa",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "usa-mostly-indica",
+    "title": "USA - Mostly Indica",
+    "origin_country": "Usa",
+    "genetics_text": "mostly indica",
+    "content": "USA - Mostly Indica. Origem: Usa. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Usa",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "vietnam-sativa",
+    "title": "Vietnam - Sativa",
+    "origin_country": "Vietnam",
+    "genetics_text": "sativa",
+    "content": "Vietnam - Sativa. Origem: Vietnam. Tipo: sativa. Vietnam - Sativa, da Original Strains, é uma pura sativa landrace que oferece uma experiência cerebral intensa e energizante. Esta strain é conhecida por seus efeitos estimulantes e eufóricos, ideais para aumentar a criatividade, o foco e a sociabilidade. É perfeita para uso diurno, proporcionando um impulso de energia sem a sedação associada às indicas. O perfil de aromas é tipicamente terroso, com notas picantes e cítricas, refletindo sua origem natural. Devido à sua natureza sativa pura, pode apresentar um tempo de floração mais longo e um crescimento vigoroso, sendo mais adequada para cultivadores experientes e para cultivo outdoor em climas quentes e úmidos, embora possa ser adaptada para indoor com técnicas de controle de altura.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Vietnam",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "afghanistan-hybrid",
+    "title": "Afghanistan - Hybrid",
+    "origin_country": "Afghanistan",
+    "genetics_text": "indica / sativa",
+    "content": "Afghanistan - Hybrid. Origem: Afghanistan. Tipo: indica / sativa. Linhagem: Unknown Hybrid",
+    "key_points": [
+      "Landrace/pura de Afghanistan",
+      "Genetica: indica / sativa",
+      "Linhagem: Unknown Hybrid"
+    ]
+  },
+  {
+    "id": "china-mostly-indica",
+    "title": "China - Mostly Indica",
+    "origin_country": "China",
+    "genetics_text": "mostly indica",
+    "content": "China - Mostly Indica. Origem: China. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de China",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "congo-mostly-sativa",
+    "title": "Congo - Mostly Sativa",
+    "origin_country": "Congo",
+    "genetics_text": "mostly sativa",
+    "content": "Congo - Mostly Sativa. Origem: Congo. Tipo: mostly sativa. Linhagem: Congo, Africa x Mostly Sativa",
+    "key_points": [
+      "Landrace/pura de Congo",
+      "Genetica: mostly sativa",
+      "Linhagem: Congo, Africa x Mostly Sativa"
+    ]
+  },
+  {
+    "id": "himalaya-indica",
+    "title": "Himalaya - Indica",
+    "origin_country": "Himalaya",
+    "genetics_text": "indica",
+    "content": "Himalaya - Indica. Origem: Himalaya. Tipo: indica. Himalaya - Indica, da Original Strains, é uma strain pura indica, ideal para quem busca os efeitos clássicos e potentes dessa genética. Embora os detalhes específicos sobre sua linhagem e aromas não sejam fornecidos, o nome sugere uma origem robusta e adaptável, possivelmente com características de landrace. Os efeitos esperados são de relaxamento profundo, sedação e alívio do corpo, tornando-a perfeita para uso noturno ou em momentos de necessidade de tranquilidade. É uma excelente opção para cultivadores que buscam uma experiência indica autêntica, com foco em bem-estar e descanso. O tempo de floração pode variar, mas indicas geralmente têm ciclos mais curtos.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Himalaya",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "hindu-kush-indica",
+    "title": "Hindu Kush - Indica",
+    "origin_country": "Hindu Kush",
+    "genetics_text": "indica",
+    "content": "Hindu Kush - Indica. Origem: Hindu Kush. Tipo: indica. A Hindu Kush e uma indica pura, originaria das montanhas entre o Afeganistao e o Paquistao. Esta strain e reverenciada por seus efeitos profundamente relaxantes e calmantes, que induzem uma sensacao de tranquilidade e bem-estar fisico. Seu perfil de aromas e tipicamente terroso e amadeirado, com notas doces e de pinho, que remetem a paisagens montanhosas. E uma escolha excelente para aliviar o estresse, a ansiedade e promover um sono reparador. O cultivo da Hindu Kush e relativamente facil, sendo uma planta robusta e resistente, ideal para cultivadores iniciantes. Adapta-se bem a ambientes indoor e outdoor, com um periodo de floração rapido, produzindo flores densas e resinosas.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Hindu Kush",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "jamaica-indica",
+    "title": "Jamaica - Indica",
+    "origin_country": "Jamaica",
+    "genetics_text": "indica",
+    "content": "Jamaica - Indica. Origem: Jamaica. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Jamaica",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "karakoram-indica",
+    "title": "Karakoram - Indica",
+    "origin_country": "Karakoram",
+    "genetics_text": "indica",
+    "content": "Karakoram - Indica. Origem: Karakoram. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Karakoram",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "madagascar-sativa",
+    "title": "Madagascar - Sativa",
+    "origin_country": "Madagascar",
+    "genetics_text": "sativa",
+    "content": "Madagascar - Sativa. Origem: Madagascar. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Madagascar",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "morocco-indica",
+    "title": "Morocco - Indica",
+    "origin_country": "Morocco",
+    "genetics_text": "indica",
+    "content": "Morocco - Indica. Origem: Morocco. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Morocco",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "nepal-indica",
+    "title": "Nepal - Indica",
+    "origin_country": "Nepal",
+    "genetics_text": "indica",
+    "content": "Nepal - Indica. Origem: Nepal. Tipo: indica. Nepal - Indica, da Original Strains, é uma strain indica pura com raízes nas montanhas do Nepal. Esta genética landrace é valorizada por seus efeitos profundamente relaxantes e calmantes, típicos das indicas tradicionais. É ideal para quem busca alívio do estresse, ansiedade e insônia, proporcionando uma sensação de paz e tranquilidade. Embora o tempo de floração não seja especificado, as indicas nepalesas são conhecidas por sua resiliência e adaptabilidade a diferentes ambientes de cultivo. Seus aromas são terrosos e picantes, com notas de haxixe e um toque floral, refletindo sua origem exótica. É uma strain robusta e de fácil cultivo, perfeita para quem aprecia as qualidades clássicas das indicas.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Nepal",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "nepal-sativa",
+    "title": "Nepal - Sativa",
+    "origin_country": "Nepal",
+    "genetics_text": "sativa",
+    "content": "Nepal - Sativa. Origem: Nepal. Tipo: sativa. A Nepal - Sativa e uma pura sativa, originaria das montanhas do Nepal, trazida pela Original Strains. Esta genética e conhecida por seus efeitos cerebrais estimulantes e eufóricos, que podem induzir um estado de clareza mental e criatividade. Seu perfil de aromas e tipicamente terroso e picante, com notas que remetem a incenso e especiarias, refletindo suas origens. E ideal para uso diurno, para atividades que exigem foco ou para um impulso de energia. Devido a sua genética sativa, e uma excelente escolha para quem busca inspiração ou um estimulante natural. O cultivo desta strain e mais adequado para ambientes externos em climas temperados a quentes, embora possa ser adaptada para indoor com técnicas de controle de altura. Seu tempo de floração pode ser mais longo, característico das sativas puras.. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Nepal",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "pakistan-indica",
+    "title": "Pakistan - Indica",
+    "origin_country": "Pakistan",
+    "genetics_text": "indica",
+    "content": "Pakistan - Indica. Origem: Pakistan. Tipo: indica. A Pakistan - Indica, da Original Strains, e uma strain pura indica, originaria das regioes montanhosas do Paquistao. Esta genetica e valorizada por seus efeitos profundamente relaxantes e sedativos, que proporcionam uma sensacao de calma e tranquilidade, ideal para aliviar o estresse e a tensao. Seu perfil de aromas e tipicamente terroso e hash, com notas picantes e um toque de doçura. E uma excelente escolha para uso noturno, ajudando a combater a insonia e a dor cronica. Como uma indica pura, e robusta e adaptavel, sendo adequada para cultivo tanto indoor quanto outdoor, especialmente em climas mais frios. O tempo de floracao nao e especificado, mas indicas puras geralmente tem um ciclo de floracao moderado.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Pakistan",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "pakistan-sativa",
+    "title": "Pakistan - Sativa",
+    "origin_country": "Pakistan",
+    "genetics_text": "sativa",
+    "content": "Pakistan - Sativa. Origem: Pakistan. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Pakistan",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "russia-ruderalis",
+    "title": "Russia - Ruderalis",
+    "origin_country": "Russia",
+    "genetics_text": "ruderalis",
+    "content": "Russia - Ruderalis. Origem: Russia. Tipo: ruderalis. Russia - Ruderalis, uma variedade original, é uma híbrida que se destaca por sua genética ruderalis pura. Esta strain é a base para muitas variedades autoflorescentes, conferindo a elas a capacidade de florescer independentemente do ciclo de luz. Embora não seja tipicamente cultivada por seus efeitos psicoativos intensos, a Ruderalis russa é valorizada por sua robustez e resistência a climas frios e condições adversas. Seus efeitos são geralmente suaves e não psicoativos, tornando-a mais adequada para fins de cruzamento e desenvolvimento de novas genéticas. Não há informações específicas sobre seus aromas, mas as ruderalis tendem a ter um perfil mais terroso e herbal. É ideal para cultivo outdoor em regiões com verões curtos e frios, ou para programas de melhoramento genético.. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de Russia",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "sativa",
+    "title": "Sativa",
+    "origin_country": "Sativa",
+    "genetics_text": "sativa",
+    "content": "Sativa. Origem: Sativa. Tipo: sativa. Esta Sativa pura, de linhagem original, e um classico atemporal no mundo da cannabis. Conhecida por seus efeitos cerebrais estimulantes e energizantes, e a escolha perfeita para quem busca um impulso de criatividade, foco e bom humor. Seu perfil de aromas e tipicamente fresco, herbal e citrico, com notas picantes que revigoram os sentidos. E ideal para uso diurno, para atividades sociais ou para combater a fadiga e a apatia. O cultivo de uma sativa pura pode exigir paciencia, devido ao seu periodo de floração mais longo e a tendencia de crescer alta, sendo mais adequada para ambientes outdoor com bastante espaco ou indoor com tecnicas de controle de altura.",
+    "key_points": [
+      "Landrace/pura de Sativa",
+      "Genetica: sativa"
+    ]
+  },
+  {
+    "id": "tadschikistan-mostly-indica",
+    "title": "Tadschikistan - Mostly Indica",
+    "origin_country": "Tadschikistan",
+    "genetics_text": "mostly indica",
+    "content": "Tadschikistan - Mostly Indica. Origem: Tadschikistan. Tipo: mostly indica. Linhagem: Mostly Indica",
+    "key_points": [
+      "Landrace/pura de Tadschikistan",
+      "Genetica: mostly indica",
+      "Linhagem: Mostly Indica"
+    ]
+  },
+  {
+    "id": "tadschikistan-ruderalis",
+    "title": "Tadschikistan - Ruderalis",
+    "origin_country": "Tadschikistan",
+    "genetics_text": "ruderalis",
+    "content": "Tadschikistan - Ruderalis. Origem: Tadschikistan. Tipo: ruderalis. Linhagem: Ruderalis",
+    "key_points": [
+      "Landrace/pura de Tadschikistan",
+      "Genetica: ruderalis",
+      "Linhagem: Ruderalis"
+    ]
+  },
+  {
+    "id": "usa-indica",
+    "title": "USA - Indica",
+    "origin_country": "Usa",
+    "genetics_text": "indica",
+    "content": "USA - Indica. Origem: Usa. Tipo: indica. USA - Indica, da Original Strains, é uma strain indica pura, com uma linhagem direta de \"Indica\". Esta genética sugere uma experiência clássica de indica, focada em relaxamento corporal profundo e alívio do estresse. Os efeitos são tipicamente sedativos, ideais para uso noturno ou para momentos de descanso. Embora não haja detalhes sobre aromas ou usos medicinais específicos, é provável que apresente notas terrosas, doces e talvez um toque de pinho, comuns em indicas puras. É uma escolha sólida para quem busca os benefícios tradicionais de uma indica para relaxamento e bem-estar. Não há informações sobre o tempo de floração, mas indicas geralmente têm um período de floração moderado.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Usa",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "uzbekistan-indica",
+    "title": "Uzbekistan - Indica",
+    "origin_country": "Uzbekistan",
+    "genetics_text": "indica",
+    "content": "Uzbekistan - Indica. Origem: Uzbekistan. Tipo: indica. A Uzbekistan - Indica, da Original Strains, é uma strain indica pura, originária das terras do Uzbequistão. Esta genética landrace é valorizada por suas características autênticas e robustas, representando a essência das indicas tradicionais. Embora os efeitos e aromas específicos não sejam detalhados, strains indica desta região são tipicamente conhecidas por seus efeitos profundamente relaxantes, sedativos e um perfil de sabor terroso e picante, com notas de haxixe. É uma excelente opção para quem busca uma experiência de relaxamento intenso, alívio da dor e auxílio para o sono. Sua natureza landrace a torna adaptável a diferentes ambientes de cultivo, embora possa exigir atenção especial para replicar seu ambiente nativo.. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Uzbekistan",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "guatemala-sativa",
+    "title": "Guatemala - Sativa",
+    "origin_country": "Guatemala",
+    "genetics_text": "sativa",
+    "content": "Guatemala - Sativa. Origem: Guatemala. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Guatemala",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "india-hybrid",
+    "title": "India - Hybrid",
+    "origin_country": "India",
+    "genetics_text": "indica / sativa",
+    "content": "India - Hybrid. Origem: India. Tipo: indica / sativa. Linhagem: India x India",
+    "key_points": [
+      "Landrace/pura de India",
+      "Genetica: indica / sativa",
+      "Linhagem: India x India"
+    ]
+  },
+  {
+    "id": "india-indica",
+    "title": "India - Indica",
+    "origin_country": "India",
+    "genetics_text": "indica",
+    "content": "India - Indica. Origem: India. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de India",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "india-sativa",
+    "title": "India - Sativa",
+    "origin_country": "India",
+    "genetics_text": "sativa",
+    "content": "India - Sativa. Origem: India. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de India",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "iran-indica",
+    "title": "Iran - Indica",
+    "origin_country": "Iran",
+    "genetics_text": "indica",
+    "content": "Iran - Indica. Origem: Iran. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Iran",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "la-reunion-sativa",
+    "title": "La Reunion - Sativa",
+    "origin_country": "La Reunion",
+    "genetics_text": "sativa",
+    "content": "La Reunion - Sativa. Origem: La Reunion. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de La Reunion",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "laos-sativa",
+    "title": "Laos - Sativa",
+    "origin_country": "Laos",
+    "genetics_text": "sativa",
+    "content": "Laos - Sativa. Origem: Laos. Tipo: sativa. Linhagem: Sativa",
+    "key_points": [
+      "Landrace/pura de Laos",
+      "Genetica: sativa",
+      "Linhagem: Sativa"
+    ]
+  },
+  {
+    "id": "lebanon-hybrid",
+    "title": "Lebanon - Hybrid",
+    "origin_country": "Lebanon",
+    "genetics_text": "indica / sativa",
+    "content": "Lebanon - Hybrid. Origem: Lebanon. Tipo: indica / sativa. Linhagem: Hybrid",
+    "key_points": [
+      "Landrace/pura de Lebanon",
+      "Genetica: indica / sativa",
+      "Linhagem: Hybrid"
+    ]
+  },
+  {
+    "id": "lebanon-indica",
+    "title": "Lebanon - Indica",
+    "origin_country": "Lebanon",
+    "genetics_text": "indica",
+    "content": "Lebanon - Indica. Origem: Lebanon. Tipo: indica. Linhagem: Indica",
+    "key_points": [
+      "Landrace/pura de Lebanon",
+      "Genetica: indica",
+      "Linhagem: Indica"
+    ]
+  },
+  {
+    "id": "lesotho-sativa",
+    "title": "Lesotho - Sativa",
+    "origin_country": "Lesotho",
+    "genetics_text": "sativa",
+    "content": "Lesotho - Sativa. Origem: Lesotho. Tipo: sativa. Linhagem: Africa - Sativa x Sativa",
+    "key_points": [
+      "Landrace/pura de Lesotho",
+      "Genetica: sativa",
+      "Linhagem: Africa - Sativa x Sativa"
+    ]
+  }
+]

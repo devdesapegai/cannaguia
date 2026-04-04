@@ -1,0 +1,326 @@
+[
+  {
+    "id": "web-alemanha-2025-marco-regulatorio-da-cannabis-medicinal-apos-a",
+    "title": "Alemanha 2025: marco regulatório da cannabis medicinal após a reforma de 2024",
+    "category": "pais-especifico",
+    "area": "regulation-global",
+    "content": "A Alemanha consolidou em 2024 uma mudança estrutural na política de cannabis ao retirar a substância do escopo geral da Lei de Narcóticos (BtMG) e criar um regime próprio para uso medicinal por meio da Medizinal-Cannabis Gesetz (MedCanG). Na prática, a reforma separou com mais clareza a cannabis medicinal da cannabis para uso adulto, preservando a lógica sanitária e farmacêutica já existente desde 2017, mas simplificando parte do acesso regulado.\n\nNo campo medicinal, o ponto central é que apenas médicos podem prescrever cannabis. Após a reforma, a exigência de receita especial de narcóticos deixou de ser a regra para a cannabis medicinal, passando a ser suficiente uma prescrição médica regular para dispensação em farmácias. Isso tende a reduzir barreiras administrativas para pacientes e prescritores. O texto também indica que a substância sintética nabilona permanece sujeita a regras específicas, diferentemente da maior parte dos produtos de cannabis medicinal.\n\nO país mantém um modelo fortemente farmacêutico: produção, importação, distribuição e dispensação seguem controles sanitários, com papel central das farmácias e de operadores autorizados. A Alemanha continua sendo um dos principais mercados europeus para flores e extratos medicinais, inclusive para empresas estrangeiras que buscam entrada regulada no mercado da União Europeia.\n\nQuanto aos limites de THC, o trecho fornecido não apresenta um teto único aplicável à cannabis medicinal prescrita; em vez disso, o regime parece baseado na classificação do produto, na finalidade terapêutica e no canal regulado de prescrição e dispensação. Em resumo, a Alemanha combina liberalização parcial no uso pessoal com manutenção de um sistema médico formal, prescritivo e supervisionado.",
+    "key_points": [
+      "País: Alemanha.",
+      "Categoria: país-específico / regulamentação medicinal.",
+      "Status legal: cannabis medicinal legal e regulada.",
+      "Reforma de 2024 retirou a cannabis do BtMG em grande parte dos casos.",
+      "Nova lei específica para uso medicinal: MedCanG.",
+      "Sistema de prescrição: apenas médicos podem prescrever.",
+      "Receita especial de narcóticos deixou de ser geralmente necessária para cannabis medicinal.",
+      "Dispensação ocorre em farmácias.",
+      "Modelo regulatório continua centrado em controle sanitário e farmacêutico.",
+      "Alemanha segue como um dos maiores mercados de cannabis medicinal da Europa.",
+      "Não há limite único de THC informado no trecho para produtos medicinais prescritos.",
+      "Nabilona sintética mantém tratamento regulatório específico."
+    ],
+    "warnings": [
+      "As regras podem variar conforme o tipo de produto, princípio ativo e indicação clínica.",
+      "A ausência de limite geral de THC no texto não significa ausência de controle regulatório.",
+      "Uso fora do canal médico-farmacêutico continua sujeito a regras distintas."
+    ],
+    "source_url": "https://practiceguides.chambers.com/practice-guides/medical-cannabis-cannabinoid-regulation-2025/germany",
+    "source": "dataset_chambers-germany"
+  },
+  {
+    "id": "web-europa-2025-panorama-da-cannabis-no-relatorio-europeu-sobre-",
+    "title": "Europa 2025: panorama da cannabis no Relatório Europeu sobre Drogas da EUDA",
+    "category": "comparativo",
+    "area": "regulation-global",
+    "content": "O Relatório Europeu sobre Drogas 2025 da EUDA apresenta a cannabis como o principal tema transversal do mercado de drogas na Europa, tanto pelo volume de consumo quanto pelos desafios regulatórios, sanitários e de fiscalização. O material, pelo trecho fornecido, funciona como uma visão comparativa continental, cobrindo prevalência de uso, apreensões, potência, tratamento, respostas de saúde pública e diferenças entre países da UE, além de Noruega e Türkiye.\n\nDo ponto de vista de políticas públicas, o relatório sugere que a Europa vive um cenário heterogêneo: alguns países mantêm proibição estrita, outros operam programas de cannabis medicinal, e alguns avançam em modelos experimentais ou reformas para uso adulto. Assim, o status legal da cannabis na Europa não é uniforme e depende da legislação nacional. Em geral, a cannabis medicinal está mais difundida do que a legalização ampla para uso não médico.\n\nSobre limites de THC, o trecho disponibilizado não traz um parâmetro europeu único. Isso é coerente com a realidade regulatória do bloco: limites de THC variam conforme categoria do produto, como cânhamo industrial, alimentos com CBD, flores, extratos ou medicamentos, e também conforme a lei de cada país. O mesmo vale para prescrição: não existe um sistema europeu unificado. Em alguns mercados, a prescrição é restrita a especialistas; em outros, médicos generalistas podem prescrever; e há países sem programa medicinal funcional.\n\nEm síntese, o relatório da EUDA é mais útil como ferramenta comparativa e epidemiológica do que como norma jurídica. Ele ajuda a entender tendências de consumo, mercado e resposta estatal, mas a aplicação prática depende sempre da legislação nacional vigente.",
+    "key_points": [
+      "Escopo: panorama comparativo europeu sobre cannabis em 2025.",
+      "País: múltiplos países da UE, além de Noruega e Türkiye.",
+      "Categoria: comparativo.",
+      "Status legal: heterogêneo entre os países europeus.",
+      "Cannabis medicinal é mais comum que a legalização ampla para uso adulto.",
+      "Relatório cobre consumo, apreensões, potência, tratamento e respostas públicas.",
+      "Não existe limite europeu único de THC indicado no trecho.",
+      "Limites de THC variam por país e por categoria de produto.",
+      "Sistema de prescrição não é harmonizado na Europa.",
+      "Alguns países exigem especialistas; outros permitem clínicos gerais.",
+      "Há países com programas medicinais robustos e outros com acesso limitado.",
+      "O relatório é analítico e comparativo, não substitui a lei nacional."
+    ],
+    "warnings": [
+      "Não usar o relatório da EUDA como base única para compliance regulatório.",
+      "Comparações entre países exigem verificação da legislação local atualizada.",
+      "Dados epidemiológicos e de mercado não equivalem a autorização legal de produto."
+    ],
+    "source_url": "https://www.euda.europa.eu/publications/european-drug-report/2025/cannabis_en",
+    "source": "dataset_euda-european-drug-report"
+  },
+  {
+    "id": "web-euda-cannabis-policy-hub-mapa-comparativo-das-politicas-de-c",
+    "title": "EUDA Cannabis Policy Hub: mapa comparativo das políticas de cannabis na Europa",
+    "category": "regulamentacao",
+    "area": "regulation-global",
+    "content": "O Cannabis Policy Hub da EUDA é uma plataforma temática voltada à organização e comparação das políticas de cannabis na Europa. Pelo conteúdo fornecido, trata-se menos de um artigo narrativo e mais de um ponto de acesso a informações sobre legislação, respostas públicas, tendências regulatórias e diferenças entre países. Seu valor principal está em reunir, em um só ambiente, referências para acompanhar mudanças em cannabis medicinal, política criminal, saúde pública e modelos emergentes de regulação.\n\nPara analistas, empresas e formuladores de políticas, o hub é útil porque a Europa não possui um regime único de cannabis. Cada país define seu próprio status legal para uso medicinal, industrial ou adulto, bem como critérios de cultivo, importação, prescrição e fiscalização. Nesse contexto, o hub funciona como ferramenta de inteligência regulatória comparada.\n\nNo que se refere ao status legal, a principal conclusão é a diversidade: há países com proibição predominante, outros com programas medicinais estruturados e alguns com reformas em andamento para descriminalização, acesso controlado ou projetos-piloto. Sobre limites de THC, o trecho não informa um padrão comum, o que reflete a realidade europeia: os tetos de THC dependem da legislação nacional e da categoria do produto. O mesmo ocorre com o sistema de prescrição, que varia entre modelos hospitalares, especialistas, clínicos gerais ou acesso muito restrito.\n\nAssim, o Policy Hub deve ser entendido como uma base comparativa para monitorar políticas, e não como fonte normativa autossuficiente. Ele é especialmente relevante para identificar convergências e divergências regulatórias entre países europeus e apoiar decisões de entrada em mercado, advocacy e análise de risco regulatório.",
+    "key_points": [
+      "Fonte: EUDA Cannabis Policy Hub.",
+      "Categoria: regulamentação / comparativo.",
+      "País: múltiplos países europeus.",
+      "Função principal: centralizar e comparar políticas de cannabis.",
+      "Status legal varia amplamente entre os países.",
+      "Há diferenças entre uso medicinal, industrial e adulto.",
+      "O hub apoia análise regulatória e inteligência de mercado.",
+      "Não há limite único de THC informado no trecho.",
+      "Limites de THC dependem da lei nacional e do tipo de produto.",
+      "Sistema de prescrição também varia por país.",
+      "Ferramenta útil para acompanhar reformas e projetos-piloto.",
+      "Não substitui consulta à legislação local aplicável."
+    ],
+    "warnings": [
+      "Informações comparativas podem ficar desatualizadas com reformas nacionais rápidas.",
+      "Decisões comerciais ou jurídicas exigem validação em fontes oficiais de cada país.",
+      "Diferenças entre descriminalização, legalização e acesso medicinal devem ser analisadas com cuidado."
+    ],
+    "source_url": "https://www.euda.europa.eu/topics/cannabis-policy_en",
+    "source": "dataset_euda-policy-hub"
+  },
+  {
+    "id": "web-alemanha-faq-oficial-da-lei-da-cannabis-kcang-e-seus-efeitos",
+    "title": "Alemanha: FAQ oficial da Lei da Cannabis (KCanG) e seus efeitos regulatórios",
+    "category": "regulamentacao",
+    "area": "regulation-global",
+    "content": "A FAQ do Ministério Federal da Saúde da Alemanha resume os principais pontos da Cannabis Act (KCanG), marco que regula o uso não medicinal de cannabis no país com foco declarado em proteção de crianças, jovens e saúde pública. O texto destaca que a lei prevê avaliação formal de impacto social: um relatório intermediário foi apresentado em 1º de outubro de 2025, outro relatório com foco adicional em crime organizado deve ser entregue até 1º de abril de 2026, e uma avaliação final abrangente ocorrerá quatro anos após a entrada em vigor da norma.\n\nNo recorte de consumo, a Alemanha estima que o uso medicinal e recreativo de cannabis em 2024 tenha ficado entre 670 e 823 toneladas. Pesquisa de 2024 apontou cerca de 5,05 milhões de adultos de 18 a 64 anos que consumiram cannabis ao menos uma vez nos 12 meses anteriores, com maior prevalência entre 18 e 24 anos.\n\nA abordagem regulatória enfatiza redução de danos. A FAQ reforça que os efeitos variam conforme suscetibilidade individual, estado de saúde, forma de consumo, uso combinado com outras substâncias e dose absorvida. Entre efeitos agudos possíveis estão ansiedade, pânico, desorientação, lentidão de reação, prejuízo de memória, humor deprimido, palpitações, náusea, tontura e alucinações. No longo prazo, o governo alerta para risco de dependência e de transtornos mentais, incluindo depressão e psicose, especialmente em pessoas predispostas.\n\nPaís: Alemanha. Status legal: uso não medicinal regulado sob a KCanG, com ênfase em limites de posse, repasse por associações de cultivo e restrições de proteção juvenil, embora o trecho fornecido não detalhe todos os quantitativos operacionais. Limites de THC: não especificados no trecho analisado. Sistema de prescrição: não aplicável ao foco principal deste artigo, que trata de uso não medicinal e avaliação regulatória, não de prescrição médica.",
+    "key_points": [
+      "País: Alemanha",
+      "Categoria: regulamentação",
+      "Status legal: cannabis não medicinal regulada pela KCanG",
+      "A lei prevê avaliação de impacto social em etapas",
+      "Relatório intermediário foi submetido em 1º de outubro de 2025",
+      "Novo relatório com foco também em crime organizado é esperado até 1º de abril de 2026",
+      "Avaliação final abrangente ocorrerá quatro anos após a entrada em vigor",
+      "Consumo total estimado em 2024: entre 670 e 823 toneladas",
+      "Cerca de 5,05 milhões de adultos consumiram cannabis ao menos uma vez em 12 meses",
+      "Faixa etária de maior consumo: 18 a 24 anos",
+      "A FAQ destaca proteção de crianças, adolescentes e jovens adultos",
+      "Efeitos agudos incluem ansiedade, pânico, tontura e alucinações",
+      "Riscos de longo prazo incluem dependência, depressão e psicose",
+      "Limites de THC: não informados no trecho",
+      "Sistema de prescrição: não aplicável ao conteúdo principal"
+    ],
+    "warnings": [
+      "O texto oficial alerta para maior vulnerabilidade de crianças, adolescentes e jovens adultos.",
+      "O consumo pode causar efeitos agudos como ansiedade, pânico, desorientação e lentidão de reação.",
+      "Há risco de dependência e de agravamento de transtornos mentais em pessoas suscetíveis.",
+      "Uso combinado com outras substâncias pode aumentar riscos e imprevisibilidade dos efeitos."
+    ],
+    "source_url": "https://www.bundesgesundheitsministerium.de/en/themen/cannabis/faq-cannabis-act",
+    "source": "dataset_germany-cang-faq"
+  },
+  {
+    "id": "web-mapa-global-2026-legalizacao-de-canhamo-e-cbd-no-mundo",
+    "title": "Mapa global 2026: legalização de cânhamo e CBD no mundo",
+    "category": "comparativo",
+    "area": "regulation-global",
+    "content": "O artigo apresenta um panorama internacional da legalização do cânhamo industrial e do CBD derivado de cânhamo em janeiro de 2026. Segundo o texto, ao menos 70 países já cultivam cânhamo para fins comerciais ou de pesquisa. Entre os maiores produtores estão China, França, Canadá e Estados Unidos. Em 2024, a área cultivada foi estimada em cerca de 82 mil acres na América do Norte, 88 mil acres na União Europeia e 95 mil acres na China, superando 270 mil acres globalmente.\n\nO principal eixo comparativo é o limite de THC permitido no cânhamo industrial. O padrão mais comum é 0,3% de THC, adotado por Canadá, EUA, grande parte da Europa, Chile, China, Lesoto, Marrocos, Ruanda e Uganda. Alguns países usam limite mais restritivo de 0,2%, como o Reino Unido. Outros adotam 1%, incluindo Austrália, Nova Zelândia, Costa Rica, República Tcheca, Equador, Malawi, México, Suíça, Uruguai e Zimbábue. A África do Sul aparece com limite de 2%, enquanto Coreia do Sul e Japão exigem virtualmente 0% de THC.\n\nNo CBD derivado de cânhamo, o artigo afirma que ele é legal em pelo menos 57 países, mas sob regras muito diferentes. Suécia e Letônia exigem ausência total de THC. Nos EUA, a regulação varia por estado. No Canadá, o CBD derivado de cânhamo é vendido apenas por varejistas de cannabis e segue a estrutura regulatória da cannabis. Na Austrália e na Nova Zelândia, medicamentos com CBD exigem prescrição, exceto formulações de baixa dose reclassificadas desde outubro de 2023 como produtos de dispensação por farmacêutico.\n\nPaíses: múltiplos. Status legal: variável por jurisdição. Limites de THC: variam de 0% a 2%, com 0,3% como padrão mais comum. Sistema de prescrição: em alguns mercados, como Austrália e Nova Zelândia, medicamentos de CBD dependem de prescrição ou acesso via farmacêutico para baixas doses.",
+    "key_points": [
+      "Categoria: comparativo",
+      "Abrange cânhamo industrial e CBD derivado de cânhamo em escala global",
+      "Pelo menos 70 países cultivam cânhamo comercialmente ou para pesquisa",
+      "Maiores produtores citados: China, França, Canadá e EUA",
+      "Área global estimada em 2024 superou 270 mil acres",
+      "Limite de THC mais comum no cânhamo: 0,3%",
+      "Reino Unido adota 0,2%",
+      "Austrália, Nova Zelândia, México, Suíça e Uruguai estão entre os países com limite de 1%",
+      "África do Sul adota 2%",
+      "Coreia do Sul e Japão exigem praticamente 0% THC",
+      "CBD derivado de cânhamo é legal em pelo menos 57 países",
+      "Suécia e Letônia exigem CBD sem THC",
+      "Nos EUA, as regras de CBD variam por estado",
+      "No Canadá, CBD de cânhamo segue o regime regulatório da cannabis",
+      "Austrália e Nova Zelândia exigem prescrição para medicamentos com CBD, com exceções de baixa dose via farmacêutico"
+    ],
+    "warnings": [
+      "As regras para CBD e cânhamo variam amplamente entre países e até entre estados ou províncias.",
+      "Produtos com traços de THC podem ser legais em um país e proibidos em outro.",
+      "Importação, rotulagem e alegações terapêuticas podem exigir licenças específicas.",
+      "O artigo tem caráter comparativo e não substitui verificação regulatória local atualizada."
+    ],
+    "source_url": "https://hempcbdbusinessplans.com/hemp-legalization-world-map/",
+    "source": "dataset_hemp-cbd-world-map"
+  },
+  {
+    "id": "web-reino-unido-recomendacoes-nice-ng144-para-produtos-medicinai",
+    "title": "Reino Unido: recomendações NICE NG144 para produtos medicinais à base de cannabis",
+    "category": "prescricao",
+    "area": "regulation-global",
+    "content": "A diretriz NICE NG144, do Reino Unido, organiza quando produtos medicinais à base de cannabis podem ou não ser prescritos no sistema de saúde. O documento adota postura restritiva e baseada em evidência clínica. Para náusea e vômito intratáveis induzidos por quimioterapia, recomenda-se considerar nabilona como tratamento adjuvante em adultos quando antieméticos convencionais otimizados não forem suficientes. A diretriz orienta avaliar interações medicamentosas, especialmente com depressores do sistema nervoso central e outros fármacos de ação central.\n\nPara dor crônica em adultos, o NICE recomenda não oferecer nabilona, dronabinol, THC isolado, combinações de CBD com THC e também não oferecer CBD, salvo no contexto de ensaio clínico. Há, contudo, cláusula de continuidade: pacientes que já haviam iniciado esses tratamentos no NHS antes da publicação da diretriz, em novembro de 2019, podem continuar até decisão conjunta de interrupção com o clínico responsável.\n\nNa espasticidade moderada a grave em adultos com esclerose múltipla, o NICE recomenda um teste terapêutico de 4 semanas com spray THC:CBD quando outros tratamentos farmacológicos não forem eficazes. A continuidade depende de resposta clínica mensurável: pelo menos 20% de redução dos sintomas de espasticidade em escala numérica autorreferida de 0 a 10. O texto também menciona um modelo de financiamento condicionado à resposta.\n\nPaís: Reino Unido. Status legal: produtos medicinais à base de cannabis podem ser prescritos em indicações específicas sob orientação clínica e regulatória. Limites de THC: não há um limite geral de THC definido no trecho; o foco é por produto e indicação, incluindo nabilona, dronabinol, THC e spray THC:CBD. Sistema de prescrição: prescrição médica especializada e baseada em indicação, com forte restrição para dor crônica e uso condicionado à evidência e resposta clínica.",
+    "key_points": [
+      "País: Reino Unido",
+      "Categoria: prescrição",
+      "Base regulatória clínica: diretriz NICE NG144",
+      "Nabilona pode ser considerada para náusea e vômito induzidos por quimioterapia refratários",
+      "Uso de nabilona é apenas como adjuvante após antieméticos convencionais otimizados",
+      "É necessário avaliar interações com depressores do SNC e outros fármacos centrais",
+      "Para dor crônica em adultos, NICE recomenda não oferecer nabilona, dronabinol, THC ou CBD:THC",
+      "CBD isolado para dor crônica só é admitido em ensaio clínico",
+      "Pacientes em tratamento prévio no NHS antes de novembro de 2019 podem continuar",
+      "Para espasticidade na esclerose múltipla, recomenda-se teste de 4 semanas com spray THC:CBD",
+      "O tratamento continua apenas se houver redução mínima de 20% dos sintomas",
+      "Sistema de prescrição é restrito, orientado por indicação e resposta clínica",
+      "Limites de THC: não especificados como teto geral no trecho"
+    ],
+    "warnings": [
+      "Produtos à base de cannabis podem interagir com depressores do sistema nervoso central.",
+      "A diretriz desaconselha uso para dor crônica fora de contextos muito específicos.",
+      "Continuidade terapêutica depende de benefício clínico mensurável em algumas indicações.",
+      "Prescrição deve seguir avaliação médica especializada e critérios formais de indicação."
+    ],
+    "source_url": "https://www.nice.org.uk/guidance/ng144/chapter/recommendations",
+    "source": "dataset_nice-ng144-recommendations"
+  },
+  {
+    "id": "web-panorama-das-leis-estaduais-de-cannabis-nos-eua-segundo-a-no",
+    "title": "Panorama das leis estaduais de cannabis nos EUA segundo a NORML",
+    "category": "comparativo",
+    "area": "regulation-global",
+    "content": "A página da NORML reúne, em formato de referência, o panorama das leis de cannabis por estado nos Estados Unidos. O material não substitui aconselhamento jurídico e destaca que as regras mudam com frequência, exigindo consulta às leis estaduais vigentes. Em vez de apresentar um regime nacional único, o conteúdo evidencia a forte fragmentação regulatória do país: alguns estados permitem uso adulto, outros apenas uso medicinal, outros descriminalizam a posse em pequena escala, e há também diferenças em expurgo de antecedentes e direção sob efeito de drogas.\n\nDo ponto de vista de política internacional, os EUA operam com um modelo subnacional. Isso significa que o “status legal” da cannabis depende do estado e, em certos casos, até de regras locais. A NORML organiza esse mosaico em categorias como legalização estadual, descriminalização estadual, expurgo, cannabis medicinal, descriminalização local e leis sobre direção veicular. O conteúdo é útil para comparação regulatória, mas não traz um quadro consolidado de limites de THC ou de prescrição padronizada, justamente porque esses elementos variam amplamente entre jurisdições.\n\nPara fins estruturados, o país é os Estados Unidos, com status legal heterogêneo. Em estados com programas medicinais, normalmente existe algum tipo de recomendação ou certificação médica para acesso; já em estados com uso adulto, a compra pode ocorrer sem prescrição, dentro de regras locais de idade, quantidade e licenciamento. Em nível federal, a situação segue tensionada pela coexistência entre permissões estaduais e restrições federais.\n\nAssim, o principal valor do artigo é mostrar que a regulação norte-americana não pode ser resumida em uma única resposta. Qualquer análise séria precisa identificar o estado específico, o tipo de uso permitido e as regras aplicáveis naquele território.",
+    "key_points": [
+      "País: Estados Unidos.",
+      "Categoria regulatória: comparativo entre estados.",
+      "Status legal: variável conforme o estado.",
+      "Há estados com uso adulto, uso medicinal, descriminalização ou proibição.",
+      "Não existe um regime nacional uniforme para cannabis.",
+      "A NORML separa as leis por legalização, descriminalização, expurgo e uso medicinal.",
+      "Também há diferenças nas regras sobre direção sob efeito de drogas.",
+      "Limites de THC não são padronizados nacionalmente.",
+      "Sistema de prescrição/recomendação médica depende de cada estado.",
+      "Em estados de uso adulto, a compra pode ocorrer sem prescrição médica.",
+      "A página tem caráter informativo e não substitui aconselhamento jurídico.",
+      "Para análise prática, é necessário consultar a legislação estadual atualizada."
+    ],
+    "warnings": [
+      "As leis estaduais e penalidades mudam com frequência.",
+      "O conteúdo da NORML não constitui aconselhamento jurídico.",
+      "A situação federal nos EUA pode entrar em conflito com permissões estaduais.",
+      "Não é seguro inferir limites de posse, cultivo ou THC sem verificar o estado específico."
+    ],
+    "source_url": "https://norml.org/laws/",
+    "source": "dataset_norml-state-laws"
+  },
+  {
+    "id": "web-visao-geral-da-cannabis-medicinal-na-australia-segundo-a-tga",
+    "title": "Visão geral da cannabis medicinal na Austrália segundo a TGA",
+    "category": "prescricao",
+    "area": "regulation-global",
+    "content": "A Therapeutic Goods Administration (TGA) apresenta uma visão geral do uso de cannabis medicinal na Austrália, com foco em orientar profissionais de saúde sobre a base de evidências e os caminhos regulatórios de acesso. O documento ressalta que se trata de orientação, não de diretriz clínica vinculante, e que parte relevante da revisão científica foi desenvolvida em 2017, podendo não refletir integralmente o estado mais recente da evidência.\n\nNa Austrália, a cannabis medicinal é tratada como produto terapêutico sujeito a controle regulatório. O país permite acesso legal em contexto médico, mediante prescrição e enquadramento nos esquemas regulatórios vigentes. O texto destaca os principais canabinoides, como THC e CBD, e observa que produtos botânicos podem variar em composição entre lotes e cultivos, o que afeta padronização e resposta clínica.\n\nO sistema australiano é centrado no prescritor. Médicos são incentivados a avaliar evidência, indicação, riscos e alternativas terapêuticas antes de recomendar ou prescrever. O material menciona que o governo desenvolveu documentos para apoiar médicos e pacientes em áreas como cuidados paliativos, náusea e vômito induzidos por quimioterapia, dor crônica, esclerose múltipla e epilepsia. Em termos de política pública, isso indica um modelo medicinal regulado, com acesso supervisionado e dependente de avaliação profissional.\n\nPaís: Austrália. Status legal: cannabis medicinal permitida sob esquemas regulados; uso recreativo não é objeto deste documento. Limites de THC: o texto não fixa um limite único nesta visão geral, embora destaque a relevância regulatória e clínica da distinção entre THC e CBD. Sistema de prescrição: acesso por profissionais de saúde autorizados, dentro dos mecanismos regulatórios australianos, com ênfase em responsabilidade clínica e atualização contínua da evidência.",
+    "key_points": [
+      "País: Austrália.",
+      "Status legal: cannabis medicinal permitida em regime regulado.",
+      "Foco do documento: orientação para profissionais de saúde.",
+      "A TGA afirma que orientação não equivale a diretriz clínica obrigatória.",
+      "Parte da base documental foi produzida em 2017.",
+      "Os principais canabinoides citados são THC, CBD e CBN.",
+      "Produtos derivados da planta podem variar em composição.",
+      "O modelo australiano é centrado em prescrição e supervisão médica.",
+      "As indicações discutidas incluem dor crônica, epilepsia e esclerose múltipla.",
+      "O documento busca apoiar médicos e pacientes no acesso legal.",
+      "Não há, nesta visão geral, um limite único de THC consolidado.",
+      "Profissionais devem atualizar seu conhecimento conforme a evidência mais recente."
+    ],
+    "warnings": [
+      "A própria TGA informa que o documento pode estar desatualizado em relação à evidência científica mais recente.",
+      "Orientação regulatória não substitui julgamento clínico individual.",
+      "Produtos com THC podem causar efeitos psicoativos e exigir cautela clínica.",
+      "A variabilidade entre extratos botânicos pode afetar eficácia e segurança."
+    ],
+    "source_url": "https://www.tga.gov.au/resources/explore-topic/medicinal-cannabis-hub/medicinal-cannabis-guidance-documents/guidance-use-medicinal-cannabis-australia-overview",
+    "source": "dataset_tga-australia-overview"
+  },
+  {
+    "id": "web-regulacao-global-de-cannabis-medicinal-em-2025-segundo-chamb",
+    "title": "Regulação global de cannabis medicinal em 2025 segundo Chambers & Partners",
+    "category": "regulamentacao",
+    "area": "regulation-global",
+    "content": "O guia global da Chambers & Partners sobre regulação de cannabis medicinal e canabinoides em 2025 oferece uma análise jurídica comparativa de múltiplas jurisdições, com contribuições de escritórios especializados. O material cobre, entre outros, França, Alemanha, Itália, Panamá, Polônia, Suíça e Reino Unido, mostrando como diferentes países estruturam cultivo, fabricação, importação, distribuição, prescrição e controle de produtos à base de cannabis.\n\nComo documento comparativo internacional, o principal achado é a ausência de harmonização global. Alguns países adotam programas medicinais estritos, com acesso limitado por prescrição e forte controle farmacêutico; outros avançam em reformas de mercado, produção nacional ou flexibilização de acesso. Em geral, a cannabis medicinal é tratada separadamente do uso adulto, com exigências de qualidade, rastreabilidade, licenças e conformidade regulatória.\n\nO guia também reforça que a regulação depende da jurisdição e da categoria do produto: flor seca, extrato, medicamento registrado, preparação magistral ou canabinoide sintético podem seguir regras distintas. Em muitos mercados, o sistema de prescrição médica é a porta de entrada principal, mas os profissionais autorizados, as indicações aceitas e os requisitos de reembolso variam amplamente. Da mesma forma, limites de THC não são uniformes e podem ser definidos por lei de narcóticos, norma sanitária ou classificação do produto.\n\nPara estruturação: países cobertos incluem França, Alemanha, Itália, Panamá, Polônia, Suíça e Reino Unido. Status legal: predominantemente medicinal e regulado, com diferenças nacionais. Limites de THC: variáveis por país e por categoria de produto. Sistema de prescrição: geralmente médico, porém com critérios e burocracias distintas. O documento é valioso para benchmarking regulatório, mas não substitui consulta jurídica local.",
+    "key_points": [
+      "Categoria: regulamentação internacional comparada.",
+      "Países citados: França, Alemanha, Itália, Panamá, Polônia, Suíça e Reino Unido.",
+      "Status legal predominante: uso medicinal regulado.",
+      "Não há harmonização global das regras de cannabis medicinal.",
+      "Cada país define licenças, importação, produção e distribuição de forma própria.",
+      "A prescrição médica é, em geral, o principal mecanismo de acesso.",
+      "As exigências para médicos e pacientes variam entre jurisdições.",
+      "Limites de THC diferem conforme país e tipo de produto.",
+      "Flor, extrato e canabinoides sintéticos podem ter regimes distintos.",
+      "O guia também aborda tendências e desenvolvimentos locais.",
+      "É um material de referência jurídica comparativa.",
+      "Não substitui aconselhamento legal específico em cada país."
+    ],
+    "warnings": [
+      "O guia declara expressamente que não constitui aconselhamento jurídico específico.",
+      "Comparações internacionais podem ocultar detalhes críticos de cada jurisdição.",
+      "Limites de THC e requisitos de prescrição devem ser verificados país a país.",
+      "Mudanças regulatórias podem tornar partes do conteúdo rapidamente desatualizadas."
+    ],
+    "source_url": "https://chambers.com/downloads/gpg/1003/medical-cannabis-and-cannabinoid-regulation-2025.pdf",
+    "source": "pdf_chambers-partners-2025"
+  },
+  {
+    "id": "web-leis-da-cannabis-na-europa-perguntas-e-respostas-para-formul",
+    "title": "Leis da cannabis na Europa: perguntas e respostas para formulação de políticas",
+    "category": "comparativo",
+    "area": "regulation-global",
+    "content": "Este documento da EMCDDA/EUDA (junho de 2023) oferece uma visão comparativa das leis de cannabis na Europa, com foco em conceitos jurídicos, obrigações internacionais e respostas nacionais ao uso, posse, cultivo, venda e direção sob efeito da substância. O texto destaca que a definição de cannabis é central para a política pública, pois diferentes produtos — flor, resina, extratos e cânhamo — podem receber tratamentos legais distintos. Também explica que o THC é o principal canabinoide psicoativo considerado nas normas de controle, enquanto o teor de THC influencia a distinção entre cânhamo industrial e cannabis sujeita a controle mais rígido.\n\nNo plano internacional, os países europeus continuam vinculados às convenções da ONU sobre controle de drogas, mas possuem alguma margem de interpretação quanto às sanções e à forma de responder ao consumo pessoal. Na prática, não existe uma lei harmonizada da União Europeia para cannabis ilícita; cada país define crimes, infrações administrativas, limites de posse e alternativas penais. Em vários países, a posse para uso pessoal foi descriminalizada ou tratada com respostas não prisionais, embora isso não signifique legalização.\n\nO relatório mostra que há ampla variação entre países quanto aos limites quantitativos para posse pessoal, às penalidades por cultivo doméstico e às sanções por tráfico. Também aborda a direção com presença de cannabis no organismo, tema em que muitos países adotam tolerância zero ou limites muito baixos. Quanto à regulação do uso adulto, o documento observa que a Europa vinha discutindo modelos regulatórios, mas ainda sem harmonização regional e com forte tensão entre inovação regulatória e obrigações internacionais.\n\nPaís/região: Europa (comparativo entre países da UE e outros europeus). Status legal: predominantemente proibicionista, com descriminalização parcial em alguns países e debates regulatórios em expansão. Limites de THC: variáveis, especialmente para cânhamo industrial, sem padrão único europeu no documento resumido. Sistema de prescrição: não é o foco central do relatório; varia por país, geralmente por programas médicos nacionais específicos.",
+    "key_points": [
+      "Documento comparativo da EMCDDA/EUDA publicado em junho de 2023.",
+      "Analisa definições de cannabis, THC, cânhamo e vias de administração.",
+      "Não há lei única harmonizada da UE para cannabis ilícita.",
+      "Países europeus seguem convenções da ONU, mas com alguma flexibilidade interpretativa.",
+      "Descriminalização de posse pessoal existe em alguns países, sem equivaler à legalização.",
+      "Limites de posse para uso pessoal variam amplamente entre países.",
+      "Cultivo doméstico para uso pessoal recebe respostas legais diferentes conforme o país.",
+      "Venda e tráfico seguem sujeitos a sanções penais em praticamente toda a Europa.",
+      "Direção com cannabis no organismo é regulada de forma restritiva em muitos países.",
+      "Há debate crescente sobre regulação do uso adulto, mas sem consenso europeu.",
+      "Cânhamo e cannabis psicoativa podem ter enquadramentos legais distintos.",
+      "Sistemas de prescrição médica existem em alguns países, porém não são uniformes."
+    ],
+    "warnings": [
+      "Descriminalização não significa legalização do mercado recreativo.",
+      "Limites de posse, cultivo e direção mudam por país e podem ser alterados rapidamente.",
+      "Teores de THC para cânhamo e produtos derivados não são uniformes na Europa.",
+      "Presença de cannabis no corpo pode gerar sanções de trânsito mesmo sem sinais claros de intoxicação."
+    ],
+    "source_url": "https://www.euda.europa.eu/system/files/documents/2023-06/td0923192enn_0.pdf",
+    "source": "pdf_euda-cannabis-laws-qa"
+  },
+  {
+    "id": "web-precos-da-cannabis-por-pais-segundo-a-unodc",
+    "title": "Preços da cannabis por país segundo a UNODC",
+    "category": "mercado",
+    "area": "regulation-global",
+    "content": "A base da UNODC reúne preços de cannabis herbácea por país, com foco em varejo e atacado, além de alguns registros de potência (teor de THC) quando disponíveis. O recorte apresentado no artigo é predominantemente africano e mostra forte heterogeneidade entre mercados nacionais, anos de coleta e qualidade dos dados. Em geral, os preços de varejo por grama aparecem muito baixos em diversos países produtores ou de ampla oferta local, enquanto os preços por quilograma no atacado variam conforme disponibilidade, risco de repressão, rotas de tráfico e qualidade do produto.\n\nOs dados incluem países como Burundi, Eritreia, Quênia, Madagascar, Maurício, Ruanda, Tanzânia, Uganda, Egito, Malawi, Namíbia, África do Sul, Essuatíni/Swaziland, Zâmbia, Zimbábue, Burkina Faso, Camarões, República Centro-Africana, Congo, Côte d’Ivoire, Gabão, Gâmbia e Gana. Em alguns casos, há também estimativas de potência, como faixas de THC de 0,5% a 5%, 2% a 10%, 3% a 7%, 35% a 65% e 90%, indicando inconsistência metodológica ou diferenças entre amostras, tipos de produto e anos de medição.\n\nComo documento de mercado, a utilidade principal está em comparar tendências de preço e oferta, não em inferir legalidade ou qualidade clínica. A base não descreve regimes regulatórios, prescrição médica ou limites legais de THC por país. Portanto, ela deve ser lida como um retrato econômico e policial de mercados de cannabis, muitas vezes ilícitos, e não como guia regulatório.\n\nPaís: múltiplos países, com destaque para África Oriental, Norte, Sul e Oeste/Centro. Status legal: não especificado no dataset; em geral, refere-se a mercados monitorados pela política de drogas. Limites de THC: apenas potência observada em algumas amostras, não limites legais. Sistema de prescrição: não informado.",
+    "key_points": [
+      "Base da UNODC compila preços de cannabis por país, em varejo e atacado.",
+      "O recorte fornecido concentra-se principalmente em países africanos.",
+      "Os preços são expressos em US$ por grama e por quilograma.",
+      "Alguns registros incluem potência estimada em THC.",
+      "Há grande variação entre países, anos e faixas de preço.",
+      "Os dados refletem mercado e fiscalização, não necessariamente regulação formal.",
+      "Potência reportada não equivale a limite legal de THC.",
+      "A comparabilidade é limitada por metodologias e anos distintos.",
+      "Mercados com ampla oferta local tendem a mostrar preços de varejo mais baixos.",
+      "O dataset é útil para análise econômica e de risco de mercado ilícito.",
+      "Não há informação estruturada sobre uso medicinal ou prescrição.",
+      "Não serve como referência clínica ou de conformidade regulatória."
+    ],
+    "warnings": [
+      "Dados antigos e de anos diferentes podem distorcer comparações atuais.",
+      "Potência de THC reportada em apreensões ou amostras não representa padrão nacional.",
+      "Preço baixo não indica legalidade, segurança ou qualidade do produto.",
+      "O dataset não informa pureza microbiológica, contaminantes ou rastreabilidade.",
+      "Não use esta base como referência para prescrição médica ou conformidade legal."
+    ],
+    "source_url": "https://www.unodc.org/unodc/secured/wdr/Prices_CannabisType.pdf",
+    "source": "pdf_unodc-cannabis-prices"
+  }
+]

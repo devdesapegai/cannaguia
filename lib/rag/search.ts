@@ -17,9 +17,29 @@ import endocannabinoidSystem from "@/lib/knowledge/endocannabinoid-system.json";
 import conditionsExpanded from "@/lib/knowledge/conditions-expanded.json";
 import pestsDiseases from "@/lib/knowledge/pests-diseases.json";
 
+// Novos knowledge files do seedfinder
+import breeders from "@/lib/knowledge/breeders.json";
+import awards from "@/lib/knowledge/awards.json";
+import landraces from "@/lib/knowledge/landraces.json";
+
+// Novos knowledge files do merge (curated data)
+import flavonoids from "@/lib/knowledge/flavonoids.json";
+import clinicalTrials from "@/lib/knowledge/clinical-trials.json";
+import brazilianResearch from "@/lib/knowledge/brazilian-research.json";
+import brazilianTheses from "@/lib/knowledge/brazilian-theses.json";
+
+// Novos knowledge files do merge-web
+import dosing from "@/lib/knowledge/dosing.json";
+import harmReduction from "@/lib/knowledge/harm-reduction.json";
+import market from "@/lib/knowledge/market.json";
+import regulationGlobal from "@/lib/knowledge/regulation-global.json";
+import veterinaryDocs from "@/lib/knowledge/veterinary.json";
+import genetics from "@/lib/knowledge/genetics.json";
+import openalexResearch from "@/lib/knowledge/openalex-research.json";
+
 export interface Document {
   id: string;
-  type: "cannabinoid" | "terpene" | "condition" | "regulation" | "strain" | "research" | "cultivation" | "drug-interaction" | "extraction" | "administration" | "endocannabinoid" | "condition-expanded" | "pest-disease";
+  type: "cannabinoid" | "terpene" | "condition" | "regulation" | "strain" | "research" | "cultivation" | "drug-interaction" | "extraction" | "administration" | "endocannabinoid" | "condition-expanded" | "pest-disease" | "breeder" | "award" | "landrace" | "flavonoid" | "clinical-trial" | "brazilian-research" | "brazilian-thesis" | "dosing" | "harm-reduction" | "market" | "regulation-global" | "veterinary" | "genetics";
   title: string;
   content: string;
   metadata: Record<string, unknown>;
@@ -43,31 +63,35 @@ export function buildDocuments(): Document[] {
       content: [
         c.name,
         c.description,
-        c.mechanisms.join(". "),
-        c.therapeutic_uses
+        (c.mechanisms || []).join(". "),
+        (c.therapeutic_uses || [])
           .map((u) => `${u.condition}: ${u.details}`)
           .join(". "),
-        c.side_effects.join(", "),
-        c.drug_interactions.join(", "),
-        c.legal_status_brazil,
-      ].join(" "),
+        (c.side_effects || []).join(", "),
+        (c.drug_interactions || []).join(", "),
+        c.legal_status_brazil || "",
+      ].filter(Boolean).join(" "),
       metadata: c,
     });
   }
 
   for (const t of terpenes) {
+    const tt = t as Record<string, unknown>;
+    const name = (tt.name || tt.title || "") as string;
     docs.push({
       id: t.id,
       type: "terpene",
-      title: t.name,
+      title: name,
       content: [
-        t.name,
-        t.aroma,
-        t.also_found_in.join(", "),
-        t.effects.join(", "),
-        t.mechanisms.join(". "),
-        t.therapeutic_potential,
-      ].join(" "),
+        name,
+        (tt.aroma || "") as string,
+        ((tt.also_found_in || []) as string[]).join(", "),
+        ((tt.effects || []) as string[]).join(", "),
+        ((tt.mechanisms || []) as string[]).join(". "),
+        (tt.therapeutic_potential || "") as string,
+        (tt.content || "") as string,
+        ((tt.key_points || []) as string[]).join(". "),
+      ].filter(Boolean).join(" "),
       metadata: t,
     });
   }
@@ -99,20 +123,175 @@ export function buildDocuments(): Document[] {
   }
 
   for (const s of strains) {
+    const ss = s as Record<string, unknown>;
+    const parts = [
+      s.name,
+      s.type,
+      s.description,
+      `Terpenos: ${s.terpenes_dominant.join(", ")}`,
+      `Efeitos: ${s.effects.join(", ")}`,
+      `Usos medicinais: ${s.medical_uses.join(", ")}`,
+      `Sabor: ${(s.flavor || []).join(", ")}`,
+    ];
+    // Campos seedfinder (opcionais)
+    if (ss.breeder) parts.push(`Breeder: ${ss.breeder}`);
+    if (ss.genetics_text) parts.push(`Genetica: ${ss.genetics_text}`);
+    if (ss.lineage_text) parts.push(`Linhagem: ${ss.lineage_text}`);
+    if (ss.thc) {
+      const thc = ss.thc as { min: number; max: number };
+      parts.push(`THC: ${thc.min}${thc.max !== thc.min ? `-${thc.max}` : ""}%`);
+    }
+    if (ss.cbd) {
+      const cbd = ss.cbd as { min: number; max: number };
+      parts.push(`CBD: ${cbd.min}${cbd.max !== cbd.min ? `-${cbd.max}` : ""}%`);
+    }
+    if (ss.aromas) parts.push(`Aromas: ${(ss.aromas as string[]).join(", ")}`);
+    if (ss.awards) {
+      const aw = ss.awards as { cup: string; year: number; category: string }[];
+      parts.push(`Premiacoes: ${aw.map((a) => `${a.cup} ${a.year} ${a.category}`).join(", ")}`);
+    }
+    if (ss.flowering_days) {
+      const fd = ss.flowering_days as { min: number; max: number };
+      parts.push(`Floracao: ${fd.min}${fd.max !== fd.min ? `-${fd.max}` : ""} dias`);
+    }
+    if (ss.clone_only) parts.push("Clone-only");
+    if (ss.autoflower) parts.push("Autoflower automatica");
+    if (ss.landrace) parts.push(`Landrace pura ${ss.origin_country || ""}`);
+
     docs.push({
       id: s.id,
       type: "strain",
       title: s.name,
-      content: [
-        s.name,
-        s.type,
-        s.description,
-        `Terpenos: ${s.terpenes_dominant.join(", ")}`,
-        `Efeitos: ${s.effects.join(", ")}`,
-        `Usos medicinais: ${s.medical_uses.join(", ")}`,
-        `Sabor: ${(s.flavor || []).join(", ")}`,
-      ].join(" "),
+      content: parts.join(" "),
       metadata: s,
+    });
+  }
+
+  // Breeders
+  for (const b of breeders) {
+    const bb = b as { id: string; name: string; strain_count: number; award_count: number; notable_strains: string[] };
+    docs.push({
+      id: bb.id,
+      type: "breeder",
+      title: bb.name,
+      content: [
+        bb.name,
+        `Breeder banco de sementes`,
+        `${bb.strain_count} variedades`,
+        bb.award_count > 0 ? `${bb.award_count} premiacoes` : "",
+        `Strains notaveis: ${bb.notable_strains.join(", ")}`,
+      ].filter(Boolean).join(" "),
+      metadata: b as Record<string, unknown>,
+    });
+  }
+
+  // Awards
+  for (const a of awards) {
+    const aa = a as { id: string; strain_name: string; breeder: string; cup: string; year: number; category: string; place: string };
+    docs.push({
+      id: aa.id,
+      type: "award",
+      title: `${aa.strain_name} - ${aa.cup} ${aa.year}`,
+      content: [
+        aa.strain_name,
+        aa.breeder,
+        `${aa.place} lugar no ${aa.cup} ${aa.year}`,
+        `Categoria: ${aa.category}`,
+        `Premiacao cannabis cup award`,
+      ].join(" "),
+      metadata: a as Record<string, unknown>,
+    });
+  }
+
+  // Landraces
+  for (const l of landraces) {
+    const ll = l as { id: string; title: string; origin_country: string; content: string; key_points: string[] };
+    docs.push({
+      id: ll.id,
+      type: "landrace",
+      title: ll.title,
+      content: [
+        ll.title,
+        ll.content,
+        ll.key_points.join(". "),
+        `Landrace pura original nativa selvagem`,
+      ].join(" "),
+      metadata: l as Record<string, unknown>,
+    });
+  }
+
+  // Flavonoids
+  for (const f of flavonoids) {
+    const ff = f as { id: string; name: string; type: string; description: string; mechanisms: string[]; therapeutic_potential: string; key_points: string[] };
+    docs.push({
+      id: ff.id,
+      type: "flavonoid",
+      title: ff.name,
+      content: [
+        ff.name,
+        ff.description,
+        (ff.mechanisms || []).join(". "),
+        ff.therapeutic_potential,
+        (ff.key_points || []).join(". "),
+      ].filter(Boolean).join(" "),
+      metadata: f as Record<string, unknown>,
+    });
+  }
+
+  // Clinical Trials
+  for (const ct of clinicalTrials) {
+    const t = ct as { id: string; title: string; content: string; key_points: string[]; nct_id?: string; status?: string; phase?: string; conditions?: string[]; interventions?: string[] };
+    docs.push({
+      id: t.id,
+      type: "clinical-trial",
+      title: t.title,
+      content: [
+        t.title,
+        t.content,
+        (t.key_points || []).join(". "),
+        t.nct_id || "",
+        t.status || "",
+        t.phase || "",
+        (t.conditions || []).join(", "),
+        (t.interventions || []).join(", "),
+      ].filter(Boolean).join(" "),
+      metadata: ct as Record<string, unknown>,
+    });
+  }
+
+  // Brazilian Research (Scielo)
+  for (const br of brazilianResearch) {
+    const r = br as { id: string; title: string; content: string; key_points: string[]; journal?: string };
+    docs.push({
+      id: r.id,
+      type: "brazilian-research",
+      title: r.title,
+      content: [
+        r.title,
+        r.content,
+        (r.key_points || []).join(". "),
+        r.journal || "",
+      ].filter(Boolean).join(" "),
+      metadata: br as Record<string, unknown>,
+    });
+  }
+
+  // Brazilian Theses (BDTD)
+  for (const bt of brazilianTheses) {
+    const t = bt as { id: string; title: string; content: string; key_points: string[]; type?: string; institution?: string; subjects?: string[] };
+    docs.push({
+      id: t.id,
+      type: "brazilian-thesis",
+      title: t.title,
+      content: [
+        t.title,
+        t.content,
+        (t.key_points || []).join(". "),
+        t.type || "",
+        t.institution || "",
+        (t.subjects || []).join(", "),
+      ].filter(Boolean).join(" "),
+      metadata: bt as Record<string, unknown>,
     });
   }
 
@@ -242,6 +421,90 @@ export function buildDocuments(): Document[] {
     });
   }
 
+  // Dosing
+  for (const d of dosing) {
+    const dd = d as { id: string; title: string; content: string; key_points?: string[]; warnings?: string[] };
+    docs.push({
+      id: dd.id,
+      type: "dosing",
+      title: dd.title,
+      content: [dd.title, dd.content, (dd.key_points || []).join(". "), (dd.warnings || []).join(". ")].filter(Boolean).join(" "),
+      metadata: d as Record<string, unknown>,
+    });
+  }
+
+  // Harm Reduction
+  for (const h of harmReduction) {
+    const hh = h as { id: string; title: string; content: string; key_points?: string[]; warnings?: string[] };
+    docs.push({
+      id: hh.id,
+      type: "harm-reduction",
+      title: hh.title,
+      content: [hh.title, hh.content, (hh.key_points || []).join(". "), (hh.warnings || []).join(". ")].filter(Boolean).join(" "),
+      metadata: h as Record<string, unknown>,
+    });
+  }
+
+  // Market
+  for (const m of market) {
+    const mm = m as { id: string; title: string; content: string; key_points?: string[] };
+    docs.push({
+      id: mm.id,
+      type: "market",
+      title: mm.title,
+      content: [mm.title, mm.content, (mm.key_points || []).join(". ")].filter(Boolean).join(" "),
+      metadata: m as Record<string, unknown>,
+    });
+  }
+
+  // Regulation Global
+  for (const rg of regulationGlobal) {
+    const rr = rg as { id: string; title: string; content: string; key_points?: string[] };
+    docs.push({
+      id: rr.id,
+      type: "regulation-global",
+      title: rr.title,
+      content: [rr.title, rr.content, (rr.key_points || []).join(". ")].filter(Boolean).join(" "),
+      metadata: rg as Record<string, unknown>,
+    });
+  }
+
+  // Veterinary
+  for (const v of veterinaryDocs) {
+    const vv = v as { id: string; title: string; content: string; key_points?: string[]; warnings?: string[] };
+    docs.push({
+      id: vv.id,
+      type: "veterinary",
+      title: vv.title,
+      content: [vv.title, vv.content, (vv.key_points || []).join(". "), (vv.warnings || []).join(". ")].filter(Boolean).join(" "),
+      metadata: v as Record<string, unknown>,
+    });
+  }
+
+  // Genetics
+  for (const g of genetics) {
+    const gg = g as { id: string; title: string; content: string; key_points?: string[] };
+    docs.push({
+      id: gg.id,
+      type: "genetics",
+      title: gg.title,
+      content: [gg.title, gg.content, (gg.key_points || []).join(". ")].filter(Boolean).join(" "),
+      metadata: g as Record<string, unknown>,
+    });
+  }
+
+  // OpenAlex Research
+  for (const oa of openalexResearch) {
+    const r = oa as { id: string; title: string; content: string; key_points?: string[] };
+    docs.push({
+      id: r.id,
+      type: "research",
+      title: r.title,
+      content: [r.title, r.content, (r.key_points || []).join(". ")].filter(Boolean).join(" "),
+      metadata: oa as Record<string, unknown>,
+    });
+  }
+
   return docs;
 }
 
@@ -292,6 +555,20 @@ export function search(
     enxaqueca: ["cefaleia", "dor de cabeca"],
     insonia: ["sono", "dormir", "sonolento"],
     ansiedade: ["ansioso", "ansiolitico"],
+    landrace: ["pura", "original", "nativa", "selvagem", "pure breed"],
+    autoflower: ["automatica", "autoflowering", "auto", "ruderalis"],
+    breeder: ["banco de sementes", "seedbank", "criador"],
+    gravidez: ["gestacao", "gravida", "prenatal", "gestante"],
+    chs: ["hiperemese", "hyperemesis", "vomito ciclico"],
+    vaporizar: ["vape", "vaping", "vaporizador", "dry herb"],
+    comestivel: ["edible", "gummy", "brownie", "bala"],
+    microdose: ["microdosagem", "dose baixa", "low dose"],
+    abstinencia: ["withdrawal", "cessacao", "parar de usar", "t-break"],
+    veterinario: ["animal", "pet", "cachorro", "gato", "cao"],
+    fibromialgia: ["dor difusa", "fibro"],
+    parkinson: ["tremor", "doenca de parkinson"],
+    esclerose: ["esclerose multipla", "multiple sclerosis"],
+    ratio: ["proporcao", "cbd thc", "thc cbd"],
   };
 
   let expandedQuery = normalizedQuery;
@@ -383,6 +660,113 @@ export function search(
       score = Math.max(score * 3, 50);
     }
 
+    // Boost breeder docs
+    const breederKeywords = ["breeder", "banco de sementes", "seedbank", "seed bank", "criador", "produtor de sementes"];
+    const queryBreeder = breederKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryBreeder && doc.type === "breeder") {
+      score *= 3;
+    }
+
+    // Boost award docs
+    const awardKeywords = ["premiacao", "premio", "cup", "copa", "vencedor", "campeao", "melhor strain", "award", "highlife", "emerald", "cannabis cup"];
+    const queryAward = awardKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryAward && doc.type === "award") {
+      score *= 3;
+    }
+
+    // Boost landrace docs
+    const landraceKeywords = ["landrace", "pura", "original", "nativa", "selvagem", "genetica pura", "pure breed", "origem"];
+    const queryLandrace = landraceKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryLandrace && doc.type === "landrace") {
+      score = Math.max(score * 3, 20);
+    }
+
+    // Boost flavonoid docs
+    const flavonoidKeywords = ["flavonoide", "cannflavin", "apigenina", "luteolina", "quercetina", "kaempferol", "naringenina", "vitexina", "crisina"];
+    const queryFlavonoid = flavonoidKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryFlavonoid && doc.type === "flavonoid") {
+      score = Math.max(score * 3, 20);
+    }
+
+    // Boost clinical trial docs
+    const trialKeywords = ["ensaio clinico", "clinical trial", "fase 1", "fase 2", "fase 3", "nct", "randomizado", "placebo", "duplo cego", "trial"];
+    const queryTrial = trialKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryTrial && doc.type === "clinical-trial") {
+      score *= 3;
+    }
+
+    // Boost brazilian research docs
+    const brResearchKeywords = ["pesquisa brasileira", "scielo", "pesquisa brasil", "estudo brasileiro"];
+    const queryBrResearch = brResearchKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryBrResearch && doc.type === "brazilian-research") {
+      score *= 3;
+    }
+
+    // Boost brazilian thesis docs
+    const brThesisKeywords = ["tese", "dissertacao", "mestrado", "doutorado", "universidade", "defesa"];
+    const queryBrThesis = brThesisKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryBrThesis && doc.type === "brazilian-thesis") {
+      score *= 3;
+    }
+
+    // Boost harm-reduction related content (medical-research, clinical-trial docs)
+    const harmReductionKeywords = ["reducao de danos", "harm reduction", "hiperemese", "chs", "gravidez", "gestacao", "amamentacao", "withdrawal", "abstinencia", "dependencia", "tolerancia", "t-break", "dirigir", "direcao", "cannabis use disorder", "transtorno"];
+    const queryHarmReduction = harmReductionKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryHarmReduction && (doc.type === "research" || doc.type === "clinical-trial" || doc.type === "harm-reduction")) {
+      score *= doc.type === "harm-reduction" ? 3 : 2;
+    }
+
+    // Boost veterinary related content
+    const vetKeywords = ["veterinario", "cachorro", "gato", "cao", "felino", "canino", "pet", "animal", "mg/kg", "toxicidade animal"];
+    const queryVet = vetKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryVet && (doc.type === "research" || doc.type === "clinical-trial" || doc.type === "veterinary")) {
+      score *= doc.type === "veterinary" ? 3 : 2;
+    }
+
+    // Boost dosing docs
+    const dosingKeywords = ["dosagem", "dose", "titulacao", "posologia", "microdose", "comestivel", "edible", "inicio", "onset", "duracao", "quanto tomar", "quanto usar", "miligramas"];
+    const queryDosing = dosingKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryDosing && doc.type === "dosing") {
+      score *= 3;
+    }
+
+    // Boost market docs
+    const marketKeywords = ["mercado", "preco", "emprego", "industria", "receita", "imposto", "cannabis business", "economia", "investimento", "startup"];
+    const queryMarket = marketKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryMarket && doc.type === "market") {
+      score *= 3;
+    }
+
+    // Boost regulation-global docs
+    const regGlobalKeywords = ["regulamentacao internacional", "pais", "prescricao", "alemanha", "canada", "australia", "uruguai", "tailandia", "legislacao internacional", "legalizacao"];
+    const queryRegGlobal = regGlobalKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryRegGlobal && doc.type === "regulation-global") {
+      score *= 3;
+    }
+
+    // Boost genetics docs
+    const geneticsKeywords = ["genetica", "breeding", "feminizada", "quimiotipo", "gwas", "hlvd", "autoflower", "ruderalis", "polinizacao", "cruzamento", "hibrido", "f1", "estabilizar"];
+    const queryGenetics = geneticsKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryGenetics && doc.type === "genetics") {
+      score *= 3;
+    }
+
+    // Boost strains with high THC for potency queries
+    const potencyKeywords = ["alto thc", "forte", "potente", "high thc", "strong", "pancada"];
+    const queryPotency = potencyKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryPotency && doc.type === "strain") {
+      const thc = (doc.metadata as Record<string, unknown>).thc as { min: number } | undefined;
+      if (thc && thc.min >= 20) score *= 2;
+    }
+
+    // Boost CBD strains for medical/CBD queries
+    const cbdKeywords = ["alto cbd", "high cbd", "cbd rich", "medicinal", "cbd alto"];
+    const queryCbd = cbdKeywords.some((k) => normalizedQuery.includes(k));
+    if (queryCbd && doc.type === "strain") {
+      const cbd = (doc.metadata as Record<string, unknown>).cbd as { min: number } | undefined;
+      if (cbd && cbd.min >= 5) score *= 2;
+    }
+
     if (score > 0) {
       scored.push({ document: doc, score });
     }
@@ -432,6 +816,7 @@ export function search(
 
   return sorted.slice(0, topK);
 }
+
 
 // --- Vector / Hybrid Search ---
 

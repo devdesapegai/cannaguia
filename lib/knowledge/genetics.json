@@ -1,0 +1,240 @@
+[
+  {
+    "id": "web-heranca-de-canabinoides-em-cannabis-depende-de-arquitetura-g",
+    "title": "Herança de canabinoides em Cannabis depende de arquitetura genética complexa",
+    "category": "quimiotipo",
+    "area": "genetics",
+    "content": "Este estudo revisa a herança de canabinoides em Cannabis sativa e mostra que a variação de THC, CBD e CBC não pode ser explicada apenas por um modelo simples de dois loci aditivos, frequentemente associado aos genes de sintase como THCAS e CBDAS. Usando cruzamentos entre quatro cultivares de quimiotipo “CBD puro” e “THC puro”, além de populações F1 e F2, os autores aplicaram análise de line cross e testes de efeitos genéticos compostos para inferir a arquitetura genética dos fenótipos químicos.\n\nOs resultados indicam que a concentração de THC é um caráter poligênico, controlado por aproximadamente três a quatro fatores genéticos efetivos, com contribuição de efeitos aditivos e de dominância. Isso sugere que a seleção para alto THC em programas de breeding não depende apenas da presença/ausência funcional de THCAS, mas também de modificadores genéticos, possivelmente incluindo QTL ligados à via biossintética, densidade de tricomas glandulares e fluxo metabólico a partir de CBGA.\n\nPara CBD, o padrão foi diferente: além de efeitos aditivos nucleares, houve evidência de influência citoplasmática, sugerindo participação de genomas organelares ou efeitos maternos. Já para CBC, os dados apontaram para efeitos maternos aditivos e efeitos aditivos clássicos. Em termos práticos, isso significa que cruzamentos recíprocos podem gerar perfis canabinoides distintos, mesmo com combinações nucleares semelhantes.\n\nA principal implicação é que o quimiotipo não deve ser tratado como traço mendeliano simples em contextos de melhoramento. Em populações segregantes F2, retrocruzamentos (BX) e linhagens de seleção, a predição do perfil químico exige fenotipagem robusta, idealmente com apoio de marcadores moleculares e mapeamento de QTL. O trabalho reforça que ambiente, genética materna e interações não aditivas podem alterar a expressão final de THC, CBD e CBC, complicando a estabilização de cultivares para mercados regulados.",
+    "key_points": [
+      "THC apresentou herança poligênica, com cerca de 3–4 fatores genéticos efetivos.",
+      "A expressão de THC foi melhor explicada por efeitos aditivos e de dominância.",
+      "CBD pode sofrer influência de efeitos aditivos nucleares e de herança citoplasmática.",
+      "CBC mostrou indícios de efeitos maternos aditivos.",
+      "THCAS e CBDAS são importantes, mas não explicam sozinhos toda a variação química.",
+      "Cruzamentos recíprocos podem alterar o perfil de canabinoides da progênie.",
+      "Populações F1 e F2 podem segregar de forma mais complexa que o esperado por modelos simples.",
+      "QTL modificadores provavelmente afetam fluxo metabólico e acúmulo de canabinoides.",
+      "Programas de breeding devem combinar genotipagem e quimiotipagem.",
+      "A estabilização de quimiotipos exige várias gerações de seleção e validação ambiental."
+    ],
+    "warnings": [
+      "Modelos simplificados de herança podem falhar ao prever quimiotipo em populações segregantes.",
+      "A expressão de canabinoides é sensível ao ambiente; resultados de breeding podem não se repetir entre locais ou ciclos.",
+      "Selecionar apenas por THCAS/CBDAS sem fenotipagem química pode gerar erros de classificação regulatória."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173683/",
+    "source": "journal_cannabinoid-complex-genetics-pmc"
+  },
+  {
+    "id": "web-metodo-alternativo-para-inducao-de-flores-masculinas-em-plan",
+    "title": "Método alternativo para indução de flores masculinas em plantas femininas de Cannabis",
+    "category": "feminizacao",
+    "area": "genetics",
+    "content": "Este artigo compara o método tradicional de indução de flores masculinas em plantas femininas de Cannabis sativa usando STS (tiossulfato de prata) com um produto comercial de floricultura, Chrysal ALESCO®, que também fornece prata como inibidor de etileno. A aplicação desses compostos em plantas XX é etapa central na produção de sementes feminizadas, pois permite obter pólen funcional sem introduzir cromossomo Y. Quando esse pólen fertiliza outra planta feminina, a descendência tende a ser majoritariamente feminina.\n\nO estudo avaliou seis acessos femininos de hemp, com replicações, comparando número de flores masculinas induzidas e qualidade do pólen. A motivação principal foi resolver um problema operacional do STS: sua baixa estabilidade após preparo. Em muitos programas de breeding, o STS precisa ser preparado fresco, e pequenas variações na mistura de nitrato de prata com tiossulfato de sódio podem comprometer consistência, fitotoxicidade e eficiência de reversão sexual.\n\nOs resultados indicam que o produto comercial teve desempenho comparável ao STS em vários genótipos, mostrando potencial como alternativa mais estável e acessível para feminização. Ainda assim, a resposta foi dependente do genótipo, o que reforça que a reversão sexual é influenciada pela base genética da planta, pelo estádio fenológico, pela dose e pela frequência de aplicação. Em termos de breeding, isso afeta diretamente a produção de pólen para cruzamentos controlados, geração de F1 uniformes, avanço de linhagens e produção comercial de sementes feminizadas.\n\nDo ponto de vista técnico, a indução de flores masculinas não altera o genótipo XX da planta tratada; ela apenas modifica a expressão sexual via bloqueio de etileno. Portanto, a qualidade do pólen, a viabilidade e a ausência de tendência a intersexualidade na progênie devem ser monitoradas. O trabalho sugere que protocolos padronizados de reversão podem melhorar a previsibilidade da produção de sementes feminizadas, especialmente em operações que exigem repetibilidade e menor complexidade de preparo químico.",
+    "key_points": [
+      "STS é o padrão clássico para reversão sexual em plantas femininas XX.",
+      "Chrysal ALESCO® usa prata como ingrediente ativo e pode ser alternativa ao STS.",
+      "A estabilidade de prateleira do produto comercial é uma vantagem operacional.",
+      "A resposta à indução de flores masculinas variou entre genótipos.",
+      "A produção de pólen funcional é essencial para sementes feminizadas.",
+      "Pólen oriundo de plantas XX tende a gerar descendência majoritariamente feminina.",
+      "Dose, timing e frequência de aplicação influenciam o sucesso da reversão.",
+      "O método é útil para breeding, produção de F1 e manutenção de elites clonais.",
+      "A reversão sexual não cria cromossomo Y; altera apenas a expressão floral.",
+      "É importante avaliar viabilidade do pólen e desempenho da progênie após o tratamento."
+    ],
+    "warnings": [
+      "Compostos à base de prata podem causar fitotoxicidade se dose e frequência forem excessivas.",
+      "O manuseio de STS e soluções com prata exige EPI e descarte ambientalmente adequado.",
+      "Nem toda planta revertida produz pólen de boa viabilidade; é necessário testar antes de escalar.",
+      "A feminização não elimina risco de intersexualidade se o parental tiver predisposição genética."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10574327/",
+    "source": "journal_cannabis-sex-expression-sts-pmc"
+  },
+  {
+    "id": "web-sistematica-de-cannabis-nos-niveis-de-familia-genero-e-espec",
+    "title": "Sistemática de Cannabis nos níveis de família, gênero e espécie",
+    "category": "taxonomia",
+    "area": "genetics",
+    "content": "Este artigo revisa a sistemática de Cannabis, integrando filogenia, paleobotânica e nomenclatura formal. A família Cannabaceae atualmente inclui Cannabis, Humulus e outros gêneros antes colocados em Celtidaceae. Com base em dados moleculares, especialmente DNA de cloroplasto (cpDNA), Cannabis e Humulus teriam divergido há cerca de 27,8 milhões de anos. Evidências de pólen fóssil sugerem origem de Cannabis no nordeste do Planalto Tibetano, seguida de dispersão para a Europa entre 1,8 e 1,2 milhão de anos atrás.\n\nO artigo argumenta que gargalos populacionais e deriva genética em populações europeias contribuíram para diferenciação alopátrica entre formas com maior CBD e formas asiáticas com maior THC. Nesse contexto, a proposta taxonômica mais consistente seria reconhecer Cannabis como uma única espécie, Cannabis sativa, com subdivisão em subespécies: C. sativa subsp. sativa e C. sativa subsp. indica. Essa interpretação é mais compatível com dados de DNA barcode do que a visão popular de múltiplas “espécies” independentes.\n\nUm ponto central é a crítica ao uso vernacular de “Sativa” e “Indica” no mercado canábico. Esses termos comerciais não correspondem de forma confiável à nomenclatura botânica formal e foram distorcidos por séculos de identificação inconsistente em herbários, além de intenso intercruzamento recente. Em programas de breeding modernos, híbridos complexos, retrocruzamentos (BX), populações F1/F2 e seleção recorrente tornaram essas categorias morfológicas pouco informativas para prever quimiotipo, arquitetura da planta ou perfil de terpenos.\n\nDo ponto de vista aplicado, a taxonomia útil para genética e melhoramento deve priorizar dados moleculares, quimiotipo e origem populacional, em vez de rótulos comerciais. Isso é particularmente relevante quando se busca associar genes como THCAS e CBDAS, ou mapear QTL de morfologia e metabolômica, a grupos taxonômicos reais. O artigo reforça que a classificação de Cannabis precisa ser baseada em sistemática evolutiva, não em marketing.",
+    "key_points": [
+      "Cannabaceae inclui Cannabis, Humulus e outros gêneros antes separados.",
+      "Cannabis e Humulus divergiram há cerca de 27,8 milhões de anos.",
+      "Pólen fóssil sugere origem de Cannabis no nordeste do Planalto Tibetano.",
+      "A dispersão para a Europa ocorreu muito antes da domesticação humana recente.",
+      "Gargalos populacionais europeus podem ter favorecido diferenciação genética.",
+      "O autor apoia uma única espécie: Cannabis sativa.",
+      "As divisões mais defensáveis seriam em nível de subespécie: subsp. sativa e subsp. indica.",
+      "Os termos comerciais “Sativa” e “Indica” não refletem bem a taxonomia formal.",
+      "Hibridação extensa reduziu o valor classificatório de categorias vernaculares.",
+      "Taxonomia moderna deve integrar filogenia, DNA barcode, quimiotipo e história populacional."
+    ],
+    "warnings": [
+      "Rótulos comerciais de “Sativa” e “Indica” não devem ser usados como preditores confiáveis de efeito, quimiotipo ou genealogia.",
+      "Classificações baseadas apenas em morfologia podem ser enganosas em germoplasma altamente hibridizado.",
+      "Inferências taxonômicas sem suporte molecular podem comprometer estudos de breeding, GWAS e conservação genética."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6225593/",
+    "source": "journal_cannabis-systematics-pmc"
+  },
+  {
+    "id": "web-heranca-do-quimiotipo-em-cannabis-sativa-modelo-monogenico-c",
+    "title": "Herança do quimiotipo em Cannabis sativa: modelo monogênico codominante para THCAS/CBDAS",
+    "category": "quimiotipo",
+    "area": "genetics",
+    "content": "Este estudo clássico de 2003 demonstrou que a herança do quimiotipo em Cannabis sativa pode ser explicada, em grande parte, por um modelo simples de um loco com dois alelos codominantes. Os autores cruzaram linhagens endogâmicas com quimiotipo “puro CBD” e “puro THC”, e analisaram a composição de canabinoides por cromatografia gasosa. Em todos os híbridos F1, o perfil observado foi misto CBD-THC, indicando que os parentais carregavam variantes funcionais distintas associadas à conversão do precursor comum CBG/CBGA.\n\nNa geração F2, obtida por autofecundação de plantas F1, houve segregação consistente em proporção 1:2:1 para três classes fenotípicas: quimiotipo puro CBD, quimiotipo misto CBD-THC e quimiotipo puro THC. Esse padrão sustentou a proposta do loco B, com os alelos B(D) e B(T), interpretados hoje no contexto das sintases CBDAS e THCAS, ou de variantes alélicas/arranjos intimamente ligados que determinam o fluxo metabólico do CBGA para CBDA ou THCA. Assim, indivíduos homozigotos tenderiam a perfis dominados por um único canabinoide, enquanto heterozigotos exibiriam perfil intermediário.\n\nUm achado importante foi que a razão CBD/THC variou entre progênies F2 derivadas de diferentes indivíduos F1, sugerindo que, além do loco principal, outros fatores genéticos de fundo podem modular a expressão quantitativa do quimiotipo. Em linguagem moderna, isso aponta para modificadores, possíveis QTL e efeitos de background genético sobre a atividade de THCAS/CBDAS.\n\nO trabalho também aplicou bulk segregant analysis para identificar marcadores RAPD associados ao quimiotipo, incluindo um marcador convertido em SCAR com ligação estreita ao fenótipo químico. Isso abriu caminho para seleção assistida por marcadores em breeding, especialmente para fixação de linhagens, desenvolvimento de F1 uniformes e retrocruzamentos (BX) orientados por quimiotipo.",
+    "key_points": [
+      "Cruzamentos entre parentais puro CBD e puro THC geraram F1 com quimiotipo misto CBD-THC.",
+      "A segregação em F2 ajustou-se à proporção 1:2:1, compatível com herança monogênica codominante.",
+      "O modelo proposto envolve um loco B com dois alelos: B(D) e B(T).",
+      "Em termos atuais, o resultado é compatível com a ação de CBDAS e THCAS sobre o precursor comum CBGA.",
+      "Homozigotos tendem a perfis “puros”, enquanto heterozigotos exibem perfil intermediário.",
+      "A razão CBD/THC foi específica de cada progênie, sugerindo modificadores genéticos adicionais.",
+      "O estudo indica que o quimiotipo principal pode ser previsto geneticamente, mas a proporção exata pode variar.",
+      "Foi usada bulk segregant analysis para encontrar marcadores ligados ao quimiotipo.",
+      "Um marcador SCAR mostrou ligação estreita e codominância, útil para seleção assistida.",
+      "Aplicações práticas incluem breeding de linhagens estáveis, F1 uniformes e programas de BX.",
+      "O trabalho é base para classificação química e genética de cultivares medicinais e industriais."
+    ],
+    "warnings": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1462421/",
+    "source": "journal_chemotype-inheritance-pmc"
+  },
+  {
+    "id": "web-producao-de-sementes-feminizadas-em-populacoes-ricas-em-cbd-",
+    "title": "Produção de sementes feminizadas em populações ricas em CBD por reversão sexual",
+    "category": "feminizacao",
+    "area": "genetics",
+    "content": "Este artigo avaliou métodos de manipulação da expressão sexual para produzir sementes feminizadas em Cannabis sativa de alto CBD, com foco em aplicação prática no breeding. Como a produção comercial de flores ricas em canabinoides depende de populações majoritariamente femininas, a reversão sexual de plantas XX é uma ferramenta central para gerar pólen feminino e sementes feminizadas.\n\nOs autores compararam 23 tratamentos em duas populações de breeding com alto CBD, testando principalmente tiossulfato de prata (STS), ácido giberélico (GA) e prata coloidal. O resultado mais consistente foi que a pulverização da planta inteira com STS, em aplicação única, foi mais eficiente do que aplicações localizadas em ápices. Já o uso de 0,01% de GA e o manejo por cortes intensivos mostraram baixa eficiência para induzir flores masculinas. A prata coloidal também foi eficaz na indução de flores masculinas em plantas femininas, confirmando seu uso como alternativa operacional ao STS.\n\nDo ponto de vista genético, a técnica permite gerar sementes feminizadas por autopolinização (S1) ou por cruzamentos entre fêmeas revertidas e outras fêmeas elite, produzindo famílias úteis para seleção, fixação de caracteres e montagem de híbridos F1. Em programas de breeding de alto CBD, isso é especialmente relevante para manter perfis químicos estáveis, com predominância de CBDAS e baixa expressão funcional de THCAS. Ainda assim, a estabilidade do quimiotipo e da expressão sexual deve ser validada em gerações subsequentes.\n\nO estudo reforça que a escolha do protocolo de reversão influencia diretamente a quantidade de flores masculinas, a produção de pólen e a eficiência final de sementes. Para melhoristas, isso significa maior previsibilidade na criação de linhagens femininas, seleção de parentais e redução do risco de segregação indesejada em lotes comerciais.",
+    "key_points": [
+      "STS foi o tratamento mais eficiente para induzir flores masculinas em plantas femininas de alto CBD.",
+      "Pulverizar a planta inteira com STS funcionou melhor do que aplicar apenas nos ápices.",
+      "Prata coloidal também se mostrou eficaz como indutora de reversão sexual.",
+      "GA a 0,01% e cortes intensivos foram ineficazes para estimular flores masculinas.",
+      "A técnica permite produzir pólen de plantas XX para gerar sementes feminizadas.",
+      "Pode ser usada para autopolinização (S1) e cruzamentos entre parentais femininos elite.",
+      "É útil para breeding de cultivares ricos em CBD com maior uniformidade de lote.",
+      "Ajuda a preservar perfis químicos associados a CBDAS e baixo potencial de THCA.",
+      "A eficiência do protocolo afeta produção de pólen, pegamento de sementes e custo operacional.",
+      "A estabilidade da progênie deve ser validada quanto a sexo e quimiotipo.",
+      "Ferramenta importante para seleção de linhagens e formação de híbridos F1."
+    ],
+    "warnings": [
+      "STS e prata coloidal exigem manejo cuidadoso e uso de EPI devido ao risco químico.",
+      "A reversão sexual mal conduzida pode gerar baixa viabilidade de pólen ou poucas sementes.",
+      "Sementes feminizadas não eliminam totalmente o risco de intersexo/hermafroditismo na progênie.",
+      "É necessário verificar conformidade regulatória para produção de plantas com alto CBD/THC conforme a jurisdição."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8591233/",
+    "source": "journal_feminized-seed-cbd-pmc"
+  },
+  {
+    "id": "web-diretrizes-otimizadas-para-producao-de-sementes-feminizadas-",
+    "title": "Diretrizes otimizadas para produção de sementes feminizadas em cultivares de alto THC",
+    "category": "feminizacao",
+    "area": "genetics",
+    "content": "Esta revisão de 2024 sintetiza diretrizes para produção de sementes feminizadas em cultivares de alto THC, com ênfase em eficiência reprodutiva, viabilidade de sementes e redução de problemas como reversão incompleta e aparecimento de flores masculinas na progênie. Em Cannabis de alto THC, a feminização é estratégica porque a produção comercial depende de populações predominantemente femininas, capazes de acumular THCA via atividade de THCAS em inflorescências não polinizadas.\n\nO princípio biológico central é a inibição da sinalização de etileno para induzir reversão sexual em plantas geneticamente femininas. Compostos como STS e prata coloidal são os agentes mais usados para promover formação de flores masculinas funcionais em plantas XX. O pólen resultante pode ser empregado em autopolinização para gerar S1 ou em cruzamentos dirigidos entre fêmeas elite, permitindo desenvolver linhagens, testar combinações híbridas F1 e avançar esquemas de retrocruzamento (BX).\n\nA revisão destaca que o sucesso da feminização não depende apenas do agente químico, mas também de fatores como genótipo, estágio fenológico, frequência de aplicação, ambiente, maturação do pólen e momento da polinização. Em materiais de alto THC, a seleção dos parentais é crítica, pois indivíduos com tendência a intersexo podem transmitir instabilidade sexual à descendência. Assim, além de selecionar por potência e perfil terpênico, o breeding deve incluir triagem rigorosa de estabilidade sexual e desempenho reprodutivo.\n\nOutro ponto importante é que sementes feminizadas de alta qualidade exigem equilíbrio entre indução eficiente de flores masculinas e manutenção da saúde da planta-mãe. A revisão também chama atenção para a necessidade de protocolos padronizados para maximizar germinação, vigor e uniformidade. Embora o foco seja aplicado, o tema se conecta à genética quantitativa: diferenças entre cultivares sugerem controle poligênico adicional, passível de mapeamento por QTL ou GWAS no futuro.",
+    "key_points": [
+      "A feminização em cultivares de alto THC baseia-se na reversão sexual de plantas XX.",
+      "STS e prata coloidal são os principais inibidores de etileno usados no processo.",
+      "O objetivo é gerar pólen feminino para produzir sementes majoritariamente femininas.",
+      "A técnica pode ser aplicada em S1, cruzamentos dirigidos, F1 e esquemas de BX.",
+      "Genótipo e estabilidade sexual dos parentais são fatores decisivos para o sucesso.",
+      "Cultivares com tendência a intersexo devem ser evitadas em programas de breeding.",
+      "O momento de aplicação e a fase da planta influenciam formação de flores masculinas e viabilidade do pólen.",
+      "A qualidade final das sementes depende de polinização correta, maturação e manejo pós-colheita.",
+      "A revisão enfatiza padronização para melhorar germinação, vigor e uniformidade de lotes.",
+      "Há indícios de controle genético complexo além do efeito fisiológico do etileno.",
+      "QTL e GWAS podem futuramente ajudar a prever resposta à reversão sexual e estabilidade da progênie."
+    ],
+    "warnings": [
+      "Cultivares de alto THC podem estar sujeitos a restrições legais severas dependendo da jurisdição.",
+      "STS e prata coloidal requerem manipulação segura, descarte adequado e uso de EPI.",
+      "Autopolinização excessiva pode expor depressão endogâmica em alguns materiais.",
+      "A feminização não garante 100% de ausência de plantas intersexo ou macho na descendência.",
+      "Contaminação por pólen pode comprometer lotes de flores sinsemilla e programas de breeding."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11557428/",
+    "source": "journal_feminized-seed-production-pmc"
+  },
+  {
+    "id": "web-arquitetura-genetica-do-florescimento-e-da-determinacao-sexu",
+    "title": "Arquitetura genética do florescimento e da determinação sexual em cânhamo: síntese de um estudo GWAS",
+    "category": "gwas",
+    "area": "genetics",
+    "content": "Este estudo investigou a base genética de dois caracteres centrais no melhoramento de Cannabis sativa tipo cânhamo: tempo de florescimento e determinação sexual. Os autores aplicaram uma abordagem de GWAS em um painel de 123 acessos avaliados em três ambientes contrastantes, utilizando aproximadamente 600 mil marcadores SNP. O objetivo foi identificar QTL associados a variações fenotípicas relevantes para produção de fibra, sementes e adaptação ambiental.\n\nOs resultados indicaram que o florescimento em cânhamo possui arquitetura genética complexa, com múltiplos QTL de efeito pequeno a moderado e forte influência do ambiente. Isso significa que a seleção para precocidade ou fotoperiodismo não deve depender de um único marcador, mas de modelos poligênicos e validação multiambiente. Em programas de breeding, isso afeta diretamente a escolha de parentais, a construção de populações F1 e F2 e o uso de retrocruzamentos (BX) para fixar alelos favoráveis.\n\nPara determinação sexual, o estudo reforça que o caráter também envolve componentes genéticos detectáveis por associação genômica, embora a expressão possa ser modulada por ambiente e manejo. Em Cannabis, isso é especialmente importante porque a proporção de plantas masculinas, femininas e monoicas altera rendimento de sementes, uniformidade de campo e estratégia de cultivo. Em materiais voltados à produção de inflorescências ricas em canabinoides, a estabilidade sexual é crítica, inclusive em linhas feminizadas obtidas por reversão com STS.\n\nEmbora o foco do artigo não seja quimiotipo, os achados têm implicações indiretas para seleção de genótipos com perfis de THCAS e CBDAS estáveis, já que sincronização floral e sexo influenciam produtividade e padronização. Em termos práticos, o trabalho mostra que marcadores moleculares podem acelerar seleção assistida, mas ainda exigem validação em diferentes latitudes, fotoperíodos e backgrounds genéticos antes de aplicação comercial ampla.",
+    "key_points": [
+      "GWAS realizado com 123 acessos de cânhamo em 3 ambientes contrastantes.",
+      "Foram usados cerca de 600 mil SNPs para mapear associações genéticas.",
+      "O tempo de florescimento apresentou arquitetura poligênica com múltiplos QTL.",
+      "Houve forte interação genótipo × ambiente para caracteres de florescimento.",
+      "A determinação sexual também mostrou base genética detectável por associação.",
+      "Os QTL identificados precisam de validação antes de uso rotineiro em seleção assistida.",
+      "Programas de breeding podem usar esses dados para desenhar populações F1, F2 e BX.",
+      "Seleção multiambiente é essencial para estabilidade de fotoperiodismo e sexo.",
+      "Estabilidade sexual é especialmente importante em cultivos de inflorescência.",
+      "Os resultados ajudam indiretamente na padronização agronômica de genótipos com THCAS e CBDAS."
+    ],
+    "warnings": [
+      "Associações de GWAS não provam causalidade sem validação funcional.",
+      "QTL detectados em um painel podem não se repetir em outros backgrounds genéticos.",
+      "Expressão de sexo e florescimento pode mudar conforme latitude, fotoperíodo e estresse ambiental."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7672029/",
+    "source": "journal_flowering-time-gwas-pmc"
+  },
+  {
+    "id": "web-rotulagem-sativa-e-indica-em-cannabis-esta-mais-ligada-a-gen",
+    "title": "Rotulagem “Sativa” e “Indica” em Cannabis está mais ligada a genes de terpeno sintase do que ao genoma inteiro",
+    "category": "taxonomia",
+    "area": "genetics",
+    "content": "Este artigo avaliou mais de 100 amostras de Cannabis com dados químicos de canabinoides e terpenos, além de genotipagem com mais de 100 mil SNPs. A principal conclusão foi que amostras rotuladas comercialmente como “Sativa” e “Indica” não formam grupos geneticamente distintos em escala genômica ampla. Em vez disso, a rotulagem se associou mais fortemente à variação em um pequeno conjunto de terpenos, controlados por variação genética em arranjos tandem de genes terpene synthase (TPS).\n\nNa prática, isso enfraquece o uso de “Sativa/Indica” como categorias taxonômicas ou genéticas robustas. Para geneticistas e breeders, o mais informativo é trabalhar com quimiotipo, haplótipos funcionais e perfis bioquímicos mensuráveis. Isso inclui não apenas os loci clássicos de canabinoides, como THCAS e CBDAS, mas também famílias gênicas ligadas à biossíntese de monoterpenos e sesquiterpenos. Esses genes podem explicar diferenças sensoriais e parte da padronização comercial observada entre cultivares.\n\nO estudo sugere que a identidade comercial de muitas cultivares reflete seleção histórica por aroma e perfil terpênico, e não linhagens genômicas amplamente separadas. Em breeding, isso reforça a necessidade de fenotipagem química detalhada e de cruzamentos dirigidos para preservar combinações desejáveis em F1, segregar em F2 e recuperar perfis em BX. Também aponta para a utilidade de mapear QTL e variantes estruturais em clusters TPS, já que regiões tandem frequentemente escapam de interpretações simplistas baseadas apenas em SNPs dispersos.\n\nEm resumo, o trabalho propõe uma mudança de paradigma: em Cannabis, rótulos comerciais tradicionais têm valor limitado como descrição genética. A classificação mais útil para pesquisa, melhoramento e consistência de produto deve integrar genômica, quimiotipo e perfis terpênicos quantitativos.",
+    "key_points": [
+      "Mais de 100 amostras foram analisadas com química e genotipagem de alta densidade.",
+      "Rótulos “Sativa” e “Indica” não separaram grupos genômicos distintos de forma ampla.",
+      "A rotulagem se associou mais a poucos terpenos específicos do que ao genoma inteiro.",
+      "Genes terpene synthase em arranjos tandem tiveram papel central nas diferenças observadas.",
+      "Perfis terpênicos são mais informativos que rótulos comerciais tradicionais.",
+      "Taxonomia comercial não equivale a estrutura genética real.",
+      "Breeding deve priorizar quimiotipo, aroma e marcadores funcionais.",
+      "THCAS e CBDAS continuam relevantes, mas não explicam sozinhos a identidade comercial.",
+      "QTL e variantes em clusters TPS podem orientar seleção de aroma.",
+      "Estratégias com F1, F2 e BX ajudam a estabilizar perfis terpênicos desejados."
+    ],
+    "warnings": [
+      "Rótulos comerciais podem ser inconsistentes entre produtores e lotes.",
+      "SNPs isolados podem subestimar variação estrutural em clusters de genes TPS.",
+      "Classificações populares não devem ser usadas como substituto de análise genética ou química."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8516649/",
+    "source": "journal_gwas-terpene-labelling-pmc"
+  },
+  {
+    "id": "web-hlvd-em-cannabis-ameaca-silenciosa-perdas-produtivas-e-impli",
+    "title": "HLVd em Cannabis: ameaça silenciosa, perdas produtivas e implicações para manejo sanitário",
+    "category": "hlvd",
+    "area": "genetics",
+    "content": "Esta revisão resume o conhecimento disponível sobre Hop latent viroid (HLVd), atualmente um dos principais problemas fitossanitários da indústria de Cannabis. O HLVd é o agente associado à doença conhecida como “dudding” ou “duds”, relatada em cultivos de Cannabis a partir de 2019 e hoje disseminada em instalações de produção na América do Norte. O viroide pode permanecer assintomático por longos períodos, o que favorece sua propagação silenciosa por matrizes, ferramentas, manipulação e material de propagação clonal.\n\nOs impactos agronômicos incluem redução de vigor, entrenós encurtados, menor desenvolvimento floral, queda de rendimento e alterações no perfil químico. Em lúpulo, o HLVd já foi associado à redução de ácidos amargos e terpenos; em Cannabis, há preocupação semelhante com perdas em canabinoides e terpenos, comprometendo valor comercial e consistência do quimiotipo. Isso pode afetar materiais com diferentes combinações de THCAS e CBDAS, independentemente do pedigree.\n\nDo ponto de vista de manejo, o artigo destaca a importância de biossegurança rigorosa, testagem frequente e saneamento de matrizes. Em operações de tissue culture, a micropropagação pode ajudar na limpeza e manutenção de germoplasma, mas não substitui diagnóstico molecular. A indexação sanitária de plantas-mãe, quarentena de novos clones, desinfecção de instrumentos e rastreabilidade por lote são medidas centrais. Como o HLVd pode se espalhar vegetativamente, programas de breeding e preservação de elite clones precisam incorporar triagem sanitária desde parentais até gerações derivadas.\n\nPara o setor, a principal mensagem é que HLVd não é apenas um problema de patologia, mas de genética aplicada, produção e qualidade. Sem monitoramento contínuo, uma linhagem elite pode perder desempenho, mascarando avaliações de breeding, seleção de F1/F2 e estabilidade de características desejadas. O controle depende de prevenção, diagnóstico precoce e descarte criterioso de material infectado.",
+    "key_points": [
+      "HLVd é um viroide associado à doença “dudding” em Cannabis.",
+      "A infecção pode ser assintomática, facilitando disseminação silenciosa.",
+      "Há perdas de vigor, rendimento e qualidade química das flores.",
+      "Perfis de canabinoides e terpenos podem ser afetados negativamente.",
+      "Clonagem e manejo de matrizes são vias críticas de disseminação.",
+      "Testagem molecular regular é essencial em plantas-mãe e lotes clonais.",
+      "Biossegurança inclui desinfecção de ferramentas e quarentena de novos materiais.",
+      "Tissue culture pode auxiliar saneamento, mas exige confirmação diagnóstica.",
+      "Programas de breeding devem incorporar triagem sanitária desde os parentais.",
+      "A presença de HLVd pode confundir avaliação de desempenho genético real."
+    ],
+    "warnings": [
+      "Plantas assintomáticas ainda podem estar infectadas e transmitir HLVd.",
+      "Reutilizar ferramentas sem desinfecção aumenta o risco de contaminação cruzada.",
+      "Manter clones infectados em salas de matrizes compromete toda a operação.",
+      "Tissue culture sem testagem pós-processo não garante eliminação completa do viroide."
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10053334/",
+    "source": "journal_hlvd-hidden-threat-pmc"
+  }
+]

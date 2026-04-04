@@ -1,4 +1,4 @@
-  [
+[
   {
     "id": "cbd",
     "name": "CBD (Canabidiol)",
@@ -17,34 +17,54 @@
         "condition": "Epilepsia",
         "evidence_level": "forte",
         "details": "Epidiolex (CBD puro) aprovado pelo FDA para síndrome de Dravet e Lennox-Gastaut. Redução de 39-41% na frequência de crises em ensaios clínicos fase III.",
-        "references": ["PMID: 28041236", "PMID: 29395273"]
+        "references": [
+          "PMID: 28041236",
+          "PMID: 29395273"
+        ]
       },
       {
         "condition": "Ansiedade",
         "evidence_level": "moderada",
         "details": "Doses de 300-600mg demonstraram redução significativa de ansiedade em estudos com SPECT cerebral. Reduz ativação da amígdala e córtex cingulado.",
-        "references": ["PMID: 30328956", "PMID: 31866386"]
+        "references": [
+          "PMID: 30328956",
+          "PMID: 31866386"
+        ]
       },
       {
         "condition": "Dor crônica",
         "evidence_level": "moderada",
         "details": "Efeito anti-inflamatório via inibição de COX-2 e TNF-α. Eficaz em modelos de dor neuropática e inflamatória.",
-        "references": ["PMID: 28885454", "PMID: 30624194"]
+        "references": [
+          "PMID: 28885454",
+          "PMID: 30624194"
+        ]
       },
       {
         "condition": "Insônia",
         "evidence_level": "moderada",
         "details": "Doses altas (160mg+) demonstram efeito sedativo. Doses baixas podem ser alertantes. Melhora qualidade do sono em pacientes com TEPT.",
-        "references": ["PMID: 30624194", "PMID: 31120284"]
+        "references": [
+          "PMID: 30624194",
+          "PMID: 31120284"
+        ]
       },
       {
         "condition": "Inflamação",
         "evidence_level": "forte",
         "details": "Potente anti-inflamatório via múltiplos mecanismos: inibição de citocinas pró-inflamatórias, modulação de NF-κB, redução de estresse oxidativo.",
-        "references": ["PMID: 30993303"]
+        "references": [
+          "PMID: 30993303"
+        ]
       }
     ],
-    "side_effects": ["Sonolência", "Diarreia", "Alteração de apetite", "Fadiga", "Interação com medicamentos metabolizados pelo CYP450"],
+    "side_effects": [
+      "Sonolência",
+      "Diarreia",
+      "Alteração de apetite",
+      "Fadiga",
+      "Interação com medicamentos metabolizados pelo CYP450"
+    ],
     "drug_interactions": [
       "Clobazam (aumenta níveis séricos em até 5x)",
       "Varfarina (pode aumentar INR)",
@@ -69,34 +89,53 @@
         "condition": "Dor crônica",
         "evidence_level": "forte",
         "details": "Analgesia via ativação CB1 no corno dorsal da medula e tálamo. Especialmente eficaz em dor neuropática e central. Nabiximols (Sativex) aprovado em vários países.",
-        "references": ["PMID: 29513392", "PMID: 27573447"]
+        "references": [
+          "PMID: 29513392",
+          "PMID: 27573447"
+        ]
       },
       {
         "condition": "Náusea e vômito (quimioterapia)",
         "evidence_level": "forte",
         "details": "Dronabinol e nabilona aprovados pelo FDA como antieméticos. Eficácia superior a ondansetrona em alguns estudos.",
-        "references": ["PMID: 25801283"]
+        "references": [
+          "PMID: 25801283"
+        ]
       },
       {
         "condition": "Espasticidade (Esclerose Múltipla)",
         "evidence_level": "forte",
         "details": "Nabiximols (THC:CBD 1:1) aprovado para espasticidade em EM. Redução significativa de espasmos e dor associada.",
-        "references": ["PMID: 29513392"]
+        "references": [
+          "PMID: 29513392"
+        ]
       },
       {
         "condition": "Apetite (HIV/AIDS, câncer)",
         "evidence_level": "forte",
         "details": "Dronabinol aprovado pelo FDA para anorexia associada a AIDS. Estimula apetite via receptores CB1 hipotalâmicos.",
-        "references": ["PMID: 25801283"]
+        "references": [
+          "PMID: 25801283"
+        ]
       },
       {
         "condition": "Insônia",
         "evidence_level": "moderada",
         "details": "Doses baixas (2.5-5mg) reduzem latência do sono. Pode reduzir sono REM. Tolerância pode se desenvolver.",
-        "references": ["PMID: 31120284"]
+        "references": [
+          "PMID: 31120284"
+        ]
       }
     ],
-    "side_effects": ["Euforia/disforia", "Taquicardia", "Boca seca", "Olhos vermelhos", "Comprometimento cognitivo agudo", "Ansiedade (doses altas)", "Tolerância"],
+    "side_effects": [
+      "Euforia/disforia",
+      "Taquicardia",
+      "Boca seca",
+      "Olhos vermelhos",
+      "Comprometimento cognitivo agudo",
+      "Ansiedade (doses altas)",
+      "Tolerância"
+    ],
     "drug_interactions": [
       "Depressores do SNC (potencialização)",
       "Anticoagulantes (alteração de metabolismo)",
@@ -120,7 +159,9 @@
         "condition": "Insônia",
         "evidence_level": "preliminar",
         "details": "Relatos anedóticos e estudos preliminares sugerem efeito sedativo, possivelmente sinérgico com THC. Estudo de 1975 com 5 voluntários mostrou potencialização da sonolência do THC.",
-        "references": ["PMID: 1221432"]
+        "references": [
+          "PMID: 1221432"
+        ]
       },
       {
         "condition": "Dor",
@@ -132,11 +173,18 @@
         "condition": "Antibacteriano",
         "evidence_level": "preliminar",
         "details": "Atividade demonstrada contra MRSA (Staphylococcus aureus resistente à meticilina) in vitro.",
-        "references": ["PMID: 18681481"]
+        "references": [
+          "PMID: 18681481"
+        ]
       }
     ],
-    "side_effects": ["Sonolência", "Tontura leve"],
-    "drug_interactions": ["Potencialização de sedativos"],
+    "side_effects": [
+      "Sonolência",
+      "Tontura leve"
+    ],
+    "drug_interactions": [
+      "Potencialização de sedativos"
+    ],
     "legal_status_brazil": "Mesmo enquadramento regulatório do CBD quando em produtos autorizados pela ANVISA."
   },
   {
@@ -156,23 +204,33 @@
         "condition": "Inflamação intestinal",
         "evidence_level": "pré-clínica",
         "details": "Reduziu inflamação em modelo murino de doença inflamatória intestinal. Potencial para Crohn e colite ulcerativa.",
-        "references": ["PMID: 23415610"]
+        "references": [
+          "PMID: 23415610"
+        ]
       },
       {
         "condition": "Glaucoma",
         "evidence_level": "pré-clínica",
         "details": "Redução da pressão intraocular em estudos animais.",
-        "references": ["PMID: 2095627"]
+        "references": [
+          "PMID: 2095627"
+        ]
       },
       {
         "condition": "Neuroproteção",
         "evidence_level": "pré-clínica",
         "details": "Propriedades neuroprotetoras demonstradas em modelo de Huntington. Antioxidante e anti-inflamatório no SNC.",
-        "references": ["PMID: 25252936"]
+        "references": [
+          "PMID: 25252936"
+        ]
       }
     ],
-    "side_effects": ["Dados limitados. Considerado bem tolerado em estudos iniciais."],
-    "drug_interactions": ["Dados insuficientes. Possível interação com CYP450."],
+    "side_effects": [
+      "Dados limitados. Considerado bem tolerado em estudos iniciais."
+    ],
+    "drug_interactions": [
+      "Dados insuficientes. Possível interação com CYP450."
+    ],
     "legal_status_brazil": "Mesmo enquadramento do CBD em produtos autorizados pela ANVISA."
   },
   {
@@ -192,17 +250,981 @@
         "condition": "Diabetes tipo 2",
         "evidence_level": "moderada",
         "details": "Estudo fase II (GWP42004) demonstrou melhora na sensibilidade à insulina e redução de glicemia de jejum em pacientes com DM2.",
-        "references": ["PMID: 27573936"]
+        "references": [
+          "PMID: 27573936"
+        ]
       },
       {
         "condition": "Obesidade",
         "evidence_level": "pré-clínica",
         "details": "Redução de apetite e peso corporal em modelos animais via antagonismo CB1. Efeito oposto ao THC no apetite.",
-        "references": ["PMID: 19634990"]
+        "references": [
+          "PMID: 19634990"
+        ]
       }
     ],
-    "side_effects": ["Dados limitados. Possivelmente similar ao THC em doses altas."],
-    "drug_interactions": ["Dados insuficientes."],
+    "side_effects": [
+      "Dados limitados. Possivelmente similar ao THC em doses altas."
+    ],
+    "drug_interactions": [
+      "Dados insuficientes."
+    ],
     "legal_status_brazil": "Enquadrado como THC quando psicoativo. Regulação específica depende do produto."
+  },
+  {
+    "id": "cannabinol",
+    "name": "Cannabinol (CBN)",
+    "type": "cannabinoid",
+    "cid": 2543,
+    "molecular_formula": "C21H26O2",
+    "molecular_weight": "310.4",
+    "description": "O Cannabinol, conhecido como CBN, e um canabinoide menor encontrado na planta Cannabis. Diferente de outros canabinoides, o CBN nao e sintetizado diretamente pela planta, mas sim um produto da degradacao oxidativa do tetrahidrocanabinol (THC). Isso significa que o CBN e mais abundante em plantas de cannabis envelhecidas ou produtos de cannabis que foram expostos ao ar e a luz. Sua formula molecular e C21H26O2 e seu peso molecular e 310.4 g/mol. Embora seja um canabinoide, o CBN e considerado levemente psicoativo, com efeitos muito menos potentes que o THC. A pesquisa sobre o CBN ainda esta em estagio inicial, mas estudos pre-clinicos sugerem que ele pode ter propriedades sedativas, anti-inflamatorias e neuroprotetoras. O CBN interage com o sistema endocanabinoide, embora seus mecanismos exatos de acao ainda estejam sendo elucidados. Acredita-se que ele tenha afinidade pelos receptores CB1 e CB2, mas com uma potencia menor que o THC. Devido a sua natureza de produto de degradacao, o CBN e frequentemente encontrado em produtos de cannabis mais antigos ou mal armazenados, e seu perfil farmacologico o torna um alvo de interesse para o desenvolvimento de novos terapeuticos.",
+    "mechanisms": [
+      "Interacao com receptores CB1 (afinidade menor que THC)",
+      "Interacao com receptores CB2 (afinidade menor que THC)"
+    ],
+    "therapeutic_potential": "O CBN demonstra potencial terapeutico como sedativo, anti-inflamatorio e neuroprotetor, embora a pesquisa ainda seja limitada a estudos pre-clinicos. Pode ser util para disturbios do sono e condicoes inflamatorias.",
+    "key_points": [
+      "Produto da degradacao oxidativa do THC, mais abundante em cannabis envelhecida.",
+      "Formula molecular C21H26O2, peso molecular 310.4 g/mol.",
+      "Considerado levemente psicoativo, com efeitos muito menos potentes que o THC.",
+      "Estudos pre-clinicos sugerem propriedades sedativas, anti-inflamatorias e neuroprotetoras.",
+      "Interage com receptores CB1 e CB2, mas com menor potencia que o THC.",
+      "XLogP de 6.1 indica alta lipofilicidade."
+    ],
+    "subtype": "major"
+  },
+  {
+    "id": "cannabichromene",
+    "name": "Canabicromeno (CBC)",
+    "type": "cannabinoid",
+    "cid": 30219,
+    "molecular_formula": "C21H30O2",
+    "molecular_weight": "314.5",
+    "description": "O Canabicromeno, ou CBC, e um canabinoide major encontrado na planta Cannabis. Sua formula molecular e C21H30O2 e seu peso molecular e 314.5 g/mol. O CBC e um dos seis principais canabinoides e e derivado do acido canabigerolico (CBGA), assim como o THC e o CBD. Embora seja um canabinoide abundante, o CBC nao e psicoativo, o que significa que nao produz os efeitos euforicos associados ao THC. A pesquisa sobre o CBC tem revelado um perfil farmacologico promissor, com estudos sugerindo que ele possui propriedades anti-inflamatorias, analgesicas, antidepressivas e neuroprotetoras. Ele interage com o sistema endocanabinoide de maneiras distintas, nao se ligando fortemente aos receptores CB1 e CB2, mas sim influenciando outros receptores, como o TRPV1 e o TRPA1, que estao envolvidos na percepcao da dor e inflamacao. Alem disso, o CBC pode inibir a recaptação de anandamida, um endocanabinoide, aumentando sua disponibilidade e prolongando seus efeitos. O CBC tambem tem sido investigado por seu potencial para promover a neurogenese, o que o torna um alvo interessante para o tratamento de doencas neurodegenerativas. A falta de psicoatividade do CBC o torna um candidato atraente para aplicacoes terapeuticas sem os efeitos colaterais indesejados do THC. A pesquisa continua a explorar o espectro completo de seus beneficios e mecanismos de acao.",
+    "mechanisms": [
+      "Interacao com receptores TRPV1",
+      "Interacao com receptores TRPA1",
+      "Inibicao da recaptação de anandamida"
+    ],
+    "therapeutic_potential": "O CBC possui um vasto potencial terapeutico como anti-inflamatorio, analgesico, antidepressivo e neuroprotetor, sem os efeitos psicoativos. E promissor para o tratamento da dor, inflamacao, depressao e condicoes neurodegenerativas.",
+    "key_points": [
+      "Canabinoide major nao psicoativo.",
+      "Formula molecular C21H30O2, peso molecular 314.5 g/mol.",
+      "Derivado do acido canabigerolico (CBGA).",
+      "Estudos sugerem propriedades anti-inflamatorias, analgesicas, antidepressivas e neuroprotetoras.",
+      "Nao se liga fortemente a CB1 e CB2, mas interage com TRPV1 e TRPA1.",
+      "Pode inibir a recaptação de anandamida.",
+      "XLogP de 6.9 indica alta lipofilicidade."
+    ],
+    "subtype": "major"
+  },
+  {
+    "id": "tetrahydrocannabivarin",
+    "name": "Tetrahidrocanabivarina (THCV)",
+    "type": "cannabinoid",
+    "cid": 93147,
+    "molecular_formula": "C19H26O2",
+    "molecular_weight": "286.4",
+    "description": "A Tetrahidrocanabivarina, ou THCV, e um canabinoide menor encontrado na planta Cannabis, com a formula molecular C19H26O2 e peso molecular de 286.4 g/mol. Embora estruturalmente similar ao THC, o THCV exibe um perfil farmacologico distinto. Enquanto o THC atua como um agonista parcial fraco dos receptores canabinoides CB1 e CB2, o THCV atua como um antagonista do receptor CB1 e um agonista parcial do receptor CB2. Essa diferenca fundamental na interacao com o sistema endocanabinoide confere ao THCV efeitos unicos. Alem disso, evidencias mostram que o THCV atua como um agonista do GPR55 e do l-α-lisofosfatidilinositol (LPI). Fora do sistema endocanabinoide, o THCV tambem ativa os receptores 5HT1A, o que pode produzir um efeito antipsicotico com potencial terapeutico para aliviar sintomas negativos, cognitivos e positivos da esquizofrenia. Adicionalmente, o THCV interage com diferentes canais de potencial receptor transiente (TRP), incluindo o TRPV1, o que pode contribuir para os efeitos analgesicos, anti-inflamatorios e anticancerigenos dos canabinoides e extratos de Cannabis. A pesquisa sugere que o THCV pode ter aplicacoes no controle do apetite, regulacao da glicemia e tratamento de doencas neurodegenerativas, tornando-o um canabinoide de grande interesse para o desenvolvimento de novas terapias.",
+    "mechanisms": [
+      "Antagonismo do receptor CB1",
+      "Agonismo parcial do receptor CB2",
+      "Agonismo do GPR55",
+      "Agonismo do l-α-lisofosfatidilinositol (LPI)",
+      "Ativacao de receptores 5HT1A",
+      "Interacao com canais TRPV1"
+    ],
+    "therapeutic_potential": "O THCV apresenta um potencial terapeutico significativo para o tratamento da esquizofrenia, controle do apetite (supressao), regulacao da glicemia em diabetes, e como agente analgesico, anti-inflamatorio e anticancerigeno, devido a sua complexa interacao com multiplos sistemas de receptores.",
+    "key_points": [
+      "Canabinoide menor com formula molecular C19H26O2 e peso molecular 286.4 g/mol.",
+      "Atua como antagonista do receptor CB1 e agonista parcial do receptor CB2.",
+      "Agonista do GPR55 e l-α-lisofosfatidilinositol (LPI).",
+      "Ativa receptores 5HT1A, com potencial antipsicotico para esquizofrenia.",
+      "Interage com canais TRPV1, contribuindo para efeitos analgesicos, anti-inflamatorios e anticancerigenos.",
+      "Pode suprimir o apetite e regular a glicemia.",
+      "XLogP de 5.9 indica alta lipofilicidade."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabidivarin",
+    "name": "Cannabidivarin (CBDV)",
+    "type": "cannabinoid",
+    "cid": 11601669,
+    "molecular_formula": "C19H26O2",
+    "molecular_weight": "286.4",
+    "description": "O Cannabidivarin, mais conhecido como CBDV, e um canabinoide minoritario encontrado na planta Cannabis. Estruturalmente similar ao canabidiol (CBD), o CBDV difere pela presenca de uma cadeia lateral propil em vez de pentil. E encontrado em maiores concentracoes em variedades de cannabis \"landrace\" e indicas. A pesquisa sobre o CBDV tem focado principalmente em suas propriedades anticonvulsivantes. Acredita-se que o CBDV module sua atividade antiepileptica atraves de seus efeitos nos canais de potencial receptor transiente (TRPV1, TRPV2 e TRPA1). O CBDV tem demonstrado ativar e, subsequentemente, dessensibilizar esses canais de forma dose-dependente. A dessensibilizacao desses canais ionicos e um mecanismo potencial para reduzir a hiperexcitabilidade neuronal que contribui para a atividade epileptiforme e convulsoes. Alem disso, o CBDV demonstrou inibir a atividade da diacilglicerol (DAG) lipase-alfa, a principal enzima sintetica do endocanabinoide 2-araquidonilglicerol (2-AG). No entanto, as implicacoes clinicas dessa interacao para a atividade anticonvulsivante do CBDV ainda nao estao claras. A pesquisa sobre o CBDV esta em estagio inicial, mas os resultados preliminares sao promissores para o tratamento de certas condicoes neurologicas.",
+    "mechanisms": [
+      "Ativacao e dessensibilizacao dos canais TRPV1, TRPV2 e TRPA1.",
+      "Inibicao da diacilglicerol (DAG) lipase-alfa."
+    ],
+    "therapeutic_potential": "O CBDV demonstra um potencial terapeutico significativo como anticonvulsivante, especialmente para o tratamento de epilepsias refratarias. Sua capacidade de modular os canais TRPV sugere um mecanismo de acao promissor para reduzir a hiperexcitabilidade neuronal. Pesquisas futuras sao necessarias para elucidar completamente seu perfil terapeutico e seguranca.",
+    "key_points": [
+      "Canabinoide minoritario, similar ao CBD.",
+      "Encontrado em maiores concentracoes em variedades \"landrace\" e indicas.",
+      "Ativa e dessensibiliza canais TRPV1, TRPV2 e TRPA1 de forma dose-dependente.",
+      "Inibe a enzima diacilglicerol lipase-alfa.",
+      "Potencial anticonvulsivante em estudo.",
+      "Formula molecular: C19H26O2, Peso molecular: 286.4 g/mol.",
+      "XLogP: 5.4.",
+      "CID PubChem: 11601669."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabigerolic-acid",
+    "name": "Acido Canabigerolico (CBGA)",
+    "type": "cannabinoid",
+    "cid": 6449999,
+    "molecular_formula": "C22H32O4",
+    "molecular_weight": "360.5",
+    "description": "O Acido Canabigerolico, conhecido como CBGA, e um canabinoide acido e e considerado o \"canabinoide mae\" ou \"pai\" de todos os outros canabinoides. Isso ocorre porque o CBGA e o precursor biosintetico a partir do qual outros canabinoides, como THCA (acido tetrahidrocanabinolico), CBDA (acido canabidiolico) e CBCA (acido canabicromenico), sao sintetizados na planta de cannabis atraves de processos enzimaticos. O CBGA e abundante em plantas de cannabis jovens e frescas. Apos a colheita e a exposicao ao calor ou luz (descarboxilacao), o CBGA se converte em CBG (canabigerol). Embora o CBGA nao seja psicoativo, a pesquisa preliminar sugere que ele pode possuir uma variedade de propriedades terapeuticas, incluindo efeitos anti-inflamatorios, antibacterianos e antitumorais. No entanto, a maioria dos estudos sobre o CBGA ainda esta em estagio inicial, e mais pesquisas sao necessarias para confirmar esses efeitos e entender completamente seus mecanismos de acao e potencial clinico. Atualmente, nao ha dados farmacologicos ou toxicologicos detalhados disponiveis no PubChem para o CBGA.",
+    "mechanisms": [],
+    "therapeutic_potential": "O CBGA apresenta um potencial terapeutico promissor como agente anti-inflamatorio, antibacteriano e antitumoral, embora a pesquisa ainda esteja em fases iniciais. Sua importancia como precursor de outros canabinoides o torna fundamental para a compreensao da biosintese e dos efeitos da cannabis. Mais estudos sao necessarios para validar esses beneficios e explorar seu uso clinico.",
+    "key_points": [
+      "Canabinoide acido, precursor de outros canabinoides (THCA, CBDA, CBCA).",
+      "Conhecido como o \"canabinoide mae\" ou \"pai\".",
+      "Abundante em plantas jovens de cannabis.",
+      "Descarboxila em CBG com calor/luz.",
+      "Nao psicoativo.",
+      "Potencial anti-inflamatorio, antibacteriano e antitumoral em pesquisa preliminar.",
+      "Formula molecular: C22H32O4, Peso molecular: 360.5 g/mol.",
+      "XLogP: 7.5.",
+      "CID PubChem: 6449999."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabidiolic-acid",
+    "name": "Acido Canabidiolico (CBDA)",
+    "type": "cannabinoid",
+    "cid": 160570,
+    "molecular_formula": "C22H30O4",
+    "molecular_weight": "358.5",
+    "description": "O Acido Canabidiolico, comumente abreviado como CBDA, e um canabinoide acido encontrado em abundancia na planta de cannabis crua e nao aquecida. Ele e o precursor acido do canabidiol (CBD), um dos canabinoides mais estudados e conhecidos por seus multiplos beneficios terapeuticos. O CBDA se converte em CBD atraves de um processo de descarboxilacao, que ocorre quando a planta e exposta ao calor ou a luz. Ao contrario do THC e de seu precursor THCA, o CBDA nao e psicoativo. A pesquisa sobre o CBDA tem ganhado atencao devido a suas propriedades potenciais, que podem diferir das do CBD. Estudos preliminares sugerem que o CBDA pode atuar como um inibidor da ciclooxigenase-2 (COX-2), o que lhe confere propriedades anti-inflamatorias semelhantes as de alguns medicamentos nao esteroides. Alem disso, ha indicacoes de que o CBDA pode ter efeitos antiemeticos e ansioliticos, atuando em receptores de serotonina. No entanto, a maioria dessas descobertas vem de estudos in vitro ou em animais, e mais pesquisas clinicas sao necessarias para confirmar esses efeitos em humanos e determinar a dosagem e seguranca ideais. Atualmente, nao ha dados farmacologicos ou toxicologicos detalhados disponiveis no PubChem para o CBDA.",
+    "mechanisms": [
+      "Inibicao da ciclooxigenase-2 (COX-2).",
+      "Interacao com receptores de serotonina."
+    ],
+    "therapeutic_potential": "O CBDA demonstra um potencial terapeutico como agente anti-inflamatorio, antiemetico e ansiolitico. Sua capacidade de inibir a COX-2 e modular os receptores de serotonina o torna um composto de interesse para diversas condicoes. A pesquisa esta em andamento para validar esses beneficios e explorar seu uso clinico, especialmente em sua forma acida.",
+    "key_points": [
+      "Canabinoide acido, precursor do CBD.",
+      "Encontrado em cannabis crua e nao aquecida.",
+      "Converte-se em CBD por descarboxilacao (calor/luz).",
+      "Nao psicoativo.",
+      "Potencial inibidor da COX-2, com efeitos anti-inflamatorios.",
+      "Pode ter efeitos antiemeticos e ansioliticos via receptores de serotonina.",
+      "Formula molecular: C22H30O4, Peso molecular: 358.5 g/mol.",
+      "XLogP: 6.6.",
+      "CID PubChem: 160570."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "delta-9-tetrahydrocannabinolic-acid",
+    "name": "Ácido Delta-9-tetrahidrocanabinólico (THCA)",
+    "type": "cannabinoid",
+    "cid": 98523,
+    "molecular_formula": "C22H30O4",
+    "molecular_weight": "358.5",
+    "description": "O Ácido Delta-9-tetrahidrocanabinólico, mais conhecido como THCA, é um canabinoide ácido e o precursor não psicoativo do THC. Ele é encontrado abundantemente na planta de cannabis crua e fresca. O THCA não produz os efeitos eufóricos associados ao THC porque sua estrutura molecular é muito grande para se ligar eficientemente aos receptores canabinoides CB1 no cérebro. A descarboxilação, um processo que ocorre com o calor (como fumar, vaporizar ou cozinhar), remove um grupo carboxila do THCA, convertendo-o em THC. Pesquisas preliminares sugerem que o THCA possui propriedades anti-inflamatórias, neuroprotetoras e antieméticas. Embora a maioria dos estudos ainda esteja em fase pré-clínica, o THCA tem despertado interesse por seu potencial terapêutico sem os efeitos psicoativos. Sua presença na planta crua é crucial para a biossíntese de outros canabinoides.",
+    "mechanisms": [
+      "Inibição da ciclooxigenase (COX-1 e COX-2)",
+      "Modulação de receptores PPAR-gama",
+      "Ação neuroprotetora (mecanismos específicos em investigação)"
+    ],
+    "therapeutic_potential": "O THCA demonstra potencial terapêutico significativo como anti-inflamatório, neuroprotetor e antiemético, sem os efeitos psicoativos do THC. É promissor para condições como inflamação crônica, doenças neurodegenerativas e náuseas, embora mais pesquisas clínicas sejam necessárias.",
+    "key_points": [
+      "Precursor não psicoativo do THC, encontrado na cannabis crua.",
+      "Convertido em THC por descarboxilação (calor).",
+      "Peso molecular: 358.5 g/mol.",
+      "XLogP: 7, indicando alta lipofilicidade.",
+      "Potencial anti-inflamatório, neuroprotetor e antiemético.",
+      "CID PubChem: 98523."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabicyclol",
+    "name": "Canabiciclol (CBL)",
+    "type": "cannabinoid",
+    "cid": 59444380,
+    "molecular_formula": "C21H30O2",
+    "molecular_weight": "314.5",
+    "description": "O Canabiciclol (CBL) é um canabinoide menor encontrado na planta de cannabis, geralmente presente em concentrações muito baixas. Ele é considerado um produto de degradação do canabicromeno (CBC), formado através de um rearranjo molecular. Devido à sua baixa abundância e à falta de estudos aprofundados, o CBL é um dos canabinoides menos compreendidos em termos de seus efeitos farmacológicos e potencial terapêutico. Até o momento, não há informações substanciais sobre seus mecanismos de ação específicos ou interações com o sistema endocanabinoide. A pesquisa sobre o CBL é limitada, e a maioria dos dados disponíveis é sobre sua identificação e estrutura química. A ausência de dados farmacológicos e toxicológicos detalhados no PubChem ressalta a necessidade de mais investigações para desvendar as propriedades deste canabinoide. Sua presença na planta sugere um papel, ainda que secundário, no \"efeito entourage\" da cannabis.",
+    "mechanisms": [
+      "Mecanismos de ação ainda não bem estabelecidos devido à falta de pesquisa."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do CBL é atualmente desconhecido devido à escassez de pesquisas. São necessários estudos aprofundados para determinar quaisquer efeitos farmacológicos ou aplicações clínicas.",
+    "key_points": [
+      "Canabinoide menor, encontrado em baixas concentrações na cannabis.",
+      "Produto de degradação do canabicromeno (CBC).",
+      "Peso molecular: 314.5 g/mol.",
+      "XLogP: 6, indicando lipofilicidade.",
+      "Poucas informações sobre farmacologia e toxicidade disponíveis.",
+      "CID PubChem: 59444380."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabielsoin",
+    "name": "Canabielsoína (CBE)",
+    "type": "cannabinoid",
+    "cid": 162113,
+    "molecular_formula": "C21H30O3",
+    "molecular_weight": "330.5",
+    "description": "A Canabielsoína (CBE) é um canabinoide menor, um derivado do dibenzofurano, que tem sido identificado na planta de cannabis. Sua estrutura química é distinta de muitos outros canabinoides mais comuns. A informação sobre o metabolismo do dibenzofurano em mamíferos é limitada na literatura disponível, embora bactérias como Sphingomonas, Brevibacterium, Terrabacter e Staphylococcus auricularis sejam conhecidas por degradar o dibenzofurano. Em termos de toxicidade, os dibenzofuranos são conhecidos por se ligarem ao receptor aril-hidrocarboneto (AhR), o que pode aumentar sua capacidade de ativar a transcrição na região promotora XRE, alterando a expressão de vários genes. Este mecanismo sugere um potencial para efeitos biológicos significativos, embora os efeitos específicos da CBE no corpo humano e seu potencial terapêutico ainda não estejam bem elucidados. A pesquisa sobre a CBE é incipiente, e mais estudos são necessários para compreender completamente suas propriedades farmacológicas e toxicidade intrínseca. Sua presença na cannabis indica que pode contribuir para o perfil fitoquímico complexo da planta.",
+    "mechanisms": [
+      "Ligação ao receptor aril-hidrocarboneto (AhR) (baseado em dados de dibenzofuranos)",
+      "Modulação da expressão gênica (baseado em dados de dibenzofuranos)"
+    ],
+    "therapeutic_potential": "O potencial terapêutico da CBE é atualmente desconhecido. A ligação de dibenzofuranos ao receptor AhR sugere um potencial para efeitos biológicos, mas são necessárias pesquisas específicas sobre a CBE para determinar suas aplicações clínicas e segurança.",
+    "key_points": [
+      "Canabinoide menor com estrutura de dibenzofurano.",
+      "Peso molecular: 330.5 g/mol.",
+      "XLogP: 5.4.",
+      "Dibenzofuranos se ligam ao receptor aril-hidrocarboneto (AhR), alterando a expressão gênica.",
+      "Metabolismo em mamíferos pouco estudado; degradação bacteriana conhecida.",
+      "CID PubChem: 162113."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabitriol",
+    "name": "Cannabitriol (CBT)",
+    "type": "cannabinoid",
+    "cid": 11551959,
+    "molecular_formula": "C21H30O4",
+    "molecular_weight": "346.5",
+    "description": "O Canabitriol (CBT) é um canabinoide minoritário encontrado na planta Cannabis sativa. Sua estrutura química é C21H30O4 e possui um peso molecular de 346.5. O CBT é um produto de oxidação do canabidiol (CBD) ou do tetrahidrocanabinol (THC), o que significa que ele se forma à medida que esses canabinoides se degradam. Embora seja menos estudado que o THC e o CBD, pesquisas preliminares sugerem que o CBT pode ter propriedades farmacológicas únicas. Atualmente, há uma falta de estudos aprofundados sobre seus mecanismos de ação específicos e seu potencial terapêutico em humanos. A maioria das informações disponíveis sobre o CBT é baseada em sua estrutura química e em estudos in vitro ou em modelos animais limitados. Não há dados de farmacologia ou toxicidade significativos disponíveis no PubChem para este composto, indicando a necessidade de mais pesquisas para elucidar completamente seus efeitos e segurança. Sua presença na cannabis, mesmo que em pequenas quantidades, levanta questões sobre seu papel no \"efeito entourage\", onde múltiplos compostos da planta interagem para modular os efeitos gerais.",
+    "mechanisms": [
+      "Mecanismos de ação ainda não bem elucidados."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do Canabitriol (CBT) é atualmente desconhecido devido à escassez de pesquisas. Estudos preliminares e sua relação com outros canabinoides sugerem que ele pode ter propriedades que valem a pena investigar, mas não há evidências clínicas robustas para apoiar qualquer uso terapêutico específico neste momento.",
+    "key_points": [
+      "Canabinoide minoritário encontrado na Cannabis sativa.",
+      "Produto de oxidação do CBD ou THC.",
+      "Fórmula molecular C21H30O4, peso molecular 346.5.",
+      "XLogP de 3.1, indicando moderada lipofilicidade.",
+      "Poucos estudos sobre seus mecanismos de ação e potencial terapêutico.",
+      "Não há dados de farmacologia ou toxicidade significativos disponíveis no PubChem (CID: 11551959)."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "delta-8-tetrahydrocannabinol",
+    "name": "Delta-8-tetrahidrocanabinol (Delta-8-THC)",
+    "type": "cannabinoid",
+    "cid": 638026,
+    "molecular_formula": "C21H30O2",
+    "molecular_weight": "314.5",
+    "description": "O Delta-8-tetrahidrocanabinol (Delta-8-THC) é um canabinoide minoritário e um isômero do Delta-9-THC, o principal composto psicoativo da cannabis. Embora compartilhe uma estrutura molecular semelhante ao Delta-9-THC (C21H30O2, peso molecular 314.5), a diferença na localização de uma ligação dupla na cadeia de carbono confere ao Delta-8-THC propriedades ligeiramente distintas. Ele é encontrado naturalmente na planta de cannabis em concentrações muito baixas, mas pode ser sintetizado a partir de outros canabinoides, como o CBD. O Delta-8-THC é conhecido por interagir com os receptores canabinoides CB1 e CB2 do sistema endocanabinoide, embora com uma afinidade de ligação menor ao CB1 em comparação com o Delta-9-THC. Isso resulta em efeitos psicoativos mais suaves e menos intensos, frequentemente descritos como mais claros e menos ansiogênicos. Estudos preliminares e relatos anedóticos sugerem que o Delta-8-THC pode ter propriedades antieméticas, analgésicas, ansiolíticas e neuroprotetoras. A pesquisa sobre o Delta-8-THC está em andamento, e seu status legal varia em diferentes jurisdições devido à sua natureza psicoativa e à sua produção a partir de cânhamo.",
+    "mechanisms": [
+      "Agonista parcial dos receptores canabinoides CB1 e CB2."
+    ],
+    "therapeutic_potential": "O Delta-8-THC demonstra potencial terapêutico em diversas áreas, incluindo o alívio de náuseas e vômitos (antiemético), redução da dor (analgésico), diminuição da ansiedade (ansiolítico) e proteção neuronal (neuroprotetor). Seus efeitos psicoativos mais brandos podem torná-lo uma alternativa interessante para pacientes que buscam os benefícios terapêuticos dos canabinoides sem a intensidade dos efeitos do Delta-9-THC. Mais pesquisas clínicas são necessárias para confirmar esses potenciais e estabelecer dosagens e regimes de tratamento seguros e eficazes.",
+    "key_points": [
+      "Canabinoide minoritário e isômero do Delta-9-THC.",
+      "Fórmula molecular C21H30O2, peso molecular 314.5.",
+      "XLogP de 5.7, indicando alta lipofilicidade.",
+      "Interage com receptores CB1 e CB2, com menor afinidade ao CB1 que o Delta-9-THC.",
+      "Efeitos psicoativos mais suaves e menos ansiogênicos que o Delta-9-THC.",
+      "Potencial antiemético, analgésico, ansiolítico e neuroprotetor.",
+      "Encontrado em baixas concentrações na cannabis, mas pode ser sintetizado a partir de CBD.",
+      "Status legal variável (CID: 638026)."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "tetrahydrocannabiphorol",
+    "name": "Tetrahidrocanabiforol (THCP)",
+    "type": "cannabinoid",
+    "cid": 6453074,
+    "molecular_formula": "C23H34O2",
+    "molecular_weight": "342.5",
+    "description": "O Tetrahidrocanabiforol (THCP) é um canabinoide recentemente descoberto, identificado em 2019, que se destaca por sua notável potência. Sua estrutura química (C23H34O2, peso molecular 342.5) é semelhante à do Delta-9-THC, mas possui uma cadeia lateral alquílica mais longa, com sete átomos de carbono em vez dos cinco do THC. Essa diferença estrutural é crucial, pois confere ao THCP uma afinidade de ligação significativamente maior (até 33 vezes mais) aos receptores canabinoides CB1 em comparação com o Delta-9-THC. Isso sugere que o THCP pode ser consideravelmente mais potente em termos de seus efeitos psicoativos e terapêuticos. Embora ainda haja poucas pesquisas sobre o THCP, sua alta afinidade pelo CB1 indica um potencial para efeitos mais intensos, mesmo em doses menores. A presença do THCP na planta de cannabis é em concentrações muito baixas, mas sua descoberta levanta novas questões sobre o \"efeito entourage\" e como canabinoides minoritários podem contribuir para os efeitos gerais da cannabis. Não há dados de farmacologia ou toxicidade significativos disponíveis no PubChem para este composto, ressaltando a necessidade urgente de mais estudos para compreender completamente seus efeitos, segurança e potencial terapêutico.",
+    "mechanisms": [
+      "Agonista potente dos receptores canabinoides CB1.",
+      "Interação com receptores CB2 ainda a ser totalmente elucidada."
+    ],
+    "therapeutic_potential": "O Tetrahidrocanabiforol (THCP) apresenta um potencial terapêutico promissor devido à sua alta potência e afinidade pelos receptores CB1, o que pode permitir efeitos terapêuticos em doses muito baixas. Embora a pesquisa seja incipiente, especula-se que o THCP possa ter aplicações em condições que respondem bem à ativação do receptor CB1, como dor crônica, inflamação e distúrbios neurológicos. No entanto, sua potência também levanta preocupações sobre possíveis efeitos adversos e a necessidade de cautela. Estudos aprofundados são cruciais para determinar seu perfil de segurança, dosagem eficaz e aplicações clínicas.",
+    "key_points": [
+      "Canabinoide minoritário descoberto em 2019.",
+      "Fórmula molecular C23H34O2, peso molecular 342.5.",
+      "XLogP de 8.1, indicando alta lipofilicidade.",
+      "Cadeia lateral alquílica de 7 carbonos, maior que a do THC.",
+      "Afinidade de ligação ao receptor CB1 até 33 vezes maior que o Delta-9-THC.",
+      "Potencialmente mais potente que o Delta-9-THC.",
+      "Encontrado em concentrações muito baixas na cannabis.",
+      "Não há dados de farmacologia ou toxicidade significativos disponíveis no PubChem (CID: 6453074)."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabidiphorol",
+    "name": "Canabidiforol (CBDP)",
+    "type": "cannabinoid",
+    "cid": 49873141,
+    "molecular_formula": "C23H34O2",
+    "molecular_weight": "342.5",
+    "description": "O Canabidiforol (CBDP) é um canabinoide minoritário, análogo ao canabidiol (CBD), que se distingue pela sua cadeia lateral de heptil, em vez da cadeia de pentil encontrada no CBD. Esta diferença estrutural, especificamente o alongamento da cadeia lateral, pode influenciar a afinidade de ligação aos receptores canabinoides e, consequentemente, seus efeitos farmacológicos. Embora o CBDP seja um canabinoide de ocorrência natural na planta Cannabis sativa, ele é encontrado em concentrações muito baixas, o que o classifica como um canabinoide minoritário. A pesquisa sobre o CBDP ainda está em estágios iniciais, e muitos de seus mecanismos de ação e potenciais terapêuticos ainda não foram completamente elucidados. No entanto, a estrutura análoga ao CBD sugere que ele pode compartilhar algumas propriedades, como potenciais efeitos anti-inflamatórios, ansiolíticos e neuroprotetores, embora com um perfil de potência e eficácia que pode ser distinto devido à sua cadeia lateral mais longa. A falta de dados farmacológicos e toxicológicos detalhados no PubChem ressalta a necessidade de mais estudos para compreender plenamente o papel do CBDP na farmacologia canabinoide.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do CBDP é largely desconhecido devido à falta de pesquisa. No entanto, sua semelhança estrutural com o CBD sugere possíveis propriedades anti-inflamatórias, ansiolíticas e neuroprotetoras, que precisam ser confirmadas por estudos in vitro e in vivo.",
+    "key_points": [
+      "Análogo do CBD com cadeia lateral de heptil (7 carbonos) em vez de pentil (5 carbonos).",
+      "Canabinoide minoritário encontrado em baixas concentrações na Cannabis sativa.",
+      "Fórmula molecular C23H34O2 e peso molecular de 342.5 g/mol.",
+      "XLogP de 7.6, indicando alta lipofilicidade.",
+      "Pesquisa em estágio inicial, com potencial terapêutico ainda a ser explorado.",
+      "CID PubChem: 49873141."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "hexahydrocannabinol",
+    "name": "Hexahidrocanabinol (HHC)",
+    "type": "cannabinoid",
+    "cid": 12282094,
+    "molecular_formula": "C7H13NO",
+    "molecular_weight": "127.18",
+    "description": "O Hexahidrocanabinol (HHC) é um canabinoide hidrogenado, o que significa que sua estrutura molecular foi modificada pela adição de átomos de hidrogênio. Essa hidrogenação confere ao HHC maior estabilidade em comparação com outros canabinoides, como o delta-9-THC, tornando-o mais resistente à degradação por calor e luz. Embora o HHC seja encontrado naturalmente na planta de cannabis em quantidades vestigiais, a maioria do HHC disponível comercialmente é sintetizada a partir de outros canabinoides, como o THC ou o CBD, através de processos de hidrogenação. Os efeitos farmacológicos do HHC são descritos como semelhantes aos do delta-9-THC, mas geralmente menos potentes. Relatos anedóticos sugerem que o HHC pode produzir efeitos psicoativos, incluindo euforia, relaxamento e alteração da percepção, mas a intensidade e a duração desses efeitos podem variar. A pesquisa sobre o HHC ainda é limitada, e os mecanismos de ação exatos, bem como o perfil completo de segurança e eficácia, ainda não foram totalmente estabelecidos. A falta de dados farmacológicos e toxicológicos detalhados no PubChem sublinha a necessidade de mais investigações para compreender o seu impacto no sistema endocanabinoide e no corpo humano.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do HHC é incerto devido à escassez de estudos. Seus efeitos psicoativos sugerem um possível uso recreativo, mas qualquer aplicação terapêutica exigiria extensa pesquisa para determinar segurança, dosagem e eficácia para condições específicas. A estabilidade aprimorada pode ser uma vantagem para formulações farmacêuticas futuras.",
+    "key_points": [
+      "Canabinoide hidrogenado, com maior estabilidade contra calor e luz.",
+      "Encontrado em quantidades vestigiais na cannabis, mas predominantemente sintetizado.",
+      "Fórmula molecular C7H13NO e peso molecular de 127.18 g/mol.",
+      "XLogP de 0.1, indicando baixa lipofilicidade (dado inconsistente com outros canabinoides, pode ser um erro na fonte ou se referir a um isômero diferente).",
+      "Efeitos psicoativos relatados, semelhantes ao THC, mas geralmente menos potentes.",
+      "Pesquisa limitada sobre mecanismos de ação e perfil de segurança.",
+      "CID PubChem: 12282094."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "delta-10-tetrahydrocannabinol",
+    "name": "Delta-10-tetrahidrocanabinol (Delta-10-THC)",
+    "type": "cannabinoid",
+    "cid": null,
+    "description": "O Delta-10-tetrahidrocanabinol (Delta-10-THC) é um isômero do THC, o principal composto psicoativo da cannabis. Diferente do delta-9-THC, que possui uma ligação dupla na nona posição do anel de carbono, o delta-10-THC apresenta essa ligação dupla na décima posição. Embora seja um canabinoide minoritário encontrado em quantidades muito pequenas na planta de cannabis, a maioria do delta-10-THC disponível no mercado é produzida sinteticamente a partir de CBD ou delta-9-THC através de processos de isomerização. Os efeitos do delta-10-THC são frequentemente descritos como menos intensos e mais energizantes do que os do delta-9-THC, com alguns usuários relatando uma experiência mais cerebral e menos sedativa. No entanto, a pesquisa científica sobre o delta-10-THC é extremamente limitada, e não há um CID PubChem disponível para este composto específico, o que indica a falta de dados padronizados e estudos aprofundados. A ausência de informações farmacológicas e toxicológicas robustas significa que os mecanismos de ação precisos, o perfil de segurança, a potência e os potenciais terapêuticos do delta-10-THC ainda não foram bem estabelecidos. É crucial que mais pesquisas sejam realizadas para validar os relatos anedóticos e fornecer uma base científica sólida para a compreensão deste canabinoide.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do Delta-10-THC é especulativo devido à ausência de pesquisa. Relatos anedóticos sugerem um perfil psicoativo mais suave, o que poderia ser interessante para usuários que buscam efeitos menos intensos que o delta-9-THC. No entanto, qualquer aplicação terapêutica requer estudos rigorosos para determinar segurança, dosagem e eficácia.",
+    "key_points": [
+      "Isômero do THC com ligação dupla na décima posição.",
+      "Canabinoide minoritário, predominantemente produzido sinteticamente.",
+      "Efeitos psicoativos relatados como mais leves e energizantes que o delta-9-THC.",
+      "Pesquisa científica muito limitada, sem CID PubChem disponível.",
+      "Mecanismos de ação, segurança e eficácia ainda não estabelecidos.",
+      "Potencial para interagir com o sistema endocanabinoide, mas sem dados concretos."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabichromenic-acid",
+    "name": "Ácido Canabicromênico (CBCA)",
+    "type": "cannabinoid",
+    "cid": 3084339,
+    "molecular_formula": "C22H30O4",
+    "molecular_weight": "358.5",
+    "description": "O Ácido Canabicromênico (CBCA) é um canabinoide ácido precursor do canabicromeno (CBC), encontrado em plantas de cannabis. Assim como outros canabinoides ácidos, o CBCA é sintetizado na planta e é descarboxilado em CBC quando exposto ao calor ou luz. A pesquisa sobre o CBCA ainda é limitada, mas sugere que ele pode possuir propriedades anti-inflamatórias e analgésicas. Sua presença na planta de cannabis é geralmente menor em comparação com os ácidos mais conhecidos, como o THCA e o CBDA. A compreensão completa de seus mecanismos de ação e potencial terapêutico ainda está em estágios iniciais, necessitando de mais estudos para elucidar seu papel na farmacologia da cannabis. Não há dados de farmacologia ou toxicidade detalhados disponíveis no PubChem para o CBCA, indicando a necessidade de mais pesquisas pré-clínicas e clínicas.",
+    "mechanisms": [
+      "Mecanismos de ação ainda não totalmente elucidados, mas pode interagir com o sistema endocanabinoide de forma indireta ou com outros receptores."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do CBCA é especulativo, com indícios de propriedades anti-inflamatórias e analgésicas. No entanto, a falta de estudos aprofundados impede uma conclusão definitiva sobre sua eficácia em condições específicas.",
+    "key_points": [
+      "Precursor ácido do canabinoide CBC.",
+      "Encontrado em baixas concentrações na planta de cannabis.",
+      "Descarboxila em CBC sob calor ou luz.",
+      "Potencial anti-inflamatório e analgésico, mas com evidências limitadas.",
+      "Fórmula molecular: C22H30O4, Peso molecular: 358.5 g/mol.",
+      "CID PubChem: 3084339."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabinolic-acid",
+    "name": "Ácido Canabinólico (CBNA)",
+    "type": "cannabinoid",
+    "cid": 3081990,
+    "molecular_formula": "C22H26O4",
+    "molecular_weight": "354.4",
+    "description": "O Ácido Canabinólico (CBNA) é um canabinoide ácido que serve como precursor do canabinol (CBN). Diferente de outros canabinoides ácidos que são sintetizados diretamente, o CBNA é formado principalmente pela degradação oxidativa do THCA (ácido tetrahidrocanabinólico) ou, em menor grau, do CBDA (ácido canabidiolico). Isso significa que o CBNA é mais abundante em plantas de cannabis envelhecidas ou mal armazenadas. A pesquisa sobre o CBNA é escassa, mas, assim como o CBN, espera-se que ele possua propriedades sedativas e potencialmente anti-inflamatórias, embora em menor potência que seus análogos descarboxilados. Não há informações detalhadas de farmacologia ou toxicidade disponíveis no PubChem para o CBNA, o que ressalta a necessidade de mais investigações para compreender seu perfil farmacológico e potencial terapêutico. Sua presença indica um processo de envelhecimento da biomassa da cannabis.",
+    "mechanisms": [
+      "Mecanismos de ação não totalmente definidos, mas pode interagir com receptores canabinoides de forma similar ao CBN, embora com menor afinidade."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do CBNA é largely desconhecido devido à falta de pesquisa. No entanto, dada sua relação com o CBN, pode ter propriedades sedativas e anti-inflamatórias, mas são necessárias mais investigações para confirmar esses efeitos e determinar sua relevância clínica.",
+    "key_points": [
+      "Precursor ácido do canabinol (CBN).",
+      "Formado pela degradação oxidativa do THCA ou CBDA.",
+      "Mais presente em cannabis envelhecida ou mal armazenada.",
+      "Potencial sedativo e anti-inflamatório, mas com evidências limitadas.",
+      "Fórmula molecular: C22H26O4, Peso molecular: 354.4 g/mol.",
+      "CID PubChem: 3081990."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabidivarinic-acid",
+    "name": "Ácido Canabidivarínico (CBDVA)",
+    "type": "cannabinoid",
+    "cid": 59444387,
+    "molecular_formula": "C20H26O4",
+    "molecular_weight": "330.4",
+    "description": "O Ácido Canabidivarínico (CBDVA) é um canabinoide ácido encontrado na planta de cannabis, sendo o precursor do canabidivarina (CBDV). É um análogo do ácido canabidiólico (CBDA), mas com uma cadeia lateral propil em vez de pentil, o que confere a ele uma estrutura molecular ligeiramente diferente. O CBDVA é descarboxilado em CBDV quando exposto ao calor. A pesquisa sobre o CBDVA é emergente, com estudos preliminares sugerindo que ele pode ter propriedades anticonvulsivantes, anti-inflamatórias e antieméticas, semelhantes às do CBDV. Sua presença é mais notável em certas variedades de cannabis, especialmente aquelas com alto teor de CBDV. Embora o conhecimento sobre o CBDVA ainda seja limitado, seu potencial terapêutico é de interesse, especialmente para condições neurológicas. Não há dados de farmacologia ou toxicidade detalhados disponíveis no PubChem para o CBDVA, indicando a necessidade de mais estudos para validar seus efeitos e segurança.",
+    "mechanisms": [
+      "Mecanismos de ação ainda sob investigação, mas pode interagir com o sistema endocanabinoide e outros receptores, como o TRPV1, de forma similar ao CBDV."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do CBDVA é promissor, especialmente no tratamento de distúrbios neurológicos como a epilepsia, devido às suas potenciais propriedades anticonvulsivantes. Também pode ter aplicações como anti-inflamatório e antiemético. No entanto, a pesquisa ainda está em estágios iniciais e mais estudos são necessários para confirmar esses efeitos e determinar a dosagem e segurança.",
+    "key_points": [
+      "Precursor ácido do canabidivarina (CBDV).",
+      "Análogo do CBDA com cadeia lateral propil.",
+      "Descarboxila em CBDV sob calor.",
+      "Potencial anticonvulsivante, anti-inflamatório e antiemético.",
+      "Fórmula molecular: C20H26O4, Peso molecular: 330.4 g/mol.",
+      "CID PubChem: 59444387."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "tetrahydrocannabivarinic-acid",
+    "name": "Ácido Tetrahidrocannabivarinico (THCVA)",
+    "type": "cannabinoid",
+    "cid": 59444416,
+    "molecular_formula": "C20H26O4",
+    "molecular_weight": "330.4",
+    "description": "O ácido tetrahidrocannabivarinico (THCVA) é um canabinoide ácido precursor do tetrahidrocannabivarin (THCV), encontrado em variedades de Cannabis sativa. Assim como outros canabinoides ácidos, o THCVA é a forma não descarboxilada e biologicamente inativa do THCV. A descarboxilação, que ocorre com o calor, converte o THCVA em THCV, a forma ativa. A pesquisa sobre o THCVA é limitada, mas sugere que, como um canabinoide ácido, ele pode interagir com o sistema endocanabinoide de maneiras distintas de suas formas neutras. Sua presença na planta indica um papel na biossíntese de canabinoides. O potencial terapêutico do THCVA ainda está sob investigação, mas a pesquisa inicial em outros canabinoides ácidos, como o CBDA e o THCA, sugere possíveis propriedades anti-inflamatórias e neuroprotetoras, embora essas propriedades ainda não tenham sido especificamente atribuídas ao THCVA. Mais estudos são necessários para elucidar completamente seus mecanismos de ação e aplicações clínicas. CID: 59444416.",
+    "mechanisms": [
+      "Interação potencial com o sistema endocanabinoide (ainda não totalmente elucidado).",
+      "Precursor na via biossintética de canabinoides."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do THCVA é amplamente desconhecido devido à falta de pesquisa direta. No entanto, com base em outros canabinoides ácidos, pode ter propriedades anti-inflamatórias e neuroprotetoras, mas isso requer validação científica.",
+    "key_points": [
+      "Precursor ácido do THCV.",
+      "Encontrado em variedades de Cannabis sativa.",
+      "Forma não descarboxilada e biologicamente inativa.",
+      "Convertido em THCV por descarboxilação (calor).",
+      "Peso molecular: 330.4 g/mol.",
+      "XLogP: 6."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabigerovarinic-acid",
+    "name": "Ácido Cannabigerovarinico (CBGVA)",
+    "type": "cannabinoid",
+    "cid": 59444383,
+    "molecular_formula": "C20H28O4",
+    "molecular_weight": "332.4",
+    "description": "O ácido cannabigerovarinico (CBGVA) é um canabinoide ácido e um precursor crucial na biossíntese de muitos outros canabinoides na planta Cannabis sativa. Ele é a forma varínica do ácido cannabigerólico (CBGA), o 'canabinoide-mãe', o que significa que possui uma cadeia lateral de propil em vez da cadeia de pentil mais comum. O CBGVA é a forma não descarboxilada e, portanto, biologicamente inativa, que se converte em cannabigerovarin (CBGV) quando exposto ao calor. A pesquisa sobre o CBGVA é limitada, mas sua importância reside em seu papel como um bloco de construção fundamental para a produção de canabinoides varínicos, como o THCV e o CBDV. Embora o CBGVA em si não seja psicoativo, a investigação sobre seus potenciais efeitos terapêuticos está em estágios iniciais. Outros canabinoides ácidos têm demonstrado propriedades anti-inflamatórias e antibacterianas, e o CBGVA pode compartilhar alguns desses atributos. Mais estudos são necessários para compreender completamente seus mecanismos de ação e aplicações clínicas. CID: 59444383.",
+    "mechanisms": [
+      "Precursor na via biossintética de canabinoides varínicos.",
+      "Interação potencial com o sistema endocanabinoide (ainda não totalmente elucidado)."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do CBGVA é em grande parte inexplorado. Como um canabinoide ácido, pode possuir propriedades anti-inflamatórias e antibacterianas, mas a pesquisa é escassa e são necessários estudos aprofundados para confirmar quaisquer benefícios terapêuticos.",
+    "key_points": [
+      "Precursor ácido de canabinoides varínicos.",
+      "Encontrado em variedades de Cannabis sativa.",
+      "Forma não descarboxilada e biologicamente inativa.",
+      "Convertido em CBGV por descarboxilação (calor).",
+      "Possui cadeia lateral de propil.",
+      "Peso molecular: 332.4 g/mol.",
+      "XLogP: 6.4."
+    ],
+    "subtype": "acid"
+  },
+  {
+    "id": "cannabifuran",
+    "name": "Cannabifurano (CBF)",
+    "type": "cannabinoid",
+    "cid": 583560,
+    "molecular_formula": "C9H9N3O8S",
+    "molecular_weight": "319.25",
+    "description": "Cannabifurano (CBF) é um canabinoide minoritário encontrado na planta Cannabis sativa. Apesar de seu nome, a estrutura química do Cannabifurano é incomum para um canabinoide, sendo um derivado de furo-isocumarina, o que o diferencia de canabinoides mais conhecidos como THC e CBD. A pesquisa sobre o CBF é extremamente limitada, e seus mecanismos de ação específicos, bem como seu potencial terapêutico, são amplamente desconhecidos. Não há dados farmacológicos ou toxicológicos significativos disponíveis no PubChem para este composto, o que indica uma lacuna no conhecimento científico atual. Sua presença na cannabis sugere um papel, mas a extensão e a natureza desse papel ainda precisam ser elucidadas. É importante notar que, devido à escassez de estudos, qualquer alegação sobre seus efeitos seria especulativa. Mais investigações são cruciais para determinar se o Cannabifurano possui alguma atividade biológica relevante ou potencial aplicação terapêutica. CID: 583560.",
+    "mechanisms": [
+      "Mecanismos de ação desconhecidos devido à falta de pesquisa."
+    ],
+    "therapeutic_potential": "O potencial terapêutico do Cannabifurano é desconhecido devido à escassez de pesquisa. Não há evidências científicas suficientes para sugerir quaisquer benefícios terapêuticos neste momento.",
+    "key_points": [
+      "Canabinoide minoritário encontrado na Cannabis sativa.",
+      "Estrutura química incomum (derivado de furo-isocumarina).",
+      "Pesquisa sobre CBF é extremamente limitada.",
+      "Mecanismos de ação e potencial terapêutico são desconhecidos.",
+      "Não há dados farmacológicos ou toxicológicos significativos disponíveis.",
+      "Peso molecular: 319.25 g/mol.",
+      "XLogP: 0.4."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabinodiol",
+    "name": "Cannabinodiol (CBND)",
+    "type": "cannabinoid",
+    "cid": 11551346,
+    "molecular_formula": "C21H26O2",
+    "molecular_weight": "310.4",
+    "description": "O Cannabinodiol, conhecido como CBND, é um canabinoide minoritário encontrado na planta Cannabis. Sua estrutura química é C21H26O2 e possui um peso molecular de 310.4. O CBND é um produto de degradação do canabinol (CBN), que por sua vez é um produto de degradação do tetrahidrocanabinol (THC). Isso significa que o CBND é mais provável de ser encontrado em plantas de cannabis mais antigas ou em extratos que foram expostos ao ar e à luz por um período prolongado. A pesquisa sobre o CBND ainda é bastante limitada, e seus mecanismos de ação específicos e potencial terapêutico não são bem compreendidos. Não há dados farmacológicos ou toxicológicos significativos disponíveis no PubChem para este composto, o que ressalta a necessidade de mais estudos para elucidar suas propriedades. Atualmente, o CBND é considerado um canabinoide de interesse para futuras investigações, mas sem aplicações clínicas estabelecidas.",
+    "mechanisms": [],
+    "therapeutic_potential": "O potencial terapêutico do CBND é atualmente desconhecido devido à escassez de pesquisas. É um canabinoide de interesse para futuras investigações, mas sem aplicações clínicas estabelecidas.",
+    "key_points": [
+      "Canabinoide minoritário encontrado na Cannabis.",
+      "Produto de degradação do canabinol (CBN).",
+      "Fórmula molecular C21H26O2, peso molecular 310.4.",
+      "XLogP de 7, indicando alta lipofilicidade.",
+      "Pesquisa limitada, mecanismos de ação e potencial terapêutico pouco compreendidos.",
+      "CID PubChem: 11551346."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "cannabiorcol",
+    "name": "Cannabiorcol (CBDA)",
+    "type": "cannabinoid",
+    "cid": 160570,
+    "molecular_formula": "C22H30O4",
+    "molecular_weight": "358.5",
+    "description": "O Cannabiorcol, também conhecido como CBDA, é um canabinoide ácido presente na planta Cannabis. Embora o nome 'Cannabiorcol' possa ser confundido com outros canabinoides, o CID fornecido (160570) e os sinônimos indicam que se refere ao Ácido Canabidiólico (CBDA). O CBDA é o precursor ácido do canabidiol (CBD), o que significa que é encontrado em plantas de cannabis cruas e frescas. Através de um processo chamado descarboxilação (geralmente por calor), o CBDA se converte em CBD. Sua fórmula molecular é C22H30O4 e seu peso molecular é de 358.5. O CBDA tem sido objeto de crescente interesse devido a potenciais propriedades terapêuticas que podem diferir das do CBD. A pesquisa sugere que o CBDA pode interagir com o sistema endocanabinoide e outros sistemas biológicos, embora os mecanismos exatos ainda estejam sendo elucidados. Não há dados farmacológicos ou toxicolicos específicos listados no PubChem para este composto, indicando a necessidade de mais estudos aprofundados.",
+    "mechanisms": [
+      "Inibição da ciclooxigenase-2 (COX-2)",
+      "Ativação de receptores 5-HT1A"
+    ],
+    "therapeutic_potential": "O CBDA demonstra potencial terapêutico em áreas como anti-inflamação, antiemético e ansiolítico, com pesquisas preliminares sugerindo que pode ser mais potente que o CBD para certas aplicações. No entanto, mais estudos clínicos são necessários para confirmar esses efeitos.",
+    "key_points": [
+      "Precursor ácido do canabidiol (CBD).",
+      "Encontrado em plantas de cannabis cruas e frescas.",
+      "Fórmula molecular C22H30O4, peso molecular 358.5.",
+      "XLogP de 6.6, indicando lipofilicidade.",
+      "Potencial terapêutico em investigação, pode ter propriedades distintas do CBD.",
+      "CID PubChem: 160570."
+    ],
+    "subtype": "minor"
+  },
+  {
+    "id": "11-hydroxy-thc",
+    "name": "11-Hydroxy-THC (11-OH-THC)",
+    "type": "cannabinoid",
+    "cid": 37482,
+    "molecular_formula": "C21H30O3",
+    "molecular_weight": "330.5",
+    "description": "O 11-Hydroxy-THC, ou 11-OH-THC, é um metabólito ativo do delta-9-tetrahidrocanabinol (THC), o principal composto psicoativo da Cannabis. Ele é formado no fígado através do metabolismo do THC pela enzima CYP2C9 e CYP3A4. Este metabólito é notavelmente mais potente que o próprio THC em termos de efeitos psicoativos e tem uma meia-vida mais longa no corpo. Sua fórmula molecular é C21H30O3 e seu peso molecular é de 330.5. O 11-OH-THC é o principal responsável pelos efeitos mais intensos e prolongados da cannabis quando consumida oralmente, pois o THC passa por metabolismo de primeira passagem no fígado antes de atingir a circulação sistêmica. Dados farmacológicos do PubChem indicam que este metabólito afeta o rim e o fígado, o que é consistente com seu papel no metabolismo e eliminação. A compreensão do 11-OH-THC é crucial para a farmacocinética e farmacodinâmica da cannabis, especialmente em contextos de dosagem e testes de drogas.",
+    "mechanisms": [
+      "Agonista parcial dos receptores canabinoides CB1 e CB2"
+    ],
+    "therapeutic_potential": "Embora seja um metabólito do THC, o 11-OH-THC compartilha e amplifica os potenciais terapêuticos do THC, como alívio da dor, antiemético e estimulação do apetite, devido à sua maior potência e duração de ação. No entanto, seus efeitos psicoativos mais intensos também limitam seu uso terapêutico direto, sendo mais relevante para entender os efeitos da cannabis consumida oralmente.",
+    "key_points": [
+      "Metabólito ativo do delta-9-THC.",
+      "Formado no fígado via enzimas CYP2C9 e CYP3A4.",
+      "Mais potente e com meia-vida mais longa que o THC.",
+      "Fórmula molecular C21H30O3, peso molecular 330.5.",
+      "XLogP de 5.7, indicando lipofilicidade.",
+      "Afeta rim e fígado (dados farmacológicos PubChem).",
+      "Responsável por efeitos intensos da cannabis oral.",
+      "CID PubChem: 37482."
+    ],
+    "subtype": "metabolite"
+  },
+  {
+    "id": "11-nor-9-carboxy-thc",
+    "name": "11-Nor-9-carboxy-THC (THC-COOH)",
+    "type": "cannabinoid",
+    "cid": 107885,
+    "molecular_formula": "C21H28O4",
+    "molecular_weight": "344.4",
+    "description": "O 11-Nor-9-carboxy-THC, comumente conhecido como THC-COOH, é o principal metabólito inativo do delta-9-tetrahidrocanabinol (THC), o composto psicoativo primário da cannabis. Embora o THC seja rapidamente metabolizado no corpo, o THC-COOH é formado no fígado e é o metabólito que permanece detectável por mais tempo no organismo, sendo o alvo principal em testes de drogas para cannabis. Diferente do THC, o THC-COOH não possui propriedades psicoativas significativas. Sua presença indica exposição prévia ao THC. Embora não seja encontrado diretamente na planta de cannabis, é um indicador crucial da biotransformação do THC em mamíferos. A pesquisa sobre o THC-COOH foca principalmente em sua farmacocinética e como um biomarcador de uso de cannabis, em vez de seus próprios efeitos terapêuticos diretos. Não há evidências de que o THC-COOH interaja com os receptores canabinoides CB1 ou CB2 de forma significativa para produzir efeitos farmacológicos.",
+    "mechanisms": [],
+    "therapeutic_potential": "",
+    "key_points": [
+      "Principal metabólito inativo do THC.",
+      "Não possui efeitos psicoativos.",
+      "Detectável por longos períodos em testes de drogas.",
+      "Indica exposição prévia ao THC.",
+      "Fórmula molecular: C21H28O4, Peso molecular: 344.4 g/mol.",
+      "CID PubChem: 107885."
+    ],
+    "subtype": "metabolite"
+  },
+  {
+    "id": "nabilone",
+    "name": "Nabilone (Cesamet)",
+    "type": "cannabinoid",
+    "cid": 5284592,
+    "molecular_formula": "C24H36O3",
+    "molecular_weight": "372.5",
+    "description": "Nabilone, comercializado como Cesamet, é um canabinoide sintético oralmente ativo, análogo estrutural do THC. Ele atua como um agonista dos receptores canabinoides CB1 e CB2, mimetizando os efeitos de canabinoides endógenos. Os receptores CB1 são abundantes no sistema nervoso central, especialmente no hipocampo e amígdala, regulando memória e emoções. Os receptores CB2 são predominantemente encontrados no sistema nervoso periférico e em tecidos linfoides, modulando a função imunológica e inflamação. O nabilone é aprovado para o tratamento de náuseas e vômitos induzidos por quimioterapia em pacientes com câncer que não respondem a outros antieméticos. Também é utilizado off-label para dor neuropática e outras condições. Seus efeitos complexos no SNC contribuem para suas propriedades antieméticas e analgésicas. Embora possa causar elevações leves e transitórias nas aminotransferases séricas, casos de lesão hepática clinicamente aparente são extremamente raros, sugerindo um baixo risco de hepatotoxicidade significativa. A pesquisa continua a explorar seu potencial em outras áreas terapêuticas, dada sua interação com o sistema endocanabinoide.",
+    "mechanisms": [
+      "Agonismo do receptor canabinoide CB1",
+      "Agonismo do receptor canabinoide CB2",
+      "Modulação do sistema endocanabinoide"
+    ],
+    "therapeutic_potential": "O nabilone possui um potencial terapêutico estabelecido no tratamento de náuseas e vômitos refratários induzidos por quimioterapia. Há também evidências de seu uso em dor neuropática e outras condições que se beneficiam da modulação do sistema endocanabinoide.",
+    "key_points": [
+      "Canabinoide sintético oralmente ativo.",
+      "Agonista dos receptores CB1 e CB2.",
+      "Aprovado para náuseas e vômitos induzidos por quimioterapia.",
+      "Utilizado off-label para dor neuropática.",
+      "Baixo risco de lesão hepática clinicamente aparente.",
+      "Fórmula molecular: C24H36O3, Peso molecular: 372.5 g/mol.",
+      "CID PubChem: 5284592."
+    ],
+    "subtype": "synthetic"
+  },
+  {
+    "id": "win-55212-2",
+    "name": "WIN 55212-2",
+    "type": "cannabinoid",
+    "cid": 5311501,
+    "molecular_formula": "C27H26N2O3",
+    "molecular_weight": "426.5",
+    "description": "WIN 55212-2 é um canabinoide sintético de pesquisa, conhecido por suas propriedades analgésicas e por sua capacidade de interagir com o sistema endocanabinoide. Ele atua como um agonista dos receptores canabinoides CB1 e CB2, embora com uma afinidade ligeiramente maior pelo CB2. Além de sua ação nos receptores canabinoides, o WIN 55212-2 também é descrito como um inibidor seletivo do influxo de cálcio através de membranas celulares, o que pode contribuir para seus efeitos farmacológicos, especialmente na modulação da dor. Este composto é amplamente utilizado em estudos pré-clínicos para investigar os mecanismos de ação dos canabinoides e o potencial terapêutico da modulação do sistema endocanabinoide em diversas condições, incluindo dor, inflamação e distúrbios neurológicos. Embora promissor em modelos experimentais, o WIN 55212-2 não é um medicamento aprovado para uso humano e sua toxicidade em humanos não é bem estabelecida. A pesquisa continua a explorar seu perfil farmacológico complexo e suas aplicações potenciais como ferramenta de pesquisa.",
+    "mechanisms": [
+      "Agonismo do receptor canabinoide CB1",
+      "Agonismo do receptor canabinoide CB2",
+      "Inibição seletiva do influxo de cálcio"
+    ],
+    "therapeutic_potential": "O WIN 55212-2 demonstra potencial terapêutico em modelos pré-clínicos para o alívio da dor e modulação da inflamação, devido à sua interação com os receptores canabinoides e sua capacidade de inibir o influxo de cálcio. No entanto, é estritamente um composto de pesquisa e não tem aplicação clínica direta.",
+    "key_points": [
+      "Canabinoide sintético de pesquisa.",
+      "Agonista dos receptores CB1 e CB2.",
+      "Inibidor seletivo do influxo de cálcio.",
+      "Utilizado em estudos pré-clínicos para dor e inflamação.",
+      "Não aprovado para uso humano.",
+      "Fórmula molecular: C27H26N2O3, Peso molecular: 426.5 g/mol.",
+      "CID PubChem: 5311501."
+    ],
+    "subtype": "synthetic_research"
+  },
+  {
+    "id": "cp-55940",
+    "name": "CP 55940",
+    "type": "cannabinoid",
+    "cid": 104895,
+    "molecular_formula": "C24H40O3",
+    "molecular_weight": "376.6",
+    "description": "O CP 55940 é um canabinoide sintético de pesquisa, conhecido por sua potente atividade agonista nos receptores canabinoides. Embora não seja encontrado naturalmente na planta Cannabis, sua estrutura química foi desenvolvida para mimetizar e, em alguns aspectos, superar a eficácia dos canabinoides endógenos e fitocanabinoides. Este composto é amplamente utilizado em estudos científicos para investigar o sistema endocanabinoide e seus múltiplos papéis fisiológicos. Sua capacidade de aliviar a dor sem perda de consciência o torna um objeto de interesse para o desenvolvimento de novos analgésicos. Além disso, o CP 55940 demonstra propriedades imunossupressoras, atuando através de mecanismos que podem envolver a inibição da síntese de DNA ou a modulação da ativação de células T e células auxiliares. A pesquisa com CP 55940 contribui significativamente para a compreensão dos mecanismos de ação dos canabinoides e para a identificação de potenciais alvos terapêuticos em diversas condições, incluindo dor crônica e doenças autoimunes. No entanto, sua natureza sintética e a falta de estudos clínicos em humanos limitam seu uso fora do ambiente de pesquisa.",
+    "mechanisms": [
+      "Agonismo de receptores canabinoides (CB1 e CB2)",
+      "Alívio da dor sem perda de consciência",
+      "Supressão da função imune (mecanismos variados, incluindo inibição da síntese de DNA ou modulação de células T e auxiliares)"
+    ],
+    "therapeutic_potential": "O CP 55940 possui potencial terapêutico significativo como analgésico e imunossupressor, sendo uma ferramenta valiosa para a pesquisa de novas abordagens no tratamento da dor crônica e doenças autoimunes. No entanto, sua aplicação clínica ainda é limitada devido à sua natureza de composto de pesquisa.",
+    "key_points": [
+      "Canabinoide sintético de pesquisa.",
+      "Agonista potente dos receptores canabinoides.",
+      "Peso molecular: 376.6 g/mol.",
+      "XLogP: 6.1, indicando alta lipofilicidade.",
+      "Utilizado para investigar o sistema endocanabinoide.",
+      "Potencial analgésico e imunossupressor."
+    ],
+    "subtype": "synthetic_research"
+  },
+  {
+    "id": "rimonabant",
+    "name": "Rimonabant (SR141716)",
+    "type": "cannabinoid",
+    "cid": 104850,
+    "molecular_formula": "C22H21Cl3N4O",
+    "molecular_weight": "463.8",
+    "description": "O Rimonabant, também conhecido como SR141716, é um canabinoide sintético que atua como um antagonista específico do receptor canabinoide CB1. Desenvolvido como um fármaco para o tratamento da obesidade, o Rimonabant foi comercializado brevemente sob os nomes Acomplia e Zimulti. A base para seu desenvolvimento reside na evidência de que o sistema endocanabinoide desempenha um papel crucial no controle do apetite e comportamentos associados. A hipótese era que a atenuação da atividade deste sistema poderia trazer benefícios terapêuticos em distúrbios caracterizados por um excesso de impulso apetitivo ou hiperatividade do sistema endocanabinoide, como obesidade, abuso de álcool e outras drogas, e uma variedade de distúrbios do sistema nervoso central. No entanto, apesar de sua eficácia na perda de peso, o Rimonabant foi retirado do mercado devido a preocupações significativas com efeitos colaterais psiquiátricos, incluindo depressão e ideação suicida. Sua farmacologia, no entanto, continua a ser estudada para entender melhor o papel do receptor CB1 na fisiologia e patologia.",
+    "mechanisms": [
+      "Antagonismo seletivo do receptor canabinoide CB1",
+      "Modulação do sistema endocanabinoide para reduzir o impulso apetitivo"
+    ],
+    "therapeutic_potential": "O Rimonabant demonstrou potencial no tratamento da obesidade e distúrbios de apetite ao modular o sistema endocanabinoide. Contudo, seu uso clínico foi descontinuado devido a sérios efeitos adversos psiquiátricos, limitando seu potencial terapêutico prático, mas mantendo seu valor como ferramenta de pesquisa para o estudo do receptor CB1.",
+    "key_points": [
+      "Antagonista específico do receptor canabinoide CB1.",
+      "Peso molecular: 463.8 g/mol.",
+      "XLogP: 6.5, indicando alta lipofilicidade.",
+      "Desenvolvido para tratar obesidade e distúrbios relacionados ao apetite.",
+      "Comercializado brevemente como Acomplia e Zimulti.",
+      "Retirado do mercado devido a efeitos colaterais psiquiátricos (depressão, ideação suicida)."
+    ],
+    "subtype": "synthetic_research"
+  },
+  {
+    "id": "ajulemic-acid",
+    "name": "Ácido Ajulêmico (Lenabasum)",
+    "type": "cannabinoid",
+    "cid": 6438990,
+    "molecular_formula": "C19H26O3",
+    "molecular_weight": "302.4",
+    "description": "O Ácido Ajulêmico, também conhecido como Lenabasum, é um canabinoide sintético de pesquisa com a fórmula molecular C19H26O3 e peso molecular de 302.4 g/mol. Este composto é um análogo sintético do ácido tetrahidrocanabinólico (THCA), um fitocanabinoide encontrado na planta Cannabis. Ao contrário de muitos canabinoides que atuam diretamente nos receptores CB1 e CB2, o Ácido Ajulêmico é notável por sua capacidade de ativar seletivamente o receptor CB2, com pouca ou nenhuma afinidade pelo receptor CB1. Esta seletividade é crucial, pois a ativação do CB2 está associada a efeitos anti-inflamatórios e imunomoduladores sem os efeitos psicoativos tipicamente ligados à ativação do CB1. O Lenabasum tem sido investigado em ensaios clínicos para o tratamento de várias doenças inflamatórias e fibróticas, como esclerose sistêmica, dermatomiosite e fibrose cística. Sua ação anti-inflamatória e antifibrótica o torna um candidato promissor para condições onde a inflamação crônica e a fibrose são componentes chave. No entanto, a pesquisa ainda está em andamento para confirmar sua eficácia e segurança a longo prazo. CID do PubChem: 6438990.",
+    "mechanisms": [
+      "Agonismo seletivo do receptor canabinoide CB2",
+      "Efeitos anti-inflamatórios",
+      "Efeitos antifibróticos"
+    ],
+    "therapeutic_potential": "O Ácido Ajulêmico (Lenabasum) demonstra um promissor potencial terapêutico em doenças inflamatórias e fibróticas devido à sua ativação seletiva do receptor CB2, oferecendo uma abordagem anti-inflamatória sem os efeitos psicoativos associados ao CB1. A pesquisa clínica está em andamento para validar sua eficácia e segurança.",
+    "key_points": [
+      "Canabinoide sintético, análogo do THCA.",
+      "Peso molecular: 302.4 g/mol.",
+      "XLogP: 5.2, indicando lipofilicidade moderada.",
+      "Ativa seletivamente o receptor CB2.",
+      "Não possui efeitos psicoativos significativos.",
+      "Investigado para doenças inflamatórias e fibróticas (esclerose sistêmica, dermatomiosite, fibrose cística)."
+    ],
+    "subtype": "synthetic_research"
+  },
+  {
+    "id": "anandamide",
+    "name": "Anandamida (AEA)",
+    "type": "cannabinoid",
+    "cid": 5281969,
+    "molecular_formula": "C22H37NO2",
+    "molecular_weight": "347.5",
+    "description": "A anandamida, ou N-araquidonoiletanolamida (AEA), é um endocanabinoide, uma molécula lipídica produzida naturalmente no corpo humano e em outros animais. Descoberta em 1992, seu nome deriva da palavra sânscrita 'ananda', que significa 'felicidade interior' ou 'bem-aventurança', refletindo seus efeitos no humor. Embora não seja encontrada diretamente na planta Cannabis, a anandamida é um componente crucial do sistema endocanabinoide (SEC), que é o alvo dos fitocanabinoides da cannabis. Ela atua como um neurotransmissor, ligando-se aos receptores canabinoides (CB1 e CB2) no cérebro e em todo o corpo, desempenhando um papel fundamental na regulação da dor, humor, apetite, memória e fertilidade. Sua ação é tipicamente de curta duração, sendo rapidamente degradada pela enzima amida hidrolase de ácidos graxos (FAAH). A modulação dos níveis de anandamida é uma estratégia terapêutica em investigação para diversas condições. (CID PubChem: 5281969)",
+    "mechanisms": [
+      "Agonista dos receptores canabinoides CB1 e CB2.",
+      "Inibição seletiva do influxo de cálcio através de membranas celulares."
+    ],
+    "therapeutic_potential": "Potencial terapêutico na modulação da dor, ansiedade, depressão e distúrbios do apetite, através da manipulação dos níveis de anandamida ou da atividade de seus receptores.",
+    "key_points": [
+      "Endocanabinoide produzido naturalmente pelo corpo.",
+      "Nome derivado do sânscrito 'ananda' (felicidade).",
+      "Atua como agonista dos receptores canabinoides CB1 e CB2.",
+      "Regula dor, humor, apetite, memória e fertilidade.",
+      "Rapidamente degradada pela enzima FAAH.",
+      "Fórmula molecular: C22H37NO2, Peso molecular: 347.5 g/mol."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "2-arachidonoylglycerol",
+    "name": "2-Arachidonoylglycerol (2-AG)",
+    "type": "cannabinoid",
+    "cid": 5282280,
+    "molecular_formula": "C23H38O4",
+    "molecular_weight": "378.5",
+    "description": "O 2-araquidonilglicerol (2-AG) é outro endocanabinoide primário, uma molécula lipídica endógena que desempenha um papel vital no sistema endocanabinoide (SEC) do corpo. Assim como a anandamida, o 2-AG não é encontrado na planta Cannabis, mas é um ligante natural para os mesmos receptores canabinoides (CB1 e CB2) que são ativados pelos canabinoides da cannabis. O 2-AG é um dos endocanabinoides mais abundantes no cérebro e é crucial para a sinalização retrógrada em sinapses, influenciando a plasticidade sináptica e a liberação de neurotransmissores. Ele está envolvido em uma ampla gama de processos fisiológicos, incluindo regulação da dor, inflamação, neuroproteção, apetite, humor e função imunológica. Sua síntese e degradação são reguladas por diferentes enzimas em comparação com a anandamida, sendo a monoacilglicerol lipase (MAGL) a principal enzima responsável por sua inativação. A modulação do 2-AG é uma área ativa de pesquisa para o desenvolvimento de novas terapias. (CID PubChem: 5282280)",
+    "mechanisms": [
+      "Agonista dos receptores canabinoides CB1 e CB2."
+    ],
+    "therapeutic_potential": "Grande potencial terapêutico em condições inflamatórias, dor crônica, distúrbios neurológicos e metabólicos, através da manipulação de seus níveis ou da atividade de seus receptores.",
+    "key_points": [
+      "Endocanabinoide abundante no cérebro e corpo.",
+      "Agonista de espectro total dos receptores CB1 e CB2.",
+      "Envolvido na regulação da dor, inflamação, apetite e humor.",
+      "Sintetizado 'on-demand' e degradado pela MAGL.",
+      "Fórmula molecular: C23H38O4, Peso molecular: 378.5 g/mol.",
+      "Crucial para a sinalização retrógrada em sinapses."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "palmitoylethanolamide",
+    "name": "Palmitoiletanolamida (PEA)",
+    "type": "cannabinoid",
+    "cid": 4671,
+    "molecular_formula": "C18H37NO2",
+    "molecular_weight": "299.5",
+    "description": "A palmitoiletanolamida (PEA) é uma amida de ácido graxo endógena, pertencente à classe dos N-aciletanolaminas, que atua como um composto bioativo com propriedades anti-inflamatórias, analgésicas e neuroprotetoras. Embora não seja um canabinoide clássico, a PEA é considerada um 'canabimimético' ou 'composto semelhante a canabinoide' devido à sua capacidade de modular o sistema endocanabinoide (SEC) e interagir com receptores que também são alvos de canabinoides. Ela é encontrada em uma variedade de alimentos, como ovos, amendoim e soja, e é produzida naturalmente em células animais e humanas em resposta a estímulos como inflamação e dor. A PEA exerce seus efeitos principalmente através da ativação do receptor alfa ativado por proliferadores de peroxissomos (PPAR-α) e, indiretamente, modulando a atividade dos receptores canabinoides (efeito 'entourage' ou 'séquito'), ao inibir a degradação da anandamida. Sua segurança para uso em cosméticos foi qualificada pelo CIR Expert Panel, desde que formulada para não ser irritante e sem a formação de compostos N-nitroso. A pesquisa sobre a PEA tem demonstrado seu potencial em diversas condições inflamatórias e dolorosas. (CID PubChem: 4671)",
+    "mechanisms": [
+      "Ativação do receptor PPAR-α (receptor alfa ativado por proliferadores de peroxissomos).",
+      "Modulação indireta dos receptores canabinoides (efeito entourage).",
+      "Inibição da degradação da anandamida.",
+      "Alívio da dor sem perda de consciência.",
+      "Ação anti-inflamatória não esteroidal (inibe ciclooxigenase indiretamente).",
+      "Potencial atividade antiviral."
+    ],
+    "therapeutic_potential": "Amplo potencial terapêutico como analgésico e anti-inflamatório para dor crônica, neuropática, condições inflamatórias e neurodegenerativas, com um perfil de segurança favorável.",
+    "key_points": [
+      "Amida de ácido graxo endógena com propriedades anti-inflamatórias e analgésicas.",
+      "Considerada um 'canabimimético' que modula o sistema endocanabinoide.",
+      "Atua principalmente via receptor PPAR-α e indiretamente nos receptores canabinoides.",
+      "Inibe a degradação da anandamida, prolongando seus efeitos.",
+      "Encontrada em alimentos como ovos, amendoim e soja.",
+      "Fórmula molecular: C18H37NO2, Peso molecular: 299.5 g/mol.",
+      "Considerada segura para uso em cosméticos com qualificações."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "oleoylethanolamide",
+    "name": "Oleoylethanolamide (OEA)",
+    "type": "cannabinoid",
+    "cid": 5283454,
+    "molecular_formula": "C20H39NO2",
+    "molecular_weight": "325.5",
+    "description": "O Oleoylethanolamide (OEA) é uma N-aciletanolamina importante e um ácido graxo etanolamida endógeno, classificado como um composto semelhante a endocanabinoides. Embora não se ligue diretamente aos receptores canabinoides clássicos (CB1 e CB2), o OEA atua como um agonista do receptor ativado por proliferadores de peroxissoma-α (PPAR-α). Além disso, ele inibe a ceramidase, uma enzima envolvida na via de sinalização de esfingolipídios. Essa dupla ação confere ao OEA um papel significativo na regulação do metabolismo lipídico, saciedade e inflamação. A pesquisa sugere que o OEA pode ter potencial terapêutico no controle do peso, redução da inflamação e modulação da dor. O OEA é encontrado em pequenas quantidades em alguns alimentos e é produzido naturalmente no corpo. O Painel de Especialistas do CIR concluiu que as etanolamidas, incluindo o OEA, são seguras nas práticas atuais de uso e concentração descritas na avaliação de segurança, desde que formuladas para não serem irritantes. No entanto, alertou que esses ingredientes não devem ser usados em produtos cosméticos onde compostos N-nitroso possam ser formados. (CID: 5283454)",
+    "mechanisms": [
+      "Agonismo do receptor ativado por proliferadores de peroxissoma-α (PPAR-α)",
+      "Inibição da ceramidase"
+    ],
+    "therapeutic_potential": "O OEA demonstra potencial terapêutico no controle do peso corporal, na redução da inflamação e na modulação da dor, devido à sua capacidade de ativar o PPAR-α e inibir a ceramidase.",
+    "key_points": [
+      "Endocanabinoide-like, não se liga a receptores canabinoides clássicos.",
+      "Agonista do receptor PPAR-α, modulando metabolismo lipídico e inflamação.",
+      "Inibe a ceramidase, afetando a sinalização de esfingolipídios.",
+      "Potencial terapêutico em controle de peso, inflamação e dor.",
+      "Considerado seguro para uso em cosméticos, com qualificações para evitar formação de N-nitroso compostos.",
+      "Fórmula molecular: C20H39NO2, Peso molecular: 325.5 g/mol."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "n-arachidonoyl-dopamine",
+    "name": "N-Arachidonoyl dopamine (NADA)",
+    "type": "cannabinoid",
+    "cid": 5282105,
+    "molecular_formula": "C28H41NO3",
+    "molecular_weight": "439.6",
+    "description": "A N-Arachidonoyl dopamine (NADA) é um endocanabinoide endógeno que atua como um ligante para o sistema endocanabinoide, embora seus mecanismos de ação completos ainda estejam sob investigação. Apesar de sua estrutura semelhante a outros endocanabinoides, a NADA não possui dados farmacológicos e toxicológicos extensos disponíveis no PubChem. A pesquisa preliminar sugere que a NADA pode interagir com receptores canabinoides e outros alvos, como os receptores vaniloides TRPV1, desempenhando um papel na modulação da dor e neuroinflamação. No entanto, a ausência de dados farmacológicos detalhados no PubChem indica que a compreensão de seus efeitos específicos e seu potencial terapêutico ainda está em estágios iniciais. Mais estudos são necessários para elucidar completamente seus mecanismos de ação, perfil de segurança e aplicações clínicas. (CID: 5282105)",
+    "mechanisms": [
+      "Interação com receptores canabinoides (CB1 e CB2, embora menos potente que anandamida)",
+      "Agonismo do receptor vaniloide TRPV1"
+    ],
+    "therapeutic_potential": "O potencial terapêutico da NADA é promissor na modulação da dor e neuroinflamação, mas requer mais pesquisa para validação e compreensão aprofundada de seus mecanismos e segurança.",
+    "key_points": [
+      "Endocanabinoide endógeno.",
+      "Potencialmente interage com receptores canabinoides e TRPV1.",
+      "Pode estar envolvido na modulação da dor e neuroinflamação.",
+      "Dados farmacológicos e toxicológicos detalhados são limitados no PubChem.",
+      "Fórmula molecular: C28H41NO3, Peso molecular: 439.6 g/mol."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "virodhamine",
+    "name": "Virodhamine (O-arachidonoyl ethanolamine)",
+    "type": "cannabinoid",
+    "cid": 5712057,
+    "molecular_formula": "C22H37NO2",
+    "molecular_weight": "347.5",
+    "description": "A Virodhamine, também conhecida como O-arachidonoyl ethanolamine, é um endocanabinoide que interage com e modula a atividade dos receptores canabinoides. Descoberta como um ligante endógeno, a virodhamine é um éster do ácido araquidônico e etanolamina, distinguindo-se da anandamida (N-arachidonoyl ethanolamine) por sua ligação éster em vez de amida. Esta diferença estrutural confere à virodhamine um perfil farmacológico distinto. Embora seja um agonista parcial para o receptor CB1 e um agonista completo para o receptor CB2, sua afinidade para o CB1 é menor do que a anandamida. A virodhamine é considerada um 'endocanabinoide inverso' ou 'antagonista funcional' no CB1 em algumas condições, o que sugere um papel complexo na regulação do sistema endocanabinoide. A pesquisa sobre a virodhamine ainda está em andamento, mas seu envolvimento na modulação da dor, inflamação e neuroproteção é de grande interesse. Não há dados de toxicidade disponíveis no PubChem para este composto, indicando a necessidade de mais estudos para determinar seu perfil de segurança completo. (CID: 5712057)",
+    "mechanisms": [
+      "Agonismo parcial do receptor canabinoide CB1",
+      "Agonismo completo do receptor canabinoide CB2"
+    ],
+    "therapeutic_potential": "A Virodhamine apresenta potencial terapêutico na modulação da dor, inflamação e neuroproteção, dada sua interação com os receptores canabinoides, mas requer mais investigação para aplicações clínicas.",
+    "key_points": [
+      "Endocanabinoide que modula receptores canabinoides.",
+      "Agonista parcial do receptor CB1 e agonista completo do CB2.",
+      "Considerada um 'endocanabinoide inverso' ou 'antagonista funcional' no CB1 em certas condições.",
+      "Potencial envolvimento na dor, inflamação e neuroproteção.",
+      "Dados de toxicidade limitados, necessitando de mais pesquisa.",
+      "Fórmula molecular: C22H37NO2, Peso molecular: 347.5 g/mol."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "2-arachidonyl-glyceryl-ether",
+    "name": "2-Arachidonyl glyceryl ether (Noladin ether)",
+    "type": "cannabinoid",
+    "cid": 6483057,
+    "molecular_formula": "C23H40O3",
+    "molecular_weight": "364.6",
+    "description": "O 2-Arachidonyl glyceryl ether, também conhecido como Noladin ether, é um endocanabinoide, uma molécula lipídica produzida naturalmente pelo corpo. Embora não seja encontrado diretamente na planta Cannabis, ele interage com o sistema endocanabinoide (SEC), um sistema complexo de sinalização celular presente em mamíferos que desempenha um papel crucial na regulação de diversas funções fisiológicas, incluindo humor, apetite, dor e memória. O Noladin ether é um agonista parcial dos receptores canabinoides CB1 e CB2, o que significa que ele se liga a esses receptores e os ativa, embora com uma eficácia menor do que agonistas completos como o THC. Sua ação ocorre tanto no ambiente extracelular quanto na membrana celular. A pesquisa sobre o Noladin ether ainda está em estágios iniciais, mas sugere um potencial terapêutico em áreas como a modulação da dor e inflamação, devido à sua interação com o SEC. No entanto, são necessários mais estudos para compreender completamente seus efeitos e aplicações clínicas.",
+    "mechanisms": [
+      "Agonismo parcial dos receptores canabinoides CB1",
+      "Agonismo parcial dos receptores canabinoides CB2"
+    ],
+    "therapeutic_potential": "O potencial terapêutico do Noladin ether está relacionado à sua capacidade de modular o sistema endocanabinoide, sugerindo possíveis aplicações no manejo da dor, inflamação e outras condições reguladas pelo SEC. No entanto, a pesquisa ainda é limitada e mais estudos são necessários para confirmar esses benefícios.",
+    "key_points": [
+      "Endocanabinoide lipídico produzido naturalmente pelo corpo.",
+      "Agonista parcial dos receptores canabinoides CB1 e CB2.",
+      "Interage com o sistema endocanabinoide (SEC) em mamíferos.",
+      "Sua ação ocorre no ambiente extracelular e na membrana celular.",
+      "Peso molecular de 364.6 g/mol.",
+      "XLogP de 5.7, indicando alta lipofilicidade.",
+      "CID PubChem: 6483057."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "n-arachidonoyl-glycine",
+    "name": "N-Arachidonoyl glycine (NAGly)",
+    "type": "cannabinoid",
+    "cid": 5283389,
+    "molecular_formula": "C22H35NO3",
+    "molecular_weight": "361.5",
+    "description": "A N-Arachidonoyl glycine (NAGly) é um endocanabinoide, uma molécula lipídica endógena que faz parte do sistema endocanabinoide (SEC). Embora não seja um componente direto da planta Cannabis, a NAGly é sintetizada no corpo e interage com o SEC, um sistema complexo que regula uma vasta gama de processos fisiológicos. A NAGly é conhecida por atuar como um ligante para o receptor GPR18, um receptor órfão que tem sido implicado em diversas funções biológicas, incluindo a regulação da pressão intraocular, inflamação e dor. Além disso, a NAGly pode modular a atividade de outros receptores e enzimas envolvidos na sinalização lipídica. Sua ação ocorre predominantemente na membrana celular. A pesquisa sobre a NAGly está em andamento, com estudos explorando seu potencial como alvo terapêutico para condições como glaucoma, dor neuropática e inflamação. No entanto, a compreensão completa de seus mecanismos de ação e seu perfil terapêutico ainda requer mais investigação.",
+    "mechanisms": [
+      "Ligação e ativação do receptor GPR18",
+      "Modulação de outros receptores e enzimas envolvidos na sinalização lipídica"
+    ],
+    "therapeutic_potential": "O potencial terapêutico da NAGly reside na sua capacidade de modular o receptor GPR18 e outros alvos, sugerindo possíveis aplicações no tratamento de glaucoma, dor neuropática e condições inflamatórias. A pesquisa continua a explorar essas avenidas.",
+    "key_points": [
+      "Endocanabinoide lipídico endógeno.",
+      "Atua como ligante para o receptor GPR18.",
+      "Pode modular outros receptores e enzimas lipídicas.",
+      "Sua ação ocorre na membrana celular.",
+      "Peso molecular de 361.5 g/mol.",
+      "XLogP de 5.6, indicando alta lipofilicidade.",
+      "CID PubChem: 5283389."
+    ],
+    "subtype": "endocannabinoid"
+  },
+  {
+    "id": "stearoylethanolamide",
+    "name": "Stearoylethanolamide (SEA)",
+    "type": "cannabinoid",
+    "cid": 27902,
+    "molecular_formula": "C20H41NO2",
+    "molecular_weight": "327.5",
+    "description": "A Stearoylethanolamide (SEA) é uma N-aciletanolamida, uma molécula lipídica endógena que, embora não seja um canabinoide clássico, é considerada um composto \"canabinoide-like\" devido à sua interação com o sistema endocanabinoide (SEC). A SEA é encontrada naturalmente em tecidos de mamíferos e, embora não se ligue diretamente aos receptores canabinoides CB1 e CB2 com alta afinidade, ela pode modular o SEC por meio de outros mecanismos, como a inibição da degradação de outros endocanabinoides ou a interação com receptores não-CB1/CB2, como o PPAR-alfa. Sua ação ocorre tanto no ambiente extracelular quanto na membrana celular. A pesquisa sobre a SEA sugere um papel em processos como a regulação da inflamação, dor e metabolismo lipídico. O Painel de Especialistas do CIR concluiu que as etanolamidas, incluindo a SEA, são seguras nas práticas atuais de uso e concentração em cosméticos, desde que formuladas para não serem irritantes e não formem compostos N-nitroso. No entanto, para aplicações terapêuticas, mais estudos são necessários para elucidar completamente seus mecanismos e eficácia.",
+    "mechanisms": [
+      "Modulação indireta do sistema endocanabinoide",
+      "Inibição da degradação de outros endocanabinoides",
+      "Interação com receptores não-CB1/CB2, como PPAR-alfa"
+    ],
+    "therapeutic_potential": "A SEA apresenta potencial terapêutico na modulação da inflamação, dor e metabolismo lipídico, devido à sua interação com o sistema endocanabinoide e outros alvos. Embora considerada segura para uso cosmético, sua aplicação terapêutica requer mais investigação para determinar eficácia e segurança em contextos clínicos.",
+    "key_points": [
+      "N-aciletanolamida endógena, considerada \"canabinoide-like\".",
+      "Não se liga diretamente aos receptores CB1/CB2 com alta afinidade.",
+      "Pode modular o SEC por inibição da degradação de endocanabinoides ou interação com PPAR-alfa.",
+      "Sua ação ocorre no ambiente extracelular e na membrana celular.",
+      "Peso molecular de 327.5 g/mol.",
+      "XLogP de 7.3, indicando alta lipofilicidade.",
+      "CID PubChem: 27902.",
+      "Considerada segura para uso em cosméticos sob certas condições."
+    ],
+    "subtype": "endocannabinoid_like"
+  },
+  {
+    "id": "linoleoylethanolamide",
+    "name": "Linoleoylethanolamide (LEA)",
+    "type": "cannabinoid",
+    "cid": 5283446,
+    "molecular_formula": "C20H37NO2",
+    "molecular_weight": "323.5",
+    "description": "O Linoleoylethanolamide (LEA) é um composto lipídico endógeno, classificado como um endocanabinoide-símile, o que significa que ele compartilha semelhanças estruturais e funcionais com os endocanabinoides clássicos, mas pode não interagir diretamente com os receptores canabinoides clássicos (CB1 e CB2) da mesma forma. É um derivado do ácido linoleico, um ácido graxo essencial ômega-6, e da etanolamina. Embora não seja um fitocanabinoide encontrado diretamente na planta de cannabis, sua relevância farmacológica reside na sua participação em vias bioquímicas que podem ser moduladas por componentes da cannabis. A pesquisa sobre o LEA ainda está em estágios iniciais, mas sugere um papel potencial na modulação de processos biológicos, como inflamação e metabolismo lipídico. Em termos de segurança, o Painel de Especialistas do CIR concluiu que os etanolamidas, incluindo o LEA, são seguros para uso em cosméticos nas concentrações e práticas atuais, desde que formulados para não serem irritantes. No entanto, alertaram para não usar esses ingredientes em produtos cosméticos onde compostos N-nitroso possam ser formados. (CID: 5283446)",
+    "mechanisms": [
+      "Modulação de vias de sinalização lipídica",
+      "Interação com alvos ainda não totalmente elucidados, distintos dos receptores CB1/CB2"
+    ],
+    "therapeutic_potential": "O potencial terapêutico do LEA está sob investigação, com possíveis implicações na modulação da inflamação e no metabolismo lipídico, embora mais pesquisas sejam necessárias para confirmar esses efeitos e sua relevância clínica.",
+    "key_points": [
+      "Endocanabinoide-símile, derivado do ácido linoleico.",
+      "Pode modular processos biológicos como inflamação e metabolismo lipídico.",
+      "Considerado seguro para uso em cosméticos, com qualificações, pelo Painel de Especialistas do CIR.",
+      "Peso molecular de 323.5 g/mol.",
+      "XLogP de 5.6, indicando alta lipofilicidade.",
+      "Atua em locais extracelulares e na membrana celular."
+    ],
+    "subtype": "endocannabinoid_like"
+  },
+  {
+    "id": "docosahexaenoylethanolamide",
+    "name": "Docosahexaenoylethanolamide (Synaptamide)",
+    "type": "cannabinoid",
+    "cid": 5283451,
+    "molecular_formula": "C24H37NO2",
+    "molecular_weight": "371.6",
+    "description": "O Docosahexaenoylethanolamide, também conhecido como Synaptamide, é um lipídio endógeno que pertence à classe dos endocanabinoides-símiles. É um derivado do ácido docosahexaenoico (DHA), um ácido graxo ômega-3 essencial abundante no cérebro e crucial para o desenvolvimento e função neural. O Synaptamide é de particular interesse devido ao seu papel emergente na neurobiologia. Ele atua como um sinalizador lipídico que pode influenciar a neurogênese, a sinaptogênese e a plasticidade sináptica, processos fundamentais para a aprendizagem e a memória. Embora não seja um canabinoide clássico, sua capacidade de modular a função cerebral o posiciona como um alvo potencial para intervenções terapêuticas em distúrbios neurológicos e psiquiátricos. A pesquisa atual explora como o Synaptamide pode promover a saúde cerebral e proteger contra danos neuronais. Sua farmacologia indica ação em locais extracelulares e na membrana celular, sugerindo um papel na comunicação intercelular. (CID: 5283451)",
+    "mechanisms": [
+      "Modulação da neurogênese",
+      "Promoção da sinaptogênese",
+      "Influência na plasticidade sináptica",
+      "Sinalização lipídica no sistema nervoso central"
+    ],
+    "therapeutic_potential": "O Synaptamide demonstra um promissor potencial terapêutico em distúrbios neurológicos e psiquiátricos, dada sua capacidade de promover a saúde cerebral, a formação de novas conexões neuronais e a plasticidade sináptica. Pode ser um alvo para o desenvolvimento de terapias para condições como depressão, Alzheimer e lesões cerebrais.",
+    "key_points": [
+      "Endocanabinoide-símile derivado do ácido docosahexaenoico (DHA).",
+      "Conhecido como Synaptamide devido ao seu papel na sinaptogênese.",
+      "Promove neurogênese, sinaptogênese e plasticidade sináptica.",
+      "Peso molecular de 371.6 g/mol.",
+      "XLogP de 5.3, indicando alta lipofilicidade.",
+      "Atua em locais extracelulares e na membrana celular."
+    ],
+    "subtype": "endocannabinoid_like"
   }
 ]
