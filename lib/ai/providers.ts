@@ -19,7 +19,7 @@ export function getLanguageModel(modelId: string) {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel(modelId);
   }
-  return openai("gpt-5.4");
+  return openai("gpt-5.4-mini");
 }
 
 export function getTitleModel() {

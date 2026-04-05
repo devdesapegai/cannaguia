@@ -421,7 +421,7 @@ Query reescrita:`,
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools: [],
-          providerOptions: { google: { thinkingConfig: { thinkingBudget: 0 } } },
+          providerOptions: { google: { thinkingConfig: { thinkingBudget: 0 } }, openai: { reasoningEffort: "none", textVerbosity: "high" } },
           tools: {},
           experimental_telemetry: {
             isEnabled: isProductionEnvironment,
