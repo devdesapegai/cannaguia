@@ -499,26 +499,13 @@ textarea:focus-visible {
   isolation: isolate;
 }
 
-/* CannaGuia: bold text in green */
-strong, b {
-  color: oklch(0.65 0.2 145) !important;
-  font-weight: 600;
-}
-
-.dark strong, .dark b {
-  color: oklch(0.75 0.2 145) !important;
-}
-
-/* Force green bold in Streamdown rendered content */
-[data-streamdown] strong,
-[data-streamdown] b,
-[data-slot="message-response"] strong,
-[data-slot="message-response"] b {
-  color: #22c55e !important;
-  font-weight: 600;
-}
-
-/* Streamdown renders bold as <span data-streamdown="strong"> not <strong> */
-[data-streamdown="strong"] {
-  color: #22c55e !important;
+/* CannaGuia: headers in green inside chat messages */
+[data-streamdown] h1,
+[data-streamdown] h2,
+[data-streamdown] h3,
+[data-slot="message-response"] h1,
+[data-slot="message-response"] h2,
+[data-slot="message-response"] h3 {
+  color: #22c55e;
+  font-weight: 700;
 }
