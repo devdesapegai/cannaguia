@@ -307,7 +307,7 @@ export async function POST(request: Request) {
     // Skip RAG for greetings/casual messages
     const greetingPattern = /^(oi|ola|ol[aá]|eai|e ai|bom dia|boa tarde|boa noite|hey|hello|fala|salve|tudo bem|como vai|obrigad[oa]|valeu|brigad[oa]|flw|vlw|tchau|ate mais)[!?.,\s]*$/i;
     const casualPattern = /^[\w\s,!?.áéíóúâêôãõçà]*(obrigad[oa]|valeu|brigad[oa]|legal|entendi|ok|show|massa|top|beleza|blz|tmj|vlw|flw|tchau|falou|ta bom|tá bom|ah sim|ah ok|uhum|hmm|haha|kk|rs)[\w\s,!?.áéíóúâêôãõçà]*$/i;
-    const isGreeting = greetingPattern.test(userText.trim()) || casualPattern.test(userText.trim());
+    const isGreeting = greetingPattern.test(userText.trim()) || (userText.trim().split(/\s+/).length <= 10 && casualPattern.test(userText.trim()));
 
     // Build RAG query with conversation context
     const recentUserTexts = uiMessages
