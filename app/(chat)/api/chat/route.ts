@@ -22,6 +22,7 @@ import {
 } from "@/lib/ai/models";
 import { type RequestHints, systemPrompt } from "@/lib/ai/prompts";
 import { getLanguageModel, getTitleModel } from "@/lib/ai/providers";
+import { withRetry, getCircuitState } from "@/lib/ai/retry";
 import { isProductionEnvironment } from "@/lib/constants";
 import {
   createStreamId,
@@ -55,7 +56,9 @@ import {
   checkInputGuardrails,
   checkOutputGuardrails,
 } from "@/lib/guardrails";
+import { checkModeration, getModerationBlockMessage } from "@/lib/guardrails/moderation";
 import { getLangfuse } from "@/lib/langfuse";
+import { getSafetyIdentifier, isIdentifierBlocked } from "@/lib/ai/safety";
 
 export const maxDuration = 60;
 
@@ -226,6 +229,7 @@ export async function POST(request: Request) {
             parts: message.parts,
             attachments: (message as any).attachments ?? (message as any).parts?.filter((p: any) => p.type === "file") ?? [],
             createdAt: new Date(),
+            responseId: null,
           },
         ],
       });
@@ -301,8 +305,9 @@ export async function POST(request: Request) {
     }
 
     // Skip RAG for greetings/casual messages
-    const greetingPattern = /^(oi|ola|ol[aá]|eai|e ai|bom dia|boa tarde|boa noite|hey|hello|fala|salve|tudo bem|como vai|obrigad[oa]|valeu|brigad[oa]|flw|vlw|tchau|ate mais)[!?.,s]*$/i;
-    const isGreeting = greetingPattern.test(userText.trim());
+    const greetingPattern = /^(oi|ola|ol[aá]|eai|e ai|bom dia|boa tarde|boa noite|hey|hello|fala|salve|tudo bem|como vai|obrigad[oa]|valeu|brigad[oa]|flw|vlw|tchau|ate mais)[!?.,\s]*$/i;
+    const casualPattern = /^[\w\s,!?.áéíóúâêôãõçà]*(obrigad[oa]|valeu|brigad[oa]|legal|entendi|ok|show|massa|top|beleza|blz|tmj|vlw|flw|tchau|falou|ta bom|tá bom|ah sim|ah ok|uhum|hmm|haha|kk|rs)[\w\s,!?.áéíóúâêôãõçà]*$/i;
+    const isGreeting = greetingPattern.test(userText.trim()) || casualPattern.test(userText.trim());
 
     // Build RAG query with conversation context
     const recentUserTexts = uiMessages
@@ -323,7 +328,7 @@ export async function POST(request: Request) {
     if (!isGreeting && isAmbiguous) {
       try {
         const contextForRewrite = recentUserTexts.slice(-3).join(" | ");
-        const { text: rewritten } = await generateText({
+        const { result: { text: rewritten } } = await withRetry(() => generateText({
           model: getTitleModel(),
           maxOutputTokens: 80,
           temperature: 0,
@@ -332,7 +337,7 @@ export async function POST(request: Request) {
 Conversa recente: ${contextForRewrite}
 Query atual: ${userText}
 Query reescrita:`,
-        });
+        }), "query-rewrite");
         if (rewritten.trim()) ragQuery = rewritten.trim();
       } catch (_) {
         // fallback: concatenate recent messages
@@ -343,15 +348,45 @@ Query reescrita:`,
       ragQuery = recentUserTexts.slice(-2).join(" ") + " " + userText;
     }
 
+    // Run moderation + RAG in parallel (independent operations)
     const ragSpan = lfTrace.span({
       name: "rag-search",
       input: { query: ragQuery, originalQuery: userText, rewritten: ragQuery !== userText, topK: 4, skipped: isGreeting },
     });
+    const moderationSpan = lfTrace.span({ name: "openai-moderation", input: { textLength: userText.length } });
     const ragStart = Date.now();
-    const { results: localResults, searchMode, vectorError, keywordTopScore, vectorTopScore, lowConfidence } = isGreeting
-      ? { results: [], searchMode: "keyword" as const, vectorError: undefined, keywordTopScore: undefined, vectorTopScore: undefined, lowConfidence: undefined }
-      : await searchAll(ragQuery, 4);
+    const [ragResult, inputModeration] = await Promise.all([
+      isGreeting
+        ? Promise.resolve({ results: [] as Awaited<ReturnType<typeof searchAll>>["results"], searchMode: "keyword" as const, vectorError: undefined, keywordTopScore: undefined, vectorTopScore: undefined, lowConfidence: undefined })
+        : searchAll(ragQuery, 4),
+      checkModeration(userText),
+    ]);
+    const { results: localResults, searchMode, vectorError, keywordTopScore, vectorTopScore, lowConfidence } = ragResult;
     const ragLatencyMs = Date.now() - ragStart;
+    moderationSpan.end({ output: { flagged: inputModeration.flagged, categories: inputModeration.categories, error: inputModeration.error } });
+
+    // Block if OpenAI moderation flags the input
+    if (inputModeration.flagged) {
+      const safeResponse = getModerationBlockMessage(inputModeration.categories);
+      lfTrace.update({ output: safeResponse, metadata: { blocked: true, blockedBy: "moderation" } });
+      after(async () => {
+        insertChatLog({
+          chatId: id,
+          userId: session.user.id!,
+          userText,
+          searchMode: "keyword",
+          latencyMs: Date.now() - startTime,
+          inputFlagged: true,
+          inputFlagReason: "moderation",
+          actionTaken: "blocked",
+        });
+        await langfuse.flushAsync();
+      });
+      return new Response(
+        JSON.stringify({ error: safeResponse }),
+        { status: 200, headers: { "Content-Type": "application/json" } },
+      );
+    }
     ragSpan.end({
       output: {
         resultCount: localResults.length,
@@ -409,20 +444,35 @@ Query reescrita:`,
       conversationContext +
       lowConfidenceWarning;
 
+    // Get previousResponseId from last assistant message for CoT continuity (GPT-5.4)
+    const lastAssistantMsg = [...messagesFromDb].reverse().find(m => m.role === "assistant");
+    const previousResponseId = (lastAssistantMsg as any)?.responseId ?? null;
+
+    // Circuit breaker check before starting stream
+    if (getCircuitState() === "open") {
+      return new Response(
+        JSON.stringify({ error: "O servico esta temporariamente indisponivel. Tente novamente em alguns segundos." }),
+        { status: 503, headers: { "Content-Type": "application/json", "Retry-After": "30" } },
+      );
+    }
+
+    let capturedResponseId: string | null;
     const stream = createUIMessageStream({
       originalMessages: isToolApprovalFlow ? uiMessages : undefined,
       execute: async ({ writer: dataStream }) => {
         const result = streamText({
           model: getLanguageModel(chatModel),
           system: fullSystemPrompt,
-          maxOutputTokens: 700,
+          maxOutputTokens: 1500,
           temperature: 0.7,
-          topP: 0.9,
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools: [],
-          providerOptions: { google: { thinkingConfig: { thinkingBudget: 0 } }, openai: { reasoningEffort: "none", textVerbosity: "high" } },
+          providerOptions: { openai: { previousResponseId, reasoningEffort: "none", textVerbosity: "medium", systemMessageMode: "developer", user: getSafetyIdentifier(session.user.id!, isGuestUser, id) } },
           tools: {},
+          onFinish: async (event) => {
+            capturedResponseId = (event.providerMetadata?.openai as any)?.responseId ?? null;
+          },
           experimental_telemetry: {
             isEnabled: isProductionEnvironment,
             functionId: "stream-text",
@@ -478,6 +528,26 @@ Query reescrita:`,
           }
         }
 
+        // Output moderation: check assistant text for hate/violence/etc
+        const assistantFullText = finishedMessages
+          .filter((m) => m.role === "assistant")
+          .flatMap((m) => (m.parts ?? []).filter((p: any) => p.type === "text").map((p: any) => p.text))
+          .join("");
+        if (assistantFullText) {
+          const outputModeration = await checkModeration(assistantFullText);
+          if (outputModeration.flagged) {
+            outputFlagged = true;
+            outputAction = "moderation_replaced";
+            const safeText = getModerationBlockMessage(outputModeration.categories);
+            for (const msg of finishedMessages) {
+              if (msg.role !== "assistant") continue;
+              (msg as any).parts = msg.parts.map((p: any) =>
+                p.type === "text" ? { ...p, text: safeText } : p,
+              );
+            }
+          }
+        }
+
         outputGuardrailSpan.end({
           output: { flagged: outputFlagged, violations: outputViolations, action: outputAction },
         });
@@ -500,6 +570,7 @@ Query reescrita:`,
                     createdAt: new Date(),
                     attachments: (finishedMsg as any).parts?.filter((p: any) => p.type === "file") ?? [],
                     chatId: id,
+                    responseId: finishedMsg.role === "assistant" ? capturedResponseId : null,
                   },
                 ],
               });
@@ -514,6 +585,7 @@ Query reescrita:`,
               createdAt: new Date(),
               attachments: (currentMessage as any).parts?.filter((p: any) => p.type === "file") ?? [],
               chatId: id,
+              responseId: currentMessage.role === "assistant" ? capturedResponseId : null,
             })),
           });
         }
@@ -627,6 +699,10 @@ Query reescrita:`,
       )
     ) {
       return new ChatbotError("bad_request:activate_gateway").toResponse();
+    }
+
+    if (isIdentifierBlocked(error)) {
+      return new ChatbotError("forbidden:chat", "Sua conta foi temporariamente restrita. Entre em contato com o suporte.").toResponse();
     }
 
     console.error("Unhandled error in chat API:", error, { vercelId });
