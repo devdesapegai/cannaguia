@@ -5890,32 +5890,6 @@
     "source": "kayamind"
   },
   {
-    "id": "web-pagina-sem-conteudo-util-identificavel-registro-tecnico-da-u",
-    "title": "Página sem conteúdo útil identificável: registro técnico da URL “06”",
-    "category": "legislacao",
-    "area": "regulation-br",
-    "content": "A página intitulada “06”, conforme o conteúdo fornecido, não apresenta material editorial, informativo ou regulatório aproveitável sobre cannabis medicinal, Anvisa, importação, prescrição, associações ou jurisprudência. O texto disponível contém apenas elementos residuais de interface, como “Subscribe”, “Login”, aviso do Akismet sobre tratamento de dados em comentários e contador de comentários. Em termos de curadoria documental, trata-se de uma URL sem conteúdo substantivo identificável.\n\nPara fins de organização de base de conhecimento, o mais adequado é classificar essa entrada como registro técnico ou página vazia, sem extração de tese, procedimento ou orientação prática. Não há menção a RDCs, decisões judiciais, fluxos administrativos, prazos, requisitos documentais ou qualquer informação normativa que permita conversão em documento jurídico-informativo.\n\nEm projetos de inteligência regulatória ou curadoria de conteúdo, páginas desse tipo devem passar por triagem de qualidade antes de integrarem relatórios, bancos de dados ou materiais de referência. O procedimento recomendado é: verificar se houve erro de captura, confirmar se a URL estava incompleta, testar versão em cache ou arquivada e, se persistir a ausência de conteúdo, marcar o item como “sem conteúdo aproveitável”.\n\nCaso a intenção original fosse remeter a um capítulo, relatório ou landing page específica da Kaya Mind, será necessário obter a versão correta da página para nova análise. Sem isso, não é possível identificar tema, categoria material ou relevância jurídica. Portanto, a presente curadoria registra apenas a inexistência de conteúdo útil no material fornecido.",
-    "key_points": [
-      "A URL analisada não contém conteúdo editorial relevante.",
-      "O texto disponível é apenas de interface e comentários do site.",
-      "Não há referências a RDCs, Anvisa, decisões judiciais ou procedimentos.",
-      "Não é possível extrair orientação prática ou tese jurídica do material.",
-      "O item deve ser classificado como página sem conteúdo aproveitável.",
-      "Recomenda-se verificar erro de captura ou URL incompleta.",
-      "Pode ser útil consultar cache, arquivo web ou versão correta da página.",
-      "Não deve integrar base temática sem validação prévia.",
-      "A curadoria registra apenas a insuficiência informacional do item.",
-      "Nova análise depende do conteúdo correto da página."
-    ],
-    "warnings": [
-      "Não utilize esta página como fonte para decisões jurídicas, regulatórias ou de mercado.",
-      "A ausência de conteúdo pode decorrer de erro de coleta, página removida ou URL incorreta.",
-      "É necessária validação manual antes de indexar o item em acervo temático."
-    ],
-    "source_url": "https://kayamind.com/relatorios/06-2/",
-    "source": "kayamind"
-  },
-  {
     "id": "web-drogavet-original-possivel-tema-veterinario-mas-sem-texto-pa",
     "title": "Drogavet Original: possível tema veterinário, mas sem texto para análise conclusiva",
     "category": "prescricao",

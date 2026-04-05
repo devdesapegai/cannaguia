@@ -294,10 +294,12 @@ export async function voteMessage({
   chatId,
   messageId,
   type,
+  reason,
 }: {
   chatId: string;
   messageId: string;
   type: "up" | "down";
+  reason?: string | null;
 }) {
   try {
     const [existingVote] = await db
@@ -308,13 +310,14 @@ export async function voteMessage({
     if (existingVote) {
       return await db
         .update(vote)
-        .set({ isUpvoted: type === "up" })
+        .set({ isUpvoted: type === "up", ...(reason !== undefined ? { reason } : {}) })
         .where(and(eq(vote.messageId, messageId), eq(vote.chatId, chatId)));
     }
     return await db.insert(vote).values({
       chatId,
       messageId,
       isUpvoted: type === "up",
+      reason: reason ?? null,
     });
   } catch (_error) {
     throw new ChatbotError("bad_request:database", "Failed to vote message");

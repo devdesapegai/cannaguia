@@ -1,5 +1,7 @@
+"use client";
+
 import equal from "fast-deep-equal";
-import { memo } from "react";
+import { memo, useState } from "react";
 import { toast } from "sonner";
 import { useSWRConfig } from "swr";
 import { useCopyToClipboard } from "usehooks-ts";
@@ -10,6 +12,14 @@ import {
   MessageActions as Actions,
 } from "../ai-elements/message";
 import { CopyIcon, PencilEditIcon, ThumbDownIcon, ThumbUpIcon } from "./icons";
+import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+
+const REPORT_REASONS = [
+  { value: "incorrect", label: "Informacao incorreta" },
+  { value: "dangerous", label: "Resposta perigosa" },
+  { value: "off_topic", label: "Fora do tema" },
+  { value: "other", label: "Outro" },
+] as const;
 
 export function PureMessageActions({
   chatId,
@@ -26,6 +36,7 @@ export function PureMessageActions({
 }) {
   const { mutate } = useSWRConfig();
   const [_, copyToClipboard] = useCopyToClipboard();
+  const [reportOpen, setReportOpen] = useState(false);
 
   if (isLoading) {
     return null;
@@ -45,6 +56,48 @@ export function PureMessageActions({
 
     await copyToClipboard(textFromParts);
     toast.success("Copied to clipboard!");
+  };
+
+  const handleVote = (type: "up" | "down", reason?: string) => {
+    const votePromise = fetch(
+      `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote`,
+      {
+        method: "PATCH",
+        body: JSON.stringify({
+          chatId,
+          messageId: message.id,
+          type,
+          ...(reason ? { reason } : {}),
+        }),
+      }
+    );
+
+    toast.promise(votePromise, {
+      loading: type === "up" ? "Upvoting..." : "Downvoting...",
+      success: () => {
+        mutate<Vote[]>(
+          `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote?chatId=${chatId}`,
+          (currentVotes) => {
+            if (!currentVotes) return [];
+            const votesWithoutCurrent = currentVotes.filter(
+              (v) => v.messageId !== message.id
+            );
+            return [
+              ...votesWithoutCurrent,
+              {
+                chatId,
+                messageId: message.id,
+                isUpvoted: type === "up",
+                reason: reason ?? null,
+              },
+            ];
+          },
+          { revalidate: false }
+        );
+        return type === "up" ? "Upvoted!" : "Feedback enviado!";
+      },
+      error: "Erro ao votar.",
+    });
   };
 
   if (message.role === "user") {
@@ -87,107 +140,42 @@ export function PureMessageActions({
         className="text-muted-foreground/50 hover:text-foreground"
         data-testid="message-upvote"
         disabled={vote?.isUpvoted}
-        onClick={() => {
-          const upvote = fetch(
-            `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote`,
-            {
-              method: "PATCH",
-              body: JSON.stringify({
-                chatId,
-                messageId: message.id,
-                type: "up",
-              }),
-            }
-          );
-
-          toast.promise(upvote, {
-            loading: "Upvoting Response...",
-            success: () => {
-              mutate<Vote[]>(
-                `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote?chatId=${chatId}`,
-                (currentVotes) => {
-                  if (!currentVotes) {
-                    return [];
-                  }
-
-                  const votesWithoutCurrent = currentVotes.filter(
-                    (currentVote) => currentVote.messageId !== message.id
-                  );
-
-                  return [
-                    ...votesWithoutCurrent,
-                    {
-                      chatId,
-                      messageId: message.id,
-                      isUpvoted: true,
-                    },
-                  ];
-                },
-                { revalidate: false }
-              );
-
-              return "Upvoted Response!";
-            },
-            error: "Failed to upvote response.",
-          });
-        }}
+        onClick={() => handleVote("up")}
         tooltip="Upvote Response"
       >
         <ThumbUpIcon />
       </Action>
 
-      <Action
-        className="text-muted-foreground/50 hover:text-foreground"
-        data-testid="message-downvote"
-        disabled={vote && !vote.isUpvoted}
-        onClick={() => {
-          const downvote = fetch(
-            `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote`,
-            {
-              method: "PATCH",
-              body: JSON.stringify({
-                chatId,
-                messageId: message.id,
-                type: "down",
-              }),
-            }
-          );
-
-          toast.promise(downvote, {
-            loading: "Downvoting Response...",
-            success: () => {
-              mutate<Vote[]>(
-                `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/vote?chatId=${chatId}`,
-                (currentVotes) => {
-                  if (!currentVotes) {
-                    return [];
-                  }
-
-                  const votesWithoutCurrent = currentVotes.filter(
-                    (currentVote) => currentVote.messageId !== message.id
-                  );
-
-                  return [
-                    ...votesWithoutCurrent,
-                    {
-                      chatId,
-                      messageId: message.id,
-                      isUpvoted: false,
-                    },
-                  ];
-                },
-                { revalidate: false }
-              );
-
-              return "Downvoted Response!";
-            },
-            error: "Failed to downvote response.",
-          });
-        }}
-        tooltip="Downvote Response"
-      >
-        <ThumbDownIcon />
-      </Action>
+      <Popover open={reportOpen} onOpenChange={setReportOpen}>
+        <PopoverTrigger asChild>
+          <Action
+            className="text-muted-foreground/50 hover:text-foreground"
+            data-testid="message-downvote"
+            disabled={vote && !vote.isUpvoted}
+            onClick={() => setReportOpen(true)}
+            tooltip="Downvote Response"
+          >
+            <ThumbDownIcon />
+          </Action>
+        </PopoverTrigger>
+        <PopoverContent align="start" className="w-56 p-2">
+          <p className="px-2 py-1.5 text-xs font-medium text-muted-foreground">
+            Qual o problema?
+          </p>
+          {REPORT_REASONS.map(({ value, label }) => (
+            <button
+              key={value}
+              className="flex w-full items-center rounded-md px-2 py-1.5 text-sm hover:bg-muted transition-colors"
+              onClick={() => {
+                handleVote("down", value);
+                setReportOpen(false);
+              }}
+            >
+              {label}
+            </button>
+          ))}
+        </PopoverContent>
+      </Popover>
     </Actions>
   );
 }

@@ -76,6 +76,7 @@ export const message = pgTable("Message_v2", {
   parts: json("parts").notNull(),
   attachments: json("attachments").notNull(),
   createdAt: timestamp("createdAt").notNull(),
+  responseId: varchar("responseId", { length: 255 }),
 });
 
 export type DBMessage = InferSelectModel<typeof message>;
@@ -90,6 +91,7 @@ export const vote = pgTable(
       .notNull()
       .references(() => message.id),
     isUpvoted: boolean("isUpvoted").notNull(),
+    reason: text("reason"),
   },
   (table) => ({
     pk: primaryKey({ columns: [table.chatId, table.messageId] }),
