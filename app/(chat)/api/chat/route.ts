@@ -297,11 +297,17 @@ export async function POST(request: Request) {
       );
     }
 
+    // Skip RAG for greetings/casual messages
+    const greetingPattern = /^(oi|ola|ol[aá]|eai|e ai|bom dia|boa tarde|boa noite|hey|hello|fala|salve|tudo bem|como vai|obrigad[oa]|valeu|brigad[oa]|flw|vlw|tchau|ate mais)[!?.,s]*$/i;
+    const isGreeting = greetingPattern.test(userText.trim());
+
     const ragSpan = lfTrace.span({
       name: "rag-search",
-      input: { query: userText, topK: 4 },
+      input: { query: userText, topK: 4, skipped: isGreeting },
     });
-    const { results: localResults, searchMode } = await searchAll(userText, 4);
+    const { results: localResults, searchMode } = isGreeting
+      ? { results: [], searchMode: "keyword" as const }
+      : await searchAll(userText, 4);
     ragSpan.end({
       output: {
         resultCount: localResults.length,
