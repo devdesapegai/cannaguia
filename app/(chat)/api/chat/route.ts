@@ -474,7 +474,7 @@ Query reescrita:`,
         const result = streamText({
           model: getLanguageModel(chatModel),
           system: fullSystemPrompt,
-          maxOutputTokens: 900,
+          maxOutputTokens: 1500,
           temperature: 0.5,
           messages: modelMessages,
           stopWhen: stepCountIs(5),
