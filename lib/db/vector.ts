@@ -22,30 +22,26 @@ export async function findSimilarDocuments(
 > {
   const vectorStr = `[${embedding.join(",")}]`;
 
-  // Use transaction with SET LOCAL ef_search for better recall (works with PgBouncer)
-  const results = await db.transaction(async (tx) => {
-    await tx.execute(sql`SET LOCAL hnsw.ef_search = 100`);
-
-    if (typeFilter) {
-      return tx.execute(sql`
-        SELECT "id", "type", "title", "content",
-               1 - ("embedding" <=> ${vectorStr}::vector) as similarity
-        FROM "KnowledgeEmbedding"
-        WHERE "type" = ${typeFilter}
-        ORDER BY "embedding" <=> ${vectorStr}::vector
-        LIMIT ${topK}
-      `);
-    }
-
-    return tx.execute(sql`
+  // pgvector default hnsw.ef_search=40 is sufficient for ~3100 docs
+  // Removed transaction wrapper to save ~100ms (BEGIN/COMMIT round trips)
+  if (typeFilter) {
+    return db.execute(sql`
       SELECT "id", "type", "title", "content",
              1 - ("embedding" <=> ${vectorStr}::vector) as similarity
       FROM "KnowledgeEmbedding"
+      WHERE "type" = ${typeFilter}
       ORDER BY "embedding" <=> ${vectorStr}::vector
       LIMIT ${topK}
-    `);
-  });
-  return results as any;
+    `) as any;
+  }
+
+  return db.execute(sql`
+    SELECT "id", "type", "title", "content",
+           1 - ("embedding" <=> ${vectorStr}::vector) as similarity
+    FROM "KnowledgeEmbedding"
+    ORDER BY "embedding" <=> ${vectorStr}::vector
+    LIMIT ${topK}
+  `) as any;
 }
 
 /** Check if the KnowledgeEmbedding table has any records */

@@ -5,15 +5,46 @@ import { google } from "@ai-sdk/google";
 
 const EMBEDDING_MODEL = "gemini-embedding-001";
 
-const CACHE_TTL = 5 * 60 * 1000; // 5 min
-const CACHE_MAX = 100;
-const queryEmbeddingCache = new Map<string, { embedding: number[]; timestamp: number }>();
+// --- LRU Cache for query embeddings ---
+const CACHE_MAX = 200;
+const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
+interface CacheEntry {
+  embedding: number[];
+  timestamp: number;
+}
+
+const embeddingCache = new Map<string, CacheEntry>();
+
+function normalizeKey(text: string): string {
+  return text.toLowerCase().trim().replace(/\s+/g, " ");
+}
+
+function getCached(key: string): number[] | null {
+  const entry = embeddingCache.get(key);
+  if (!entry) return null;
+  if (Date.now() - entry.timestamp > CACHE_TTL) {
+    embeddingCache.delete(key);
+    return null;
+  }
+  // Move to end (most recently used)
+  embeddingCache.delete(key);
+  embeddingCache.set(key, entry);
+  return entry.embedding;
+}
+
+function setCache(key: string, embedding: number[]): void {
+  if (embeddingCache.size >= CACHE_MAX) {
+    const oldestKey = embeddingCache.keys().next().value;
+    if (oldestKey !== undefined) embeddingCache.delete(oldestKey);
+  }
+  embeddingCache.set(key, { embedding, timestamp: Date.now() });
+}
 
 export async function embedText(text: string): Promise<number[]> {
-  const cached = queryEmbeddingCache.get(text);
-  if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
-    return cached.embedding;
-  }
+  const cacheKey = normalizeKey(text);
+  const cached = getCached(cacheKey);
+  if (cached) return cached;
 
   const { embedding } = await embed({
     model: google.embedding(EMBEDDING_MODEL),
@@ -23,12 +54,7 @@ export async function embedText(text: string): Promise<number[]> {
     },
   });
 
-  // Evict oldest if full
-  if (queryEmbeddingCache.size >= CACHE_MAX) {
-    const oldest = queryEmbeddingCache.keys().next().value;
-    if (oldest) queryEmbeddingCache.delete(oldest);
-  }
-  queryEmbeddingCache.set(text, { embedding, timestamp: Date.now() });
+  setCache(cacheKey, embedding);
   return embedding;
 }
 

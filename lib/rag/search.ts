@@ -46,6 +46,9 @@ export interface Document {
   title: string;
   content: string;
   metadata: Record<string, unknown>;
+  /** Pre-computed normalized fields for keyword search */
+  _normalizedTitle?: string;
+  _normalizedContent?: string;
 }
 
 function normalize(text: string): string {
@@ -508,6 +511,12 @@ export function buildDocuments(): Document[] {
     });
   }
 
+  // Pre-normalize for keyword search (avoids re-normalizing on every query)
+  for (const doc of docs) {
+    (doc as any)._normalizedTitle = normalize(doc.title);
+    (doc as any)._normalizedContent = normalize(doc.content);
+  }
+
   return docs;
 }
 
@@ -517,6 +526,45 @@ function getDocs(): Document[] {
   if (!_docs) _docs = buildDocuments();
   return _docs;
 }
+// Keep short important terms like "pH", "CBD", "THC", "CBN"
+const STOPWORDS = new Set([
+  "de", "da", "do", "das", "dos", "em", "no", "na", "nos", "nas",
+  "um", "uma", "uns", "umas", "com", "por", "para", "pra", "pro",
+  "se", "ou", "que", "ao", "aos", "mais", "mas", "nem", "ja",
+  "ta", "to", "te", "me", "ele", "ela", "seu", "sua", "meu", "minha",
+  "isso", "isto", "esse", "essa", "este", "esta", "nao", "sim",
+  "como", "quando", "onde", "qual", "quais", "muito", "bem",
+  "ser", "ter", "vai", "vou", "tem", "sao", "foi", "era",
+  "the", "and", "for", "are", "but", "not", "you", "all",
+  "can", "had", "her", "was", "one", "our", "out", "has", "his",
+  "how", "its", "may", "new", "now", "old", "see", "way", "who",
+  "did", "get", "let", "say", "she", "too", "use", "with", "from",
+  "have", "been", "some", "than", "them", "then", "this", "that",
+  "what", "when", "will", "more", "also", "into", "only",
+]);
+
+// Synonyms: expand query terms to match content variations
+const SYNONYMS: Record<string, string[]> = {
+  autismo: ["autista", "tea", "espectro autista"],
+  tdah: ["deficit de atencao", "hiperatividade"],
+  enxaqueca: ["cefaleia", "dor de cabeca"],
+  insonia: ["sono", "dormir", "sonolento"],
+  ansiedade: ["ansioso", "ansiolitico"],
+  landrace: ["pura", "original", "nativa", "selvagem", "pure breed"],
+  autoflower: ["automatica", "autoflowering", "auto", "ruderalis"],
+  breeder: ["banco de sementes", "seedbank", "criador"],
+  gravidez: ["gestacao", "gravida", "prenatal", "gestante"],
+  chs: ["hiperemese", "hyperemesis", "vomito ciclico"],
+  vaporizar: ["vape", "vaping", "vaporizador", "dry herb"],
+  comestivel: ["edible", "gummy", "brownie", "bala"],
+  microdose: ["microdosagem", "dose baixa", "low dose"],
+  abstinencia: ["withdrawal", "cessacao", "parar de usar", "t-break"],
+  veterinario: ["animal", "pet", "cachorro", "gato", "cao"],
+  fibromialgia: ["dor difusa", "fibro"],
+  parkinson: ["tremor", "doenca de parkinson"],
+  esclerose: ["esclerose multipla", "multiple sclerosis"],
+  ratio: ["proporcao", "cbd thc", "thc cbd"],
+};
 
 export interface ScoredDocument {
   document: Document;
@@ -539,44 +587,6 @@ export function search(
 ): ScoredDocument[] {
   const docs = getDocs();
   const normalizedQuery = normalize(query);
-  const STOPWORDS = new Set([
-    "de", "da", "do", "das", "dos", "em", "no", "na", "nos", "nas",
-    "um", "uma", "uns", "umas", "com", "por", "para", "pra", "pro",
-    "se", "ou", "que", "ao", "aos", "mais", "mas", "nem", "ja",
-    "ta", "to", "te", "me", "ele", "ela", "seu", "sua", "meu", "minha",
-    "isso", "isto", "esse", "essa", "este", "esta", "nao", "sim",
-    "como", "quando", "onde", "qual", "quais", "muito", "bem",
-    "ser", "ter", "vai", "vou", "tem", "sao", "foi", "era",
-    "the", "and", "for", "are", "but", "not", "you", "all",
-    "can", "had", "her", "was", "one", "our", "out", "has", "his",
-    "how", "its", "may", "new", "now", "old", "see", "way", "who",
-    "did", "get", "let", "say", "she", "too", "use", "with", "from",
-    "have", "been", "some", "than", "them", "then", "this", "that",
-    "what", "when", "will", "more", "also", "into", "only",
-  ]);
-  // Keep short important terms like "pH", "CBD", "THC", "CBN"
-  // Synonyms: expand query terms to match content variations
-  const SYNONYMS: Record<string, string[]> = {
-    autismo: ["autista", "tea", "espectro autista"],
-    tdah: ["deficit de atencao", "hiperatividade"],
-    enxaqueca: ["cefaleia", "dor de cabeca"],
-    insonia: ["sono", "dormir", "sonolento"],
-    ansiedade: ["ansioso", "ansiolitico"],
-    landrace: ["pura", "original", "nativa", "selvagem", "pure breed"],
-    autoflower: ["automatica", "autoflowering", "auto", "ruderalis"],
-    breeder: ["banco de sementes", "seedbank", "criador"],
-    gravidez: ["gestacao", "gravida", "prenatal", "gestante"],
-    chs: ["hiperemese", "hyperemesis", "vomito ciclico"],
-    vaporizar: ["vape", "vaping", "vaporizador", "dry herb"],
-    comestivel: ["edible", "gummy", "brownie", "bala"],
-    microdose: ["microdosagem", "dose baixa", "low dose"],
-    abstinencia: ["withdrawal", "cessacao", "parar de usar", "t-break"],
-    veterinario: ["animal", "pet", "cachorro", "gato", "cao"],
-    fibromialgia: ["dor difusa", "fibro"],
-    parkinson: ["tremor", "doenca de parkinson"],
-    esclerose: ["esclerose multipla", "multiple sclerosis"],
-    ratio: ["proporcao", "cbd thc", "thc cbd"],
-  };
 
   let expandedQuery = normalizedQuery;
   for (const [term, synonyms] of Object.entries(SYNONYMS)) {
@@ -597,8 +607,8 @@ export function search(
   for (const doc of docs) {
     if (typeFilter && doc.type !== typeFilter) continue;
 
-    const normalizedContent = normalize(doc.content);
-    const normalizedTitle = normalize(doc.title);
+    const normalizedContent = doc._normalizedContent ?? normalize(doc.content);
+    const normalizedTitle = doc._normalizedTitle ?? normalize(doc.title);
     let score = 0;
 
     for (const word of words) {
@@ -888,8 +898,8 @@ function rerankResults(
 
   const reranked = results.map((r) => {
     let boost = 0;
-    const normalizedTitle = r.doc.title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    const normalizedContent = r.doc.content.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const normalizedTitle = r.doc._normalizedTitle ?? normalize(r.doc.title);
+    const normalizedContent = r.doc._normalizedContent ?? normalize(r.doc.content);
 
     // Title match boost: query words in title
     const titleWords = queryWords.filter((w) => normalizedTitle.includes(w));
@@ -947,8 +957,8 @@ async function hybridSearch(
 
   let vectorError: string | undefined;
   const [keywordResults, vectorResults] = await Promise.all([
-    Promise.resolve(search(query, topK * 3, typeFilter)),
-    vectorSearch(query, topK * 3, typeFilter).catch((err) => {
+    Promise.resolve(search(query, topK * 2, typeFilter)),
+    vectorSearch(query, topK * 2, typeFilter).catch((err) => {
       const msg = err instanceof Error ? err.message : String(err);
       console.error("[hybridSearch] Vector search failed, keyword-only:", msg);
       vectorError = msg;
@@ -961,12 +971,11 @@ async function hybridSearch(
 
   // If vector search failed, return keyword-only with error info
   if (vectorResults.length === 0) {
-    const kwResults = search(query, topK, typeFilter);
     return {
-      results: kwResults,
+      results: keywordResults.slice(0, topK),
       searchMode: "keyword",
       vectorError,
-      keywordTopScore: kwResults[0]?.score ?? 0,
+      keywordTopScore,
     };
   }
 
@@ -996,7 +1005,7 @@ async function hybridSearch(
   const sorted = Array.from(rrfScores.values()).sort((a, b) => b.score - a.score);
 
   // Rerank top results for better precision
-  const reranked = rerankResults(sorted.slice(0, topK * 3), query, topK);
+  const reranked = rerankResults(sorted.slice(0, topK * 2), query, topK);
   const topScore = reranked[0]?.score ?? 0;
   const lowConfidence = topScore < LOW_CONFIDENCE_THRESHOLD;
 
@@ -1012,7 +1021,7 @@ async function hybridSearch(
 // Cache with TTL: retry on failure instead of caching false permanently
 let _hasEmbeddings: boolean | null = null;
 let _hasEmbeddingsCheckedAt = 0;
-const CACHE_TTL_SUCCESS = 5 * 60 * 1000; // 5 min when true
+const CACHE_TTL_SUCCESS = 30 * 60 * 1000; // 30 min when true
 const CACHE_TTL_FAILURE = 30 * 1000;      // 30s when false (fast retry)
 
 export async function searchAll(
