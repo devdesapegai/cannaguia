@@ -38,19 +38,35 @@ function checkCureClaim(text: string): OutputViolation | null {
   let match;
 
   while ((match = curaRegex.exec(normalized)) !== null) {
-    const start = Math.max(0, match.index - 20);
+    // Expand context window for negation (40 chars back)
+    const start = Math.max(0, match.index - 40);
     const preceding = normalized.slice(start, match.index);
 
     // Skip if negated
-    const hasNegation = /\b(nao|nenhum[a]?|sem|nunca|jamais|nem|impossivel)\b/.test(preceding);
-    if (hasNegation) continue;
+    if (/\b(nao|nenhum[a]?|sem|nunca|jamais|nem|impossivel|dificil|embora|apesar)\b/.test(preceding)) continue;
 
-    // Skip if part of compound words like "cura" in "secagem e cura" (curing process)
-    const surroundingStart = Math.max(0, match.index - 30);
-    const surrounding = normalized.slice(surroundingStart, match.index + match[0].length + 20);
+    // Surrounding context
+    const surroundingStart = Math.max(0, match.index - 40);
+    const surroundingEnd = Math.min(normalized.length, match.index + match[0].length + 40);
+    const surrounding = normalized.slice(surroundingStart, surroundingEnd);
+
+    // Skip cultivation "cura" (curing process)
     if (/secagem\s+e\s+cura/.test(surrounding)) continue;
     if (/processo\s+de\s+cura/.test(surrounding)) continue;
-    if (/cura\s+(da|de|do)\s+(flor|planta|bud|colheita)/.test(surrounding)) continue;
+    if (/cura\s+(da|de|do)\s+(flor|planta|bud|colheita|erva)/.test(surrounding)) continue;
+    if (/cura[r]?\s+(as?|os?)\s+(flor|bud|planta)/.test(surrounding)) continue;
+
+    // Skip therapeutic/informational context (not absolute claim)
+    if (/\b(auxiliar|ajudar|contribuir|colaborar|apoiar)\b/.test(preceding)) continue;
+    if (/\b(busca|procura|pesquisa|estudo)\b/.test(preceding)) continue;
+    if (/\b(potencial|possibilidade|perspectiva|esperanca|chance)\b/.test(preceding)) continue;
+    if (/\b(possivel|eventual|futura?)\b/.test(preceding)) continue;
+
+    // Only flag ABSOLUTE cure claims: "cannabis cura X", "cura a ansiedade"
+    const afterCura = normalized.slice(match.index + match[0].length, match.index + match[0].length + 40);
+    const isCureVerb = /^\s+(a|o|as|os|essa|este|sua|do|da|de)?\s*(ansiedade|depressao|cancer|dor|epilepsia|doenca|enfermidade|mal|problema)/.test(afterCura);
+
+    if (!isCureVerb) continue;
 
     return {
       type: "cure_claim",
@@ -118,21 +134,37 @@ function checkDosageWithoutDisclaimer(text: string): OutputViolation | null {
 function checkPrescription(text: string): OutputViolation | null {
   const normalized = normalize(text);
 
-  const prescriptionPatterns = [
+  // Critical: acting as a doctor (prescribing)
+  const criticalPatterns = [
     /\b(prescrevo|receito|receitando)\b/i,
-    /\bvoce\s+deve\s+tomar\b/i,
-    /\bvoce\s+precisa\s+tomar\b/i,
     /\btome\s+isso\b/i,
     /\bi\s+prescribe\b/i,
   ];
 
-  for (const pattern of prescriptionPatterns) {
+  for (const pattern of criticalPatterns) {
     const match = normalized.match(pattern);
     if (match) {
       return {
         type: "prescription",
         matched: match[0],
         severity: "critical",
+      };
+    }
+  }
+
+  // Warning: directive language (common in recommendations, not truly prescriptive)
+  const warningPatterns = [
+    /\bvoce\s+deve\s+tomar\b/i,
+    /\bvoce\s+precisa\s+tomar\b/i,
+  ];
+
+  for (const pattern of warningPatterns) {
+    const match = normalized.match(pattern);
+    if (match) {
+      return {
+        type: "prescription",
+        matched: match[0],
+        severity: "warning",
       };
     }
   }
