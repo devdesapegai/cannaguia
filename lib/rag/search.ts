@@ -821,21 +821,46 @@ export function search(
 
   const sorted = scored.sort((a, b) => b.score - a.score);
 
-  // For strains: pick from top results with some randomization
-  // so we don't always recommend the same strain
-  const strainResults = sorted.filter((s) => s.document.type === "strain");
-  const otherResults = sorted.filter((s) => s.document.type !== "strain");
+  // Detect if query targets a specific domain (not strain search)
+  const isNonStrainQuery = [
+    "cultivar", "cultivo", "grow", "indoor", "outdoor", "floracao",
+    "interacao", "medicamento", "remedio", "cyp",
+    "extracao", "extrair", "oleo", "rso", "tintura", "manteiga", "rosin", "hash", "caseiro",
+    "sublingual", "oral", "topico", "inalacao", "vaporizar",
+    "endocanabinoide", "cb1", "cb2", "entourage",
+    "autismo", "crohn", "tdah", "enxaqueca", "neuropatia",
+    "praga", "fungo", "mofo", "deficiencia",
+    "breeder", "banco de sementes",
+    "premiacao", "cup", "award",
+    "landrace", "genetica pura",
+    "flavonoide", "cannflavin",
+    "ensaio clinico", "clinical trial",
+    "pesquisa brasileira", "scielo",
+    "tese", "dissertacao",
+    "reducao de danos", "gravidez", "abstinencia",
+    "veterinario", "cachorro", "gato", "pet",
+    "dosagem", "dose", "titulacao", "microdose",
+    "mercado", "industria", "economia",
+    "regulamentacao", "legalizacao",
+    "breeding", "feminizada", "quimiotipo", "autoflower",
+  ].some((k) => normalizedQuery.includes(k));
 
-  if (strainResults.length > 3) {
-    // Shuffle top 10 strains and pick randomly
-    const topStrains = strainResults.slice(0, 10);
-    for (let i = topStrains.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+  // For strain queries: randomize top strains to avoid repetition
+  // For non-strain queries: just return by score (domain docs should dominate)
+  if (!isNonStrainQuery) {
+    const strainResults = sorted.filter((s) => s.document.type === "strain");
+    const otherResults = sorted.filter((s) => s.document.type !== "strain");
+
+    if (strainResults.length > 3) {
+      const topStrains = strainResults.slice(0, 10);
+      for (let i = topStrains.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+      }
+      const selectedStrains = topStrains.slice(0, Math.min(2, topK));
+      const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
+      return [...selectedOther, ...selectedStrains];
     }
-    const selectedStrains = topStrains.slice(0, Math.min(2, topK));
-    const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
-    return [...selectedOther, ...selectedStrains];
   }
 
   return sorted.slice(0, topK);
