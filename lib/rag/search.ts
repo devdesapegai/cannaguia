@@ -1045,10 +1045,24 @@ export function formatContextForLLM(results: ScoredDocument[]): string {
     return "Nenhuma informação relevante encontrada na base de conhecimento.";
   }
 
+  const MAX_CONTENT_CHARS = 800;
+
   return results
-    .map((r, i) => {
+    .map((r) => {
       const doc = r.document;
-      return `---\n${doc.title}\n${doc.content}\n`;
+      const meta = doc.metadata as Record<string, unknown>;
+
+      // Prefer key_points over full content for concise context
+      const keyPoints = meta.key_points as string[] | undefined;
+      if (keyPoints?.length) {
+        return `---\n${doc.title}\n${keyPoints.join(". ")}`;
+      }
+
+      // Truncate long content to reduce prompt tokens
+      const content = doc.content.length > MAX_CONTENT_CHARS
+        ? doc.content.slice(0, MAX_CONTENT_CHARS) + "..."
+        : doc.content;
+      return `---\n${doc.title}\n${content}`;
     })
     .join("\n");
 }

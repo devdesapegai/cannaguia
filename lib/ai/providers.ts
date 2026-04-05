@@ -2,6 +2,12 @@ import { customProvider } from "ai";
 import { google } from "@ai-sdk/google";
 import { openai } from "@ai-sdk/openai";
 import { isTestEnvironment } from "../constants";
+import { chatModels } from "./models";
+
+const PROVIDERS = {
+  google: (id: string) => google(id as Parameters<typeof google>[0]),
+  openai: (id: string) => openai(id as Parameters<typeof openai>[0]),
+} as const;
 
 export const myProvider = isTestEnvironment
   ? (() => {
@@ -19,7 +25,9 @@ export function getLanguageModel(modelId: string) {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel(modelId);
   }
-  return openai("gpt-5.4-mini");
+  const model = chatModels.find((m) => m.id === modelId);
+  const provider = (model?.provider ?? "google") as keyof typeof PROVIDERS;
+  return (PROVIDERS[provider] ?? PROVIDERS.google)(modelId);
 }
 
 export function getTitleModel() {
