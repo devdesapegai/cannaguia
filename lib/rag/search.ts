@@ -1045,7 +1045,23 @@ async function hybridSearch(
     }
   });
 
-  const sorted = Array.from(rrfScores.values()).sort((a, b) => b.score - a.score);
+  // Apply domain-specific penalties BEFORE sorting/slicing (root cause fix)
+  // Without this, vector results (weight 0.6) always outrank keyword results (0.4)
+  // at the same rank position, causing the slice to cut all keyword-only docs
+  const domains = detectQueryDomain(query);
+  const isNonStrainQueryRRF = domains.length > 0;
+
+  const fusedResults = Array.from(rrfScores.values()).map((r) => {
+    if (isNonStrainQueryRRF && r.doc.type === "strain") {
+      return { ...r, score: r.score * 0.1 };
+    }
+    if (isNonStrainQueryRRF && domains.includes(r.doc.type)) {
+      return { ...r, score: r.score * 2 };
+    }
+    return r;
+  });
+
+  const sorted = fusedResults.sort((a, b) => b.score - a.score);
 
   // Rerank top results for better precision
   const reranked = rerankResults(sorted.slice(0, topK * 2), query, topK);
