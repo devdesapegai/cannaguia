@@ -428,7 +428,18 @@ Query reescrita:`,
         chat?.inlineSummaryAt ?? null,
       );
 
-    const modelMessages = await convertToModelMessages(truncatedMessages as any);
+    const rawModelMessages = await convertToModelMessages(truncatedMessages as any);
+
+    // Deduplicate messages by OpenAI itemId to prevent "Duplicate item found" errors
+    const seenItemIds = new Set<string>();
+    const modelMessages = rawModelMessages.filter((msg: any) => {
+      const itemId = msg.providerOptions?.openai?.itemId;
+      if (itemId) {
+        if (seenItemIds.has(itemId)) return false;
+        seenItemIds.add(itemId);
+      }
+      return true;
+    });
 
     const lowConfidenceWarning = lowConfidence
       ? "\n\nATENCAO: A busca retornou resultados de baixa relevancia. Se a informacao no contexto nao parecer util para responder, diga honestamente que nao tem essa informacao na sua base."
@@ -468,7 +479,7 @@ Query reescrita:`,
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools: [],
-          providerOptions: { openai: { previousResponseId, reasoningEffort: "none", textVerbosity: "medium", systemMessageMode: "developer", user: getSafetyIdentifier(session.user.id!, isGuestUser, id) } },
+          providerOptions: { openai: { ...(previousResponseId ? { previousResponseId } : {}), reasoningEffort: "none", textVerbosity: "medium", systemMessageMode: "developer", user: getSafetyIdentifier(session.user.id!, isGuestUser, id) } },
           tools: {},
           onFinish: async (event) => {
             capturedResponseId = (event.providerMetadata?.openai as any)?.responseId ?? null;
