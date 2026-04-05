@@ -192,6 +192,10 @@ export const chatLog = pgTable("ChatLog", {
   outputFlagged: boolean("outputFlagged").notNull().default(false),
   outputViolations: json("outputViolations"),
   actionTaken: varchar("actionTaken", { length: 50 }),
+  ragLatencyMs: integer("ragLatencyMs"),
+  vectorTopScore: real("vectorTopScore"),
+  keywordTopScore: real("keywordTopScore"),
+  vectorError: varchar("vectorError", { length: 200 }),
   createdAt: timestamp("createdAt").notNull().defaultNow(),
 });
 

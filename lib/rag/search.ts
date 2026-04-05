@@ -523,6 +523,10 @@ export interface ScoredDocument {
 export interface SearchResult {
   results: ScoredDocument[];
   searchMode: "hybrid" | "keyword";
+  vectorError?: string;
+  keywordTopScore?: number;
+  vectorTopScore?: number;
+  lowConfidence?: boolean;
 }
 
 export function search(
@@ -844,6 +848,89 @@ async function vectorSearch(
   }));
 }
 
+function detectQueryDomain(query: string): string[] {
+  const q = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const domains: string[] = [];
+  const domainMap: Record<string, string[]> = {
+    cultivation: ["cultivar", "cultivo", "plantar", "grow", "indoor", "outdoor", "colheita", "nutriente", "substrato", "floracao", "vegetativa", "germinacao"],
+    "drug-interaction": ["interacao", "medicamento", "remedio", "cyp", "anticoagulante", "antidepressivo", "opioide", "benzodiazepino"],
+    extraction: ["extracao", "extrair", "rso", "tintura", "manteiga", "rosin", "hash", "concentrado"],
+    administration: ["sublingual", "oral", "topico", "inalacao", "vaporizar", "fumar", "supositorio", "comestivel"],
+    endocannabinoid: ["endocanabinoide", "cb1", "cb2", "anandamida", "2-ag", "faah", "entourage", "receptor"],
+    "condition-expanded": ["autismo", "tea", "crohn", "endometriose", "enxaqueca", "tdah", "ela", "glaucoma", "tourette", "neuropatia"],
+    "pest-disease": ["praga", "doenca", "fungo", "mofo", "acaro", "oideo", "deficiencia", "amarelando"],
+    dosing: ["dosagem", "dose", "titulacao", "microdose", "quanto tomar", "miligramas"],
+    "harm-reduction": ["reducao de danos", "hiperemese", "chs", "gravidez", "abstinencia", "dependencia"],
+    veterinary: ["veterinario", "cachorro", "gato", "pet", "animal"],
+    genetics: ["genetica", "breeding", "feminizada", "quimiotipo", "autoflower", "cruzamento"],
+  };
+  for (const [domain, keywords] of Object.entries(domainMap)) {
+    if (keywords.some((k) => q.includes(k))) {
+      domains.push(domain);
+    }
+  }
+  return domains;
+}
+
+function rerankResults(
+  results: Array<{ doc: Document; score: number }>,
+  query: string,
+  topK: number,
+): ScoredDocument[] {
+  const normalizedQuery = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const queryWords = normalizedQuery.replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter((w) => w.length > 2);
+  const domains = detectQueryDomain(query);
+
+  const reranked = results.map((r) => {
+    let boost = 0;
+    const normalizedTitle = r.doc.title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const normalizedContent = r.doc.content.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Title match boost: query words in title
+    const titleWords = queryWords.filter((w) => normalizedTitle.includes(w));
+    if (titleWords.length > 0) {
+      boost += 0.3 * (titleWords.length / queryWords.length);
+    }
+
+    // Type relevance: doc type matches detected domain
+    if (domains.includes(r.doc.type)) {
+      boost += 0.2;
+    }
+
+    // Content density: ratio of query words found in content
+    if (queryWords.length > 0) {
+      const contentWords = queryWords.filter((w) => normalizedContent.includes(w));
+      boost += 0.1 * (contentWords.length / queryWords.length);
+    }
+
+    return { doc: r.doc, score: r.score + r.score * boost };
+  });
+
+  reranked.sort((a, b) => b.score - a.score);
+
+  // Preserve strain randomization after reranking
+  const strainResults = reranked.filter((s) => s.doc.type === "strain");
+  const otherResults = reranked.filter((s) => s.doc.type !== "strain");
+
+  if (strainResults.length > 3) {
+    const topStrains = strainResults.slice(0, 10);
+    for (let i = topStrains.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+    }
+    const selectedStrains = topStrains.slice(0, Math.min(2, topK));
+    const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
+    return [
+      ...selectedOther.map((r) => ({ document: r.doc, score: r.score })),
+      ...selectedStrains.map((r) => ({ document: r.doc, score: r.score })),
+    ];
+  }
+
+  return reranked.slice(0, topK).map((r) => ({ document: r.doc, score: r.score }));
+}
+
+const LOW_CONFIDENCE_THRESHOLD = 0.008;
+
 async function hybridSearch(
   query: string,
   topK: number = 5,
@@ -853,17 +940,29 @@ async function hybridSearch(
   const keywordWeight = 0.4;
   const vectorWeight = 0.6;
 
+  let vectorError: string | undefined;
   const [keywordResults, vectorResults] = await Promise.all([
     Promise.resolve(search(query, topK * 3, typeFilter)),
     vectorSearch(query, topK * 3, typeFilter).catch((err) => {
-      console.error("[hybridSearch] Vector search failed, keyword-only:", err);
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error("[hybridSearch] Vector search failed, keyword-only:", msg);
+      vectorError = msg;
       return [] as ScoredDocument[];
     }),
   ]);
 
-  // If vector search failed, return keyword-only
+  const keywordTopScore = keywordResults[0]?.score ?? 0;
+  const vectorTopScore = vectorResults[0]?.score ?? 0;
+
+  // If vector search failed, return keyword-only with error info
   if (vectorResults.length === 0) {
-    return { results: search(query, topK, typeFilter), searchMode: "keyword" };
+    const kwResults = search(query, topK, typeFilter);
+    return {
+      results: kwResults,
+      searchMode: "keyword",
+      vectorError,
+      keywordTopScore: kwResults[0]?.score ?? 0,
+    };
   }
 
   // Reciprocal Rank Fusion
@@ -891,47 +990,43 @@ async function hybridSearch(
 
   const sorted = Array.from(rrfScores.values()).sort((a, b) => b.score - a.score);
 
-  // Preserve strain randomization
-  const strainResults = sorted.filter((s) => s.doc.type === "strain");
-  const otherResults = sorted.filter((s) => s.doc.type !== "strain");
-
-  if (strainResults.length > 3) {
-    const topStrains = strainResults.slice(0, 10);
-    for (let i = topStrains.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
-    }
-    const selectedStrains = topStrains.slice(0, Math.min(2, topK));
-    const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
-    return {
-      results: [
-        ...selectedOther.map((r) => ({ document: r.doc, score: r.score })),
-        ...selectedStrains.map((r) => ({ document: r.doc, score: r.score })),
-      ],
-      searchMode: "hybrid",
-    };
-  }
+  // Rerank top results for better precision
+  const reranked = rerankResults(sorted.slice(0, topK * 3), query, topK);
+  const topScore = reranked[0]?.score ?? 0;
+  const lowConfidence = topScore < LOW_CONFIDENCE_THRESHOLD;
 
   return {
-    results: sorted.slice(0, topK).map((r) => ({ document: r.doc, score: r.score })),
+    results: reranked,
     searchMode: "hybrid",
+    keywordTopScore,
+    vectorTopScore,
+    lowConfidence,
   };
 }
 
-// Cache: check if KnowledgeEmbedding table has records (once, then cached)
+// Cache with TTL: retry on failure instead of caching false permanently
 let _hasEmbeddings: boolean | null = null;
+let _hasEmbeddingsCheckedAt = 0;
+const CACHE_TTL_SUCCESS = 5 * 60 * 1000; // 5 min when true
+const CACHE_TTL_FAILURE = 30 * 1000;      // 30s when false (fast retry)
 
 export async function searchAll(
   query: string,
   topK: number = 5,
 ): Promise<SearchResult> {
-  if (_hasEmbeddings === null) {
+  const now = Date.now();
+  const ttl = _hasEmbeddings ? CACHE_TTL_SUCCESS : CACHE_TTL_FAILURE;
+  const cacheExpired = _hasEmbeddings === null || (now - _hasEmbeddingsCheckedAt > ttl);
+
+  if (cacheExpired) {
     try {
       const { hasEmbeddings } = await import("@/lib/db/vector");
       _hasEmbeddings = await hasEmbeddings();
-    } catch {
+    } catch (err) {
+      console.warn("[searchAll] hasEmbeddings check failed:", err);
       _hasEmbeddings = false;
     }
+    _hasEmbeddingsCheckedAt = now;
   }
 
   if (_hasEmbeddings) {

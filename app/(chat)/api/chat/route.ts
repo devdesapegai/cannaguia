@@ -305,15 +305,22 @@ export async function POST(request: Request) {
       name: "rag-search",
       input: { query: userText, topK: 4, skipped: isGreeting },
     });
-    const { results: localResults, searchMode } = isGreeting
-      ? { results: [], searchMode: "keyword" as const }
+    const ragStart = Date.now();
+    const { results: localResults, searchMode, vectorError, keywordTopScore, vectorTopScore, lowConfidence } = isGreeting
+      ? { results: [], searchMode: "keyword" as const, vectorError: undefined, keywordTopScore: undefined, vectorTopScore: undefined, lowConfidence: undefined }
       : await searchAll(userText, 4);
+    const ragLatencyMs = Date.now() - ragStart;
     ragSpan.end({
       output: {
         resultCount: localResults.length,
         topScore: localResults[0]?.score ?? 0,
         searchMode,
         titles: localResults.map((r) => r.document.title),
+        ragLatencyMs,
+        keywordTopScore,
+        vectorTopScore,
+        vectorError,
+        lowConfidence,
       },
     });
     const localContext = formatContextForLLM(localResults);
@@ -336,11 +343,15 @@ export async function POST(request: Request) {
       }
     }
 
+    const lowConfidenceWarning = lowConfidence
+      ? "\n\nATENCAO: A busca retornou resultados de baixa relevancia. Se a informacao no contexto nao parecer util para responder, diga honestamente que nao tem essa informacao na sua base."
+      : "";
     const fullSystemPrompt =
       SYSTEM_PROMPT +
       "\n\nBase de conhecimento relevante:\n" +
       localContext +
-      memoryContext;
+      memoryContext +
+      lowConfidenceWarning;
 
     const stream = createUIMessageStream({
       originalMessages: isToolApprovalFlow ? uiMessages : undefined,
@@ -497,6 +508,10 @@ export async function POST(request: Request) {
             outputFlagged,
             outputViolations: outputViolations.length > 0 ? outputViolations : undefined,
             actionTaken: outputAction,
+            ragLatencyMs,
+            vectorTopScore,
+            keywordTopScore,
+            vectorError,
           });
           await langfuse.flushAsync();
         });

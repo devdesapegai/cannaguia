@@ -22,25 +22,29 @@ export async function findSimilarDocuments(
 > {
   const vectorStr = `[${embedding.join(",")}]`;
 
-  if (typeFilter) {
-    const results = await db.execute(sql`
+  // Use transaction with SET LOCAL ef_search for better recall (works with PgBouncer)
+  const results = await db.transaction(async (tx) => {
+    await tx.execute(sql`SET LOCAL hnsw.ef_search = 100`);
+
+    if (typeFilter) {
+      return tx.execute(sql`
+        SELECT "id", "type", "title", "content",
+               1 - ("embedding" <=> ${vectorStr}::vector) as similarity
+        FROM "KnowledgeEmbedding"
+        WHERE "type" = ${typeFilter}
+        ORDER BY "embedding" <=> ${vectorStr}::vector
+        LIMIT ${topK}
+      `);
+    }
+
+    return tx.execute(sql`
       SELECT "id", "type", "title", "content",
              1 - ("embedding" <=> ${vectorStr}::vector) as similarity
       FROM "KnowledgeEmbedding"
-      WHERE "type" = ${typeFilter}
       ORDER BY "embedding" <=> ${vectorStr}::vector
       LIMIT ${topK}
     `);
-    return results as any;
-  }
-
-  const results = await db.execute(sql`
-    SELECT "id", "type", "title", "content",
-           1 - ("embedding" <=> ${vectorStr}::vector) as similarity
-    FROM "KnowledgeEmbedding"
-    ORDER BY "embedding" <=> ${vectorStr}::vector
-    LIMIT ${topK}
-  `);
+  });
   return results as any;
 }
 
@@ -51,7 +55,8 @@ export async function hasEmbeddings(): Promise<boolean> {
       sql`SELECT EXISTS(SELECT 1 FROM "KnowledgeEmbedding" LIMIT 1) as has_rows`,
     );
     return (result as any)?.[0]?.has_rows === true;
-  } catch {
+  } catch (err) {
+    console.warn("[hasEmbeddings] Check failed:", err);
     return false;
   }
 }

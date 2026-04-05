@@ -22,6 +22,10 @@ export interface ChatLogEntry {
   outputFlagged?: boolean;
   outputViolations?: { type: string; matched: string; severity: string }[];
   actionTaken?: string;
+  ragLatencyMs?: number;
+  vectorTopScore?: number;
+  keywordTopScore?: number;
+  vectorError?: string;
 }
 
 /** Fire-and-forget insert. Never throws. */
@@ -42,6 +46,10 @@ export async function insertChatLog(entry: ChatLogEntry): Promise<void> {
       outputFlagged: entry.outputFlagged ?? false,
       outputViolations: entry.outputViolations ?? null,
       actionTaken: entry.actionTaken ?? null,
+      ragLatencyMs: entry.ragLatencyMs ?? null,
+      vectorTopScore: entry.vectorTopScore ?? null,
+      keywordTopScore: entry.keywordTopScore ?? null,
+      vectorError: entry.vectorError?.slice(0, 200) ?? null,
     });
   } catch (error) {
     console.error("[ChatLog] Failed to insert:", error);
