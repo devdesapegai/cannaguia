@@ -646,7 +646,12 @@ export function search(
     const extractionKeywords = ["extracao", "extrair", "oleo", "rso", "tintura", "manteiga", "cannabutter", "rosin", "hash", "bubble", "ice hash", "concentrado", "prensa", "solvente", "alcool", "descarboxilar", "descarboxilacao", "fazer em casa", "caseiro", "caseira", "receita", "preparar", "preparo"];
     const queryExtraction = extractionKeywords.some((k) => normalizedQuery.includes(k));
     if (queryExtraction && doc.type === "extraction") {
-      score *= 3;
+      score = Math.max(score * 5, 100);
+    }
+
+    // Penalize strains for extraction queries (strains shouldnt dominate)
+    if (queryExtraction && doc.type === "strain") {
+      score = Math.floor(score * 0.1);
     }
 
     // Boost administration docs
@@ -807,7 +812,7 @@ export function search(
     const allExtractionDocs = docs.filter((d) => d.type === "extraction");
     for (const doc of allExtractionDocs) {
       if (!scored.find((s) => s.document.id === doc.id)) {
-        scored.push({ document: doc, score: 1 });
+        scored.push({ document: doc, score: 50 });
       }
     }
   }
