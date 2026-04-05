@@ -9,7 +9,7 @@ import { chat, message } from "./schema";
 const client = postgres(process.env.POSTGRES_URL ?? "");
 const db = drizzle(client);
 
-const BATCH_SIZE = 20;
+const BATCH_SIZE = 200;
 const COOLDOWNS_MS = [
   0,            // batch 1: immediate
   4 * 3600000,  // batch 2: 4h after batch 1 exhausted
