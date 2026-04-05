@@ -632,14 +632,14 @@ export function search(
     const growKeywords = ["cultivar", "cultivo", "plantar", "plantio", "grow", "indoor", "outdoor", "colheita", "secagem", "cura", "nutriente", "substrato", "vaso", "poda", "rega", "regar", "iluminacao", "luz", "led", "hps", "floracao", "vegetativa", "germinacao", "semente"];
     const queryCultivation = growKeywords.some((k) => normalizedQuery.includes(k));
     if (queryCultivation && doc.type === "cultivation") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost drug-interaction docs when query is about drug interactions
     const interactionKeywords = ["interacao", "medicamento", "remedio", "droga", "cyp", "enzima", "anticoagulante", "varfarina", "antidepressivo", "benzodiazepínico", "benzodiazepino", "opioide", "anticonvulsivante", "estatina", "imunossupressor", "quimioterapico", "isrs", "ssri", "fluoxetina", "sertralina", "clonazepam", "diazepam", "tramadol", "codeina", "morfina", "carbamazepina", "valproato", "fenitoina", "clobazam", "losartana", "amlodipino", "enalapril", "tacrolimus", "ciclosporina", "atorvastatina", "sinvastatina", "combinar", "tomar junto", "misturar"];
     const queryInteraction = interactionKeywords.some((k) => normalizedQuery.includes(k));
     if (queryInteraction && doc.type === "drug-interaction") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost extraction docs
@@ -649,16 +649,12 @@ export function search(
       score = Math.max(score * 5, 100);
     }
 
-    // Penalize strains for extraction queries (strains shouldnt dominate)
-    if (queryExtraction && doc.type === "strain") {
-      score = Math.floor(score * 0.1);
-    }
 
     // Boost administration docs
     const adminKeywords = ["sublingual", "oral", "topico", "inalacao", "vaporizar", "vaporizacao", "fumar", "supositorio", "capsulas", "comestivel", "edible", "creme", "balsamo", "patch", "transdermico", "biodisponibilidade", "onset", "via de administracao", "como usar", "como tomar"];
     const queryAdmin = adminKeywords.some((k) => normalizedQuery.includes(k));
     if (queryAdmin && doc.type === "administration") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost endocannabinoid system docs
@@ -686,14 +682,14 @@ export function search(
     const breederKeywords = ["breeder", "banco de sementes", "seedbank", "seed bank", "criador", "produtor de sementes"];
     const queryBreeder = breederKeywords.some((k) => normalizedQuery.includes(k));
     if (queryBreeder && doc.type === "breeder") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost award docs
     const awardKeywords = ["premiacao", "premio", "cup", "copa", "vencedor", "campeao", "melhor strain", "award", "highlife", "emerald", "cannabis cup"];
     const queryAward = awardKeywords.some((k) => normalizedQuery.includes(k));
     if (queryAward && doc.type === "award") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost landrace docs
@@ -714,21 +710,21 @@ export function search(
     const trialKeywords = ["ensaio clinico", "clinical trial", "fase 1", "fase 2", "fase 3", "nct", "randomizado", "placebo", "duplo cego", "trial"];
     const queryTrial = trialKeywords.some((k) => normalizedQuery.includes(k));
     if (queryTrial && doc.type === "clinical-trial") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost brazilian research docs
     const brResearchKeywords = ["pesquisa brasileira", "scielo", "pesquisa brasil", "estudo brasileiro"];
     const queryBrResearch = brResearchKeywords.some((k) => normalizedQuery.includes(k));
     if (queryBrResearch && doc.type === "brazilian-research") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost brazilian thesis docs
     const brThesisKeywords = ["tese", "dissertacao", "mestrado", "doutorado", "universidade", "defesa"];
     const queryBrThesis = brThesisKeywords.some((k) => normalizedQuery.includes(k));
     if (queryBrThesis && doc.type === "brazilian-thesis") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost harm-reduction related content (medical-research, clinical-trial docs)
@@ -749,28 +745,34 @@ export function search(
     const dosingKeywords = ["dosagem", "dose", "titulacao", "posologia", "microdose", "comestivel", "edible", "inicio", "onset", "duracao", "quanto tomar", "quanto usar", "miligramas"];
     const queryDosing = dosingKeywords.some((k) => normalizedQuery.includes(k));
     if (queryDosing && doc.type === "dosing") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost market docs
     const marketKeywords = ["mercado", "preco", "emprego", "industria", "receita", "imposto", "cannabis business", "economia", "investimento", "startup"];
     const queryMarket = marketKeywords.some((k) => normalizedQuery.includes(k));
     if (queryMarket && doc.type === "market") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost regulation-global docs
     const regGlobalKeywords = ["regulamentacao internacional", "pais", "prescricao", "alemanha", "canada", "australia", "uruguai", "tailandia", "legislacao internacional", "legalizacao"];
     const queryRegGlobal = regGlobalKeywords.some((k) => normalizedQuery.includes(k));
     if (queryRegGlobal && doc.type === "regulation-global") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
     }
 
     // Boost genetics docs
     const geneticsKeywords = ["genetica", "breeding", "feminizada", "quimiotipo", "gwas", "hlvd", "autoflower", "ruderalis", "polinizacao", "cruzamento", "hibrido", "f1", "estabilizar"];
     const queryGenetics = geneticsKeywords.some((k) => normalizedQuery.includes(k));
     if (queryGenetics && doc.type === "genetics") {
-      score *= 3;
+      score = Math.max(score * 5, 50);
+    }
+
+    // Penalize strains when query is clearly about a specific domain (not strain search)
+    const isNonStrainQuery = queryCultivation || queryInteraction || queryExtraction || queryAdmin || queryEcs || queryCondExpanded || queryPest || queryBreeder || queryAward || queryLandrace || queryFlavonoid || queryTrial || queryBrResearch || queryBrThesis || queryHarmReduction || queryVet || queryDosing || queryMarket || queryRegGlobal || queryGenetics;
+    if (isNonStrainQuery && doc.type === "strain") {
+      score = Math.floor(score * 0.1);
     }
 
     // Boost strains with high THC for potency queries
