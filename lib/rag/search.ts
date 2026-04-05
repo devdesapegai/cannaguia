@@ -928,6 +928,8 @@ function rerankResults(
   const queryWords = normalizedQuery.replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter((w) => w.length > 2);
   const domains = detectQueryDomain(query);
 
+  const isNonStrainQuery = domains.length > 0;
+
   const reranked = results.map((r) => {
     let boost = 0;
     const normalizedTitle = r.doc._normalizedTitle ?? normalize(r.doc.title);
@@ -950,27 +952,36 @@ function rerankResults(
       boost += 0.1 * (contentWords.length / queryWords.length);
     }
 
-    return { doc: r.doc, score: r.score + r.score * boost };
+    let finalScore = r.score + r.score * boost;
+
+    // Penalize strains when query targets a specific domain
+    if (isNonStrainQuery && r.doc.type === "strain") {
+      finalScore *= 0.1;
+    }
+
+    return { doc: r.doc, score: finalScore };
   });
 
   reranked.sort((a, b) => b.score - a.score);
 
-  // Preserve strain randomization after reranking
-  const strainResults = reranked.filter((s) => s.doc.type === "strain");
-  const otherResults = reranked.filter((s) => s.doc.type !== "strain");
+  // Only randomize strains for strain-focused queries
+  if (!isNonStrainQuery) {
+    const strainResults = reranked.filter((s) => s.doc.type === "strain");
+    const otherResults = reranked.filter((s) => s.doc.type !== "strain");
 
-  if (strainResults.length > 3) {
-    const topStrains = strainResults.slice(0, 10);
-    for (let i = topStrains.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+    if (strainResults.length > 3) {
+      const topStrains = strainResults.slice(0, 10);
+      for (let i = topStrains.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [topStrains[i], topStrains[j]] = [topStrains[j], topStrains[i]];
+      }
+      const selectedStrains = topStrains.slice(0, Math.min(2, topK));
+      const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
+      return [
+        ...selectedOther.map((r) => ({ document: r.doc, score: r.score })),
+        ...selectedStrains.map((r) => ({ document: r.doc, score: r.score })),
+      ];
     }
-    const selectedStrains = topStrains.slice(0, Math.min(2, topK));
-    const selectedOther = otherResults.slice(0, topK - selectedStrains.length);
-    return [
-      ...selectedOther.map((r) => ({ document: r.doc, score: r.score })),
-      ...selectedStrains.map((r) => ({ document: r.doc, score: r.score })),
-    ];
   }
 
   return reranked.slice(0, topK).map((r) => ({ document: r.doc, score: r.score }));
