@@ -474,12 +474,12 @@ Query reescrita:`,
         const result = streamText({
           model: getLanguageModel(chatModel),
           system: fullSystemPrompt,
-          maxOutputTokens: 1500,
-          temperature: 0.7,
+          maxOutputTokens: 900,
+          temperature: 0.5,
           messages: modelMessages,
           stopWhen: stepCountIs(5),
           experimental_activeTools: [],
-          providerOptions: { openai: { ...(previousResponseId ? { previousResponseId } : {}), reasoningEffort: "none", textVerbosity: "medium", systemMessageMode: "developer", user: getSafetyIdentifier(session.user.id!, isGuestUser, id) } },
+          providerOptions: { openai: { reasoningEffort: "none", textVerbosity: "medium", systemMessageMode: "developer", user: getSafetyIdentifier(session.user.id!, isGuestUser, id) } },
           tools: {},
           onFinish: async (event) => {
             capturedResponseId = (event.providerMetadata?.openai as any)?.responseId ?? null;
