@@ -19,7 +19,7 @@ export function getLanguageModel(modelId: string) {
   if (isTestEnvironment && myProvider) {
     return myProvider.languageModel(modelId);
   }
-  return google("gemini-2.5-flash");
+  return openai("gpt-5.4");
 }
 
 export function getTitleModel() {
