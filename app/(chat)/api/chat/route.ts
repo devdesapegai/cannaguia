@@ -32,6 +32,7 @@ import {
   saveChat,
   saveMessages,
   updateChatSummary,
+  updateInlineSummary,
   updateChatTitleById,
   updateMessage,
   getRecentChatSummaries,
@@ -48,6 +49,7 @@ import { type PostRequestBody, postRequestBodySchema } from "./schema";
 import { searchAll, formatContextForLLM } from "@/lib/rag/search";
 import { SYSTEM_PROMPT } from "@/lib/ai/cannaguia-prompt";
 import { summarizeChat } from "@/lib/ai/summarize";
+import { truncateConversation } from "@/lib/ai/truncate";
 import { insertChatLog } from "@/lib/db/chat-log";
 import {
   checkInputGuardrails,
@@ -235,7 +237,7 @@ export async function POST(request: Request) {
     const isReasoningModel = capabilities?.reasoning === true;
     const supportsTools = capabilities?.tools === true;
 
-    const modelMessages = await convertToModelMessages(uiMessages);
+
 
     // Build system prompt before streaming
     const userText = uiMessages
@@ -383,14 +385,28 @@ Query reescrita:`,
       }
     }
 
+    // Truncar historico longo com resumo cacheado
+    const { messages: truncatedMessages, inlineSummary, inlineSummaryAt, summaryUpdated } =
+      await truncateConversation(
+        uiMessages,
+        chat?.inlineSummary ?? null,
+        chat?.inlineSummaryAt ?? null,
+      );
+
+    const modelMessages = await convertToModelMessages(truncatedMessages as any);
+
     const lowConfidenceWarning = lowConfidence
       ? "\n\nATENCAO: A busca retornou resultados de baixa relevancia. Se a informacao no contexto nao parecer util para responder, diga honestamente que nao tem essa informacao na sua base."
+      : "";
+    const conversationContext = inlineSummary
+      ? `\n\nResumo da conversa atual (mensagens anteriores):\n${inlineSummary}`
       : "";
     const fullSystemPrompt =
       SYSTEM_PROMPT +
       "\n\nBase de conhecimento relevante:\n" +
       localContext +
       memoryContext +
+      conversationContext +
       lowConfidenceWarning;
 
     const stream = createUIMessageStream({
@@ -502,13 +518,20 @@ Query reescrita:`,
           });
         }
 
-        // Auto-summarize every 6 user messages
-        const totalUserMessages = [...uiMessages, ...finishedMessages].filter(
-          (m) => m.role === "user",
-        ).length;
+        // Salvar resumo inline atualizado no banco
+        if (summaryUpdated && inlineSummary && inlineSummaryAt) {
+          updateInlineSummary({
+            chatId: id,
+            inlineSummary,
+            inlineSummaryAt,
+          }).catch(() => {});
+        }
+
+        // Auto-summarize every 6 user messages (cross-chat memory)
+        const totalUserMessages = messagesFromDb.filter(m => m.role === "user").length + 1;
         if (totalUserMessages > 0 && totalUserMessages % 6 === 0) {
-          const allMessages = [...uiMessages, ...finishedMessages];
-          summarizeChat(allMessages as any)
+          const allDbMessages = [...convertToUIMessages(messagesFromDb), message as any, ...finishedMessages];
+          summarizeChat(allDbMessages as any)
             .then((summary) => {
               updateChatSummary({ chatId: id, summary });
             })

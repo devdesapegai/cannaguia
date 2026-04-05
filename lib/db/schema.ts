@@ -61,6 +61,8 @@ export const chat = pgTable("Chat", {
     .notNull()
     .default("private"),
   summary: text("summary"),
+  inlineSummary: text("inlineSummary"),
+  inlineSummaryAt: integer("inlineSummaryAt"),
 });
 
 export type Chat = InferSelectModel<typeof chat>;

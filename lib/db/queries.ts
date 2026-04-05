@@ -741,3 +741,22 @@ export async function searchChatsByTitle({
     );
   }
 }
+
+export async function updateInlineSummary({
+  chatId,
+  inlineSummary,
+  inlineSummaryAt,
+}: {
+  chatId: string;
+  inlineSummary: string;
+  inlineSummaryAt: number;
+}) {
+  try {
+    return await db
+      .update(chat)
+      .set({ inlineSummary, inlineSummaryAt })
+      .where(eq(chat.id, chatId));
+  } catch (_error) {
+    console.error("Failed to update inline summary:", _error);
+  }
+}
