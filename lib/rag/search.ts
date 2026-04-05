@@ -33,6 +33,9 @@ import dosing from "@/lib/knowledge/dosing.json";
 import harmReduction from "@/lib/knowledge/harm-reduction.json";
 import market from "@/lib/knowledge/market.json";
 import regulationGlobal from "@/lib/knowledge/regulation-global.json";
+
+import { embedText } from "@/lib/ai/embeddings";
+import { findSimilarDocuments, hasEmbeddings as checkHasEmbeddings } from "@/lib/db/vector";
 import veterinaryDocs from "@/lib/knowledge/veterinary.json";
 import genetics from "@/lib/knowledge/genetics.json";
 import openalexResearch from "@/lib/knowledge/openalex-research.json";
@@ -829,11 +832,13 @@ async function vectorSearch(
   topK: number = 10,
   typeFilter?: Document["type"],
 ): Promise<ScoredDocument[]> {
-  const { embedText } = await import("@/lib/ai/embeddings");
-  const { findSimilarDocuments } = await import("@/lib/db/vector");
-
+  console.time("[rag] embedText");
   const embedding = await embedText(query);
+  console.timeEnd("[rag] embedText");
+
+  console.time("[rag] findSimilarDocs");
   const rows = await findSimilarDocuments(embedding, topK, typeFilter);
+  console.timeEnd("[rag] findSimilarDocs");
 
   const docsMap = new Map(getDocs().map((d) => [d.id, d]));
   return rows.map((row) => ({
@@ -1020,8 +1025,7 @@ export async function searchAll(
 
   if (cacheExpired) {
     try {
-      const { hasEmbeddings } = await import("@/lib/db/vector");
-      _hasEmbeddings = await hasEmbeddings();
+      _hasEmbeddings = await checkHasEmbeddings();
     } catch (err) {
       console.warn("[searchAll] hasEmbeddings check failed:", err);
       _hasEmbeddings = false;

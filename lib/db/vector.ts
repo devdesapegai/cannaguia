@@ -4,7 +4,7 @@ import { sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 
-const client = postgres(process.env.POSTGRES_URL ?? "", { max: 3 });
+const client = postgres(process.env.POSTGRES_URL ?? "", { max: 5 });
 const db = drizzle(client);
 
 export async function findSimilarDocuments(
