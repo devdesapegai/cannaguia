@@ -1,4 +1,4 @@
-export const DEFAULT_CHAT_MODEL = "gpt-5.4-mini";
+export const DEFAULT_CHAT_MODEL = "gpt-5.4-nano";
 
 export const titleModel = {
   id: "gemini-2.5-flash",
@@ -24,10 +24,10 @@ export type ChatModel = {
 
 export const chatModels: ChatModel[] = [
   {
-    id: "gpt-5.4-mini",
+    id: "gpt-5.4-nano",
     name: "CannaGuia",
     provider: "openai",
-    description: "GPT-5.4 Mini via Responses API",
+    description: "GPT-5.4 Nano via Responses API",
     reasoningEffort: "none",
   },
 ];
