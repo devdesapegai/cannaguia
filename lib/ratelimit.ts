@@ -3,7 +3,8 @@ import { createClient } from "redis";
 import { isProductionEnvironment } from "@/lib/constants";
 import { ChatbotError } from "@/lib/errors";
 
-const MAX_MESSAGES = 100;
+const MAX_MESSAGES_FREE = 100;
+const MAX_MESSAGES_PREMIUM = 500;
 const TTL_SECONDS = 60 * 60;
 
 let client: ReturnType<typeof createClient> | null = null;
@@ -19,7 +20,7 @@ function getClient() {
   return client;
 }
 
-export async function checkIpRateLimit(ip: string | undefined) {
+export async function checkIpRateLimit(ip: string | undefined, plan?: "free" | "premium") {
   if (!isProductionEnvironment || !ip) {
     return;
   }
@@ -37,7 +38,8 @@ export async function checkIpRateLimit(ip: string | undefined) {
       .expire(key, TTL_SECONDS, "NX")
       .exec();
 
-    if (typeof count === "number" && count > MAX_MESSAGES) {
+    const maxMessages = plan === "premium" ? MAX_MESSAGES_PREMIUM : MAX_MESSAGES_FREE;
+    if (typeof count === "number" && count > maxMessages) {
       throw new ChatbotError("rate_limit:chat");
     }
   } catch (error) {

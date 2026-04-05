@@ -104,7 +104,7 @@ export async function POST(request: Request) {
       ? selectedChatModel
       : DEFAULT_CHAT_MODEL;
 
-    await checkIpRateLimit(ipAddress(request));
+    await checkIpRateLimit(ipAddress(request), session.user.plan);
 
     const userType: UserType = session.user.type;
     const isGuestUser = userType === "guest" || (session.user.email ?? "").startsWith("guest-");
