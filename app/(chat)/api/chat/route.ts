@@ -5,6 +5,7 @@ import {
   createUIMessageStreamResponse,
   generateId,
   stepCountIs,
+  generateText,
   streamText,
 } from "ai";
 import { checkBotId } from "botid/server";
@@ -20,7 +21,7 @@ import {
   getCapabilities,
 } from "@/lib/ai/models";
 import { type RequestHints, systemPrompt } from "@/lib/ai/prompts";
-import { getLanguageModel } from "@/lib/ai/providers";
+import { getLanguageModel, getTitleModel } from "@/lib/ai/providers";
 import { isProductionEnvironment } from "@/lib/constants";
 import {
   createStreamId,
@@ -301,14 +302,53 @@ export async function POST(request: Request) {
     const greetingPattern = /^(oi|ola|ol[aá]|eai|e ai|bom dia|boa tarde|boa noite|hey|hello|fala|salve|tudo bem|como vai|obrigad[oa]|valeu|brigad[oa]|flw|vlw|tchau|ate mais)[!?.,s]*$/i;
     const isGreeting = greetingPattern.test(userText.trim());
 
+    // Build RAG query with conversation context
+    const recentUserTexts = uiMessages
+      .filter((m: any) => m.role === "user")
+      .map((m: any) =>
+        m.parts
+          ?.filter((p: any) => p.type === "text")
+          .map((p: any) => p.text)
+          .join(" ") ?? "",
+      )
+      .slice(-3);
+
+    // Query rewriting for short/ambiguous queries (< 5 words)
+    const wordCount = userText.trim().split(/\s+/).length;
+    const isAmbiguous = wordCount < 5 && recentUserTexts.length > 1;
+    let ragQuery = userText;
+
+    if (!isGreeting && isAmbiguous) {
+      try {
+        const contextForRewrite = recentUserTexts.slice(-3).join(" | ");
+        const { text: rewritten } = await generateText({
+          model: getTitleModel(),
+          maxOutputTokens: 80,
+          temperature: 0,
+          prompt: `Reescreva esta query de busca adicionando contexto da conversa. Retorne APENAS a query reescrita, sem explicacao.
+
+Conversa recente: ${contextForRewrite}
+Query atual: ${userText}
+Query reescrita:`,
+        });
+        if (rewritten.trim()) ragQuery = rewritten.trim();
+      } catch (_) {
+        // fallback: concatenate recent messages
+        ragQuery = recentUserTexts.slice(-2).join(" ") + " " + userText;
+      }
+    } else if (recentUserTexts.length > 1) {
+      // Long query but still add context from history for better keyword hits
+      ragQuery = recentUserTexts.slice(-2).join(" ") + " " + userText;
+    }
+
     const ragSpan = lfTrace.span({
       name: "rag-search",
-      input: { query: userText, topK: 4, skipped: isGreeting },
+      input: { query: ragQuery, originalQuery: userText, rewritten: ragQuery !== userText, topK: 4, skipped: isGreeting },
     });
     const ragStart = Date.now();
     const { results: localResults, searchMode, vectorError, keywordTopScore, vectorTopScore, lowConfidence } = isGreeting
       ? { results: [], searchMode: "keyword" as const, vectorError: undefined, keywordTopScore: undefined, vectorTopScore: undefined, lowConfidence: undefined }
-      : await searchAll(userText, 4);
+      : await searchAll(ragQuery, 4);
     const ragLatencyMs = Date.now() - ragStart;
     ragSpan.end({
       output: {
