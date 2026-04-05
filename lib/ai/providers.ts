@@ -6,7 +6,7 @@ import { chatModels } from "./models";
 
 const PROVIDERS = {
   google: (id: string) => google(id as Parameters<typeof google>[0]),
-  openai: (id: string) => openai(id as Parameters<typeof openai>[0]),
+  openai: (id: string) => openai.responses(id as Parameters<typeof openai.responses>[0]),
 } as const;
 
 export const myProvider = isTestEnvironment
@@ -26,8 +26,8 @@ export function getLanguageModel(modelId: string) {
     return myProvider.languageModel(modelId);
   }
   const model = chatModels.find((m) => m.id === modelId);
-  const provider = (model?.provider ?? "google") as keyof typeof PROVIDERS;
-  return (PROVIDERS[provider] ?? PROVIDERS.google)(modelId);
+  const provider = (model?.provider ?? "openai") as keyof typeof PROVIDERS;
+  return (PROVIDERS[provider] ?? PROVIDERS.openai)(modelId);
 }
 
 export function getTitleModel() {

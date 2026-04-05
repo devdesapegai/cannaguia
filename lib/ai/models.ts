@@ -1,4 +1,4 @@
-export const DEFAULT_CHAT_MODEL = "gemini-2.5-flash";
+export const DEFAULT_CHAT_MODEL = "gpt-5.4-mini";
 
 export const titleModel = {
   id: "gemini-2.5-flash",
@@ -19,15 +19,16 @@ export type ChatModel = {
   provider: string;
   description: string;
   gatewayOrder?: string[];
-  reasoningEffort?: "none" | "minimal" | "low" | "medium" | "high";
+  reasoningEffort?: "none" | "minimal" | "low" | "medium" | "high" | "xhigh";
 };
 
 export const chatModels: ChatModel[] = [
   {
-    id: "gemini-2.5-flash",
+    id: "gpt-5.4-mini",
     name: "CannaGuia",
-    provider: "google",
-    description: "Modelo rapido e capaz",
+    provider: "openai",
+    description: "GPT-5.4 Mini via Responses API",
+    reasoningEffort: "none",
   },
 ];
 
@@ -43,7 +44,7 @@ export async function getCapabilities(): Promise<Record<string, ModelCapabilitie
   return Object.fromEntries(
     chatModels.map((m) => [
       m.id,
-      { tools: true, vision: true, reasoning: false },
+      { tools: true, vision: true, reasoning: true },
     ])
   );
 }
