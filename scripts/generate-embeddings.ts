@@ -86,13 +86,34 @@ async function main() {
 
     console.log("Embedding batch " + batchNum + "/" + totalBatches + " (" + batch.length + " docs)...");
 
-    const { embeddings } = await embedMany({
-      model: google.embedding(EMBEDDING_MODEL),
-      values: texts,
-      providerOptions: {
-        google: { outputDimensionality: 768 },
-      },
-    });
+    let embeddings: number[][];
+    let retries = 0;
+    const MAX_RETRIES = 5;
+    while (true) {
+      try {
+        const result = await embedMany({
+          model: google.embedding(EMBEDDING_MODEL),
+          values: texts,
+          providerOptions: {
+            google: { outputDimensionality: 768 },
+          },
+        });
+        embeddings = result.embeddings;
+        break;
+      } catch (err: any) {
+        retries++;
+        if (retries >= MAX_RETRIES) {
+          console.error("Failed after " + MAX_RETRIES + " retries, skipping batch " + batchNum);
+          embeddings = [];
+          break;
+        }
+        const delay = Math.min(2000 * Math.pow(2, retries), 30000);
+        console.warn("Batch " + batchNum + " failed (" + (err.code || err.message) + "), retry " + retries + "/" + MAX_RETRIES + " in " + (delay/1000) + "s...");
+        await new Promise((r) => setTimeout(r, delay));
+      }
+    }
+
+    if (embeddings.length === 0) continue;
 
     for (let j = 0; j < batch.length; j++) {
       const doc = batch[j];
